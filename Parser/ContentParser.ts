@@ -20,14 +20,12 @@ export class ContentParser {
 
     parsePages(): Page[] {
         let pages: Page[] = [];
-        pages.push(this.parsePage());
+        // pages.push(this.parsePage());
         return pages;
     }
 
-    
-
     parseContentJSONFile(): any {
-        let contentJSON = 
+        // let contentJSON = 
     }
 
 }
