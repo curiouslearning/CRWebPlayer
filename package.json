@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "ts-loader": "^9.4.1"
+  },
+  "devDependencies": {
+    "@splidejs/splide": "^4.1.4"
   }
 }
