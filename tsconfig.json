@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "esModuleInterop": true,
+    "target": "es2016",
+		"lib": ["es7", "dom"],
+    "moduleResolution": "node",
+		"outDir": "dist",
+		"sourceMap": true,
+    "strict": false,
+		"removeComments": true
+  },
+  "include": ["Models", "Parser", "PlayBackEngine",],
+  "exclude": ["node_modules"],
+	"lib": ["es7", "dom"]
+}
