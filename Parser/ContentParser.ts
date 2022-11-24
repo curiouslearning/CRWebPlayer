@@ -1,8 +1,4 @@
-import { Book } from "../Models/Book";
-import { Page } from "../Models/Page";
-import { TextElement } from "../Models/TextElement";
-import { ImageElement } from "../Models/ImageElement";
-import { AudioElement } from "../Models/AudioElement";
+import { Book, Page, TextElement, ImageElement, AudioElement } from "../Models/Models";
 
 export class ContentParser {
 
@@ -33,7 +29,5 @@ export class ContentParser {
     parseContentJSONFile(): any {
         let contentJSON = 
     }
-
-
 
 }
