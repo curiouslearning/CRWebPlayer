@@ -1,0 +1,2466 @@
+{
+    "presentation": {
+        "slides": [{
+            "elements": [{
+                "x": 30.09259259259259,
+                "y": 83.10502283105023,
+                "width": 39.998692810458,
+                "height": 14.050381508562,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\"><strong>Let's fly!<\/strong><\/span><\/p>\n"
+                    },
+                    "subContentId": "3fc48221-8afd-4155-9ac3-80b76a4b65ca",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 13.874421296296296,
+                "y": 11.381278538812786,
+                "width": 69.44444444444444,
+                "height": 67.12328767123287,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fbce652e3.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 490
+                        }
+                    },
+                    "subContentId": "014d8b2f-4a8a-4461-926a-e3a541177038",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#fbfef0"
+            }
+        }, {
+            "elements": [{
+                "x": 23.148148148148145,
+                "y": 82.19178082191782,
+                "width": 55.555555555556,
+                "height": 14.050381508562,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Birds fly. Parrots fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "f2dd5138-ec02-472f-b010-e9e7f0b5fa8c",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 30.555555555556,
+                "y": 10.974037256856,
+                "width": 39.998692810458,
+                "height": 65.692847951732,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fb7e5066d.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "6873f686-0977-4dc0-920b-8b07ecbfb48c",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 1,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Birds ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.7174",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b103a2a463e.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "0.7174",
+                            "endDuration": "1.5246",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b103b691c9d.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " Parrots ",
+                            "startDuration": "1.5246",
+                            "endDuration": "2.4955",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b103e487fbb.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "2.4955",
+                            "endDuration": "3.1996",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b104025a6f1.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b10386d395f.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "139f415a-bf38-449e-b803-e40b2b40b176",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 33.950617283951,
+                "y": 9.1402756312358,
+                "width": 14.506172839506,
+                "height": 28.644919782836,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "3e1ce529-d7a2-4078-b7ac-16fd5c3b7893",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img139f415a-bf38-449e-b803-e40b2b40b176_0"
+            }, {
+                "x": 49.382716049383,
+                "y": 11.583705993349,
+                "width": 19.135802469136,
+                "height": 40.000060966874,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "d15ae22f-b373-46a1-88e7-c3bd5ec6a63a",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img139f415a-bf38-449e-b803-e40b2b40b176_2"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 30.09259259259259,
+                "y": 84.47488584474885,
+                "width": 39.998692810458,
+                "height": 11.89861297,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Horse can not fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "9ed4e26c-d65e-4e9e-9d8d-2e0decf0c234",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 30.501089324619,
+                "y": 10.113312131241,
+                "width": 39.998692810458,
+                "height": 69.996385028855,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fc3ae2444.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "0afc1026-ca31-4b44-93f7-53271c06508c",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 2,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Horse ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.6850",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b104e28a1e3.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " can ",
+                            "startDuration": "0.6850",
+                            "endDuration": "1.0608",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b104fb4007b.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " not ",
+                            "startDuration": "1.0608",
+                            "endDuration": "1.3747",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b105187e357.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.3747",
+                            "endDuration": "1.9727",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1052a60f6b.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b1049799b04.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "beca38da-fcc4-4bc2-843c-caa81af64ac9",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 39.66049382716,
+                "y": 10.059534152118,
+                "width": 25.308641975309,
+                "height": 53.041180074806,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "effe84df-8c5c-49fa-b552-7994fcc83555",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgbeca38da-fcc4-4bc2-843c-caa81af64ac9_0"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 30.246913580247,
+                "y": 82.61011379467,
+                "width": 39.998148148148,
+                "height": 12.383896209994,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Flies fly. Cicadas fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "0cf160d5-1d99-464d-8bfd-b55f25dda2e5",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 30.092592592593,
+                "y": 10.974037256856,
+                "width": 39.998148148148,
+                "height": 66.796830941908,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fcf6e4c40.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 735
+                        }
+                    },
+                    "subContentId": "2532a18a-2727-4f64-be17-735beb7a0cce",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 3,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Flies ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.7230",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b105c749a26.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "0.7230",
+                            "endDuration": "1.4680",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b105dacbd14.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " Cicadas ",
+                            "startDuration": "1.4680",
+                            "endDuration": "2.7526",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b105f1dcffd.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "2.7526",
+                            "endDuration": "3.3363",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b106095492a.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b105b1b06bd.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "bea3afbd-ba9c-4f45-b9b0-a569baa5bc27",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 32.404938271605,
+                "y": 39.619018006566,
+                "width": 17.592592592593,
+                "height": 24.110508555177,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "ac2bd8e6-0899-46e2-aaee-3d8d0e9cdd77",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgbea3afbd-ba9c-4f45-b9b0-a569baa5bc27_2"
+            }, {
+                "x": 40.586419753086,
+                "y": 18.899730831253,
+                "width": 11.41975308642,
+                "height": 19.261721643545,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "8c813e9f-2643-4694-a4c2-9f8357e4c2cf",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgbea3afbd-ba9c-4f45-b9b0-a569baa5bc27_0"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 30.246913580247,
+                "y": 83.524616899408,
+                "width": 39.998148148148,
+                "height": 11.926644657625,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Lizard can not fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "640f2a18-b2a4-4b37-b08f-e4a5ab3ec5a8",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 31.327160493827,
+                "y": 12.193374729841,
+                "width": 38.58024691358,
+                "height": 67.363518032477,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fd4e9bf21.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "6210fb45-c2d4-4454-80ef-b71baf08810d",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 4,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Lizard ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.8109",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b107778e0b2.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " can ",
+                            "startDuration": "0.8109",
+                            "endDuration": "1.2263",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1079b745b2.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " not ",
+                            "startDuration": "1.2263",
+                            "endDuration": "1.6534",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b107b03127f.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.6534",
+                            "endDuration": "2.3731",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b107c9a6a76.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b107538691a.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "e76e4a2d-718b-4a0f-ad90-755593734e78",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 41.666666666667,
+                "y": 12.183863897551,
+                "width": 20.534259259259,
+                "height": 43.896149027426,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "1e39da07-f2e9-41eb-a7c4-828c4ee3c828",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imge76e4a2d-718b-4a0f-ad90-755593734e78_0"
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#f5fef0"
+            }
+        }, {
+            "elements": [{
+                "x": 25.462962962962962,
+                "y": 84.47488584474885,
+                "width": 49.76851851851851,
+                "height": 11.872146118721462,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Owls fly. Pelicans fly.&nbsp;<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "865ed584-5189-4387-9823-0837093ed9a4",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 30.70987654321,
+                "y": 12.193374729841,
+                "width": 39.322839506173,
+                "height": 68.649614232107,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fe64a98f6.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "5823d9cd-bc61-4545-8d40-a3aef52fd065",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 5,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Owls ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.7882",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1082650487.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "0.7882",
+                            "endDuration": "1.5546",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1083eedcb1.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " Pelicans ",
+                            "startDuration": "1.5546",
+                            "endDuration": "2.7512",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10863d79b1.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly.\u00a0 ",
+                            "startDuration": "2.7512",
+                            "endDuration": "3.3002",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1087547805.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b1080d6d191.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "b3ae7d80-9959-4587-96f8-52df3b782b09",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 38.58024691358,
+                "y": 9.1307343155097,
+                "width": 14.506172839506,
+                "height": 22.557743250205,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "1e1d4bdd-24c9-41d0-bbd5-c1d6224d904c",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgb3ae7d80-9959-4587-96f8-52df3b782b09_0"
+            }, {
+                "x": 43.518518518519,
+                "y": 25.644191228696,
+                "width": 22.222222222222,
+                "height": 29.521318591543,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "5927a325-1827-4ac3-85dc-aae11a5a335b",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgb3ae7d80-9959-4587-96f8-52df3b782b09_2"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 29.166666666667,
+                "y": 84.743954372392,
+                "width": 41.666666666667,
+                "height": 11.921889241481,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Gibbon can not fly.&nbsp;<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "14e73cd5-4a6d-4738-8154-74732cbc1a18",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 27.777777777778,
+                "y": 12.188619313696,
+                "width": 44.01049382716,
+                "height": 69.211728807153,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0fec0c4e2a.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 735
+                        }
+                    },
+                    "subContentId": "52e4a3f2-1859-4fc8-851a-b129d5aa76ce",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 6,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Gibbon ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.6748",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b108ea8fa29.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " can ",
+                            "startDuration": "0.6748",
+                            "endDuration": "1.0758",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b108fee81ea.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " not ",
+                            "startDuration": "1.0758",
+                            "endDuration": "1.5080",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b1091bf3986.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly.\u00a0 ",
+                            "startDuration": "1.5080",
+                            "endDuration": "2.1004",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b109358fcb7.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b108ce8b654.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "ae85265d-e706-4b20-baeb-43b875eb6a39",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 28.395061728395,
+                "y": 21.338405777221,
+                "width": 19.135802469136,
+                "height": 40.000060966874,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "d94079a7-f1be-4672-b590-646d21440b2d",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgae85265d-e706-4b20-baeb-43b875eb6a39_0"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 19.635416666666668,
+                "y": 84.35776255707763,
+                "width": 57.175925925925924,
+                "height": 13.470319634703197,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Egrets fly. Hornbills fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "3356dfe9-365b-4c8d-bc61-ae25cd8a59b9",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 27.314814814815,
+                "y": 12.193374729841,
+                "width": 44.753086419753,
+                "height": 67.911305392215,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0ff34353af.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 735
+                        }
+                    },
+                    "subContentId": "580663a1-010f-4e6f-9bb7-5f9704caa53c",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 7,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Egrets ",
+                            "startDuration": "0.0000",
+                            "endDuration": "1.0253",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b109c2729cc.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.0253",
+                            "endDuration": "2.0361",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b109dad7f3d.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " Hornbills ",
+                            "startDuration": "2.4632",
+                            "endDuration": "3.6985",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b109fe8d5ab.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "3.6985",
+                            "endDuration": "4.3871",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10a12d85d5.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b109aeb1fb7.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "8359bfb5-691f-48dd-8329-3aa9224563c9",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 38.58024691358,
+                "y": 36.57524683963,
+                "width": 15.104166666667,
+                "height": 24.953558483998,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "328c4df1-f1a2-4db9-a97a-fdcc25e3f2c5",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img8359bfb5-691f-48dd-8329-3aa9224563c9_2"
+            }, {
+                "x": 28.935185185185183,
+                "y": 13.698630136986301,
+                "width": 17.592592592593,
+                "height": 31.702774297585,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "0c89cfba-ce7b-474b-996c-27ba1191f301",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img8359bfb5-691f-48dd-8329-3aa9224563c9_0"
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#ecf9ff"
+            }
+        }, {
+            "elements": [{
+                "x": 30.864197530864,
+                "y": 84.1342856359,
+                "width": 39.998148148148,
+                "height": 11.926644657625,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Lion can not fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "8ff82313-5269-459d-b5c1-b55c06910945",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 29.938271604938,
+                "y": 9.7546997838724,
+                "width": 39.998148148148,
+                "height": 70.102454831167,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0ff878c04b.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "5928b405-996a-438d-8cd5-4436cb6fd38e",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 8,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Lion ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.7890",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10ac8ac6b2.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " can ",
+                            "startDuration": "0.7890",
+                            "endDuration": "1.1979",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10add90abd.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " not ",
+                            "startDuration": "1.1979",
+                            "endDuration": "1.5931",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10afd853c9.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.5931",
+                            "endDuration": "2.0751",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10b0ff32f4.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b10a943fb25.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "8fb4cc32-5e09-422d-a7df-0950685fb0f2",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 35.185185185185,
+                "y": 8.8401966791344,
+                "width": 29.938271604938,
+                "height": 49.992836392346,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "17af104f-500b-4eec-9a62-6c0dad141a3b",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img8fb4cc32-5e09-422d-a7df-0950685fb0f2_0"
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#fefaf0"
+            }
+        }, {
+            "elements": [{
+                "x": 15.895061728395,
+                "y": 85.353623108884,
+                "width": 67.901234567901,
+                "height": 11.921889241481,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Tawny owls fly. Mosquitoes fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "8f42eb8f-953d-41b9-a540-d4d6aa068468",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 29.012345679012,
+                "y": 10.354857688075,
+                "width": 39.998148148148,
+                "height": 70.111904696583,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b0ffdd62fe7.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "cc6cd9db-3039-4e22-a988-023108227c98",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 9,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Tawny owls ",
+                            "startDuration": "0.0000",
+                            "endDuration": "1.4696",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10bb032292.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }, {
+                                "path": "audios\/wordfile-61b10e3415e94.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.4696",
+                            "endDuration": "2.2557",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10e0a9ec7f.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " Mosquitoes ",
+                            "startDuration": "2.4535",
+                            "endDuration": "3.8697",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10bf34dedf.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "3.8697",
+                            "endDuration": "4.4397",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10c06ec792.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b10b918b138.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "8daf3125-cc18-454b-8d68-e96074df3812",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.83950617284,
+                "y": 8.5353623108884,
+                "width": 20.679012345679,
+                "height": 28.640133883255,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "92e6919c-98d7-44b7-aa77-e5578293502b",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img8daf3125-cc18-454b-8d68-e96074df3812_0"
+            }, {
+                "x": 37.037037037037,
+                "y": 35.055952348292,
+                "width": 12.475895061728,
+                "height": 18.552036750831,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "9fd06c67-39fd-402b-9f8a-c16d9362ce98",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img8daf3125-cc18-454b-8d68-e96074df3812_2"
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#fffcec"
+            }
+        }, {
+            "slideBackgroundSelector": {},
+            "elements": [{
+                "x": 27.16049382716,
+                "y": 84.743954372392,
+                "width": 46.296296296296,
+                "height": 11.926644657625,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">Sheep can not fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "9249b888-af86-4826-b72c-7e7d2636fa87",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 29.320987654321,
+                "y": 9.1402756312358,
+                "width": 39.998148148148,
+                "height": 72.864863876213,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b10059a6585.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "26b1b6f3-ad5c-4b8c-9483-f8737f9c517c",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 10,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " Sheep ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.6720",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10cdee33f1.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " can ",
+                            "startDuration": "0.6720",
+                            "endDuration": "1.1674",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10cf81e672.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " not ",
+                            "startDuration": "1.1674",
+                            "endDuration": "1.5168",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10d1e21bae.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "1.5168",
+                            "endDuration": "2.0579",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10d3365bc3.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b10cc813142.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "41ebd74b-e0ba-4350-83e9-29cbaf32bf42",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 35.185185185185,
+                "y": 12.193374729841,
+                "width": 25.308641975309,
+                "height": 43.88669916201,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "c73f502c-9983-451a-83cc-f437d77195c0",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "img41ebd74b-e0ba-4350-83e9-29cbaf32bf42_0"
+            }]
+        }, {
+            "elements": [{
+                "x": 30.439814814814813,
+                "y": 85.15981735159818,
+                "width": 39.998148148148,
+                "height": 11.926644657625,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">We will fly.<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "83c2fc9c-eaf0-4b40-a1c1-9784f7c482bc",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 29.908912037037037,
+                "y": 9.112442922374429,
+                "width": 40.04629629629629,
+                "height": 75.34246575342466,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b100a8081d4.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 1104
+                        }
+                    },
+                    "subContentId": "8b76f8c2-5810-4131-a1a5-9b8ad4a76d23",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 47.000385802469,
+                "y": 44.000951083229,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 11,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " We ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.5464",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10fd2a852d.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " will ",
+                            "startDuration": "0.5464",
+                            "endDuration": "0.8769",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b10ff6795d4.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " fly. ",
+                            "startDuration": "0.8769",
+                            "endDuration": "1.5209",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-61b110112c4a5.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b10fbc4d8e0.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "a4b10a7f-2659-4f81-9e79-c5f04b07eac4",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 28.89178240740741,
+                "y": 11.34703196347032,
+                "width": 41.11111111111111,
+                "height": 46.84931506849315,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "e5048a7d-da52-4ace-92dc-6503f2acf604",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imga4b10a7f-2659-4f81-9e79-c5f04b07eac4_2"
+            }],
+            "slideBackgroundSelector": {}
+        }, {
+            "elements": [{
+                "x": 30.371875000000003,
+                "y": 84.35776255707763,
+                "width": 40.04629629629629,
+                "height": 12.557077625570777,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.75em;\">I like flying.&nbsp;<\/span><\/span><\/p>\n"
+                    },
+                    "subContentId": "9006e6d0-6266-4083-b818-aef4ddd9e976",
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    }
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }, {
+                "x": 23.611111111111,
+                "y": 12.193374729841,
+                "width": 53.199691358025,
+                "height": 68.573405640045,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61b101017a9d3.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1024,
+                            "height": 735
+                        }
+                    },
+                    "subContentId": "230caaa9-077c-47f7-9950-e4753e476929",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 92.59259259259258,
+                "y": 2.2831050228310503,
+                "width": 40,
+                "height": 40,
+                "action": {
+                    "library": "H5P.CRAudio 1.4",
+                    "params": {
+                        "fitToWrapper": true,
+                        "currIndex": 12,
+                        "playerMode": "minimalistic",
+                        "controls": true,
+                        "autoplay": true,
+                        "playAudio": "Play audio",
+                        "pauseAudio": "Pause audio",
+                        "contentName": "Audio",
+                        "glowColor": "#ffd85a",
+                        "timeStampForEachText": [{
+                            "text": " I ",
+                            "startDuration": "0.0000",
+                            "endDuration": "0.5380",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-62050bcc6a3c2.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " like ",
+                            "startDuration": "0.5380",
+                            "endDuration": "0.9595",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-62050c1221dd3.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }, {
+                            "text": " flying.\u00a0 ",
+                            "startDuration": "0.9595",
+                            "endDuration": "1.7210",
+                            "wordfile": [{
+                                "path": "audios\/wordfile-62050c1992c55.wav",
+                                "mime": "audio\/x-wav",
+                                "copyright": {
+                                    "license": "U"
+                                }
+                            }]
+                        }],
+                        "files": [{
+                            "path": "audios\/files-61b1105272650.wav",
+                            "mime": "audio\/x-wav",
+                            "copyright": {
+                                "license": "U"
+                            }
+                        }]
+                    },
+                    "subContentId": "b33eca8b-701a-40c6-a095-1085335a0f59",
+                    "metadata": {
+                        "contentType": "Curious Reader Audio",
+                        "license": "U",
+                        "title": "Untitled Curious Reader Audio"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 35.493827160494,
+                "y": 36.57524683963,
+                "width": 17.592592592593,
+                "height": 37.79001179709,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "f30f130e-e465-4eb1-9236-b06a87181022",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgb33eca8b-701a-40c6-a095-1085335a0f59_0"
+            }, {
+                "x": 43.20987654321,
+                "y": 12.183863897551,
+                "width": 17.445524691358,
+                "height": 28.654430615125,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image"
+                    },
+                    "subContentId": "10149fce-56e6-4f65-90a7-e9c43e5cb880",
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    }
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": true,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "id": "imgb33eca8b-701a-40c6-a095-1085335a0f59_2"
+            }],
+            "slideBackgroundSelector": {
+                "fillSlideBackground": "#fef6fc"
+            }
+        }, {
+            "elements": [{
+                "x": 3.826530612244898,
+                "y": 7.550780856423174,
+                "width": 20.408163265306122,
+                "height": 14.86146095717884,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61fb296cf2c04.png",
+                            "mime": "image\/png",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1350,
+                            "height": 487
+                        }
+                    },
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    },
+                    "subContentId": "1a1fbf2f-2fee-4e00-97ee-e2b17ec2052e"
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 36.98979591836735,
+                "y": 7.556675062972292,
+                "width": 26.91326530612245,
+                "height": 14.609571788413097,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61fb29a5596cb.png",
+                            "mime": "image\/png",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 814,
+                            "height": 202
+                        }
+                    },
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    },
+                    "subContentId": "676fd85c-28e4-472b-aa9b-89100a55a2c9"
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 68.87653061224489,
+                "y": 10.067707808564231,
+                "width": 30.102040816326532,
+                "height": 12.090680100755668,
+                "action": {
+                    "library": "H5P.Image 1.1",
+                    "params": {
+                        "contentName": "Image",
+                        "file": {
+                            "path": "images\/file-61fb28cb969ac.jpg",
+                            "mime": "image\/jpeg",
+                            "copyright": {
+                                "license": "U"
+                            },
+                            "width": 1732,
+                            "height": 354
+                        }
+                    },
+                    "metadata": {
+                        "contentType": "Image",
+                        "license": "U",
+                        "title": "Untitled Image"
+                    },
+                    "subContentId": "efac00f9-451c-46a4-976c-6f50956e9451"
+                },
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false
+            }, {
+                "x": 5.1020408163265305,
+                "y": 32.7455919395466,
+                "width": 93.75,
+                "height": 52.896725440806044,
+                "action": {
+                    "library": "H5P.CRAdvancedText 1.1",
+                    "params": {
+                        "text": "<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\"><strong>\"Let's Fly!\" credits<\/strong><\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\">This work, \"Let's Fly!\", is a derivative of \"Let's Fly!\"&nbsp;by All Children Reading Cambodia. \u00a9 The Asia Foundation , 2018 and used under CC BY.&nbsp;\"Let's Fly!\" is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><br>\n<span style=\"font-size:1em;\">Book builder - Deborah Oduman<\/span><\/h3>\n\n<p style=\"text-align: center;\">&nbsp;<\/p>\n"
+                    },
+                    "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Untitled Text"
+                    },
+                    "subContentId": "2dc3d33a-4991-4991-bda6-673005997c7a"
+                },
+                "alwaysDisplayComments": false,
+                "backgroundOpacity": 0,
+                "willDoAnimation": false,
+                "animationType": "glow",
+                "displayAsButton": false,
+                "buttonSize": "big",
+                "goToSlideType": "specified",
+                "invisible": false,
+                "solution": ""
+            }],
+            "slideBackgroundSelector": {}
+        }],
+        "keywordListEnabled": true,
+        "globalBackgroundSelector": {
+            "fillGlobalBackground": "#fbfef0"
+        },
+        "keywordListAlwaysShow": false,
+        "keywordListAutoHide": false,
+        "keywordListOpacity": 90
+    },
+    "override": {
+        "activeSurface": false,
+        "hideSummarySlide": false,
+        "summarySlideSolutionButton": true,
+        "summarySlideRetryButton": true,
+        "enablePrintButton": false,
+        "social": {
+            "showFacebookShare": false,
+            "facebookShare": {
+                "url": "@currentpageurl",
+                "quote": "I scored @score out of @maxScore on a task at @currentpageurl."
+            },
+            "showTwitterShare": false,
+            "twitterShare": {
+                "statement": "I scored @score out of @maxScore on a task at @currentpageurl.",
+                "url": "@currentpageurl",
+                "hashtags": "h5p, course"
+            },
+            "showGoogleShare": false,
+            "googleShareUrl": "@currentpageurl"
+        }
+    },
+    "l10n": {
+        "slide": "Slide",
+        "score": "Score",
+        "yourScore": "Your Score",
+        "maxScore": "Max Score",
+        "total": "Total",
+        "totalScore": "Total Score",
+        "showSolutions": "Show solutions",
+        "retry": "Retry",
+        "exportAnswers": "Export text",
+        "hideKeywords": "Hide sidebar navigation menu",
+        "showKeywords": "Show sidebar navigation menu",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit fullscreen",
+        "prevSlide": "Previous slide",
+        "nextSlide": "Next slide",
+        "currentSlide": "Current slide",
+        "lastSlide": "Last slide",
+        "solutionModeTitle": "Exit solution mode",
+        "solutionModeText": "Solution Mode",
+        "summaryMultipleTaskText": "Multiple tasks",
+        "scoreMessage": "You achieved:",
+        "shareFacebook": "Share on Facebook",
+        "shareTwitter": "Share on Twitter",
+        "shareGoogle": "Share on Google+",
+        "summary": "Summary",
+        "solutionsButtonTitle": "Show comments",
+        "printTitle": "Print",
+        "printIngress": "How would you like to print this presentation?",
+        "printAllSlides": "Print all slides",
+        "printCurrentSlide": "Print current slide",
+        "noTitle": "No title",
+        "accessibilitySlideNavigationExplanation": "Use left and right arrow to change slide in that direction whenever canvas is selected.",
+        "accessibilityCanvasLabel": "Presentation canvas. Use left and right arrow to move between slides.",
+        "containsNotCompleted": "@slideName contains not completed interaction",
+        "containsCompleted": "@slideName contains completed interaction",
+        "slideCount": "Slide @index of @total",
+        "containsOnlyCorrect": "@slideName only has correct answers",
+        "containsIncorrectAnswers": "@slideName has incorrect answers",
+        "shareResult": "Share Result",
+        "accessibilityTotalScore": "You got @score of @maxScore points in total",
+        "accessibilityEnteredFullscreen": "Entered fullscreen",
+        "accessibilityExitedFullscreen": "Exited fullscreen"
+    }
+}
