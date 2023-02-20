@@ -25,7 +25,7 @@ jobs:
     steps:
       - checkout
       - aws-s3/sync:
-          arguments:
+          arguments: |
             --acl public-read \
             --cache-control "max-age=86400"
           aws-access-key-id: AWS_ACCESS_KEY
