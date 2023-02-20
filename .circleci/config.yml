@@ -27,7 +27,7 @@ jobs:
       - aws-s3/sync:
           arguments:
             --acl public-read \
-            --cache-control "nax-age=86400"
+            --cache-control "max-age=86400"
           aws-access-key-id: AWS_ACCESS_KEY
           aws-region: AWS_PROD_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
