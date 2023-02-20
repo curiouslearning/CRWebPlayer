@@ -24,7 +24,7 @@ import { Splide } from "@splidejs/splide";
     async initialize() {
         let book: Book = await this.contentParser.parseBook();
 
-        console.log("App initialized!");
+        console.log("Dev App initialized!");
         console.log(book);
 
         this.playBackEngine.initializeBook(book);
