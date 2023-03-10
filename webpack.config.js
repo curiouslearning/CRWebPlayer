@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './App.ts',
@@ -19,4 +20,11 @@ module.exports = {
     filename: 'app.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Curious Reader',
+      template: 'index.html',
+      filename: 'index.html',
+    }),
+  ],
 };
