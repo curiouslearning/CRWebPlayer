@@ -1,0 +1,11 @@
+{
+    "name": "Curious Reader",
+    "short_name": "Curious Reader PWA",
+    "icons": [
+
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff"
+}
