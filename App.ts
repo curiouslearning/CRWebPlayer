@@ -1,6 +1,7 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./Parser/ContentParser";
 import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
+import { CRServiceWorker } from "./Helpers/ServiceWorker/ServiceWorker";
 import { Book } from "./Models/Models";
 import { Splide } from "@splidejs/splide";
 
@@ -8,6 +9,7 @@ import { Splide } from "@splidejs/splide";
 
     contentParser: ContentParser;
     playBackEngine: PlayBackEngine;
+    serviceWorker: CRServiceWorker;
     
     contentFilePath: string;
     imagesPath: string;
@@ -19,6 +21,8 @@ import { Splide } from "@splidejs/splide";
         this.audioPath = audioPath;
         this.contentParser = new ContentParser(contentFilePath);
         this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
+        this.serviceWorker = new CRServiceWorker();
+        this.serviceWorker.InitializeAndRegister();
     }
 
     async initialize() {
