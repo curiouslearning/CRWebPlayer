@@ -23,7 +23,7 @@ module.exports = {
     swDest: './sw.js',
     runtimeCaching: [
         {
-            urlPattern: new RegExp('^https://curiousreader.curiourcontent.org'),
+            urlPattern: new RegExp('^https://curiousreaderdev.curiouscontent.org'),
             handler: 'NetworkFirst',
             options: {
                 cacheName: 'CRCache',

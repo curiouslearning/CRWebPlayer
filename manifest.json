@@ -3,8 +3,9 @@
     "short_name": "Curious Reader PWA",
     "icons": [
         {
-            "src": "dist/images/cropped-bird_red-2.webp",
-            "sizes": "32x32",
+            "src": "dist/images/red_bird_256.webp",
+            "sizes": "256x256",
+            "purpose": "any",
             "type": "image/png"
         }
     ],
