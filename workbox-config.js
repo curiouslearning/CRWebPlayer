@@ -1,11 +1,26 @@
 module.exports = {
-    globDirectory: 'dist/',
+    globDirectory: '/',
     globPatterns: [
         '**/*.{html,js,css}',
-        // 'public/images/*.{png,jpg,gif,svg}',
-        'fonts/*.{woff,woff2,eot,ttf,otf}'
+        'dist/images/*.{png,jpg,gif,svg}',
+        'dist/fonts/*.{woff,woff2,eot,ttf,otf}'
     ],
-    swDest: 'dist/sw.js',
+    globIgnores: [
+        'node_modules/**/*',
+        'workbox-config.js',
+        'webpack.config.js',
+        'package.json',
+        'package-lock.json',
+        'tsconfig.json',
+        'README.md',
+        'LICENSE',
+        'Helpers/**/*',
+        'Parser/**/*',
+        'PlayBackEngine/**/*',
+        'third-party/**/*',
+        '.gitignore'
+    ],
+    swDest: './sw.js',
     runtimeCaching: [
         {
             urlPattern: new RegExp('^https://curiousreader.curiourcontent.org'),
