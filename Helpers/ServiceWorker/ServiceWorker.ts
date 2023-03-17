@@ -1,13 +1,15 @@
 // Service Worker helper class for working with WorkBox functionalities
-import { skipWaiting, clientsClaim } from 'workbox-core';
-import { Workbox } from 'workbox-window';
-import { registerRoute, setCatchHandler } from 'workbox-routing';
+import { skipWaiting, clientsClaim, } from 'workbox-core';
+import { Workbox, } from 'workbox-window';
+import { registerRoute, setCatchHandler, } from 'workbox-routing';
 import { CacheFirst } from 'workbox-strategies';
-import { ExpirationPlugin } from 'workbox-expiration';
+import { ExpirationPlugin, } from 'workbox-expiration';
 /// <reference lib="webworker" />
 
 // @ts-ignore WB_MANIFEST is injected by workbox-webpack-plugin
-precaccheAndRoute(self.__WB_MANIFEST);
+precacheAndRoute(self.__WB_MANIFEST);
+
+
 
 export default null;
 // @ts-ignore ServiceWorkerGlobalScope is defined by lib="webworker"
