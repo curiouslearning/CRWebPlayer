@@ -4,12 +4,11 @@ import { Workbox, } from 'workbox-window';
 import { registerRoute, setCatchHandler, } from 'workbox-routing';
 import { CacheFirst } from 'workbox-strategies';
 import { ExpirationPlugin, } from 'workbox-expiration';
+import { precacheAndRoute } from 'workbox-precaching';
 /// <reference lib="webworker" />
 
 // @ts-ignore WB_MANIFEST is injected by workbox-webpack-plugin
 precacheAndRoute(self.__WB_MANIFEST);
-
-
 
 export default null;
 // @ts-ignore ServiceWorkerGlobalScope is defined by lib="webworker"
