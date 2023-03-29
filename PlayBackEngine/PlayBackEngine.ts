@@ -1,3 +1,4 @@
+
 // Class that handles the playback of the whole book
 import { Book, Page, TextElement, ImageElement, AudioElement  } from "../Models/Models";
 import { Splide } from "@splidejs/splide";
@@ -19,8 +20,13 @@ export class PlayBackEngine {
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
         this.currentPage = 0;
-        this.splideHandle = new Splide('.splide').mount();
+        this.splideHandle = new Splide('.splide', {
+            fixedHeight: window.innerHeight - 20
+        }).mount();
     }
+
+    // take lets fly story, take the docs, installing workbox and making sure
+    // the lets fly is available as a service worker PWA
 
     initializeBook(book: Book) {
         this.numberOfPages = book.pages.length;

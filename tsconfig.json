@@ -3,7 +3,7 @@
     "module": "es6",
     "esModuleInterop": true,
     "target": "es2016",
-		"lib": ["es7", "dom"],
+		"lib": ["es7", "dom", "webworker"],
     "moduleResolution": "node",
 		"outDir": "dist",
 		"sourceMap": true,
@@ -12,5 +12,5 @@
   },
   "include": ["Models", "Parser", "PlayBackEngine",],
   "exclude": ["node_modules"],
-	"lib": ["es7", "dom"]
+	"lib": ["es7", "dom", "webworker"]
 }
