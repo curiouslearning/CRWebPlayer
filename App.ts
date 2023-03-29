@@ -31,7 +31,23 @@ import { Splide } from "@splidejs/splide";
         console.log("Dev App initialized!");
         console.log(book);
 
+        this.enforceLandscapeMode();
+
         this.playBackEngine.initializeBook(book);
+    }
+
+    enforceLandscapeMode() {
+        if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock("landscape")
+            .then(() => {
+                console.log("Screen orientation locked to landscape!");
+            })
+            .catch((error) => {
+                console.error("Failed to lock screen orientation: ", error);
+            });
+        } else {
+            console.warn("Screen orientation lock not supported! Interface may not work as expected on mobile devices!");
+        }
     }
 
  }
