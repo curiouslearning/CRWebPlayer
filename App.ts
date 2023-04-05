@@ -15,6 +15,9 @@ import { Splide } from "@splidejs/splide";
     imagesPath: string;
     audioPath: string;
 
+    cachedLanguages: Map<string, string> | null = new Map<string, string>();
+    cachedLanguagesTag: string = "cached_languages";
+
     constructor(contentFilePath: string, imagesPath: string, audioPath: string) {
         this.contentFilePath = contentFilePath;
         this.imagesPath = imagesPath;
@@ -32,8 +35,26 @@ import { Splide } from "@splidejs/splide";
         console.log(book);
 
         this.enforceLandscapeMode();
+        
+        window.addEventListener("load", async () => {
+            this.readLanguageDataFromCacheAndNotifyAndroidApp();
+        });
 
         this.playBackEngine.initializeBook(book);
+    }
+
+    readLanguageDataFromCacheAndNotifyAndroidApp() {
+        if (localStorage.getItem(this.cachedLanguagesTag) == null) {
+            this.cachedLanguages == new Map();
+        } else {
+            let cachedLanguageString: string | null = localStorage.getItem(this.cachedLanguagesTag)!;
+            this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
+        }
+        //@ts-ignore
+        if (window.Android) {
+            //@ts-ignore
+            window.Android.receiveData(cachedLanguages.has(lang) ? cachedLanguages.get(lang) : null);
+        }
     }
 
     enforceLandscapeMode() {

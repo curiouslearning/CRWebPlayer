@@ -81,9 +81,11 @@ export class CRServiceWorker {
                 this.registerCacheFirstRouteUsing("document", this.documentCacheName, this.documentExpirationPlugin);
 
                 // Add Listeners
-                self.addEventListener('install', (event: ExtendableEvent) => {
+                navigator.serviceWorker.addEventListener('message', this.handleServiceWorkerMessage);
+                navigator.serviceWorker.addEventListener('install', (event) => {
                     console.log('ServiceWorker installed!');
                     // skipWaiting();
+                    //@ts-ignore
                     event.waitUntil(Promise.all([
                         caches.delete(this.imagesCacheName),
                         caches.delete(this.fontsCacheName),
@@ -91,15 +93,25 @@ export class CRServiceWorker {
                         caches.delete(this.documentCacheName)
                     ]));
                 });
-                self.addEventListener('activate', (event: ExtendableEvent) => {
+                navigator.serviceWorker.addEventListener('activate', (event) => {
                     console.log('ServiceWorker activated!');
                     clientsClaim();
                 });
-                self.addEventListener('fetch', (event: ExtendableEvent) => {
+                navigator.serviceWorker.addEventListener('fetch', (event) => {
                     console.log('ServiceWorker fetch: ', event);
                 });
             });
         }
+    }
+
+    handleServiceWorkerMessage(event): void {
+        if (event.data.msg == "Loading") {
+            this.handleLoadingMessage(event.data);
+        }
+    }
+
+    handleLoadingMessage(data): void {
+
     }
 
     registerCacheFirstRouteUsing(destination: RequestDestination, cacheName: string, expirationPlugin: ExpirationPlugin): void {
@@ -114,3 +126,4 @@ export class CRServiceWorker {
         );
     }
 }
+
