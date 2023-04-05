@@ -17,6 +17,7 @@ import { Splide } from "@splidejs/splide";
 
     cachedLanguages: Map<string, string> | null = new Map<string, string>();
     cachedLanguagesTag: string = "cached_languages";
+    lang: string = "english";
 
     constructor(contentFilePath: string, imagesPath: string, audioPath: string) {
         this.contentFilePath = contentFilePath;
