@@ -75,9 +75,15 @@ import { Splide } from "@splidejs/splide";
  }
 
  // Passing absolute path to the content file and resource directories
-let app: App = new App("/BookContent/LetsFlyLevel2En/content/content.json",
-    "/BookContent/LetsFlyLevel2En/content/images/",
-    "/BookContent/LetsFlyLevel2En/content/audio/");
+ // Curious Reader Book: Let's Fly Level 2
+// let app: App = new App("/BookContent/LetsFlyLevel2En/content/content.json",
+//     "/BookContent/LetsFlyLevel2En/content/images/",
+//     "/BookContent/LetsFlyLevel2En/content/audio/");
+
+// GDL Book: Talking Bag English
+let app: App = new App("/BookContent/TalkingBagEn/content/content.json",
+    "/BookContent/TalkingBagEn/content/images/",
+    "/BookContent/TalkingBagEn/content/audio/");
 
 // Initialize the app, beginning to read the content file, parsing  and displaying the book
 app.initialize();
