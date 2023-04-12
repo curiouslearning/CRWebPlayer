@@ -57,7 +57,7 @@ export class PlayBackEngine {
 
                     textElementDiv.classList.add('cr-text');
                     textElementDiv.style.position = "absolute";
-                    textElementDiv.style.webkitTextStroke = "thick #303030";
+                    textElementDiv.style.webkitTextStroke = "1px #303030";
                     textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
                     textElementDiv.style.fontFamily = "Quicksand";
                     textElementDiv.style.fontWeight = "800";
@@ -110,7 +110,7 @@ export class PlayBackEngine {
             flexContainer.style.justifyContent = "center";
             flexContainer.style.alignItems = "center";
             flexContainer.style.height = "100%";
-            flexContainer.style.width = "90%";
+            flexContainer.style.width = "70%";
             slide.appendChild(flexContainer);
 
             // foreach visualelement in page add to slide
@@ -119,9 +119,10 @@ export class PlayBackEngine {
                 if (visualElement.type == "text") {
                     let textElement: TextElement = visualElement;
                     let textElementDiv = document.createElement('div');
-                    textElementDiv.style.width = "70%";
+                    textElementDiv.style.width = "50%";
 
                     textElementDiv.classList.add('gdl-text');
+                    textElementDiv.style.webkitTextStroke = "1px #303030";
                     textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
                     textElementDiv.style.fontFamily = "Quicksand";
                     textElementDiv.style.fontWeight = "800";
