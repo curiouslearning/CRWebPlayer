@@ -110,7 +110,7 @@ export class PlayBackEngine {
             flexContainer.style.justifyContent = "center";
             flexContainer.style.alignItems = "center";
             flexContainer.style.height = "100%";
-            flexContainer.style.width = "100%";
+            flexContainer.style.width = "90%";
             slide.appendChild(flexContainer);
 
             // foreach visualelement in page add to slide
@@ -119,31 +119,20 @@ export class PlayBackEngine {
                 if (visualElement.type == "text") {
                     let textElement: TextElement = visualElement;
                     let textElementDiv = document.createElement('div');
+                    textElementDiv.style.width = "70%";
 
                     textElementDiv.classList.add('gdl-text');
-                    // textElementDiv.style.position = "absolute";
-                    textElementDiv.style.webkitTextStroke = "thick #303030";
                     textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
                     textElementDiv.style.fontFamily = "Quicksand";
                     textElementDiv.style.fontWeight = "800";
                     textElementDiv.style.fontSize = "1.7em";
-                    // textElementDiv.style.top = textElement.positionY + "%";
-                    // textElementDiv.style.left = textElement.positionX + "%";
-                    // textElementDiv.style.width = textElement.width + "%";
-                    // textElementDiv.style.height = textElement.height + "%";
                     textElementDiv.innerHTML = textElement.textContentAsHTML;
                     flexContainer.appendChild(textElementDiv);
                 } else if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
 
                     let imageElementDiv = document.createElement('div');
-
                     imageElementDiv.classList.add('gdl-image');
-                    // imageElementDiv.style.position = "absolute";
-                    // imageElementDiv.style.top = imageElement.positionY + "%";
-                    // imageElementDiv.style.left = imageElement.positionX + "%";
-                    // imageElementDiv.style.width = imageElement.width + "%";
-                    // imageElementDiv.style.height = imageElement.height + "%";
 
                     let imageElementImg = document.createElement('img');
                     imageElementImg.src = this.imagesPath + imageElement.imageSource.replace("images/", "");
