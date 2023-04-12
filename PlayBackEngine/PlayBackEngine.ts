@@ -111,7 +111,7 @@ export class PlayBackEngine {
             flexContainer.style.justifyContent = "center";
             flexContainer.style.alignItems = "center";
             flexContainer.style.height = "100%";
-            flexContainer.style.width = "70%";
+            flexContainer.style.width = "100%";
             slide.appendChild(flexContainer);
 
             // foreach visualelement in page add to slide
@@ -120,7 +120,7 @@ export class PlayBackEngine {
                 if (visualElement.type == "text") {
                     let textElement: TextElement = visualElement;
                     let textElementDiv = document.createElement('div');
-                    textElementDiv.style.width = "50%";
+                    textElementDiv.style.width = "60%";
 
                     textElementDiv.classList.add('gdl-text');
                     textElementDiv.style.webkitTextStroke = "1px #303030";
