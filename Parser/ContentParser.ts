@@ -107,10 +107,10 @@ export class ContentParser {
         for (let i = 0; i < elementsJSONArray.length; i++) {
             let libraryString: string = elementsJSONArray[i]["content"]["library"];
             if (libraryString.includes("AdvancedText")) {
-                let textElement: TextElement = this.parseTextElementGDL(elementsJSONArray[i]["params"]);
+                let textElement: TextElement = this.parseTextElementGDL(elementsJSONArray[i]["content"]["params"]);
                 visualElements.push(textElement);
             } else if (libraryString.includes("Image")) {
-                let imageElement: ImageElement = this.parseImageElementGDL(elementsJSONArray[i]["params"]);
+                let imageElement: ImageElement = this.parseImageElementGDL(elementsJSONArray[i]["content"]["params"]);
                 visualElements.push(imageElement);
             }
         }
