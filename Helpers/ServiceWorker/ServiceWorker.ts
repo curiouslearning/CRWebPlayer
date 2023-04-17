@@ -1,5 +1,5 @@
 // Service Worker helper class for working with WorkBox functionalities
-import { skipWaiting, clientsClaim, } from 'workbox-core';
+import { clientsClaim } from 'workbox-core';
 import { Workbox, } from 'workbox-window';
 import { registerRoute, setCatchHandler, } from 'workbox-routing';
 import { CacheFirst } from 'workbox-strategies';
@@ -12,7 +12,9 @@ import { precacheAndRoute } from 'workbox-precaching';
 
 export default null;
 // @ts-ignore ServiceWorkerGlobalScope is defined by lib="webworker"
-declare let self: ServiceWorkerGlobalScope;
+// declare let self: ServiceWorkerGlobalScope;
+
+const { clients, addEventListener, skipWaiting, registration } = self as ServiceWorkerGlobalScope;
 
 declare global {
   interface ExtendableEvent extends Event {
@@ -117,7 +119,7 @@ export class CRServiceWorker {
 
                 // Send message to clients that loading is done
                 // @ts-ignore
-                navigator.serviceWorker.clients.matchAll().then((clients) => {
+                self.clients.matchAll().then((clients) => {
                     clients.forEach((client) => {
                         client.postMessage({
                             msg: "Loading",
