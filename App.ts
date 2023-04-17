@@ -94,7 +94,7 @@ import { Splide } from "@splidejs/splide";
         //@ts-ignore
         if (window.Android) {
             //@ts-ignore
-            window.Android.receiveData(cachedLanguages.has(lang) ? cachedLanguages.get(lang) : null);
+            window.Android.cachedStatus(cachedLanguages.has(lang) ? cachedLanguages.get(lang) : null);
         }
     }
 
