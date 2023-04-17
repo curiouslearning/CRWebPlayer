@@ -21,13 +21,5 @@ module.exports = {
         '.gitignore'
     ],
     swDest: './sw.js',
-    runtimeCaching: [
-        {
-            urlPattern: new RegExp('^https://curiousreaderdev.curiouscontent.org'),
-            handler: 'NetworkFirst',
-            options: {
-                cacheName: 'CRCache',
-            }
-        }
-    ]
+    swSrc: 'sw-src.js',
 };

@@ -1,7 +1,8 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./Parser/ContentParser";
 import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
-import { CRServiceWorker } from "./Helpers/ServiceWorker/ServiceWorker";
+import { Workbox } from "workbox-window";
+// import { CRServiceWorker } from "./Helpers/ServiceWorker/ServiceWorker";
 import { Book } from "./Models/Models";
 import { Splide } from "@splidejs/splide";
 
@@ -9,11 +10,13 @@ import { Splide } from "@splidejs/splide";
 
     contentParser: ContentParser;
     playBackEngine: PlayBackEngine;
-    serviceWorker: CRServiceWorker;
+    // serviceWorker: CRServiceWorker;
     
     contentFilePath: string;
     imagesPath: string;
     audioPath: string;
+
+    broadcastChannel: BroadcastChannel;
 
     cachedLanguages: Map<string, string> | null = new Map<string, string>();
     // cachedLanguagesTag: string = "cached_languages";
@@ -26,8 +29,9 @@ import { Splide } from "@splidejs/splide";
         this.audioPath = audioPath;
         this.contentParser = new ContentParser(contentFilePath);
         this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
-        this.serviceWorker = new CRServiceWorker();
-        this.serviceWorker.InitializeAndRegister();
+        this.broadcastChannel = new BroadcastChannel("my-channel");
+        // this.serviceWorker = new CRServiceWorker();
+        // this.serviceWorker.InitializeAndRegister();
 
         if (localStorage.getItem(this.isCached) == null) {
             this.cachedLanguages = new Map();
@@ -47,19 +51,40 @@ import { Splide } from "@splidejs/splide";
         
         window.addEventListener("load", async () => {
             if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.addEventListener("message", (event) => {
-                    if (event.data.msg == "Loading") {
-                        if (event.data.data == 100) {
-                            this.cachedLanguages?.set(this.lang, "true");
-                            localStorage.setItem(
-                                this.isCached,
-                                JSON.stringify(this.cachedLanguages)
-                            );
-                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
-                        }
+                let wb = new Workbox("./sw.js", {});
+                wb.register().then((serviceWorkerRegistration) => {
+                    if (serviceWorkerRegistration!.installing) {
+                        serviceWorkerRegistration!.installing.postMessage({
+                        type: "Registration",
+                        value: this.lang,
+                        });
                     }
                 });
+
+                if (!this.cachedLanguages!.has(this.lang)) {
+                    this.broadcastChannel.postMessage({ command: "Cache", data: this.lang });
+                }
+                navigator.serviceWorker.addEventListener(
+                    "message",
+                    (event) => {
+                        if ("serviceWorker" in navigator) {
+                            navigator.serviceWorker.addEventListener("message", (event) => {
+                                if (event.data.msg == "Loading") {
+                                    if (event.data.data == 100) {
+                                        this.cachedLanguages?.set(this.lang, "true");
+                                        localStorage.setItem(
+                                            this.isCached,
+                                            JSON.stringify(this.cachedLanguages?.entries())
+                                        );
+                                        this.readLanguageDataFromCacheAndNotifyAndroidApp();
+                                    }
+                                }
+                            });
+                        }
+                    }
+                );
             }
+            
         });
 
         this.playBackEngine.initializeBook(book);
