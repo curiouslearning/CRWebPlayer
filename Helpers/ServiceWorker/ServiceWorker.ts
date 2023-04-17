@@ -80,9 +80,7 @@ export class CRServiceWorker {
                 this.registerCacheFirstRouteUsing("style", this.stylesScriptsCacheName, this.stylesScriptsExpirationPlugin);
                 this.registerCacheFirstRouteUsing("document", this.documentCacheName, this.documentExpirationPlugin);
 
-                // Add Listeners
-                navigator.serviceWorker.addEventListener('message', this.handleServiceWorkerMessage);
-                navigator.serviceWorker.addEventListener('install', (event) => {
+                navigator.serviceWorker.addEventListener('install', async (event) => {
                     console.log('ServiceWorker installed!');
                     // skipWaiting();
                     //@ts-ignore
@@ -92,13 +90,40 @@ export class CRServiceWorker {
                         caches.delete(this.stylesScriptsCacheName),
                         caches.delete(this.documentCacheName)
                     ]));
+
+                    skipWaiting();
                 });
-                navigator.serviceWorker.addEventListener('activate', (event) => {
+
+                navigator.serviceWorker.addEventListener('activate', async (event) => {
                     console.log('ServiceWorker activated!');
-                    clientsClaim();
+                    // @ts-ignore
+                    event.waitUntil(self.clients.claim());
                 });
+
                 navigator.serviceWorker.addEventListener('fetch', (event) => {
                     console.log('ServiceWorker fetch: ', event);
+                    //@ts-ignore
+                    event.respondWith(
+                        // @ts-ignore
+                        caches.match(event.request).then(function (response) {
+                        if (response) {
+                            return response;
+                        }
+                        // @ts-ignore
+                            return fetch(event.request);
+                        })
+                    );
+                });
+
+                // Send message to clients that loading is done
+                // @ts-ignore
+                navigator.serviceWorker.clients.matchAll().then((clients) => {
+                    clients.forEach((client) => {
+                        client.postMessage({
+                            msg: "Loading",
+                            data: 100,
+                        });
+                    });
                 });
             });
         }

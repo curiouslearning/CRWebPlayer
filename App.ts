@@ -16,8 +16,9 @@ import { Splide } from "@splidejs/splide";
     audioPath: string;
 
     cachedLanguages: Map<string, string> | null = new Map<string, string>();
-    cachedLanguagesTag: string = "cached_languages";
+    // cachedLanguagesTag: string = "cached_languages";
     lang: string = "english";
+    isCached: string = "is_cached";
 
     constructor(contentFilePath: string, imagesPath: string, audioPath: string) {
         this.contentFilePath = contentFilePath;
@@ -27,6 +28,13 @@ import { Splide } from "@splidejs/splide";
         this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
         this.serviceWorker = new CRServiceWorker();
         this.serviceWorker.InitializeAndRegister();
+
+        if (localStorage.getItem(this.isCached) == null) {
+            this.cachedLanguages = new Map();
+        } else {
+            let cachedLanguageString: string | null = localStorage.getItem(this.isCached)!;
+            this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
+        }
     }
 
     async initialize() {
@@ -38,19 +46,26 @@ import { Splide } from "@splidejs/splide";
         this.enforceLandscapeMode();
         
         window.addEventListener("load", async () => {
-            this.readLanguageDataFromCacheAndNotifyAndroidApp();
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.addEventListener("message", (event) => {
+                    if (event.data.msg == "Loading") {
+                        if (event.data.data == 100) {
+                            this.cachedLanguages?.set(this.lang, "true");
+                            localStorage.setItem(
+                                this.isCached,
+                                JSON.stringify(this.cachedLanguages)
+                            );
+                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
+                        }
+                    }
+                });
+            }
         });
 
         this.playBackEngine.initializeBook(book);
     }
 
     readLanguageDataFromCacheAndNotifyAndroidApp() {
-        if (localStorage.getItem(this.cachedLanguagesTag) == null) {
-            this.cachedLanguages == new Map();
-        } else {
-            let cachedLanguageString: string | null = localStorage.getItem(this.cachedLanguagesTag)!;
-            this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
-        }
         //@ts-ignore
         if (window.Android) {
             //@ts-ignore
