@@ -64,25 +64,19 @@ import { Splide } from "@splidejs/splide";
                 if (!this.cachedLanguages!.has(this.lang)) {
                     this.broadcastChannel.postMessage({ command: "Cache", data: this.lang });
                 }
-                navigator.serviceWorker.addEventListener(
-                    "message",
-                    (event) => {
-                        if ("serviceWorker" in navigator) {
-                            navigator.serviceWorker.addEventListener("message", (event) => {
-                                if (event.data.msg == "Loading") {
-                                    if (event.data.data == 100) {
-                                        this.cachedLanguages?.set(this.lang, "true");
-                                        localStorage.setItem(
-                                            this.isCached,
-                                            JSON.stringify(this.cachedLanguages?.entries())
-                                        );
-                                        this.readLanguageDataFromCacheAndNotifyAndroidApp();
-                                    }
-                                }
-                            });
+                
+                navigator.serviceWorker.addEventListener("message", (event) => {
+                    if (event.data.msg == "Loading") {
+                        if (event.data.data == 100) {
+                            this.cachedLanguages?.set(this.lang, "true");
+                            localStorage.setItem(
+                                this.isCached,
+                                JSON.stringify(this.cachedLanguages?.entries())
+                            );
+                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
                         }
                     }
-                );
+                });
             }
             
         });
