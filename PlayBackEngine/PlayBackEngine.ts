@@ -24,7 +24,6 @@ export class PlayBackEngine {
         this.currentPage = 0;
         this.splideHandle = new Splide('.splide', {
             fixedHeight: window.innerHeight - 20,
-            perPage: 1,
         }).mount();
         this.addPageResizeListener();
     }
