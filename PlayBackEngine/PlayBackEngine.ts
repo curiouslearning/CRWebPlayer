@@ -23,12 +23,18 @@ export class PlayBackEngine {
         this.audioPath = audioPath;
         this.currentPage = 0;
         this.splideHandle = new Splide('.splide', {
-            fixedHeight: window.innerHeight - 20
+            fixedHeight: window.innerHeight - 20,
+            perPage: 1,
         }).mount();
+        this.addPageResizeListener();
     }
 
-    // take lets fly story, take the docs, installing workbox and making sure
-    // the lets fly is available as a service worker PWA
+    addPageResizeListener() {
+        window.addEventListener('resize', () => {
+            this.splideHandle.options.fixedHeight = window.innerHeight - 20;
+            this.splideHandle.refresh();
+        });
+    }
 
     initializeBook(book: Book) {
         this.currentBookType = book.bookType;
@@ -39,8 +45,6 @@ export class PlayBackEngine {
         } else if (this.currentBookType === BookType.GDL) {
             this.initializeGDLBook(book);
         }
-
-        
     }
 
     initializeCuriousReaderBook(book: Book) {
