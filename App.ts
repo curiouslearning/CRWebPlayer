@@ -94,15 +94,15 @@ import { log } from "console";
     }
 
     enforceLandscapeMode() {
-        if (screen.orientation && screen.orientation.lock) {
-            screen.orientation.lock("landscape")
-            .then(() => {
-                console.log("Screen orientation locked to landscape!");
-            })
-            .catch((error) => {
-                console.error("Failed to lock screen orientation: ", error);
-            });
-        } else {
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock("landscape").then(() => {
+                    console.log("Screen orientation locked to landscape!");
+                }).catch((error) => {
+                    console.log("Screen orientation lock failed! Interface may not work as expected on mobile devices!");
+                });
+            }
+        } catch (error) {
             console.warn("Screen orientation lock not supported! Interface may not work as expected on mobile devices!");
         }
     }
