@@ -1,16 +1,16 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./Parser/ContentParser";
 import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
-import { Workbox } from "workbox-window";
-// import { CRServiceWorker } from "./Helpers/ServiceWorker/ServiceWorker";
+import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 import { Splide } from "@splidejs/splide";
+import { loadavg } from "os";
+import { log } from "console";
 
  export class App {
 
     contentParser: ContentParser;
     playBackEngine: PlayBackEngine;
-    // serviceWorker: CRServiceWorker;
     
     contentFilePath: string;
     imagesPath: string;
@@ -19,7 +19,6 @@ import { Splide } from "@splidejs/splide";
     broadcastChannel: BroadcastChannel;
 
     cachedLanguages: Map<string, string> | null = new Map<string, string>();
-    // cachedLanguagesTag: string = "cached_languages";
     lang: string = "english";
     isCached: string = "is_cached";
 
@@ -30,14 +29,12 @@ import { Splide } from "@splidejs/splide";
         this.contentParser = new ContentParser(contentFilePath);
         this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
         this.broadcastChannel = new BroadcastChannel("my-channel");
-        // this.serviceWorker = new CRServiceWorker();
-        // this.serviceWorker.InitializeAndRegister();
 
         if (localStorage.getItem(this.isCached) == null) {
-            this.cachedLanguages = new Map();
+            // this.cachedLanguages = new Map();
         } else {
             let cachedLanguageString: string | null = localStorage.getItem(this.isCached)!;
-            this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
+            // this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
         }
     }
 
@@ -59,21 +56,25 @@ import { Splide } from "@splidejs/splide";
                         value: this.lang,
                         });
                     }
+                    
                 });
 
-                if (!this.cachedLanguages!.has(this.lang)) {
-                    this.broadcastChannel.postMessage({ command: "Cache", data: this.lang });
-                }
-                
+                wb.addEventListener("activated", (event) => {
+                    console.log("Service Worker installed, requesting a cache!");
+                    if (!this.cachedLanguages!.has(this.lang)) {
+                        this.broadcastChannel.postMessage({ command: "Cache", data: {"content": this.contentFilePath } });
+                    }
+                });
+
                 navigator.serviceWorker.addEventListener("message", (event) => {
                     if (event.data.msg == "Loading") {
                         if (event.data.data == 100) {
-                            this.cachedLanguages?.set(this.lang, "true");
-                            localStorage.setItem(
-                                this.isCached,
-                                JSON.stringify(this.cachedLanguages?.entries())
-                            );
-                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
+                            // this.cachedLanguages?.set(this.lang, "true");
+                            // localStorage.setItem(
+                            //     this.isCached,
+                            //     JSON.stringify(this.cachedLanguages?.entries())
+                            // );
+                            // this.readLanguageDataFromCacheAndNotifyAndroidApp();
                         }
                     }
                 });
