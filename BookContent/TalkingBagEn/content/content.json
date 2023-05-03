@@ -1,0 +1,645 @@
+{
+    "showCoverPage": true,
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-0b66ee7c8754ed068ad3d5c571f95355.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 480,
+                                    "height": 720
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "487f8d01-15b2-4700-b9b8-6eb8d03c0eae"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "93c783de-c87c-4814-b0d8-6eadce07f28f",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 1"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-4a8e4eb2f9389e5550a5ffd353d41673.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "76e15082-dd99-4c39-ad6a-4e15cea967d1"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nOnce upon a time there was a female giant. As she was walking near the lake one day, she met three little girls. The giant asked the girls, \"Who among you is loved by both parents?\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "b9a6890b-13e8-471e-8854-fad6843070e0"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "01d89aed-8223-4cb1-bf51-aeff0e6efbbe",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 2"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-3d6e04c8619ec7a7e8e65f2cc96a8f7a.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "ab99e58e-a730-47a7-8e6c-151115a4e645"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nOne of the girls said, \"My mother loves me most.\" Another said, \"My father loves me most. \"But the third one said, \"I am loved by both parents.\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "05f7a392-d624-44cc-8fc4-0d8aa07243e5"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "e95bddd8-444c-45cc-acd1-83feaad74a58",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 3"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-9471a8f401704d8846d437cea2639e47.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "2f5dbe62-4442-4baa-8174-15732fc0e24f"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nThe giant asked the girl loved by both parents to help her carry firewood. So the girl followed the giant."
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "5c5b0451-f49e-4dfc-a098-a40677748894"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "3ed355b6-5602-4e81-9d33-d458459d58a0",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 4"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-62ee81264d5ca656b7fe64a420d0adfd.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "6fc4c017-afdd-4e1c-8584-ac2026919a9d"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nThey walked for some distance. The girl asked the giant, \"Where is your firewood?\" The giant replied, \"It is near those trees over there!\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "aad3012a-3a48-49d3-b3bf-6635ce5885f2"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "d4dbe090-3431-4132-9a6e-dd360447b009",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 5"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-f9824d0add0a67113e65798e802c820d.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "cf9c12a3-eef8-4d40-9437-654efb21d042"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nWhen they reached the trees,  the girl asked again,  \"Where is your firewood?\" The giant answered,  \"Not far now!\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "898ee047-9773-431f-83a0-229ae60db47d"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "7f1f202a-d121-4add-a6c5-6c90e54c12e8",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 6"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-4bd42004258a12b647c9fd62290967f0.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "b1607c18-d1db-4eb5-8045-8ff6575eeec5"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nThey met a man along the way. He asked the giant, \"What is the name of your child?\" The giant replied, \"She is called the talking bag.\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "698240d2-230e-4615-81ee-7caba8f5dcc6"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "a1d7635a-7909-4bb1-ad50-b1d442a70b60",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 7"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-d683fecd1b581e827e2563045aef1e64.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "c339da65-41e1-4138-be48-dd314036a6a7"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nThe girl burst out singing. She sang, \"I am not called the talking bag. My name is Kaamungei! Oh! My mother, whom I love. Oh! My father, whom I love. Oh! My calabash, which I use to drink milk!\""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "2354508c-927a-4739-a532-fbceead1dd91"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "24a450df-c9a7-47ce-8f92-b169104349cb",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 8"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-3747124c7ac90481a324582485e014bd.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 273,
+                                    "height": 273
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "78154a37-dbfa-465d-a24f-a1bc56c87910"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "\nWhen the man heard what the girl sang,  he rescued her and took her back to her parents.  The story ends there!"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "4cde595d-9604-4ae0-ab15-dacaaaaea41e"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "97f61561-fe19-47d3-8ed9-8da612e6da66",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 9"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "text": "You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute in the following way:\nCaroline Lentupuru\n<strong>\n Author -\n<\/strong>\nCaroline Lentupuru\n\n<strong>\n Illustration -\n<\/strong>\nWiehan de Jager\n\n<strong>\n Language -\n<\/strong>\nEnglish\n\n<strong>\n Level -\n<\/strong>\nFirst paragraphs\n\u00a9 African Storybook Initiative 2014\n\nCreative Commons: Attribution 3.0\n\nSource\nwww.africanstorybook.org\n\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "f39eafef-f8d3-43e3-80b9-5d563ec30c98"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-b05ecc1c18eb82dd065f09f48f02e76d.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 215,
+                                    "height": 94
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "bc833a4d-e5b9-450d-b190-c4f234ce70a4"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": ""
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": ""
+                            },
+                            "subContentId": "3ed0f11b-811c-49df-b4fd-6dc9c2e2000c"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-0e3092caa488d94d313660efea502c08.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY"
+                                    },
+                                    "width": 306,
+                                    "height": 148
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": ""
+                            },
+                            "subContentId": "69cfe73a-82d6-4d34-95bc-64445df28875"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "987383b8-4515-48d5-bc85-16260e8a6642",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "Page 10"
+            }
+        }
+    ],
+    "behaviour": {
+        "defaultTableOfContents": false,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true
+    },
+    "read": "Read",
+    "displayTOC": "Display &#039;Table of contents&#039;",
+    "hideTOC": "Hide &#039;Table of contents&#039;",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score \/ @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "bookCover": {
+        "coverDescription": "Three little girls meet a giant who pretends to need help with firewood.",
+        "coverImage": {
+            "path": "images\/coverImage.jpg",
+            "mime": "image\/jpeg",
+            "copyright": {
+                "license": "CC BY"
+            },
+            "width": 480,
+            "height": 720
+        },
+        "publisher": "African Storybook Initiative",
+        "contributors": [
+            {
+                "name": "Caroline Lentupuru",
+                "type": "Author"
+            },
+            {
+                "name": "Wiehan de Jager",
+                "type": "Illustrator"
+            }
+        ]
+    }
+}

@@ -2,7 +2,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-routing.dev.js");
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-strategies.dev.js");
 
-workbox.precaching.precacheAndRoute([], {});
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {});
 
 let cachingProgress = 0;
 

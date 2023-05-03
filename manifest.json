@@ -11,6 +11,6 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "background_color": "#fff"
 }

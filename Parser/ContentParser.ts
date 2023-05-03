@@ -1,4 +1,4 @@
-import { Book, Page, TextElement, ImageElement, AudioElement } from "../Models/Models";
+import { Book, BookType, Page, TextElement, ImageElement, AudioElement } from "../Models/Models";
 
 export class ContentParser {
 
@@ -23,8 +23,11 @@ export class ContentParser {
 
                 let book: Book = {
                     pages: [],
+                    bookType: this.determineBookType(),
                 };
-                book.pages = this.parsePages();
+
+                book.pages = this.parsePages(book);
+
                 resolve(book);
             }).catch((error) => {
                 reject(error);
@@ -32,32 +35,60 @@ export class ContentParser {
         });
     }
 
-    parsePages(): Page[] {
-        let pages: Page[] = [];
-        let pagesJSON = this.contentJSON["presentation"]["slides"];
-        let globalFillColor = this.contentJSON["presentation"]["globalBackgroundSelector"]["fillGlobalBackground"];
-        for (let i = 0; i < pagesJSON.length; i++) {
-            let pageJSON = pagesJSON[i];
-            let page: Page = {
-                visualElements: [],
-                backgroundColor: globalFillColor,
-            };
-            page.visualElements = this.parsePage(pageJSON);
-            pages.push(page);
+    determineBookType(): BookType {
+        if (this.contentJSON["presentation"] !== undefined) {
+            return BookType.CuriousReader;
+        } else if (this.contentJSON["chapters"] !== undefined) {
+            return BookType.GDL;
+        } else {
+            return BookType.Unknown;
         }
+    }
+
+    parsePages(book: Book): Page[] {
+        let pages: Page[] = [];
+
+        if (book.bookType === BookType.CuriousReader) {
+            let pagesJSON = this.contentJSON["presentation"]["slides"];
+            let globalFillColor = this.contentJSON["presentation"]["globalBackgroundSelector"]["fillGlobalBackground"];
+            for (let i = 0; i < pagesJSON.length; i++) {
+                let pageJSON = pagesJSON[i];
+                let page: Page = {
+                    visualElements: [],
+                    backgroundColor: globalFillColor,
+                };
+                page.visualElements = this.parsePageCR(pageJSON);
+                pages.push(page);
+            }
+        } else if (book.bookType === BookType.GDL) {
+            let pagesJSON = this.contentJSON["chapters"];
+            let globalFillColor = "#FCFCF2";
+            for (let i = 0; i < pagesJSON.length; i++) {
+                let pageJSON = pagesJSON[i];
+                let page: Page = {
+                    visualElements: [],
+                    backgroundColor: globalFillColor,
+                }
+                page.visualElements = this.parsePageGDL(pageJSON);
+                pages.push(page);
+            }
+        } else {
+            console.log("Unknown book type!");
+        }
+
         return pages;
     }
 
-    parsePage(pageJSON: any): any[] {
+    parsePageCR(pageJSON: any): any[] {
         let visualElements: any[] = [];
         let elementsJSON = pageJSON["elements"];
         for (let i = 0; i < elementsJSON.length; i++) {
             let libraryString: string = elementsJSON[i]["action"]["library"];
             if (libraryString.includes("AdvancedText")) {
-                let textElement: TextElement = this.parseTextElement(elementsJSON[i]);
+                let textElement: TextElement = this.parseTextElementCR(elementsJSON[i]);
                 visualElements.push(textElement);
             } else if (libraryString.includes("Image")) {
-                let imageElement: ImageElement = this.parseImageElement(elementsJSON[i]);
+                let imageElement: ImageElement = this.parseImageElementCR(elementsJSON[i]);
                 visualElements.push(imageElement);
             }
             // else if (libraryString.includes("Audio")) {
@@ -69,7 +100,25 @@ export class ContentParser {
         return visualElements;
     }
 
-    parseTextElement(elementJSON: any): TextElement {
+    parsePageGDL(pageJSON: any): any[] {
+        let visualElements: any[] = [];
+        let elementsJSONArray = pageJSON["params"]["content"];
+
+        for (let i = 0; i < elementsJSONArray.length; i++) {
+            let libraryString: string = elementsJSONArray[i]["content"]["library"];
+            if (libraryString.includes("AdvancedText")) {
+                let textElement: TextElement = this.parseTextElementGDL(elementsJSONArray[i]["content"]["params"]);
+                visualElements.push(textElement);
+            } else if (libraryString.includes("Image")) {
+                let imageElement: ImageElement = this.parseImageElementGDL(elementsJSONArray[i]["content"]["params"]);
+                visualElements.push(imageElement);
+            }
+        }
+
+        return visualElements;
+    }
+
+    parseTextElementCR(elementJSON: any): TextElement {
         let textElement: TextElement = {
             type: "text",
             positionX: elementJSON["x"],
@@ -82,7 +131,19 @@ export class ContentParser {
         return textElement;
     }
 
-    parseImageElement(elementJSON: any): ImageElement {
+    parseTextElementGDL(elementJSON: any): TextElement {
+        let textElement: TextElement = {
+            type: "text",
+            positionX: NaN,
+            positionY: NaN,
+            width: NaN,
+            height: NaN,
+            textContentAsHTML: elementJSON["text"],
+        };
+        return textElement;
+    }
+
+    parseImageElementCR(elementJSON: any): ImageElement {
         let path: string = ""; ;
         if (elementJSON["action"]["params"]["file"] === undefined) {
             path = this.emptyGlowImageTag;
@@ -101,7 +162,19 @@ export class ContentParser {
         return imageElement;
     }
 
-    parseAudioElement(elementJSON: any): AudioElement {
+    parseImageElementGDL(elementJSON: any): ImageElement {
+        let imageElement: ImageElement = {
+            type: "image",
+            positionX: NaN,
+            positionY: NaN,
+            width: elementJSON["width"],
+            height: elementJSON["height"],
+            imageSource: elementJSON["file"]["path"],
+        };
+        return imageElement;
+    }
+
+    parseAudioElementCR(elementJSON: any): AudioElement {
         let audioElement: AudioElement = {
             type: "audio",
             positionX: elementJSON["position"]["x"],
