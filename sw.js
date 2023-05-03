@@ -42,33 +42,6 @@ function cacheTheBookJSONAndImages(contentFilePath) {
           })
       );
   });
-  // workbox.routing.registerRoute(
-  //   new RegExp(contentFilePath),
-  //   new workbox.strategies.CacheFirst()
-  // );
-  // caches.open('CRCache')
-  // .then(function(cache) {
-  //   // Add the file to the cache
-  //   cache.add(contentFilePath)
-  //     .then(function() {
-  //       console.log('File cached successfully!');
-  //     })
-  //     .catch(function(error) {
-  //       console.error('Failed to cache file:', error);
-  //     });
-  // });
-  // caches.keys().then((cacheNames) => {
-  //   cacheNames.forEach((cacheName) => {
-  //       self.clients.matchAll().then((clients) => {
-  //           clients.forEach((client) =>
-  //               client.postMessage({
-  //                   msg: "Loading",
-  //                   data: 100,
-  //               })
-  //           );
-  //       });
-  //   });
-  // });
 }
 
 self.addEventListener("fetch", function (event) {
@@ -87,6 +60,10 @@ self.addEventListener("fetch", function (event) {
         const requestString = event.request.url.toLowerCase();
         // If the response is valid, clone it and store it in the cache
         if (response.ok) {
+          let isContentCached = localStorage.getItem("is_cached");
+          if (isContentCached === null) {
+            localStorage.setItem("is_cached", "true");
+          }
           if (requestString.indexOf('bookcontent') !== -1) {
             console.log('Book content request');
             const segments = requestString.split('/');

@@ -69,6 +69,8 @@ import { log } from "console";
                 navigator.serviceWorker.addEventListener("message", (event) => {
                     if (event.data.msg == "Loading") {
                         if (event.data.data == 100) {
+                            console.log("Loading complete, notifying Android App!");
+                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
                             // this.cachedLanguages?.set(this.lang, "true");
                             // localStorage.setItem(
                             //     this.isCached,
@@ -88,8 +90,9 @@ import { log } from "console";
     readLanguageDataFromCacheAndNotifyAndroidApp() {
         //@ts-ignore
         if (window.Android) {
+            let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
             //@ts-ignore
-            window.Android.cachedStatus(cachedLanguages.has(lang) ? cachedLanguages.get(lang) : null);
+            window.Android.cachedStatus(isContentCached);
         }
     }
 
