@@ -51,35 +51,35 @@ import { log } from "console";
                 let wb = new Workbox("./sw.js", {});
                 wb.register().then((serviceWorkerRegistration) => {
                     if (serviceWorkerRegistration!.installing) {
-                        serviceWorkerRegistration!.installing.postMessage({
-                        type: "Registration",
-                        value: this.lang,
-                        });
+                        // serviceWorkerRegistration!.installing.postMessage({
+                        // type: "Registration",
+                        // value: this.lang,
+                        // });
                     }
-                    
+                    this.readLanguageDataFromCacheAndNotifyAndroidApp();
                 });
 
                 wb.addEventListener("activated", (event) => {
                     console.log("Service Worker installed, requesting a cache!");
-                    if (!this.cachedLanguages!.has(this.lang)) {
-                        this.broadcastChannel.postMessage({ command: "Cache", data: {"content": this.contentFilePath } });
-                    }
+                    // if (!this.cachedLanguages!.has(this.lang)) {
+                    //     this.broadcastChannel.postMessage({ command: "Cache", data: {"content": this.contentFilePath } });
+                    // }
                 });
 
-                navigator.serviceWorker.addEventListener("message", (event) => {
-                    if (event.data.msg == "Loading") {
-                        if (event.data.data == 100) {
-                            console.log("Loading complete, notifying Android App!");
-                            this.readLanguageDataFromCacheAndNotifyAndroidApp();
-                            // this.cachedLanguages?.set(this.lang, "true");
-                            // localStorage.setItem(
-                            //     this.isCached,
-                            //     JSON.stringify(this.cachedLanguages?.entries())
-                            // );
-                            // this.readLanguageDataFromCacheAndNotifyAndroidApp();
-                        }
-                    }
-                });
+                // navigator.serviceWorker.addEventListener("message", (event) => {
+                //     if (event.data.msg == "Loading") {
+                //         if (event.data.data == 100) {
+                //             console.log("Loading complete, notifying Android App!");
+                //             this.readLanguageDataFromCacheAndNotifyAndroidApp();
+                //             // this.cachedLanguages?.set(this.lang, "true");
+                //             // localStorage.setItem(
+                //             //     this.isCached,
+                //             //     JSON.stringify(this.cachedLanguages?.entries())
+                //             // );
+                //             // this.readLanguageDataFromCacheAndNotifyAndroidApp();
+                //         }
+                //     }
+                // });
             }
             
         });
@@ -90,9 +90,9 @@ import { log } from "console";
     readLanguageDataFromCacheAndNotifyAndroidApp() {
         //@ts-ignore
         if (window.Android) {
-            let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
+            // let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
             //@ts-ignore
-            window.Android.cachedStatus(isContentCached);
+            window.Android.cachedStatus(true);
         }
     }
 
