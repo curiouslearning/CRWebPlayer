@@ -56,22 +56,8 @@ export class PlayBackEngine {
                 let visualElement = book.pages[i].visualElements[j];
                 if (visualElement.type == "text") {
                     let textElement: TextElement = visualElement;
-                    let textElementDiv = document.createElement('div');
-
-                    textElementDiv.classList.add('cr-text');
-                    textElementDiv.style.position = "absolute";
-                    textElementDiv.style.webkitTextStroke = "1px #303030";
-                    textElementDiv.style.color = "#FFFFFF";
-                    textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
-                    textElementDiv.style.fontFamily = "Quicksand";
-                    textElementDiv.style.fontWeight = "800";
-                    textElementDiv.style.fontSize = "1.7em";
-                    textElementDiv.style.top = textElement.positionY + "%";
-                    textElementDiv.style.left = textElement.positionX + "%";
-                    textElementDiv.style.width = textElement.width + "%";
-                    textElementDiv.style.height = textElement.height + "%";
-                    textElementDiv.innerHTML = textElement.textContentAsHTML;
-                    slide.appendChild(textElementDiv);
+                    
+                    slide.appendChild(this.createTextContainer(textElement));
                 } else if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
 
@@ -79,21 +65,11 @@ export class PlayBackEngine {
                         continue;
                     }
 
-                    let imageElementDiv = document.createElement('div');
+                    slide.appendChild(this.createImageContainer(imageElement));
+                } else if (visualElement.type == "audio") {
+                    let audioElement: AudioElement = visualElement;
 
-                    imageElementDiv.classList.add('cr-image');
-                    imageElementDiv.style.position = "absolute";
-                    imageElementDiv.style.top = imageElement.positionY + "%";
-                    imageElementDiv.style.left = imageElement.positionX + "%";
-                    imageElementDiv.style.width = imageElement.width + "%";
-                    imageElementDiv.style.height = imageElement.height + "%";
-
-                    let imageElementImg = document.createElement('img');
-                    imageElementImg.src = this.imagesPath + imageElement.imageSource.replace("images/", "");
-                    imageElementImg.style.width = "100%";
-                    imageElementImg.style.height = "100%";
-                    imageElementDiv.appendChild(imageElementImg);
-                    slide.appendChild(imageElementDiv);
+                    slide.appendChild(this.createAudioContainer(audioElement));
                 }
 
                 this.splideHandle.add(slide);
