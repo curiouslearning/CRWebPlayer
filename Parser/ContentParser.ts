@@ -90,11 +90,10 @@ export class ContentParser {
             } else if (libraryString.includes("Image")) {
                 let imageElement: ImageElement = this.parseImageElementCR(elementsJSON[i]);
                 visualElements.push(imageElement);
+            } else if (libraryString.includes("Audio")) {
+                let audioElement: AudioElement = this.parseAudioElementCR(elementsJSON[i]);
+                visualElements.push(audioElement);
             }
-            // else if (libraryString.includes("Audio")) {
-            //     let audioElement: AudioElement = this.parseAudioElement(elementsJSON[i]);
-            //     visualElements.push(audioElement);
-            // }
         }
 
         return visualElements;
@@ -177,12 +176,12 @@ export class ContentParser {
     parseAudioElementCR(elementJSON: any): AudioElement {
         let audioElement: AudioElement = {
             type: "audio",
-            positionX: elementJSON["position"]["x"],
-            positionY: elementJSON["position"]["y"],
-            width: elementJSON["size"]["width"],
-            height: elementJSON["size"]["height"],
-            audioSrc: elementJSON["action"]["audioSrc"],
-            styles: elementJSON["styles"],
+            positionX: elementJSON["x"],
+            positionY: elementJSON["y"],
+            width: elementJSON["width"],
+            height: elementJSON["height"],
+            audioSrc: elementJSON["action"]["params"]["files"][0]["path"],
+            styles: "",
         };
 
         return audioElement;
