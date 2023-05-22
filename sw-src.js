@@ -55,7 +55,7 @@ self.addEventListener("fetch", function (event) {
       if (response) {
         return response;
       }
-      return fetch(event.request).then((response) => {
+      return fetch(event.request, {cache: "no-store"}).then((response) => {
         const clonedResponse = response.clone();
         const requestString = event.request.url.toLowerCase();
         // If the response is valid, clone it and store it in the cache
