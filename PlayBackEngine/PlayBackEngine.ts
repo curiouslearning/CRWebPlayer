@@ -1,6 +1,6 @@
 
 // Class that handles the playback of the whole book
-import { Book, BookType, Page, TextElement, ImageElement, AudioElement  } from "../Models/Models";
+import { Book, BookType, Page, TextElement, ImageElement, AudioElement, AudioTimestamps, WordTimestampElement  } from "../Models/Models";
 import { Splide } from "@splidejs/splide";
 
 export class PlayBackEngine {
@@ -27,6 +27,18 @@ export class PlayBackEngine {
         this.splideHandle = new Splide('.splide', {
             fixedHeight: window.innerHeight - 20,
         }).mount();
+
+        this.splideHandle.on('move', (newIndex, oldIndex, destIndex) => {
+            console.log("move");
+            this.transitioningToPage = true;
+        });
+
+        this.splideHandle.on('moved', (currentIndex, prevIndex, destIndex) => {
+            console.log("moved");
+            this.currentPage = currentIndex;
+            this.transitioningToPage = false;
+        });
+
         this.addPageResizeListener();
     }
 
