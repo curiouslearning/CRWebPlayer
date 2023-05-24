@@ -18,6 +18,8 @@ export class PlayBackEngine {
 
     currentBookType: BookType;
 
+    book: Book;
+
     constructor(imagesPath: string, audioPath: string) {
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
@@ -36,6 +38,7 @@ export class PlayBackEngine {
     }
 
     initializeBook(book: Book) {
+        this.book = book;
         this.currentBookType = book.bookType;
         this.numberOfPages = book.pages.length;
 
@@ -47,6 +50,8 @@ export class PlayBackEngine {
     }
 
     initializeCuriousReaderBook(book: Book) {
+        this.numberOfPages = book.pages.length;
+
         for (let i = 0; i < book.pages.length; i++) {
             const slide = document.createElement('li');
             slide.classList.add('splide__slide');
