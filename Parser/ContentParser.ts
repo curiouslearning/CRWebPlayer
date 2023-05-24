@@ -1,4 +1,4 @@
-import { Book, BookType, Page, TextElement, ImageElement, AudioElement } from "../Models/Models";
+import { Book, BookType, Page, TextElement, ImageElement, AudioElement, AudioTimestamps, WordTimestampElement } from "../Models/Models";
 
 export class ContentParser {
 
@@ -174,6 +174,20 @@ export class ContentParser {
     }
 
     parseAudioElementCR(elementJSON: any): AudioElement {
+        let audioTimestamps: AudioTimestamps = {
+            timestamps: [],
+        };
+        let timestampsJSONArray = elementJSON["action"]["params"]["timeStampForEachText"];
+        for (let i = 0; i < timestampsJSONArray.length; i++) {
+            let timestampJSON = timestampsJSONArray[i];
+            let timestamp: WordTimestampElement = {
+                word: timestampJSON["text"],
+                startTimestamp: timestampJSON["startDuration"],
+                endTimestamp: timestampJSON["endDuration"],
+                audioSrc: timestampJSON["wordfile"][0]["path"],
+            };
+            audioTimestamps.timestamps.push(timestamp);
+        }
         let audioElement: AudioElement = {
             type: "audio",
             positionX: elementJSON["x"],
@@ -181,6 +195,7 @@ export class ContentParser {
             width: elementJSON["width"],
             height: elementJSON["height"],
             audioSrc: elementJSON["action"]["params"]["files"][0]["path"],
+            audioTimestamps: audioTimestamps,
             styles: "",
         };
 
