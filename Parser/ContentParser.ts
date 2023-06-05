@@ -179,8 +179,10 @@ export class ContentParser {
         };
         let timestampsJSONArray = elementJSON["action"]["params"]["timeStampForEachText"];
         for (let i = 0; i < timestampsJSONArray.length; i++) {
+            let timestampIndex = i;
             let timestampJSON = timestampsJSONArray[i];
             let timestamp: WordTimestampElement = {
+                domID: elementJSON["action"]["subContentId"] + "_" + timestampIndex.toString(),
                 word: timestampJSON["text"],
                 startTimestamp: timestampJSON["startDuration"],
                 endTimestamp: timestampJSON["endDuration"],
@@ -189,6 +191,7 @@ export class ContentParser {
             audioTimestamps.timestamps.push(timestamp);
         }
         let audioElement: AudioElement = {
+            domID: elementJSON["action"]["subContentId"],
             type: "audio",
             positionX: elementJSON["x"],
             positionY: elementJSON["y"],
