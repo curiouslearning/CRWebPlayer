@@ -1,6 +1,6 @@
 
 // Class that handles the playback of the whole book
-import { Book, BookType, Page, TextElement, ImageElement, AudioElement, AudioTimestamps, WordTimestampElement  } from "../Models/Models";
+import { Book, BookType, Page, TextElement, ImageElement, AudioElement, AudioTimestamps, WordTimestampElement } from "../Models/Models";
 import { Splide } from "@splidejs/splide";
 
 export class PlayBackEngine {
@@ -29,17 +29,42 @@ export class PlayBackEngine {
         }).mount();
 
         this.splideHandle.on('move', (newIndex, oldIndex, destIndex) => {
-            console.log("move");
             this.transitioningToPage = true;
+            this.stopPageAudio(this.book.pages[oldIndex]);
         });
 
         this.splideHandle.on('moved', (currentIndex, prevIndex, destIndex) => {
-            console.log("moved");
             this.currentPage = currentIndex;
             this.transitioningToPage = false;
+            this.playPageAudio(this.book.pages[currentIndex]);
         });
 
         this.addPageResizeListener();
+    }
+
+    stopPageAudio(page: Page) {
+        // loop through page's visual elements, if we find an audio object get it by id and stop it
+        for (let i = 0; i < page.visualElements.length; i++) {
+            let visualElement = page.visualElements[i];
+            if (visualElement.type === "audio") {
+                let audioElement: AudioElement = visualElement;
+                let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
+                audioElementDom.pause();
+                audioElementDom.currentTime = 0;
+            }
+        }
+    }
+
+    playPageAudio(page: Page) {
+        // loop through page's visual elements, if we find an audio object get it by id and play it
+        for (let i = 0; i < page.visualElements.length; i++) {
+            let visualElement = page.visualElements[i];
+            if (visualElement.type === "audio") {
+                let audioElement: AudioElement = visualElement;
+                let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
+                audioElementDom.play();
+            }
+        }
     }
 
     addPageResizeListener() {
@@ -73,7 +98,7 @@ export class PlayBackEngine {
                 let visualElement = book.pages[i].visualElements[j];
                 if (visualElement.type == "text") {
                     let textElement: TextElement = visualElement;
-                    
+
                     slide.appendChild(this.createTextContainer(textElement));
                 } else if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
@@ -96,7 +121,8 @@ export class PlayBackEngine {
 
     createTextContainer(textElement: TextElement): HTMLDivElement {
         let textElementDiv = document.createElement('div');
-        
+
+        textElementDiv.id = 'cr-text';
         textElementDiv.classList.add('cr-text');
         textElementDiv.style.position = "absolute";
         textElementDiv.style.webkitTextStroke = "1px #303030";
@@ -109,7 +135,16 @@ export class PlayBackEngine {
         textElementDiv.style.left = textElement.positionX + "%";
         textElementDiv.style.width = textElement.width + "%";
         textElementDiv.style.height = textElement.height + "%";
-        textElementDiv.innerHTML = textElement.textContentAsHTML;
+        // textElementDiv.innerHTML = textElement.textContentAsHTML;
+
+        console.log("Inner Text: " + textElementDiv.innerText);
+
+        var modifiedContent = textElement.textContentAsHTML;
+        var modifiedContent1 = modifiedContent.replace(textElementDiv.innerText, "meow meow meow");
+
+        console.log(modifiedContent1);
+
+        // textElementDiv.innerHTML = textElement.textContentAsHTML.replace(textElementDiv.innerText, "meow meow meow");
 
         return textElementDiv;
     }
@@ -138,17 +173,23 @@ export class PlayBackEngine {
 
         audioElementDiv.classList.add('cr-audio');
         audioElementDiv.style.position = "absolute";
-        // audioElementDiv.style.top = audioElement.positionY + "%";
-        // audioElementDiv.style.left = audioElement.positionX + "%";
-        // audioElementDiv.style.width = audioElement.width + "%";
-        // audioElementDiv.style.height = audioElement.height + "%";
 
-        let audioEement = document.createElement('audio');
-        audioEement.src = this.audioPath + audioElement.audioSrc.replace("audios/", "");
-        audioEement.controls = false;
-        // audioEement.style.width = "100%";
-        // audioEement.style.height = "100%";
-        audioElementDiv.appendChild(audioEement);
+        let pageAudio = document.createElement('audio');
+        pageAudio.id = audioElement.domID;
+        pageAudio.src = this.audioPath + audioElement.audioSrc.replace("audios/", "");
+        pageAudio.controls = false;
+        audioElementDiv.appendChild(pageAudio);
+
+        if (audioElement.audioTimestamps !== undefined) {
+            for (let i = 0; i < audioElement.audioTimestamps.timestamps.length; i++) {
+                let wordTimestampElement: WordTimestampElement = audioElement.audioTimestamps.timestamps[i];
+                let wordAudioElement = document.createElement('audio');
+                wordAudioElement.id = wordTimestampElement.domID;
+                wordAudioElement.src = this.audioPath + wordTimestampElement.audioSrc.replace("audios/", "");
+                wordAudioElement.controls = false;
+                audioElementDiv.appendChild(wordAudioElement);
+            }
+        }
 
         return audioElementDiv;
     }
