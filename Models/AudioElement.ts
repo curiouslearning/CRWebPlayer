@@ -3,6 +3,7 @@
 import { AudioTimestamps } from "./AudioTimestamps";
 
 export type AudioElement = {
+    domID: string;
     type: string;
     positionX: number;
     positionY: number;
