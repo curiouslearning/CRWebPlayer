@@ -1,7 +1,7 @@
 
 // Class that handles the playback of the whole book
 import { Book, BookType, Page, TextElement, ImageElement, AudioElement, AudioTimestamps, WordTimestampElement } from "../Models/Models";
-import { Splide } from "@splidejs/splide";
+import { EVENT_ACTIVE, Splide } from "@splidejs/splide";
 
 export class PlayBackEngine {
 
