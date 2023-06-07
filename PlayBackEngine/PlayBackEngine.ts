@@ -152,6 +152,19 @@ export class PlayBackEngine {
 
                 this.splideHandle.add(slide);
             }
+
+            // If the sentence wasn't not initialized by the audio object
+            // then we add it here
+            if (!sentenceInitializedByAudio) {
+                for (let j = 0; j < book.pages[i].visualElements.length; j++) {
+                    let visualElement = book.pages[i].visualElements[j];
+                    if (visualElement.type == "text") {
+                        let textElement: TextElement = visualElement;
+    
+                        slide.appendChild(this.createTextContainer(textElement));
+                    }
+                }
+            }
         }
     }
 
