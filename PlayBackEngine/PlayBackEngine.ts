@@ -66,6 +66,21 @@ export class PlayBackEngine {
                 let audioElement: AudioElement = visualElement;
                 let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.play();
+
+                this.currentPageAutoPlayerInterval = setInterval(() => {
+                    if (audioElement.audioTimestamps !== undefined) {
+                        let currentTime = audioElementDom.currentTime;
+                        for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
+                            if (currentTime >= audioElement.audioTimestamps.timestamps[j].startTimestamp && currentTime <= audioElement.audioTimestamps.timestamps[j].endTimestamp) {
+                                // let wordTimestampElement: WordTimestampElement = audioElement.audioTimestamps.timestamps[i];
+                                // let wordAudioElement = document.getElementById(wordTimestampElement.domID) as HTMLAudioElement;
+                                // wordAudioElement.play();
+                                let wordElement = document.getElementById(audioElement.domID + '_word_' + j) as HTMLSpanElement;
+                                wordElement.style.color = "#FFFF00";
+                            }
+                        }
+                    }
+                }, 60);
             }
         }
     }
