@@ -111,14 +111,15 @@ export class PlayBackEngine {
             const slide = document.createElement('li');
             slide.classList.add('splide__slide');
 
-            // foreach visualelement in page add to slide
+            let sentenceInitializedByAudio = false;
+
+            // First we are adding the image and audio elements and the text after
+            // the reasoning behind this is that if the page contains an audio
+            // element in that case we should initialize text from the audio
+            // timestamps that we get from the content file
             for (let j = 0; j < book.pages[i].visualElements.length; j++) {
                 let visualElement = book.pages[i].visualElements[j];
-                if (visualElement.type == "text") {
-                    let textElement: TextElement = visualElement;
-
-                    slide.appendChild(this.createTextContainer(textElement));
-                } else if (visualElement.type == "image") {
+                if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
 
                     if (imageElement.imageSource === this.emptyGlowImageTag) {
