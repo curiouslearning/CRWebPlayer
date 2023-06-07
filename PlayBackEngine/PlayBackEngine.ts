@@ -128,9 +128,26 @@ export class PlayBackEngine {
 
                     slide.appendChild(this.createImageContainer(imageElement));
                 } else if (visualElement.type == "audio") {
+                    sentenceInitializedByAudio = true;
                     let audioElement: AudioElement = visualElement;
 
-                    slide.appendChild(this.createAudioContainer(audioElement));
+                    let textElement: TextElement = null;
+
+                    for (let j = 0; j < book.pages[i].visualElements.length; j++) {
+                        let visualElement = book.pages[i].visualElements[j];
+                        if (visualElement.type == "text") {
+                            textElement = visualElement;
+                            break;
+                        }
+                    }
+
+                    if (textElement) {
+                        let audioAndTextDivs = this.createAudioAndTextContainers(i, audioElement, textElement);
+                        slide.appendChild(audioAndTextDivs[0]);
+                        slide.appendChild(audioAndTextDivs[1]);
+                    } else {
+                        slide.appendChild(this.createAudioContainer(audioElement));
+                    }
                 }
 
                 this.splideHandle.add(slide);
