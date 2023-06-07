@@ -20,6 +20,8 @@ export class PlayBackEngine {
 
     book: Book;
 
+    currentPageAutoPlayerInterval: any;
+
     constructor(imagesPath: string, audioPath: string) {
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
