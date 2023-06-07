@@ -184,16 +184,7 @@ export class PlayBackEngine {
         textElementDiv.style.left = textElement.positionX + "%";
         textElementDiv.style.width = textElement.width + "%";
         textElementDiv.style.height = textElement.height + "%";
-        // textElementDiv.innerHTML = textElement.textContentAsHTML;
-
-        console.log("Inner Text: " + textElementDiv.innerText);
-
-        var modifiedContent = textElement.textContentAsHTML;
-        var modifiedContent1 = modifiedContent.replace(textElementDiv.innerText, "meow meow meow");
-
-        console.log(modifiedContent1);
-
-        // textElementDiv.innerHTML = textElement.textContentAsHTML.replace(textElementDiv.innerText, "meow meow meow");
+        textElementDiv.innerHTML = textElement.textContentAsHTML;
 
         return textElementDiv;
     }
