@@ -53,6 +53,7 @@ export class PlayBackEngine {
                 let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.pause();
                 audioElementDom.currentTime = 0;
+                clearInterval(this.currentPageAutoPlayerInterval);
             }
         }
     }
