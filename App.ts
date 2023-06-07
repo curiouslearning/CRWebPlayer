@@ -61,6 +61,7 @@ import { log } from "console";
 
                 wb.addEventListener("activated", (event) => {
                     console.log("Service Worker installed, requesting a cache!");
+                    window.location.reload();
                     // if (!this.cachedLanguages!.has(this.lang)) {
                     //     this.broadcastChannel.postMessage({ command: "Cache", data: {"content": this.contentFilePath } });
                     // }
