@@ -215,7 +215,12 @@ export class PlayBackEngine {
 
         if (imageElement.imageSource === this.emptyGlowImageTag) {
             imageElementDiv.classList.add('cr-image-empty-glow');
+            // Using classes here instead of id assignment, because we could have multiple glowing divs
+            // attached to one word in the sentence and having multiple elements with the same id is not
+            // allowed in HTML
+            imageElementDiv.classList.add(imageElement.domID);
         } else {
+            imageElementDiv.id = imageElement.domID;
             imageElementDiv.classList.add('cr-image');
 
             let imageElementImg = document.createElement('img');
