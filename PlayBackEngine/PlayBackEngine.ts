@@ -91,6 +91,12 @@ export class PlayBackEngine {
                                 lastWordIndex = currentIndex;
                             }
                         }
+                        if (currentTime >= audioElement.audioTimestamps.timestamps[audioElement.audioTimestamps.timestamps.length - 1].endTimestamp - 0.1) {
+                            console.log("Finished Highlighting! Current index: " + currentIndex + " last index: " + lastWordIndex);
+                            let wordElement = document.getElementById(audioElement.domID + '_word_' + currentIndex) as HTMLDivElement;
+                            wordElement.classList.remove('cr-clickable-word-active');
+                            clearInterval(this.currentPageAutoPlayerInterval);
+                        }
                     }
                 }, 60);
             }
