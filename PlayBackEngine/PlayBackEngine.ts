@@ -213,11 +213,18 @@ export class PlayBackEngine {
         imageElementDiv.style.width = imageElement.width + "%";
         imageElementDiv.style.height = imageElement.height + "%";
 
-        let imageElementImg = document.createElement('img');
-        imageElementImg.src = this.imagesPath + imageElement.imageSource.replace("images/", "");
-        imageElementImg.style.width = "100%";
-        imageElementImg.style.height = "100%";
-        imageElementDiv.appendChild(imageElementImg);
+        if (imageElement.imageSource === this.emptyGlowImageTag) {
+            imageElementDiv.classList.add('cr-image-empty-glow');
+        } else {
+            imageElementDiv.classList.add('cr-image');
+
+            let imageElementImg = document.createElement('img');
+            imageElementImg.src = this.imagesPath + imageElement.imageSource.replace("images/", "");
+            imageElementImg.style.width = "100%";
+            imageElementImg.style.height = "100%";
+            imageElementDiv.appendChild(imageElementImg);
+        }
+
 
         return imageElementDiv;
     }
