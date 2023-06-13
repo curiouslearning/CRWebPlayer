@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.cr-clickable-word {
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.cr-clickable-word-active {
+    cursor: pointer;
+    color: rgb(255, 216, 90) !important;
+    transform: scale(1.5) !important;
+    z-index: 100 !important;
+}
