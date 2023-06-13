@@ -305,8 +305,9 @@ export class PlayBackEngine {
         sentenceParagraph.style.fontSize = '1.75em';
 
         for (let i = 0; i < sentenceArrayTrimmed.length; i++) {
-            let clickableWordElement: HTMLSpanElement = document.createElement('span');
+            let clickableWordElement: HTMLSpanElement = document.createElement('div');
             clickableWordElement.id = audioContentDOMId + "_word_" + i;
+            clickableWordElement.classList.add('cr-clickable-word');
             clickableWordElement.style.margin = '10px';
             clickableWordElement.innerText = sentenceArrayTrimmed[i];
             clickableWordElement.addEventListener("click", (ev) => {
