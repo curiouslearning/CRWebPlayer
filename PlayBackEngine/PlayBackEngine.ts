@@ -206,7 +206,7 @@ export class PlayBackEngine {
     createImageContainer(imageElement: ImageElement): HTMLDivElement {
         let imageElementDiv = document.createElement('div');
 
-        imageElementDiv.id = imageElement.domID;
+        ;
         imageElementDiv.style.position = "absolute";
         imageElementDiv.style.top = imageElement.positionY + "%";
         imageElementDiv.style.left = imageElement.positionX + "%";
