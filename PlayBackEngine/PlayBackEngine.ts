@@ -330,6 +330,11 @@ export class PlayBackEngine {
             if (visualElement.type === "audio") {
                 let audioElement: AudioElement = visualElement;
                 let wordAudioElement = document.getElementById(audioElement.audioTimestamps.timestamps[wordIndex].domID) as HTMLAudioElement;
+                let wordElement = document.getElementById(audioElement.domID + '_word_' + wordIndex) as HTMLDivElement;
+                wordElement.classList.add('cr-clickable-word-active');
+                setTimeout(() => {
+                    wordElement.classList.remove('cr-clickable-word-active');
+                }, 500);
                 wordAudioElement.play();
             }
         }
