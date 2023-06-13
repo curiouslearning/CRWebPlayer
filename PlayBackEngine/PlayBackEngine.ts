@@ -54,6 +54,10 @@ export class PlayBackEngine {
                 audioElementDom.pause();
                 audioElementDom.currentTime = 0;
                 clearInterval(this.currentPageAutoPlayerInterval);
+                for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
+                    let wordElement = document.getElementById(audioElement.domID + '_word_' + j) as HTMLDivElement;
+                    wordElement.classList.remove('cr-clickable-word-active');
+                }
             }
         }
     }
