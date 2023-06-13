@@ -83,6 +83,12 @@ export class PlayBackEngine {
                                 let wordElement = document.getElementById(audioElement.domID + '_word_' + currentIndex) as HTMLDivElement;
                                 wordElement.classList.add('cr-clickable-word-active');
                             } 
+
+                            if (lastWordIndex < currentIndex) {
+                                console.log("Current index: " + currentIndex + " last index: " + lastWordIndex);
+                                let wordElement = document.getElementById(audioElement.domID + '_word_' + lastWordIndex) as HTMLDivElement;
+                                wordElement.classList.remove('cr-clickable-word-active');
+                                lastWordIndex = currentIndex;
                             }
                         }
                     }
