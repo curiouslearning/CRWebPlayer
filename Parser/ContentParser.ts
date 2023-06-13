@@ -164,6 +164,7 @@ export class ContentParser {
 
     parseImageElementGDL(elementJSON: any): ImageElement {
         let imageElement: ImageElement = {
+            domID: '',
             type: "image",
             positionX: NaN,
             positionY: NaN,
