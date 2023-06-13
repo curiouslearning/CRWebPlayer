@@ -140,10 +140,6 @@ export class PlayBackEngine {
                 if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
 
-                    if (imageElement.imageSource === this.emptyGlowImageTag) {
-                        continue;
-                    }
-
                     slide.appendChild(this.createImageContainer(imageElement));
                 } else if (visualElement.type == "audio") {
                     sentenceInitializedByAudio = true;
