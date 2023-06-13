@@ -71,6 +71,9 @@ export class PlayBackEngine {
                 let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.play();
 
+                let lastWordIndex = 0;
+                let currentIndex = 0;
+
                 this.currentPageAutoPlayerInterval = setInterval(() => {
                     if (audioElement.audioTimestamps !== undefined) {
                         let currentTime = audioElementDom.currentTime;
