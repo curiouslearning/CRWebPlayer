@@ -57,20 +57,12 @@ export class PlayBackEngine {
             let visualElement = page.visualElements[i];
             if (visualElement.type === "audio") {
                 let audioElement: AudioElement = visualElement;
-                let audioElementDom = document.getElementById(
-                    audioElement.domID
-                ) as HTMLAudioElement;
+                let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.pause();
                 audioElementDom.currentTime = 0;
                 clearInterval(this.currentPageAutoPlayerInterval);
-                for (
-                    let j = 0;
-                    j < audioElement.audioTimestamps.timestamps.length;
-                    j++
-                ) {
-                    let wordElement = document.getElementById(
-                        audioElement.domID + "_word_" + j
-                    ) as HTMLDivElement;
+                for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
+                    let wordElement = document.getElementById(audioElement.domID + "_word_" + j) as HTMLDivElement;
                     wordElement.classList.remove("cr-clickable-word-active");
                 }
             }
@@ -94,46 +86,25 @@ export class PlayBackEngine {
                 this.currentPageAutoPlayerInterval = setInterval(() => {
                     if (audioElement.audioTimestamps !== undefined) {
                         let currentTime = audioElementDom.currentTime;
-                        for (
-                            let j = 0;
-                            j < audioElement.audioTimestamps.timestamps.length;
-                            j++
-                        ) {
-                            if (
-                                currentTime >=
-                                audioElement.audioTimestamps.timestamps[j].startTimestamp &&
-                                currentTime <=
-                                audioElement.audioTimestamps.timestamps[j].endTimestamp
-                            ) {
+                        for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
+                            if (currentTime >= audioElement.audioTimestamps.timestamps[j].startTimestamp && currentTime <= audioElement.audioTimestamps.timestamps[j].endTimestamp) {
                                 currentIndex = j;
-                                let wordElement = document.getElementById(
-                                    audioElement.domID + "_word_" + currentIndex
-                                ) as HTMLDivElement;
+                                let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
                                 wordElement.classList.add("cr-clickable-word-active");
                                 wordElement.style.color = audioElement.glowColor;
                             }
 
                             if (lastWordIndex < currentIndex) {
                                 // console.log("Current index: " + currentIndex + " last index: " + lastWordIndex);
-                                let wordElement = document.getElementById(
-                                    audioElement.domID + "_word_" + lastWordIndex
-                                ) as HTMLDivElement;
+                                let wordElement = document.getElementById(audioElement.domID + "_word_" + lastWordIndex) as HTMLDivElement;
                                 wordElement.classList.remove("cr-clickable-word-active");
                                 wordElement.style.color = "white";
                                 lastWordIndex = currentIndex;
                             }
                         }
-                        if (
-                            currentTime >=
-                            audioElement.audioTimestamps.timestamps[
-                                audioElement.audioTimestamps.timestamps.length - 1
-                            ].endTimestamp -
-                            0.1
-                        ) {
+                        if (currentTime >= audioElement.audioTimestamps.timestamps[audioElement.audioTimestamps.timestamps.length - 1].endTimestamp - 0.1) {
                             // console.log("Finished Highlighting! Current index: " + currentIndex + " last index: " + lastWordIndex);
-                            let wordElement = document.getElementById(
-                                audioElement.domID + "_word_" + currentIndex
-                            ) as HTMLDivElement;
+                            let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
                             wordElement.classList.remove("cr-clickable-word-active");
                             wordElement.style.color = "white";
                             clearInterval(this.currentPageAutoPlayerInterval);
@@ -197,11 +168,7 @@ export class PlayBackEngine {
                     }
 
                     if (textElement) {
-                        let audioAndTextDivs = this.createAudioAndTextContainers(
-                            i,
-                            audioElement,
-                            textElement
-                        );
+                        let audioAndTextDivs = this.createAudioAndTextContainers(i, audioElement, textElement);
                         slide.appendChild(audioAndTextDivs[0]);
                         slide.appendChild(audioAndTextDivs[1]);
                     } else {
@@ -286,19 +253,16 @@ export class PlayBackEngine {
 
         let pageAudio = document.createElement("audio");
         pageAudio.id = audioElement.domID;
-        pageAudio.src =
-            this.audioPath + audioElement.audioSrc.replace("audios/", "");
+        pageAudio.src = this.audioPath + audioElement.audioSrc.replace("audios/", "");
         pageAudio.controls = false;
         audioElementDiv.appendChild(pageAudio);
 
         if (audioElement.audioTimestamps !== undefined) {
             for (let i = 0; i < audioElement.audioTimestamps.timestamps.length; i++) {
-                let wordTimestampElement: WordTimestampElement =
-                    audioElement.audioTimestamps.timestamps[i];
+                let wordTimestampElement: WordTimestampElement = audioElement.audioTimestamps.timestamps[i];
                 let wordAudioElement = document.createElement("audio");
                 wordAudioElement.id = wordTimestampElement.domID;
-                wordAudioElement.src =
-                    this.audioPath + wordTimestampElement.audioSrc.replace("audios/", "");
+                wordAudioElement.src = this.audioPath + wordTimestampElement.audioSrc.replace("audios/", "");
                 wordAudioElement.controls = false;
                 audioElementDiv.appendChild(wordAudioElement);
             }
@@ -307,11 +271,7 @@ export class PlayBackEngine {
         return audioElementDiv;
     }
 
-    createAudioAndTextContainers(
-        pageIndex: number,
-        audioElement: AudioElement,
-        textElement: TextElement
-    ): HTMLDivElement[] {
+    createAudioAndTextContainers(pageIndex: number, audioElement: AudioElement, textElement: TextElement): HTMLDivElement[] {
         let audioAndTextArray: HTMLDivElement[] = Array();
 
         let audioElementDiv = document.createElement("div");
@@ -321,8 +281,7 @@ export class PlayBackEngine {
 
         let pageAudio = document.createElement("audio");
         pageAudio.id = audioElement.domID;
-        pageAudio.src =
-            this.audioPath + audioElement.audioSrc.replace("audios/", "");
+        pageAudio.src = this.audioPath + audioElement.audioSrc.replace("audios/", "");
         pageAudio.controls = false;
         audioElementDiv.appendChild(pageAudio);
 
@@ -330,12 +289,10 @@ export class PlayBackEngine {
 
         if (audioElement.audioTimestamps !== undefined) {
             for (let i = 0; i < audioElement.audioTimestamps.timestamps.length; i++) {
-                let wordTimestampElement: WordTimestampElement =
-                    audioElement.audioTimestamps.timestamps[i];
+                let wordTimestampElement: WordTimestampElement = audioElement.audioTimestamps.timestamps[i];
                 let wordAudioElement = document.createElement("audio");
                 wordAudioElement.id = wordTimestampElement.domID;
-                wordAudioElement.src =
-                    this.audioPath + wordTimestampElement.audioSrc.replace("audios/", "");
+                wordAudioElement.src = this.audioPath + wordTimestampElement.audioSrc.replace("audios/", "");
                 wordAudioElement.controls = false;
                 sentenceArrayTrimmed.push(wordTimestampElement.word.trim());
                 audioElementDiv.appendChild(wordAudioElement);
@@ -391,12 +348,8 @@ export class PlayBackEngine {
             let visualElement = page.visualElements[i];
             if (visualElement.type === "audio") {
                 let audioElement: AudioElement = visualElement;
-                let wordAudioElement = document.getElementById(
-                    audioElement.audioTimestamps.timestamps[wordIndex].domID
-                ) as HTMLAudioElement;
-                let wordElement = document.getElementById(
-                    audioElement.domID + "_word_" + wordIndex
-                ) as HTMLDivElement;
+                let wordAudioElement = document.getElementById(audioElement.audioTimestamps.timestamps[wordIndex].domID) as HTMLAudioElement;
+                let wordElement = document.getElementById(audioElement.domID + "_word_" + wordIndex) as HTMLDivElement;
                 wordElement.classList.add("cr-clickable-word-active");
                 setTimeout(() => {
                     wordElement.classList.remove("cr-clickable-word-active");
@@ -446,8 +399,7 @@ export class PlayBackEngine {
                     imageElementDiv.classList.add("gdl-image");
 
                     let imageElementImg = document.createElement("img");
-                    imageElementImg.src =
-                        this.imagesPath + imageElement.imageSource.replace("images/", "");
+                    imageElementImg.src = this.imagesPath + imageElement.imageSource.replace("images/", "");
                     imageElementImg.style.width = "100%";
                     imageElementImg.style.height = "100%";
                     imageElementDiv.appendChild(imageElementImg);
