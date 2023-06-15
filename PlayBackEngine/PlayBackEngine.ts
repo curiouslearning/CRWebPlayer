@@ -151,8 +151,8 @@ export class PlayBackEngine {
                 let visualElement = book.pages[i].visualElements[j];
                 if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
-
-                    slide.appendChild(this.createImageContainer(imageElement));
+                    let pageIndex = i;
+                    slide.appendChild(this.createImageContainer(pageIndex, imageElement));
                 } else if (visualElement.type == "audio") {
                     sentenceInitializedByAudio = true;
                     let audioElement: AudioElement = visualElement;
@@ -215,7 +215,7 @@ export class PlayBackEngine {
         return textElementDiv;
     }
 
-    createImageContainer(imageElement: ImageElement): HTMLDivElement {
+    createImageContainer(pageIndex: number, imageElement: ImageElement): HTMLDivElement {
         let imageElementDiv = document.createElement("div");
 
         imageElementDiv.style.position = "absolute";
@@ -230,6 +230,9 @@ export class PlayBackEngine {
             // attached to one word in the sentence and having multiple elements with the same id is not
             // allowed in HTML
             imageElementDiv.classList.add(imageElement.domID);
+            imageElementDiv.addEventListener("click", () => {
+                this.handleGlowImageClick(pageIndex, imageElement.domID.split("_")[1]);
+            });
         } else {
             imageElementDiv.id = imageElement.domID;
             imageElementDiv.classList.add("cr-image");
@@ -342,6 +345,12 @@ export class PlayBackEngine {
         return audioAndTextArray;
     }
 
+    handleGlowImageClick(pageIndex: number, wordIndex: string) {
+        // Parse the number from the wordIndex
+        let wordIndexNumber = parseInt(wordIndex);
+        this.handleInteractiveWordClick(pageIndex, wordIndexNumber);
+    }
+
     handleInteractiveWordClick(pageIndex: number, wordIndex: number) {
         let page = this.book.pages[pageIndex];
         for (let i = 0; i < page.visualElements.length; i++) {
@@ -364,6 +373,7 @@ export class PlayBackEngine {
 
                 setTimeout(() => {
                     wordElement.classList.remove("cr-clickable-word-active");
+                    wordElement.style.color = "white";
                     for (let i = 0; i < connectedGlowImages.length; i++) {
                         let glowDiv = connectedGlowImages[i] as HTMLDivElement;
                         glowDiv.style.boxShadow = "transparent 0px 0px 20px 20px";
