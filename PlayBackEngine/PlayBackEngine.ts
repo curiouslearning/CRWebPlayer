@@ -348,12 +348,27 @@ export class PlayBackEngine {
             let visualElement = page.visualElements[i];
             if (visualElement.type === "audio") {
                 let audioElement: AudioElement = visualElement;
+                // Highlight the word
                 let wordAudioElement = document.getElementById(audioElement.audioTimestamps.timestamps[wordIndex].domID) as HTMLAudioElement;
                 let wordElement = document.getElementById(audioElement.domID + "_word_" + wordIndex) as HTMLDivElement;
                 wordElement.classList.add("cr-clickable-word-active");
+                wordElement.style.color = audioElement.glowColor;
+
+                // Highlight the connected glow images
+                let connectedGlowImageClass = "img" + audioElement.domID + "_" + wordIndex;
+                let connectedGlowImages = document.getElementsByClassName(connectedGlowImageClass);
+                for (let i = 0; i < connectedGlowImages.length; i++) {
+                    let glowDiv = connectedGlowImages[i] as HTMLDivElement;
+                    glowDiv.style.boxShadow = audioElement.glowColor + " 0px 0px 20px 20px";
+                }
+
                 setTimeout(() => {
                     wordElement.classList.remove("cr-clickable-word-active");
-                }, 500);
+                    for (let i = 0; i < connectedGlowImages.length; i++) {
+                        let glowDiv = connectedGlowImages[i] as HTMLDivElement;
+                        glowDiv.style.boxShadow = "transparent 0px 0px 20px 20px";
+                    }
+                }, 600);
                 wordAudioElement.play();
             }
         }
