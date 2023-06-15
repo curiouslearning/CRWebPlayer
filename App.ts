@@ -41,7 +41,7 @@ export class App {
 
   async initialize() {
     let book: Book = await this.contentParser.parseBook();
-
+    let self = this;
     console.log("Dev App initialized!");
     console.log(book);
 
@@ -57,7 +57,8 @@ export class App {
             // value: this.lang,
             // });
           }
-          this.readLanguageDataFromCacheAndNotifyAndroidApp();
+
+          self.readLanguageDataFromCacheAndNotifyAndroidApp();
         });
 
         wb.addEventListener("activated", (event) => {
@@ -84,7 +85,7 @@ export class App {
         // });
       }
     });
-
+    self.readLanguageDataFromCacheAndNotifyAndroidApp();
     this.playBackEngine.initializeBook(book);
   }
 
