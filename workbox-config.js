@@ -1,25 +1,19 @@
 module.exports = {
-    globDirectory: '/',
-    globPatterns: [
-        '**/*.{html,js,css}',
-        'dist/images/*.{png,jpg,gif,svg}',
-        'dist/fonts/*.{woff,woff2,eot,ttf,otf}'
+    globDirectory: "./",
+    globPatterns: ["**/*.{wav,mp3,WAV,png,webp,otf,jpg,js,json,css,html}"],
+    swDest: "sw.js",
+    swSrc: "sw-src.js",
+    globIgnores:[
+        "BookContent/**/*", 
+        "node_modules/**/*",
+        "workbox-config.js",
+        "sw-src.js",
+        "tsconfig.json",
+        "webpack.config.js",
+        "package.json",
+        "package-lock.json",
+        "README.md",
+        "workbox-7f917042.js",
+        "workbox-7f917042.js.map",
     ],
-    globIgnores: [
-        'node_modules/**/*',
-        'workbox-config.js',
-        'webpack.config.js',
-        'package.json',
-        'package-lock.json',
-        'tsconfig.json',
-        'README.md',
-        'LICENSE',
-        'Helpers/**/*',
-        'Parser/**/*',
-        'PlayBackEngine/**/*',
-        'third-party/**/*',
-        '.gitignore'
-    ],
-    swDest: './sw.js',
-    swSrc: 'sw-src.js',
 };
