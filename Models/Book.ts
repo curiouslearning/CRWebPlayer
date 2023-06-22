@@ -9,6 +9,7 @@ export enum BookType {
 }
 
 export type Book = {
+    bookName: string;
     pages: Page[];
     bookType: BookType;
 }
