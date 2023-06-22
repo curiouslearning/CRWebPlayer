@@ -7,133 +7,132 @@ import { Splide } from "@splidejs/splide";
 import { loadavg } from "os";
 import { log } from "console";
 
-export class App {
-  contentParser: ContentParser;
-  playBackEngine: PlayBackEngine;
+ export class App {
 
-  contentFilePath: string;
-  imagesPath: string;
-  audioPath: string;
+    contentParser: ContentParser;
+    playBackEngine: PlayBackEngine;
+    
+    contentFilePath: string;
+    imagesPath: string;
+    audioPath: string;
+    bookName: string;
 
-  broadcastChannel: BroadcastChannel;
+    broadcastChannel: BroadcastChannel;
 
-  cachedLanguages: Map<string, string> | null = new Map<string, string>();
-  lang: string = "english";
-  isCached: string = "is_cached";
+    cachedLanguages: Map<string, string> | null = new Map<string, string>();
+    lang: string = "english";
+    isCached: string = "is_cached";
 
-  constructor(contentFilePath: string, imagesPath: string, audioPath: string) {
-    this.contentFilePath = contentFilePath;
-    this.imagesPath = imagesPath;
-    this.audioPath = audioPath;
-    this.contentParser = new ContentParser(contentFilePath);
-    this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
-    this.broadcastChannel = new BroadcastChannel("my-channel");
+    constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
+        this.bookName = bookName;
+        this.contentFilePath = contentFilePath;
+        this.imagesPath = imagesPath;
+        this.audioPath = audioPath;
+        this.contentParser = new ContentParser(contentFilePath);
+        this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
+        this.broadcastChannel = new BroadcastChannel("cr-message-channel");
 
-    if (localStorage.getItem(this.isCached) == null) {
-      // this.cachedLanguages = new Map();
-    } else {
-      let cachedLanguageString: string | null = localStorage.getItem(
-        this.isCached
-      )!;
-      // this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
+        if (localStorage.getItem(this.isCached) == null) {
+            // this.cachedLanguages = new Map();
+        } else {
+            let cachedLanguageString: string | null = localStorage.getItem(this.isCached)!;
+            // this.cachedLanguages = new Map(JSON.parse(cachedLanguageString));
+        }
     }
-  }
 
-  async initialize() {
-    let book: Book = await this.contentParser.parseBook();
-    let self = this;
-    console.log("Dev App initialized!");
-    console.log(book);
+    async initialize() {
+        let book: Book = await this.contentParser.parseBook();
+        book.bookName = this.bookName;
 
-    this.enforceLandscapeMode();
+        console.log("Dev App initialized!");
+        console.log(book);
 
-    window.addEventListener("load", async () => {
-      if ("serviceWorker" in navigator) {
-        let wb = new Workbox("./sw.js", {});
-        wb.register().then((serviceWorkerRegistration) => {
-          if (serviceWorkerRegistration!.installing) {
-            // serviceWorkerRegistration!.installing.postMessage({
-            // type: "Registration",
-            // value: this.lang,
-            // });
-          }
-
-          self.readLanguageDataFromCacheAndNotifyAndroidApp();
+        this.enforceLandscapeMode();
+        
+        window.addEventListener("load", async () => {
+            this.registerServiceWorker(book);
         });
 
-        wb.addEventListener("activated", (event) => {
-          console.log("Service Worker installed, requesting a cache!");
-          window.location.reload();
-          // if (!this.cachedLanguages!.has(this.lang)) {
-          //     this.broadcastChannel.postMessage({ command: "Cache", data: {"content": this.contentFilePath } });
-          // }
-        });
-
-        // navigator.serviceWorker.addEventListener("message", (event) => {
-        //     if (event.data.msg == "Loading") {
-        //         if (event.data.data == 100) {
-        //             console.log("Loading complete, notifying Android App!");
-        //             this.readLanguageDataFromCacheAndNotifyAndroidApp();
-        //             // this.cachedLanguages?.set(this.lang, "true");
-        //             // localStorage.setItem(
-        //             //     this.isCached,
-        //             //     JSON.stringify(this.cachedLanguages?.entries())
-        //             // );
-        //             // this.readLanguageDataFromCacheAndNotifyAndroidApp();
-        //         }
-        //     }
-        // });
-      }
-    });
-    self.readLanguageDataFromCacheAndNotifyAndroidApp();
-    this.playBackEngine.initializeBook(book);
-  }
-
-  readLanguageDataFromCacheAndNotifyAndroidApp() {
-    console.log("Attempting to call Android cached Status!");
-    //@ts-ignore
-    if (window.Android) {
-      // let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
-      console.log("Calling Cached Status!!!!!! >>>>>>>>>>>>>>");
-      //@ts-ignore
-      window.Android.cachedStatus(true);
+        this.playBackEngine.initializeBook(book);
     }
-  }
 
-  enforceLandscapeMode() {
-    try {
-      if (screen.orientation && screen.orientation.lock) {
-        screen.orientation
-          .lock("landscape")
-          .then(() => {
-            console.log("Screen orientation locked to landscape!");
-          })
-          .catch((error) => {
-            console.log(
-              "Screen orientation lock failed! Interface may not work as expected on mobile devices!"
-            );
-          });
-      }
-    } catch (error) {
-      console.warn(
-        "Screen orientation lock not supported! Interface may not work as expected on mobile devices!"
-      );
+    registerServiceWorker(book: Book): void {
+        if ("serviceWorker" in navigator) {
+            let wb = new Workbox("./sw.js", {});
+            wb.register().then((r) => { this.handleServiceWorkerRegistration(r) });
+            console.log("CRapp: Service Worker Registered! Sending Cache Message!");
+            this.broadcastChannel.postMessage({
+                command: "Cache",
+                data: {
+                    lang: this.lang,
+                    bookData: book,
+                    contentFile: this.contentFilePath,
+                }
+            });
+
+            navigator.serviceWorker.addEventListener("message", this.handleServiceWorkerMessage);
+        }
     }
-  }
-}
 
-// Passing absolute path to the content file and resource directories
-// Curious Reader Book: Let's Fly Level 2
-let app: App = new App(
-  "/BookContent/LetsFlyLevel2En/content/content.json",
-  "/BookContent/LetsFlyLevel2En/content/images/",
-  "/BookContent/LetsFlyLevel2En/content/audios/"
-);
+    handleServiceWorkerRegistration(registration: ServiceWorkerRegistration | undefined): void {
+        try {
+            registration?.installing?.postMessage({
+                type: "Registartion",
+                value: this.lang
+            });
+        } catch (error) {
+            console.error("CRapp: Service Worker Registration Failed!", error);
+        }
+    }
+
+    handleServiceWorkerMessage(event: MessageEvent): void {
+        if (event.data.msg == "Recache") {
+            console.log("CRapp: Recache Message Received!");
+            // handleVersionUpdate(event.data);
+        }else if (event.data.msg == "Loading") {
+            console.log("CRapp: Loading Message Received!");
+            // handleLoadingMessage(event.data);
+        }else if (event.data.msg == "Update Found") {
+            console.log("CRapp: Update Found Message Received!");
+            // handleUpdateFoundMessage();
+        }
+    }
+
+    readLanguageDataFromCacheAndNotifyAndroidApp() {
+        //@ts-ignore
+        if (window.Android) {
+            // let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
+            //@ts-ignore
+            window.Android.cachedStatus(true);
+        }
+    }
+
+    enforceLandscapeMode() {
+        try {
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock("landscape").then(() => {
+                    console.log("Screen orientation locked to landscape!");
+                }).catch((error) => {
+                    console.log("Screen orientation lock failed! Interface may not work as expected on mobile devices!");
+                });
+            }
+        } catch (error) {
+            console.warn("Screen orientation lock not supported! Interface may not work as expected on mobile devices!");
+        }
+    }
+
+ }
+
+ // Passing absolute path to the content file and resource directories
+ // Curious Reader Book: Let's Fly Level 2
+let app: App = new App("LetsFlyLevel2En", "/BookContent/LetsFlyLevel2En/content/content.json",
+    "/BookContent/LetsFlyLevel2En/content/images/",
+    "/BookContent/LetsFlyLevel2En/content/audios/");
 
 // GDL Book: Talking Bag English
 // let app: App = new App("/BookContent/TalkingBagEn/content/content.json",
-// "/BookContent/TalkingBagEn/content/images/",
-// "/BookContent/TalkingBagEn/content/audio/");
+    // "/BookContent/TalkingBagEn/content/images/",
+    // "/BookContent/TalkingBagEn/content/audio/");
 
 // Initialize the app, beginning to read the content file, parsing  and displaying the book
 app.initialize();
