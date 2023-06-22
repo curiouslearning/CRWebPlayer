@@ -31,6 +31,7 @@ export class ContentParser {
                     console.log(this.contentJSON);
 
                     let book: Book = {
+                        bookName: "",
                         pages: [],
                         bookType: this.determineBookType(),
                     };
