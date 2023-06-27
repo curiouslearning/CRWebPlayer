@@ -3,9 +3,6 @@ import { ContentParser } from "./Parser/ContentParser";
 import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
 import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
-import { Splide } from "@splidejs/splide";
-import { loadavg } from "os";
-import { log } from "console";
 
  export class App {
 
