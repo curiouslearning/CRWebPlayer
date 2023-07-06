@@ -88,6 +88,7 @@ import { Book } from "./Models/Models";
             // handleVersionUpdate(event.data);
         }else if (event.data.msg == "Loading") {
             console.log("CRapp: Loading Message Received!");
+            console.log(event.data);
             // handleLoadingMessage(event.data);
         }else if (event.data.msg == "Update Found") {
             console.log("CRapp: Update Found Message Received!");

@@ -1,11 +1,12 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-workbox.precaching.precacheAndRoute([{"revision":"bcc87eb143f8ac87916ec6af9082de40","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"bc92eb97bd5adf60494d1b22c0c9051b","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"68e0d3720b499d31bf3fb00ffd528dc7","url":"index.html"},{"revision":"91d600ca317cc9985a0fc479c783f8ad","url":"manifest.json"}], {});
+workbox.precaching.precacheAndRoute([{"revision":"3f56efac3383b3713f3a9c88ada6a100","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"bc92eb97bd5adf60494d1b22c0c9051b","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"68e0d3720b499d31bf3fb00ffd528dc7","url":"index.html"},{"revision":"91d600ca317cc9985a0fc479c783f8ad","url":"manifest.json"}], {});
 
 const channel = new BroadcastChannel("cr-message-channel");
 
 let version = 0.9;
 let cachingProgress = 0;
+let cachableAssetsCount = 0;
 
 self.addEventListener("install", async function (e) {
   self.addEventListener("message", async (event) => {
@@ -34,6 +35,19 @@ channel.addEventListener("message", async function (event) {
   }
 });
 
+function updateCachingProgress() {
+  cachingProgress++;
+  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((client) =>
+      client.postMessage({
+        msg: "Loading",
+        data: progress,
+      })
+    );
+  });
+}
+
 function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
   let bookData = data["bookData"];
@@ -54,23 +68,25 @@ function cacheTheBookJSONAndImages(data) {
     }
   }
 
+  cachableAssetsCount = bookAudioAndImageFiles.length;
+  
+
   bookAudioAndImageFiles.push(data["contentFile"]);
 
   console.log("Book audio files: ", bookAudioAndImageFiles);
 
   caches.open(bookData["bookName"]).then((cache) => {
+    for (let i = 0; i < bookAudioAndImageFiles.length; i++) {
+      cache.add(bookAudioAndImageFiles[i]).finally(() => {
+        updateCachingProgress();
+      }).catch((error) => {
+        console.log("Error while caching the book JSON", error);
+      });
+    }
     cache.addAll(bookAudioAndImageFiles).catch((error) => {
       console.log("Error while caching the book JSON", error);
     });
   });
-  // self.clients.matchAll().then((clients) => {
-  //     clients.forEach((client) =>
-  //         client.postMessage({
-  //             msg: "Loading",
-  //             data: 100,
-  //         })
-  //     );
-  // });
 }
 
 self.addEventListener("fetch", function (event) {

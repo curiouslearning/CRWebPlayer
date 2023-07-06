@@ -6,6 +6,7 @@ const channel = new BroadcastChannel("cr-message-channel");
 
 let version = 0.9;
 let cachingProgress = 0;
+let cachableAssetsCount = 0;
 
 self.addEventListener("install", async function (e) {
   self.addEventListener("message", async (event) => {
@@ -22,7 +23,7 @@ self.addEventListener("install", async function (e) {
 
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(self.clients.claim()); 
 });
 
 channel.addEventListener("message", async function (event) {
@@ -33,6 +34,19 @@ channel.addEventListener("message", async function (event) {
     await cacheTheBookJSONAndImages(event.data.data);
   }
 });
+
+function updateCachingProgress() {
+  cachingProgress++;
+  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((client) =>
+      client.postMessage({
+        msg: "Loading",
+        data: progress,
+      })
+    );
+  });
+}
 
 function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
@@ -54,23 +68,25 @@ function cacheTheBookJSONAndImages(data) {
     }
   }
 
+  cachableAssetsCount = bookAudioAndImageFiles.length;
+  
+
   bookAudioAndImageFiles.push(data["contentFile"]);
 
   console.log("Book audio files: ", bookAudioAndImageFiles);
 
   caches.open(bookData["bookName"]).then((cache) => {
+    for (let i = 0; i < bookAudioAndImageFiles.length; i++) {
+      cache.add(bookAudioAndImageFiles[i]).finally(() => {
+        updateCachingProgress();
+      }).catch((error) => {
+        console.log("Error while caching the book JSON", error);
+      });
+    }
     cache.addAll(bookAudioAndImageFiles).catch((error) => {
       console.log("Error while caching the book JSON", error);
     });
   });
-  // self.clients.matchAll().then((clients) => {
-  //     clients.forEach((client) =>
-  //         client.postMessage({
-  //             msg: "Loading",
-  //             data: 100,
-  //         })
-  //     );
-  // });
 }
 
 self.addEventListener("fetch", function (event) {
