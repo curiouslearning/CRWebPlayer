@@ -56,7 +56,9 @@ import { Book } from "./Models/Models";
     async registerServiceWorker(book: Book): Promise<void> {
         if ("serviceWorker" in navigator) {
             let wb = new Workbox("./sw.js", {});
-            wb.register().then((r) => { this.handleServiceWorkerRegistration(r) });
+            wb.register()
+                .then((r) => { this.handleServiceWorkerRegistration(r) })
+                .catch((e) => { console.error(e) });
             console.log("CRapp: Service Worker Registered! Sending Cache Message!");
             
             await navigator.serviceWorker.ready;
