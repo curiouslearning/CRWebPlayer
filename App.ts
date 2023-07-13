@@ -37,25 +37,27 @@ import { Book } from "./Models/Models";
         }
     }
 
-    async initialize() {
-        let book: Book = await this.contentParser.parseBook();
-        book.bookName = this.bookName;
-
-        console.log("Dev App initialized!");
-        console.log(book);
-
-        this.enforceLandscapeMode();
-        
-        console.log("Adding a load event listener!");
-        
-        window.addEventListener("load", () => {
-            (async () => {
-                console.log("Load event fired!");
-                await this.registerServiceWorker(book);
-            })();
-        });
-
-        this.playBackEngine.initializeBook(book);
+    initialize() {
+        (async () => {
+            let book: Book = await this.contentParser.parseBook();
+            book.bookName = this.bookName;
+    
+            console.log("Dev App initialized!");
+            console.log(book);
+    
+            this.enforceLandscapeMode();
+            
+            console.log("Adding a load event listener!");
+            
+            window.addEventListener("load", () => {
+                (async () => {
+                    console.log("Load event fired!");
+                    await this.registerServiceWorker(book);
+                })();
+            });
+    
+            this.playBackEngine.initializeBook(book);
+        })();
     }
 
     async registerServiceWorker(book: Book): Promise<void> {
@@ -152,6 +154,4 @@ let app: App = new App("LetsFlyLevel2En", "/BookContent/LetsFlyLevel2En/content/
     // "/BookContent/TalkingBagEn/content/audio/");
 
 // Initialize the app, beginning to read the content file, parsing  and displaying the book
-(async () => {
-    await app.initialize();
-})();
+app.initialize();
