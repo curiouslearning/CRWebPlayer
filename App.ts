@@ -149,4 +149,6 @@ let app: App = new App("LetsFlyLevel2En", "/BookContent/LetsFlyLevel2En/content/
     // "/BookContent/TalkingBagEn/content/audio/");
 
 // Initialize the app, beginning to read the content file, parsing  and displaying the book
-await app.initialize();
+(async () => {
+    await app.initialize();
+})();
