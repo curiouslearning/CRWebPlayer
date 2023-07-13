@@ -24,12 +24,13 @@ self.addEventListener("install", async function (e) {
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
   event.waitUntil(self.clients.claim());
+  channel.postMessage({ command: "Activated", data: {} });
 });
 
 channel.addEventListener("message", async function (event) {
-  console.log("Caching request received in the service worker with data: ");
-  console.log(event.data);
   if (event.data.command === "Cache") {
+    console.log("Caching request received in the service worker with data: ");
+    console.log(event.data);
     cachingProgress = 0;
     await cacheTheBookJSONAndImages(event.data.data);
   }

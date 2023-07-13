@@ -58,14 +58,21 @@ import { Book } from "./Models/Models";
             let wb = new Workbox("./sw.js", {});
             wb.register().then((r) => { this.handleServiceWorkerRegistration(r) });
             console.log("CRapp: Service Worker Registered! Sending Cache Message!");
-            this.broadcastChannel.postMessage({
-                command: "Cache",
-                data: {
-                    lang: this.lang,
-                    bookData: book,
-                    contentFile: this.contentFilePath,
+            
+            this.broadcastChannel.onmessage = (event) => {
+                console.log("CRapp: Message Received!");
+                console.log(event.data.command);
+                if (event.data.command == "Activated") {
+                    this.broadcastChannel.postMessage({
+                        command: "Cache",
+                        data: {
+                            lang: this.lang,
+                            bookData: book,
+                            contentFile: this.contentFilePath,
+                        }
+                    });
                 }
-            });
+            };  
 
             navigator.serviceWorker.addEventListener("message", this.handleServiceWorkerMessage);
         }
