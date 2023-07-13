@@ -53,11 +53,13 @@ import { Book } from "./Models/Models";
         this.playBackEngine.initializeBook(book);
     }
 
-    registerServiceWorker(book: Book): void {
+    async registerServiceWorker(book: Book): Promise<void> {
         if ("serviceWorker" in navigator) {
             let wb = new Workbox("./sw.js", {});
             wb.register().then((r) => { this.handleServiceWorkerRegistration(r) });
             console.log("CRapp: Service Worker Registered! Sending Cache Message!");
+            
+            await navigator.serviceWorker.ready;
             
             this.broadcastChannel.onmessage = (event) => {
                 console.log("CRapp: Message Received!");
