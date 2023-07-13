@@ -1,6 +1,6 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-workbox.precaching.precacheAndRoute([{"revision":"3c96f722c4fb528b6a168a9006c318a7","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"65591971a78443e64d947fb7fd0ca43f","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"ef1e052e2b4d248ceec5bbe0a1d06969","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {});
+workbox.precaching.precacheAndRoute([{"revision":"f5998c4f56ea1b9864a86ca97a6dd6ed","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"fab7042c5146a8737b513dbb0d424785","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"a1ec84c682c7fecf3154f4364953ed41","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {});
 
 const channel = new BroadcastChannel("cr-message-channel");
 
@@ -8,16 +8,17 @@ let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
-self.addEventListener("install", async function (e) {
-  self.addEventListener("message", async (event) => {
-    console.log("Registration message received in the service worker ");
-    if (event.data.type === "Registration") {
-      if (!!!caches.keys().length) {
-        cachingProgress = 0;
-        let cacheName = await getCacheName(event.data.value);
-      }
+self.addEventListener("message", async (event) => {
+  console.log("Registration message received in the service worker ");
+  if (event.data.type === "Registration") {
+    if (!!!caches.keys().length) {
+      cachingProgress = 0;
+      let cacheName = await getCacheName(event.data.value);
     }
-  });
+  }
+});
+
+self.addEventListener("install", async function (e) {
   self.skipWaiting();
 });
 

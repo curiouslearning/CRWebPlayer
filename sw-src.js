@@ -8,16 +8,17 @@ let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
-self.addEventListener("install", async function (e) {
-  self.addEventListener("message", async (event) => {
-    console.log("Registration message received in the service worker ");
-    if (event.data.type === "Registration") {
-      if (!!!caches.keys().length) {
-        cachingProgress = 0;
-        let cacheName = await getCacheName(event.data.value);
-      }
+self.addEventListener("message", async (event) => {
+  console.log("Registration message received in the service worker ");
+  if (event.data.type === "Registration") {
+    if (!!!caches.keys().length) {
+      cachingProgress = 0;
+      let cacheName = await getCacheName(event.data.value);
     }
-  });
+  }
+});
+
+self.addEventListener("install", async function (e) {
   self.skipWaiting();
 });
 
