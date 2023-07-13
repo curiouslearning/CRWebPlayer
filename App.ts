@@ -46,6 +46,8 @@ import { Book } from "./Models/Models";
 
         this.enforceLandscapeMode();
         
+        console.log("Adding a load event listener!");
+        
         window.addEventListener("load", async () => {
             await this.registerServiceWorker(book);
         });
@@ -54,12 +56,13 @@ import { Book } from "./Models/Models";
     }
 
     async registerServiceWorker(book: Book): Promise<void> {
+        console.log("Registering Service Worker!");
+        
         if ("serviceWorker" in navigator) {
             let wb = new Workbox("/sw.js", {});
             wb.register()
                 .then((r) => { this.handleServiceWorkerRegistration(r) })
                 .catch((e) => { console.error(e) });
-            console.log("CRapp: Service Worker Registered! Sending Cache Message!");
             
             await navigator.serviceWorker.ready;
             
