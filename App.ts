@@ -47,7 +47,7 @@ import { Book } from "./Models/Models";
         this.enforceLandscapeMode();
         
         window.addEventListener("load", async () => {
-            this.registerServiceWorker(book);
+            await this.registerServiceWorker(book);
         });
 
         this.playBackEngine.initializeBook(book);
@@ -55,7 +55,7 @@ import { Book } from "./Models/Models";
 
     async registerServiceWorker(book: Book): Promise<void> {
         if ("serviceWorker" in navigator) {
-            let wb = new Workbox("./sw.js", {});
+            let wb = new Workbox("/sw.js", {});
             wb.register()
                 .then((r) => { this.handleServiceWorkerRegistration(r) })
                 .catch((e) => { console.error(e) });
@@ -79,6 +79,8 @@ import { Book } from "./Models/Models";
             };  
 
             navigator.serviceWorker.addEventListener("message", this.handleServiceWorkerMessage);
+        } else {
+            console.warn("Service Worker not supported!");
         }
     }
 
