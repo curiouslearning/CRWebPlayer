@@ -12,5 +12,6 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "landscape",
+    "incognito": "split",
     "background_color": "#fff"
 }

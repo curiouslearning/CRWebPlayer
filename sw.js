@@ -1,6 +1,6 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-workbox.precaching.precacheAndRoute([{"revision":"4259be7135cc2c76b3265a9e8255d4fb","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"fa0f4152afeb9a276d266d85e444d1e1","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"e35b2705e987ae65a0092f84bfbdc693","url":"index.html"},{"revision":"91d600ca317cc9985a0fc479c783f8ad","url":"manifest.json"}], {});
+workbox.precaching.precacheAndRoute([{"revision":"3c96f722c4fb528b6a168a9006c318a7","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"b394d72bd7a8aeb4cc3e27318a8a2db2","url":"dist/index.html"},{"revision":"3898363e28ac803232de451798ccd214","url":"dist/styles/app.css"},{"revision":"8db80d14a94ef45c2fe93abb2a8b1ab0","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {});
 
 const channel = new BroadcastChannel("cr-message-channel");
 
