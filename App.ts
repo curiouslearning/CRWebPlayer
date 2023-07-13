@@ -48,8 +48,11 @@ import { Book } from "./Models/Models";
         
         console.log("Adding a load event listener!");
         
-        window.addEventListener("load", async () => {
-            await this.registerServiceWorker(book);
+        window.addEventListener("load", () => {
+            (async () => {
+                console.log("Load event fired!");
+                await this.registerServiceWorker(book);
+            })();
         });
 
         this.playBackEngine.initializeBook(book);
