@@ -111,7 +111,7 @@ import { Book } from "./Models/Models";
             console.log("CRapp: Loading Message Received!");
             console.log(event.data);
             let cacheInfoDiv = document.getElementById("cache-load-value");
-            let progressValue = event.data.data;
+            let progressValue = parseInt(event.data.data);
             if (progressValue < 100) {
                 cacheInfoDiv!.innerHTML = "Loading: " + event.data.data;
             } else if (progressValue >= 100) {
