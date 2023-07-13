@@ -110,6 +110,14 @@ import { Book } from "./Models/Models";
         }else if (event.data.msg == "Loading") {
             console.log("CRapp: Loading Message Received!");
             console.log(event.data);
+            let cacheInfoDiv = document.getElementById("cache-load-value");
+            let progressValue = event.data.data;
+            if (progressValue < 100) {
+                cacheInfoDiv!.innerHTML = "Loading: " + event.data.data;
+            } else if (progressValue >= 100) {
+                cacheInfoDiv!.innerHTML = "App is cached!";
+            }
+
             // handleLoadingMessage(event.data);
         }else if (event.data.msg == "Update Found") {
             console.log("CRapp: Update Found Message Received!");
