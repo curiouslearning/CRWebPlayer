@@ -45,7 +45,7 @@ export class PlayBackEngine {
         this.splideHandle.on("moved", (currentIndex, prevIndex, destIndex) => {
             this.currentPage = currentIndex;
             this.transitioningToPage = false;
-            this.playPageAudio(this.book.pages[currentIndex]);
+            this.playPageAudio(this.book.pages[currentIndex], currentIndex);
         });
 
         this.addPageResizeListener();
