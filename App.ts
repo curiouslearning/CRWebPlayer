@@ -23,6 +23,7 @@ export class App {
     isCached: string = "is_cached";
 
     constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
+        console.log("Curious Reader App " + appVersion + " initializing!");
         this.bookName = bookName;
         this.contentFilePath = contentFilePath;
         this.imagesPath = imagesPath;
@@ -43,10 +44,10 @@ export class App {
         (async () => {
             let book: Book = await this.contentParser.parseBook();
             book.bookName = this.bookName;
-    
-            console.log("Dev App initialized!");
+
+            console.log("App initialized!");
             console.log(book);
-    
+
             this.enforceLandscapeMode();
             
             console.log("Adding a load event listener!");
@@ -57,7 +58,7 @@ export class App {
                     await this.registerServiceWorker(book);
                 })();
             });
-    
+
             this.playBackEngine.initializeBook(book);
         })();
     }
@@ -150,7 +151,7 @@ export class App {
         }
     }
 
- }
+}
 
  // Passing absolute path to the content file and resource directories
  // Curious Reader Book: Let's Fly Level 2
