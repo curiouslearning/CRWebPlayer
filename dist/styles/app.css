@@ -24,7 +24,3 @@
   box-shadow: transparent 0px 0px 20px 20px;
   transition: border 1s linear 0s, box-shadow 1s linear 0s;
 }
-
-/* .cr-image-empty-glow:hover {
-  box-shadow: rgb(255, 216, 90) 0px 0px 20px 20px;
-} */
