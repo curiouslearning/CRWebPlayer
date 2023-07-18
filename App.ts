@@ -4,11 +4,13 @@ import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
 import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 
- export class App {
+let appVersion: string = "v0.2.4";
+
+export class App {
 
     contentParser: ContentParser;
     playBackEngine: PlayBackEngine;
-    
+
     contentFilePath: string;
     imagesPath: string;
     audioPath: string;
