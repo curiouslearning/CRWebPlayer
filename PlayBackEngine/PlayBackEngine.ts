@@ -90,6 +90,7 @@ export class PlayBackEngine {
                                 let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
                                 wordElement.classList.add("cr-clickable-word-active");
                                 wordElement.style.color = audioElement.glowColor;
+                                this.enableConnectedGraphicHighlighting(pageIndex, currentIndex);
                             }
 
                             if (lastWordIndex < currentIndex) {
