@@ -350,7 +350,11 @@ export class PlayBackEngine {
         this.handleInteractiveWordClick(pageIndex, wordIndexNumber);
     }
 
-    handleInteractiveWordClick(pageIndex: number, wordIndex: number) {
+    enableConnectedGraphicHighlighting(pageIndex: number, wordIndex: number) {
+        this.handleInteractiveWordClick(pageIndex, wordIndex, true);
+    }
+
+    handleInteractiveWordClick(pageIndex: number, wordIndex: number, glowImageOnly: boolean = false) {
         let page = this.book.pages[pageIndex];
         for (let i = 0; i < page.visualElements.length; i++) {
             let visualElement = page.visualElements[i];
