@@ -75,9 +75,7 @@ export class PlayBackEngine {
             let visualElement = page.visualElements[i];
             if (visualElement.type === "audio") {
                 let audioElement: AudioElement = visualElement;
-                let audioElementDom = document.getElementById(
-                    audioElement.domID
-                ) as HTMLAudioElement;
+                let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.play();
 
                 let lastWordIndex = 0;
