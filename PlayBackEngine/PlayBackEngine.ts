@@ -38,14 +38,18 @@ export class PlayBackEngine {
         }).mount();
 
         this.splideHandle.on("move", (newIndex, oldIndex, destIndex) => {
-            this.transitioningToPage = true;
-            this.stopPageAudio(this.book.pages[oldIndex]);
+            if (this.currentPage !== newIndex) {
+                this.transitioningToPage = true;
+                this.stopPageAudio(this.book.pages[oldIndex]);
+            }
         });
 
         this.splideHandle.on("moved", (currentIndex, prevIndex, destIndex) => {
-            this.currentPage = currentIndex;
-            this.transitioningToPage = false;
-            this.playPageAudio(this.book.pages[currentIndex], currentIndex);
+            if (this.currentPage !== currentIndex) {
+                this.currentPage = currentIndex;
+                this.transitioningToPage = false;
+                this.playPageAudio(this.book.pages[currentIndex], currentIndex);
+            }
         });
 
         this.addPageResizeListener();
