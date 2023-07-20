@@ -91,6 +91,7 @@ export class PlayBackEngine {
                 let audioElement: AudioElement = visualElement;
                 let audioElementDom = document.getElementById(audioElement.domID) as HTMLAudioElement;
                 audioElementDom.play();
+                this.currentlyPlayingAudioElement = audioElementDom;
 
                 let lastWordIndex = 0;
                 let currentIndex = 0;
