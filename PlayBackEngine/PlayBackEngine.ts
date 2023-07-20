@@ -29,6 +29,16 @@ export class PlayBackEngine {
 
     currentPageAutoPlayerInterval: any;
 
+    currentlyPlayingAudioElement: HTMLAudioElement | null = null;
+
+    currentWordPlayingTimeout: NodeJS.Timeout;
+
+    currentGlowImageTimeout: NodeJS.Timeout;
+
+    currentlyActiveGlowImages: HTMLDivElement[] = [];
+
+    currentlyActiveWord: HTMLDivElement | null = null;
+
     constructor(imagesPath: string, audioPath: string) {
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
