@@ -103,6 +103,7 @@ export class PlayBackEngine {
                             if (currentTime >= audioElement.audioTimestamps.timestamps[j].startTimestamp && currentTime <= audioElement.audioTimestamps.timestamps[j].endTimestamp) {
                                 currentIndex = j;
                                 let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
+                                this.currentlyActiveWord = wordElement;
                                 wordElement.classList.add("cr-clickable-word-active");
                                 wordElement.style.color = audioElement.glowColor;
                                 this.enableConnectedGraphicHighlighting(pageIndex, currentIndex);
@@ -121,6 +122,7 @@ export class PlayBackEngine {
                             let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
                             wordElement.classList.remove("cr-clickable-word-active");
                             wordElement.style.color = "white";
+                            this.currentlyPlayingAudioElement = null;
                             clearInterval(this.currentPageAutoPlayerInterval);
                         }
                     }
