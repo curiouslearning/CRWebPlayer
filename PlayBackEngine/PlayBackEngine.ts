@@ -372,6 +372,23 @@ export class PlayBackEngine {
     }
 
     handleInteractiveWordClick(pageIndex: number, wordIndex: number, glowImageOnly: boolean = false) {
+        if (this.currentlyPlayingAudioElement !== null && !glowImageOnly) {
+            this.currentlyPlayingAudioElement.pause();
+            this.currentlyPlayingAudioElement.currentTime = 0;
+            clearInterval(this.currentPageAutoPlayerInterval);
+            clearTimeout(this.currentWordPlayingTimeout);
+            clearTimeout(this.currentGlowImageTimeout);
+            if (this.currentlyActiveWord !== null) {
+                this.currentlyActiveWord.classList.remove("cr-clickable-word-active");
+                this.currentlyActiveWord.style.color = "white";
+            }
+            if (this.currentlyActiveGlowImages.length > 0) {
+                for (let i = 0; i < this.currentlyActiveGlowImages.length; i++) {
+                    this.currentlyActiveGlowImages[i].style.boxShadow = "transparent 0px 0px 20px 20px";
+                }
+            }
+        }
+        this.currentlyActiveGlowImages = Array();
         let page = this.book.pages[pageIndex];
         for (let i = 0; i < page.visualElements.length; i++) {
             let visualElement = page.visualElements[i];
