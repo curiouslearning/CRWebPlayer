@@ -410,6 +410,7 @@ export class PlayBackEngine {
                 }, 600);
 
                 if (!glowImageOnly) {
+                    this.currentlyPlayingAudioElement = wordAudioElement;
                     wordAudioElement.play();
                 }
             }
