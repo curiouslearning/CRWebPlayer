@@ -383,10 +383,11 @@ export class PlayBackEngine {
                 if (!glowImageOnly) {
                     // Highlight the word
                     let wordElement = document.getElementById(audioElement.domID + "_word_" + wordIndex) as HTMLDivElement;
+                    this.currentlyActiveWord = wordElement;
                     wordElement.classList.add("cr-clickable-word-active");
                     wordElement.style.color = audioElement.glowColor;
     
-                    setTimeout(() => {
+                    this.currentWordPlayingTimeout = setTimeout(() => {
                         wordElement.classList.remove("cr-clickable-word-active");
                         wordElement.style.color = "white";
                     }, 600);
@@ -397,10 +398,11 @@ export class PlayBackEngine {
                 let connectedGlowImages = document.getElementsByClassName(connectedGlowImageClass);
                 for (let i = 0; i < connectedGlowImages.length; i++) {
                     let glowDiv = connectedGlowImages[i] as HTMLDivElement;
+                    this.currentlyActiveGlowImages.push(glowDiv);
                     glowDiv.style.boxShadow = audioElement.glowColor + " 0px 0px 20px 20px";
                 }
 
-                setTimeout(() => {
+                this.currentGlowImageTimeout = setTimeout(() => {
                     for (let i = 0; i < connectedGlowImages.length; i++) {
                         let glowDiv = connectedGlowImages[i] as HTMLDivElement;
                         glowDiv.style.boxShadow = "transparent 0px 0px 20px 20px";
