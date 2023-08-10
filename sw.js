@@ -52,14 +52,14 @@ channel.addEventListener("message", async function (event) {
   }
 });
 
-function updateCachingProgress() {
+function updateCachingProgress(bookName) {
   cachingProgress++;
   let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
   self.clients.matchAll().then((clients) => {
     clients.forEach((client) =>
       client.postMessage({
         msg: "Loading",
-        data: progress,
+        data: {progress, bookName},
       })
     );
   });
@@ -75,12 +75,12 @@ function cacheTheBookJSONAndImages(data) {
     for (let j = 0; j < page["visualElements"].length; j++) {
       let visualElement = page["visualElements"][j];
       if (visualElement["type"] === "audio") {
-        bookAudioAndImageFiles.push("/BookContent/LetsFlyLevel2En/content/" + visualElement["audioSrc"]);
+        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioSrc"]);
         for (let k = 0; k < visualElement["audioTimestamps"]["timestamps"].length; k++) {
           bookAudioAndImageFiles.push("/BookContent/LetsFlyLevel2En/content/" + visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]);
         }
       } else if (visualElement["type"] === "image" && visualElement["imageSource"] !== "empty_glow_image") {
-        bookAudioAndImageFiles.push("/BookContent/LetsFlyLevel2En/content/" + visualElement["imageSource"]);
+        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["imageSource"]);
       }
     }
   }
@@ -95,7 +95,7 @@ function cacheTheBookJSONAndImages(data) {
   caches.open(bookData["bookName"]).then((cache) => {
     for (let i = 0; i < bookAudioAndImageFiles.length; i++) {
       cache.add(bookAudioAndImageFiles[i]).finally(() => {
-        updateCachingProgress();
+        updateCachingProgress(bookData["bookName"]);
       }).catch((error) => {
         console.log("Error while caching the book JSON", error);
       });
