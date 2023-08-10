@@ -28,6 +28,21 @@ self.addEventListener("activate", function (event) {
   channel.postMessage({ command: "Activated", data: {} });
 });
 
+self.registration.addEventListener("updatefound", function (e) {
+  caches.keys().then((cacheNames) => {
+    cacheNames.forEach((cacheName) => {
+      if (cacheName == workbox.core.cacheNames.precache) {
+        // caches.delete(cacheName);
+        self.clients.matchAll().then((clients) => {
+          clients.forEach((client) =>
+            client.postMessage({ msg: "UpdateFound" })
+          );
+        });
+      }
+    });
+  });
+});
+
 channel.addEventListener("message", async function (event) {
   if (event.data.command === "Cache") {
     console.log("Caching request received in the service worker with data: ");
