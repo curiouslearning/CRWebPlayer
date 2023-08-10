@@ -67,12 +67,24 @@ export class App {
         console.log("Registering Service Worker!");
         
         if ("serviceWorker" in navigator) {
+            
             let wb = new Workbox("/sw.js", {});
             wb.register()
                 .then((r) => { this.handleServiceWorkerRegistration(r) })
                 .catch((e) => { console.error(e) });
-            
+                
             await navigator.serviceWorker.ready;
+
+            if (localStorage.getItem(book.bookName) == null) {
+                this.broadcastChannel.postMessage({
+                    command: "Cache",
+                    data: {
+                        lang: this.lang,
+                        bookData: book,
+                        contentFile: this.contentFilePath,
+                    }
+                });
+            }
             
             this.broadcastChannel.onmessage = (event) => {
                 console.log("CRapp: Message Received!");
