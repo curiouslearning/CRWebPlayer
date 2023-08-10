@@ -114,17 +114,25 @@ export class App {
             console.log("CRapp: Loading Message Received!");
             console.log(event.data);
             let cacheInfoDiv = document.getElementById("cache-load-value");
-            let progressValue = parseInt(event.data.data);
+            let progressValue = parseInt(event.data.data.progress);
             if (progressValue < 100) {
-                cacheInfoDiv!.innerHTML = "Loading: " + event.data.data;
+                cacheInfoDiv!.innerHTML = "Loading: " + progressValue + "%";
             } else if (progressValue >= 100) {
-                cacheInfoDiv!.innerHTML = "App is cached!";
+                cacheInfoDiv!.innerHTML = "Book is cached!";
+                // add book with a name to local storage as cached
+                localStorage.setItem(event.data.data.bookName, "true");
             }
 
             // handleLoadingMessage(event.data);
-        }else if (event.data.msg == "Update Found") {
+        }else if (event.data.msg == "UpdateFound") {
             console.log("CRapp: Update Found Message Received!");
-            // handleUpdateFoundMessage();
+            let text = "Update Found\nPress ok to update.";
+            // if (confirm(text) == true) {
+            //     window.location.reload();
+            // } else {
+            //     text = "You canceled!";
+            // }
+            window.location.reload();
         }
     }
 
