@@ -153,11 +153,27 @@ export class App {
 
 }
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+let bookName = urlParams.get("book");
+
+const defaultBookName: string = "LetsFlyLevel2En";
+
+if (bookName == null) {
+    bookName = defaultBookName;
+}
+
+console.log("Book Name: " + bookName);
+
  // Passing absolute path to the content file and resource directories
  // Curious Reader Book: Let's Fly Level 2
-let app: App = new App("LetsFlyLevel2En", "/BookContent/LetsFlyLevel2En/content/content.json",
-    "/BookContent/LetsFlyLevel2En/content/images/",
-    "/BookContent/LetsFlyLevel2En/content/audios/");
+let app: App = new App(bookName, `/BookContent/${bookName}/content/content.json`,
+    `/BookContent/${bookName}/content/images/`,
+    `/BookContent/${bookName}/content/audios/`);
+
+// let app: App = new App("TallAndShortUk", "/BookContent/tallAndShortUk/content/content.json",
+//     "/BookContent/TallAndShortUk/content/images/",
+//     "/BookContent/TallAndShortUk/content/audios/");
 
 // GDL Book: Talking Bag English
 // let app: App = new App("/BookContent/TalkingBagEn/content/content.json",
