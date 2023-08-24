@@ -4,7 +4,7 @@ import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
 import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 
-let appVersion: string = "v0.2.6";
+let appVersion: string = "v0.2.7";
 
 export class App {
 
@@ -131,6 +131,7 @@ export class App {
                 cacheInfoDiv!.innerHTML = "Loading: " + progressValue + "%";
             } else if (progressValue >= 100) {
                 cacheInfoDiv!.innerHTML = "Book is cached!";
+                this.readLanguageDataFromCacheAndNotifyAndroidApp(event.data.data.bookName);
                 // add book with a name to local storage as cached
                 localStorage.setItem(event.data.data.bookName, "true");
             }
@@ -148,12 +149,12 @@ export class App {
         }
     }
 
-    readLanguageDataFromCacheAndNotifyAndroidApp() {
+    readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
         //@ts-ignore
         if (window.Android) {
-            // let isContentCached: boolean = localStorage.getItem(this.isCached)! === "true";
+            let isContentCached: boolean = localStorage.getItem(bookName) !== null;
             //@ts-ignore
-            window.Android.cachedStatus(true);
+            window.Android.cachedStatus(isContentCached);
         }
     }
 
