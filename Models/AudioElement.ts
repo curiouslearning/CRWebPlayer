@@ -11,5 +11,6 @@ export type AudioElement = {
     height: number;
     audioSrc: string;
     audioTimestamps: AudioTimestamps;
+    glowColor: string;
     styles: string;
-}
+};

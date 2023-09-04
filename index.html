@@ -15,19 +15,25 @@
             font-family: 'Quicksand';
             src: url('./dist/fonts/Quicksand_Bold.otf');
         }
+        #cache-load-value {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 20px;
+            color: #454545;
+        }
     </style>
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="./dist/styles/app.css">
 </head>
 <body>
+    <div id="cache-load-value"></div>
     <div class="splide" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
                 <ul class="splide__list">
                 </ul>
         </div>
     </div>
-
-    <script>console.log("v0.0.9");</script>
     <script src="./dist/app.js"></script>
 </body>
 </html>

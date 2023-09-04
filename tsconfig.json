@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "esnext",
     "esModuleInterop": true,
-    "target": "es2016",
+    "target": "es2017",
 		"lib": ["es7", "dom", "webworker"],
     "moduleResolution": "node",
 		"outDir": "dist",
 		"sourceMap": true,
     "strict": false,
 		"removeComments": true
+  },
+  "experiments": {
+    "topLevelAwait": true
   },
   "include": ["Models", "Parser", "PlayBackEngine",],
   "exclude": ["node_modules"],
