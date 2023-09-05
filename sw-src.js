@@ -1,26 +1,28 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {});
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
+  ignoreURLParametersMatching: [/^cr_/],
+  exclude: [/^lang\//],
+});
 
 const channel = new BroadcastChannel("cr-message-channel");
-
 let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
-
-self.addEventListener("message", async (event) => {
-  console.log("Registration message received in the service worker ");
-  if (event.data.type === "Registration") {
-    if (!!!caches.keys().length) {
-      cachingProgress = 0;
-      let cacheName = await getCacheName(event.data.value);
-    }
+channel.addEventListener("message", async function (event) {
+  if (event.data.command === "Cache") {
+    console.log("Caching request received in the service worker with data: ");
+    console.log(event.data);
+    cachingProgress = 0;
+     cacheTheBookJSONAndImages(event.data.data);
   }
 });
 
-self.addEventListener("install", async function (e) {
+// Precache static assets during service worker installation
+self.addEventListener('install', (event) => {
+  
   self.skipWaiting();
 });
+
 
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
@@ -32,7 +34,6 @@ self.registration.addEventListener("updatefound", function (e) {
   caches.keys().then((cacheNames) => {
     cacheNames.forEach((cacheName) => {
       if (cacheName == workbox.core.cacheNames.precache) {
-        // caches.delete(cacheName);
         self.clients.matchAll().then((clients) => {
           clients.forEach((client) =>
             client.postMessage({ msg: "UpdateFound" })
@@ -43,27 +44,38 @@ self.registration.addEventListener("updatefound", function (e) {
   });
 });
 
-channel.addEventListener("message", async function (event) {
-  if (event.data.command === "Cache") {
-    console.log("Caching request received in the service worker with data: ");
-    console.log(event.data);
-    cachingProgress = 0;
-    await cacheTheBookJSONAndImages(event.data.data);
+// Serve cached assets when offline or falling back to the network
+self.addEventListener('fetch', (event) => {
+  const requestURL = new URL(event.request.url);
+  if (requestURL.protocol === 'chrome-extension:') {
+    return;
   }
-});
+  // Check if the request is for static assets
+  if (requestURL.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        // If the asset is in the static cache, return it
+        if (response) {
+          return response;
+        }
 
-function updateCachingProgress(bookName) {
-  cachingProgress++;
-  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
-  self.clients.matchAll().then((clients) => {
-    clients.forEach((client) =>
-      client.postMessage({
-        msg: "Loading",
-        data: {progress, bookName},
+        // If not in the static cache, fetch it from the network
+        return fetch(event.request).then((networkResponse) => {
+          // Cache a copy of the response in the static cache for future use
+
+          return networkResponse;
+        });
       })
     );
-  });
-}
+  } else {
+    // For requests to the BookContent folder, use the Book Content cache
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        return response || fetch(event.request);
+      })
+    );
+  }
+});
 
 function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
@@ -104,19 +116,18 @@ function cacheTheBookJSONAndImages(data) {
       console.log("Error while caching the book JSON", error);
     });
   });
+
 }
 
-self.addEventListener("fetch", function (event) {
-  const requestUrl = new URL(event.request.url);
-  if (requestUrl.protocol === 'chrome-extension:') {
-    return;
-  }
-  event.respondWith(
-      caches.match(event.request).then(function (response) {
-          if (response) {
-            return response;
-          }
-          return fetch(event.request);
+function updateCachingProgress(bookName) {
+  cachingProgress++;
+  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((client) =>
+      client.postMessage({
+        msg: "Loading",
+        data: {progress, bookName},
       })
-  );
-});
+    );
+  });
+}
