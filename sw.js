@@ -1,26 +1,28 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-workbox.precaching.precacheAndRoute([{"revision":"8330c3d93a7292c8efa71f656385ba1e","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"a716d53d3a9208cd2ecc29dba22f5d38","url":"dist/index.html"},{"revision":"660b0cf3977ab6e3e1ba9395d6790748","url":"dist/styles/app.css"},{"revision":"31c8db3ae3d46a8e4102b55f2de4c31c","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {});
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
+workbox.precaching.precacheAndRoute([{"revision":"e84475983ff705e3985c1b03c1ad6a98","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"cb34b4f114e9d373b93f1bd3e39c6162","url":"dist/index.html"},{"revision":"2039dfc81585fd651cf806cf007408f1","url":"dist/styles/app.css"},{"revision":"00a01c852238cb95205a410e7c8bc55d","url":"index.html"},{"revision":"53e0de2083014b2f980b52cd95a303f2","url":"manifest.json"}], {
+  ignoreURLParametersMatching: [/^cr_/],
+  exclude: [/^lang\//],
+});
 
 const channel = new BroadcastChannel("cr-message-channel");
-
 let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
-
-self.addEventListener("message", async (event) => {
-  console.log("Registration message received in the service worker ");
-  if (event.data.type === "Registration") {
-    if (!!!caches.keys().length) {
-      cachingProgress = 0;
-      let cacheName = await getCacheName(event.data.value);
-    }
+channel.addEventListener("message", async function (event) {
+  if (event.data.command === "Cache") {
+    console.log("Caching request received in the service worker with data: ");
+    console.log(event.data);
+    cachingProgress = 0;
+     cacheTheBookJSONAndImages(event.data.data);
   }
 });
 
-self.addEventListener("install", async function (e) {
+// Precache static assets during service worker installation
+self.addEventListener('install', (event) => {
+  
   self.skipWaiting();
 });
+
 
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
@@ -32,7 +34,6 @@ self.registration.addEventListener("updatefound", function (e) {
   caches.keys().then((cacheNames) => {
     cacheNames.forEach((cacheName) => {
       if (cacheName == workbox.core.cacheNames.precache) {
-        // caches.delete(cacheName);
         self.clients.matchAll().then((clients) => {
           clients.forEach((client) =>
             client.postMessage({ msg: "UpdateFound" })
@@ -43,27 +44,38 @@ self.registration.addEventListener("updatefound", function (e) {
   });
 });
 
-channel.addEventListener("message", async function (event) {
-  if (event.data.command === "Cache") {
-    console.log("Caching request received in the service worker with data: ");
-    console.log(event.data);
-    cachingProgress = 0;
-    await cacheTheBookJSONAndImages(event.data.data);
+// Serve cached assets when offline or falling back to the network
+self.addEventListener('fetch', (event) => {
+  const requestURL = new URL(event.request.url);
+  if (requestURL.protocol === 'chrome-extension:') {
+    return;
   }
-});
+  // Check if the request is for static assets
+  if (requestURL.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        // If the asset is in the static cache, return it
+        if (response) {
+          return response;
+        }
 
-function updateCachingProgress(bookName) {
-  cachingProgress++;
-  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
-  self.clients.matchAll().then((clients) => {
-    clients.forEach((client) =>
-      client.postMessage({
-        msg: "Loading",
-        data: {progress, bookName},
+        // If not in the static cache, fetch it from the network
+        return fetch(event.request).then((networkResponse) => {
+          // Cache a copy of the response in the static cache for future use
+
+          return networkResponse;
+        });
       })
     );
-  });
-}
+  } else {
+    // For requests to the BookContent folder, use the Book Content cache
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        return response || fetch(event.request);
+      })
+    );
+  }
+});
 
 function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
@@ -104,19 +116,18 @@ function cacheTheBookJSONAndImages(data) {
       console.log("Error while caching the book JSON", error);
     });
   });
+
 }
 
-self.addEventListener("fetch", function (event) {
-  const requestUrl = new URL(event.request.url);
-  if (requestUrl.protocol === 'chrome-extension:') {
-    return;
-  }
-  event.respondWith(
-      caches.match(event.request).then(function (response) {
-          if (response) {
-            return response;
-          }
-          return fetch(event.request);
+function updateCachingProgress(bookName) {
+  cachingProgress++;
+  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((client) =>
+      client.postMessage({
+        msg: "Loading",
+        data: {progress, bookName},
       })
-  );
-});
+    );
+  });
+}
