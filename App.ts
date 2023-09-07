@@ -151,7 +151,7 @@ function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-let bookName = urlParams.get("cr_lang");
+let bookName = urlParams.get("book");
 
 const defaultBookName: string = "LetsFlyLevel2En";
 
