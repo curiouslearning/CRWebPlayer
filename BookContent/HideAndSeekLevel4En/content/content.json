@@ -1,1 +1,2561 @@
-{"presentation":{"slides":[{"elements":[{"x":7.7112893275756,"y":11.477761836442,"width":83.149830612873,"height":76.707317073171,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61b119d8b91b9.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":490}},"subContentId":"281f58bc-00aa-42e9-a8f9-34a91108654b","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":42.483660130719,"y":43.035370771237,"width":39.998692810458,"height":14.050381508562,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><strong><span style=\"font-size:2.25em;\">HIDE AND SEEK<\/span><\/strong><\/p>\n"},"subContentId":"65b91755-f4db-4513-b663-95d5754e06f9","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}],"slideBackgroundSelector":{}},{"elements":[{"x":15.046296296296296,"y":82.87671232876713,"width":69.9074074074074,"height":15.753424657534246,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">Dodo looks for Mom.<\/span><\/p>\n"},"subContentId":"7b276671-c320-47d6-9158-4d4fb745d80e","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":24.676125848242,"y":9.1393754760091,"width":50.383122882661,"height":72.604722010663,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0f25319ee4.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"f59573a4-4b0d-4f7b-a581-0af3c3101eb2","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":1,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e88b0a123a7.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" Dodo ","startDuration":"0.0000","endDuration":"0.7830","wordfile":[{"path":"audios\/wordfile-61e88bcd9d817.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" looks ","startDuration":"0.7830","endDuration":"1.2245","wordfile":[{"path":"audios\/wordfile-61e88be9472b6.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" for ","startDuration":"1.2200","endDuration":"1.4418","wordfile":[{"path":"audios\/wordfile-61e88c119572d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" Mom. ","startDuration":"1.4418","endDuration":"2.0052","wordfile":[{"path":"audios\/wordfile-61e88c29c4e03.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"5d563423-46e8-4141-80f2-33603e424db2","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":62.49999999999999,"y":18.264840182648403,"width":9.1161071758546,"height":44.230921553694,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"2c18ef29-ae8e-4a68-8ab6-504813199859","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img5d563423-46e8-4141-80f2-33603e424db2_3"},{"x":29.97685185185185,"y":23.28767123287671,"width":17.962962962962962,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9c3956b8-cc0c-4070-92fd-6454570c8b4c","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img5d563423-46e8-4141-80f2-33603e424db2_0"}],"slideBackgroundSelector":{}},{"elements":[{"x":24.305555555555554,"y":82.87671232876713,"width":49.76851851851851,"height":14.155251141552512,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds ten balls.<\/span><\/p>\n"},"subContentId":"a3931e1f-fa46-4f55-9ea7-0981a00a4f78","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":23.133867982727,"y":9.1393754760091,"width":52.354019094549,"height":71.793754760091,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0f2bf916c1.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"7308022d-4962-4c07-aeca-3c258a5f0017","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":27.777777777777775,"y":50.22831050228311,"width":39.869571912535,"height":22.905559786748,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"1a13d672-037e-46dd-ba61-88647d4317f5","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgd19b9837-fa3e-472e-94dd-4118edc3be31_3"},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":2,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e88c861d3b0.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.4449","wordfile":[{"path":"audios\/wordfile-61e88cd467aa0.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.4449","endDuration":"1.0324","wordfile":[{"path":"audios\/wordfile-61e88cf37fd4d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ten ","startDuration":"1.0324","endDuration":"1.5311","wordfile":[{"path":"audios\/wordfile-61e88d1295761.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" balls. ","startDuration":"1.5311","endDuration":"2.2120","wordfile":[{"path":"audios\/wordfile-61e88d33326fb.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"d19b9837-fa3e-472e-94dd-4118edc3be31","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false}],"slideBackgroundSelector":{}},{"elements":[{"x":19.675925925925924,"y":82.64840182648402,"width":61.34259259259259,"height":15.753424657534246,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds nine mugs.<\/span><\/p>\n"},"subContentId":"8a6e5c35-5f97-4215-baa7-e38531f114ec","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":20.773021250385,"y":9.1393754760091,"width":55.766861718509,"height":73.111348057883,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0f50c26444.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"0861d03c-bddb-4187-a152-fa4e2cb5c858","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":28.935185185185183,"y":47.945205479452056,"width":37.756082537727,"height":13.758568164509,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"6c0299f8-f40e-47dd-bb76-b911e0538735","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img23faee03-1f38-446c-9c4b-eb556cae0418_3"},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":3,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8900dcda43.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.3969","wordfile":[{"path":"audios\/wordfile-61e8911d0c340.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.3969","endDuration":"0.9855","wordfile":[{"path":"audios\/wordfile-61e8913803d5b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" nine ","startDuration":"0.9855","endDuration":"1.5347","wordfile":[{"path":"audios\/wordfile-61e8914f52ee4.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mugs. ","startDuration":"1.5347","endDuration":"2.1584","wordfile":[{"path":"audios\/wordfile-61e8916ab81c3.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"23faee03-1f38-446c-9c4b-eb556cae0418","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false}],"slideBackgroundSelector":{}},{"elements":[{"x":20.833333333333332,"y":84.01826484018265,"width":57.407407407407405,"height":15.753424657534246,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds eight spoons. <\/span><\/p>\n"},"subContentId":"c22923f1-a46c-493b-aca2-92fbacd3edc2","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":21.591610117212,"y":9.1393754760091,"width":56.973668001232,"height":74.634577303884,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0f78984cdd.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"37eda182-a252-454f-b1bd-3d126971ee70","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":4,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e891d3e17d7.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.3693","wordfile":[{"path":"audios\/wordfile-61e891f98783c.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.3693","endDuration":"0.9841","wordfile":[{"path":"audios\/wordfile-61e892859bd81.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" eight ","startDuration":"0.9841","endDuration":"1.3224","wordfile":[{"path":"audios\/wordfile-61e892adec9ca.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" spoons. ","startDuration":"1.3224","endDuration":"2.3197","wordfile":[{"path":"audios\/wordfile-61e892d599612.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"0295b037-f7ed-45cd-ba2e-352eb67c8558","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":47.4537037037037,"y":38.81278538812786,"width":26.05297197413,"height":25.03046458492,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"bf4368de-694c-40d9-92c1-8c4ef0d9d5aa","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0295b037-f7ed-45cd-ba2e-352eb67c8558_3"},{"x":42.59259259259259,"y":37.67123287671233,"width":5.347222222222222,"height":21.7351598173516,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"01f93d95-b286-4016-acfe-034206f3e43c","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0295b037-f7ed-45cd-ba2e-352eb67c8558_3"}],"slideBackgroundSelector":{}},{"elements":[{"x":16.319444444444443,"y":83.56164383561644,"width":65.97222222222221,"height":14.155251141552512,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds seven baskets. <\/span><\/p>\n"},"subContentId":"24a7b4ec-023c-4c23-9b9e-4ce2473d3e40","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":23.032407407407405,"y":8.219178082191782,"width":53.984447182014,"height":74.927646610815,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0f97f5a778.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"ab3d1717-7bd0-4589-a7b8-718950cf9f45","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":5,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8938375292.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.3561","wordfile":[{"path":"audios\/wordfile-61e893b45fc19.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.3561","endDuration":"0.8961","wordfile":[{"path":"audios\/wordfile-61e893dbd395b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" seven ","startDuration":"0.8961","endDuration":"1.4473","wordfile":[{"path":"audios\/wordfile-61e8945256f19.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" baskets. ","startDuration":"1.4473","endDuration":"2.2910","wordfile":[{"path":"audios\/wordfile-61e8947f49bf2.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"4f60249b-6b13-4d9d-a431-cd07e63c6c3b","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":20.023148148148145,"y":52.73972602739726,"width":60.854327071143,"height":25.940594059406,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9993813e-362b-4bbc-9635-c8945aeafc94","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img4f60249b-6b13-4d9d-a431-cd07e63c6c3b_3"}],"slideBackgroundSelector":{}},{"elements":[{"x":22.22222222222222,"y":84.47488584474885,"width":55.09259259259259,"height":13.470319634703197,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds six vases.<\/span><\/p>\n"},"subContentId":"a7db7bda-dd18-495e-bb88-72386a099cc1","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":23.263888888888886,"y":6.164383561643835,"width":53.893902063443,"height":77.452551408987,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0faa8193a4.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"ce6eebac-7cd7-4ae3-8294-f90d7a1754ef","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":6,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e895667d8d7.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.3760","wordfile":[{"path":"audios\/wordfile-61e89e10bd09d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.3760","endDuration":"0.9364","wordfile":[{"path":"audios\/wordfile-61e89e2fb8127.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" six ","startDuration":"0.9364","endDuration":"1.4088","wordfile":[{"path":"audios\/wordfile-61e89e604f0f9.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" vases. ","startDuration":"1.4088","endDuration":"2.3328","wordfile":[{"path":"audios\/wordfile-61e89e7e9b9bf.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"31b09526-fe77-46c7-b79e-059d04071437","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":45.71759259259259,"y":29.680365296803654,"width":14.166923313828,"height":35.396191926885,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9c9764c3-21e1-40bb-a98b-741a0ff9f97a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img31b09526-fe77-46c7-b79e-059d04071437_3"}],"slideBackgroundSelector":{}},{"elements":[{"x":17.708333333333332,"y":84.24657534246576,"width":63.657407407407405,"height":13.242009132420092,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds five flowers.<\/span><\/p>\n"},"subContentId":"ce8371ff-18d4-45a5-ad6c-2380894dc4f6","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":25.23148148148148,"y":10.045662100456621,"width":49.27425315676,"height":73.149428789033,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0fb083e1bb.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"5540205a-60e4-4773-a93d-1d4917ead4ab","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":28.935185185185183,"y":54.337899543378995,"width":19.277486910995,"height":24.91622239147,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"54f9540d-3cd1-4522-8176-a43f57945c7a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img3b89eca2-7c56-45b1-a1df-26f778af9233_3"},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":7,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8a0a013a3e.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.4604","wordfile":[{"path":"audios\/wordfile-61e8a0dd474d9.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.4604","endDuration":"1.1418","wordfile":[{"path":"audios\/wordfile-61e8a0f91caa1.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" five ","startDuration":"1.1418","endDuration":"1.6264","wordfile":[{"path":"audios\/wordfile-61e8a11395686.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" flowers. ","startDuration":"1.6264","endDuration":"2.4887","wordfile":[{"path":"audios\/wordfile-61e8a131c109a.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"3b89eca2-7c56-45b1-a1df-26f778af9233","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":52.08333333333333,"y":56.62100456621005,"width":16.091777024946,"height":21.839299314547,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"ee5c197e-f639-4924-acf4-b1a4df16500a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img3b89eca2-7c56-45b1-a1df-26f778af9233_3"}],"slideBackgroundSelector":{}},{"elements":[{"x":10.300925925925926,"y":83.33333333333333,"width":78.7037037037037,"height":15.981735159817353,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">&nbsp;He finds four pairs of pants. <\/span><\/p>\n"},"subContentId":"62da435c-587d-4e24-8531-6e6d9ca1bf03","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":18.489583333333336,"y":6.837899543378994,"width":61.80555555555555,"height":75.34246575342466,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0fbe47eb09.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"9f8fef1e-cbf5-4098-9dbe-27a7399d7326","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":8,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8a2d5aaedc.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" \u00a0He ","startDuration":"0.0000","endDuration":"0.4523","wordfile":[{"path":"audios\/wordfile-61e8a2f1c8c13.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.4523","endDuration":"1.1042","wordfile":[{"path":"audios\/wordfile-61e8a3145cadc.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" four ","startDuration":"1.1042","endDuration":"1.5565","wordfile":[{"path":"audios\/wordfile-61e8a33835896.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" pairs ","startDuration":"1.5565","endDuration":"2.0917","wordfile":[{"path":"audios\/wordfile-61e8a367bf9b0.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" of ","startDuration":"2.0917","endDuration":"2.3708","wordfile":[{"path":"audios\/wordfile-61e8a399ac672.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" pants. ","startDuration":"2.3708","endDuration":"3.0957","wordfile":[{"path":"audios\/wordfile-61e8a3c92f859.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"23da6d18-63a5-4b2f-972f-bb3d8616ea6a","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":52.08333333333333,"y":13.698630136986301,"width":20.205112411457,"height":46.660472201066,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"c20dd8af-ffd7-4245-9272-90234f83431d","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img23da6d18-63a5-4b2f-972f-bb3d8616ea6a_5"}],"slideBackgroundSelector":{}},{"elements":[{"x":2.314814814814815,"y":83.56164383561644,"width":96.52777777777777,"height":15.753424657534246,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds three musical instruments. <\/span><\/p>\n"},"subContentId":"3a08f030-0a2a-49f9-88e9-de7086ff4fcf","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":25.578703703703702,"y":7.305936073059361,"width":51.455189405605,"height":76.191926884996,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0fc644df28.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"f455b643-1205-4afd-aad1-ca7b047aa884","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":9,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8a645b0ba9.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.4305","wordfile":[{"path":"audios\/wordfile-61e8a66062d33.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.4305","endDuration":"1.0751","wordfile":[{"path":"audios\/wordfile-61e8a67a66a2c.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" three ","startDuration":"1.0751","endDuration":"1.5797","wordfile":[{"path":"audios\/wordfile-61e8a6a208261.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" musical ","startDuration":"1.5797","endDuration":"2.3190","wordfile":[{"path":"audios\/wordfile-61e8a6f20a9a2.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" instruments. ","startDuration":"2.3190","endDuration":"3.3840","wordfile":[{"path":"audios\/wordfile-61e8a715d74a3.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"ed9d4bc8-9c8b-44da-b6f9-a8bebed5b800","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":28.935185185185183,"y":22.831050228310502,"width":13.117878041269,"height":56.896268088347,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"82db8b31-04b6-44e4-8dd3-5bbdca56988a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"},{"x":60.763888888888886,"y":23.28767123287671,"width":12.282491530644,"height":53.370297029703,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"34e80c41-91b3-42af-b676-49257afd27b6","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"},{"x":45.60185185185185,"y":41.32420091324201,"width":11.577995072375,"height":40.392079207921,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9cded2ad-7b27-43ad-955e-e7cb7b2b7763","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"}],"slideBackgroundSelector":{}},{"elements":[{"x":19.328703703703702,"y":83.78995433789954,"width":62.49999999999999,"height":14.155251141552512,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds two hands.<\/span><\/p>\n"},"subContentId":"afea620e-f0f5-426e-a583-86d004b0afe4","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":21.527777777777775,"y":8.67579908675799,"width":55.416538343086,"height":73.911043412034,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0fdae0857e.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"a588fa0a-5484-4950-944a-d472b7aedc92","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":48.61111111111111,"y":31.963470319634705,"width":12.732907299045,"height":31.100685453161,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"cc91c0ec-00d3-41e5-8bcb-8406f6394140","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgdcf17dcc-8004-4ac7-bf01-743562299030_3"},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":10,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8a7cc760e8.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" He ","startDuration":"0.0000","endDuration":"0.4240","wordfile":[{"path":"audios\/wordfile-61e8a7fde8c78.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.4240","endDuration":"1.0202","wordfile":[{"path":"audios\/wordfile-61e8a81bbb03d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" two ","startDuration":"1.0202","endDuration":"1.4606","wordfile":[{"path":"audios\/wordfile-61e8a865c8338.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" hands. ","startDuration":"1.4606","endDuration":"2.2459","wordfile":[{"path":"audios\/wordfile-61e8a89a8e739.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"dcf17dcc-8004-4ac7-bf01-743562299030","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false}],"slideBackgroundSelector":{}},{"elements":[{"x":20.48611111111111,"y":83.78995433789954,"width":58.56481481481481,"height":15.068493150684931,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">Dodo finds one mom.<\/span><\/p>\n"},"subContentId":"597f631b-5fb5-4273-a396-1426b58a2038","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":20.833333333333332,"y":8.219178082191782,"width":58.509701262704,"height":75.305021520803,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61c0fea69e424.jpeg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1472,"height":1024}},"subContentId":"c58547ba-08f7-4250-9cd8-0a37cda5ed85","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":52.08333333333333,"y":22.831050228310502,"width":11.520249461041,"height":21.574605451937,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"8f54da57-e6dc-4754-acbe-1f806706049e","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img034d6fc6-bbc5-451b-8e1f-2897fc222baf_3"},{"x":92.59259259259258,"y":2.2831050228310503,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":11,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","files":[{"path":"audios\/files-61e8a901677ec.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}],"timeStampForEachText":[{"text":" Dodo ","startDuration":"0.0000","endDuration":"0.6658","wordfile":[{"path":"audios\/wordfile-61e8a9184ab06.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" finds ","startDuration":"0.6658","endDuration":"1.1790","wordfile":[{"path":"audios\/wordfile-61e8a93e34c4c.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" one ","startDuration":"1.1790","endDuration":"1.6199","wordfile":[{"path":"audios\/wordfile-61e8a95e3bc31.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mom. ","startDuration":"1.6199","endDuration":"2.2004","wordfile":[{"path":"audios\/wordfile-61e8a97f032c9.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}]},"subContentId":"034d6fc6-bbc5-451b-8e1f-2897fc222baf","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false}],"slideBackgroundSelector":{}},{"elements":[{"x":2.5510204081632653,"y":10.067707808564231,"width":22.95918367346939,"height":16.624685138539043,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb296cf2c04.png","mime":"image\/png","copyright":{"license":"U"},"width":1350,"height":487}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"98ff3710-84cb-4662-b07a-73073cd11eb9"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":34.43877551020408,"y":10.075566750629722,"width":29.050925925925924,"height":15.296803652968038,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb29a5596cb.png","mime":"image\/png","copyright":{"license":"U"},"width":814,"height":202}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"387747f0-999b-4c56-a89b-623bd35caa27"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":67.60204081632654,"y":12.594458438287154,"width":31.365740740740737,"height":12.557077625570777,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb28cb969ac.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1732,"height":354}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"73af006f-62e3-4869-8f50-c2cce12f2919"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":6.63265306122449,"y":35.254659949622166,"width":86.86224489795919,"height":61.71284634760705,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\"><strong>\"Hide and Seek\" credits<\/strong><\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\">This work, \"<strong>Hide and Seek<\/strong>\", is a derivative of \"<strong>Hide and Seek<\/strong>\" written by All Children Reading Cambodia. \u00a9 The Asia Foundation 2019, and used under CC BY. \"<strong>Hide and Seek<\/strong>\" is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\">Book builder - Deborah Oduman<\/span><\/h3>\n\n<p style=\"text-align: center;\">&nbsp;<\/p>\n"},"metadata":{"contentType":"Text","license":"U","title":"Untitled Text"},"subContentId":"33da2529-d2f5-4184-9f05-626a2800f9d7"},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}],"slideBackgroundSelector":{}}],"keywordListEnabled":true,"globalBackgroundSelector":{},"keywordListAlwaysShow":false,"keywordListAutoHide":false,"keywordListOpacity":90},"override":{"activeSurface":false,"hideSummarySlide":false,"summarySlideSolutionButton":true,"summarySlideRetryButton":true,"enablePrintButton":false,"social":{"showFacebookShare":false,"facebookShare":{"url":"@currentpageurl","quote":"I scored @score out of @maxScore on a task at @currentpageurl."},"showTwitterShare":false,"twitterShare":{"statement":"I scored @score out of @maxScore on a task at @currentpageurl.","url":"@currentpageurl","hashtags":"h5p, course"},"showGoogleShare":false,"googleShareUrl":"@currentpageurl"}},"l10n":{"slide":"Slide","score":"Score","yourScore":"Your Score","maxScore":"Max Score","total":"Total","totalScore":"Total Score","showSolutions":"Show solutions","retry":"Retry","exportAnswers":"Export text","hideKeywords":"Hide sidebar navigation menu","showKeywords":"Show sidebar navigation menu","fullscreen":"Fullscreen","exitFullscreen":"Exit fullscreen","prevSlide":"Previous slide","nextSlide":"Next slide","currentSlide":"Current slide","lastSlide":"Last slide","solutionModeTitle":"Exit solution mode","solutionModeText":"Solution Mode","summaryMultipleTaskText":"Multiple tasks","scoreMessage":"You achieved:","shareFacebook":"Share on Facebook","shareTwitter":"Share on Twitter","shareGoogle":"Share on Google+","summary":"Summary","solutionsButtonTitle":"Show comments","printTitle":"Print","printIngress":"How would you like to print this presentation?","printAllSlides":"Print all slides","printCurrentSlide":"Print current slide","noTitle":"No title","accessibilitySlideNavigationExplanation":"Use left and right arrow to change slide in that direction whenever canvas is selected.","accessibilityCanvasLabel":"Presentation canvas. Use left and right arrow to move between slides.","containsNotCompleted":"@slideName contains not completed interaction","containsCompleted":"@slideName contains completed interaction","slideCount":"Slide @index of @total","containsOnlyCorrect":"@slideName only has correct answers","containsIncorrectAnswers":"@slideName has incorrect answers","shareResult":"Share Result","accessibilityTotalScore":"You got @score of @maxScore points in total","accessibilityEnteredFullscreen":"Entered fullscreen","accessibilityExitedFullscreen":"Exited fullscreen"}}
+{
+    "presentation": {
+        "slides": [
+            {
+                "elements": [
+                    {
+                        "x": 7.7112893275756,
+                        "y": 11.477761836442,
+                        "width": 83.149830612873,
+                        "height": 76.707317073171,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61b119d8b91b9.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 490
+                                }
+                            },
+                            "subContentId": "281f58bc-00aa-42e9-a8f9-34a91108654b",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 42.483660130719,
+                        "y": 43.035370771237,
+                        "width": 39.998692810458,
+                        "height": 14.050381508562,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><strong><span style=\"font-size:2.25em;\">HIDE AND SEEK<\/span><\/strong><\/p>\n"
+                            },
+                            "subContentId": "65b91755-f4db-4513-b663-95d5754e06f9",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 15.046296296296296,
+                        "y": 82.87671232876713,
+                        "width": 69.9074074074074,
+                        "height": 15.753424657534246,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">Dodo looks for Mom.<\/span><\/p>\n"
+                            },
+                            "subContentId": "7b276671-c320-47d6-9158-4d4fb745d80e",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 24.676125848242,
+                        "y": 9.1393754760091,
+                        "width": 50.383122882661,
+                        "height": 72.604722010663,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0f25319ee4.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "f59573a4-4b0d-4f7b-a581-0af3c3101eb2",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 1,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e88b0a123a7.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Dodo ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.7830",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88bcd9d817.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " looks ",
+                                        "startDuration": "0.7830",
+                                        "endDuration": "1.2245",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88be9472b6.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " for ",
+                                        "startDuration": "1.2200",
+                                        "endDuration": "1.4418",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88c119572d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Mom. ",
+                                        "startDuration": "1.4418",
+                                        "endDuration": "2.0052",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88c29c4e03.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "5d563423-46e8-4141-80f2-33603e424db2",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 62.49999999999999,
+                        "y": 18.264840182648403,
+                        "width": 9.1161071758546,
+                        "height": 44.230921553694,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "2c18ef29-ae8e-4a68-8ab6-504813199859",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img5d563423-46e8-4141-80f2-33603e424db2_3"
+                    },
+                    {
+                        "x": 29.97685185185185,
+                        "y": 23.28767123287671,
+                        "width": 17.962962962962962,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9c3956b8-cc0c-4070-92fd-6454570c8b4c",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img5d563423-46e8-4141-80f2-33603e424db2_0"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 24.305555555555554,
+                        "y": 82.87671232876713,
+                        "width": 49.76851851851851,
+                        "height": 14.155251141552512,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds ten balls.<\/span><\/p>\n"
+                            },
+                            "subContentId": "a3931e1f-fa46-4f55-9ea7-0981a00a4f78",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 23.133867982727,
+                        "y": 9.1393754760091,
+                        "width": 52.354019094549,
+                        "height": 71.793754760091,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0f2bf916c1.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "7308022d-4962-4c07-aeca-3c258a5f0017",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 27.777777777777775,
+                        "y": 50.22831050228311,
+                        "width": 39.869571912535,
+                        "height": 22.905559786748,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "1a13d672-037e-46dd-ba61-88647d4317f5",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgd19b9837-fa3e-472e-94dd-4118edc3be31_3"
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 2,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e88c861d3b0.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.4449",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88cd467aa0.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.4449",
+                                        "endDuration": "1.0324",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88cf37fd4d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ten ",
+                                        "startDuration": "1.0324",
+                                        "endDuration": "1.5311",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88d1295761.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " balls. ",
+                                        "startDuration": "1.5311",
+                                        "endDuration": "2.2120",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e88d33326fb.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "d19b9837-fa3e-472e-94dd-4118edc3be31",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 19.675925925925924,
+                        "y": 82.64840182648402,
+                        "width": 61.34259259259259,
+                        "height": 15.753424657534246,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds nine mugs.<\/span><\/p>\n"
+                            },
+                            "subContentId": "8a6e5c35-5f97-4215-baa7-e38531f114ec",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 20.773021250385,
+                        "y": 9.1393754760091,
+                        "width": 55.766861718509,
+                        "height": 73.111348057883,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0f50c26444.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "0861d03c-bddb-4187-a152-fa4e2cb5c858",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 28.935185185185183,
+                        "y": 47.945205479452056,
+                        "width": 37.756082537727,
+                        "height": 13.758568164509,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "6c0299f8-f40e-47dd-bb76-b911e0538735",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img23faee03-1f38-446c-9c4b-eb556cae0418_3"
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 3,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8900dcda43.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.3969",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8911d0c340.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.3969",
+                                        "endDuration": "0.9855",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8913803d5b.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " nine ",
+                                        "startDuration": "0.9855",
+                                        "endDuration": "1.5347",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8914f52ee4.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mugs. ",
+                                        "startDuration": "1.5347",
+                                        "endDuration": "2.1584",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8916ab81c3.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "23faee03-1f38-446c-9c4b-eb556cae0418",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 20.833333333333332,
+                        "y": 84.01826484018265,
+                        "width": 57.407407407407405,
+                        "height": 15.753424657534246,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds eight spoons. <\/span><\/p>\n"
+                            },
+                            "subContentId": "c22923f1-a46c-493b-aca2-92fbacd3edc2",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 21.591610117212,
+                        "y": 9.1393754760091,
+                        "width": 56.973668001232,
+                        "height": 74.634577303884,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0f78984cdd.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "37eda182-a252-454f-b1bd-3d126971ee70",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 4,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e891d3e17d7.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.3693",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e891f98783c.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.3693",
+                                        "endDuration": "0.9841",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e892859bd81.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " eight ",
+                                        "startDuration": "0.9841",
+                                        "endDuration": "1.3224",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e892adec9ca.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " spoons. ",
+                                        "startDuration": "1.3224",
+                                        "endDuration": "2.3197",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e892d599612.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "0295b037-f7ed-45cd-ba2e-352eb67c8558",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 47.4537037037037,
+                        "y": 38.81278538812786,
+                        "width": 26.05297197413,
+                        "height": 25.03046458492,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "bf4368de-694c-40d9-92c1-8c4ef0d9d5aa",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0295b037-f7ed-45cd-ba2e-352eb67c8558_3"
+                    },
+                    {
+                        "x": 42.59259259259259,
+                        "y": 37.67123287671233,
+                        "width": 5.347222222222222,
+                        "height": 21.7351598173516,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "01f93d95-b286-4016-acfe-034206f3e43c",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0295b037-f7ed-45cd-ba2e-352eb67c8558_3"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 16.319444444444443,
+                        "y": 83.56164383561644,
+                        "width": 65.97222222222221,
+                        "height": 14.155251141552512,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds seven baskets. <\/span><\/p>\n"
+                            },
+                            "subContentId": "24a7b4ec-023c-4c23-9b9e-4ce2473d3e40",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 23.032407407407405,
+                        "y": 8.219178082191782,
+                        "width": 53.984447182014,
+                        "height": 74.927646610815,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0f97f5a778.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "ab3d1717-7bd0-4589-a7b8-718950cf9f45",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 5,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8938375292.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.3561",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e893b45fc19.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.3561",
+                                        "endDuration": "0.8961",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e893dbd395b.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " seven ",
+                                        "startDuration": "0.8961",
+                                        "endDuration": "1.4473",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8945256f19.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " baskets. ",
+                                        "startDuration": "1.4473",
+                                        "endDuration": "2.2910",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8947f49bf2.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "4f60249b-6b13-4d9d-a431-cd07e63c6c3b",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 20.023148148148145,
+                        "y": 52.73972602739726,
+                        "width": 60.854327071143,
+                        "height": 25.940594059406,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9993813e-362b-4bbc-9635-c8945aeafc94",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img4f60249b-6b13-4d9d-a431-cd07e63c6c3b_3"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 22.22222222222222,
+                        "y": 84.47488584474885,
+                        "width": 55.09259259259259,
+                        "height": 13.470319634703197,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds six vases.<\/span><\/p>\n"
+                            },
+                            "subContentId": "a7db7bda-dd18-495e-bb88-72386a099cc1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 23.263888888888886,
+                        "y": 6.164383561643835,
+                        "width": 53.893902063443,
+                        "height": 77.452551408987,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0faa8193a4.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "ce6eebac-7cd7-4ae3-8294-f90d7a1754ef",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 6,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e895667d8d7.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.3760",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e89e10bd09d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.3760",
+                                        "endDuration": "0.9364",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e89e2fb8127.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " six ",
+                                        "startDuration": "0.9364",
+                                        "endDuration": "1.4088",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e89e604f0f9.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " vases. ",
+                                        "startDuration": "1.4088",
+                                        "endDuration": "2.3328",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e89e7e9b9bf.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "31b09526-fe77-46c7-b79e-059d04071437",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 45.71759259259259,
+                        "y": 29.680365296803654,
+                        "width": 14.166923313828,
+                        "height": 35.396191926885,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9c9764c3-21e1-40bb-a98b-741a0ff9f97a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img31b09526-fe77-46c7-b79e-059d04071437_3"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 17.708333333333332,
+                        "y": 84.24657534246576,
+                        "width": 63.657407407407405,
+                        "height": 13.242009132420092,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds five flowers.<\/span><\/p>\n"
+                            },
+                            "subContentId": "ce8371ff-18d4-45a5-ad6c-2380894dc4f6",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 25.23148148148148,
+                        "y": 10.045662100456621,
+                        "width": 49.27425315676,
+                        "height": 73.149428789033,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0fb083e1bb.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "5540205a-60e4-4773-a93d-1d4917ead4ab",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 28.935185185185183,
+                        "y": 54.337899543378995,
+                        "width": 19.277486910995,
+                        "height": 24.91622239147,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "54f9540d-3cd1-4522-8176-a43f57945c7a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img3b89eca2-7c56-45b1-a1df-26f778af9233_3"
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 7,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8a0a013a3e.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.4604",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a0dd474d9.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.4604",
+                                        "endDuration": "1.1418",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a0f91caa1.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " five ",
+                                        "startDuration": "1.1418",
+                                        "endDuration": "1.6264",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a11395686.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " flowers. ",
+                                        "startDuration": "1.6264",
+                                        "endDuration": "2.4887",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a131c109a.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "3b89eca2-7c56-45b1-a1df-26f778af9233",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 52.08333333333333,
+                        "y": 56.62100456621005,
+                        "width": 16.091777024946,
+                        "height": 21.839299314547,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "ee5c197e-f639-4924-acf4-b1a4df16500a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img3b89eca2-7c56-45b1-a1df-26f778af9233_3"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 10.300925925925926,
+                        "y": 83.33333333333333,
+                        "width": 78.7037037037037,
+                        "height": 15.981735159817353,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">&nbsp;He finds four pairs of pants. <\/span><\/p>\n"
+                            },
+                            "subContentId": "62da435c-587d-4e24-8531-6e6d9ca1bf03",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 18.489583333333336,
+                        "y": 6.837899543378994,
+                        "width": 61.80555555555555,
+                        "height": 75.34246575342466,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0fbe47eb09.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "9f8fef1e-cbf5-4098-9dbe-27a7399d7326",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 8,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8a2d5aaedc.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " \u00a0He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.4523",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a2f1c8c13.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.4523",
+                                        "endDuration": "1.1042",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a3145cadc.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " four ",
+                                        "startDuration": "1.1042",
+                                        "endDuration": "1.5565",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a33835896.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " pairs ",
+                                        "startDuration": "1.5565",
+                                        "endDuration": "2.0917",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a367bf9b0.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " of ",
+                                        "startDuration": "2.0917",
+                                        "endDuration": "2.3708",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a399ac672.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " pants. ",
+                                        "startDuration": "2.3708",
+                                        "endDuration": "3.0957",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a3c92f859.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "23da6d18-63a5-4b2f-972f-bb3d8616ea6a",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 52.08333333333333,
+                        "y": 13.698630136986301,
+                        "width": 20.205112411457,
+                        "height": 46.660472201066,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "c20dd8af-ffd7-4245-9272-90234f83431d",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img23da6d18-63a5-4b2f-972f-bb3d8616ea6a_5"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 2.314814814814815,
+                        "y": 83.56164383561644,
+                        "width": 96.52777777777777,
+                        "height": 15.753424657534246,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds three musical instruments. <\/span><\/p>\n"
+                            },
+                            "subContentId": "3a08f030-0a2a-49f9-88e9-de7086ff4fcf",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 25.578703703703702,
+                        "y": 7.305936073059361,
+                        "width": 51.455189405605,
+                        "height": 76.191926884996,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0fc644df28.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "f455b643-1205-4afd-aad1-ca7b047aa884",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 9,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8a645b0ba9.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.4305",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a66062d33.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.4305",
+                                        "endDuration": "1.0751",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a67a66a2c.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " three ",
+                                        "startDuration": "1.0751",
+                                        "endDuration": "1.5797",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a6a208261.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " musical ",
+                                        "startDuration": "1.5797",
+                                        "endDuration": "2.3190",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a6f20a9a2.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " instruments. ",
+                                        "startDuration": "2.3190",
+                                        "endDuration": "3.3840",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a715d74a3.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "ed9d4bc8-9c8b-44da-b6f9-a8bebed5b800",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 28.935185185185183,
+                        "y": 22.831050228310502,
+                        "width": 13.117878041269,
+                        "height": 56.896268088347,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "82db8b31-04b6-44e4-8dd3-5bbdca56988a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"
+                    },
+                    {
+                        "x": 60.763888888888886,
+                        "y": 23.28767123287671,
+                        "width": 12.282491530644,
+                        "height": 53.370297029703,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "34e80c41-91b3-42af-b676-49257afd27b6",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"
+                    },
+                    {
+                        "x": 45.60185185185185,
+                        "y": 41.32420091324201,
+                        "width": 11.577995072375,
+                        "height": 40.392079207921,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9cded2ad-7b27-43ad-955e-e7cb7b2b7763",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imged9d4bc8-9c8b-44da-b6f9-a8bebed5b800_4"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 19.328703703703702,
+                        "y": 83.78995433789954,
+                        "width": 62.49999999999999,
+                        "height": 14.155251141552512,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">He finds two hands.<\/span><\/p>\n"
+                            },
+                            "subContentId": "afea620e-f0f5-426e-a583-86d004b0afe4",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 21.527777777777775,
+                        "y": 8.67579908675799,
+                        "width": 55.416538343086,
+                        "height": 73.911043412034,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0fdae0857e.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "a588fa0a-5484-4950-944a-d472b7aedc92",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 48.61111111111111,
+                        "y": 31.963470319634705,
+                        "width": 12.732907299045,
+                        "height": 31.100685453161,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "cc91c0ec-00d3-41e5-8bcb-8406f6394140",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgdcf17dcc-8004-4ac7-bf01-743562299030_3"
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 10,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8a7cc760e8.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " He ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.4240",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a7fde8c78.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.4240",
+                                        "endDuration": "1.0202",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a81bbb03d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " two ",
+                                        "startDuration": "1.0202",
+                                        "endDuration": "1.4606",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a865c8338.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " hands. ",
+                                        "startDuration": "1.4606",
+                                        "endDuration": "2.2459",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a89a8e739.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "dcf17dcc-8004-4ac7-bf01-743562299030",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 20.48611111111111,
+                        "y": 83.78995433789954,
+                        "width": 58.56481481481481,
+                        "height": 15.068493150684931,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:2.25em;\">Dodo finds one mom.<\/span><\/p>\n"
+                            },
+                            "subContentId": "597f631b-5fb5-4273-a396-1426b58a2038",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 20.833333333333332,
+                        "y": 8.219178082191782,
+                        "width": 58.509701262704,
+                        "height": 75.305021520803,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61c0fea69e424.jpeg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1472,
+                                    "height": 1024
+                                }
+                            },
+                            "subContentId": "c58547ba-08f7-4250-9cd8-0a37cda5ed85",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 52.08333333333333,
+                        "y": 22.831050228310502,
+                        "width": 11.520249461041,
+                        "height": 21.574605451937,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "8f54da57-e6dc-4754-acbe-1f806706049e",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img034d6fc6-bbc5-451b-8e1f-2897fc222baf_3"
+                    },
+                    {
+                        "x": 92.59259259259258,
+                        "y": 2.2831050228310503,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 11,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "files": [
+                                    {
+                                        "path": "audios\/files-61e8a901677ec.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ],
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Dodo ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.6658",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a9184ab06.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " finds ",
+                                        "startDuration": "0.6658",
+                                        "endDuration": "1.1790",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a93e34c4c.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " one ",
+                                        "startDuration": "1.1790",
+                                        "endDuration": "1.6199",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a95e3bc31.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mom. ",
+                                        "startDuration": "1.6199",
+                                        "endDuration": "2.2004",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-61e8a97f032c9.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "subContentId": "034d6fc6-bbc5-451b-8e1f-2897fc222baf",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 2.5510204081632653,
+                        "y": 10.067707808564231,
+                        "width": 22.95918367346939,
+                        "height": 16.624685138539043,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb296cf2c04.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1350,
+                                    "height": 487
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "98ff3710-84cb-4662-b07a-73073cd11eb9"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 34.43877551020408,
+                        "y": 10.075566750629722,
+                        "width": 29.050925925925924,
+                        "height": 15.296803652968038,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb29a5596cb.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 814,
+                                    "height": 202
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "387747f0-999b-4c56-a89b-623bd35caa27"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 67.60204081632654,
+                        "y": 12.594458438287154,
+                        "width": 31.365740740740737,
+                        "height": 12.557077625570777,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb28cb969ac.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1732,
+                                    "height": 354
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "73af006f-62e3-4869-8f50-c2cce12f2919"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 6.63265306122449,
+                        "y": 35.254659949622166,
+                        "width": 86.86224489795919,
+                        "height": 61.71284634760705,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\"><strong>\"Hide and Seek\" credits<\/strong><\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\">This work, \"<strong>Hide and Seek<\/strong>\", is a derivative of \"<strong>Hide and Seek<\/strong>\" written by All Children Reading Cambodia. \u00a9 The Asia Foundation 2019, and used under CC BY. \"<strong>Hide and Seek<\/strong>\" is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:1em;\">Book builder - Deborah Oduman<\/span><\/h3>\n\n<p style=\"text-align: center;\">&nbsp;<\/p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            },
+                            "subContentId": "33da2529-d2f5-4184-9f05-626a2800f9d7"
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            }
+        ],
+        "keywordListEnabled": true,
+        "globalBackgroundSelector": {},
+        "keywordListAlwaysShow": false,
+        "keywordListAutoHide": false,
+        "keywordListOpacity": 90
+    },
+    "override": {
+        "activeSurface": false,
+        "hideSummarySlide": false,
+        "summarySlideSolutionButton": true,
+        "summarySlideRetryButton": true,
+        "enablePrintButton": false,
+        "social": {
+            "showFacebookShare": false,
+            "facebookShare": {
+                "url": "@currentpageurl",
+                "quote": "I scored @score out of @maxScore on a task at @currentpageurl."
+            },
+            "showTwitterShare": false,
+            "twitterShare": {
+                "statement": "I scored @score out of @maxScore on a task at @currentpageurl.",
+                "url": "@currentpageurl",
+                "hashtags": "h5p, course"
+            },
+            "showGoogleShare": false,
+            "googleShareUrl": "@currentpageurl"
+        }
+    },
+    "l10n": {
+        "slide": "Slide",
+        "score": "Score",
+        "yourScore": "Your Score",
+        "maxScore": "Max Score",
+        "total": "Total",
+        "totalScore": "Total Score",
+        "showSolutions": "Show solutions",
+        "retry": "Retry",
+        "exportAnswers": "Export text",
+        "hideKeywords": "Hide sidebar navigation menu",
+        "showKeywords": "Show sidebar navigation menu",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit fullscreen",
+        "prevSlide": "Previous slide",
+        "nextSlide": "Next slide",
+        "currentSlide": "Current slide",
+        "lastSlide": "Last slide",
+        "solutionModeTitle": "Exit solution mode",
+        "solutionModeText": "Solution Mode",
+        "summaryMultipleTaskText": "Multiple tasks",
+        "scoreMessage": "You achieved:",
+        "shareFacebook": "Share on Facebook",
+        "shareTwitter": "Share on Twitter",
+        "shareGoogle": "Share on Google+",
+        "summary": "Summary",
+        "solutionsButtonTitle": "Show comments",
+        "printTitle": "Print",
+        "printIngress": "How would you like to print this presentation?",
+        "printAllSlides": "Print all slides",
+        "printCurrentSlide": "Print current slide",
+        "noTitle": "No title",
+        "accessibilitySlideNavigationExplanation": "Use left and right arrow to change slide in that direction whenever canvas is selected.",
+        "accessibilityCanvasLabel": "Presentation canvas. Use left and right arrow to move between slides.",
+        "containsNotCompleted": "@slideName contains not completed interaction",
+        "containsCompleted": "@slideName contains completed interaction",
+        "slideCount": "Slide @index of @total",
+        "containsOnlyCorrect": "@slideName only has correct answers",
+        "containsIncorrectAnswers": "@slideName has incorrect answers",
+        "shareResult": "Share Result",
+        "accessibilityTotalScore": "You got @score of @maxScore points in total",
+        "accessibilityEnteredFullscreen": "Entered fullscreen",
+        "accessibilityExitedFullscreen": "Exited fullscreen"
+    }
+}
