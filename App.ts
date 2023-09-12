@@ -79,21 +79,21 @@ export class App {
                             contentFile: this.contentFilePath,
                         }
                     });
-                    this.broadcastChannel.onmessage = (event) => {
-                        console.log("CRapp: Message Received!");
-                        console.log(event.data.command);
-                        if (event.data.command == "Activated") {
-                            this.broadcastChannel.postMessage({
-                                command: "Cache",
-                                data: {
-                                    lang: this.lang,
-                                    bookData: book,
-                                    contentFile: this.contentFilePath,
-                                }
-                            });
-                        }
-                    };
                 }
+                this.broadcastChannel.onmessage = (event) => {
+                    console.log("CRapp: Message Received!");
+                    console.log(event.data.command);
+                    if (event.data.command == "Activated") {
+                        this.broadcastChannel.postMessage({
+                            command: "Cache",
+                            data: {
+                                lang: this.lang,
+                                bookData: book,
+                                contentFile: this.contentFilePath,
+                            }
+                        });
+                    }
+                };
                 navigator.serviceWorker.addEventListener("message", handleServiceWorkerMessage);
             } catch (error) {
                 console.log("Error Registering Service Worker", error);
