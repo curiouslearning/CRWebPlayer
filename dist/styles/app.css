@@ -24,3 +24,56 @@
   box-shadow: transparent 0px 0px 20px 20px;
   transition: border 1s linear 0s, box-shadow 1s linear 0s;
 }
+
+#loadingScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+  flex-direction: column;
+}
+
+#progressBarContainer {
+  position: absolute;
+  top: 68%;
+  width: 30%;
+  height: 34px;
+  border: 2px solid orange;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #343434;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background-color: orange;
+}
+
+p {
+  margin-top: 0;
+}
+
+@media screen and (min-height: 600px) {
+  p {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-height: 300px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
