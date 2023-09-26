@@ -154,8 +154,20 @@ export class PlayBackEngine {
         this.numberOfPages = book.pages.length;
 
         for (let i = 0; i < book.pages.length; i++) {
-            const slide = document.createElement("li");
-            slide.classList.add("splide__slide");
+            const slideLi = document.createElement("li");
+            const slide = document.createElement("div");
+
+            slideLi.style.display = "flex";
+            slideLi.style.justifyContent = "center";
+            slideLi.style.alignItems = "center";
+            
+            slide.style.position = "relative";
+            slide.style.width = "80%";
+            slide.style.height = "80%";
+
+            slideLi.appendChild(slide);
+
+            slideLi.classList.add("splide__slide");
 
             let sentenceInitializedByAudio = false;
 
@@ -192,7 +204,7 @@ export class PlayBackEngine {
                     }
                 }
 
-                this.splideHandle.add(slide);
+                this.splideHandle.add(slideLi);
             }
 
             // If the sentence wasn't not initialized by the audio object
@@ -221,12 +233,12 @@ export class PlayBackEngine {
         textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
         textElementDiv.style.fontFamily = "Quicksand";
         textElementDiv.style.fontWeight = "800";
-        textElementDiv.style.fontSize = "1.7em";
+        // textElementDiv.style.fontSize = "2rem";
         textElementDiv.style.top = textElement.positionY + "%";
         textElementDiv.style.left = textElement.positionX + "%";
         textElementDiv.style.width = textElement.width + "%";
         textElementDiv.style.height = textElement.height + "%";
-        textElementDiv.innerHTML = textElement.textContentAsHTML;
+        textElementDiv.innerHTML = textElement.textContentAsHTML.replace("2.25em", "");
 
         return textElementDiv;
     }
@@ -327,20 +339,24 @@ export class PlayBackEngine {
         textElementDiv.id = "cr-text";
         textElementDiv.classList.add("cr-text");
         textElementDiv.style.position = "absolute";
+        textElementDiv.style.display = "flex";
+        textElementDiv.style.justifyContent = "center";
+        textElementDiv.style.alignItems = "center";
         textElementDiv.style.webkitTextStroke = "1px #303030";
         textElementDiv.style.color = "#FFFFFF";
         textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
         textElementDiv.style.fontFamily = "Quicksand";
         textElementDiv.style.fontWeight = "800";
-        textElementDiv.style.fontSize = "1.7em";
+        // textElementDiv.style.fontSize = "2rem";
         textElementDiv.style.top = textElement.positionY + "%";
-        textElementDiv.style.left = textElement.positionX + "%";
-        textElementDiv.style.width = textElement.width + "%";
+        // textElementDiv.style.left = textElement.positionX + "%";
+        textElementDiv.style.width = "100%";
         textElementDiv.style.height = textElement.height + "%";
 
         let sentenceParagraph: HTMLParagraphElement = document.createElement("p");
         sentenceParagraph.style.textAlign = "center";
-        sentenceParagraph.style.fontSize = "1.75em";
+        // sentenceParagraph.style.fontSize = "2rem";
+        sentenceParagraph.style.margin = "0px";
 
         for (let i = 0; i < sentenceArrayTrimmed.length; i++) {
             let clickableWordElement: HTMLSpanElement = document.createElement("div");
@@ -465,7 +481,7 @@ export class PlayBackEngine {
                     textElementDiv.style.fontFamily = "Quicksand";
                     textElementDiv.style.fontWeight = "800";
                     textElementDiv.style.fontSize = "1.7em";
-                    textElementDiv.innerHTML = textElement.textContentAsHTML;
+                    textElementDiv.innerHTML = textElement.textContentAsHTML.replace("2.25em", "28px");
                     flexContainer.appendChild(textElementDiv);
                 } else if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
