@@ -8,7 +8,11 @@ let appVersion: string = "v0.2.7";
 
 const channel = new BroadcastChannel("my-channel");
 
+let loading = false;
+let loadingScreen = document.getElementById("loadingScreen");
+
 export class App {
+
     public contentParser: ContentParser;
     public bookName: string;
     public playBackEngine: PlayBackEngine;
@@ -17,6 +21,7 @@ export class App {
     public audioPath: string;
     public broadcastChannel: BroadcastChannel;
     public lang: string;
+
     constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
         console.log("Curious Reader App " + appVersion + " initializing!");
         this.bookName = bookName;
@@ -71,6 +76,7 @@ export class App {
                 await wb.register();
                 await navigator.serviceWorker.ready;
                 if (localStorage.getItem(book.bookName) == null) {
+                    loadingScreen!.style.display = "flex";
                     this.broadcastChannel.postMessage({
                         command: "Cache",
                         data: {
@@ -79,6 +85,8 @@ export class App {
                             contentFile: this.contentFilePath,
                         }
                     });
+                } else {
+                    loadingScreen!.style.display = "none";
                 }
                 this.broadcastChannel.onmessage = (event) => {
                     console.log("CRapp: Message Received!");
@@ -102,7 +110,6 @@ export class App {
         }
     }
 
-
 }
 
 channel.addEventListener("message", handleServiceWorkerMessage);
@@ -120,12 +127,11 @@ function handleServiceWorkerMessage(event): void {
 }
 
 function handleLoadingMessage(event, progressValue): void {
-
-    let cacheInfoDiv = document.getElementById("cache-load-value");
+    let progressBar = document.getElementById("progressBar");
     if (progressValue < 100) {
-        cacheInfoDiv!.innerHTML = "Loading: " + progressValue + "%";
+        progressBar!.style.width = progressValue + "%";
     } else if (progressValue >= 100) {
-        cacheInfoDiv!.innerHTML = "Book is cached!";
+        loadingScreen!.style.display = "none";
         readLanguageDataFromCacheAndNotifyAndroidApp(event.data.data.bookName);
         // add book with a name to local storage as cached
         localStorage.setItem(event.data.data.bookName, "true");
