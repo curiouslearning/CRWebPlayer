@@ -233,12 +233,13 @@ export class PlayBackEngine {
         textElementDiv.style.textShadow = "0.1rem 0.15rem 0.1rem #303030";
         textElementDiv.style.fontFamily = "Quicksand";
         textElementDiv.style.fontWeight = "800";
-        // textElementDiv.style.fontSize = "2rem";
+        textElementDiv.style.fontSize = "inherit";
         textElementDiv.style.top = textElement.positionY + "%";
         textElementDiv.style.left = textElement.positionX + "%";
         textElementDiv.style.width = textElement.width + "%";
         textElementDiv.style.height = textElement.height + "%";
-        textElementDiv.innerHTML = textElement.textContentAsHTML.replace("2.25em", "");
+        // textElementDiv.innerHTML = textElement.textContentAsHTML.replace("2.25em", "");
+        textElementDiv.innerHTML = textElement.textContentAsHTML.replace(/font-size:[^;]+;/g, "");
 
         return textElementDiv;
     }
@@ -349,9 +350,17 @@ export class PlayBackEngine {
         textElementDiv.style.fontWeight = "800";
         // textElementDiv.style.fontSize = "2rem";
         textElementDiv.style.top = textElement.positionY + "%";
-        // textElementDiv.style.left = textElement.positionX + "%";
-        textElementDiv.style.width = "100%";
+        
         textElementDiv.style.height = textElement.height + "%";
+        
+        if (textElement.positionX > 50.5) {
+            textElementDiv.style.left = textElement.positionX + "%";
+        } else if (textElement.positionX < 15 && textElement.width < 90) {
+            textElementDiv.style.left = textElement.positionX + "%";
+            textElementDiv.style.width = textElement.width + "%";
+        } else {
+            textElementDiv.style.width = "100%";
+        }
 
         let sentenceParagraph: HTMLParagraphElement = document.createElement("p");
         sentenceParagraph.style.textAlign = "center";
@@ -362,7 +371,8 @@ export class PlayBackEngine {
             let clickableWordElement: HTMLSpanElement = document.createElement("div");
             clickableWordElement.id = audioContentDOMId + "_word_" + i;
             clickableWordElement.classList.add("cr-clickable-word");
-            clickableWordElement.style.margin = "10px";
+            clickableWordElement.style.marginLeft = "10px";
+            clickableWordElement.style.marginRight = "10px";
             clickableWordElement.innerText = sentenceArrayTrimmed[i];
             clickableWordElement.addEventListener("click", (ev) => {
                 this.handleInteractiveWordClick(pageIndex, i);
