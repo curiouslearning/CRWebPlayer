@@ -2,6 +2,11 @@
   "dependencies": {
     "ts-loader": "^9.4.1"
   },
+  "scripts": {
+    "build": "webpack",
+    "injectManifest": "npx workbox injectManifest",
+    "dev": "webpack && npx workbox injectManifest && live-server --no-browser"
+  },
   "devDependencies": {
     "@splidejs/splide": "^4.1.4",
     "html-webpack-plugin": "^5.5.0",
