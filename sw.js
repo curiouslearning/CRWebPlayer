@@ -1,5 +1,5 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
-workbox.precaching.precacheAndRoute([{"revision":"663154f57d9380151a97a7283bbe09c9","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"950d55fbb1f9b86ec98cda5200fa1fe0","url":"dist/index.html"},{"revision":"b25174ff59e2567ec1c6532d5f785654","url":"dist/styles/app.css"},{"revision":"b7472351d5c67d7499dc0889e8b56a79","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {
+workbox.precaching.precacheAndRoute([{"revision":"f5c39c81c96be7d5923378ce81d9a854","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"950d55fbb1f9b86ec98cda5200fa1fe0","url":"dist/index.html"},{"revision":"b25174ff59e2567ec1c6532d5f785654","url":"dist/styles/app.css"},{"revision":"b7472351d5c67d7499dc0889e8b56a79","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {
   ignoreURLParametersMatching: [/^cr_/],
   exclude: [/^lang\//],
 });
@@ -8,12 +8,13 @@ const channel = new BroadcastChannel("cr-message-channel");
 let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
+
 channel.addEventListener("message", async function (event) {
   if (event.data.command === "Cache") {
     console.log("Caching request received in the service worker with data: ");
     console.log(event.data);
     cachingProgress = 0;
-     cacheTheBookJSONAndImages(event.data.data);
+    cacheTheBookJSONAndImages(event.data.data);
   }
 });
 

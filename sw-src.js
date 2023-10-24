@@ -8,12 +8,13 @@ const channel = new BroadcastChannel("cr-message-channel");
 let version = 0.9;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
+
 channel.addEventListener("message", async function (event) {
   if (event.data.command === "Cache") {
     console.log("Caching request received in the service worker with data: ");
     console.log(event.data);
     cachingProgress = 0;
-     cacheTheBookJSONAndImages(event.data.data);
+    cacheTheBookJSONAndImages(event.data.data);
   }
 });
 
