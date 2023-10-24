@@ -8,13 +8,12 @@ let appVersion: string = "v0.2.7";
 
 const channel = new BroadcastChannel("my-channel");
 
-let loading = false;
 let loadingScreen = document.getElementById("loadingScreen");
 
 export class App {
 
-    public contentParser: ContentParser;
     public bookName: string;
+    public contentParser: ContentParser;
     public playBackEngine: PlayBackEngine;
     public contentFilePath: string;
     public imagesPath: string;
@@ -88,6 +87,7 @@ export class App {
                 } else {
                     loadingScreen!.style.display = "none";
                 }
+
                 this.broadcastChannel.onmessage = (event) => {
                     console.log("CRapp: Message Received!");
                     console.log(event.data.command);
@@ -148,11 +148,11 @@ function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
 }
 
 function handleUpdateFoundMessage(): void {
-    let text = "Update Found\nPress ok to update.";
+    let text = "Update Found.\nPlease accept the update by pressing Ok.";
     if (confirm(text) == true) {
         window.location.reload();
     } else {
-        text = "You canceled!";
+        text = "Update will happen on the next launch.";
     }
 }
 
