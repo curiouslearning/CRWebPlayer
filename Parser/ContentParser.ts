@@ -172,8 +172,7 @@ export class ContentParser {
             path = elementJSON["action"]["params"]["file"]["path"];
         }
         let imageElement: ImageElement = {
-            domID:
-                path === this.emptyGlowImageTag
+            domID: path === this.emptyGlowImageTag
                     ? elementJSON["id"]
                     : elementJSON["action"]["subContentId"],
             type: "image",

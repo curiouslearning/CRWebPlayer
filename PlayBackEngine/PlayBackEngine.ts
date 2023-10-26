@@ -180,7 +180,7 @@ export class PlayBackEngine {
                 if (visualElement.type == "image") {
                     let imageElement: ImageElement = visualElement;
                     let pageIndex = i;
-                    slide.appendChild(this.createImageContainer(pageIndex, imageElement));
+                    slide.appendChild(this.createImageContainer(pageIndex, imageElement, j));
                 } else if (visualElement.type == "audio") {
                     sentenceInitializedByAudio = true;
                     let audioElement: AudioElement = visualElement;
@@ -244,7 +244,7 @@ export class PlayBackEngine {
         return textElementDiv;
     }
 
-    createImageContainer(pageIndex: number, imageElement: ImageElement): HTMLDivElement {
+    createImageContainer(pageIndex: number, imageElement: ImageElement, elementIndex: number): HTMLDivElement {
         let imageElementDiv = document.createElement("div");
 
         imageElementDiv.style.position = "absolute";
@@ -258,10 +258,20 @@ export class PlayBackEngine {
             // Using classes here instead of id assignment, because we could have multiple glowing divs
             // attached to one word in the sentence and having multiple elements with the same id is not
             // allowed in HTML
-            imageElementDiv.classList.add(imageElement.domID);
-            imageElementDiv.addEventListener("click", () => {
-                this.handleGlowImageClick(pageIndex, imageElement.domID.split("_")[1]);
-            });
+            if (imageElement.domID === undefined || imageElement.domID === null || imageElement.domID === "") {
+                const id = "img" + pageIndex + "_" + elementIndex;
+                imageElementDiv.id = id;
+                imageElementDiv.addEventListener("click", () => {
+                    // This means that the glowing object isn't connected to any word in the sentence, it should still have
+                    // a glow effect though
+                    this.handleStandaloneGlowImageClick(pageIndex, id);
+                });
+            } else {
+                imageElementDiv.classList.add(imageElement.domID);
+                imageElementDiv.addEventListener("click", () => {
+                    this.handleGlowImageClick(pageIndex, imageElement.domID.split("_")[1]);
+                });
+            }
         } else {
             imageElementDiv.id = imageElement.domID;
             imageElementDiv.classList.add("cr-image");
@@ -385,6 +395,34 @@ export class PlayBackEngine {
         audioAndTextArray.push(textElementDiv);
 
         return audioAndTextArray;
+    }
+
+    handleStandaloneGlowImageClick(pageIndex: number, id: string) {
+        if (this.currentlyPlayingAudioElement !== null) {
+            this.currentlyPlayingAudioElement.pause();
+            this.currentlyPlayingAudioElement.currentTime = 0;
+            clearInterval(this.currentPageAutoPlayerInterval);
+            clearTimeout(this.currentWordPlayingTimeout);
+            clearTimeout(this.currentGlowImageTimeout);
+
+            if (this.currentlyActiveGlowImages.length > 0) {
+                for (let i = 0; i < this.currentlyActiveGlowImages.length; i++) {
+                    this.currentlyActiveGlowImages[i].style.boxShadow = "transparent 0px 0px 20px 20px";
+                }
+            }
+        }
+
+        this.currentlyActiveGlowImages = Array();
+
+        let glowDiv = document.getElementById(id) as HTMLDivElement;
+
+        this.currentlyActiveGlowImages.push(glowDiv);
+        glowDiv.style.boxShadow = "orange 0px 0px 20px 20px";
+
+        this.currentGlowImageTimeout = setTimeout(() => {
+            let glowDiv = document.getElementById(id) as HTMLDivElement;
+            glowDiv.style.boxShadow = "transparent 0px 0px 20px 20px";
+        }, 600);
     }
 
     handleGlowImageClick(pageIndex: number, wordIndex: string) {
