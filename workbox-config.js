@@ -1,6 +1,6 @@
 module.exports = {
     globDirectory: "./",
-    globPatterns: ["**/*.{wav,mp3,WAV,png,webp,otf,jpg,js,json,css,html}"],
+    globPatterns: ["**/*.{wav,mp3,WAV,gif,png,webp,otf,jpg,js,json,css,html}"],
     swDest: "sw.js",
     swSrc: "sw-src.js",
     globIgnores:[
