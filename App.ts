@@ -4,7 +4,7 @@ import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
 import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 
-let appVersion: string = "v0.2.7";
+let appVersion: string = "v0.2.8";
 
 const channel = new BroadcastChannel("my-channel");
 
