@@ -91,7 +91,7 @@ function cacheTheBookJSONAndImages(data) {
       if (visualElement["type"] === "audio") {
         bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioSrc"]);
         for (let k = 0; k < visualElement["audioTimestamps"]["timestamps"].length; k++) {
-          bookAudioAndImageFiles.push("/BookContent/LetsFlyLevel2En/content/" + visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]);
+          bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]);
         }
       } else if (visualElement["type"] === "image" && visualElement["imageSource"] !== "empty_glow_image") {
         bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["imageSource"]);
