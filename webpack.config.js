@@ -27,6 +27,9 @@ module.exports = {
       filename: 'index.html',
     }),
   ],
+  experiments: {
+    topLevelAwait: true,
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, '/'),

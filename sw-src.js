@@ -1,91 +1,135 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-routing.dev.js");
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-strategies.dev.js");
+importScripts('/dist/workbox/6.2.0/workbox-sw.js');
 
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {});
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
+  ignoreURLParametersMatching: [/^cr_/],
+  exclude: [/^lang\//],
+});
 
+const channel = new BroadcastChannel("cr-message-channel");
+let version = 0.9;
 let cachingProgress = 0;
+let cachableAssetsCount = 0;
 
-self.addEventListener("install", async function (e) {
-  self.addEventListener("message", async (event) => {
-    // if (event.data.type === "Registration") {
-    //   if (!!!caches.keys().length) {
-    //     let cacheName = await getCacheName(event.data.value);
-    //   }
-    // }
-  });
+channel.addEventListener("message", async function (event) {
+  if (event.data.command === "Cache") {
+    console.log("Caching request received in the service worker with data: ");
+    console.log(event.data);
+    cachingProgress = 0;
+    cacheTheBookJSONAndImages(event.data.data);
+  }
+});
+
+// Precache static assets during service worker installation
+self.addEventListener('install', (event) => {
+  
   self.skipWaiting();
 });
+
 
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
   event.waitUntil(self.clients.claim());
+  channel.postMessage({ command: "Activated", data: {} });
 });
 
-const channel = new BroadcastChannel("my-channel");
-
-channel.addEventListener("message", async function (event) {
-  console.log("Caching request received on the service worker!");
-  if (event.data.command === "Cache") {
-    cachingProgress = 0;
-    await cacheTheBookJSONAndImages(event.data.data.content);
-  }
-});
-
-function cacheTheBookJSONAndImages(contentFilePath) {
-  console.log("Caching the book JSON and images" + contentFilePath);
-  self.clients.matchAll().then((clients) => {
-      clients.forEach((client) =>
-          client.postMessage({
-              msg: "Loading",
-              data: 100,
-          })
-      );
+self.registration.addEventListener("updatefound", function (e) {
+  caches.keys().then((cacheNames) => {
+    cacheNames.forEach((cacheName) => {
+      if (cacheName == workbox.core.cacheNames.precache) {
+        self.clients.matchAll().then((clients) => {
+          clients.forEach((client) =>
+            client.postMessage({ msg: "UpdateFound" })
+          );
+        });
+      }
+    });
   });
-}
+});
 
-self.addEventListener("fetch", function (event) {
-  const requestUrl = new URL(event.request.url);
-  if (requestUrl.protocol === 'chrome-extension:') {
+// Serve cached assets when offline or falling back to the network
+self.addEventListener('fetch', (event) => {
+  const requestURL = new URL(event.request.url);
+  if (requestURL.protocol === 'chrome-extension:') {
     return;
   }
-  console.log("Fetch event for ", event.request.url);
-  event.respondWith(
-    caches.match(event.request).then(function (response) {
-      if (response) {
-        return response;
-      }
-      return fetch(event.request).then((response) => {
-        const clonedResponse = response.clone();
-        const requestString = event.request.url.toLowerCase();
-        // If the response is valid, clone it and store it in the cache
-        if (response.ok) {
-          let isContentCached = localStorage.getItem("is_cached");
-          if (isContentCached === null) {
-            localStorage.setItem("is_cached", "true");
-          }
-          if (requestString.indexOf('bookcontent') !== -1) {
-            console.log('Book content request');
-            const segments = requestString.split('/');
-            const index = segments.indexOf('bookcontent');
-            if (index !== -1 && index < segments.length - 1) {
-              const nextSegment = segments[index + 1];
-              caches.open("CR_" + nextSegment).then((cache) => {
-                cache.put(event.request, clonedResponse);
-              });
-            }
-          } else if (requestString.indexOf('bookcontent') === -1) {
-            console.log('Non book content request');
-            caches.open('CRCache').then((cache) => {
-              cache.put(event.request, clonedResponse);
-            });
-          }
+  // Check if the request is for static assets
+  if (requestURL.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        // If the asset is in the static cache, return it
+        if (response) {
+          return response;
         }
-        return response;
+
+        // If not in the static cache, fetch it from the network
+        return fetch(event.request).then((networkResponse) => {
+          // Cache a copy of the response in the static cache for future use
+
+          return networkResponse;
+        });
       })
-      .catch(function(error) {
-        console.error('Failed to fetch file:', error);
-      });
-    })
-  );
+    );
+  } else {
+    // For requests to the BookContent folder, use the Book Content cache
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        return response || fetch(event.request);
+      })
+    );
+  }
 });
+
+function cacheTheBookJSONAndImages(data) {
+  console.log("Caching the book JSON and images");
+  let bookData = data["bookData"];
+  let bookAudioAndImageFiles = [];
+  
+  for (let i = 0; i < bookData["pages"].length; i++) {
+    let page = bookData["pages"][i];
+    for (let j = 0; j < page["visualElements"].length; j++) {
+      let visualElement = page["visualElements"][j];
+      if (visualElement["type"] === "audio") {
+        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioSrc"]);
+        for (let k = 0; k < visualElement["audioTimestamps"]["timestamps"].length; k++) {
+          bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]);
+        }
+      } else if (visualElement["type"] === "image" && visualElement["imageSource"] !== "empty_glow_image") {
+        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["imageSource"]);
+      }
+    }
+  }
+
+  cachableAssetsCount = bookAudioAndImageFiles.length;
+  
+
+  bookAudioAndImageFiles.push(data["contentFile"]);
+
+  console.log("Book audio files: ", bookAudioAndImageFiles);
+
+  caches.open(bookData["bookName"]).then((cache) => {
+    for (let i = 0; i < bookAudioAndImageFiles.length; i++) {
+      cache.add(bookAudioAndImageFiles[i]).finally(() => {
+        updateCachingProgress(bookData["bookName"]);
+      }).catch((error) => {
+        console.log("Error while caching the book JSON", error);
+      });
+    }
+    cache.addAll(bookAudioAndImageFiles).catch((error) => {
+      console.log("Error while caching the book JSON", error);
+    });
+  });
+
+}
+
+function updateCachingProgress(bookName) {
+  cachingProgress++;
+  let progress = Math.round((cachingProgress / cachableAssetsCount) * 100);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((client) =>
+      client.postMessage({
+        msg: "Loading",
+        data: {progress, bookName},
+      })
+    );
+  });
+}
