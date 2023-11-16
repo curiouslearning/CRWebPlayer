@@ -1,4 +1,4 @@
-importScripts('/dist/workbox/6.2.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
 
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
   ignoreURLParametersMatching: [/^cr_/],
@@ -6,7 +6,7 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 0.9;
+let version = 1.0;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
