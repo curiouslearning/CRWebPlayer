@@ -1,12 +1,12 @@
-importScripts('/dist/workbox/6.2.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
 
-workbox.precaching.precacheAndRoute([{"revision":"213c9f21b49d759327896ffaddbcf7b9","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"38e43cd7b492b624fc3da67dea7b0433","url":"dist/images/loadingImg.gif"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"541b899bd53145f6b2fe71434023a1f0","url":"dist/index.html"},{"revision":"f6a86e8018fc1f6ae254b339acbd1cdd","url":"dist/splide4.min.css"},{"revision":"58db39c8e19b600ad104cfb9a528c2b2","url":"dist/splide4.min.js"},{"revision":"b25174ff59e2567ec1c6532d5f785654","url":"dist/styles/app.css"},{"revision":"d650b55b29bcb4272f3402c89540b93a","url":"dist/workbox/6.2.0/workbox-sw.js"},{"revision":"822fb69bb82f653a04c66370505a2d77","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {
+workbox.precaching.precacheAndRoute([{"revision":"d9d8df614f1a599b523720155b7f08d8","url":"dist/app.js"},{"revision":"c3bf00e585782373e1b601c07b513d85","url":"dist/fonts/Quicksand_Bold.otf"},{"revision":"891d5740c1af1fad4da3afee1289c11c","url":"dist/images/cropped-bird_red-2.webp"},{"revision":"38e43cd7b492b624fc3da67dea7b0433","url":"dist/images/loadingImg.gif"},{"revision":"d6223ad2dfebbfe22e932087e0ec74f0","url":"dist/images/red_bird_256.webp"},{"revision":"541b899bd53145f6b2fe71434023a1f0","url":"dist/index.html"},{"revision":"f6a86e8018fc1f6ae254b339acbd1cdd","url":"dist/splide4.min.css"},{"revision":"58db39c8e19b600ad104cfb9a528c2b2","url":"dist/splide4.min.js"},{"revision":"b25174ff59e2567ec1c6532d5f785654","url":"dist/styles/app.css"},{"revision":"822fb69bb82f653a04c66370505a2d77","url":"index.html"},{"revision":"f3c6bfd852491a14a1828369a8a8eca2","url":"manifest.json"}], {
   ignoreURLParametersMatching: [/^cr_/],
   exclude: [/^lang\//],
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 0.9;
+let version = 1.0;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
