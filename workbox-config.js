@@ -4,6 +4,7 @@ module.exports = {
     swDest: "sw.js",
     swSrc: "sw-src.js",
     globIgnores:[
+        "dist/index.html",
         "BookContent/**/*", 
         "node_modules/**/*",
         "workbox-config.js",
