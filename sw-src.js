@@ -1,12 +1,12 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
 
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
-  ignoreURLParametersMatching: [/^cr_/],
+  ignoreURLParametersMatching: [/^book/],
   exclude: [/^lang\//],
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.0;
+let version = 1.1;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
@@ -21,7 +21,6 @@ channel.addEventListener("message", async function (event) {
 
 // Precache static assets during service worker installation
 self.addEventListener('install', (event) => {
-  
   self.skipWaiting();
 });
 
@@ -30,6 +29,7 @@ self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
   event.waitUntil(self.clients.claim());
   channel.postMessage({ command: "Activated", data: {} });
+  return self.clients.claim();
 });
 
 self.registration.addEventListener("updatefound", function (e) {
@@ -52,17 +52,25 @@ self.addEventListener('fetch', (event) => {
   if (requestURL.protocol === 'chrome-extension:') {
     return;
   }
-  // Check if the request is for static assets
+  // console.log("Fetching the request: ", event.request.url);
+  // event.respondWith(
+  //   caches.match(event.request, {ignoreVary:true}).then(function (response) {
+  //     if (response) {
+  //       return response;
+  //     } 
+  //     return fetch(event.request);
+  //   })
+  // );
   if (requestURL.origin === self.location.origin) {
     event.respondWith(
       caches.match(event.request).then((response) => {
-        // If the asset is in the static cache, return it
-        if (response) {
-          return response;
-        }
+          // If the asset is in the static cache, return it
+          if (response) {
+            return response;
+          }
 
-        // If not in the static cache, fetch it from the network
-        return fetch(event.request).then((networkResponse) => {
+          // If not in the static cache, fetch it from the network
+          return fetch(event.request).then((networkResponse) => {
           // Cache a copy of the response in the static cache for future use
 
           return networkResponse;
@@ -100,7 +108,6 @@ function cacheTheBookJSONAndImages(data) {
   }
 
   cachableAssetsCount = bookAudioAndImageFiles.length;
-  
 
   bookAudioAndImageFiles.push(data["contentFile"]);
 
