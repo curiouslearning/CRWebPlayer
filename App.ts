@@ -62,7 +62,7 @@ export class App {
     enforceLandscapeMode() {
         // Attempt to enforce landscape mode through Android bridge call
         // @ts-ignore
-        if (window.Android) {
+        if (window.Android && typeof window.Android.setContainerAppOrientation === 'function') {
             //@ts-ignore
             window.Android.setContainerAppOrientation("landscape");
         }
