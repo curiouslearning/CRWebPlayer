@@ -1,1 +1,2256 @@
-{"presentation":{"slides":[{"elements":[{"x":8.928571428571429,"y":7.552745591939547,"width":83.29081632653062,"height":83.1234256926952,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6218feaadd814.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":459}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"d3293589-4415-4ebf-ae1a-961ae11f41b0"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":12.755102040816327,"y":80.60453400503778,"width":75.25510204081633,"height":15.113350125944583,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"font-size:3em;\"><span style=\"background-color:#f1c40f;\">Enjuki n\u2019enjovu<\/span><\/span><\/p>\n"},"metadata":{"contentType":"Text","license":"U","title":"Untitled Text"},"subContentId":"2c273e0b-7b7e-487c-ab9a-2b8cf8caa347"},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}],"slideBackgroundSelector":{}},{"elements":[{"x":15.306122448979592,"y":7.552745591939547,"width":70.1530612244898,"height":70.27707808564232,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6218ffb5ab0a2.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":516}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"2bbb9c77-9eee-4ecd-9b60-31b9970388a6"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":0,"y":70.50931989924433,"width":99.23469387755102,"height":29.471032745591938,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Enjuki entono ebuze. Mwami Njovu asobola okuyamba?<\/span><\/span><\/p>\n"},"metadata":{"contentType":"Text","license":"U","title":"Untitled Text"},"subContentId":"4aae8963-063a-414b-a5ee-afd72856f053"},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":1,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Enjuki ","startDuration":"0.6251","endDuration":"1.7215","wordfile":[{"path":"audios\/wordfile-6511cc9fc1f2b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" entono ","startDuration":"1.8287","endDuration":"2.7717","wordfile":[{"path":"audios\/wordfile-6511ccbb0c3b2.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ebuze. ","startDuration":"2.9496","endDuration":"3.9516","wordfile":[{"path":"audios\/wordfile-6511ccd086ba3.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" Mwami ","startDuration":"4.6957","endDuration":"5.3792","wordfile":[{"path":"audios\/wordfile-6511ccf030788.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" Njovu ","startDuration":"5.3802","endDuration":"5.9104","wordfile":[{"path":"audios\/wordfile-6511cd1c46971.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" asobola ","startDuration":"5.9114","endDuration":"6.9960","wordfile":[{"path":"audios\/wordfile-6511cd3cd3a10.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" okuyamba? ","startDuration":"6.9970","endDuration":"8.2467","wordfile":[{"path":"audios\/wordfile-6511cd507348c.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cc76e2c25.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"ca41c9e8-45c2-4260-95a9-99a5bf6d33d7","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":38.26530612244898,"y":40.30226700251889,"width":12.372448979591837,"height":34.5088161209068,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"1798a026-75ab-4391-88a0-3889d58b0d11","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_0"},{"x":22.95918367346939,"y":2.5188916876574305,"width":40,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"0050acf4-ca33-4db1-a626-f8ef17791e83","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_3"},{"x":22.95918367346939,"y":2.5188916876574305,"width":40,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"2b3ef948-e225-41c9-9875-38a5ea7714aa","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_4"}],"slideBackgroundSelector":{}},{"elements":[{"x":10.204081632653061,"y":10.067707808564231,"width":42.09183673469388,"height":81.86397984886649,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6218ffe4e89b7.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":639,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"b7755801-542c-47a3-8297-16f0bb468bf7"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":53.57142857142857,"y":45.31637279596977,"width":43.36734693877551,"height":40.050377833753146,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu kisu?<\/span><\/span><\/p>\n"},"subContentId":"3ce9ff66-ee8e-4f87-a0cc-21fee6525fd2","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":2,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Obeera ","startDuration":"0.1533","endDuration":"1.1454","wordfile":[{"path":"audios\/wordfile-6511cdb27070d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mu ","startDuration":"1.2194","endDuration":"1.5143","wordfile":[{"path":"audios\/wordfile-6511cdc9113c3.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kisu? ","startDuration":"1.5153","endDuration":"2.2993","wordfile":[{"path":"audios\/wordfile-6511cdd91b56b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cd97b52ae.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"dde150b2-d3fe-4d1b-9b96-1760f7aebbb0","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":31.887755102040817,"y":10.071637279596978,"width":17.474489795918366,"height":16.876574307304786,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9242f92b-88ff-486e-9757-c616288a9520","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgdde150b2-d3fe-4d1b-9b96-1760f7aebbb0_2"}],"slideBackgroundSelector":{}},{"elements":[{"x":35.714285714285715,"y":7.556675062972292,"width":59.183673469387756,"height":88.16120906801007,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-622968c200f21.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"6dda1904-9558-44a2-9d92-da9e8e720301"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":8.928571428571429,"y":42.79748110831235,"width":45.91836734693878,"height":40.050377833753146,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Nedda, ekinyonyi kye kibeera mu kisu.<\/span><\/span><\/p>\n"},"subContentId":"ceba16fa-bd83-410e-8f5f-a2c3290083f8","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":3,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Nedda, ","startDuration":"0.1740","endDuration":"1.3545","wordfile":[{"path":"audios\/wordfile-6511ce192e86a.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ekinyonyi ","startDuration":"1.7034","endDuration":"3.0263","wordfile":[{"path":"audios\/wordfile-6511ce3794a6d.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kye ","startDuration":"3.4068","endDuration":"3.8362","wordfile":[{"path":"audios\/wordfile-6511ce4e3a630.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kibeera ","startDuration":"3.8372","endDuration":"4.6461","wordfile":[{"path":"audios\/wordfile-6511ce8484eff.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mu ","startDuration":"4.7815","endDuration":"5.0527","wordfile":[{"path":"audios\/wordfile-6511ce9d52b50.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kisu. ","startDuration":"5.0537","endDuration":"5.8072","wordfile":[{"path":"audios\/wordfile-6511ceaddf364.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cdf393194.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"9be3fa7c-b8cc-4b8b-847d-e0327d5b47ab","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":54.8469387755102,"y":12.590528967254407,"width":12.372448979591837,"height":24.43324937027708,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"7a86bc11-406e-4160-ba1b-2b27dc4fe1e5","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img9be3fa7c-b8cc-4b8b-847d-e0327d5b47ab_1"}],"slideBackgroundSelector":{"fillSlideBackground":"#ffffff"}},{"elements":[{"x":8.16326530612245,"y":9.06801007556675,"width":44.642857142857146,"height":83.37531486146095,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-62190037abe9d.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":639,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"51bdab42-84f8-4668-aa02-ac7c18a49044"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":54.8469387755102,"y":40.30226700251889,"width":40,"height":40,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu mpuku?<\/span><\/span><\/p>\n"},"subContentId":"781abd59-96fa-4821-9562-4223a929cc7d","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":4,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Obeera ","startDuration":"0.4088","endDuration":"1.2236","wordfile":[{"path":"audios\/wordfile-6511cee905c21.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mu mpuku? ","startDuration":"1.2246","endDuration":"2.2455","wordfile":[{"path":"audios\/wordfile-6511cefe25f5a.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cec14abe1.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"5a46a292-43be-426a-9e1b-88a50d490942","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":25.510204081632654,"y":17.608614609571788,"width":17.474489795918366,"height":21.914357682619645,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"8615d8ab-72f0-4504-9ee3-330df6e4e716","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img5a46a292-43be-426a-9e1b-88a50d490942_1"}],"slideBackgroundSelector":{}},{"elements":[{"x":37.00178571428571,"y":12.838488664987405,"width":56.88775510204082,"height":85.64231738035264,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6219006a2ebe7.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"d487e053-3e55-4b54-b3b2-2ccbcd81366b"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":5.1020408163265305,"y":27.707808564231737,"width":51.02040816326531,"height":62.216624685138534,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Nedda, akawundo ke kabeera mu\u2019mpuku.<\/span><\/span><\/p>\n"},"subContentId":"f85a4391-b828-4a13-a147-ac32cca51810","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":5,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Nedda, ","startDuration":"0.3716","endDuration":"1.5008","wordfile":[{"path":"audios\/wordfile-6511cf41528d3.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" akawundo ","startDuration":"2.0706","endDuration":"3.4475","wordfile":[{"path":"audios\/wordfile-6511cf5a27a36.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ke kabeera ","startDuration":"3.8555","endDuration":"5.0997","wordfile":[{"path":"audios\/wordfile-6511cf7520406.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mu\u2019mpuku. ","startDuration":"5.1007","endDuration":"6.3979","wordfile":[{"path":"audios\/wordfile-6511cf897475a.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cf2a9c64b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"4b8f4d0c-d00d-40fb-9548-f6463d24ce42","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":73.9795918367347,"y":15.101536523929472,"width":19.642857142857142,"height":29.471032745591938,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"6cc75290-0396-4a01-9f5d-606eba391ffa","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img4b8f4d0c-d00d-40fb-9548-f6463d24ce42_1"}],"slideBackgroundSelector":{"fillSlideBackground":"#ffffff"}},{"elements":[{"x":7.653061224489796,"y":9.571788413098236,"width":43.36734693877551,"height":83.1234256926952,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-621900957ede6.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":639,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"784af8c2-2763-4176-9310-dd6f34dbc1e5"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":53.57142857142857,"y":35.26448362720403,"width":40,"height":40,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu kiyumba ky\u2019enjuki?<\/span><\/span><\/p>\n"},"subContentId":"a39f0a9d-2c87-4f8d-8f08-15692cab8ef3","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":6,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Obeera ","startDuration":"0.3520","endDuration":"1.3453","wordfile":[{"path":"audios\/wordfile-6511cfb974425.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mu ","startDuration":"1.4934","endDuration":"1.7092","wordfile":[{"path":"audios\/wordfile-6511cfcfd1cb1.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kiyumba ","startDuration":"1.7102","endDuration":"2.3305","wordfile":[{"path":"audios\/wordfile-6511cfe01a9d0.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ky\u2019enjuki? ","startDuration":"2.3315","endDuration":"3.4036","wordfile":[{"path":"audios\/wordfile-6511cffade3b1.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511cfa078074.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"551d0412-f4da-4ae4-a452-bc31c9d42802","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":6.377551020408164,"y":2.5149571788413096,"width":50.63775510204082,"height":50.62972292191436,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"f26ceb90-346f-470e-b4e2-c0803c01bc59","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img551d0412-f4da-4ae4-a452-bc31c9d42802_2"},{"x":5.1020408163265305,"y":5.0338539042821155,"width":50.63775510204082,"height":50.62972292191436,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"ccc0a892-ad5a-4807-abd6-7d3ef79fbf61","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img551d0412-f4da-4ae4-a452-bc31c9d42802_3"}],"slideBackgroundSelector":{}},{"elements":[{"x":6.63265306122449,"y":12.846347607052897,"width":52.67857142857143,"height":79.5969773299748,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-621900bb6d423.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"2a5cc1d1-9746-4931-9b7c-b1c4a556bd4a"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":""},{"x":56.12244897959183,"y":32.72594458438287,"width":40.05102040816327,"height":55.415617128463474,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Yee, ekiyumba kino ge maka gange.<\/span><\/span><\/p>\n"},"subContentId":"40b1a01d-c5a1-485f-b8f6-3037c187135f","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":7,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Yee, ","startDuration":"0.0000","endDuration":"1.0866","wordfile":[{"path":"audios\/wordfile-6511d0207576b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ekiyumba ","startDuration":"1.3443","endDuration":"2.4542","wordfile":[{"path":"audios\/wordfile-6511d032bd1b9.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kino ","startDuration":"2.4552","endDuration":"3.0596","wordfile":[{"path":"audios\/wordfile-6511d0794f225.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ge ","startDuration":"3.3484","endDuration":"3.6728","wordfile":[{"path":"audios\/wordfile-6511d08f189db.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" maka ","startDuration":"3.6738","endDuration":"4.3560","wordfile":[{"path":"audios\/wordfile-6511d09fc79ed.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" gange. ","startDuration":"4.3570","endDuration":"5.4670","wordfile":[{"path":"audios\/wordfile-6511d0b2bccff.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511d011d467f.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"d559ee12-e56a-44ff-804f-373f2c70eb94","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":6.377551020408164,"y":7.556675062972292,"width":32.78061224489796,"height":64.73551637279597,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"2a0217c3-ceed-4e88-af91-b2db53e29649","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgd559ee12-e56a-44ff-804f-373f2c70eb94_1"},{"x":6.377551020408164,"y":7.546826196473551,"width":34.05612244897959,"height":64.73551637279597,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"92594226-0658-40ef-a25c-0b617e96d263","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgd559ee12-e56a-44ff-804f-373f2c70eb94_4"}],"slideBackgroundSelector":{"fillSlideBackground":"#fff8e7"}},{"elements":[{"x":19.13265306122449,"y":8.816120906801007,"width":65.56122448979592,"height":65.4911838790932,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-621900f617966.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":516}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"180c8f1f-323d-43a5-af49-e73b06ffa70d"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":5.1020408163265305,"y":75.5471032745592,"width":90.56122448979592,"height":22.41813602015113,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Webale kunnyamba, Mwami Njovu.<\/span><\/span><\/p>\n"},"subContentId":"7eeb4e33-e01a-4309-b551-f0b1b3b32fd5","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":8,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Webale ","startDuration":"0.2801","endDuration":"1.0919","wordfile":[{"path":"audios\/wordfile-6511d0e1de3ab.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" kunnyamba, ","startDuration":"1.2301","endDuration":"2.3677","wordfile":[{"path":"audios\/wordfile-6511d0f409900.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" Mwami ","startDuration":"2.7117","endDuration":"3.4034","wordfile":[{"path":"audios\/wordfile-6511d106bdd18.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" Njovu. ","startDuration":"3.4044","endDuration":"3.8674","wordfile":[{"path":"audios\/wordfile-6511d11741bc6.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511d0d0cb43b.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"66b73d7d-9d35-461a-9c7a-73891476a40c","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":11.479591836734695,"y":30.21108312342569,"width":40.05102040816327,"height":42.06549118387909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"22503904-c316-4961-ae22-3063448d9a26","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img66b73d7d-9d35-461a-9c7a-73891476a40c_2"},{"x":11.479591836734695,"y":30.226700251889167,"width":40,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"e7397d63-22c9-4639-8abc-f9f39c673a4e","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img66b73d7d-9d35-461a-9c7a-73891476a40c_3"}],"slideBackgroundSelector":{"fillSlideBackground":"#f0ffec"}},{"elements":[{"x":7.653061224489796,"y":17.632241813602015,"width":54.8469387755102,"height":78.84130982367758,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6219013254d0f.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":959,"height":689}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"c9114c60-8660-4144-8a63-fa9fd053f5ae"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":49.744897959183675,"y":40.30226700251889,"width":40,"height":40,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Enjuki n\u2019enjovu ba mukwano.<\/span><\/span><\/p>\n"},"subContentId":"4c322762-bfa6-445d-88bf-4574cedbbffe","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":47.00255102040816,"y":43.95465994962216,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":9,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Enjuki ","startDuration":"0.4184","endDuration":"1.3117","wordfile":[{"path":"audios\/wordfile-6511d149950d4.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" n\u2019enjovu ","startDuration":"1.6235","endDuration":"2.7260","wordfile":[{"path":"audios\/wordfile-6511d180144dd.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" ba ","startDuration":"2.8944","endDuration":"3.3334","wordfile":[{"path":"audios\/wordfile-6511d19c0ca5e.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},{"text":" mukwano. ","startDuration":"3.3344","endDuration":"4.2756","wordfile":[{"path":"audios\/wordfile-6511d1ae371ec.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6511d12e07e28.wav","mime":"audio\/x-wav","copyright":{"license":"U"}}]},"subContentId":"28de7bd4-1c9f-4795-84ed-cce67577bd6e","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":1.2755102040816326,"y":30.226700251889167,"width":40,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"6d98d7ad-0fea-4794-87c8-d18606cd79d5","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img28de7bd4-1c9f-4795-84ed-cce67577bd6e_1"},{"x":29.336734693877553,"y":17.608614609571788,"width":12.372448979591837,"height":19.395465994962215,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"a9cf161f-324d-40bb-8604-b2c3a0aaaaa6","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img28de7bd4-1c9f-4795-84ed-cce67577bd6e_0"},{"x":6.377551020408164,"y":10.075566750629722,"width":40.05102040816327,"height":89.16876574307304,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"c6659814-6cdb-44c1-b292-050a5a9114be","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img28de7bd4-1c9f-4795-84ed-cce67577bd6e_3"}],"slideBackgroundSelector":{"fillSlideBackground":"#ffffff"}},{"slideBackgroundSelector":{},"elements":[{"x":3.826530612244898,"y":5.0338539042821155,"width":17.857142857142858,"height":12.846347607052897,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb296cf2c04.png","mime":"image\/png","copyright":{"license":"U"},"width":1350,"height":487}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"e4b88919-7433-4a56-a167-958946310bab"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":39.54081632653061,"y":5.037783375314861,"width":23.086734693877553,"height":12.594458438287154,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb29a5596cb.png","mime":"image\/png","copyright":{"license":"U"},"width":814,"height":202}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"bd3ccc9b-836b-4ad7-80fa-37e7b53c703d"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":75.25510204081633,"y":7.552745591939547,"width":23.724489795918366,"height":9.571788413098236,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-61fb28cb969ac.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1732,"height":354}},"metadata":{"contentType":"Image","license":"U","title":"Untitled Image"},"subContentId":"0bb44dcb-0a6e-4a9d-baf4-28ce8eb469f5"},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":6.943558673469388,"y":25.17317380352645,"width":86.86224489795919,"height":70.52896725440806,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\"><strong>\"Enjuki n\u2019enjovu\" credits<\/strong><\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\">This work, \"<strong>Enjuki n\u2019enjovu<\/strong>\", is a derivative of \"The bee and the elephant\" translated by Celia Bolam used under CC BY. &nbsp;It is based on the Original story: '\u1783\u17d2\u1798\u17bb\u17c6\u1793\u17b7\u1784\u178a\u17c6\u179a\u17b8', by Long Ravy \u00a9 Room to Read, 2015.&nbsp;<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\">Some changes were made to this work. \"<strong>Enjuki n\u2019enjovu<\/strong>\" is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><br>\n<span style=\"font-size:0.875em;\">Book builder - Abraham Jerry Kakooza<\/span><\/h3>\n\n<p style=\"text-align: center;\">&nbsp;<\/p>\n"},"metadata":{"contentType":"Text","license":"U","title":"Untitled Text"},"subContentId":"c5c81f2e-5bc1-4f75-b2b7-4f93b7f5b16e"},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}]}],"keywordListEnabled":true,"globalBackgroundSelector":{"fillGlobalBackground":"#daf6f7"},"keywordListAlwaysShow":false,"keywordListAutoHide":false,"keywordListOpacity":90},"override":{"activeSurface":false,"hideSummarySlide":false,"summarySlideSolutionButton":true,"summarySlideRetryButton":true,"enablePrintButton":false,"social":{"showFacebookShare":false,"facebookShare":{"url":"@currentpageurl","quote":"I scored @score out of @maxScore on a task at @currentpageurl."},"showTwitterShare":false,"twitterShare":{"statement":"I scored @score out of @maxScore on a task at @currentpageurl.","url":"@currentpageurl","hashtags":"h5p, course"},"showGoogleShare":false,"googleShareUrl":"@currentpageurl"}},"l10n":{"slide":"Slide","score":"Score","yourScore":"Your Score","maxScore":"Max Score","total":"Total","totalScore":"Total Score","showSolutions":"Show solutions","retry":"Retry","exportAnswers":"Export text","hideKeywords":"Hide sidebar navigation menu","showKeywords":"Show sidebar navigation menu","fullscreen":"Fullscreen","exitFullscreen":"Exit fullscreen","prevSlide":"Previous slide","nextSlide":"Next slide","currentSlide":"Current slide","lastSlide":"Last slide","solutionModeTitle":"Exit solution mode","solutionModeText":"Solution Mode","summaryMultipleTaskText":"Multiple tasks","scoreMessage":"You achieved:","shareFacebook":"Share on Facebook","shareTwitter":"Share on Twitter","shareGoogle":"Share on Google+","summary":"Summary","solutionsButtonTitle":"Show comments","printTitle":"Print","printIngress":"How would you like to print this presentation?","printAllSlides":"Print all slides","printCurrentSlide":"Print current slide","noTitle":"No title","accessibilitySlideNavigationExplanation":"Use left and right arrow to change slide in that direction whenever canvas is selected.","accessibilityCanvasLabel":"Presentation canvas. Use left and right arrow to move between slides.","containsNotCompleted":"@slideName contains not completed interaction","containsCompleted":"@slideName contains completed interaction","slideCount":"Slide @index of @total","containsOnlyCorrect":"@slideName only has correct answers","containsIncorrectAnswers":"@slideName has incorrect answers","shareResult":"Share Result","accessibilityTotalScore":"You got @score of @maxScore points in total","accessibilityEnteredFullscreen":"Entered fullscreen","accessibilityExitedFullscreen":"Exited fullscreen"}}
+{
+    "presentation": {
+        "slides": [
+            {
+                "elements": [
+                    {
+                        "x": 8.928571428571429,
+                        "y": 7.552745591939547,
+                        "width": 83.29081632653062,
+                        "height": 83.1234256926952,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6218feaadd814.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 459
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "d3293589-4415-4ebf-ae1a-961ae11f41b0"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 12.755102040816327,
+                        "y": 80.60453400503778,
+                        "width": 75.25510204081633,
+                        "height": 15.113350125944583,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"font-size:3em;\"><span style=\"background-color:#f1c40f;\">Enjuki n\u2019enjovu<\/span><\/span><\/p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            },
+                            "subContentId": "2c273e0b-7b7e-487c-ab9a-2b8cf8caa347"
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 15.306122448979592,
+                        "y": 7.552745591939547,
+                        "width": 70.1530612244898,
+                        "height": 70.27707808564232,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6218ffb5ab0a2.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 516
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "2bbb9c77-9eee-4ecd-9b60-31b9970388a6"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 0,
+                        "y": 70.50931989924433,
+                        "width": 99.23469387755102,
+                        "height": 29.471032745591938,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Enjuki entono ebuze. Mwami Njovu asobola okuyamba?<\/span><\/span><\/p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            },
+                            "subContentId": "4aae8963-063a-414b-a5ee-afd72856f053"
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 1,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Enjuki ",
+                                        "startDuration": "0.6251",
+                                        "endDuration": "1.7215",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cc9fc1f2b.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " entono ",
+                                        "startDuration": "1.8287",
+                                        "endDuration": "2.7717",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ccbb0c3b2.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ebuze. ",
+                                        "startDuration": "2.9496",
+                                        "endDuration": "3.9516",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ccd086ba3.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Mwami ",
+                                        "startDuration": "4.6957",
+                                        "endDuration": "5.3792",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ccf030788.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Njovu ",
+                                        "startDuration": "5.3802",
+                                        "endDuration": "5.9104",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cd1c46971.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " asobola ",
+                                        "startDuration": "5.9114",
+                                        "endDuration": "6.9960",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cd3cd3a10.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " okuyamba? ",
+                                        "startDuration": "6.9970",
+                                        "endDuration": "8.2467",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cd507348c.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cc76e2c25.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "ca41c9e8-45c2-4260-95a9-99a5bf6d33d7",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 38.26530612244898,
+                        "y": 40.30226700251889,
+                        "width": 12.372448979591837,
+                        "height": 34.5088161209068,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "1798a026-75ab-4391-88a0-3889d58b0d11",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_0"
+                    },
+                    {
+                        "x": 22.95918367346939,
+                        "y": 2.5188916876574305,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "0050acf4-ca33-4db1-a626-f8ef17791e83",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_3"
+                    },
+                    {
+                        "x": 22.95918367346939,
+                        "y": 2.5188916876574305,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "2b3ef948-e225-41c9-9875-38a5ea7714aa",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgca41c9e8-45c2-4260-95a9-99a5bf6d33d7_4"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 10.204081632653061,
+                        "y": 10.067707808564231,
+                        "width": 42.09183673469388,
+                        "height": 81.86397984886649,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6218ffe4e89b7.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 639,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "b7755801-542c-47a3-8297-16f0bb468bf7"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 53.57142857142857,
+                        "y": 45.31637279596977,
+                        "width": 43.36734693877551,
+                        "height": 40.050377833753146,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu kisu?<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "3ce9ff66-ee8e-4f87-a0cc-21fee6525fd2",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 2,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Obeera ",
+                                        "startDuration": "0.1533",
+                                        "endDuration": "1.1454",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cdb27070d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu ",
+                                        "startDuration": "1.2194",
+                                        "endDuration": "1.5143",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cdc9113c3.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kisu? ",
+                                        "startDuration": "1.5153",
+                                        "endDuration": "2.2993",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cdd91b56b.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cd97b52ae.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "dde150b2-d3fe-4d1b-9b96-1760f7aebbb0",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 31.887755102040817,
+                        "y": 10.071637279596978,
+                        "width": 17.474489795918366,
+                        "height": 16.876574307304786,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9242f92b-88ff-486e-9757-c616288a9520",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgdde150b2-d3fe-4d1b-9b96-1760f7aebbb0_2"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 35.714285714285715,
+                        "y": 7.556675062972292,
+                        "width": 59.183673469387756,
+                        "height": 88.16120906801007,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-622968c200f21.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "6dda1904-9558-44a2-9d92-da9e8e720301"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 8.928571428571429,
+                        "y": 42.79748110831235,
+                        "width": 45.91836734693878,
+                        "height": 40.050377833753146,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Nedda, ekinyonyi kye kibeera mu kisu.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "ceba16fa-bd83-410e-8f5f-a2c3290083f8",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 3,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Nedda, ",
+                                        "startDuration": "0.1740",
+                                        "endDuration": "1.3545",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ce192e86a.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ekinyonyi ",
+                                        "startDuration": "1.7034",
+                                        "endDuration": "3.0263",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ce3794a6d.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kye ",
+                                        "startDuration": "3.4068",
+                                        "endDuration": "3.8362",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ce4e3a630.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kibeera ",
+                                        "startDuration": "3.8372",
+                                        "endDuration": "4.6461",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ce8484eff.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu ",
+                                        "startDuration": "4.7815",
+                                        "endDuration": "5.0527",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ce9d52b50.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kisu. ",
+                                        "startDuration": "5.0537",
+                                        "endDuration": "5.8072",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511ceaddf364.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cdf393194.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "9be3fa7c-b8cc-4b8b-847d-e0327d5b47ab",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 54.8469387755102,
+                        "y": 12.590528967254407,
+                        "width": 12.372448979591837,
+                        "height": 24.43324937027708,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "7a86bc11-406e-4160-ba1b-2b27dc4fe1e5",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img9be3fa7c-b8cc-4b8b-847d-e0327d5b47ab_1"
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#ffffff"
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "x": 8.16326530612245,
+                        "y": 9.06801007556675,
+                        "width": 44.642857142857146,
+                        "height": 83.37531486146095,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-62190037abe9d.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 639,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "51bdab42-84f8-4668-aa02-ac7c18a49044"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 54.8469387755102,
+                        "y": 40.30226700251889,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu mpuku?<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "781abd59-96fa-4821-9562-4223a929cc7d",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 4,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Obeera ",
+                                        "startDuration": "0.4088",
+                                        "endDuration": "1.2236",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cee905c21.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu mpuku? ",
+                                        "startDuration": "1.2246",
+                                        "endDuration": "2.2455",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cefe25f5a.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cec14abe1.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "5a46a292-43be-426a-9e1b-88a50d490942",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 25.510204081632654,
+                        "y": 17.608614609571788,
+                        "width": 17.474489795918366,
+                        "height": 21.914357682619645,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "8615d8ab-72f0-4504-9ee3-330df6e4e716",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img5a46a292-43be-426a-9e1b-88a50d490942_1"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 37.00178571428571,
+                        "y": 12.838488664987405,
+                        "width": 56.88775510204082,
+                        "height": 85.64231738035264,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6219006a2ebe7.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "d487e053-3e55-4b54-b3b2-2ccbcd81366b"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 27.707808564231737,
+                        "width": 51.02040816326531,
+                        "height": 62.216624685138534,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Nedda, akawundo ke kabeera mu\u2019mpuku.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "f85a4391-b828-4a13-a147-ac32cca51810",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 5,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Nedda, ",
+                                        "startDuration": "0.3716",
+                                        "endDuration": "1.5008",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cf41528d3.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " akawundo ",
+                                        "startDuration": "2.0706",
+                                        "endDuration": "3.4475",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cf5a27a36.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ke kabeera ",
+                                        "startDuration": "3.8555",
+                                        "endDuration": "5.0997",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cf7520406.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu\u2019mpuku. ",
+                                        "startDuration": "5.1007",
+                                        "endDuration": "6.3979",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cf897475a.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cf2a9c64b.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "4b8f4d0c-d00d-40fb-9548-f6463d24ce42",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 73.9795918367347,
+                        "y": 15.101536523929472,
+                        "width": 19.642857142857142,
+                        "height": 29.471032745591938,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "6cc75290-0396-4a01-9f5d-606eba391ffa",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img4b8f4d0c-d00d-40fb-9548-f6463d24ce42_1"
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#ffffff"
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "x": 7.653061224489796,
+                        "y": 9.571788413098236,
+                        "width": 43.36734693877551,
+                        "height": 83.1234256926952,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-621900957ede6.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 639,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "784af8c2-2763-4176-9310-dd6f34dbc1e5"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 53.57142857142857,
+                        "y": 35.26448362720403,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Obeera mu kiyumba ky\u2019enjuki?<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "a39f0a9d-2c87-4f8d-8f08-15692cab8ef3",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 6,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Obeera ",
+                                        "startDuration": "0.3520",
+                                        "endDuration": "1.3453",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cfb974425.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu ",
+                                        "startDuration": "1.4934",
+                                        "endDuration": "1.7092",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cfcfd1cb1.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kiyumba ",
+                                        "startDuration": "1.7102",
+                                        "endDuration": "2.3305",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cfe01a9d0.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ky\u2019enjuki? ",
+                                        "startDuration": "2.3315",
+                                        "endDuration": "3.4036",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511cffade3b1.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511cfa078074.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "551d0412-f4da-4ae4-a452-bc31c9d42802",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 6.377551020408164,
+                        "y": 2.5149571788413096,
+                        "width": 50.63775510204082,
+                        "height": 50.62972292191436,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "f26ceb90-346f-470e-b4e2-c0803c01bc59",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img551d0412-f4da-4ae4-a452-bc31c9d42802_2"
+                    },
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 5.0338539042821155,
+                        "width": 50.63775510204082,
+                        "height": 50.62972292191436,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "ccc0a892-ad5a-4807-abd6-7d3ef79fbf61",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img551d0412-f4da-4ae4-a452-bc31c9d42802_3"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 6.63265306122449,
+                        "y": 12.846347607052897,
+                        "width": 52.67857142857143,
+                        "height": 79.5969773299748,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-621900bb6d423.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "2a5cc1d1-9746-4931-9b7c-b1c4a556bd4a"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": ""
+                    },
+                    {
+                        "x": 56.12244897959183,
+                        "y": 32.72594458438287,
+                        "width": 40.05102040816327,
+                        "height": 55.415617128463474,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Yee, ekiyumba kino ge maka gange.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "40b1a01d-c5a1-485f-b8f6-3037c187135f",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 7,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Yee, ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "1.0866",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d0207576b.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ekiyumba ",
+                                        "startDuration": "1.3443",
+                                        "endDuration": "2.4542",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d032bd1b9.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kino ",
+                                        "startDuration": "2.4552",
+                                        "endDuration": "3.0596",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d0794f225.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ge ",
+                                        "startDuration": "3.3484",
+                                        "endDuration": "3.6728",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d08f189db.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " maka ",
+                                        "startDuration": "3.6738",
+                                        "endDuration": "4.3560",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d09fc79ed.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " gange. ",
+                                        "startDuration": "4.3570",
+                                        "endDuration": "5.4670",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d0b2bccff.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511d011d467f.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "d559ee12-e56a-44ff-804f-373f2c70eb94",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 6.377551020408164,
+                        "y": 7.556675062972292,
+                        "width": 32.78061224489796,
+                        "height": 64.73551637279597,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "2a0217c3-ceed-4e88-af91-b2db53e29649",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgd559ee12-e56a-44ff-804f-373f2c70eb94_1"
+                    },
+                    {
+                        "x": 6.377551020408164,
+                        "y": 7.546826196473551,
+                        "width": 34.05612244897959,
+                        "height": 64.73551637279597,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "92594226-0658-40ef-a25c-0b617e96d263",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgd559ee12-e56a-44ff-804f-373f2c70eb94_4"
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#fff8e7"
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "x": 19.13265306122449,
+                        "y": 8.816120906801007,
+                        "width": 65.56122448979592,
+                        "height": 65.4911838790932,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-621900f617966.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 516
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "180c8f1f-323d-43a5-af49-e73b06ffa70d"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 75.5471032745592,
+                        "width": 90.56122448979592,
+                        "height": 22.41813602015113,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Webale kunnyamba, Mwami Njovu.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "7eeb4e33-e01a-4309-b551-f0b1b3b32fd5",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 8,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Webale ",
+                                        "startDuration": "0.2801",
+                                        "endDuration": "1.0919",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d0e1de3ab.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kunnyamba, ",
+                                        "startDuration": "1.2301",
+                                        "endDuration": "2.3677",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d0f409900.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Mwami ",
+                                        "startDuration": "2.7117",
+                                        "endDuration": "3.4034",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d106bdd18.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Njovu. ",
+                                        "startDuration": "3.4044",
+                                        "endDuration": "3.8674",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d11741bc6.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511d0d0cb43b.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "66b73d7d-9d35-461a-9c7a-73891476a40c",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 11.479591836734695,
+                        "y": 30.21108312342569,
+                        "width": 40.05102040816327,
+                        "height": 42.06549118387909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "22503904-c316-4961-ae22-3063448d9a26",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img66b73d7d-9d35-461a-9c7a-73891476a40c_2"
+                    },
+                    {
+                        "x": 11.479591836734695,
+                        "y": 30.226700251889167,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "e7397d63-22c9-4639-8abc-f9f39c673a4e",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img66b73d7d-9d35-461a-9c7a-73891476a40c_3"
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#f0ffec"
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "x": 7.653061224489796,
+                        "y": 17.632241813602015,
+                        "width": 54.8469387755102,
+                        "height": 78.84130982367758,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6219013254d0f.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 959,
+                                    "height": 689
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "c9114c60-8660-4144-8a63-fa9fd053f5ae"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 51.744897959183675,
+                        "y": 40.30226700251889,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:2.25em;\">Enjuki n\u2019enjovu ba mukwano.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "4c322762-bfa6-445d-88bf-4574cedbbffe",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 47.00255102040816,
+                        "y": 43.95465994962216,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 9,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Enjuki ",
+                                        "startDuration": "0.4184",
+                                        "endDuration": "1.3117",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d149950d4.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " n\u2019enjovu ",
+                                        "startDuration": "1.6235",
+                                        "endDuration": "2.7260",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d180144dd.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ba ",
+                                        "startDuration": "2.8944",
+                                        "endDuration": "3.3334",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d19c0ca5e.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mukwano. ",
+                                        "startDuration": "3.3344",
+                                        "endDuration": "4.2756",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6511d1ae371ec.wav",
+                                                "mime": "audio\/x-wav",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6511d12e07e28.wav",
+                                        "mime": "audio\/x-wav",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "28de7bd4-1c9f-4795-84ed-cce67577bd6e",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 1.2755102040816326,
+                        "y": 30.226700251889167,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "6d98d7ad-0fea-4794-87c8-d18606cd79d5",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img28de7bd4-1c9f-4795-84ed-cce67577bd6e_1"
+                    },
+                    {
+                        "x": 29.336734693877553,
+                        "y": 17.608614609571788,
+                        "width": 12.372448979591837,
+                        "height": 19.395465994962215,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "a9cf161f-324d-40bb-8604-b2c3a0aaaaa6",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img28de7bd4-1c9f-4795-84ed-cce67577bd6e_0"
+                    },
+                    {
+                        "x": 6.377551020408164,
+                        "y": 10.075566750629722,
+                        "width": 40.05102040816327,
+                        "height": 89.16876574307304,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "c6659814-6cdb-44c1-b292-050a5a9114be",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img28de7bd4-1c9f-4795-84ed-cce67577bd6e_3"
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#ffffff"
+                }
+            },
+            {
+                "slideBackgroundSelector": {},
+                "elements": [
+                    {
+                        "x": 3.826530612244898,
+                        "y": 5.0338539042821155,
+                        "width": 17.857142857142858,
+                        "height": 12.846347607052897,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb296cf2c04.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1350,
+                                    "height": 487
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "e4b88919-7433-4a56-a167-958946310bab"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 39.54081632653061,
+                        "y": 5.037783375314861,
+                        "width": 23.086734693877553,
+                        "height": 12.594458438287154,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb29a5596cb.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 814,
+                                    "height": 202
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "bd3ccc9b-836b-4ad7-80fa-37e7b53c703d"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 75.25510204081633,
+                        "y": 7.552745591939547,
+                        "width": 23.724489795918366,
+                        "height": 9.571788413098236,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-61fb28cb969ac.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1732,
+                                    "height": 354
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "0bb44dcb-0a6e-4a9d-baf4-28ce8eb469f5"
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 6.943558673469388,
+                        "y": 25.17317380352645,
+                        "width": 86.86224489795919,
+                        "height": 70.52896725440806,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\"><strong>\"Enjuki n\u2019enjovu\" credits<\/strong><\/span><\/h3>\n\n<hr>\n<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\">This work, \"<strong>Enjuki n\u2019enjovu<\/strong>\", is a derivative of \"The bee and the elephant\" translated by Celia Bolam used under CC BY. &nbsp;It is based on the Original story: '\u1783\u17d2\u1798\u17bb\u17c6\u1793\u17b7\u1784\u178a\u17c6\u179a\u17b8', by Long Ravy \u00a9 Room to Read, 2015.&nbsp;<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:0.875em;\">Some changes were made to this work. \"<strong>Enjuki n\u2019enjovu<\/strong>\" is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><br>\n<span style=\"font-size:0.875em;\">Book builder - Abraham Jerry Kakooza<\/span><\/h3>\n\n<p style=\"text-align: center;\">&nbsp;<\/p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            },
+                            "subContentId": "c5c81f2e-5bc1-4f75-b2b7-4f93b7f5b16e"
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "keywordListEnabled": true,
+        "globalBackgroundSelector": {
+            "fillGlobalBackground": "#daf6f7"
+        },
+        "keywordListAlwaysShow": false,
+        "keywordListAutoHide": false,
+        "keywordListOpacity": 90
+    },
+    "override": {
+        "activeSurface": false,
+        "hideSummarySlide": false,
+        "summarySlideSolutionButton": true,
+        "summarySlideRetryButton": true,
+        "enablePrintButton": false,
+        "social": {
+            "showFacebookShare": false,
+            "facebookShare": {
+                "url": "@currentpageurl",
+                "quote": "I scored @score out of @maxScore on a task at @currentpageurl."
+            },
+            "showTwitterShare": false,
+            "twitterShare": {
+                "statement": "I scored @score out of @maxScore on a task at @currentpageurl.",
+                "url": "@currentpageurl",
+                "hashtags": "h5p, course"
+            },
+            "showGoogleShare": false,
+            "googleShareUrl": "@currentpageurl"
+        }
+    },
+    "l10n": {
+        "slide": "Slide",
+        "score": "Score",
+        "yourScore": "Your Score",
+        "maxScore": "Max Score",
+        "total": "Total",
+        "totalScore": "Total Score",
+        "showSolutions": "Show solutions",
+        "retry": "Retry",
+        "exportAnswers": "Export text",
+        "hideKeywords": "Hide sidebar navigation menu",
+        "showKeywords": "Show sidebar navigation menu",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit fullscreen",
+        "prevSlide": "Previous slide",
+        "nextSlide": "Next slide",
+        "currentSlide": "Current slide",
+        "lastSlide": "Last slide",
+        "solutionModeTitle": "Exit solution mode",
+        "solutionModeText": "Solution Mode",
+        "summaryMultipleTaskText": "Multiple tasks",
+        "scoreMessage": "You achieved:",
+        "shareFacebook": "Share on Facebook",
+        "shareTwitter": "Share on Twitter",
+        "shareGoogle": "Share on Google+",
+        "summary": "Summary",
+        "solutionsButtonTitle": "Show comments",
+        "printTitle": "Print",
+        "printIngress": "How would you like to print this presentation?",
+        "printAllSlides": "Print all slides",
+        "printCurrentSlide": "Print current slide",
+        "noTitle": "No title",
+        "accessibilitySlideNavigationExplanation": "Use left and right arrow to change slide in that direction whenever canvas is selected.",
+        "accessibilityCanvasLabel": "Presentation canvas. Use left and right arrow to move between slides.",
+        "containsNotCompleted": "@slideName contains not completed interaction",
+        "containsCompleted": "@slideName contains completed interaction",
+        "slideCount": "Slide @index of @total",
+        "containsOnlyCorrect": "@slideName only has correct answers",
+        "containsIncorrectAnswers": "@slideName has incorrect answers",
+        "shareResult": "Share Result",
+        "accessibilityTotalScore": "You got @score of @maxScore points in total",
+        "accessibilityEnteredFullscreen": "Entered fullscreen",
+        "accessibilityExitedFullscreen": "Exited fullscreen"
+    }
+}
