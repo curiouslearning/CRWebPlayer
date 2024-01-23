@@ -1,0 +1,1140 @@
+{
+    "showCoverPage": true,
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-5f3e3d32f815cf193f3c2d08823359cc.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 490
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "139363bb-0d04-43b9-9d32-4566bd078b5e"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-0d032823e17cf2b474b0137964ad415d.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 456,
+                                    "height": 354
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "dad935df-8dd2-4047-b330-ee87ccc16095"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p><span style=\"font-size:1.125em;\"><strong>\u0631\u0627\u0681\u0647 \u0686\u06d0 \u0648\u0627\u0644\u0648\u0681\u0648<\/strong><\/span><\/p>\n\n<p>\u0644\u06cc\u06a9\u0648\u0627\u0644: \u062f \u06a9\u0645\u0628\u0648\u062f\u06cc\u0627 \u067c\u0648\u0644 \u0644\u0648\u0633\u062a\u0648\u0646\u06a9\u064a \u0645\u0627\u0634\u0648\u0645\u0627\u0646&nbsp;<\/p>\n\n<p>\u0627\u0646\u0681\u0648\u0631\u06ab\u0631: \u0633\u0627\u0646 \u0634\u0631\u064a \u0646\u0648 \u0686 \u0646\u0648 \u0686<\/p>\n\n<p>\u0698\u0628\u0627\u0693\u0647: \u062f\u0631\u062e\u062a \u062f\u0627\u0646\u0634 \u06a9\u062a\u0627\u0628\u062a\u0648\u0646<\/p>\n\n<p>\u0698\u0628\u0627\u0693\u0648\u0646\u06a9\u06cc: \u0645\u062d\u0628 \u0627\u0644\u0631\u062d\u0645\u0646 \u0645\u062d\u0628<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "6f8cc476-fdef-4f1a-9138-741a5d4d5915"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "c3b773f5-5519-42c1-9116-95c4ced00108",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0644\u0648\u0645\u0693\u06cc \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-f2878346dece0e02ab6e6d02706ddab6.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0645\u0631\u063a\u0627\u0646 \u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "d14e6a21-80e9-4f3c-8bd0-9732a8f402b7"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.&nbsp;\u0645\u0631\u063a\u06cd \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n\n<p style=\"text-align: center;\">.\u0637\u0648\u0637\u064a \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "6be3c729-7d3b-444f-9b1b-51179e1c4c6f"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "aa07ecdb-a26d-4595-90c4-149dac63f50b",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u062f\u0648\u06cc\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-74b93b9ef14cded865c7bf6444ae0aeb.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0622\u0633 \u062f \u0627\u0644\u0648\u062a\u0644\u0648 \u0647\u0685\u0647 \u06a9\u0648\u064a"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "3d20630f-659c-48f8-a3a6-7e9d9f0dbaf9"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0622\u0633 \u0627\u0644\u0648\u062a\u0644\u06cc \u0646\u0634\u064a<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "845e0e24-d749-4597-b6a8-cac4be810f2b"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "ff54d603-0a56-4985-bfd4-881f3c7568ea",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u062f\u0631\u06d0\u06cc\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-e31fd6f7804bfec9c820275ab5487b1e.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                },
+                                "alt": "\u063a\u0648\u0645\u0627\u0634\u06cc \u0627\u0648 \u0628\u0648\u0631\u0627 \u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "24067ccf-5ac3-4947-b001-556df350d9e7"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0628\u0648\u0631\u0627 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n\n<p style=\"text-align: center;\">.\u063a\u0648\u0645\u0627\u0634\u06cc&nbsp;\u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "5ba497c7-1494-486d-b2d4-58f6a45cfe4f"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "c3f685d1-b44d-41fc-bcf4-d7261b5d6eae",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0685\u0644\u0648\u0631\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-b493b620189e7cf22e7993f5439cb327.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0686\u0644\u067e\u0627\u0633\u0647 \u067e\u0627\u06bc\u06d0 \u062e\u0648\u0681\u0648\u064a \u0627\u0648 \u063a\u0648\u0627\u0693\u064a \u0648\u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "2b349fe7-4ec2-483f-a6b4-fdbc224f2d8f"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0686\u0644\u067e\u0627\u0633\u0647 \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "ec3e18df-689c-4cd5-a9b0-6041b6c6fca3"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "34ca822b-6590-4a59-8a86-d348f07d0e63",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u067e\u0646\u0681\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-0f66a3c293becfacb0624262cfb310f9.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0645\u0631\u063a\u0647 \u0627\u0648 \u06a9\u0648\u0646\u06ab \u062f \u0627\u0644\u0648\u062a\u0644\u0648 \u067e\u0647 \u062d\u0627\u0644 \u06a9\u06d0"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "94580434-8b57-45e5-8eb4-f39b2b43599d"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u06a9\u0648\u0646\u06ab \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n\n<p style=\"text-align: center;\">.\u0645\u0631\u063a\u0647 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "4655e647-b8b4-45ff-b741-10e1c006ca0f"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "d4e7dcf0-3cb6-4314-adc2-4c55a25effe4",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0634\u067e\u0696\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-02b7da567f5f5e36974d7c8d8b2756c1.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                },
+                                "alt": "\u0628\u06cc\u0632\u0648 \u0686\u06d0 \u067e\u0647 \u0632\u0627\u0646\u06ab\u0648 \u06a9\u06d0 \u0681\u0648\u0693\u0646\u062f\u0647 \u062f\u0647\u060c \u067e\u0627\u06bc\u06d0 \u062e\u0648\u0681\u0648\u064a \u0627\u0648 \u062f \u0627\u0644\u0648\u062a\u0644\u0648 \u0647\u0685\u0647 \u06a9\u0648\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "c512ceec-dffa-4c5e-a42e-68dfcd9dfa12"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0628\u06cc\u0632\u0648 \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "3f49685c-7711-4d43-93b0-dd65b3741b24"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "ad0b950f-34d9-4322-92f8-566accd94fb2",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0627\u0648\u0648\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-226f675905e9e7e7094d22df7111f92b.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                },
+                                "alt": "\u0645\u0631\u063a\u0627\u0646 \u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "a34e810e-590e-4ff6-a65b-39db4254bbbc"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">\u0642\u0627\u0631\u0686 \u06cc\u0627 \u0689\u06cc\u0646\u06ab \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a&nbsp;<\/p>\n\n<p style=\"text-align: center;\">.\u0645\u0631\u063a\u0647 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "5b2ac1bf-44b5-47c4-b63b-8c0b84f0aad7"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "47baf2f1-cf5d-4281-940f-f3b5911fe453",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0627\u062a\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-295e177dc902c1b65f13c4696286b965.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0632\u0645\u0631\u06cc \u0644\u0627\u0633 \u062e\u0648\u0681\u0648\u064a \u0627\u0648 \u062f \u0627\u0644\u0648\u062a\u0644\u0648 \u0647\u0685\u0647 \u06a9\u0648\u064a"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "fc43eb2d-fe0d-4da2-8934-47855eb35071"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0632\u0645\u0631\u06cc \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "38b68fdc-b0e3-4c28-94a3-648de12cb701"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "8035e576-1396-4141-ae65-e30cdd763494",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0646\u0647\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-f6edbc33bdc6853e6be1ac2c9e6571d6.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0681\u0648\u0627\u0646 \u06a9\u0648\u0646\u06ab \u0627\u0648 \u063a\u0648\u0645\u0627\u0634\u0647 \u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "7533c436-37a4-445a-a195-60e8b905a5e2"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0681\u0648\u0627\u0646 \u06a9\u0648\u0646\u06ab \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a&nbsp;<\/p>\n\n<p style=\"text-align: center;\">.\u063a\u0648\u0645\u0627\u0634\u0647 \u0647\u0645 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "0ea757e9-898f-4707-a4ab-bd1214c91c09"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "e4caed29-dae7-4edc-991f-05036a14d9b5",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-932fadf318fc5a9fb180ed323bd9168b.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u067e\u0633\u0647 \u063a\u0648\u0627\u0693\u064a \u0648\u0627\u0644\u0648\u0681\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "ee691b8f-02bc-4c8b-9d44-b1e465a0fc4e"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u067e\u0633\u0647 \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "08b417b6-1911-494c-b45d-ab64e5d109b9"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "181775c5-b1a2-4a3a-ab56-e0d723d5c3de",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u06cc\u0648\u0648\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-d4016d4f8f676c3e93e4ca00a9ef80c9.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                },
+                                "alt": "\u0646\u062c\u0644\u06cd \u0644\u0647 \u06a9\u0627\u063a\u0630\u064a \u0648\u0632\u0631\u0648\u0646\u0648 \u0633\u0631\u0647 \u0645\u0646\u0689\u06d0 \u0648\u0647\u064a."
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "f0b78669-97c6-4492-a7e4-0e7c79a17e53"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u06cc\u0648\u0647 \u0648\u0631\u0681 \u0628\u0647 \u0645\u0648\u0696 \u0647\u0645 \u0648\u0627\u0644\u0648\u0681\u0648&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "80418677-48f3-4019-999f-7fe99b84d22e"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "c1238d6d-28f9-417b-afad-1723cfc7b183",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u062f\u0648\u0648\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-13da67a285bcc8412e68dbbec253fe3a.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                },
+                                "alt": "\u062f \u06cc\u0648\u0647 \u0627\u0644\u0648\u062a\u06a9\u06d0 \u062f \u0627\u0644\u0648\u062a\u0644\u0648 \u062e\u06cc\u0627\u0644 \u0648\u06cc\u0646\u064a"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "680748e8-485d-46ce-8a84-6b79ad2895f3"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p style=\"text-align: center;\">.\u0632\u0647 \u0647\u0645 \u063a\u0648\u0627\u0693\u0645 \u0648\u0627\u0644\u0648\u0681\u0645&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "dde657d6-64dc-468f-927b-20ba6902806e"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "23e48f7c-cd3b-4470-ba19-dc5160a963d5",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u062f\u06cc\u0627\u0631\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 209
+                                },
+                                "alt": "\u0633\u067c\u0648\u0631\u064a \u0648\u06cc\u0648\u0631 \u0644\u0648\u06ab\u0648"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "8d20e0e4-d64b-496c-9bee-aed9d9e9b1ae"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>\n This book was made possible by Pratham Books' StoryWeaver platform. Content under Creative Commons licenses can be downloaded, translated and can even be used to create new stories \u00ad provided you give appropriate credit, and indicate if changes were made. To know more about this, and the full terms of use and attribution, please visit the following link .\n<\/p>\n<p>\n Story Attribution:\n<\/p>\nThis story:Let's Flyis written byAll Children Reading Cambodia.            \u00a9 The Asia Foundation  , 2018. Some rights reserved. Released under CC BY 4.0 license.\n<p>\n Other Credits:\n<\/p>\nThis story 'Let's Fly' has been published on StoryWeaver by Asia Foundation.\n<p>\n Images Attributions:\n<\/p>\nCover page:Girl with makeshift wings, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 2:Birds in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 3:Horse in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 4:Flying insects, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 5:Lizard on the branch, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 6:Owl and Pelican in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 7:Monkey on the tree, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 8:Egret and Hornbill flying, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 9:Lion in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 10:Owl and mosquito in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 11:Sheep in the garden, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Disclaimer:https:\/\/www.storyweaver.org.in\/terms_and_conditions"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "c6dacc97-5d07-4aba-b042-a86bd427ec91"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 88,
+                                    "height": 31
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "b5a8ef5b-f748-4429-b237-8d652603ee01"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>\n Some rights reserved. This book is CC\u00ad-BY\u00ad-4.0 licensed. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. For full terms of use and attribution, http:\/\/creativecommons.org\/licenses\/by\/4.0\/\n<\/p>"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "e1c6b773-6b4a-4fdd-bb27-9ba8e79f42f0"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "7a13c379-07a6-47e7-84e7-b517659e495f",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0685\u0648\u0627\u0631\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 209
+                                },
+                                "alt": "\u0633\u067c\u0648\u0631\u064a \u0648\u06cc\u0648\u0631 \u0644\u0648\u06ab\u0648"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "13e95d65-ae4e-49c2-9f9f-4d80b91d1294"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>\n This book was made possible by Pratham Books' StoryWeaver platform. Content under Creative Commons licenses can be downloaded, translated and can even be used to create new stories \u00ad provided you give appropriate credit, and indicate if changes were made. To know more about this, and the full terms of use and attribution, please visit the following link .\n<\/p>\n<p>\n Images Attributions:\n<\/p>\nPage 12:Girl trying to fly, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Page 13:Dreaming about flying an aeroplane, bySan srei nou ch nou ch\u00a9 The Asia Foundation,             2018. Some rights reserved. Released under CC BY 4.0 license.Disclaimer:https:\/\/www.storyweaver.org.in\/terms_and_conditions"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "08d882a2-8933-4c64-a75a-80a1a74fb861"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 88,
+                                    "height": 31
+                                },
+                                "alt": ""
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "9e93ef1d-e525-4aa0-9297-021d2bf86376"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>\n Some rights reserved. This book is CC\u00ad-BY\u00ad-4.0 licensed. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. For full terms of use and attribution, http:\/\/creativecommons.org\/licenses\/by\/4.0\/\n<\/p>"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "e3be0cf9-3a10-48c8-ba52-b8d8d43540f3"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "dfb79919-9a20-4572-952e-7cb248f9fb95",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u067e\u0646\u0681\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>\u0631\u0627\u0685\u0647 \u0686\u06d0 \u0648\u0627\u0644\u0648\u0681\u0648 (\u067e\u069a\u062a\u0648)&nbsp;<\/p>\n\n<p>\u0685\u0648\u06a9 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a \u0627\u0648 \u0685\u0648\u06a9 \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc\u061f&nbsp;<\/p>\n\n<p>\u062f\u0627 \u062f \u0644\u0648\u0645\u0693\u06cd \u0633\u0648\u06cc\u06d0 \u06a9\u062a\u0627\u0628 \u062f\u06cc \u0686\u06d0 \u063a\u0648\u0627\u0693\u064a \u0644\u0648\u0633\u062a \u067e\u06cc\u0644 \u06a9\u0693\u064a.&nbsp;<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "a32fb852-1ad9-463d-bc64-e77fb02b7f58"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "CC BY",
+                                        "version": "4.0"
+                                    },
+                                    "width": 1024,
+                                    "height": 209
+                                },
+                                "alt": "\u0633\u067c\u0648\u0631\u064a \u0648\u06cc\u0648\u0631 \u0644\u0648\u06ab\u0648"
+                            },
+                            "library": "H5P.Image 1.1",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "CC BY",
+                                "licenseVersion": "4.0",
+                                "source": "https:\/\/digitallibrary.io\/",
+                                "title": "Untitled Image"
+                            },
+                            "subContentId": "f1c4fd0e-f8dd-44c6-a71d-a7d7e91322fc"
+                        },
+                        "useSeparator": "auto"
+                    },
+                    {
+                        "content": {
+                            "params": {
+                                "text": "<p>Pratham Books goes digital to weave a whole new chapter in the realm of multilingual children's stories. Knitting together children, authors, illustrators and publishers, folding in teachers, and translators to create a rich fabric of openly licensed multilingual stories for the children of India \u00ad\u00adand the world. Our unique online platform, StoryWeaver, is a playground where children, parents, teachers and librarians can get creative. Come, start weaving today, and help us get a book in every child's hand!<\/p>\n"
+                            },
+                            "library": "H5P.AdvancedText 1.1",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "CC BY",
+                                "title": "Untitled Text",
+                                "licenseVersion": "4.0"
+                            },
+                            "subContentId": "39049291-4b00-49b7-b05d-84938266b513"
+                        },
+                        "useSeparator": "auto"
+                    }
+                ]
+            },
+            "subContentId": "dd9aa4d6-e7a2-4cee-b846-5e90b9bd3c87",
+            "library": "H5P.Column 1.12",
+            "metadata": {
+                "contentType": "Column",
+                "license": "CC BY",
+                "title": "\u0634\u067e\u0627\u0693\u0644\u0633\u0645 \u0645\u062e",
+                "licenseVersion": "4.0"
+            }
+        }
+    ],
+    "behaviour": {
+        "defaultTableOfContents": false,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true
+    },
+    "read": "Read",
+    "displayTOC": "Display &#039;Table of contents&#039;",
+    "hideTOC": "Hide &#039;Table of contents&#039;",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score \/ @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "bookCover": {
+        "coverDescription": "<p>\u0685\u0648\u06a9 \u0627\u0644\u0648\u062a\u0644\u06cc \u0634\u064a \u0627\u0648 \u0685\u0648\u06a9 \u0646\u0634\u064a \u0627\u0644\u0648\u062a\u0644\u06cc\u061f&nbsp;<\/p>\n",
+        "coverImage": {
+            "path": "images\/coverImage.jpg",
+            "mime": "image\/jpeg",
+            "copyright": {
+                "license": "CC BY",
+                "version": "4.0"
+            },
+            "width": 1024,
+            "height": 490
+        },
+        "publisher": "\u0627\u0634\u06cc\u0627 \u0641\u0648\u0646\u0689\u06d0\u0634\u0646",
+        "contributors": [
+            {
+                "name": "\u062f \u06a9\u0645\u0628\u0648\u062f\u06cc\u0627 \u0644\u0648\u0633\u062a\u0648\u0646\u06a9\u064a \u067c\u0648\u0644 \u0645\u0627\u0634\u0648\u0645\u0627\u0646",
+                "type": "\u0644\u06cc\u06a9\u0648\u0627\u0644"
+            },
+            {
+                "name": "\u0633\u0627\u0646 \u0634\u0631\u064a \u0646\u0648 \u0686 \u0646\u0648 \u0686",
+                "type": "\u0627\u0646\u0681\u0648\u0631\u06ab\u0631"
+            },
+            {
+                "type": "\u0698\u0628\u0627\u0693\u0647",
+                "name": "\u062f\u0631\u062e\u062a \u062f\u0627\u0646\u0634 \u06a9\u062a\u0627\u0628\u062a\u0648\u0646"
+            },
+            {
+                "type": "\u0698\u0628\u0627\u0693\u0648\u0646\u06a9\u06cc",
+                "name": "\u0645\u062d\u0628 \u0627\u0644\u0631\u062d\u0645\u0646 \u0645\u062d\u0628"
+            }
+        ],
+        "coverAltText": "\u0646\u062c\u0644\u06cd \u063a\u0648\u0627\u0693\u064a \u0648\u0627\u0644\u0648\u0681\u064a"
+    },
+    "isRTL": false,
+    "publisherLabel": "Publisher"
+}
