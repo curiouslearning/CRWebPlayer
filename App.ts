@@ -3,6 +3,7 @@ import { ContentParser } from "./Parser/ContentParser";
 import { PlayBackEngine } from "./PlayBackEngine/PlayBackEngine";
 import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
+import { FirebaseAnalyticsManager } from "./Analytics/Firebase/FirebaseManager";
 
 let appVersion: string = "v0.3.0";
 
@@ -20,6 +21,7 @@ export class App {
     public audioPath: string;
     public broadcastChannel: BroadcastChannel;
     public lang: string;
+    public firebaseAnalyticsManager: FirebaseAnalyticsManager;
 
     constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
         console.log("Curious Reader App " + appVersion + " initializing!");
@@ -27,6 +29,7 @@ export class App {
         this.contentFilePath = contentFilePath;
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
+        this.firebaseAnalyticsManager = FirebaseAnalyticsManager.getInstance();
         this.contentParser = new ContentParser(contentFilePath);
         this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
         this.broadcastChannel = new BroadcastChannel("cr-message-channel");
