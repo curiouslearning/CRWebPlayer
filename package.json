@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^10.8.0",
     "ts-loader": "^9.4.1"
   },
   "scripts": {
@@ -9,6 +10,7 @@
   },
   "devDependencies": {
     "@splidejs/splide": "^4.1.4",
+    "@types/firebase": "^3.2.1",
     "html-webpack-plugin": "^5.5.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.13.3",
