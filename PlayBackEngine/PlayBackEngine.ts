@@ -62,6 +62,21 @@ export class PlayBackEngine {
             }
         });
 
+        this.splideHandle.on("drag", (newIndex, oldIndex, destIndex) => {
+            if (this.currentPage !== newIndex) {
+                this.transitioningToPage = true;
+                this.stopPageAudio(this.book.pages[oldIndex]);
+            }
+        });
+
+        this.splideHandle.on("dragged", (currentIndex, prevIndex, destIndex) => {
+            if (this.currentPage !== currentIndex) {
+                this.currentPage = currentIndex;
+                this.transitioningToPage = false;
+                this.playPageAudio(this.book.pages[currentIndex], currentIndex);
+            }
+        });
+
         this.addPageResizeListener();
     }
 
@@ -78,6 +93,7 @@ export class PlayBackEngine {
                 for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
                     let wordElement = document.getElementById(audioElement.domID + "_word_" + j) as HTMLDivElement;
                     wordElement.classList.remove("cr-clickable-word-active");
+                    wordElement.style.color = "white";
                 }
             }
         }
