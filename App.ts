@@ -5,7 +5,7 @@ import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 import { FirebaseAnalyticsManager } from "./Analytics/Firebase/FirebaseManager";
 
-let appVersion: string = "v0.3.0";
+let appVersion: string = "v0.3.1";
 
 const channel = new BroadcastChannel("my-channel");
 
@@ -135,9 +135,9 @@ function handleLoadingMessage(event, progressValue): void {
         progressBar!.style.width = progressValue + "%";
     } else if (progressValue >= 100) {
         loadingScreen!.style.display = "none";
-        readLanguageDataFromCacheAndNotifyAndroidApp(event.data.data.bookName);
         // add book with a name to local storage as cached
         localStorage.setItem(event.data.data.bookName, "true");
+        readLanguageDataFromCacheAndNotifyAndroidApp(event.data.data.bookName);
     }
 }
 

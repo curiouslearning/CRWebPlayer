@@ -78,6 +78,17 @@ export class PlayBackEngine {
         });
 
         this.addPageResizeListener();
+        this.addMinimzationListener();
+    }
+
+    addMinimzationListener() {
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState === "visible") {
+                this.playPageAudio(this.book.pages[this.currentPage], this.currentPage);
+            } else {
+                this.stopPageAudio(this.book.pages[this.currentPage]);
+            }
+        });
     }
 
     stopPageAudio(page: Page) {
