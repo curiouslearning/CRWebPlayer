@@ -48,43 +48,38 @@ self.registration.addEventListener("updatefound", function (e) {
 
 // Serve cached assets when offline or falling back to the network
 self.addEventListener('fetch', (event) => {
-  const requestURL = new URL(event.request.url);
-  if (requestURL.protocol === 'chrome-extension:') {
-    return;
-  }
-  // console.log("Fetching the request: ", event.request.url);
-  // event.respondWith(
-  //   caches.match(event.request, {ignoreVary:true}).then(function (response) {
-  //     if (response) {
-  //       return response;
-  //     } 
-  //     return fetch(event.request);
-  //   })
-  // );
-  if (requestURL.origin === self.location.origin) {
-    event.respondWith(
-      caches.match(event.request).then((response) => {
-          // If the asset is in the static cache, return it
-          if (response) {
-            return response;
-          }
+  // const requestURL = new URL(event.request.url);
+  // if (requestURL.protocol === 'chrome-extension:') {
+  //   return;
+  // }
+  
+  // if (requestURL.origin === self.location.origin) {
+  //   event.respondWith(
+  //     caches.match(event.request).then((response) => {
+  //         // If the asset is in the static cache, return it
+  //         if (response) {
+  //           return response;
+  //         }
 
-          // If not in the static cache, fetch it from the network
-          return fetch(event.request).then((networkResponse) => {
-          // Cache a copy of the response in the static cache for future use
+  //         // If not in the static cache, fetch it from the network
+  //         return fetch(event.request).then((networkResponse) => {
+  //         // Cache a copy of the response in the static cache for future use
 
-          return networkResponse;
-        });
-      })
-    );
-  } else {
+  //         return networkResponse;
+  //       });
+  //     })
+  //   );
+  // } else {
     // For requests to the BookContent folder, use the Book Content cache
-    event.respondWith(
-      caches.match(event.request).then((response) => {
-        return response || fetch(event.request);
-      })
-    );
-  }
+  event.respondWith(
+    caches.match(event.request).then(function (response) {
+      if (response) {
+        return response;
+      }
+      return fetch(event.request);
+    })
+  );
+  // }
 });
 
 function cacheTheBookJSONAndImages(data) {
