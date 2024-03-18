@@ -5,7 +5,7 @@ import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./Models/Models";
 import { FirebaseAnalyticsManager } from "./Analytics/Firebase/FirebaseManager";
 
-let appVersion: string = "v0.3.1";
+let appVersion: string = "v0.3.2";
 
 const channel = new BroadcastChannel("my-channel");
 
