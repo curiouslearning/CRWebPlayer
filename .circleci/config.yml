@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  aws-s3: circleci/aws-s3@3.0
+
 jobs:
   s3-deploy:
     docker:
@@ -7,20 +10,23 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install AWS CLI
+          name: Pre-deployment Setup
           command: |
-            python -m pip install --upgrade pip
-            pip install awscli
+            echo "Setting up for S3 deployment to development"
+            # Any additional setup commands can go here
+      - aws-s3/sync:
+          arguments: |
+            --acl public-read \
+            --cache-control "max-age=86400"
+          aws-access-key-id: AWS_ACCESS_KEY
+          aws-region: AWS_DEFAULT_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          from: ./
+          to: 's3://curious-reader-books-development'
       - run:
-          name: Deploy to S3 (Development)
+          name: Post-deployment Confirmation
           command: |
-            aws s3 sync ./ s3://curious-reader-books-development \
-              --acl public-read \
-              --cache-control "max-age=86400" \
-              --region $AWS_DEFAULT_REGION
-          environment:
-            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY
-            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+            echo "Deployment to development S3 bucket completed."
 
   s3-deploy-prod:
     docker:
@@ -28,20 +34,23 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install AWS CLI
+          name: Pre-deployment Setup
           command: |
-            python -m pip install --upgrade pip
-            pip install awscli
+            echo "Setting up for S3 deployment to production"
+            # Any additional setup commands can go here
+      - aws-s3/sync:
+          arguments: |
+            --acl public-read \
+            --cache-control "max-age=86400"
+          aws-access-key-id: AWS_ACCESS_KEY
+          aws-region: AWS_PROD_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          from: ./
+          to: 's3://curious-reader-books-production'
       - run:
-          name: Deploy to S3 (Production)
+          name: Post-deployment Confirmation
           command: |
-            aws s3 sync ./ s3://curious-reader-books-production \
-              --acl public-read \
-              --cache-control "max-age=86400" \
-              --region $AWS_PROD_REGION
-          environment:
-            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY
-            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+            echo "Deployment to production S3 bucket completed."
 
 workflows:
   s3-deploy-workflow:
@@ -56,4 +65,5 @@ workflows:
             branches:
               only:
                 - main
+
 
