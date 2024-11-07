@@ -4,11 +4,15 @@ orbs:
   aws-s3: circleci/aws-s3@3.0
 
 jobs:
-  s3-deploy:
+  s3-sync-development:
     docker:
       - image: 'cimg/python:3.6'
     steps:
       - checkout
+      - run:
+          name: Pre-sync Setup
+          command: |
+            echo "Setting up for S3 sync to development"
       - aws-s3/sync:
           arguments: |
             --acl public-read \
@@ -18,12 +22,20 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
           to: 's3://curious-reader-books-development'
-  
-  s3-deploy-prod:
+      - run:
+          name: Post-sync Confirmation
+          command: |
+            echo "Sync to development S3 bucket completed."
+
+  s3-sync-production:
     docker:
       - image: 'cimg/python:3.6'
     steps:
       - checkout
+      - run:
+          name: Pre-sync Setup
+          command: |
+            echo "Setting up for S3 sync to production"
       - aws-s3/sync:
           arguments: |
             --acl public-read \
@@ -33,19 +45,24 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
           to: 's3://curious-reader-books-production'
-
-# http://curious-reader-books-production.s3-website.ap-south-1.amazonaws.com/
+      - run:
+          name: Post-sync Confirmation
+          command: |
+            echo "Sync to production S3 bucket completed."
 
 workflows:
-  s3-deploy-workflow:
+  s3-sync-workflow:
     jobs:
-      - s3-deploy:
+      - s3-sync-development:
           filters:
             branches:
               only:
                 - develop
-      - s3-deploy-prod:
+      - s3-sync-production:
           filters:
             branches:
               only:
                 - main
+
+
+
