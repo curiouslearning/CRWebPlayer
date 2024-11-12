@@ -64,16 +64,40 @@ p {
   p {
     font-size: 4rem;
   }
+
+  .cr-sentence-mini-s {
+    font-size: 2.5rem !important;
+  }
+
+  .cr-sentence-mini {
+    font-size: 3rem !important;
+  }
 }
 
 @media screen and (max-height: 400px) {
   p {
     font-size: 1.5rem;
   }
+
+  .cr-sentence-mini-s {
+    font-size: 1.1rem !important;
+  }
+
+  .cr-sentence-mini {
+    font-size: 1.3rem !important;
+  }
 }
 
 @media screen and (max-height: 300px) {
   p {
     font-size: 1.5rem;
+  }
+
+  .cr-sentence-mini {
+    font-size: 1.3rem !important;
+  }
+
+  .cr-sentence-mini-s {
+    font-size: 1.1rem !important;
   }
 }
