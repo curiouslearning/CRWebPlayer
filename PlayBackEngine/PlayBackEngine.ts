@@ -288,10 +288,23 @@ export class PlayBackEngine {
         textElementDiv.style.fontFamily = "Quicksand";
         textElementDiv.style.fontWeight = "800";
         textElementDiv.style.fontSize = "inherit";
-        textElementDiv.style.top = textElement.positionY + "%";
-        textElementDiv.style.left = textElement.positionX + "%";
-        textElementDiv.style.width = textElement.width + "%";
-        textElementDiv.style.height = textElement.height + "%";
+        // TODO: remove this after we have fixes from the partner team on these books
+        if (this.book.bookName.includes("ComeCome") ||
+        this.book.bookName.includes("ILove") ||
+        this.book.bookName.includes("GuessWhatIAm") ||
+        this.book.bookName.includes("TheUmbrellas") ||
+        this.book.bookName.includes("IAmFlying")) {
+            textElementDiv.style.top = textElement.positionY + "%";
+            textElementDiv.style.left = "0%";
+            textElementDiv.style.width = "100%";
+            textElementDiv.style.height = textElement.height + "%";
+            textElementDiv.style.textAlign = "center";
+        } else {
+            textElementDiv.style.top = textElement.positionY + "%";
+            textElementDiv.style.left = textElement.positionX + "%";
+            textElementDiv.style.width = textElement.width + "%";
+            textElementDiv.style.height = textElement.height + "%";
+        }
         // textElementDiv.innerHTML = textElement.textContentAsHTML.replace("2.25em", "");
         textElementDiv.innerHTML = textElement.textContentAsHTML.replace(/font-size:[^;]+;/g, "");
 
@@ -302,10 +315,35 @@ export class PlayBackEngine {
         let imageElementDiv = document.createElement("div");
 
         imageElementDiv.style.position = "absolute";
-        imageElementDiv.style.top = imageElement.positionY + "%";
-        imageElementDiv.style.left = imageElement.positionX + "%";
-        imageElementDiv.style.width = imageElement.width + "%";
-        imageElementDiv.style.height = imageElement.height + "%";
+        // TODO: remove these logic edits when these books are fixed.
+        if (this.book.bookName.includes("ComeCome") ||
+        this.book.bookName.includes("ILove") ||
+        this.book.bookName.includes("GuessWhatIAm") ||
+        this.book.bookName.includes("TheUmbrellas") ||
+        this.book.bookName.includes("IAmFlying")) {
+            if (imageElement.imageSource === this.emptyGlowImageTag) {
+                // imageElementDiv.style.left = imageElement.positionX + (imageElement.positionX <= 60 ? 10 : -10) + "%";
+                if (imageElement.positionX <= 42) {
+                    imageElementDiv.style.left = imageElement.positionX + 10 + "%";
+                } else if (imageElement.positionX >= 70) {
+                    imageElementDiv.style.left = imageElement.positionX - 10 + "%";
+                } else {
+                    imageElementDiv.style.left = imageElement.positionX + "%";
+                }
+                imageElementDiv.style.width = imageElement.width * 0.7 + "%";
+                imageElementDiv.style.height = imageElement.height * 0.7 + "%";
+            } else {
+                imageElementDiv.style.left = imageElement.positionX + 10 + "%";
+                imageElementDiv.style.width = imageElement.width * 0.8 + "%";
+                imageElementDiv.style.height = imageElement.height * 0.8 + "%";
+            }
+            imageElementDiv.style.top = imageElement.positionY + "%";
+        } else {
+            imageElementDiv.style.top = imageElement.positionY + "%";
+            imageElementDiv.style.left = imageElement.positionX + "%";
+            imageElementDiv.style.width = imageElement.width + "%";
+            imageElementDiv.style.height = imageElement.height + "%";
+        }
 
         if (imageElement.imageSource === this.emptyGlowImageTag) {
             imageElementDiv.classList.add("cr-image-empty-glow");
@@ -413,9 +451,21 @@ export class PlayBackEngine {
         textElementDiv.style.fontFamily = "Quicksand";
         textElementDiv.style.fontWeight = "800";
         // textElementDiv.style.fontSize = "2rem";
-        textElementDiv.style.top = textElement.positionY + "%";
         
-        textElementDiv.style.height = textElement.height + "%";
+        if (this.book.bookName.includes("ComeCome") ||
+        this.book.bookName.includes("ILove") ||
+        this.book.bookName.includes("GuessWhatIAm") ||
+        this.book.bookName.includes("TheUmbrellas") ||
+        this.book.bookName.includes("IAmFlying")) {
+            textElement.width = 100;
+            textElement.positionX = 0;
+            textElement.positionY = 81;
+            textElementDiv.style.top = "81%";
+        } else {
+            textElementDiv.style.top = textElement.positionY + "%";
+            textElementDiv.style.height = textElement.height + "%";
+        }
+
         
         if (imageElement.positionX > 28 && textElement.width < 88 && textElement.positionY < 65) {
             // Left side of the image, typically  the left aligned text starts way above compared to the middle text
@@ -433,7 +483,7 @@ export class PlayBackEngine {
         let sentenceParagraph: HTMLParagraphElement = document.createElement("p");
         if (audioElement.audioTimestamps !== undefined && audioElement.audioTimestamps.timestamps.length > 15) {
             sentenceParagraph.classList.add("cr-sentence-mini-s");
-        } else if (audioElement.audioTimestamps !== undefined && audioElement.audioTimestamps.timestamps.length > 12 &&
+        } else if (audioElement.audioTimestamps !== undefined && audioElement.audioTimestamps.timestamps.length > 10 &&
             audioElement.audioTimestamps.timestamps.length <= 15) {
             sentenceParagraph.classList.add("cr-sentence-mini");
         }
