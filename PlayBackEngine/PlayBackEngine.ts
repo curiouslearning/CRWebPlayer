@@ -140,7 +140,7 @@ export class PlayBackEngine {
                 console.log("Starting the auto player interval for word highlighting with 60ms interval");
                 
                 this.currentPageAutoPlayerInterval = setInterval(() => {
-                    if (audioElement.audioTimestamps !== undefined) {
+                        if (audioElement.audioTimestamps !== undefined) {
                         let currentTime = audioElementDom.currentTime;
                         for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
                             if (currentTime >= audioElement.audioTimestamps.timestamps[j].startTimestamp && currentTime <= audioElement.audioTimestamps.timestamps[j].endTimestamp) {
@@ -205,8 +205,9 @@ export class PlayBackEngine {
             slideLi.style.alignItems = "center";
             
             slide.style.position = "relative";
-            slide.style.width = "80%";
-            slide.style.height = "80%";
+            slide.style.width = "90%";
+            slide.style.height = "90%";
+            slide.style.top = "-4%";
 
             slideLi.appendChild(slide);
 
@@ -238,8 +239,18 @@ export class PlayBackEngine {
                         }
                     }
 
+                    let imageElement: ImageElement = null;
+
+                    for (let j = 0; j < book.pages[i].visualElements.length; j++) {
+                        let visualElement = book.pages[i].visualElements[j];
+                        if (visualElement.type == "image") {
+                            imageElement = visualElement;
+                            break;
+                        }
+                    }
+
                     if (textElement) {
-                        let audioAndTextDivs = this.createAudioAndTextContainers(i, audioElement, textElement);
+                        let audioAndTextDivs = this.createAudioAndTextContainers(i, audioElement, textElement, imageElement);
                         slide.appendChild(audioAndTextDivs[0]);
                         slide.appendChild(audioAndTextDivs[1]);
                     } else {
@@ -356,7 +367,7 @@ export class PlayBackEngine {
         return audioElementDiv;
     }
 
-    createAudioAndTextContainers(pageIndex: number, audioElement: AudioElement, textElement: TextElement): HTMLDivElement[] {
+    createAudioAndTextContainers(pageIndex: number, audioElement: AudioElement, textElement: TextElement, imageElement: ImageElement): HTMLDivElement[] {
         let audioAndTextArray: HTMLDivElement[] = Array();
 
         let audioElementDiv = document.createElement("div");
@@ -406,18 +417,29 @@ export class PlayBackEngine {
         
         textElementDiv.style.height = textElement.height + "%";
         
-        if (textElement.positionX > 50.5) {
+        if (imageElement.positionX > 28 && textElement.width < 88 && textElement.positionY < 65) {
+            // Left side of the image, typically  the left aligned text starts way above compared to the middle text
+            // which would have positionY > 70 if it's at the bottom of the image
             textElementDiv.style.left = textElement.positionX + "%";
-        } else if (textElement.positionX < 15 && textElement.width < 90) {
-            textElementDiv.style.left = textElement.positionX + "%";
+            textElementDiv.style.width = "42%";
+        } else if (imageElement.positionX <= 28 && textElement.width < 88) {
+            // Right side of the image
+            textElementDiv.style.left = textElement.positionX + 2 + "%";
             textElementDiv.style.width = textElement.width + "%";
         } else {
             textElementDiv.style.width = "100%";
         }
 
         let sentenceParagraph: HTMLParagraphElement = document.createElement("p");
+        if (audioElement.audioTimestamps !== undefined && audioElement.audioTimestamps.timestamps.length > 15) {
+            sentenceParagraph.classList.add("cr-sentence-mini-s");
+        } else if (audioElement.audioTimestamps !== undefined && audioElement.audioTimestamps.timestamps.length > 12 &&
+            audioElement.audioTimestamps.timestamps.length <= 15) {
+            sentenceParagraph.classList.add("cr-sentence-mini");
+        }
         sentenceParagraph.style.textAlign = "center";
         // sentenceParagraph.style.fontSize = "2rem";
+    
         sentenceParagraph.style.margin = "0px";
 
         for (let i = 0; i < sentenceArrayTrimmed.length; i++) {
@@ -426,6 +448,7 @@ export class PlayBackEngine {
             clickableWordElement.classList.add("cr-clickable-word");
             clickableWordElement.style.marginLeft = "10px";
             clickableWordElement.style.marginRight = "10px";
+            
             clickableWordElement.innerText = sentenceArrayTrimmed[i];
             clickableWordElement.addEventListener("click", (ev) => {
                 this.handleInteractiveWordClick(pageIndex, i);
