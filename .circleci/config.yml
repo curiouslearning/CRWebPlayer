@@ -16,7 +16,10 @@ jobs:
       - aws-s3/sync:
           arguments: |
             --acl public-read \
-            --cache-control "max-age=86400"
+            --cache-control "max-age=86400" \
+            --exclude ".git/*" \
+            --exclude ".gitignore" \
+            --exclude ".gitattributes"
           aws-access-key-id: AWS_ACCESS_KEY
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
@@ -39,7 +42,10 @@ jobs:
       - aws-s3/sync:
           arguments: |
             --acl public-read \
-            --cache-control "max-age=86400"
+            --cache-control "max-age=86400" \
+            --exclude ".git/*" \
+            --exclude ".gitignore" \
+            --exclude ".gitattributes"
           aws-access-key-id: AWS_ACCESS_KEY
           aws-region: AWS_PROD_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
