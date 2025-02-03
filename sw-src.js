@@ -1,4 +1,6 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js"
+);
 
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
   ignoreURLParametersMatching: [/^book/, /^cr_user_id/],
@@ -6,7 +8,7 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.2;
+let version = 1.3;
 let cachingProgress = 0;
 let cachableAssetsCount = 0;
 
@@ -20,10 +22,9 @@ channel.addEventListener("message", async function (event) {
 });
 
 // Precache static assets during service worker installation
-self.addEventListener('install', (event) => {
+self.addEventListener("install", (event) => {
   self.skipWaiting();
 });
-
 
 self.addEventListener("activate", function (event) {
   console.log("Service worker activated");
@@ -47,12 +48,12 @@ self.registration.addEventListener("updatefound", function (e) {
 });
 
 // Serve cached assets when offline or falling back to the network
-self.addEventListener('fetch', (event) => {
+self.addEventListener("fetch", (event) => {
   // const requestURL = new URL(event.request.url);
   // if (requestURL.protocol === 'chrome-extension:') {
   //   return;
   // }
-  
+
   // if (requestURL.origin === self.location.origin) {
   //   event.respondWith(
   //     caches.match(event.request).then((response) => {
@@ -70,7 +71,7 @@ self.addEventListener('fetch', (event) => {
   //     })
   //   );
   // } else {
-    // For requests to the BookContent folder, use the Book Content cache
+  // For requests to the BookContent folder, use the Book Content cache
   event.respondWith(
     caches.match(event.request).then(function (response) {
       if (response) {
@@ -86,18 +87,34 @@ function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
   let bookData = data["bookData"];
   let bookAudioAndImageFiles = [];
-  
+
   for (let i = 0; i < bookData["pages"].length; i++) {
     let page = bookData["pages"][i];
     for (let j = 0; j < page["visualElements"].length; j++) {
       let visualElement = page["visualElements"][j];
       if (visualElement["type"] === "audio") {
-        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioSrc"]);
-        for (let k = 0; k < visualElement["audioTimestamps"]["timestamps"].length; k++) {
-          bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]);
+        bookAudioAndImageFiles.push(
+          `/BookContent/${data["bookData"]["bookName"]}/content/` +
+            visualElement["audioSrc"]
+        );
+        for (
+          let k = 0;
+          k < visualElement["audioTimestamps"]["timestamps"].length;
+          k++
+        ) {
+          bookAudioAndImageFiles.push(
+            `/BookContent/${data["bookData"]["bookName"]}/content/` +
+              visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]
+          );
         }
-      } else if (visualElement["type"] === "image" && visualElement["imageSource"] !== "empty_glow_image") {
-        bookAudioAndImageFiles.push(`/BookContent/${data["bookData"]["bookName"]}/content/` + visualElement["imageSource"]);
+      } else if (
+        visualElement["type"] === "image" &&
+        visualElement["imageSource"] !== "empty_glow_image"
+      ) {
+        bookAudioAndImageFiles.push(
+          `/BookContent/${data["bookData"]["bookName"]}/content/` +
+            visualElement["imageSource"]
+        );
       }
     }
   }
@@ -110,17 +127,19 @@ function cacheTheBookJSONAndImages(data) {
 
   caches.open(bookData["bookName"]).then((cache) => {
     for (let i = 0; i < bookAudioAndImageFiles.length; i++) {
-      cache.add(bookAudioAndImageFiles[i]).finally(() => {
-        updateCachingProgress(bookData["bookName"]);
-      }).catch((error) => {
-        console.log("Error while caching the book JSON", error);
-      });
+      cache
+        .add(bookAudioAndImageFiles[i])
+        .finally(() => {
+          updateCachingProgress(bookData["bookName"]);
+        })
+        .catch((error) => {
+          console.log("Error while caching the book JSON", error);
+        });
     }
     cache.addAll(bookAudioAndImageFiles).catch((error) => {
       console.log("Error while caching the book JSON", error);
     });
   });
-
 }
 
 function updateCachingProgress(bookName) {
@@ -130,7 +149,7 @@ function updateCachingProgress(bookName) {
     clients.forEach((client) =>
       client.postMessage({
         msg: "Loading",
-        data: {progress, bookName},
+        data: { progress, bookName },
       })
     );
   });
