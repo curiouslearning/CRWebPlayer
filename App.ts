@@ -125,7 +125,8 @@ export class App {
             // console.log("Caching Progress: ", event.data.data.progress);
             let progressValue = parseInt(event.data.data.progress);
             handleLoadingMessage(event, progressValue);
-          } else if (event.data.command == "UpdateFound") {
+          }
+          if (event.data.command == "UpdateFound") {
             handleUpdateFoundMessage();
           }
         };
