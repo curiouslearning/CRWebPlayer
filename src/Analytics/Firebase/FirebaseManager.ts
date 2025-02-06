@@ -23,12 +23,30 @@ export class FirebaseAnalyticsManager {
     return FirebaseAnalyticsManager.instance;
   }
 
-  public logEvents(eventName: string, event: object): void {
+  public logEventWithPayload(eventName: string, payload: object): void {
     try {
-      console.log(`Sending custom event ${eventName} with data:`, event);
-      logEvent(this.firebaseAnalytics, eventName, event);
+      console.log(`Sending custom event ${eventName} with data:`, payload);
+      logEvent(this.firebaseAnalytics, eventName, payload);
     } catch (error) {
       console.error("Error while logging custom event:", error);
+    }
+  }
+
+  public logSessionStartWithPayload(payload: object): void {
+    try {
+      console.log("Logging session start with data:", payload);
+      logEvent(this.firebaseAnalytics, "session_start", payload);
+    } catch (error) {
+      console.error("Error while logging session start:", error);
+    }
+  }
+
+  public logDownloadProgressWithPayload(eventName: string, payload: object): void {
+    try {
+      console.log("Logging download progress for ", eventName, " with data:", payload);
+      logEvent(this.firebaseAnalytics, eventName, payload);
+    } catch (error) {
+      console.error("Error while logging download progress:", error);
     }
   }
 }

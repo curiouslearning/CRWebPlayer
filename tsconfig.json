@@ -13,7 +13,7 @@
   "experiments": {
     "topLevelAwait": true
   },
-  "include": ["Models", "Parser", "PlayBackEngine",],
+  "include": ["Models", "Parser", "src/PlayBackEngine",],
   "exclude": ["node_modules"],
 	"lib": ["es7", "dom", "webworker"]
 }
