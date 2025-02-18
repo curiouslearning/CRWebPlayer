@@ -79,6 +79,8 @@ self.addEventListener("fetch", (event) => {
   // }
 });
 
+var cachingInProgress = false;
+
 async function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
   let bookData = data["bookData"];
@@ -119,9 +121,10 @@ async function cacheTheBookJSONAndImages(data) {
 
   console.log("Book audio files: ", bookAudioAndImageFiles);
 
-  if (!self.cachingAlreadyInProgress) {
-    self.cachingAlreadyInProgress = true;
+  if (!cachingInProgress) {
+    cachingInProgress = true;
     await cacheBookAssets(bookData, bookAudioAndImageFiles);
+    cachingInProgress = false;
   }
 }
 
@@ -156,4 +159,5 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
     // Introduce a small delay between batches
     await new Promise(resolve => setTimeout(resolve, 100));
   }
+
 }
