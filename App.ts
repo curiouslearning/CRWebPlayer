@@ -6,7 +6,7 @@ import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
 import { campaignId, campaignSource, crUserId } from "./src/common";
 
-let appVersion: string = "v0.3.10";
+let appVersion: string = "v0.3.11";
 let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
