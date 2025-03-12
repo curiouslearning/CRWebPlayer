@@ -84,19 +84,21 @@ p {
   margin-top: 0;
 }
 
-@media screen and (min-height: 600px) {
+
+@media screen and (min-height: 550px) {
   p {
-    font-size: 4rem;
+    font-size: 2.5rem; 
   }
 
   .cr-sentence-mini-s {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem !important; 
   }
 
   .cr-sentence-mini {
-    font-size: 3rem !important;
+    font-size: 3rem !important; 
   }
 }
+
 
 @media screen and (max-height: 400px) {
   p {
@@ -124,4 +126,11 @@ p {
   .cr-sentence-mini-s {
     font-size: 1.1rem !important;
   }
+}
+
+
+p, .cr-sentence-mini, .cr-sentence-mini-s {
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: center; 
 }
