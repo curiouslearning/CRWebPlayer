@@ -4777,7 +4777,7 @@
                         "action": {
                             "library": "H5P.CRAdvancedText 1.1",
                             "params": {
-                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.625em;\"><span style=\"color:#ffffff;\">kawai sai Malik ya aza kwalaben a Mota mai launin rawaya. Ya sanya gam \u0257in a cikin jar mota.&nbsp;<\/span><\/span><\/p>\n"
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.625em;\"><span style=\"color:#ffffff;\">Kawai sai Malik ya aza kwalaben a mota mai launin rawaya. Ya sanya gam \u0257in a cikin jar mota.&nbsp;<\/span><\/span><\/p>\n"
                             },
                             "subContentId": "6d9dec51-ae09-4d32-a474-6245fe682001",
                             "metadata": {
@@ -4815,7 +4815,7 @@
                                 "glowColor": "#ffd85a",
                                 "timeStampForEachText": [
                                     {
-                                        "text": " kawai ",
+                                        "text": " Kawai ",
                                         "startDuration": "0.0000",
                                         "endDuration": "0.7703",
                                         "wordfile": [
@@ -4913,7 +4913,7 @@
                                         ]
                                     },
                                     {
-                                        "text": " Mota ",
+                                        "text": " mota ",
                                         "startDuration": "2.3735",
                                         "endDuration": "2.6607",
                                         "wordfile": [
