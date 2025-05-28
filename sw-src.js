@@ -8,7 +8,7 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.5;
+let version = 1.6;
 // let cachingProgress = 0;
 // let cachableAssetsCount = 0;
 
@@ -93,7 +93,7 @@ async function cacheTheBookJSONAndImages(data) {
       if (visualElement["type"] === "audio") {
         bookAudioAndImageFiles.push(
           `/BookContent/${data["bookData"]["bookName"]}/content/` +
-          visualElement["audioSrc"]
+            visualElement["audioSrc"]
         );
         for (
           let k = 0;
@@ -102,7 +102,7 @@ async function cacheTheBookJSONAndImages(data) {
         ) {
           bookAudioAndImageFiles.push(
             `/BookContent/${data["bookData"]["bookName"]}/content/` +
-            visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]
+              visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]
           );
         }
       } else if (
@@ -111,7 +111,7 @@ async function cacheTheBookJSONAndImages(data) {
       ) {
         bookAudioAndImageFiles.push(
           `/BookContent/${data["bookData"]["bookName"]}/content/` +
-          visualElement["imageSource"]
+            visualElement["imageSource"]
         );
       }
     }
@@ -132,16 +132,18 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
   const cache = await caches.open(bookData["bookName"]);
   const batchSize = 5; // Process in batches of 5
   let cachingProgress = 0;
-  
+
   for (let i = 0; i < bookAudioAndImageFiles.length; i += batchSize) {
     const batch = bookAudioAndImageFiles.slice(i, i + batchSize);
 
     try {
-      await Promise.all(batch.map(file => cache.add(file)));
+      await Promise.all(batch.map((file) => cache.add(file)));
       cachingProgress += batch.length;
 
       // Only send progress update after batch completes
-      const progress = Math.round((cachingProgress / bookAudioAndImageFiles.length) * 100);
+      const progress = Math.round(
+        (cachingProgress / bookAudioAndImageFiles.length) * 100
+      );
       // console.log("Sending progress update to the client", progress);
 
       const clients = await self.clients.matchAll();
@@ -151,13 +153,11 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
           data: { progress, bookName: bookData["bookName"] },
         });
       }
-
     } catch (error) {
       console.log("Error while caching batch", error);
     }
 
     // Introduce a small delay between batches
-    await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise((resolve) => setTimeout(resolve, 100));
   }
-
 }
