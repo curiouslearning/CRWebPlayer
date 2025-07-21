@@ -1,7 +1,7 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./src/Parser/ContentParser";
 import { PlayBackEngine } from "./src/PlayBackEngine/PlayBackEngine";
-import { Workbox, WorkboxEventMap } from "workbox-window";
+// import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
 import { campaignId, campaignSource, crUserId } from "./src/common";
@@ -11,7 +11,7 @@ let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
 
-let loadingScreen = document.getElementById("loadingScreen");
+// let loadingScreen = document.getElementById("loadingScreen");
 
 let sessionStartTime: Date;
 let logged25PercentDownload: boolean = false;
@@ -67,7 +67,7 @@ export class App {
 
       // Register a service worker for caching
 
-      await this.registerServiceWorker(book);
+      // await this.registerServiceWorker(book);
 
       // Initialize the playback engine with the parsed book data
       this.playBackEngine.initializeBook(book);
@@ -88,53 +88,43 @@ export class App {
     }
   }
 
-  async registerServiceWorker(book: Book) {
-    if ("serviceWorker" in navigator) {
-      try {
-        let wb = new Workbox("/sw.js", {});
-        await wb.register();
-        await navigator.serviceWorker.ready;
-        if (localStorage.getItem(book.bookName) == null) {
-          loadingScreen!.style.display = "flex";
-          this.broadcastChannel.postMessage({
-            command: "Cache",
-            data: {
-              lang: this.lang,
-              bookData: book,
-              contentFile: this.contentFilePath,
-            },
-          });
-        } else {
-          loadingScreen!.style.display = "none";
-        }
+  // async registerServiceWorker(book: Book) {
+  //   if ("serviceWorker" in navigator) {
+  //     try {
+  //       // let wb = new Workbox("/sw.js", {});
+  //       // await wb.register();
+  //       await navigator.serviceWorker.ready;
 
-        this.broadcastChannel.onmessage = (event) => {
-          // console.log("CRapp: Message Received!");
-          console.log(event.data.command);
-          if (event.data.command == "Activated") {
-            this.broadcastChannel.postMessage({
-              command: "Cache",
-              data: {
-                lang: this.lang,
-                bookData: book,
-                contentFile: this.contentFilePath,
-              },
-            });
-          }
-          if (event.data.command == "CachingProgress") {
-            // console.log("Caching Progress: ", event.data.data.progress);
-            let progressValue = parseInt(event.data.data.progress);
-            handleLoadingMessage(event, progressValue);
-          }
-          if (event.data.command == "UpdateFound") {
-            handleUpdateFoundMessage();
-          }
-        };
-      } catch (error) {
-        console.log("Error Registering Service Worker", error);
-      }
-    }
-  }
+  //       // loadingScreen!.style.display = "none";
+
+
+  //       this.broadcastChannel.onmessage = (event) => {
+  //         // console.log("CRapp: Message Received!");
+  //         console.log(event.data.command);
+  //         if (event.data.command == "Activated") {
+  //           this.broadcastChannel.postMessage({
+  //             command: "Cache",
+  //             data: {
+  //               lang: this.lang,
+  //               bookData: book,
+  //               contentFile: this.contentFilePath,
+  //             },
+  //           });
+  //         }
+  //         if (event.data.command == "CachingProgress") {
+  //           // console.log("Caching Progress: ", event.data.data.progress);
+  //           let progressValue = parseInt(event.data.data.progress);
+  //           handleLoadingMessage(event, progressValue);
+  //         }
+  //         if (event.data.command == "UpdateFound") {
+  //           handleUpdateFoundMessage();
+  //         }
+  //       };
+  //     } catch (error) {
+  //       console.log("Error Registering Service Worker", error);
+  //     }
+  //   }
+  // }
 }
 
 // TODO: Added to backlog for cleanup, we ideally should move this to a separate file,
@@ -164,7 +154,7 @@ function handleLoadingMessage(event, progressValue): void {
   }
 
   if (progressValue >= 100) {
-    loadingScreen!.style.display = "none";
+    // loadingScreen!.style.display = "none";
     if (!logged100PercentDownload) {
       logged100PercentDownload = true;
       logDownloadProgressWithPayloadToFirebase("download_completed", event.data.data.bookName);
