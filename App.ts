@@ -50,7 +50,7 @@ export class App {
     sessionStartTime = new Date();
     this.contentParser = new ContentParser(contentFilePath);
     this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
-    this.broadcastChannel = new BroadcastChannel("cr-message-channel");
+    // this.broadcastChannel = new BroadcastChannel("cr-message-channel");
   }
 
   async initialize() {
@@ -58,7 +58,7 @@ export class App {
       // Load and parse the book data
       const book = await this.contentParser.parseBook();
       book.bookName = this.bookName;
-
+      console.log(">>>>>>>>>>>>>>>>>")
       // Log book information for debugging
       console.log("App initialized with book:", book);
 
@@ -80,6 +80,7 @@ export class App {
   }
 
   enforceLandscapeMode() {
+
     // Attempt to enforce landscape mode through Android bridge call
     // @ts-ignore
     if (window.Android && typeof window.Android.setContainerAppOrientation === "function") {
@@ -213,9 +214,9 @@ console.log("Book Name: " + bookName);
 
 let app: App = new App(
   bookName,
-  `/BookContent/${bookName}/content/content.json`,
-  `/BookContent/${bookName}/content/images/`,
-  `/BookContent/${bookName}/content/audios/`
+  `./BookContent/${bookName}/content/content.json`,
+  `./BookContent/${bookName}/content/images/`,
+  `./BookContent/${bookName}/content/audios/`
 );
 
 app.initialize();
