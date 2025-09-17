@@ -1,1 +1,2871 @@
-{"presentation":{"slides":[{"elements":[{"x":16.338997821350763,"y":0,"width":70.1525054466231,"height":79.56989247311827,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-65789116ed4b7.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":490}},"subContentId":"4ee28616-8931-4205-be08-3db96ae318ac","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":11.479591836734695,"y":83.1234256926952,"width":75.25510204081633,"height":14.86146095717884,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\">Wa zai iya taimaka min<\/span><\/p>\n"},"subContentId":"30f4974f-66cd-47ee-855f-91af13c9e543","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}],"slideBackgroundSelector":{}},{"elements":[{"x":6.377551020408164,"y":2.5188916876574305,"width":40.05102040816327,"height":92.4433249370277,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-657891ce69d36.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"a8bbbdc6-fd56-4c0a-be57-a277b023598e","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":49.63235294117647,"y":37.83236363636364,"width":45.955882352941174,"height":40,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Ina so in karanta littafi.<\/span><\/span><\/p>\n"},"subContentId":"c8b60310-4941-42a1-8058-950e9d33749c","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":92.42144177449167,"y":2.2820629849383844,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":1,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Ina ","startDuration":"0.0000","endDuration":"0.5717","wordfile":[{"path":"audios\/wordfile-682482cfb990d.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" so ","startDuration":"0.5717","endDuration":"0.8631","wordfile":[{"path":"audios\/wordfile-682482dee47d7.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" in ","startDuration":"0.8631","endDuration":"1.0725","wordfile":[{"path":"audios\/wordfile-682482ece3895.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" karanta ","startDuration":"1.0725","endDuration":"1.7967","wordfile":[{"path":"audios\/wordfile-682482ff4a49e.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" littafi. ","startDuration":"1.7967","endDuration":"3.6135","wordfile":[{"path":"audios\/wordfile-6824841f7b511.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6824826bcb8d7.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"b054cc94-9a12-4a24-ad9d-26c7cc75d4f7","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":7.352941176470588,"y":3.6363636363636362,"width":19.669117647058822,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"844edf09-627e-40c1-8a83-7c526c123a60","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgb054cc94-9a12-4a24-ad9d-26c7cc75d4f7_0"}],"slideBackgroundSelector":{}},{"elements":[{"x":6.377551020408164,"y":5.037783375314861,"width":44.642857142857146,"height":89.92443324937027,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-65789225cad34.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":735}},"subContentId":"f6250ed8-6f7a-4f43-b90c-24ca52d0e0e7","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":47.79411764705882,"y":40,"width":46.42857142857143,"height":40.050377833753146,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Bani da littafi.<\/span><\/span><\/p>\n"},"subContentId":"5c66f369-498f-4040-837a-8ce79ef694eb","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":46.96691176470588,"y":44,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":2,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Bani ","startDuration":"0.4426","endDuration":"1.1268","wordfile":[{"path":"audios\/wordfile-682483cd8d0ce.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" da ","startDuration":"1.1278","endDuration":"1.3278","wordfile":[{"path":"audios\/wordfile-682483e0d3a91.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" littafi. ","startDuration":"1.3288","endDuration":"2.2786","wordfile":[{"path":"audios\/wordfile-682483ff843f7.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-682483a18331c.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"50080959-0842-4855-a734-b8a9095b0fc0","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":7.352941176470589,"y":21.880690909090912,"width":23.345588235294116,"height":57.09090909090909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"3b4f82ca-b2b6-495d-a315-697afed0cddc","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img50080959-0842-4855-a734-b8a9095b0fc0_0"}],"slideBackgroundSelector":{}},{"elements":[{"x":6.377551020408164,"y":5.037783375314861,"width":40.05102040816327,"height":92.4433249370277,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-657892de5ad39.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"6902dea4-056c-49af-87e4-dfc9b37a09cc","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":49.632352941176464,"y":32.72727272727273,"width":45.220588235294116,"height":37.81818181818182,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.625em;\"><span style=\"color:#ffffff;\">Ni kan yi zane, sai Mahaifina ya shafa wa wannan zanen kala.<\/span><\/span><\/p>\n"},"subContentId":"110db345-7be9-49e9-b922-26cd7f6d4c23","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":46.96691176470588,"y":44,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":3,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Ni ","startDuration":"0.0000","endDuration":"0.5395","wordfile":[{"path":"audios\/wordfile-682484c77b9b1.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kan ","startDuration":"0.5395","endDuration":"0.7718","wordfile":[{"path":"audios\/wordfile-682484d94dbdb.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" yi ","startDuration":"0.7718","endDuration":"0.9583","wordfile":[{"path":"audios\/wordfile-682484ec5eebb.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" zane, ","startDuration":"0.9583","endDuration":"1.5938","wordfile":[{"path":"audios\/wordfile-682484fe0944a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" sai ","startDuration":"1.5938","endDuration":"2.3638","wordfile":[{"path":"audios\/wordfile-68248516c4d5e.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" Mahaifina ","startDuration":"2.3638","endDuration":"2.9625","wordfile":[{"path":"audios\/wordfile-6824852620605.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ya ","startDuration":"2.9625","endDuration":"3.1645","wordfile":[{"path":"audios\/wordfile-682485371b82d.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" shafa ","startDuration":"3.1645","endDuration":"3.5023","wordfile":[{"path":"audios\/wordfile-682485520e8e9.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wa ","startDuration":"3.5023","endDuration":"3.6556","wordfile":[{"path":"audios\/wordfile-682485627541e.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wannan ","startDuration":"3.6556","endDuration":"4.1958","wordfile":[{"path":"audios\/wordfile-68248576e1044.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" zanen ","startDuration":"4.1958","endDuration":"4.7202","wordfile":[{"path":"audios\/wordfile-6824858a990de.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kala. ","startDuration":"4.7202","endDuration":"8.0182","wordfile":[{"path":"audios\/wordfile-6824859d0647a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-682484ac5684b.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"24149326-4a18-4d83-9a62-b182d1ad1e81","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":7.352941176470588,"y":18.181818181818183,"width":12.316176470588234,"height":25.09090909090909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"2ef5a400-b93c-457e-9339-a46feaf6eff0","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img24149326-4a18-4d83-9a62-b182d1ad1e81_0"},{"x":9.191176470588236,"y":36.36363636363637,"width":12.316176470588234,"height":21.09090909090909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"41f4bd17-ef19-471f-8fe6-527a8d52b675","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img24149326-4a18-4d83-9a62-b182d1ad1e81_3"},{"x":29.411764705882355,"y":14.585236363636364,"width":15.992647058823529,"height":31.636363636363637,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"4336172d-8a0f-4960-8d41-d203fe4e8371","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img24149326-4a18-4d83-9a62-b182d1ad1e81_5"},{"x":22.058823529411764,"y":40.113454545454545,"width":12.316176470588234,"height":25.09090909090909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"39dce0e7-818b-4759-b65b-e855935790fd","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img24149326-4a18-4d83-9a62-b182d1ad1e81_11"}],"slideBackgroundSelector":{}},{"elements":[{"x":6.377551020408164,"y":2.5188916876574305,"width":40.05102040816327,"height":94.96221662468514,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-65789326ca3ab.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"ef6624fb-b891-46ac-bb67-51707b0775e2","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":47.79411764705882,"y":14.545454545454545,"width":51.02040816326531,"height":50.377833753148614,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.625em;\">Wani lokaci nikan shafa wa hoton kala sai mahaifiyata ta taimaka wajen yankawa.<\/span><\/span><\/p>\n"},"subContentId":"d1d2a237-2c98-411e-b99f-ae0b08544f58","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":92.42144177449167,"y":2.2820629849383844,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":4,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Wani ","startDuration":"0.0000","endDuration":"0.5933","wordfile":[{"path":"audios\/wordfile-682486ecd6647.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" lokaci ","startDuration":"0.5933","endDuration":"1.2988","wordfile":[{"path":"audios\/wordfile-68248700e27f4.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" nikan ","startDuration":"1.2988","endDuration":"2.1126","wordfile":[{"path":"audios\/wordfile-682487766369a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" shafa ","startDuration":"2.1126","endDuration":"2.6035","wordfile":[{"path":"audios\/wordfile-68248787c9b17.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wa ","startDuration":"2.6035","endDuration":"2.8327","wordfile":[{"path":"audios\/wordfile-6824879611378.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" hoton ","startDuration":"2.8327","endDuration":"3.2960","wordfile":[{"path":"audios\/wordfile-682487b5be639.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kala ","startDuration":"3.2960","endDuration":"3.7773","wordfile":[{"path":"audios\/wordfile-682487cd521c2.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" sai ","startDuration":"3.7773","endDuration":"4.3342","wordfile":[{"path":"audios\/wordfile-682487e289296.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" mahaifiyata ","startDuration":"4.3342","endDuration":"5.1624","wordfile":[{"path":"audios\/wordfile-682487f244c91.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ta ","startDuration":"5.1624","endDuration":"5.4538","wordfile":[{"path":"audios\/wordfile-682488066b9d1.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" taimaka ","startDuration":"5.4538","endDuration":"6.4845","wordfile":[{"path":"audios\/wordfile-6824881cac7d2.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wajen ","startDuration":"6.4845","endDuration":"6.8323","wordfile":[{"path":"audios\/wordfile-6824883189488.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" yankawa. ","startDuration":"6.8323","endDuration":"10.5129","wordfile":[{"path":"audios\/wordfile-6824884929b44.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-682486c60a954.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"0562f13a-c4d9-4a96-9ddb-86cde0021ef6","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":9.191176470588236,"y":7.2727272727272725,"width":14.15441176470588,"height":20.727272727272727,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"abcead9d-369c-444d-9cf5-ec2a55ef58dd","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_8"},{"x":16.544117647058822,"y":21.818181818181817,"width":10.477941176470587,"height":21.454545454545453,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"ccc6857e-cd7b-45c1-ad45-73a623d79172","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_12"},{"x":29.41176470588235,"y":18.181818181818183,"width":14.15441176470588,"height":31.636363636363637,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"9c6f06a5-245f-4498-9dc8-c7ad12828e49","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_0"},{"x":25.735294117647058,"y":40,"width":14.338235294117647,"height":24.363636363636363,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"a096d6c6-14a2-4964-8de8-57f62f901e2a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_5"}],"slideBackgroundSelector":{}},{"elements":[{"x":5.1020408163265305,"y":2.5188916876574305,"width":42.09183673469388,"height":94.96221662468514,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6578937a365f7.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"62e2ba8e-9dfd-4edb-80cc-2aa08fc67e3c","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":48.46938775510204,"y":32.735768261964736,"width":47.19387755102041,"height":50.377833753148614,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.625em;\">Nikan yanka hoton sai kakata ta li\u0199e min shi.&nbsp;<\/span><\/span><\/p>\n"},"subContentId":"1de95193-2ff4-479b-bda0-c02d7e4b3b6d","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":46.96691176470588,"y":44,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":5,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Nikan ","startDuration":"0.0000","endDuration":"0.7279","wordfile":[{"path":"audios\/wordfile-68248977a0e71.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" yanka ","startDuration":"0.7279","endDuration":"1.2275","wordfile":[{"path":"audios\/wordfile-682489c90dbd4.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" hoton ","startDuration":"1.2275","endDuration":"1.9608","wordfile":[{"path":"audios\/wordfile-682489dbe677a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" sai ","startDuration":"1.9608","endDuration":"2.9260","wordfile":[{"path":"audios\/wordfile-682489f03b9c3.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kakata ","startDuration":"2.9260","endDuration":"3.6865","wordfile":[{"path":"audios\/wordfile-68248a05bca6a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ta ","startDuration":"3.6865","endDuration":"4.4635","wordfile":[{"path":"audios\/wordfile-68248a1610e26.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" li\u0199e ","startDuration":"4.4635","endDuration":"4.7359","wordfile":[{"path":"audios\/wordfile-68248a27e5b21.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" min ","startDuration":"4.7359","endDuration":"5.0788","wordfile":[{"path":"audios\/wordfile-68248a391f8c8.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" shi.\u00a0 ","startDuration":"5.0788","endDuration":"7.2503","wordfile":[{"path":"audios\/wordfile-68248a4781306.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-68248904b90af.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"9377d758-df52-4599-a9c9-d5dd10d23c16","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":9.191176470588236,"y":10.909090909090908,"width":12.316176470588234,"height":27.636363636363637,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"dbe9f1a6-1345-48e2-bd80-61deca1634ee","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img9377d758-df52-4599-a9c9-d5dd10d23c16_0"},{"x":14.705882352941176,"y":29.09090909090909,"width":8.63970588235294,"height":17.454545454545453,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"4bb29d3b-359e-4df7-a261-e6c734fbc63a","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img9377d758-df52-4599-a9c9-d5dd10d23c16_1"},{"x":25.735294117647058,"y":3.6420363636363633,"width":15.992647058823529,"height":31.636363636363637,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"71eb9466-9d1c-4c67-9bd3-06e2555fcdb4","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img9377d758-df52-4599-a9c9-d5dd10d23c16_4"},{"x":25.735294117647058,"y":43.824000000000005,"width":12.316176470588234,"height":21.818181818181817,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"fa33bd87-b3ea-4508-a76d-e1bb8f13fb5f","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img9377d758-df52-4599-a9c9-d5dd10d23c16_6"}],"slideBackgroundSelector":{}},{"elements":[{"x":5.1020408163265305,"y":2.51692443324937,"width":42.09183673469388,"height":97.48110831234257,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-657893cd148ab.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"854b71f0-4b9f-4858-8b85-8c29cc518bdb","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":47.36598890942698,"y":31.94888178913738,"width":49.744897959183675,"height":55.415617128463474,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align:center;\"><span style=\"font-size:1.625em;color:hsl(0, 0%, 100%);\">Nakan li\u0199e hoton sai kakana ya taimaka wajen rubuta labarin.<\/span><\/p>"},"subContentId":"c78dbf15-db86-4b85-b48f-3267ee44151c","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":46.96691176470588,"y":44,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":6,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Nakan ","startDuration":"0.0000","endDuration":"0.9836","wordfile":[{"path":"audios\/wordfile-6825fe896adb2.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" li\u0199e ","startDuration":"0.9836","endDuration":"1.3664","wordfile":[{"path":"audios\/wordfile-682495309d397.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" hoton ","startDuration":"1.3664","endDuration":"2.1846","wordfile":[{"path":"audios\/wordfile-6824953d5f50c.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" sai ","startDuration":"2.1846","endDuration":"3.0045","wordfile":[{"path":"audios\/wordfile-6824954ae4747.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kakana ","startDuration":"3.0045","endDuration":"4.0455","wordfile":[{"path":"audios\/wordfile-6830748f1e720.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ya ","startDuration":"3.8455","endDuration":"4.4871","wordfile":[{"path":"audios\/wordfile-682495639d497.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" taimaka ","startDuration":"4.4871","endDuration":"5.1885","wordfile":[{"path":"audios\/wordfile-682495719fd95.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wajen ","startDuration":"5.1885","endDuration":"5.7039","wordfile":[{"path":"audios\/wordfile-6824957ebf359.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" rubuta ","startDuration":"5.7039","endDuration":"6.3018","wordfile":[{"path":"audios\/wordfile-6824958cc13ed.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" labarin. ","startDuration":"6.3018","endDuration":"10.6526","wordfile":[{"path":"audios\/wordfile-6824959a08d20.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-68249504c5f0f.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"c6abaa79-fa76-417e-8711-1bb94cd30cd1","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":29.963235294117645,"y":40.170545454545454,"width":14.15441176470588,"height":20.727272727272727,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"e36c96bb-3844-4d26-985a-6f4b88ee10d6","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_0"},{"x":25.735294117647058,"y":50.90909090909091,"width":12.316176470588234,"height":21.09090909090909,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"fc2a5a9e-524f-468a-8f5b-8a921384856d","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_1"},{"x":5.514705882352941,"y":3.6363636363636362,"width":18.933823529411764,"height":35.27272727272727,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"e57a92ef-27e9-4cde-b30b-7f6414d8e469","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_4"},{"x":12.867647058823529,"y":40,"width":14.338235294117647,"height":24.363636363636363,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"d209bb55-9d16-4e4d-b597-018bed7195e9","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_8"}],"slideBackgroundSelector":{}},{"elements":[{"x":5.1020408163265305,"y":2.51692443324937,"width":42.09183673469388,"height":94.96221662468514,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6578941542f1f.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":1104}},"subContentId":"f1ae49b0-a9f9-4dc4-8a79-cc1b08ca3b95","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":47.930283224400874,"y":10.758796391930042,"width":49.080882352941174,"height":48,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p style=\"text-align:center;\"><span style=\"font-size:1.5em;color:hsl(0, 0%, 100%);\">Nakan rubuta labarin sai \u0257an-uwana ya taimaka wajen ha\u0257a shafukan littafin a guri \u0257aya.<\/span><\/p>"},"subContentId":"93dec863-ad98-4918-9672-ff9d79cee23a","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":92.42144177449167,"y":2.2820629849383844,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":7,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Nakan ","startDuration":"0.0000","endDuration":"0.7316","wordfile":[{"path":"audios\/wordfile-6825fdefb70e6.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" rubuta ","startDuration":"0.7316","endDuration":"1.1382","wordfile":[{"path":"audios\/wordfile-6824965202927.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" labarin ","startDuration":"1.1382","endDuration":"2.1021","wordfile":[{"path":"audios\/wordfile-68249661525fe.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" sai ","startDuration":"2.1021","endDuration":"2.6210","wordfile":[{"path":"audios\/wordfile-6824979e95a37.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" \u0257an-uwana ","startDuration":"2.6210","endDuration":"3.5229","wordfile":[{"path":"audios\/wordfile-683075d57ec2b.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ya ","startDuration":"3.5229","endDuration":"4.0214","wordfile":[{"path":"audios\/wordfile-682497badcdee.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" taimaka ","startDuration":"4.0214","endDuration":"4.6593","wordfile":[{"path":"audios\/wordfile-682497c5d8152.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" wajen ","startDuration":"4.6593","endDuration":"5.3329","wordfile":[{"path":"audios\/wordfile-682497d16b9da.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ha\u0257a ","startDuration":"5.3329","endDuration":"5.5669","wordfile":[{"path":"audios\/wordfile-682497dec9e42.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" shafukan ","startDuration":"5.5669","endDuration":"6.0367","wordfile":[{"path":"audios\/wordfile-682497efdb6e5.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" littafin ","startDuration":"6.0367","endDuration":"6.8037","wordfile":[{"path":"audios\/wordfile-682497fd5b28a.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" a ","startDuration":"6.8037","endDuration":"7.3110","wordfile":[{"path":"audios\/wordfile-68249807d3e63.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" guri ","startDuration":"6.8037","endDuration":"7.6242","wordfile":[{"path":"audios\/wordfile-682498134a2d9.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" \u0257aya. ","startDuration":"7.6242","endDuration":"14.0568","wordfile":[{"path":"audios\/wordfile-6824981d5c309.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-682496006fd29.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"eaa75ecc-b2bd-4ad8-a865-ed642cbe189e","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":7.352941176470588,"y":25.454545454545453,"width":11.948529411764705,"height":24.363636363636363,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"1bd4a42e-8a62-44bd-9574-c789cd09c171","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":12.867647058823529,"y":43.76145454545454,"width":12.683823529411764,"height":24.363636363636363,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"0f921e25-83e8-4667-8eb2-26fe03d1f986","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":27.573529411764703,"y":3.6363636363636362,"width":14.15441176470588,"height":26.181818181818183,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"4c74b34c-5fbb-4168-8542-aa1180639c31","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_4"},{"x":25.735294117647058,"y":21.818181818181817,"width":19.669117647058822,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"a563a9a7-b509-4703-afc4-e05d6dd3358f","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_8"},{"x":25.735294117647058,"y":21.818181818181817,"width":19.669117647058822,"height":40,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"35b50778-4d7f-4788-a9d3-6b7a7528b7e4","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_9"}],"slideBackgroundSelector":{}},{"elements":[{"x":5.1020408163265305,"y":2.5188916876574305,"width":42.09183673469388,"height":92.4433249370277,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6578945856864.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1024,"height":735}},"subContentId":"00fb6a85-5a76-447d-a119-2676cf7feb43","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":49.744897959183675,"y":40.30226700251889,"width":45.1530612244898,"height":42.82115869017632,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Yanzu dai ga littafi ya kammalu. Bari mu le\u0199a cikinsa.<\/span><\/span><\/p>\n"},"subContentId":"5a9fff56-e851-45ec-8640-989a48903d6e","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""},{"x":46.96691176470588,"y":44,"width":40,"height":40,"action":{"library":"H5P.CRAudio 1.4","params":{"fitToWrapper":true,"currIndex":8,"playerMode":"minimalistic","controls":true,"autoplay":true,"playAudio":"Play audio","pauseAudio":"Pause audio","contentName":"Audio","glowColor":"#ffd85a","timeStampForEachText":[{"text":" Yanzu ","startDuration":"0.0000","endDuration":"0.8637","wordfile":[{"path":"audios\/wordfile-6825534a67d2f.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" dai ","startDuration":"0.8637","endDuration":"1.4078","wordfile":[{"path":"audios\/wordfile-68255354b9e1e.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ga ","startDuration":"1.4078","endDuration":"1.9143","wordfile":[{"path":"audios\/wordfile-6825535f66c9b.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" littafi ","startDuration":"1.9143","endDuration":"2.7016","wordfile":[{"path":"audios\/wordfile-6825537005231.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" ya ","startDuration":"2.7016","endDuration":"3.1572","wordfile":[{"path":"audios\/wordfile-6825537c96d34.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" kammalu. ","startDuration":"3.1572","endDuration":"3.9651","wordfile":[{"path":"audios\/wordfile-6825538a5b796.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" Bari ","startDuration":"3.9651","endDuration":"4.7216","wordfile":[{"path":"audios\/wordfile-68255399b528d.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" mu ","startDuration":"4.7216","endDuration":"4.9104","wordfile":[{"path":"audios\/wordfile-682553bc03d31.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" le\u0199a ","startDuration":"4.9104","endDuration":"5.0867","wordfile":[{"path":"audios\/wordfile-682553c7535f1.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},{"text":" cikinsa. ","startDuration":"5.0867","endDuration":"8.7794","wordfile":[{"path":"audios\/wordfile-682553d586837.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]}],"files":[{"path":"audios\/files-6825530412eee.mp3","mime":"audio\/mpeg","copyright":{"license":"U"}}]},"subContentId":"931a758f-7f0a-4bef-bb4b-7acde603e824","metadata":{"contentType":"Curious Reader Audio","license":"U","title":"Untitled Curious Reader Audio"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":33.088235294117645,"y":36.36363636363637,"width":8.63970588235294,"height":16,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"b24b1540-6fff-4271-bfa1-670b4f611434","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img931a758f-7f0a-4bef-bb4b-7acde603e824_3"},{"x":31.249999999999996,"y":29.09090909090909,"width":12.316176470588234,"height":30.90909090909091,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image"},"subContentId":"7a0f1df7-255f-4920-a0ba-527143748e83","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":true,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"id":"img931a758f-7f0a-4bef-bb4b-7acde603e824_9"}],"slideBackgroundSelector":{}},{"elements":[{"x":3.826530612244898,"y":5.0338539042821155,"width":22.95918367346939,"height":22.921914357682617,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-65789558544e6.png","mime":"image\/png","copyright":{"license":"U"},"width":1350,"height":487}},"subContentId":"481a06ca-f221-477c-b218-9b93976b4d09","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":30.612244897959183,"y":5.0338539042821155,"width":22.95918367346939,"height":22.921914357682617,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6578956aa2732.png","mime":"image\/png","copyright":{"license":"U"},"width":814,"height":202}},"subContentId":"1efc4476-7506-4cc3-8719-19270bc2f79e","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":57.39795918367347,"y":7.556675062972292,"width":40.05102040816327,"height":17.632241813602015,"action":{"library":"H5P.Image 1.1","params":{"contentName":"Image","file":{"path":"images\/file-6578957d13a9b.jpg","mime":"image\/jpeg","copyright":{"license":"U"},"width":1732,"height":354}},"subContentId":"1e8c1618-399a-4152-86d8-b0bc61b1ea04","metadata":{"contentType":"Image","license":"U","title":"Untitled Image"}},"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false},{"x":3.826252723311547,"y":27.94021505376344,"width":93.13725490196079,"height":71.82795698924731,"action":{"library":"H5P.CRAdvancedText 1.1","params":{"text":"<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">\u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d credits<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">This work, \u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d is a derivative of \u201cWho can help me?\u201d by All Children Reading Cambodia. \u00a9 The Asia Foundation , 2019 and used under CC BY.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">\u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\">&nbsp;<\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">Book builder - Abraham Jerry Kakooza<\/span><\/h3>\n"},"subContentId":"99f991d8-4b16-4b19-9127-e55b00685b29","metadata":{"contentType":"Text","license":"U","title":"Untitled Text"}},"alwaysDisplayComments":false,"backgroundOpacity":0,"willDoAnimation":false,"animationType":"glow","displayAsButton":false,"buttonSize":"big","goToSlideType":"specified","invisible":false,"solution":""}],"slideBackgroundSelector":{"fillSlideBackground":"#fbfef0"}}],"keywordListEnabled":true,"globalBackgroundSelector":{},"keywordListAlwaysShow":false,"keywordListAutoHide":false,"keywordListOpacity":90},"override":{"activeSurface":false,"hideSummarySlide":false,"summarySlideSolutionButton":true,"summarySlideRetryButton":true,"enablePrintButton":false,"social":{"showFacebookShare":false,"facebookShare":{"url":"@currentpageurl","quote":"I scored @score out of @maxScore on a task at @currentpageurl."},"showTwitterShare":false,"twitterShare":{"statement":"I scored @score out of @maxScore on a task at @currentpageurl.","url":"@currentpageurl","hashtags":"h5p, course"},"showGoogleShare":false,"googleShareUrl":"@currentpageurl"}},"l10n":{"slide":"Slide","score":"Score","yourScore":"Your Score","maxScore":"Max Score","total":"Total","totalScore":"Total Score","showSolutions":"Show solutions","retry":"Retry","exportAnswers":"Export text","hideKeywords":"Hide sidebar navigation menu","showKeywords":"Show sidebar navigation menu","fullscreen":"Fullscreen","exitFullscreen":"Exit fullscreen","prevSlide":"Previous slide","nextSlide":"Next slide","currentSlide":"Current slide","lastSlide":"Last slide","solutionModeTitle":"Exit solution mode","solutionModeText":"Solution Mode","summaryMultipleTaskText":"Multiple tasks","scoreMessage":"You achieved:","shareFacebook":"Share on Facebook","shareTwitter":"Share on Twitter","shareGoogle":"Share on Google+","summary":"Summary","solutionsButtonTitle":"Show comments","printTitle":"Print","printIngress":"How would you like to print this presentation?","printAllSlides":"Print all slides","printCurrentSlide":"Print current slide","noTitle":"No title","accessibilitySlideNavigationExplanation":"Use left and right arrow to change slide in that direction whenever canvas is selected.","accessibilityCanvasLabel":"Presentation canvas. Use left and right arrow to move between slides.","containsNotCompleted":"@slideName contains not completed interaction","containsCompleted":"@slideName contains completed interaction","slideCount":"Slide @index of @total","containsOnlyCorrect":"@slideName only has correct answers","containsIncorrectAnswers":"@slideName has incorrect answers","shareResult":"Share Result","accessibilityTotalScore":"You got @score of @maxScore points in total","accessibilityEnteredFullscreen":"Entered fullscreen","accessibilityExitedFullscreen":"Exited fullscreen"}}
+{
+    "presentation": {
+        "slides": [
+            {
+                "elements": [
+                    {
+                        "x": 16.338997821350763,
+                        "y": 0,
+                        "width": 70.1525054466231,
+                        "height": 79.56989247311827,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-65789116ed4b7.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 490
+                                }
+                            },
+                            "subContentId": "4ee28616-8931-4205-be08-3db96ae318ac",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 11.479591836734695,
+                        "y": 83.1234256926952,
+                        "width": 75.25510204081633,
+                        "height": 14.86146095717884,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\">Wa zai iya taimaka min<\/span><\/p>\n"
+                            },
+                            "subContentId": "30f4974f-66cd-47ee-855f-91af13c9e543",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 6.377551020408164,
+                        "y": 2.5188916876574305,
+                        "width": 40.05102040816327,
+                        "height": 92.4433249370277,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-657891ce69d36.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "a8bbbdc6-fd56-4c0a-be57-a277b023598e",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 49.63235294117647,
+                        "y": 37.83236363636364,
+                        "width": 45.955882352941174,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Ina so in karanta littafi.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "c8b60310-4941-42a1-8058-950e9d33749c",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 92.42144177449167,
+                        "y": 2.2820629849383844,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 1,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Ina ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.5717",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682482cfb990d.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " so ",
+                                        "startDuration": "0.5717",
+                                        "endDuration": "0.8631",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682482dee47d7.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " in ",
+                                        "startDuration": "0.8631",
+                                        "endDuration": "1.0725",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682482ece3895.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " karanta ",
+                                        "startDuration": "1.0725",
+                                        "endDuration": "1.7967",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682482ff4a49e.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " littafi. ",
+                                        "startDuration": "1.7967",
+                                        "endDuration": "2.6135",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824841f7b511.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6824826bcb8d7.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "b054cc94-9a12-4a24-ad9d-26c7cc75d4f7",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 7.352941176470588,
+                        "y": 3.6363636363636362,
+                        "width": 19.669117647058822,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "844edf09-627e-40c1-8a83-7c526c123a60",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgb054cc94-9a12-4a24-ad9d-26c7cc75d4f7_0"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 6.377551020408164,
+                        "y": 5.037783375314861,
+                        "width": 44.642857142857146,
+                        "height": 89.92443324937027,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-65789225cad34.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                }
+                            },
+                            "subContentId": "f6250ed8-6f7a-4f43-b90c-24ca52d0e0e7",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 47.79411764705882,
+                        "y": 40,
+                        "width": 46.42857142857143,
+                        "height": 40.050377833753146,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Bani da littafi.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "5c66f369-498f-4040-837a-8ce79ef694eb",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 46.96691176470588,
+                        "y": 44,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 2,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Bani ",
+                                        "startDuration": "0.4426",
+                                        "endDuration": "1.1268",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682483cd8d0ce.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " da ",
+                                        "startDuration": "1.1278",
+                                        "endDuration": "1.3278",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682483e0d3a91.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " littafi. ",
+                                        "startDuration": "1.3288",
+                                        "endDuration": "2.2786",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682483ff843f7.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-682483a18331c.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "50080959-0842-4855-a734-b8a9095b0fc0",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 7.352941176470589,
+                        "y": 21.880690909090912,
+                        "width": 23.345588235294116,
+                        "height": 57.09090909090909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "3b4f82ca-b2b6-495d-a315-697afed0cddc",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img50080959-0842-4855-a734-b8a9095b0fc0_0"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 6.377551020408164,
+                        "y": 5.037783375314861,
+                        "width": 40.05102040816327,
+                        "height": 92.4433249370277,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-657892de5ad39.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "6902dea4-056c-49af-87e4-dfc9b37a09cc",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 49.632352941176464,
+                        "y": 32.72727272727273,
+                        "width": 45.220588235294116,
+                        "height": 37.81818181818182,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.625em;\"><span style=\"color:#ffffff;\">Ni kan yi zane, sai Mahaifina ya shafa wa wannan zanen kala.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "110db345-7be9-49e9-b922-26cd7f6d4c23",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 46.96691176470588,
+                        "y": 44,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 3,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Ni ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.5395",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682484c77b9b1.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kan ",
+                                        "startDuration": "0.5395",
+                                        "endDuration": "0.7718",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682484d94dbdb.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " yi ",
+                                        "startDuration": "0.7718",
+                                        "endDuration": "0.9583",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682484ec5eebb.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " zane, ",
+                                        "startDuration": "0.9583",
+                                        "endDuration": "1.5938",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682484fe0944a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " sai ",
+                                        "startDuration": "1.5938",
+                                        "endDuration": "2.3638",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248516c4d5e.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Mahaifina ",
+                                        "startDuration": "2.3638",
+                                        "endDuration": "2.9625",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824852620605.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ya ",
+                                        "startDuration": "2.9625",
+                                        "endDuration": "3.1645",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682485371b82d.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " shafa ",
+                                        "startDuration": "3.1645",
+                                        "endDuration": "3.5023",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682485520e8e9.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wa ",
+                                        "startDuration": "3.5023",
+                                        "endDuration": "3.6556",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682485627541e.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wannan ",
+                                        "startDuration": "3.6556",
+                                        "endDuration": "4.1958",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248576e1044.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " zanen ",
+                                        "startDuration": "4.1958",
+                                        "endDuration": "4.7202",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824858a990de.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kala. ",
+                                        "startDuration": "4.7202",
+                                        "endDuration": "5.5182",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824859d0647a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-682484ac5684b.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "24149326-4a18-4d83-9a62-b182d1ad1e81",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 7.352941176470588,
+                        "y": 18.181818181818183,
+                        "width": 12.316176470588234,
+                        "height": 25.09090909090909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "2ef5a400-b93c-457e-9339-a46feaf6eff0",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img24149326-4a18-4d83-9a62-b182d1ad1e81_0"
+                    },
+                    {
+                        "x": 9.191176470588236,
+                        "y": 36.36363636363637,
+                        "width": 12.316176470588234,
+                        "height": 21.09090909090909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "41f4bd17-ef19-471f-8fe6-527a8d52b675",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img24149326-4a18-4d83-9a62-b182d1ad1e81_3"
+                    },
+                    {
+                        "x": 29.411764705882355,
+                        "y": 14.585236363636364,
+                        "width": 15.992647058823529,
+                        "height": 31.636363636363637,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "4336172d-8a0f-4960-8d41-d203fe4e8371",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img24149326-4a18-4d83-9a62-b182d1ad1e81_5"
+                    },
+                    {
+                        "x": 22.058823529411764,
+                        "y": 40.113454545454545,
+                        "width": 12.316176470588234,
+                        "height": 25.09090909090909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "39dce0e7-818b-4759-b65b-e855935790fd",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img24149326-4a18-4d83-9a62-b182d1ad1e81_11"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 6.377551020408164,
+                        "y": 2.5188916876574305,
+                        "width": 40.05102040816327,
+                        "height": 94.96221662468514,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-65789326ca3ab.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "ef6624fb-b891-46ac-bb67-51707b0775e2",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 47.79411764705882,
+                        "y": 14.545454545454545,
+                        "width": 51.02040816326531,
+                        "height": 50.377833753148614,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.625em;\">Wani lokaci nikan shafa wa hoton kala sai mahaifiyata ta taimaka wajen yankawa.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "d1d2a237-2c98-411e-b99f-ae0b08544f58",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 92.42144177449167,
+                        "y": 2.2820629849383844,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 4,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Wani ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.5933",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682486ecd6647.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " lokaci ",
+                                        "startDuration": "0.5933",
+                                        "endDuration": "1.2988",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248700e27f4.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " nikan ",
+                                        "startDuration": "1.2988",
+                                        "endDuration": "2.1126",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682487766369a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " shafa ",
+                                        "startDuration": "2.1126",
+                                        "endDuration": "2.6035",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248787c9b17.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wa ",
+                                        "startDuration": "2.6035",
+                                        "endDuration": "2.8327",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824879611378.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " hoton ",
+                                        "startDuration": "2.8327",
+                                        "endDuration": "3.2960",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682487b5be639.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kala ",
+                                        "startDuration": "3.2960",
+                                        "endDuration": "3.7773",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682487cd521c2.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " sai ",
+                                        "startDuration": "3.7773",
+                                        "endDuration": "4.3342",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682487e289296.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mahaifiyata ",
+                                        "startDuration": "4.3342",
+                                        "endDuration": "5.1624",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682487f244c91.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ta ",
+                                        "startDuration": "5.1624",
+                                        "endDuration": "5.4538",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682488066b9d1.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " taimaka ",
+                                        "startDuration": "5.4538",
+                                        "endDuration": "6.4845",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824881cac7d2.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wajen ",
+                                        "startDuration": "6.4845",
+                                        "endDuration": "6.8323",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824883189488.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " yankawa. ",
+                                        "startDuration": "6.8323",
+                                        "endDuration": "7.5129",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824884929b44.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-682486c60a954.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "0562f13a-c4d9-4a96-9ddb-86cde0021ef6",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 9.191176470588236,
+                        "y": 7.2727272727272725,
+                        "width": 14.15441176470588,
+                        "height": 20.727272727272727,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "abcead9d-369c-444d-9cf5-ec2a55ef58dd",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_8"
+                    },
+                    {
+                        "x": 16.544117647058822,
+                        "y": 21.818181818181817,
+                        "width": 10.477941176470587,
+                        "height": 21.454545454545453,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "ccc6857e-cd7b-45c1-ad45-73a623d79172",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_12"
+                    },
+                    {
+                        "x": 29.41176470588235,
+                        "y": 18.181818181818183,
+                        "width": 14.15441176470588,
+                        "height": 31.636363636363637,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "9c6f06a5-245f-4498-9dc8-c7ad12828e49",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_0"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 40,
+                        "width": 14.338235294117647,
+                        "height": 24.363636363636363,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "a096d6c6-14a2-4964-8de8-57f62f901e2a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img0562f13a-c4d9-4a96-9ddb-86cde0021ef6_5"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 2.5188916876574305,
+                        "width": 42.09183673469388,
+                        "height": 94.96221662468514,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6578937a365f7.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "62e2ba8e-9dfd-4edb-80cc-2aa08fc67e3c",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 48.46938775510204,
+                        "y": 32.735768261964736,
+                        "width": 47.19387755102041,
+                        "height": 50.377833753148614,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"color:#ffffff;\"><span style=\"font-size:1.625em;\">Nikan yanka hoton sai kakata ta li\u0199e min shi.&nbsp;<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "1de95193-2ff4-479b-bda0-c02d7e4b3b6d",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 46.96691176470588,
+                        "y": 44,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 5,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Nikan ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.7279",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248977a0e71.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " yanka ",
+                                        "startDuration": "0.7279",
+                                        "endDuration": "1.2275",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682489c90dbd4.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " hoton ",
+                                        "startDuration": "1.2275",
+                                        "endDuration": "1.9608",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682489dbe677a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " sai ",
+                                        "startDuration": "1.9608",
+                                        "endDuration": "2.9260",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682489f03b9c3.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kakata ",
+                                        "startDuration": "2.9260",
+                                        "endDuration": "3.6865",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248a05bca6a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ta ",
+                                        "startDuration": "3.6865",
+                                        "endDuration": "4.4635",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248a1610e26.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " li\u0199e ",
+                                        "startDuration": "4.4635",
+                                        "endDuration": "4.7359",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248a27e5b21.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " min ",
+                                        "startDuration": "4.7359",
+                                        "endDuration": "5.0788",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248a391f8c8.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " shi.\u00a0 ",
+                                        "startDuration": "5.0788",
+                                        "endDuration": "5.7503",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68248a4781306.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-68248904b90af.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "9377d758-df52-4599-a9c9-d5dd10d23c16",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 9.191176470588236,
+                        "y": 10.909090909090908,
+                        "width": 12.316176470588234,
+                        "height": 27.636363636363637,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "dbe9f1a6-1345-48e2-bd80-61deca1634ee",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img9377d758-df52-4599-a9c9-d5dd10d23c16_0"
+                    },
+                    {
+                        "x": 14.705882352941176,
+                        "y": 29.09090909090909,
+                        "width": 8.63970588235294,
+                        "height": 17.454545454545453,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "4bb29d3b-359e-4df7-a261-e6c734fbc63a",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img9377d758-df52-4599-a9c9-d5dd10d23c16_1"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 3.6420363636363633,
+                        "width": 15.992647058823529,
+                        "height": 31.636363636363637,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "71eb9466-9d1c-4c67-9bd3-06e2555fcdb4",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img9377d758-df52-4599-a9c9-d5dd10d23c16_4"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 43.824000000000005,
+                        "width": 12.316176470588234,
+                        "height": 21.818181818181817,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "fa33bd87-b3ea-4508-a76d-e1bb8f13fb5f",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img9377d758-df52-4599-a9c9-d5dd10d23c16_6"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 2.51692443324937,
+                        "width": 42.09183673469388,
+                        "height": 97.48110831234257,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-657893cd148ab.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "854b71f0-4b9f-4858-8b85-8c29cc518bdb",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 47.36598890942698,
+                        "y": 31.94888178913738,
+                        "width": 49.744897959183675,
+                        "height": 55.415617128463474,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align:center;\"><span style=\"font-size:1.625em;color:hsl(0, 0%, 100%);\">Nakan li\u0199e hoton sai kakana ya taimaka wajen rubuta labarin.<\/span><\/p>"
+                            },
+                            "subContentId": "c78dbf15-db86-4b85-b48f-3267ee44151c",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 46.96691176470588,
+                        "y": 44,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 6,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Nakan ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.9836",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825fe896adb2.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " li\u0199e ",
+                                        "startDuration": "0.9836",
+                                        "endDuration": "1.3664",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682495309d397.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " hoton ",
+                                        "startDuration": "1.3664",
+                                        "endDuration": "2.1846",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824953d5f50c.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " sai ",
+                                        "startDuration": "2.1846",
+                                        "endDuration": "3.0045",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824954ae4747.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kakana ",
+                                        "startDuration": "3.0045",
+                                        "endDuration": "3.8454",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6830748f1e720.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ya ",
+                                        "startDuration": "3.8455",
+                                        "endDuration": "4.4871",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682495639d497.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " taimaka ",
+                                        "startDuration": "4.4872",
+                                        "endDuration": "5.1884",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682495719fd95.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wajen ",
+                                        "startDuration": "5.1885",
+                                        "endDuration": "5.7039",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824957ebf359.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " rubuta ",
+                                        "startDuration": "5.7040",
+                                        "endDuration": "6.3018",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824958cc13ed.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " labarin. ",
+                                        "startDuration": "6.3018",
+                                        "endDuration": "7.0526",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824959a08d20.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-68249504c5f0f.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "c6abaa79-fa76-417e-8711-1bb94cd30cd1",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 29.963235294117645,
+                        "y": 40.170545454545454,
+                        "width": 14.15441176470588,
+                        "height": 20.727272727272727,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "e36c96bb-3844-4d26-985a-6f4b88ee10d6",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_0"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 50.90909090909091,
+                        "width": 12.316176470588234,
+                        "height": 21.09090909090909,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "fc2a5a9e-524f-468a-8f5b-8a921384856d",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_1"
+                    },
+                    {
+                        "x": 5.514705882352941,
+                        "y": 3.6363636363636362,
+                        "width": 18.933823529411764,
+                        "height": 35.27272727272727,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "e57a92ef-27e9-4cde-b30b-7f6414d8e469",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_4"
+                    },
+                    {
+                        "x": 12.867647058823529,
+                        "y": 40,
+                        "width": 14.338235294117647,
+                        "height": 24.363636363636363,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "d209bb55-9d16-4e4d-b597-018bed7195e9",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgc6abaa79-fa76-417e-8711-1bb94cd30cd1_8"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 2.51692443324937,
+                        "width": 42.09183673469388,
+                        "height": 94.96221662468514,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6578941542f1f.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 1104
+                                }
+                            },
+                            "subContentId": "f1ae49b0-a9f9-4dc4-8a79-cc1b08ca3b95",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 47.930283224400874,
+                        "y": 10.758796391930042,
+                        "width": 49.080882352941174,
+                        "height": 48,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p style=\"text-align:center;\"><span style=\"font-size:1.5em;color:hsl(0, 0%, 100%);\">Nakan rubuta labarin sai \u0257an-uwana ya taimaka wajen ha\u0257a shafukan littafin a guri \u0257aya.<\/span><\/p>"
+                            },
+                            "subContentId": "93dec863-ad98-4918-9672-ff9d79cee23a",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 92.42144177449167,
+                        "y": 2.2820629849383844,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 7,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Nakan ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.7316",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825fdefb70e6.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " rubuta ",
+                                        "startDuration": "0.7316",
+                                        "endDuration": "1.1382",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824965202927.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " labarin ",
+                                        "startDuration": "1.1382",
+                                        "endDuration": "2.1021",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68249661525fe.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " sai ",
+                                        "startDuration": "2.1021",
+                                        "endDuration": "2.6210",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824979e95a37.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " \u0257an-uwana ",
+                                        "startDuration": "2.6210",
+                                        "endDuration": "3.5229",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-683075d57ec2b.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ya ",
+                                        "startDuration": "3.5229",
+                                        "endDuration": "4.0214",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497badcdee.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " taimaka ",
+                                        "startDuration": "4.0214",
+                                        "endDuration": "4.6593",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497c5d8152.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " wajen ",
+                                        "startDuration": "4.6593",
+                                        "endDuration": "5.3329",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497d16b9da.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ha\u0257a ",
+                                        "startDuration": "5.3329",
+                                        "endDuration": "5.5669",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497dec9e42.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " shafukan ",
+                                        "startDuration": "5.5669",
+                                        "endDuration": "6.0367",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497efdb6e5.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " littafin ",
+                                        "startDuration": "6.0367",
+                                        "endDuration": "6.8037",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682497fd5b28a.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " a ",
+                                        "startDuration": "6.8037",
+                                        "endDuration": "7.3110",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68249807d3e63.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " guri ",
+                                        "startDuration": "7.3111",
+                                        "endDuration": "7.6242",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682498134a2d9.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " \u0257aya. ",
+                                        "startDuration": "7.6242",
+                                        "endDuration": "8.0568",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6824981d5c309.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-682496006fd29.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "eaa75ecc-b2bd-4ad8-a865-ed642cbe189e",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 7.352941176470588,
+                        "y": 25.454545454545453,
+                        "width": 11.948529411764705,
+                        "height": 24.363636363636363,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "1bd4a42e-8a62-44bd-9574-c789cd09c171",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 12.867647058823529,
+                        "y": 43.76145454545454,
+                        "width": 12.683823529411764,
+                        "height": 24.363636363636363,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "0f921e25-83e8-4667-8eb2-26fe03d1f986",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 27.573529411764703,
+                        "y": 3.6363636363636362,
+                        "width": 14.15441176470588,
+                        "height": 26.181818181818183,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "4c74b34c-5fbb-4168-8542-aa1180639c31",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_4"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 21.818181818181817,
+                        "width": 19.669117647058822,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "a563a9a7-b509-4703-afc4-e05d6dd3358f",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_8"
+                    },
+                    {
+                        "x": 25.735294117647058,
+                        "y": 21.818181818181817,
+                        "width": 19.669117647058822,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "35b50778-4d7f-4788-a9d3-6b7a7528b7e4",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "imgeaa75ecc-b2bd-4ad8-a865-ed642cbe189e_9"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 5.1020408163265305,
+                        "y": 2.5188916876574305,
+                        "width": 42.09183673469388,
+                        "height": 92.4433249370277,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6578945856864.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1024,
+                                    "height": 735
+                                }
+                            },
+                            "subContentId": "00fb6a85-5a76-447d-a119-2676cf7feb43",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 49.744897959183675,
+                        "y": 40.30226700251889,
+                        "width": 45.1530612244898,
+                        "height": 42.82115869017632,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:1.75em;\"><span style=\"color:#ffffff;\">Yanzu dai ga littafi ya kammalu. Bari mu le\u0199a cikinsa.<\/span><\/span><\/p>\n"
+                            },
+                            "subContentId": "5a9fff56-e851-45ec-8640-989a48903d6e",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    },
+                    {
+                        "x": 46.96691176470588,
+                        "y": 44,
+                        "width": 40,
+                        "height": 40,
+                        "action": {
+                            "library": "H5P.CRAudio 1.4",
+                            "params": {
+                                "fitToWrapper": true,
+                                "currIndex": 8,
+                                "playerMode": "minimalistic",
+                                "controls": true,
+                                "autoplay": true,
+                                "playAudio": "Play audio",
+                                "pauseAudio": "Pause audio",
+                                "contentName": "Audio",
+                                "glowColor": "#ffd85a",
+                                "timeStampForEachText": [
+                                    {
+                                        "text": " Yanzu ",
+                                        "startDuration": "0.0000",
+                                        "endDuration": "0.8637",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825534a67d2f.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " dai ",
+                                        "startDuration": "0.8637",
+                                        "endDuration": "1.4078",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68255354b9e1e.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ga ",
+                                        "startDuration": "1.4078",
+                                        "endDuration": "1.9143",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825535f66c9b.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " littafi ",
+                                        "startDuration": "1.9143",
+                                        "endDuration": "2.7016",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825537005231.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ya ",
+                                        "startDuration": "2.7016",
+                                        "endDuration": "3.1572",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825537c96d34.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " kammalu. ",
+                                        "startDuration": "3.1572",
+                                        "endDuration": "3.9651",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-6825538a5b796.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " Bari ",
+                                        "startDuration": "3.9651",
+                                        "endDuration": "4.7216",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-68255399b528d.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " mu ",
+                                        "startDuration": "4.7216",
+                                        "endDuration": "4.9104",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682553bc03d31.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " le\u0199a ",
+                                        "startDuration": "4.9104",
+                                        "endDuration": "5.0867",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682553c7535f1.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " cikinsa. ",
+                                        "startDuration": "5.0867",
+                                        "endDuration": "5.7794",
+                                        "wordfile": [
+                                            {
+                                                "path": "audios\/wordfile-682553d586837.mp3",
+                                                "mime": "audio\/mpeg",
+                                                "copyright": {
+                                                    "license": "U"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {
+                                        "path": "audios\/files-6825530412eee.mp3",
+                                        "mime": "audio\/mpeg",
+                                        "copyright": {
+                                            "license": "U"
+                                        }
+                                    }
+                                ]
+                            },
+                            "subContentId": "931a758f-7f0a-4bef-bb4b-7acde603e824",
+                            "metadata": {
+                                "contentType": "Curious Reader Audio",
+                                "license": "U",
+                                "title": "Untitled Curious Reader Audio"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 33.088235294117645,
+                        "y": 36.36363636363637,
+                        "width": 8.63970588235294,
+                        "height": 16,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "b24b1540-6fff-4271-bfa1-670b4f611434",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img931a758f-7f0a-4bef-bb4b-7acde603e824_3"
+                    },
+                    {
+                        "x": 31.249999999999996,
+                        "y": 29.09090909090909,
+                        "width": 12.316176470588234,
+                        "height": 30.90909090909091,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image"
+                            },
+                            "subContentId": "7a0f1df7-255f-4920-a0ba-527143748e83",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": true,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "id": "img931a758f-7f0a-4bef-bb4b-7acde603e824_9"
+                    }
+                ],
+                "slideBackgroundSelector": {}
+            },
+            {
+                "elements": [
+                    {
+                        "x": 3.826530612244898,
+                        "y": 5.0338539042821155,
+                        "width": 22.95918367346939,
+                        "height": 22.921914357682617,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-65789558544e6.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1350,
+                                    "height": 487
+                                }
+                            },
+                            "subContentId": "481a06ca-f221-477c-b218-9b93976b4d09",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 30.612244897959183,
+                        "y": 5.0338539042821155,
+                        "width": 22.95918367346939,
+                        "height": 22.921914357682617,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6578956aa2732.png",
+                                    "mime": "image\/png",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 814,
+                                    "height": 202
+                                }
+                            },
+                            "subContentId": "1efc4476-7506-4cc3-8719-19270bc2f79e",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 57.39795918367347,
+                        "y": 7.556675062972292,
+                        "width": 40.05102040816327,
+                        "height": 17.632241813602015,
+                        "action": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "contentName": "Image",
+                                "file": {
+                                    "path": "images\/file-6578957d13a9b.jpg",
+                                    "mime": "image\/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1732,
+                                    "height": 354
+                                }
+                            },
+                            "subContentId": "1e8c1618-399a-4152-86d8-b0bc61b1ea04",
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "Untitled Image"
+                            }
+                        },
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false
+                    },
+                    {
+                        "x": 3.826252723311547,
+                        "y": 27.94021505376344,
+                        "width": 93.13725490196079,
+                        "height": 71.82795698924731,
+                        "action": {
+                            "library": "H5P.CRAdvancedText 1.1",
+                            "params": {
+                                "text": "<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">\u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d credits<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">This work, \u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d is a derivative of \u201cWho can help me?\u201d by All Children Reading Cambodia. \u00a9 The Asia Foundation , 2019 and used under CC BY.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">\u201c<\/span>Wa zai iya taimaka min<span style=\"font-size:1.25em;\">\u201d is licensed under CC BY 4.0 by Curious Learning.<\/span><\/h3>\n\n<h3 style=\"text-align: center;\">&nbsp;<\/h3>\n\n<h3 style=\"text-align: center;\"><span style=\"font-size:1.25em;\">Book builder - Abraham Jerry Kakooza<\/span><\/h3>\n"
+                            },
+                            "subContentId": "99f991d8-4b16-4b19-9127-e55b00685b29",
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text"
+                            }
+                        },
+                        "alwaysDisplayComments": false,
+                        "backgroundOpacity": 0,
+                        "willDoAnimation": false,
+                        "animationType": "glow",
+                        "displayAsButton": false,
+                        "buttonSize": "big",
+                        "goToSlideType": "specified",
+                        "invisible": false,
+                        "solution": ""
+                    }
+                ],
+                "slideBackgroundSelector": {
+                    "fillSlideBackground": "#fbfef0"
+                }
+            }
+        ],
+        "keywordListEnabled": true,
+        "globalBackgroundSelector": {},
+        "keywordListAlwaysShow": false,
+        "keywordListAutoHide": false,
+        "keywordListOpacity": 90
+    },
+    "override": {
+        "activeSurface": false,
+        "hideSummarySlide": false,
+        "summarySlideSolutionButton": true,
+        "summarySlideRetryButton": true,
+        "enablePrintButton": false,
+        "social": {
+            "showFacebookShare": false,
+            "facebookShare": {
+                "url": "@currentpageurl",
+                "quote": "I scored @score out of @maxScore on a task at @currentpageurl."
+            },
+            "showTwitterShare": false,
+            "twitterShare": {
+                "statement": "I scored @score out of @maxScore on a task at @currentpageurl.",
+                "url": "@currentpageurl",
+                "hashtags": "h5p, course"
+            },
+            "showGoogleShare": false,
+            "googleShareUrl": "@currentpageurl"
+        }
+    },
+    "l10n": {
+        "slide": "Slide",
+        "score": "Score",
+        "yourScore": "Your Score",
+        "maxScore": "Max Score",
+        "total": "Total",
+        "totalScore": "Total Score",
+        "showSolutions": "Show solutions",
+        "retry": "Retry",
+        "exportAnswers": "Export text",
+        "hideKeywords": "Hide sidebar navigation menu",
+        "showKeywords": "Show sidebar navigation menu",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit fullscreen",
+        "prevSlide": "Previous slide",
+        "nextSlide": "Next slide",
+        "currentSlide": "Current slide",
+        "lastSlide": "Last slide",
+        "solutionModeTitle": "Exit solution mode",
+        "solutionModeText": "Solution Mode",
+        "summaryMultipleTaskText": "Multiple tasks",
+        "scoreMessage": "You achieved:",
+        "shareFacebook": "Share on Facebook",
+        "shareTwitter": "Share on Twitter",
+        "shareGoogle": "Share on Google+",
+        "summary": "Summary",
+        "solutionsButtonTitle": "Show comments",
+        "printTitle": "Print",
+        "printIngress": "How would you like to print this presentation?",
+        "printAllSlides": "Print all slides",
+        "printCurrentSlide": "Print current slide",
+        "noTitle": "No title",
+        "accessibilitySlideNavigationExplanation": "Use left and right arrow to change slide in that direction whenever canvas is selected.",
+        "accessibilityCanvasLabel": "Presentation canvas. Use left and right arrow to move between slides.",
+        "containsNotCompleted": "@slideName contains not completed interaction",
+        "containsCompleted": "@slideName contains completed interaction",
+        "slideCount": "Slide @index of @total",
+        "containsOnlyCorrect": "@slideName only has correct answers",
+        "containsIncorrectAnswers": "@slideName has incorrect answers",
+        "shareResult": "Share Result",
+        "accessibilityTotalScore": "You got @score of @maxScore points in total",
+        "accessibilityEnteredFullscreen": "Entered fullscreen",
+        "accessibilityExitedFullscreen": "Exited fullscreen"
+    }
+}
