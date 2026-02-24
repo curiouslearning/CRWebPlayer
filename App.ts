@@ -11,7 +11,7 @@ let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
 
-// let loadingScreen = document.getElementById("loadingScreen");
+let loadingScreen = document.getElementById("loadingScreen");
 
 let sessionStartTime: Date;
 let logged25PercentDownload: boolean = false;
@@ -71,14 +71,18 @@ export class App {
 
       // Initialize the playback engine with the parsed book data
       this.playBackEngine.initializeBook(book);
-
+      this.hideLoadingScreen();
       console.log("Initialization completed successfully!");
     } catch (error) {
       // Handle any errors that may occur during initialization
       console.error("Initialization error:", error);
     }
   }
-
+  hideLoadingScreen() {
+    setTimeout(() => {
+      loadingScreen!.style.display = "none";
+    }, 1000); // Adding a slight delay to ensure the loading screen is visible for a moment
+  }
   enforceLandscapeMode() {
 
     // Attempt to enforce landscape mode through Android bridge call
