@@ -77,8 +77,7 @@ jobs:
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
-          # sync to the bucket that corresponds with the partnerdev URL
-          to: "s3://partnerdev.curiouscontent.org"
+          to: "s3://partner-content-development"
       - run:
           name: Post-sync Confirmation
           command: |
@@ -96,7 +95,7 @@ workflows:
           filters:
             branches:
               only:
-                - Partner
+                - partner
       - s3-sync-production:
           filters:
             branches:
