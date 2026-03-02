@@ -77,7 +77,7 @@ jobs:
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
-          to: "s3://partner-content-development"
+          to: "s3://partners-content-development"
       - run:
           name: Post-sync Confirmation
           command: |
