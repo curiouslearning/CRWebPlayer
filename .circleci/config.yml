@@ -95,7 +95,7 @@ workflows:
           filters:
             branches:
               only:
-                - partner
+                - Partner
       - s3-sync-production:
           filters:
             branches:
