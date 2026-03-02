@@ -6,7 +6,7 @@ orbs:
 jobs:
   s3-sync-development:
     docker:
-      - image: 'cimg/python:3.6'
+      - image: "cimg/python:3.6"
     steps:
       - checkout
       - run:
@@ -24,7 +24,7 @@ jobs:
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
-          to: 's3://curious-reader-books-development'
+          to: "s3://curious-reader-books-development"
       - run:
           name: Post-sync Confirmation
           command: |
@@ -32,7 +32,7 @@ jobs:
 
   s3-sync-production:
     docker:
-      - image: 'cimg/python:3.6'
+      - image: "cimg/python:3.6"
     steps:
       - checkout
       - run:
@@ -50,11 +50,38 @@ jobs:
           aws-region: AWS_PROD_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: ./
-          to: 's3://curious-reader-books-production'
+          to: "s3://curious-reader-books-production"
       - run:
           name: Post-sync Confirmation
           command: |
             echo "Sync to production S3 bucket completed."
+
+  # new job for partner branch uploads
+  s3-sync-partner:
+    docker:
+      - image: "cimg/python:3.6"
+    steps:
+      - checkout
+      - run:
+          name: Pre-sync Setup
+          command: |
+            echo "Setting up for S3 sync to partner development"
+      - aws-s3/sync:
+          arguments: |
+            --acl public-read \
+            --cache-control "max-age=86400" \
+            --exclude ".git/*" \
+            --exclude ".gitignore" \
+            --exclude ".gitattributes"
+          aws-access-key-id: AWS_ACCESS_KEY
+          aws-region: AWS_DEFAULT_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          from: ./
+          to: "s3://partner-content-development"
+      - run:
+          name: Post-sync Confirmation
+          command: |
+            echo "Sync to partner S3 bucket completed."
 
 workflows:
   s3-sync-workflow:
@@ -64,11 +91,13 @@ workflows:
             branches:
               only:
                 - develop
+      - s3-sync-partner:
+          filters:
+            branches:
+              only:
+                - partner
       - s3-sync-production:
           filters:
             branches:
               only:
                 - main
-
-
-
