@@ -1,4 +1,21 @@
 {
     "version": "1.0",
-    "web_apps": []
+    "web_apps": [
+        {
+            "appId": 0,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/LetsFly_dev.png",
+            "title": "Curious Reader Let's Fly English Level 2",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=LetsFlyEnLv2",
+            "language": "First language Local Name",
+            "languageInEnglishName": "Firast Language English Name"
+        },
+        {
+            "appId": 1,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/CicadasSong_prod.png",
+            "title": "Curious Reader Let's Fly English Level 2",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=CicadasSongEnLv4",
+            "language": "second language local name",
+            "languageInEnglishName": "Second Language English Name"
+        }
+    ]
 }
