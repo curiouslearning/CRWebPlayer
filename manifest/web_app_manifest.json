@@ -17,5 +17,14 @@
             "language": "second language local name",
             "languageInEnglishName": "Second Language English Name"
         }
+        ,
+        {
+            "appId": 2,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
+            "title": "Curious Reader Chakus Cycle Hindi",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleHindi",
+            "language": "second language local name",
+            "languageInEnglishName": "Second Language English Name"
+        }
     ]
 }
