@@ -29,7 +29,7 @@
             "appId": 3,
             "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
             "title": "Curious Reader Chakus Cycle Creole",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=BookContent/ChakusCycleCVCreole",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleCVCreole",
             "language": "First language Local Name",
             "languageInEnglishName": "Firast Language English Name"
         }
