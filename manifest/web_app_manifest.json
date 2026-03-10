@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "web_apps": [
         {
             "appId": 0,
@@ -16,8 +16,7 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=CicadasSongEnLv4",
             "language": "second language local name",
             "languageInEnglishName": "Second Language English Name"
-        }
-        ,
+        },
         {
             "appId": 2,
             "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
@@ -25,6 +24,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleHindi",
             "language": "second language local name",
             "languageInEnglishName": "Second Language English Name"
+        },
+        {
+            "appId": 3,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
+            "title": "Curious Reader Chakus Cycle Creole",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=BookContent/ChakusCycleCVCreole",
+            "language": "First language Local Name",
+            "languageInEnglishName": "Firast Language English Name"
         }
     ]
 }
