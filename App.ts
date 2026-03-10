@@ -8,7 +8,7 @@ import { campaignId, campaignSource, crUserId } from "./src/common";
 import { BookLoader, CrBookLoader } from "./src/Books/BookLoader";
 import { GdlBookLoader } from "./src/Books/GdlBookLoader";
 
-export let appVersion: string = "v0.3.11";
+export let appVersion: string = "v0.3.12";
 export let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
