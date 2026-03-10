@@ -6,6 +6,7 @@ module.exports = {
     globIgnores:[
         "dist/index.html",
         "BookContent/**/*", 
+        "interactive-book-static/**/*",
         "node_modules/**/*",
         "workbox-config.js",
         "sw-src.js",
