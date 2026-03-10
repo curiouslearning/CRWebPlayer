@@ -8,7 +8,7 @@ workbox.precaching.precacheAndRoute([{"revision":"7b4c26eee8430cc6b674e518ff8903
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.6;
+let version = 1.5;
 // let cachingProgress = 0;
 // let cachableAssetsCount = 0;
 
