@@ -28,7 +28,7 @@ This document explains how external partners can add new content to the CR Web P
 4. **Testing the changes**
    - After the PR is merged, CircleCI will start syncing the `Partner` branch to S3.
    - Wait ~15 minutes for the sync to complete; the new icons and manifest will be available.
-   - Download/update the latest CR‑container APK; it fetches the manifest from the S3 bucket and will display your content.
+   - Download/update the latest CR‑container APK (available here: [PartnerCrContainer.apk](https://partnerdev.curiouscontent.org/CrContainer/PartnerCrContainer.apk)); it fetches the manifest from the S3 bucket and will display your content.
    - Verify your content appears correctly and icons render.
 5. **Further updates**
    - If you need to fix something, repeat the process: create a new branch from `Partner`, make changes, PR back into `Partner`, test after merge.
@@ -70,7 +70,7 @@ This document explains how external partners can add new content to the CR Web P
 
 1. Ensure your changes have been merged to the `Partner` branch.
 2. Wait for the 15‑minute CircleCI synchronization.
-3. Open or reinstall the CR‑container APK to pick up the latest manifest.
+3. Open or reinstall the [CR‑container partner APK](https://partnerdev.curiouscontent.org/CrContainer/PartnerCrContainer.apk) to pick up the latest manifest.
 4. Navigate to your content and confirm: 
    - The manifest loads without errors.
    - Icons display properly (verify `app_icon_url`).
@@ -134,6 +134,123 @@ As a partner contributor, you should:
 5. Remember the 15‑minute sync window and plan tests accordingly.
 
 
+
+---
+
+## Comprehensive Guide to `web_app_manifest.json`
+
+### 1. Purpose of the Manifest
+
+The `web_app_manifest.json` controls:
+* Which books/apps appear inside the container app
+* App icon display
+* App title
+* Routing to the correct book content
+* Language metadata
+
+### 2. Manifest File Location
+
+The manifest file is located at:
+```text
+manifest/web_app_manifest.json
+```
+
+### 3. Structure of a Web App Entry
+
+Each entry inside the `web_apps` array represents one book/app.
+
+Example entry:
+```json
+{
+  "appId": 4,
+  "appIconUrl": "https://partnerdev.curiouscontent.org/icons/book_icon.png",
+  "title": "Curious Reader Sample Book",
+  "appUrl": "https://partnerdev.curiouscontent.org/?book=SampleBookFolder",
+  "language": "Local Language Name",
+  "languageInEnglishName": "Language Name In English"
+}
+```
+
+### 4. VERY IMPORTANT RULE — Book Folder Mapping (Critical)
+
+The value passed in:
+```text
+?book=
+```
+MUST EXACTLY match the folder name of the book inside the `bookcontent/` directory.
+
+This is the most critical rule.
+
+Example folder structure:
+```text
+bookcontent/
+ ├── LetsFlyEnLv2/
+ ├── CicadasSongEnLv4/
+ ├── ChakusCycleHindi/
+```
+
+Correct `appUrl`:
+```text
+https://partnerdev.curiouscontent.org/?book=LetsFlyEnLv2
+```
+
+**Critical Rules:**
+* Folder name is case sensitive
+* No spaces should be used
+* Any mismatch will cause book loading failure
+* This includes typos, additional suffixes, or incorrect casing
+
+The book content must already exist inside:
+```text
+bookcontent/<BOOK_FOLDER_NAME>
+```
+before updating the manifest.
+
+### 5. App Icon Guidelines
+
+Icons are already uploaded to:
+```text
+https://partnerdev.curiouscontent.org/icons/
+```
+Partners only need to reference the full URL inside `appIconUrl`.
+
+### 6. appId Rules
+
+* Every app must have a unique `appId`
+* Do not reuse or duplicate IDs
+* Always increment from the last existing `appId`
+
+### 7. Language Fields
+
+Both of these fields are required:
+* `language` → Local language name
+* `languageInEnglishName` → English name
+
+Example:
+```json
+"language": "हिन्दी",
+"languageInEnglishName": "Hindi"
+```
+
+### 8. Common Mistakes Section
+
+Checklist of mistakes:
+* Incorrect `?book=` value
+* Book folder not uploaded
+* Folder name mismatch
+* Duplicate `appId`
+* Invalid icon URL
+* JSON formatting issues
+
+### 9. Final Pre-Commit Checklist
+
+Partners must verify:
+* [ ] Book folder exists in `bookcontent/`
+* [ ] Folder name exactly matches `?book=`
+* [ ] Icon URL works
+* [ ] `appId` is unique
+* [ ] Language fields filled
+* [ ] JSON syntax valid
 
 ---
 
