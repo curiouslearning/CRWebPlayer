@@ -69,9 +69,24 @@ async function registerServiceWorkerForGdl(config: {
  * Initialize GDL book by registering SW caching and dynamically loading CSS and UMD JS files
  * @param bookName The book name (should start with "gdl-")
  */
+/**
+ * Enforce landscape mode through Android bridge call (same as CR books)
+ */
+function enforceLandscapeMode(): void {
+  // Attempt to enforce landscape mode through Android bridge call
+  // @ts-ignore
+  if (window.Android && typeof window.Android.setContainerAppOrientation === "function") {
+    //@ts-ignore
+    window.Android.setContainerAppOrientation("landscape");
+  }
+}
+
 export async function initializeGdlBook(bookName: string): Promise<void> {
   const gdlId = bookName.substring(4); // Remove "gdl-" prefix
   console.log("Initializing GDL book: " + gdlId);
+
+  // Enforce landscape mode (same as CR books)
+  enforceLandscapeMode();
 
   // Log session start for GDL books (same as CR books)
   firebaseAnalyticsManager.logSessionStartWithPayload({
