@@ -32,6 +32,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleCVCreole",
             "language": "First language Local Name",
             "languageInEnglishName": "Firast Language English Name"
+        },
+        {
+            "appId": 4,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying.png",
+            "title": "Curious Reader I am Flying Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
