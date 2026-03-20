@@ -66,6 +66,21 @@ This document explains how external partners can add new content to the CR Web P
 
 ⚠️ **All partner content MUST be stored inside the `BookContent/` directory.**
 
+## Audio Compression Helper Script (BookContent)
+
+For partner content that includes uncompressed `.wav` audio in `BookContent/<BOOK>/content/audios`, run the helper script to standardize sampling and size.
+
+1. Open terminal at the repository root or BookContent directory:
+   - `cd /Users/amit/Documents/Github/CRWebPlayer/BookContent`
+2. Make script executable (once):
+   - `chmod +x audio_compression_script.sh`
+3. Edit `audio_compression_script.sh` and set the `process_books=(...)` list to the book folders to process.
+4. Run the script:
+   - `./audio_compression_script.sh`
+5. Confirm output messages and ensure `content/audios` files were replaced.
+
+> Requirement: `ffmpeg` must be installed (e.g., `brew install ffmpeg` on macOS).
+
 ## Testing in the Container App
 
 1. Ensure your changes have been merged to the `Partner` branch.
