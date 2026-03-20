@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of books to process to avoid processing every single book in the directory
-process_books=("TallAndShortEnLv4" "IAmNotAfraidEnLv4" "ColoursOfNatureEnLv2")
+process_books=("Your book name 1" "Your book name 2" "Your book name 3")
 skipped_books=0
 
 # Initialize variables for tracking progress
