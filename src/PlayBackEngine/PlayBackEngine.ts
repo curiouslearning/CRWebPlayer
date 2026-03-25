@@ -43,6 +43,33 @@ export class PlayBackEngine {
         this.imagesPath = imagesPath;
         this.audioPath = audioPath;
         this.currentPage = 0;
+
+        // Ensure Splide root markup exists dynamically instead of relying on static HTML.
+        let splideRoot = document.querySelector(".splide") as HTMLElement | null;
+        if (!splideRoot) {
+            splideRoot = document.createElement("div");
+            splideRoot.classList.add("splide");
+            splideRoot.setAttribute("role", "group");
+            splideRoot.setAttribute("aria-label", "Splide Basic HTML Example");
+
+            const track = document.createElement("div");
+            track.classList.add("splide__track");
+
+            const list = document.createElement("ul");
+            list.classList.add("splide__list");
+
+            track.appendChild(list);
+            splideRoot.appendChild(track);
+
+            // Insert before the loading screen if present, otherwise append to body.
+            const loadingScreen = document.getElementById("loadingScreen");
+            if (loadingScreen && loadingScreen.parentElement) {
+                loadingScreen.parentElement.insertBefore(splideRoot, loadingScreen);
+            } else {
+                document.body.appendChild(splideRoot);
+            }
+        }
+
         this.splideHandle = new Splide(".splide", {
             fixedHeight: window.innerHeight - 20,
         }).mount();
