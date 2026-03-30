@@ -312,7 +312,7 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
   const cache = await caches.open(bookData.bookName);
   const batchSize = 5; // Process in batches of 5
   let cachingProgress = 0;
-  
+
   for (let i = 0; i < bookAudioAndImageFiles.length; i += batchSize) {
     const batch = bookAudioAndImageFiles.slice(i, i + batchSize);
 
@@ -346,7 +346,6 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
     }
 
     // Introduce a small delay between batches
-    await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise((resolve) => setTimeout(resolve, 100));
   }
-
 }
