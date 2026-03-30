@@ -8,14 +8,15 @@ workbox.precaching.precacheAndRoute([{"revision":"deda0a3c236051265deec2da1cec0b
 });
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.5;
-// let cachingProgress = 0;
-// let cachableAssetsCount = 0;
+let version = 1.6;
+
+const AUDIO_REGEX = /\.(mp3|wav|ogg|m4a)$/i;
+const IMAGE_REGEX = /\.(png|jpe?g|webp|gif|svg|lottie)$/i;
+const ASSET_REGEX = /\.(png|jpe?g|webp|gif|svg|mp3|wav|ogg|m4a|lottie)$/i;
 
 channel.addEventListener("message", async function (event) {
   if (event.data.command === "Cache") {
-    console.log("Caching request received in the service worker with data: ");
-    console.log(event.data);
+    console.log("Caching request received in the service worker with data: ", event.data);
     cachingProgress = 0;
     const data = event.data.data;
 
@@ -52,29 +53,6 @@ self.registration.addEventListener("updatefound", function (e) {
 
 // Serve cached assets when offline or falling back to the network
 self.addEventListener("fetch", (event) => {
-  // const requestURL = new URL(event.request.url);
-  // if (requestURL.protocol === 'chrome-extension:') {
-  //   return;
-  // }
-
-  // if (requestURL.origin === self.location.origin) {
-  //   event.respondWith(
-  //     caches.match(event.request).then((response) => {
-  //         // If the asset is in the static cache, return it
-  //         if (response) {
-  //           return response;
-  //         }
-
-  //         // If not in the static cache, fetch it from the network
-  //         return fetch(event.request).then((networkResponse) => {
-  //         // Cache a copy of the response in the static cache for future use
-
-  //         return networkResponse;
-  //       });
-  //     })
-  //   );
-  // } else {
-  // For requests to the BookContent folder, use the Book Content cache
   event.respondWith(
     caches.match(event.request).then(function (response) {
       if (response) {
@@ -83,48 +61,37 @@ self.addEventListener("fetch", (event) => {
       return fetch(event.request);
     })
   );
-  // }
 });
 
-var cachingInProgress = false;
+let cachingInProgress = false;
 
 async function cacheTheBookJSONAndImages(data) {
   console.log("Caching the book JSON and images");
-  let bookData = data["bookData"];
-  let bookAudioAndImageFiles = [];
+  const bookData = data.bookData;
+  const contentBasePath = `/BookContent/${bookData.bookName}/content/`;
+  const bookAudioAndImageFiles = [];
 
-  for (let i = 0; i < bookData["pages"].length; i++) {
-    let page = bookData["pages"][i];
-    for (let j = 0; j < page["visualElements"].length; j++) {
-      let visualElement = page["visualElements"][j];
-      if (visualElement["type"] === "audio") {
-        bookAudioAndImageFiles.push(
-          `/BookContent/${data["bookData"]["bookName"]}/content/` +
-          visualElement["audioSrc"]
-        );
-        for (
-          let k = 0;
-          k < visualElement["audioTimestamps"]["timestamps"].length;
-          k++
-        ) {
+  for (let i = 0; i < bookData.pages.length; i++) {
+    const page = bookData.pages[i];
+    for (let j = 0; j < page.visualElements.length; j++) {
+      const visualElement = page.visualElements[j];
+      if (visualElement.type === "audio") {
+        bookAudioAndImageFiles.push(`${contentBasePath}${visualElement.audioSrc}`);
+        for (let k = 0; k < visualElement.audioTimestamps.timestamps.length; k++) {
           bookAudioAndImageFiles.push(
-            `/BookContent/${data["bookData"]["bookName"]}/content/` +
-            visualElement["audioTimestamps"]["timestamps"][k]["audioSrc"]
+            `${contentBasePath}${visualElement.audioTimestamps.timestamps[k].audioSrc}`
           );
         }
       } else if (
-        visualElement["type"] === "image" &&
-        visualElement["imageSource"] !== "empty_glow_image"
+        visualElement.type === "image" &&
+        visualElement.imageSource !== "empty_glow_image"
       ) {
-        bookAudioAndImageFiles.push(
-          `/BookContent/${data["bookData"]["bookName"]}/content/` +
-          visualElement["imageSource"]
-        );
+        bookAudioAndImageFiles.push(`${contentBasePath}${visualElement.imageSource}`);
       }
     }
   }
 
-  bookAudioAndImageFiles.push(data["contentFile"]);
+  bookAudioAndImageFiles.push(data.contentFile);
 
   console.log("Book audio files: ", bookAudioAndImageFiles);
 
@@ -149,11 +116,9 @@ function mapGdlPathToLocal(serverPath, basePath) {
   if (!filename || filename.startsWith(".") || filename.length < 3) return null;
   
   // Determine directory based on file extension
-  if (/\.(mp3|wav|ogg|m4a)$/i.test(filename)) {
-    // Audio files go in audio/ directory
+  if (AUDIO_REGEX.test(filename)) {
     return basePath + "audio/" + filename;
-  } else if (/\.(png|jpe?g|webp|gif|svg|lottie)$/i.test(filename)) {
-    // Images and lottie files go in assets/ directory
+  } else if (IMAGE_REGEX.test(filename)) {
     return basePath + "assets/" + filename;
   }
   
@@ -167,15 +132,11 @@ function mapGdlPathToLocal(serverPath, basePath) {
 function collectAssetsFromJson(node, assets, basePath) {
   if (!node) return;
 
-  // Extended regex to include lottie files and other asset types
-  const assetRegex = /\.(png|jpe?g|webp|gif|svg|mp3|wav|ogg|m4a|lottie)$/i;
-  
   // Known fields that contain asset paths in GDL structure
   const assetPathFields = ['path', 'mp3', 'url', 'filename', 'image'];
 
   if (typeof node === "string") {
-    // Check if it's an asset file
-    if (assetRegex.test(node)) {
+    if (ASSET_REGEX.test(node)) {
       // Skip invalid filenames (like .lottie without name)
       const filename = node.split("/").pop();
       if (!filename || filename.startsWith(".") || filename.length < 3) {
@@ -218,7 +179,7 @@ function collectAssetsFromJson(node, assets, basePath) {
         if (typeof logo === "string") {
           // Logo filenames might not have extensions, try common image extensions
           // Check if logo already has an extension
-          if (!/\.(png|jpe?g|webp|gif|svg)$/i.test(logo)) {
+          if (!IMAGE_REGEX.test(logo)) {
             assets.add(basePath + "assets/" + logo + ".jpg");
           } else {
             assets.add(basePath + "assets/" + logo);
@@ -229,7 +190,7 @@ function collectAssetsFromJson(node, assets, basePath) {
     
     // Check for known asset path fields - prefer 'path' over 'url' if both exist
     // Process 'path' first, then other fields, but skip 'url' and 'filename' if 'path' exists
-    const hasPath = node.path && typeof node.path === "string" && assetRegex.test(node.path);
+    const hasPath = node.path && typeof node.path === "string" && ASSET_REGEX.test(node.path);
     
     for (const field of assetPathFields) {
       // Skip 'url' and 'filename' if 'path' exists (to avoid duplicates)
@@ -238,7 +199,7 @@ function collectAssetsFromJson(node, assets, basePath) {
       
       if (node[field] && typeof node[field] === "string") {
         const value = node[field];
-        if (assetRegex.test(value)) {
+        if (ASSET_REGEX.test(value)) {
           if (value.startsWith("http://") || value.startsWith("https://")) {
             assets.add(value);
           } else if (value.startsWith("/")) {
@@ -321,9 +282,9 @@ async function cacheGdlBookAssets(data) {
       const filename = asset.split("/").pop();
       if (filename) {
         // Determine correct directory based on extension
-        if (/\.(mp3|wav|ogg|m4a)$/i.test(filename)) {
+        if (AUDIO_REGEX.test(filename)) {
           validAssets.add(basePath + "audio/" + filename);
-        } else if (/\.(png|jpe?g|webp|gif|svg|lottie)$/i.test(filename)) {
+        } else if (IMAGE_REGEX.test(filename)) {
           validAssets.add(basePath + "assets/" + filename);
         } else {
           // Keep as-is for other files (like content.json, .css, .js)
@@ -348,7 +309,7 @@ async function cacheGdlBookAssets(data) {
 }
 
 async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
-  const cache = await caches.open(bookData["bookName"]);
+  const cache = await caches.open(bookData.bookName);
   const batchSize = 5; // Process in batches of 5
   let cachingProgress = 0;
   
@@ -380,7 +341,7 @@ async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
     if (clients.length > 0) {
       await channel.postMessage({
         command: "CachingProgress",
-        data: { progress, bookName: bookData["bookName"] },
+        data: { progress, bookName: bookData.bookName },
       });
     }
 
