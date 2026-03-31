@@ -56,6 +56,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 7,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
+            "title": "Curious Reader The Umbrellas Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
