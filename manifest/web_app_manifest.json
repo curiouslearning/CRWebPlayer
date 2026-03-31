@@ -64,6 +64,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 8,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
+            "title": "Curious Reader Guess What I Am Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
