@@ -40,6 +40,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 5,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
+            "title": "Curious Reader Come Come Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
