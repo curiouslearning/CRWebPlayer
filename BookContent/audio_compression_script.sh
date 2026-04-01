@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of books to process to avoid processing every single book in the directory
-process_books=("VeryMuchHadiyissa")
+process_books=("PeaceHadiyissa")
 skipped_books=0
 
 # Initialize variables for tracking progress
