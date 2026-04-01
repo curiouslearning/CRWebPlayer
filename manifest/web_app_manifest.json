@@ -80,6 +80,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 10,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+            "title": "Curious Reader Peace Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
