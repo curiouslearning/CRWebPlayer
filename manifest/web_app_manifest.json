@@ -88,6 +88,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 11,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+            "title": "Curious Reader Thank You Animals Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
