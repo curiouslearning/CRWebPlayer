@@ -72,6 +72,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 9,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+            "title": "Curious Reader Very Much Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
