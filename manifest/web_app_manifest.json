@@ -101,7 +101,7 @@
             "appId": 12,
             "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
             "title": "Curious Reader The Lost Egg Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggsHadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
         },
@@ -109,7 +109,7 @@
             "appId": 13,
             "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
             "title": "Curious Reader I am Flying Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingKembastissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
         }
