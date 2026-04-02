@@ -112,6 +112,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 14,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
+            "title": "Curious Reader Come Come Kembatissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeKembatissa",
+            "language": "ከምባቲሳ",
+            "languageInEnglishName": "Kembatissa"
         }
     ]
 }
