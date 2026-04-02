@@ -96,6 +96,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsHadiyissa",
             "language": "ሃዲዪሳ",
             "languageInEnglishName": "Hadiyissa"
+        },
+        {
+            "appId": 12,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+            "title": "Curious Reader The Lost Egg Hadiyissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggsHadiyissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Hadiyissa"
         }
     ]
 }
