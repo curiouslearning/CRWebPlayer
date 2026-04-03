@@ -136,6 +136,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 17,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
+            "title": "Curious Reader Guess What I Am Kembatissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmKembatissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Kembatissa"
         }
     ]
 }
