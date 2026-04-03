@@ -152,6 +152,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 19,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+            "title": "Curious Reader Peace Kembatissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceKembatissa",
+            "language": "ሃዲዪሳ",
+            "languageInEnglishName": "Kembatissa"
         }
     ]
 }
