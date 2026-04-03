@@ -158,7 +158,15 @@
             "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
             "title": "Curious Reader Peace Kembatissa",
             "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceKembatissa",
-            "language": "ሃዲዪሳ",
+            "language": "ከምባቲሳ",
+            "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 20,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+            "title": "Curious Reader Thank You Animals Kembatissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsKembatissa",
+            "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
         }
     ]
