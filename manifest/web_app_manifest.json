@@ -168,6 +168,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 21,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+            "title": "Curious Reader The Lost Egg Kembatissa",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggKembatissa",
+            "language": "ከምባቲሳ",
+            "languageInEnglishName": "Kembatissa"
         }
     ]
 }
