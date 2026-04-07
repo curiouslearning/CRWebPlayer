@@ -176,6 +176,14 @@
             "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggKembatissa",
             "language": "ከምባቲሳ",
             "languageInEnglishName": "Kembatissa"
+        },
+        {
+            "appId": 22,
+            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+            "title": "Curious Reader Very Much Amharic",
+            "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAmharic",
+            "language": "አማርኛ",
+            "languageInEnglishName": "Amharic"
         }
     ]
 }
