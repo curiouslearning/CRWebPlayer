@@ -200,6 +200,22 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAmharic",
       "language": "አማርኛ",
       "languageInEnglishName": "Amharic"
+    },
+    {
+      "appId": 25,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Amharic",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggAmharic",
+      "language": "አማርኛ",
+      "languageInEnglishName": "Amharic"
+    },
+    {
+      "appId": 26,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much AfaanOromo",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfaanOromo",
+      "language": "አፋን ኦሮሞ",
+      "languageInEnglishName": "AfaanOromo"
     }
   ]
 }
