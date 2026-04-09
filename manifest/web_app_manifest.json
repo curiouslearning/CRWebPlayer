@@ -1,189 +1,205 @@
 {
-    "version": "1.1",
-    "web_apps": [
-        {
-            "appId": 0,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/LetsFly_dev.png",
-            "title": "Curious Reader Let's Fly English Level 2",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=LetsFlyEnLv2",
-            "language": "First language Local Name",
-            "languageInEnglishName": "Firast Language English Name"
-        },
-        {
-            "appId": 1,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/CicadasSong_prod.png",
-            "title": "Curious Reader Let's Fly English Level 2",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=CicadasSongEnLv4",
-            "language": "second language local name",
-            "languageInEnglishName": "Second Language English Name"
-        },
-        {
-            "appId": 2,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
-            "title": "Curious Reader Chakus Cycle Hindi",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleHindi",
-            "language": "second language local name",
-            "languageInEnglishName": "Second Language English Name"
-        },
-        {
-            "appId": 3,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
-            "title": "Curious Reader Chakus Cycle Creole",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleCVCreole",
-            "language": "First language Local Name",
-            "languageInEnglishName": "Firast Language English Name"
-        },
-        {
-            "appId": 4,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
-            "title": "Curious Reader I am Flying Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 5,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
-            "title": "Curious Reader Come Come Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 6,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/ilove.png",
-            "title": "Curious Reader I Love Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 7,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
-            "title": "Curious Reader The Umbrellas Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 8,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
-            "title": "Curious Reader Guess What I Am Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 9,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
-            "title": "Curious Reader Very Much Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 10,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
-            "title": "Curious Reader Peace Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 11,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
-            "title": "Curious Reader Thank You Animals Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 12,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
-            "title": "Curious Reader The Lost Egg Hadiyissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggHadiyissa",
-            "language": "ሃዲዪሳ",
-            "languageInEnglishName": "Hadiyissa"
-        },
-        {
-            "appId": 13,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
-            "title": "Curious Reader I am Flying Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 14,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
-            "title": "Curious Reader Come Come Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 15,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/ilove.png",
-            "title": "Curious Reader I Love Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 16,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
-            "title": "Curious Reader The Umbrellas Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 17,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
-            "title": "Curious Reader Guess What I Am Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 18,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
-            "title": "Curious Reader Very Much Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 19,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
-            "title": "Curious Reader Peace Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 20,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
-            "title": "Curious Reader Thank You Animals Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 21,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
-            "title": "Curious Reader The Lost Egg Kembatissa",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggKembatissa",
-            "language": "ከምባቲሳ",
-            "languageInEnglishName": "Kembatissa"
-        },
-        {
-            "appId": 22,
-            "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
-            "title": "Curious Reader Very Much Amharic",
-            "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAmharic",
-            "language": "አማርኛ",
-            "languageInEnglishName": "Amharic"
-        }
-    ]
+  "version": "1.1",
+  "web_apps": [
+    {
+      "appId": 0,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/LetsFly_dev.png",
+      "title": "Curious Reader Let's Fly English Level 2",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=LetsFlyEnLv2",
+      "language": "First language Local Name",
+      "languageInEnglishName": "Firast Language English Name"
+    },
+    {
+      "appId": 1,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/CicadasSong_prod.png",
+      "title": "Curious Reader Let's Fly English Level 2",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=CicadasSongEnLv4",
+      "language": "second language local name",
+      "languageInEnglishName": "Second Language English Name"
+    },
+    {
+      "appId": 2,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
+      "title": "Curious Reader Chakus Cycle Hindi",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleHindi",
+      "language": "second language local name",
+      "languageInEnglishName": "Second Language English Name"
+    },
+    {
+      "appId": 3,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/chakus_cycle.png",
+      "title": "Curious Reader Chakus Cycle Creole",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ChakusCycleCVCreole",
+      "language": "First language Local Name",
+      "languageInEnglishName": "Firast Language English Name"
+    },
+    {
+      "appId": 4,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
+      "title": "Curious Reader I am Flying Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 5,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
+      "title": "Curious Reader Come Come Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 6,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/ilove.png",
+      "title": "Curious Reader I Love Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 7,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
+      "title": "Curious Reader The Umbrellas Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 8,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
+      "title": "Curious Reader Guess What I Am Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 9,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 10,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 11,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 12,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Hadiyissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggHadiyissa",
+      "language": "ሃዲዪሳ",
+      "languageInEnglishName": "Hadiyissa"
+    },
+    {
+      "appId": 13,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
+      "title": "Curious Reader I am Flying Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 14,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
+      "title": "Curious Reader Come Come Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 15,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/ilove.png",
+      "title": "Curious Reader I Love Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 16,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
+      "title": "Curious Reader The Umbrellas Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 17,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
+      "title": "Curious Reader Guess What I Am Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 18,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 19,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 20,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 21,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Kembatissa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggKembatissa",
+      "language": "ከምባቲሳ",
+      "languageInEnglishName": "Kembatissa"
+    },
+    {
+      "appId": 22,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Amharic",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAmharic",
+      "language": "አማርኛ",
+      "languageInEnglishName": "Amharic"
+    },
+    {
+      "appId": 23,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Amharic",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAmharic",
+      "language": "አማርኛ",
+      "languageInEnglishName": "Amharic"
+    },
+    {
+      "appId": 24,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Amharic",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAmharic",
+      "language": "አማርኛ",
+      "languageInEnglishName": "Amharic"
+    }
+  ]
 }
