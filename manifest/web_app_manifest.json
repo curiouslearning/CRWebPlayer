@@ -192,6 +192,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAmharic",
       "language": "አማርኛ",
       "languageInEnglishName": "Amharic"
+    },
+    {
+      "appId": 24,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Amharic",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAmharic",
+      "language": "አማርኛ",
+      "languageInEnglishName": "Amharic"
     }
   ]
 }
