@@ -216,6 +216,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfaanOromo",
       "language": "አፋን ኦሮሞ",
       "languageInEnglishName": "AfaanOromo"
+    },
+    {
+      "appId": 27,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace AfaanOromo",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAfaanOromo",
+      "language": "አፋን ኦሮሞ",
+      "languageInEnglishName": "AfaanOromo"
     }
   ]
 }
