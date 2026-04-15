@@ -248,6 +248,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceTigrinya",
       "language": "ትግርኛ",
       "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 31,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
     }
   ]
 }
