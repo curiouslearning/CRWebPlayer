@@ -212,26 +212,58 @@
     {
       "appId": 26,
       "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
-      "title": "Curious Reader Very Much AfaanOromo",
+      "title": "Curious Reader Very Much Afaan Oromo",
       "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfaanOromo",
       "language": "አፋን ኦሮሞ",
-      "languageInEnglishName": "AfaanOromo"
+      "languageInEnglishName": "Afaan Oromo"
     },
     {
       "appId": 27,
       "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
-      "title": "Curious Reader Peace AfaanOromo",
+      "title": "Curious Reader Peace Afaan Oromo",
       "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAfaanOromo",
       "language": "አፋን ኦሮሞ",
-      "languageInEnglishName": "AfaanOromo"
+      "languageInEnglishName": "Afaan Oromo"
     },
     {
       "appId": 28,
       "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
-      "title": "Curious Reader Thank You Animals AfaanOromo",
+      "title": "Curious Reader Thank You Animals Afaan Oromo",
       "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAfaanOromo",
       "language": "አፋን ኦሮሞ",
-      "languageInEnglishName": "AfaanOromo"
+      "languageInEnglishName": "Afaan Oromo"
+    },
+    {
+      "appId": 29,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Afaan Oromo",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggAfaanOromo",
+      "language": "አፋን ኦሮሞ",
+      "languageInEnglishName": "Afaan Oromo"
+    },
+    {
+      "appId": 30,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 31,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 32,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
     }
   ]
 }
