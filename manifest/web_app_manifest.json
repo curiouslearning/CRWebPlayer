@@ -240,6 +240,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggAfaanOromo",
       "language": "አፋን ኦሮሞ",
       "languageInEnglishName": "Afaan Oromo"
+    },
+    {
+      "appId": 30,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
     }
   ]
 }
