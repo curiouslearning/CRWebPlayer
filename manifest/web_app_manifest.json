@@ -256,6 +256,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsTigrinya",
       "language": "ትግርኛ",
       "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 32,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
     }
   ]
 }
