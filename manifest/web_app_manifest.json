@@ -264,6 +264,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchTigrinya",
       "language": "ትግርኛ",
       "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 23,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Tigrinya",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggTigrinya",
+      "language": "ትግርኛ",
+      "languageInEnglishName": "Tigrinya"
     }
   ]
 }
