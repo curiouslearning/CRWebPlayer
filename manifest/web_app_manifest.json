@@ -280,6 +280,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggAfSomali",
       "language": "Afsoomaali",
       "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 35,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
     }
   ]
 }
