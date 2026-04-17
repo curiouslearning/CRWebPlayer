@@ -288,6 +288,14 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfSomali",
       "language": "Afsoomaali",
       "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 36,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals  Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
     }
   ]
 }
