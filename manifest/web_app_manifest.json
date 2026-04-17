@@ -266,12 +266,36 @@
       "languageInEnglishName": "Tigrinya"
     },
     {
-      "appId": 23,
+      "appId": 33,
       "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
       "title": "Curious Reader The Lost Egg Tigrinya",
       "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggTigrinya",
       "language": "ትግርኛ",
       "languageInEnglishName": "Tigrinya"
+    },
+    {
+      "appId": 34,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 35,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 36,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals  Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
     }
   ]
 }
