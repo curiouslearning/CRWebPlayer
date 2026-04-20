@@ -292,8 +292,16 @@
     {
       "appId": 36,
       "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
-      "title": "Curious Reader Thank You Animals  Af Somali",
+      "title": "Curious Reader Thank You Animals Af Somali",
       "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsAfSomali",
+      "language": "Afsoomaali",
+      "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 37,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Af Somali",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAfSomali",
       "language": "Afsoomaali",
       "languageInEnglishName": "Af Somali"
     }
