@@ -304,6 +304,78 @@
       "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceAfSomali",
       "language": "Afsoomaali",
       "languageInEnglishName": "Af Somali"
+    },
+    {
+      "appId": 38,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/i_am_flying_icon.png",
+      "title": "Curious Reader I am Flying Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=IamFlyingTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 39,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/comecome.png",
+      "title": "Curious Reader Come Come Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ComeComeTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 40,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/ilove.png",
+      "title": "Curious Reader I Love Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ILoveTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 41,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/theumbrellas.png",
+      "title": "Curious Reader The Umbrellas Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheUmbrellasTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 42,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/guesswhoiam.png",
+      "title": "Curious Reader Guess What I Am Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=GuessWhatIAmTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 43,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/verymuch.png",
+      "title": "Curious Reader Very Much Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=VeryMuchTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 44,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/peace.png",
+      "title": "Curious Reader Peace Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=PeaceTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 45,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thankyouanimals.png",
+      "title": "Curious Reader Thank You Animals Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=ThankYouAnimalsTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
+    },
+    {
+      "appId": 46,
+      "appIconUrl": "https://partnerdev.curiouscontent.org/icons/thelostegg.png",
+      "title": "Curious Reader The Lost Egg Tembarsa",
+      "appUrl": "https://partnerdev.curiouscontent.org/?book=TheLostEggTembarsa",
+      "language": "ጠምባርሳ",
+      "languageInEnglishName": "Tembarsa"
     }
   ]
 }
