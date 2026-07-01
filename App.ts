@@ -5,21 +5,23 @@ import { Workbox, WorkboxEventMap } from "workbox-window";
 import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
 import { campaignId, campaignSource, crUserId } from "./src/common";
+import { BookLoader, CrBookLoader } from "./src/Books/BookLoader";
+import { GdlBookLoader } from "./src/Books/GdlBookLoader";
 
-let appVersion: string = "v0.3.11";
-let appName: string = "CRWebPlayer";
+export let appVersion: string = "v0.3.12";
+export let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
 
 let loadingScreen = document.getElementById("loadingScreen");
 
-let sessionStartTime: Date;
+let sessionStartTime: Date = new Date(); // Initialize at module load for both CR and GDL books
 let logged25PercentDownload: boolean = false;
 let logged50PercentDownload: boolean = false;
 let logged75PercentDownload: boolean = false;
 let logged100PercentDownload: boolean = false;
 
-let firebaseAnalyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager.getInstance();
+export let firebaseAnalyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager.getInstance();
 
 export class App {
   public bookName: string;
@@ -39,14 +41,14 @@ export class App {
     this.imagesPath = imagesPath;
     this.audioPath = audioPath;
     // Leaving this just in case we need to log session start
-    // firebaseAnalyticsManager.logSessionStartWithPayload({
-    //     app: appName,
-    //     version: appVersion,
-    //     cr_user_id: crUserId,
-    //     source: campaignSource,
-    //     campaignId: campaignId,
-    //     book_name: bookName
-    // });
+    firebaseAnalyticsManager.logSessionStartWithPayload({
+        app: appName,
+        version: appVersion,
+        cr_user_id: crUserId,
+        source: campaignSource,
+        campaignId: campaignId,
+        book_name: bookName
+    });
     sessionStartTime = new Date();
     this.contentParser = new ContentParser(contentFilePath);
     this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
@@ -142,7 +144,7 @@ export class App {
 // there's no need to have these functions separately added in the App.ts anymore since we have added the service worker
 // communication over the broadcast channel instead of the
 // [serviceWorker.addEventListener("message", handleServiceWorkerMessage);]
-function handleLoadingMessage(event, progressValue): void {
+export function handleLoadingMessage(event, progressValue): void {
   let progressBar = document.getElementById("progressBar");
   if (progressValue < 100) {
     progressBar!.style.width = progressValue + "%";
@@ -180,7 +182,11 @@ function handleLoadingMessage(event, progressValue): void {
  * @param eventName Name of the event to log
  * @param bookName Name of the book being downloaded
  */
-function logDownloadProgressWithPayloadToFirebase(eventName: string, bookName: string): void {
+export function logDownloadProgressWithPayloadToFirebase(eventName: string, bookName: string): void {
+  // Ensure sessionStartTime is initialized (fallback if somehow undefined)
+  if (!sessionStartTime) {
+    sessionStartTime = new Date();
+  }
   let timeSpent = new Date().getTime() - sessionStartTime.getTime();
   firebaseAnalyticsManager.logDownloadProgressWithPayload(eventName, {
     app: appName,
@@ -191,7 +197,7 @@ function logDownloadProgressWithPayloadToFirebase(eventName: string, bookName: s
   });
 }
 
-function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
+export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
   //@ts-ignore
   if (window.Android) {
     let isContentCached: boolean = localStorage.getItem(bookName) !== null;
@@ -200,13 +206,24 @@ function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
   }
 }
 
-function handleUpdateFoundMessage(): void {
+export function handleUpdateFoundMessage(): void {
   let text = "Update Found.\nPlease accept the update by pressing Ok.";
   if (confirm(text) == true) {
     window.location.reload();
   } else {
     text = "Update will happen on the next launch.";
   }
+}
+
+/**
+ * Factory to choose the appropriate loader based on the book name.
+ */
+function createBookLoader(bookName: string): BookLoader {
+  if (bookName.startsWith("gdl-")) {
+    return new GdlBookLoader(bookName);
+  }
+
+  return new CrBookLoader(bookName);
 }
 
 const queryString = window.location.search;
@@ -221,11 +238,6 @@ if (bookName == null) {
 
 console.log("Book Name: " + bookName);
 
-let app: App = new App(
-  bookName,
-  `/BookContent/${bookName}/content/content.json`,
-  `/BookContent/${bookName}/content/images/`,
-  `/BookContent/${bookName}/content/audios/`
-);
-
-app.initialize();
+// Create and use the appropriate loader based on the book type
+const loader: BookLoader = createBookLoader(bookName);
+loader.load();
