@@ -1,1 +1,2018 @@
-{"_id":"67d0265ecbfefe460317920a","title":"L’abeille et l’éléphant","license":"CC-BY-SA-4.0","published":true,"version":"0.0.1","createdAt":"2025-03-11T12:02:38.116Z","updatedAt":"2026-03-04T14:47:48.589Z","language":"fr","credits":{"text":"This work, ““L’abeille et l’éléphant\", is a derivative of \"The Bee and the Elephant\" made possible by Pratham Books' StoryWeaver platform used under CC BY. “L’abeille et l’éléphant\" is licensed under CC BY 4.0 by the GDL.\n","logos":["logo-room-to-read","logo-lets-read"]},"illustration":{"url":"/resources/books/67ab6406b5308a8132a2a9db/assets/images/38113a58-24e0-4ab3-8100-e39e241a9c60.jpg","name":"Cover - The Bee and the Elephant.jpg","meta":{"height":600,"width":600,"type":"jpg"},"path":"/resources/books/67ab6406b5308a8132a2a9db/assets/images/38113a58-24e0-4ab3-8100-e39e241a9c60.jpg","filename":"38113a58-24e0-4ab3-8100-e39e241a9c60.jpg"},"coverText":"","config":{"voiceId":"WCDixksYMwojyA0ATzPJ","textDirection":"LTR","audioLanguage":"fr"},"bookDescription":null,"bookText":null,"tags":[],"body":[{"_id":"67ab6406b5308a8132a2a9da","title":"Page 1","description":"","text":"C’est Petite Abeille.","media":[{"_id":"680b50c20e0eaef65671791d","mediaType":"lottie","name":"Bee-wings-small","filename":"Bee-wings-small.lottie","extension":".lottie","path":"/media/lottie/Bee-wings-small.lottie","width":425,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"d1a891ca-beef-4200-b0d0-a828f0cad4b4","position":{"left":332,"top":63},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"word":"Abeille.","start":0.662,"end":1.3,"id":21,"uid":"0.662-1.3-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3","filename":"9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3"}]},"zIndex":10}],"words":[{"word":"C’est","start":0,"end":1,"uid":"txt-Cest-0-1","id":0},{"word":"Petite","start":1,"end":2,"uid":"txt-Petite-1-2","id":1},{"word":"Abeille.","start":2,"end":3,"uid":"txt-Abeille.-2-3","id":2}],"background":{"type":"image","url":"/e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg","filename":"e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg"},"layoutStyle":1,"audio":{"_id":"67d026d84bc0a8873ec95276","bookId":"67d0265ecbfefe460317920a","pageId":"67ab6406b5308a8132a2a9da","created":"2025-03-11T12:04:40.968Z","pageAudio":{"provider":null,"mp3":"/audiolib/67d0265ecbfefe460317920a/audio/638572b1-d477-4010-a333-54d64be6b92c.mp3","text":"C’est Petite Abeille.","segments":[{"word":"C’est","start":0,"end":0.302,"id":6,"uid":"0-0.302-0","mp3":"/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3","path":"/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3","filename":"word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3"},{"word":" Petite","start":0.302,"end":0.5813333333333334,"id":13,"uid":"0.302-0.662-1","mp3":"/audiolib/mp3/word-dfb245cb545b211922a06ae0691b33de.mp3","path":"/audiolib/mp3/word-dfb245cb545b211922a06ae0691b33de.mp3","filename":"word-dfb245cb545b211922a06ae0691b33de.mp3"},{"word":"Abeille.","start":0.662,"end":1.3,"id":21,"uid":"0.662-1.3-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3","filename":"9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3"}],"path":"/audiolib/67d0265ecbfefe460317920a/audio/638572b1-d477-4010-a333-54d64be6b92c.mp3","filename":"638572b1-d477-4010-a333-54d64be6b92c.mp3"},"updated":"2025-03-11T12:04:40.968Z"}},{"_id":"67ab640cb5308a8132a2a9dc","title":"Page 2","description":"","text":"Petite Abeille est triste.","media":[{"_id":"67b501e08b42b085a4af49bc","mediaType":"lottie","name":"Sad-bee","filename":"Sad-bee.lottie","extension":".lottie","path":"/media/lottie/Sad-bee.lottie","width":250,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"afb84e4a-0735-4439-b0a5-0bb266166f49","position":{"left":492,"top":127},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":3,"word":" triste.","start":0.94,"end":1.28,"uid":"0.94-1.28-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3"}]}}],"words":[{"word":"Petite","start":0,"end":1,"uid":"txt-Petite-0-1","id":0},{"word":"Abeille","start":1,"end":2,"uid":"txt-Abeille-1-2","id":1},{"word":"est","start":2,"end":3,"uid":"txt-est-2-3","id":2},{"word":"triste.","start":3,"end":4,"uid":"txt-triste.-3-4","id":3}],"background":{"type":"image","url":"/358d2e83-3beb-4f00-918f-ae48bc56f710.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/358d2e83-3beb-4f00-918f-ae48bc56f710.jpg","filename":"358d2e83-3beb-4f00-918f-ae48bc56f710.jpg"},"layoutStyle":1,"audio":{"_id":"67d027114bc0a8873ec952df","bookId":"67d0265ecbfefe460317920a","pageId":"67ab640cb5308a8132a2a9dc","created":"2025-03-11T12:05:37.049Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3","segments":[{"id":0,"word":" Petite","start":0,"end":0.42,"uid":"0-0.42-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3","filename":"df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3"},{"id":1,"word":" Abeille","start":0.42,"end":0.8,"uid":"0.42-0.8-1","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3","filename":"5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3"},{"id":2,"word":" est","start":0.8,"end":0.94,"uid":"0.8-0.94-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/910b2888-6df9-4343-a5c2-29577fc0ae83.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/910b2888-6df9-4343-a5c2-29577fc0ae83.mp3","filename":"910b2888-6df9-4343-a5c2-29577fc0ae83.mp3"},{"id":3,"word":" triste.","start":0.94,"end":1.28,"uid":"0.94-1.28-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3","filename":"92338fe8-8f1d-49ac-be27-61dafe61f506.mp3"}],"text":" Petite Abeille est triste.","transcription":{"text":" Petite Abeille est triste.","segments":[{"id":0,"seek":0,"start":0,"end":1.28,"text":" Petite Abeille est triste.","tokens":[50364,10472,642,38472,3409,871,33526,13,50464],"temperature":0.1,"avg_logprob":-0.2768913745880127,"compression_ratio":0.7647058823529411,"no_speech_prob":0.014033534564077854,"words":[{"word":" Petite","start":0,"end":0.42,"probability":0.6457136869430542},{"word":" Abeille","start":0.42,"end":0.8,"probability":0.06069107726216316},{"word":" est","start":0.8,"end":0.94,"probability":0.44783416390419006},{"word":" triste.","start":0.94,"end":1.28,"probability":0.7810497879981995}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3","filename":"cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3"}}},{"_id":"67b46f5be8046722db3a4ad2","title":"Page 3","description":"","text":"S’il te plaît, aide-moi à trouver ma maison, Éléphant!","media":[{"_id":"67b47167e8046722db3a4adc","mediaType":"static","name":"532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg","created":"2025-02-18T11:39:19.162Z","path":"/media/static/532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg","extension":".svg","width":1629,"height":1572,"mimeType":"image/svg+xml","meta":{},"id":"9a73501d-f719-4f46-86d9-a3d9d9074574","position":{"left":274,"top":-438},"scaleSize":100,"linkedWords":[],"effect":{"type":"highlight","triggers":["click"],"settings":{},"timing":[{"word":"Éléphant!","start":2.078,"end":2.833,"id":54,"uid":"2.078-2.833-8","mp3":"/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3"}]},"filename":"532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg"}],"words":[{"word":"S’il","start":0,"end":1,"uid":"txt-Sil-0-1","id":0},{"word":"te","start":1,"end":2,"uid":"txt-te-1-2","id":1},{"word":"plaît,","start":2,"end":3,"uid":"txt-plat,-2-3","id":2},{"word":"aide-moi","start":3,"end":4,"uid":"txt-aide-moi-3-4","id":3},{"word":"à","start":4,"end":5,"uid":"txt--4-5","id":4},{"word":"trouver","start":5,"end":6,"uid":"txt-trouver-5-6","id":5},{"word":"ma","start":6,"end":7,"uid":"txt-ma-6-7","id":6},{"word":"maison,","start":7,"end":8,"uid":"txt-maison,-7-8","id":7},{"word":"Éléphant!","start":8,"end":9,"uid":"txt-Éléphant-8-9","id":8}],"background":{"type":"image","url":"/e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg","filename":"e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg"},"audio":{"_id":"67d036364bc0a8873ec96859","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f5be8046722db3a4ad2","created":"2025-03-11T13:10:14.492Z","pageAudio":{"provider":null,"mp3":"/audiolib/67d0265ecbfefe460317920a/audio/cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3","text":"S’il te plaît, aide-moi à trouver ma maison, Éléphant!","segments":[{"word":"S’il","start":0,"end":0.279,"id":5,"uid":"0-0.279-0","mp3":"/audiolib/mp3/word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3","path":"/audiolib/mp3/word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3","filename":"word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3"},{"word":"te","start":0.279,"end":0.418,"id":8,"uid":"0.279-0.418-1","mp3":"/audiolib/mp3/word-569ef72642be0fadd711d6a468d68ee1.mp3","path":"/audiolib/mp3/word-569ef72642be0fadd711d6a468d68ee1.mp3","filename":"word-569ef72642be0fadd711d6a468d68ee1.mp3"},{"word":"plaît,","start":0.418,"end":0.813,"id":15,"uid":"0.418-0.813-2","mp3":"/audiolib/mp3/word-7a300c7f85d4988f375c18c3bfd31e39.mp3","path":"/audiolib/mp3/word-7a300c7f85d4988f375c18c3bfd31e39.mp3","filename":"word-7a300c7f85d4988f375c18c3bfd31e39.mp3"},{"word":"aide-moi","start":0.813,"end":1.265,"id":24,"uid":"0.813-1.265-3","mp3":"/audiolib/mp3/word-afa4df2257578ef7375c1b7712e36c82.mp3","path":"/audiolib/mp3/word-afa4df2257578ef7375c1b7712e36c82.mp3","filename":"word-afa4df2257578ef7375c1b7712e36c82.mp3"},{"word":"à","start":1.265,"end":1.347,"id":26,"uid":"1.265-1.347-4","mp3":"/audiolib/mp3/word-c9759ceb6487a0bd2720ca98f2622d24.mp3","path":"/audiolib/mp3/word-c9759ceb6487a0bd2720ca98f2622d24.mp3","filename":"word-c9759ceb6487a0bd2720ca98f2622d24.mp3"},{"word":"trouver","start":1.347,"end":1.625,"id":34,"uid":"1.347-1.625-5","mp3":"/audiolib/mp3/word-2be91e7f12417d38008aa26cf9905998.mp3","path":"/audiolib/mp3/word-2be91e7f12417d38008aa26cf9905998.mp3","filename":"word-2be91e7f12417d38008aa26cf9905998.mp3"},{"word":"ma","start":1.625,"end":1.741,"id":37,"uid":"1.625-1.741-6","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/184485d2-f633-4bf0-9564-813d8a5eb922.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/184485d2-f633-4bf0-9564-813d8a5eb922.mp3","filename":"184485d2-f633-4bf0-9564-813d8a5eb922.mp3"},{"word":"maison,","start":1.741,"end":2.078,"id":45,"uid":"1.741-2.078-7","mp3":"/audiolib/mp3/word-ae2664af79c868c7f5e118c9f13a2e9a.mp3","path":"/audiolib/mp3/word-ae2664af79c868c7f5e118c9f13a2e9a.mp3","filename":"word-ae2664af79c868c7f5e118c9f13a2e9a.mp3"},{"word":"Éléphant!","start":2.078,"end":2.833,"id":54,"uid":"2.078-2.833-8","mp3":"/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3","path":"/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3","filename":"word-edee88eae8a1b291170f503203bf0913.mp3"}],"path":"/audiolib/67d0265ecbfefe460317920a/audio/cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3","filename":"cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3"},"updated":"2025-03-11T13:11:07.207Z"}},{"_id":"67b46f6ce8046722db3a4ad3","title":"Page 4","description":"","text":"Est-ce que ce nid est ta maison?","media":[{"_id":"67b470a0e8046722db3a4ada","mediaType":"static","name":"52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg","created":"2025-02-18T11:36:00.363Z","path":"/media/static/52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg","extension":".svg","width":285,"height":148,"mimeType":"image/svg+xml","meta":{},"id":"b138266f-fcdd-4d3b-92ba-977a8730786f","position":{"left":1291,"top":456},"scaleSize":100,"linkedWords":[],"effect":{"type":"shake","triggers":["click"],"settings":{},"timing":[]},"filename":"52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg"},{"_id":"67b470a0e8046722db3a4ada","mediaType":"static","name":"52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg","created":"2025-02-18T11:36:00.363Z","path":"/media/static/52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg","extension":".svg","width":285,"height":148,"mimeType":"image/svg+xml","meta":{},"id":"bc97d89f-f181-426c-9eb7-65c1eddebe47","position":{"left":821,"top":274},"scaleSize":100,"linkedWords":[],"effect":{"type":"shake","triggers":["click"],"settings":{},"timing":[{"id":4,"word":" nid","start":0.7,"end":0.82,"uid":"0.7-0.82-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3"}]},"filename":"52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg"}],"words":[{"word":"Est-ce","start":0,"end":1,"uid":"txt-Est-ce-0-1","id":0},{"word":"que","start":1,"end":2,"uid":"txt-que-1-2","id":1},{"word":"ce","start":2,"end":3,"uid":"txt-ce-2-3","id":2},{"word":"nid","start":3,"end":4,"uid":"txt-nid-3-4","id":3},{"word":"est","start":4,"end":5,"uid":"txt-est-4-5","id":4},{"word":"ta","start":5,"end":6,"uid":"txt-ta-5-6","id":5},{"word":"maison?","start":6,"end":7,"uid":"txt-maison-6-7","id":6}],"background":{"type":"image","url":"/faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg","filename":"faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg"},"layoutStyle":1,"audio":{"_id":"67d0369a4bc0a8873ec968fa","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f6ce8046722db3a4ad3","created":"2025-03-11T13:11:54.189Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3","segments":[{"id":0,"word":" Est-ce","start":0,"end":0.34,"uid":"0-0.34-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3","filename":"fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3"},{"id":1,"word":" ","start":0.34,"end":0.3413333333333333,"uid":"0.34-0.48-1"},{"id":2,"word":" que","start":0.3426666666666667,"end":0.56,"uid":"0.48-0.56-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3","filename":"90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3"},{"id":3,"word":" ce","start":0.56,"end":0.7,"uid":"0.56-0.7-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3","filename":"cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3"},{"id":4,"word":" nid","start":0.7,"end":0.82,"uid":"0.7-0.82-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3","filename":"41b622d6-668c-4a56-a129-ecb7f17499f3.mp3"},{"id":5,"word":" est","start":0.82,"end":0.98,"uid":"0.82-0.98-5","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/17753d37-ae51-4069-a7f0-7317d7332b55.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/17753d37-ae51-4069-a7f0-7317d7332b55.mp3","filename":"17753d37-ae51-4069-a7f0-7317d7332b55.mp3"},{"id":6,"word":" ta","start":0.98,"end":1.14,"uid":"0.98-1.14-6","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3","filename":"e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3"},{"id":7,"word":" maison?","start":1.14,"end":1.38,"uid":"1.14-1.38-7","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/3306bb40-5293-446f-8aec-6ce6431485d1.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/3306bb40-5293-446f-8aec-6ce6431485d1.mp3","filename":"3306bb40-5293-446f-8aec-6ce6431485d1.mp3"}],"text":" Est-ce que ce nid est ta maison?","transcription":{"text":" Est-ce que ce nid est ta maison?","segments":[{"id":0,"seek":0,"start":0,"end":1.38,"text":" Est-ce que ce nid est ta maison?","tokens":[50364,4410,12,384,631,1769,297,327,871,1846,28511,30,50464],"temperature":0.1,"avg_logprob":-0.18503168651035853,"compression_ratio":0.8421052631578947,"no_speech_prob":0.01089368388056755,"words":[{"word":" Est","start":0,"end":0.34,"probability":0.70082688331604},{"word":"-ce","start":0.34,"end":0.48,"probability":0.8539953827857971},{"word":" que","start":0.48,"end":0.56,"probability":0.9919711351394653},{"word":" ce","start":0.56,"end":0.7,"probability":0.9657937288284302},{"word":" nid","start":0.7,"end":0.82,"probability":0.3850521359127015},{"word":" est","start":0.82,"end":0.98,"probability":0.7323708534240723},{"word":" ta","start":0.98,"end":1.14,"probability":0.04100096598267555},{"word":" maison?","start":1.14,"end":1.38,"probability":0.9867333769798279}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3","filename":"073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3"}}},{"_id":"67b46f75e8046722db3a4ad4","title":"Page 5","description":"","text":"C’est la maison d’un oiseau.","media":[{"_id":"67b501e08b42b085a4af49b8","mediaType":"lottie","name":"Bird","filename":"Bird.lottie","extension":".lottie","path":"/media/lottie/Bird.lottie","width":230,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"7d001d02-d698-4ecf-a2d9-97b1ed8a8943","position":{"left":845,"top":126},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"word":"oiseau.","start":0.789,"end":1.393,"id":28,"uid":"0.789-1.393-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3"}]}}],"words":[{"word":"C’est","start":0,"end":1,"uid":"txt-Cest-0-1","id":0},{"word":"la","start":1,"end":2,"uid":"txt-la-1-2","id":1},{"word":"maison","start":2,"end":3,"uid":"txt-maison-2-3","id":2},{"word":"d’un","start":3,"end":4,"uid":"txt-dun-3-4","id":3},{"word":"oiseau.","start":4,"end":5,"uid":"txt-oiseau.-4-5","id":4}],"background":{"type":"image","url":"/5038b35e-dc7b-4050-8935-d9af80f34bad.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/5038b35e-dc7b-4050-8935-d9af80f34bad.jpg","filename":"5038b35e-dc7b-4050-8935-d9af80f34bad.jpg"},"layoutStyle":1,"audio":{"_id":"67d037384bc0a8873ec96a05","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f75e8046722db3a4ad4","created":"2025-03-11T13:14:32.126Z","pageAudio":{"provider":null,"mp3":"/audiolib/67d0265ecbfefe460317920a/audio/f7908d3e-c027-46ba-8860-e2df4846c982.mp3","text":"C’est la maison d’un oiseau.","segments":[{"word":"C’est","start":0,"end":0.221,"id":6,"uid":"0-0.221-0","mp3":"/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3","path":"/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3","filename":"word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3"},{"word":"la","start":0.221,"end":0.348,"id":9,"uid":"0.221-0.348-1","mp3":"/audiolib/mp3/word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3","path":"/audiolib/mp3/word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3","filename":"word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3"},{"word":"maison","start":0.348,"end":0.615,"id":16,"uid":"0.348-0.615-2","mp3":"/audiolib/mp3/word-1f2e0146afb6c65f28298cdc8918784c.mp3","path":"/audiolib/mp3/word-1f2e0146afb6c65f28298cdc8918784c.mp3","filename":"word-1f2e0146afb6c65f28298cdc8918784c.mp3"},{"word":"d’un","start":0.615,"end":0.789,"id":21,"uid":"0.615-0.789-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3","filename":"f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3"},{"word":"oiseau.","start":0.789,"end":1.393,"id":28,"uid":"0.789-1.393-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3","filename":"1c054c5a-2cda-4efa-a584-15105527fffe.mp3"}],"path":"/audiolib/67d0265ecbfefe460317920a/audio/f7908d3e-c027-46ba-8860-e2df4846c982.mp3","filename":"f7908d3e-c027-46ba-8860-e2df4846c982.mp3"},"updated":"2025-03-11T13:14:32.126Z"}},{"_id":"67b46f7be8046722db3a4ad5","title":"Page 6","description":"","text":"Est-ce que cette grotte est ta maison?","media":[{"_id":"67b501e08b42b085a4af49b9","mediaType":"lottie","name":"Cave","filename":"Cave.lottie","extension":".lottie","path":"/media/lottie/Cave.lottie","width":1250,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"422ae46a-ea74-467d-9a3b-d2cf1221a973","position":{"left":1452,"top":493},"scaleSize":100,"linkedWords":[],"effect":{"timing":[]}},{"_id":"67b47174e8046722db3a4add","mediaType":"static","name":"810dea2f-244e-41ea-bf41-d00a10c6b851.svg","created":"2025-02-18T11:39:32.309Z","path":"/media/static/810dea2f-244e-41ea-bf41-d00a10c6b851.svg","extension":".svg","width":150,"height":127,"mimeType":"image/svg+xml","meta":{},"id":"c3976e85-7105-494f-8261-d5206e197e0b","position":{"left":1023,"top":339},"scaleSize":100,"linkedWords":[],"effect":{"timing":[]},"filename":"810dea2f-244e-41ea-bf41-d00a10c6b851.svg"},{"_id":"67b501e08b42b085a4af49b9","mediaType":"lottie","name":"Cave","filename":"Cave.lottie","extension":".lottie","path":"/media/lottie/Cave.lottie","width":800,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"53fcfdc0-de89-4372-b56c-5b595cc26522","position":{"left":692,"top":-39},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":4,"word":" grotte","start":0.78,"end":1.04,"uid":"0.78-1.04-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3"}]},"zIndex":7}],"words":[{"word":"Est-ce","start":0,"end":1,"uid":"txt-Est-ce-0-1","id":0},{"word":"que","start":1,"end":2,"uid":"txt-que-1-2","id":1},{"word":"cette","start":2,"end":3,"uid":"txt-cette-2-3","id":2},{"word":"grotte","start":3,"end":4,"uid":"txt-grotte-3-4","id":3},{"word":"est","start":4,"end":5,"uid":"txt-est-4-5","id":4},{"word":"ta","start":5,"end":6,"uid":"txt-ta-5-6","id":5},{"word":"maison?","start":6,"end":7,"uid":"txt-maison-6-7","id":6}],"background":{"type":"image","url":"/2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg","filename":"2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg"},"layoutStyle":1,"audio":{"_id":"67d037634bc0a8873ec96a55","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f7be8046722db3a4ad5","created":"2025-03-11T13:15:15.663Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/0c867f85-d7fd-430d-844c-a5846a721527.mp3","segments":[{"id":0,"word":" Est-ce","start":0,"end":0.34,"uid":"0-0.34-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3","filename":"4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3"},{"id":1,"word":" ","start":0.34,"end":0.34,"uid":"0.34-0.52-1"},{"id":2,"word":" que","start":0.52,"end":0.56,"uid":"0.52-0.56-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3","filename":"6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3"},{"id":3,"word":" cette","start":0.56,"end":0.78,"uid":"0.56-0.78-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/94a1cb96-e028-423a-b899-9edb7ad826b4.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/94a1cb96-e028-423a-b899-9edb7ad826b4.mp3","filename":"94a1cb96-e028-423a-b899-9edb7ad826b4.mp3"},{"id":4,"word":" grotte","start":0.78,"end":1.04,"uid":"0.78-1.04-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3","filename":"9b82546c-a03c-446e-b332-b8557c3154aa.mp3"},{"id":5,"word":" est","start":1.04,"end":1.28,"uid":"1.04-1.28-5","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3","filename":"5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3"},{"id":6,"word":" ta","start":1.28,"end":1.44,"uid":"1.28-1.44-6","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3","filename":"8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3"},{"id":7,"word":" maison?","start":1.44,"end":1.72,"uid":"1.44-1.72-7","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/21f523ea-7d24-429b-8366-21a859ecd7e9.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/21f523ea-7d24-429b-8366-21a859ecd7e9.mp3","filename":"21f523ea-7d24-429b-8366-21a859ecd7e9.mp3"}],"text":" Est-ce que cette grotte est ta maison?","transcription":{"text":" Est-ce que cette grotte est ta maison?","segments":[{"id":0,"seek":0,"start":0,"end":1.72,"text":" Est-ce que cette grotte est ta maison?","tokens":[50364,4410,12,384,631,5550,677,13079,871,1846,28511,30,50464],"temperature":0.1,"avg_logprob":-0.16840437480381557,"compression_ratio":0.8837209302325582,"no_speech_prob":0.003982975613325834,"words":[{"word":" Est","start":0,"end":0.34,"probability":0.5904841423034668},{"word":"-ce","start":0.34,"end":0.52,"probability":0.8236265778541565},{"word":" que","start":0.52,"end":0.56,"probability":0.9815512895584106},{"word":" cette","start":0.56,"end":0.78,"probability":0.9562143087387085},{"word":" grotte","start":0.78,"end":1.04,"probability":0.852838009595871},{"word":" est","start":1.04,"end":1.28,"probability":0.9763773083686829},{"word":" ta","start":1.28,"end":1.44,"probability":0.019291549921035767},{"word":" maison?","start":1.44,"end":1.72,"probability":0.9889117479324341}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/0c867f85-d7fd-430d-844c-a5846a721527.mp3","filename":"0c867f85-d7fd-430d-844c-a5846a721527.mp3"}}},{"_id":"67b46f82e8046722db3a4ad6","title":"Page 7","description":"","text":"C’est la maison d’une chauve-souris.","media":[{"_id":"67b501e08b42b085a4af49b6","mediaType":"lottie","name":"Bat","filename":"Bat.lottie","extension":".lottie","path":"/media/lottie/Bat.lottie","width":300,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"e5470886-ff0d-4041-9cb3-b64cc0ff35e4","position":{"left":771,"top":5},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":4,"word":" chauve-souris.","start":1,"end":1.22,"uid":"1-1.22-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3"}]}},{"_id":"67b501e08b42b085a4af49b6","mediaType":"lottie","name":"Bat","filename":"Bat.lottie","extension":".lottie","path":"/media/lottie/Bat.lottie","width":200,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"a7921dc6-5b3f-4eb5-8cd4-5166839f1696","position":{"left":771,"top":184},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":4,"word":" chauve-souris.","start":1,"end":1.22,"uid":"1-1.22-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3"}]}}],"words":[{"word":"C’est","start":0,"end":1,"uid":"txt-Cest-0-1","id":0},{"word":"la","start":1,"end":2,"uid":"txt-la-1-2","id":1},{"word":"maison","start":2,"end":3,"uid":"txt-maison-2-3","id":2},{"word":"d’une","start":3,"end":4,"uid":"txt-dune-3-4","id":3},{"word":"chauve-souris.","start":4,"end":5,"uid":"txt-chauve-souris.-4-5","id":4}],"background":{"type":"image","url":"/1ab21967-cd26-4377-9787-c1dae124f9c2.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/1ab21967-cd26-4377-9787-c1dae124f9c2.jpg","filename":"1ab21967-cd26-4377-9787-c1dae124f9c2.jpg"},"layoutStyle":1,"audio":{"_id":"67d152aa4bc0a8873ecafb34","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f82e8046722db3a4ad6","created":"2025-03-12T09:23:54.537Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3","segments":[{"id":0,"word":" C’est","start":0,"end":0.32,"uid":"0-0.32-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3","filename":"97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3"},{"id":1,"word":" la","start":0.32,"end":0.42,"uid":"0.32-0.42-1","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3","filename":"89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3"},{"id":2,"word":" maison","start":0.42,"end":0.66,"uid":"0.42-0.66-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3","filename":"6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3"},{"id":3,"word":" d’une","start":0.66,"end":1,"uid":"0.66-1-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/dca4fbfd-c419-407c-9651-cf44de714c5f.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/dca4fbfd-c419-407c-9651-cf44de714c5f.mp3","filename":"dca4fbfd-c419-407c-9651-cf44de714c5f.mp3"},{"id":4,"word":" chauve-souris.","start":1,"end":1.22,"uid":"1-1.22-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3","filename":"f61e18f2-0751-438e-a80d-d22bc6006251.mp3"},{"id":5,"word":" ","start":1.4493333333333334,"end":1.4493333333333334,"uid":"1.22-1.62-5"}],"text":" C’est la maison d’une chauve-souris.","transcription":{"text":" C’est la maison d’une chauve-souris.","segments":[{"id":0,"seek":0,"start":0,"end":1.62,"text":" C’est la maison d’une chauve-souris.","tokens":[50364,383,913,247,377,635,28511,274,913,247,2613,417,1459,303,12,82,396,271,13,50464],"temperature":0.1,"avg_logprob":-0.1834166958218529,"compression_ratio":0.851063829787234,"no_speech_prob":0.002598250051960349,"words":[{"word":" C’est","start":0,"end":0.32,"probability":0.1891970342842293},{"word":" la","start":0.32,"end":0.42,"probability":0.8394542932510376},{"word":" maison","start":0.42,"end":0.66,"probability":0.9573991894721985},{"word":" d’une","start":0.66,"end":1,"probability":0.5423308461904526},{"word":" chauve","start":1,"end":1.22,"probability":0.3993576342860858},{"word":"-souris.","start":1.22,"end":1.62,"probability":0.4500248269177973}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3","filename":"3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3"}}},{"_id":"67b46f8ae8046722db3a4ad7","title":"Page 8","description":"","text":"Est-ce que cette ruche est ta maison?","media":[{"_id":"67b501e08b42b085a4af49bb","mediaType":"lottie","name":"Hive","filename":"Hive.lottie","extension":".lottie","path":"/media/lottie/Hive.lottie","width":400,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"57e88e40-8ee6-4667-ad06-c4d0a70aeed2","position":{"left":106,"top":94},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":4,"word":" ruche","start":0.7,"end":1.04,"uid":"0.7-1.04-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3"}]},"mirror":true}],"words":[{"word":"Est-ce","start":0,"end":1,"uid":"txt-Est-ce-0-1","id":0},{"word":"que","start":1,"end":2,"uid":"txt-que-1-2","id":1},{"word":"cette","start":2,"end":3,"uid":"txt-cette-2-3","id":2},{"word":"ruche","start":3,"end":4,"uid":"txt-ruche-3-4","id":3},{"word":"est","start":4,"end":5,"uid":"txt-est-4-5","id":4},{"word":"ta","start":5,"end":6,"uid":"txt-ta-5-6","id":5},{"word":"maison?","start":6,"end":7,"uid":"txt-maison-6-7","id":6}],"background":{"type":"image","url":"/74b9815c-f113-4825-bff8-4e524fe8cac3.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/74b9815c-f113-4825-bff8-4e524fe8cac3.jpg","filename":"74b9815c-f113-4825-bff8-4e524fe8cac3.jpg"},"layoutStyle":1,"audio":{"_id":"67d037b84bc0a8873ec96aee","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f8ae8046722db3a4ad7","created":"2025-03-11T13:16:40.828Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/d337b814-4de7-4674-94bb-8ba2f807d40b.mp3","segments":[{"id":0,"word":" Est-ce","start":0,"end":0.32,"uid":"0-0.32-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3","filename":"8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3"},{"id":1,"word":" ","start":0.32,"end":0.32,"uid":"0.32-0.44-1"},{"id":2,"word":" que","start":0.452,"end":0.48,"uid":"0.44-0.48-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3","filename":"a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3"},{"id":3,"word":" cette","start":0.48,"end":0.7,"uid":"0.48-0.7-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3","filename":"fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3"},{"id":4,"word":" ruche","start":0.7,"end":1.04,"uid":"0.7-1.04-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3","filename":"43a21a29-b079-4441-817c-392678bfcd84.mp3"},{"id":5,"word":" est","start":1.04,"end":1.3,"uid":"1.04-1.3-5","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3","filename":"5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3"},{"id":6,"word":" ta","start":1.3,"end":1.44,"uid":"1.3-1.44-6","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3","filename":"6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3"},{"id":7,"word":" maison?","start":1.44,"end":1.68,"uid":"1.44-1.68-7","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/a7cc8ab6-b659-4887-b100-8da454264c26.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/a7cc8ab6-b659-4887-b100-8da454264c26.mp3","filename":"a7cc8ab6-b659-4887-b100-8da454264c26.mp3"}],"text":" Est-ce que cette ruche est ta maison?","transcription":{"text":" Est-ce que cette ruche est ta maison?","segments":[{"id":0,"seek":0,"start":0,"end":1.68,"text":" Est-ce que cette ruche est ta maison?","tokens":[50364,4410,12,384,631,5550,367,17545,871,1846,28511,30,50464],"temperature":0.1,"avg_logprob":-0.18955533845084055,"compression_ratio":0.8222222222222222,"no_speech_prob":0.003433970035985112,"words":[{"word":" Est","start":0,"end":0.32,"probability":0.8719626665115356},{"word":"-ce","start":0.32,"end":0.44,"probability":0.8873753547668457},{"word":" que","start":0.44,"end":0.48,"probability":0.9871922731399536},{"word":" cette","start":0.48,"end":0.7,"probability":0.8377996683120728},{"word":" ruche","start":0.7,"end":1.04,"probability":0.708139955997467},{"word":" est","start":1.04,"end":1.3,"probability":0.9808758497238159},{"word":" ta","start":1.3,"end":1.44,"probability":0.00025527653633616865},{"word":" maison?","start":1.44,"end":1.68,"probability":0.9921807050704956}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/d337b814-4de7-4674-94bb-8ba2f807d40b.mp3","filename":"d337b814-4de7-4674-94bb-8ba2f807d40b.mp3"}}},{"_id":"67b46f90e8046722db3a4ad8","title":"Page 9","description":"","text":"Oui! Petite Abeille est heureuse.","media":[{"_id":"67b501e08b42b085a4af49ba","mediaType":"lottie","name":"Happy-bee","filename":"Happy-bee.lottie","extension":".lottie","path":"/media/lottie/Happy-bee.lottie","width":150,"height":0,"mimeType":"","meta":{},"depricated":false,"id":"6ee211f7-2fbb-4f45-a45d-1c47c53c0c3f","position":{"left":789,"top":204},"scaleSize":100,"linkedWords":[],"effect":{"timing":[{"id":4,"word":" heureuse.","start":1.46,"end":1.82,"uid":"1.46-1.82-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3"}]}}],"words":[{"word":"Oui!","start":0,"end":1,"uid":"txt-Oui-0-1","id":0},{"word":"Petite","start":1,"end":2,"uid":"txt-Petite-1-2","id":1},{"word":"Abeille","start":2,"end":3,"uid":"txt-Abeille-2-3","id":2},{"word":"est","start":3,"end":4,"uid":"txt-est-3-4","id":3},{"word":"heureuse.","start":4,"end":5,"uid":"txt-heureuse.-4-5","id":4}],"background":{"type":"image","url":"/7793880e-7683-451b-b887-cbcf025751c5.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/7793880e-7683-451b-b887-cbcf025751c5.jpg","filename":"7793880e-7683-451b-b887-cbcf025751c5.jpg"},"layoutStyle":1,"audio":{"_id":"67d1515b4bc0a8873ecaf8fc","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f90e8046722db3a4ad8","created":"2025-03-12T09:18:19.623Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3","segments":[{"id":0,"word":" Oui!","start":0,"end":0.42,"uid":"0-0.42-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/333899fd-98d3-411b-bd11-670876e68a0e.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/333899fd-98d3-411b-bd11-670876e68a0e.mp3","filename":"333899fd-98d3-411b-bd11-670876e68a0e.mp3"},{"id":1,"word":" Petite","start":0.62,"end":0.78,"uid":"0.62-0.78-1","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3","filename":"8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3"},{"id":2,"word":" Abeille","start":0.78,"end":1.34,"uid":"0.78-1.34-2","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fce9c34b-a832-4041-a39e-e555afc33037.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/fce9c34b-a832-4041-a39e-e555afc33037.mp3","filename":"fce9c34b-a832-4041-a39e-e555afc33037.mp3"},{"id":3,"word":" est","start":1.34,"end":1.46,"uid":"1.34-1.46-3","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3","filename":"b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3"},{"id":4,"word":" heureuse.","start":1.46,"end":1.82,"uid":"1.46-1.82-4","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3","filename":"ed9f7725-860f-49d4-81fe-64a16531d54a.mp3"}],"text":" Oui! Petite Abeille est heureuse.","transcription":{"text":" Oui! Petite Abeille est heureuse.","segments":[{"id":0,"seek":0,"start":0,"end":1.82,"text":" Oui! Petite Abeille est heureuse.","tokens":[50364,14005,0,10472,642,38472,3409,871,30027,438,13,50464],"temperature":0.1,"avg_logprob":-0.2036439455472506,"compression_ratio":0.8048780487804879,"no_speech_prob":0.021620269864797592,"words":[{"word":" Oui!","start":0,"end":0.42,"probability":0.8008778095245361},{"word":" Petite","start":0.62,"end":0.78,"probability":0.5360215306282043},{"word":" Abeille","start":0.78,"end":1.34,"probability":0.03033122606575489},{"word":" est","start":1.34,"end":1.46,"probability":0.4894498884677887},{"word":" heureuse.","start":1.46,"end":1.82,"probability":0.9795055091381073}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3","filename":"6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3"}}},{"_id":"67b46f95e8046722db3a4ad9","title":"Page 10","description":"","text":"Merci, Éléphant!","media":[{"_id":"67b47183e8046722db3a4ade","mediaType":"static","name":"c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg","created":"2025-02-18T11:39:47.257Z","path":"/media/static/c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg","extension":".svg","width":1830,"height":1767,"mimeType":"image/svg+xml","meta":{},"id":"65ba78d6-0640-4f2a-bf14-fc633c07fa56","position":{"left":1415,"top":494},"scaleSize":100,"linkedWords":[],"effect":{"type":"highlight","triggers":["click"],"settings":{},"timing":[]},"filename":"c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg"},{"_id":"67b47167e8046722db3a4adc","mediaType":"static","name":"532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg","created":"2025-02-18T11:39:19.162Z","path":"/media/static/532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg","extension":".svg","width":1629,"height":1572,"mimeType":"image/svg+xml","meta":{},"id":"73e3388a-e520-4ae5-959e-b5901d76d5db","position":{"left":314,"top":-464},"scaleSize":100,"linkedWords":[],"effect":{"type":"highlight","triggers":["click"],"settings":{},"timing":[{"id":1,"word":" Éléphant!","start":0.6,"end":0.9,"uid":"0.6-0.9-1","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3"}]},"zIndex":10,"filename":"532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg"}],"words":[{"word":"Merci,","start":0,"end":1,"uid":"txt-Merci,-0-1","id":0},{"word":"Éléphant!","start":1,"end":2,"uid":"txt-Éléphant-1-2","id":1}],"background":{"type":"image","url":"/d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg","size":{"width":1279,"height":600},"fileType":"jpg","path":"/resources/books/67d0265ecbfefe460317920a/assets/images/d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg","filename":"d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg"},"layoutStyle":1,"audio":{"_id":"67d151844bc0a8873ecaf946","bookId":"67d0265ecbfefe460317920a","pageId":"67b46f95e8046722db3a4ad9","created":"2025-03-12T09:19:00.886Z","pageAudio":{"provider":"whisper","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3","segments":[{"id":0,"word":" Merci,","start":0,"end":0.46,"uid":"0-0.46-0","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/27aaf3bc-3a22-4460-9add-94bef3e93056.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/27aaf3bc-3a22-4460-9add-94bef3e93056.mp3","filename":"27aaf3bc-3a22-4460-9add-94bef3e93056.mp3"},{"id":1,"word":" Éléphant!","start":0.6,"end":0.9,"uid":"0.6-0.9-1","mp3":"/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3","path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3","filename":"7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3"}],"text":" Merci, Éléphant!","transcription":{"text":" Merci, Éléphant!","segments":[{"id":0,"seek":0,"start":0,"end":0.9,"text":" Merci, Éléphant!","tokens":[50364,19856,11,4922,29728,15071,0,50416],"temperature":0.1,"avg_logprob":-0.40854019588894314,"compression_ratio":0.6923076923076923,"no_speech_prob":0.003389488672837615,"words":[{"word":" Merci,","start":0,"end":0.46,"probability":0.9315096735954285},{"word":" Éléphant!","start":0.6,"end":0.9,"probability":0.08395685049860428}]}],"language":"fr"},"path":"/resources/books/67d0265ecbfefe460317920a/assets/audio/e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3","filename":"e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3"}}}],"cover":{"show":false,"image":null,"text":null,"description":null},"owner":"672b8666ccec90ad6b811f4b","bookTranslationRef":"67ab6406b5308a8132a2a9db","bookRefId":"67ab6406b5308a8132a2a9db","slug":"TheBeeAndTheElephantFr-1"}
+{
+  "_id": "67d0265ecbfefe460317920a",
+  "title": "L’abeille et l’éléphant",
+  "license": "CC-BY-SA-4.0",
+  "published": true,
+  "version": "0.0.1",
+  "createdAt": "2025-03-11T12:02:38.116Z",
+  "updatedAt": "2026-03-04T14:47:48.589Z",
+  "language": "fr",
+  "credits": {
+    "text": "This work, ““L’abeille et l’éléphant\", is a derivative of \"The Bee and the Elephant\" made possible by Pratham Books' StoryWeaver platform used under CC BY. “L’abeille et l’éléphant\" is licensed under CC BY 4.0 by the GDL.\n",
+    "logos": ["logo-room-to-read", "logo-lets-read"]
+  },
+  "illustration": {
+    "url": "/resources/books/67ab6406b5308a8132a2a9db/assets/images/38113a58-24e0-4ab3-8100-e39e241a9c60.jpg",
+    "name": "Cover - The Bee and the Elephant.jpg",
+    "meta": { "height": 600, "width": 600, "type": "jpg" },
+    "path": "/resources/books/67ab6406b5308a8132a2a9db/assets/images/38113a58-24e0-4ab3-8100-e39e241a9c60.jpg",
+    "filename": "38113a58-24e0-4ab3-8100-e39e241a9c60.jpg"
+  },
+  "coverText": "",
+  "config": {
+    "voiceId": "WCDixksYMwojyA0ATzPJ",
+    "textDirection": "LTR",
+    "audioLanguage": "fr"
+  },
+  "bookDescription": null,
+  "bookText": null,
+  "tags": [],
+  "body": [
+    {
+      "_id": "67ab6406b5308a8132a2a9da",
+      "title": "Page 1",
+      "description": "",
+      "text": "C’est Petite Abeille.",
+      "media": [
+        {
+          "_id": "680b50c20e0eaef65671791d",
+          "mediaType": "lottie",
+          "name": "Bee-wings-small",
+          "filename": "Bee-wings-small.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Bee-wings-small.lottie",
+          "width": 425,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "d1a891ca-beef-4200-b0d0-a828f0cad4b4",
+          "position": { "left": 332, "top": 63 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "word": "Abeille.",
+                "start": 0.662,
+                "end": 1.3,
+                "id": 21,
+                "uid": "0.662-1.3-2",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3",
+                "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3",
+                "filename": "9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3"
+              }
+            ]
+          },
+          "zIndex": 10
+        }
+      ],
+      "words": [
+        {
+          "word": "C’est",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Cest-0-1",
+          "id": 0
+        },
+        {
+          "word": "Petite",
+          "start": 1,
+          "end": 2,
+          "uid": "txt-Petite-1-2",
+          "id": 1
+        },
+        {
+          "word": "Abeille.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-Abeille.-2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg",
+        "filename": "e554a916-2a2a-4f7d-a33d-f16b64f1bc99.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d026d84bc0a8873ec95276",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67ab6406b5308a8132a2a9da",
+        "created": "2025-03-11T12:04:40.968Z",
+        "pageAudio": {
+          "provider": null,
+          "mp3": "/audiolib/67d0265ecbfefe460317920a/audio/638572b1-d477-4010-a333-54d64be6b92c.mp3",
+          "text": "C’est Petite Abeille.",
+          "segments": [
+            {
+              "word": "C’est",
+              "start": 0,
+              "end": 0.302,
+              "id": 6,
+              "uid": "0-0.302-0",
+              "mp3": "/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3",
+              "path": "/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3",
+              "filename": "word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3"
+            },
+            {
+              "word": " Petite",
+              "start": 0.302,
+              "end": 0.5813333333333334,
+              "id": 13,
+              "uid": "0.302-0.662-1",
+              "mp3": "/audiolib/mp3/word-dfb245cb545b211922a06ae0691b33de.mp3",
+              "path": "/audiolib/mp3/word-dfb245cb545b211922a06ae0691b33de.mp3",
+              "filename": "word-dfb245cb545b211922a06ae0691b33de.mp3"
+            },
+            {
+              "word": "Abeille.",
+              "start": 0.662,
+              "end": 1.3,
+              "id": 21,
+              "uid": "0.662-1.3-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3",
+              "filename": "9ffa93dd-fa09-4dc5-9087-6b4c4ab9841b.mp3"
+            }
+          ],
+          "path": "/audiolib/67d0265ecbfefe460317920a/audio/638572b1-d477-4010-a333-54d64be6b92c.mp3",
+          "filename": "638572b1-d477-4010-a333-54d64be6b92c.mp3"
+        },
+        "updated": "2025-03-11T12:04:40.968Z"
+      }
+    },
+    {
+      "_id": "67ab640cb5308a8132a2a9dc",
+      "title": "Page 2",
+      "description": "",
+      "text": "Petite Abeille est triste.",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49bc",
+          "mediaType": "lottie",
+          "name": "Sad-bee",
+          "filename": "Sad-bee.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Sad-bee.lottie",
+          "width": 250,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "afb84e4a-0735-4439-b0a5-0bb266166f49",
+          "position": { "left": 492, "top": 127 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 3,
+                "word": " triste.",
+                "start": 0.94,
+                "end": 1.28,
+                "uid": "0.94-1.28-3",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3"
+              }
+            ]
+          }
+        }
+      ],
+      "words": [
+        {
+          "word": "Petite",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Petite-0-1",
+          "id": 0
+        },
+        {
+          "word": "Abeille",
+          "start": 1,
+          "end": 2,
+          "uid": "txt-Abeille-1-2",
+          "id": 1
+        },
+        { "word": "est", "start": 2, "end": 3, "uid": "txt-est-2-3", "id": 2 },
+        {
+          "word": "triste.",
+          "start": 3,
+          "end": 4,
+          "uid": "txt-triste.-3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/358d2e83-3beb-4f00-918f-ae48bc56f710.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/358d2e83-3beb-4f00-918f-ae48bc56f710.jpg",
+        "filename": "358d2e83-3beb-4f00-918f-ae48bc56f710.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d027114bc0a8873ec952df",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67ab640cb5308a8132a2a9dc",
+        "created": "2025-03-11T12:05:37.049Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Petite",
+              "start": 0,
+              "end": 0.42,
+              "uid": "0-0.42-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3",
+              "filename": "df2f25e6-3b34-4cff-b7c9-3fe639706a34.mp3"
+            },
+            {
+              "id": 1,
+              "word": " Abeille",
+              "start": 0.42,
+              "end": 0.8,
+              "uid": "0.42-0.8-1",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3",
+              "filename": "5ff60d6c-e544-4fb1-84ae-8a525ae1c2e1.mp3"
+            },
+            {
+              "id": 2,
+              "word": " est",
+              "start": 0.8,
+              "end": 0.94,
+              "uid": "0.8-0.94-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/910b2888-6df9-4343-a5c2-29577fc0ae83.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/910b2888-6df9-4343-a5c2-29577fc0ae83.mp3",
+              "filename": "910b2888-6df9-4343-a5c2-29577fc0ae83.mp3"
+            },
+            {
+              "id": 3,
+              "word": " triste.",
+              "start": 0.94,
+              "end": 1.28,
+              "uid": "0.94-1.28-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/92338fe8-8f1d-49ac-be27-61dafe61f506.mp3",
+              "filename": "92338fe8-8f1d-49ac-be27-61dafe61f506.mp3"
+            }
+          ],
+          "text": " Petite Abeille est triste.",
+          "transcription": {
+            "text": " Petite Abeille est triste.",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.28,
+                "text": " Petite Abeille est triste.",
+                "tokens": [
+                  50364, 10472, 642, 38472, 3409, 871, 33526, 13, 50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.2768913745880127,
+                "compression_ratio": 0.7647058823529411,
+                "no_speech_prob": 0.014033534564077854,
+                "words": [
+                  {
+                    "word": " Petite",
+                    "start": 0,
+                    "end": 0.42,
+                    "probability": 0.6457136869430542
+                  },
+                  {
+                    "word": " Abeille",
+                    "start": 0.42,
+                    "end": 0.8,
+                    "probability": 0.06069107726216316
+                  },
+                  {
+                    "word": " est",
+                    "start": 0.8,
+                    "end": 0.94,
+                    "probability": 0.44783416390419006
+                  },
+                  {
+                    "word": " triste.",
+                    "start": 0.94,
+                    "end": 1.28,
+                    "probability": 0.7810497879981995
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3",
+          "filename": "cab66930-58bd-4da8-b46f-dcfc8aeb34cc.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f5be8046722db3a4ad2",
+      "title": "Page 3",
+      "description": "",
+      "text": "S’il te plaît, aide-moi à trouver ma maison, Éléphant!",
+      "media": [
+        {
+          "_id": "67b47167e8046722db3a4adc",
+          "mediaType": "static",
+          "name": "532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg",
+          "created": "2025-02-18T11:39:19.162Z",
+          "path": "/media/static/532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg",
+          "extension": ".svg",
+          "width": 1629,
+          "height": 1572,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "9a73501d-f719-4f46-86d9-a3d9d9074574",
+          "position": { "left": 274, "top": -438 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "type": "highlight",
+            "triggers": ["click"],
+            "settings": {},
+            "timing": [
+              {
+                "word": "Éléphant!",
+                "start": 2.078,
+                "end": 2.833,
+                "id": 54,
+                "uid": "2.078-2.833-8",
+                "mp3": "/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3"
+              }
+            ]
+          },
+          "filename": "532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg"
+        }
+      ],
+      "words": [
+        { "word": "S’il", "start": 0, "end": 1, "uid": "txt-Sil-0-1", "id": 0 },
+        { "word": "te", "start": 1, "end": 2, "uid": "txt-te-1-2", "id": 1 },
+        {
+          "word": "plaît,",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-plat,-2-3",
+          "id": 2
+        },
+        {
+          "word": "aide-moi",
+          "start": 3,
+          "end": 4,
+          "uid": "txt-aide-moi-3-4",
+          "id": 3
+        },
+        { "word": "à", "start": 4, "end": 5, "uid": "txt--4-5", "id": 4 },
+        {
+          "word": "trouver",
+          "start": 5,
+          "end": 6,
+          "uid": "txt-trouver-5-6",
+          "id": 5
+        },
+        { "word": "ma", "start": 6, "end": 7, "uid": "txt-ma-6-7", "id": 6 },
+        {
+          "word": "maison,",
+          "start": 7,
+          "end": 8,
+          "uid": "txt-maison,-7-8",
+          "id": 7
+        },
+        {
+          "word": "Éléphant!",
+          "start": 8,
+          "end": 9,
+          "uid": "txt-Éléphant-8-9",
+          "id": 8
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg",
+        "filename": "e05768b8-5c6e-44d6-8163-28152d73c7f4.jpg"
+      },
+      "audio": {
+        "_id": "67d036364bc0a8873ec96859",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f5be8046722db3a4ad2",
+        "created": "2025-03-11T13:10:14.492Z",
+        "pageAudio": {
+          "provider": null,
+          "mp3": "/audiolib/67d0265ecbfefe460317920a/audio/cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3",
+          "text": "S’il te plaît, aide-moi à trouver ma maison, Éléphant!",
+          "segments": [
+            {
+              "word": "S’il",
+              "start": 0,
+              "end": 0.279,
+              "id": 5,
+              "uid": "0-0.279-0",
+              "mp3": "/audiolib/mp3/word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3",
+              "path": "/audiolib/mp3/word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3",
+              "filename": "word-de985c3ddfa63f5a4f7c6e0e4d1ec378.mp3"
+            },
+            {
+              "word": "te",
+              "start": 0.279,
+              "end": 0.418,
+              "id": 8,
+              "uid": "0.279-0.418-1",
+              "mp3": "/audiolib/mp3/word-569ef72642be0fadd711d6a468d68ee1.mp3",
+              "path": "/audiolib/mp3/word-569ef72642be0fadd711d6a468d68ee1.mp3",
+              "filename": "word-569ef72642be0fadd711d6a468d68ee1.mp3"
+            },
+            {
+              "word": "plaît,",
+              "start": 0.418,
+              "end": 0.813,
+              "id": 15,
+              "uid": "0.418-0.813-2",
+              "mp3": "/audiolib/mp3/word-7a300c7f85d4988f375c18c3bfd31e39.mp3",
+              "path": "/audiolib/mp3/word-7a300c7f85d4988f375c18c3bfd31e39.mp3",
+              "filename": "word-7a300c7f85d4988f375c18c3bfd31e39.mp3"
+            },
+            {
+              "word": "aide-moi",
+              "start": 0.813,
+              "end": 1.265,
+              "id": 24,
+              "uid": "0.813-1.265-3",
+              "mp3": "/audiolib/mp3/word-afa4df2257578ef7375c1b7712e36c82.mp3",
+              "path": "/audiolib/mp3/word-afa4df2257578ef7375c1b7712e36c82.mp3",
+              "filename": "word-afa4df2257578ef7375c1b7712e36c82.mp3"
+            },
+            {
+              "word": "à",
+              "start": 1.265,
+              "end": 1.347,
+              "id": 26,
+              "uid": "1.265-1.347-4",
+              "mp3": "/audiolib/mp3/word-c9759ceb6487a0bd2720ca98f2622d24.mp3",
+              "path": "/audiolib/mp3/word-c9759ceb6487a0bd2720ca98f2622d24.mp3",
+              "filename": "word-c9759ceb6487a0bd2720ca98f2622d24.mp3"
+            },
+            {
+              "word": "trouver",
+              "start": 1.347,
+              "end": 1.625,
+              "id": 34,
+              "uid": "1.347-1.625-5",
+              "mp3": "/audiolib/mp3/word-2be91e7f12417d38008aa26cf9905998.mp3",
+              "path": "/audiolib/mp3/word-2be91e7f12417d38008aa26cf9905998.mp3",
+              "filename": "word-2be91e7f12417d38008aa26cf9905998.mp3"
+            },
+            {
+              "word": "ma",
+              "start": 1.625,
+              "end": 1.741,
+              "id": 37,
+              "uid": "1.625-1.741-6",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/184485d2-f633-4bf0-9564-813d8a5eb922.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/184485d2-f633-4bf0-9564-813d8a5eb922.mp3",
+              "filename": "184485d2-f633-4bf0-9564-813d8a5eb922.mp3"
+            },
+            {
+              "word": "maison,",
+              "start": 1.741,
+              "end": 2.078,
+              "id": 45,
+              "uid": "1.741-2.078-7",
+              "mp3": "/audiolib/mp3/word-ae2664af79c868c7f5e118c9f13a2e9a.mp3",
+              "path": "/audiolib/mp3/word-ae2664af79c868c7f5e118c9f13a2e9a.mp3",
+              "filename": "word-ae2664af79c868c7f5e118c9f13a2e9a.mp3"
+            },
+            {
+              "word": "Éléphant!",
+              "start": 2.078,
+              "end": 2.833,
+              "id": 54,
+              "uid": "2.078-2.833-8",
+              "mp3": "/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3",
+              "path": "/audiolib/mp3/word-edee88eae8a1b291170f503203bf0913.mp3",
+              "filename": "word-edee88eae8a1b291170f503203bf0913.mp3"
+            }
+          ],
+          "path": "/audiolib/67d0265ecbfefe460317920a/audio/cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3",
+          "filename": "cf6f4f7c-8879-4cff-81bb-3581f70f5422.mp3"
+        },
+        "updated": "2025-03-11T13:11:07.207Z"
+      }
+    },
+    {
+      "_id": "67b46f6ce8046722db3a4ad3",
+      "title": "Page 4",
+      "description": "",
+      "text": "Est-ce que ce nid est ta maison?",
+      "media": [
+        {
+          "_id": "67b470a0e8046722db3a4ada",
+          "mediaType": "static",
+          "name": "52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg",
+          "created": "2025-02-18T11:36:00.363Z",
+          "path": "/media/static/52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg",
+          "extension": ".svg",
+          "width": 285,
+          "height": 148,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "b138266f-fcdd-4d3b-92ba-977a8730786f",
+          "position": { "left": 1291, "top": 456 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "type": "shake",
+            "triggers": ["click"],
+            "settings": {},
+            "timing": []
+          },
+          "filename": "52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg"
+        },
+        {
+          "_id": "67b470a0e8046722db3a4ada",
+          "mediaType": "static",
+          "name": "52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg",
+          "created": "2025-02-18T11:36:00.363Z",
+          "path": "/media/static/52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg",
+          "extension": ".svg",
+          "width": 285,
+          "height": 148,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "bc97d89f-f181-426c-9eb7-65c1eddebe47",
+          "position": { "left": 821, "top": 274 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "type": "shake",
+            "triggers": ["click"],
+            "settings": {},
+            "timing": [
+              {
+                "id": 4,
+                "word": " nid",
+                "start": 0.7,
+                "end": 0.82,
+                "uid": "0.7-0.82-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3"
+              }
+            ]
+          },
+          "filename": "52e4f73c-4195-4d2b-918d-b3df4c7cb14d.svg"
+        }
+      ],
+      "words": [
+        {
+          "word": "Est-ce",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Est-ce-0-1",
+          "id": 0
+        },
+        { "word": "que", "start": 1, "end": 2, "uid": "txt-que-1-2", "id": 1 },
+        { "word": "ce", "start": 2, "end": 3, "uid": "txt-ce-2-3", "id": 2 },
+        { "word": "nid", "start": 3, "end": 4, "uid": "txt-nid-3-4", "id": 3 },
+        { "word": "est", "start": 4, "end": 5, "uid": "txt-est-4-5", "id": 4 },
+        { "word": "ta", "start": 5, "end": 6, "uid": "txt-ta-5-6", "id": 5 },
+        {
+          "word": "maison?",
+          "start": 6,
+          "end": 7,
+          "uid": "txt-maison-6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg",
+        "filename": "faeca0ec-b898-41e5-ad61-cb0a0825bea1.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d0369a4bc0a8873ec968fa",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f6ce8046722db3a4ad3",
+        "created": "2025-03-11T13:11:54.189Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Est-ce",
+              "start": 0,
+              "end": 0.34,
+              "uid": "0-0.34-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3",
+              "filename": "fe679691-11f8-4cb1-b43b-b0c8694a0745.mp3"
+            },
+            {
+              "id": 1,
+              "word": " ",
+              "start": 0.34,
+              "end": 0.3413333333333333,
+              "uid": "0.34-0.48-1"
+            },
+            {
+              "id": 2,
+              "word": " que",
+              "start": 0.3426666666666667,
+              "end": 0.56,
+              "uid": "0.48-0.56-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3",
+              "filename": "90ec34bc-06e4-4a80-94f9-ac46e4a98577.mp3"
+            },
+            {
+              "id": 3,
+              "word": " ce",
+              "start": 0.56,
+              "end": 0.7,
+              "uid": "0.56-0.7-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3",
+              "filename": "cb5766b4-7bec-4e39-a242-8837e1c1644a.mp3"
+            },
+            {
+              "id": 4,
+              "word": " nid",
+              "start": 0.7,
+              "end": 0.82,
+              "uid": "0.7-0.82-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/41b622d6-668c-4a56-a129-ecb7f17499f3.mp3",
+              "filename": "41b622d6-668c-4a56-a129-ecb7f17499f3.mp3"
+            },
+            {
+              "id": 5,
+              "word": " est",
+              "start": 0.82,
+              "end": 0.98,
+              "uid": "0.82-0.98-5",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/17753d37-ae51-4069-a7f0-7317d7332b55.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/17753d37-ae51-4069-a7f0-7317d7332b55.mp3",
+              "filename": "17753d37-ae51-4069-a7f0-7317d7332b55.mp3"
+            },
+            {
+              "id": 6,
+              "word": " ta",
+              "start": 0.98,
+              "end": 1.14,
+              "uid": "0.98-1.14-6",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3",
+              "filename": "e15285d9-3923-4f3f-8866-60c88a1cbd59.mp3"
+            },
+            {
+              "id": 7,
+              "word": " maison?",
+              "start": 1.14,
+              "end": 1.38,
+              "uid": "1.14-1.38-7",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/3306bb40-5293-446f-8aec-6ce6431485d1.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/3306bb40-5293-446f-8aec-6ce6431485d1.mp3",
+              "filename": "3306bb40-5293-446f-8aec-6ce6431485d1.mp3"
+            }
+          ],
+          "text": " Est-ce que ce nid est ta maison?",
+          "transcription": {
+            "text": " Est-ce que ce nid est ta maison?",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.38,
+                "text": " Est-ce que ce nid est ta maison?",
+                "tokens": [
+                  50364, 4410, 12, 384, 631, 1769, 297, 327, 871, 1846, 28511,
+                  30, 50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.18503168651035853,
+                "compression_ratio": 0.8421052631578947,
+                "no_speech_prob": 0.01089368388056755,
+                "words": [
+                  {
+                    "word": " Est",
+                    "start": 0,
+                    "end": 0.34,
+                    "probability": 0.70082688331604
+                  },
+                  {
+                    "word": "-ce",
+                    "start": 0.34,
+                    "end": 0.48,
+                    "probability": 0.8539953827857971
+                  },
+                  {
+                    "word": " que",
+                    "start": 0.48,
+                    "end": 0.56,
+                    "probability": 0.9919711351394653
+                  },
+                  {
+                    "word": " ce",
+                    "start": 0.56,
+                    "end": 0.7,
+                    "probability": 0.9657937288284302
+                  },
+                  {
+                    "word": " nid",
+                    "start": 0.7,
+                    "end": 0.82,
+                    "probability": 0.3850521359127015
+                  },
+                  {
+                    "word": " est",
+                    "start": 0.82,
+                    "end": 0.98,
+                    "probability": 0.7323708534240723
+                  },
+                  {
+                    "word": " ta",
+                    "start": 0.98,
+                    "end": 1.14,
+                    "probability": 0.04100096598267555
+                  },
+                  {
+                    "word": " maison?",
+                    "start": 1.14,
+                    "end": 1.38,
+                    "probability": 0.9867333769798279
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3",
+          "filename": "073fe2c3-0aaf-4aed-949c-d8f7fc6e7731.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f75e8046722db3a4ad4",
+      "title": "Page 5",
+      "description": "",
+      "text": "C’est la maison d’un oiseau.",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49b8",
+          "mediaType": "lottie",
+          "name": "Bird",
+          "filename": "Bird.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Bird.lottie",
+          "width": 230,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "7d001d02-d698-4ecf-a2d9-97b1ed8a8943",
+          "position": { "left": 845, "top": 126 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "word": "oiseau.",
+                "start": 0.789,
+                "end": 1.393,
+                "id": 28,
+                "uid": "0.789-1.393-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3"
+              }
+            ]
+          }
+        }
+      ],
+      "words": [
+        {
+          "word": "C’est",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Cest-0-1",
+          "id": 0
+        },
+        { "word": "la", "start": 1, "end": 2, "uid": "txt-la-1-2", "id": 1 },
+        {
+          "word": "maison",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-maison-2-3",
+          "id": 2
+        },
+        { "word": "d’un", "start": 3, "end": 4, "uid": "txt-dun-3-4", "id": 3 },
+        {
+          "word": "oiseau.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt-oiseau.-4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/5038b35e-dc7b-4050-8935-d9af80f34bad.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/5038b35e-dc7b-4050-8935-d9af80f34bad.jpg",
+        "filename": "5038b35e-dc7b-4050-8935-d9af80f34bad.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d037384bc0a8873ec96a05",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f75e8046722db3a4ad4",
+        "created": "2025-03-11T13:14:32.126Z",
+        "pageAudio": {
+          "provider": null,
+          "mp3": "/audiolib/67d0265ecbfefe460317920a/audio/f7908d3e-c027-46ba-8860-e2df4846c982.mp3",
+          "text": "C’est la maison d’un oiseau.",
+          "segments": [
+            {
+              "word": "C’est",
+              "start": 0,
+              "end": 0.221,
+              "id": 6,
+              "uid": "0-0.221-0",
+              "mp3": "/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3",
+              "path": "/audiolib/mp3/word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3",
+              "filename": "word-fce3eff1dbe5a9ec6c99adab90ce2a71.mp3"
+            },
+            {
+              "word": "la",
+              "start": 0.221,
+              "end": 0.348,
+              "id": 9,
+              "uid": "0.221-0.348-1",
+              "mp3": "/audiolib/mp3/word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3",
+              "path": "/audiolib/mp3/word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3",
+              "filename": "word-c9089f3c9adaf0186f6ffb1ee8d6501c.mp3"
+            },
+            {
+              "word": "maison",
+              "start": 0.348,
+              "end": 0.615,
+              "id": 16,
+              "uid": "0.348-0.615-2",
+              "mp3": "/audiolib/mp3/word-1f2e0146afb6c65f28298cdc8918784c.mp3",
+              "path": "/audiolib/mp3/word-1f2e0146afb6c65f28298cdc8918784c.mp3",
+              "filename": "word-1f2e0146afb6c65f28298cdc8918784c.mp3"
+            },
+            {
+              "word": "d’un",
+              "start": 0.615,
+              "end": 0.789,
+              "id": 21,
+              "uid": "0.615-0.789-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3",
+              "filename": "f871c1a7-4c5a-41bb-a384-d1d43ed276b7.mp3"
+            },
+            {
+              "word": "oiseau.",
+              "start": 0.789,
+              "end": 1.393,
+              "id": 28,
+              "uid": "0.789-1.393-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/1c054c5a-2cda-4efa-a584-15105527fffe.mp3",
+              "filename": "1c054c5a-2cda-4efa-a584-15105527fffe.mp3"
+            }
+          ],
+          "path": "/audiolib/67d0265ecbfefe460317920a/audio/f7908d3e-c027-46ba-8860-e2df4846c982.mp3",
+          "filename": "f7908d3e-c027-46ba-8860-e2df4846c982.mp3"
+        },
+        "updated": "2025-03-11T13:14:32.126Z"
+      }
+    },
+    {
+      "_id": "67b46f7be8046722db3a4ad5",
+      "title": "Page 6",
+      "description": "",
+      "text": "Est-ce que cette grotte est ta maison?",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49b9",
+          "mediaType": "lottie",
+          "name": "Cave",
+          "filename": "Cave.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Cave.lottie",
+          "width": 1250,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "422ae46a-ea74-467d-9a3b-d2cf1221a973",
+          "position": { "left": 1452, "top": 493 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": { "timing": [] }
+        },
+        {
+          "_id": "67b47174e8046722db3a4add",
+          "mediaType": "static",
+          "name": "810dea2f-244e-41ea-bf41-d00a10c6b851.svg",
+          "created": "2025-02-18T11:39:32.309Z",
+          "path": "/media/static/810dea2f-244e-41ea-bf41-d00a10c6b851.svg",
+          "extension": ".svg",
+          "width": 150,
+          "height": 127,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "c3976e85-7105-494f-8261-d5206e197e0b",
+          "position": { "left": 1023, "top": 339 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": { "timing": [] },
+          "filename": "810dea2f-244e-41ea-bf41-d00a10c6b851.svg"
+        },
+        {
+          "_id": "67b501e08b42b085a4af49b9",
+          "mediaType": "lottie",
+          "name": "Cave",
+          "filename": "Cave.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Cave.lottie",
+          "width": 800,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "53fcfdc0-de89-4372-b56c-5b595cc26522",
+          "position": { "left": 692, "top": -39 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 4,
+                "word": " grotte",
+                "start": 0.78,
+                "end": 1.04,
+                "uid": "0.78-1.04-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3"
+              }
+            ]
+          },
+          "zIndex": 7
+        }
+      ],
+      "words": [
+        {
+          "word": "Est-ce",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Est-ce-0-1",
+          "id": 0
+        },
+        { "word": "que", "start": 1, "end": 2, "uid": "txt-que-1-2", "id": 1 },
+        {
+          "word": "cette",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-cette-2-3",
+          "id": 2
+        },
+        {
+          "word": "grotte",
+          "start": 3,
+          "end": 4,
+          "uid": "txt-grotte-3-4",
+          "id": 3
+        },
+        { "word": "est", "start": 4, "end": 5, "uid": "txt-est-4-5", "id": 4 },
+        { "word": "ta", "start": 5, "end": 6, "uid": "txt-ta-5-6", "id": 5 },
+        {
+          "word": "maison?",
+          "start": 6,
+          "end": 7,
+          "uid": "txt-maison-6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg",
+        "filename": "2f7e82cc-b7ce-4b70-a7cc-02512a2dbba3.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d037634bc0a8873ec96a55",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f7be8046722db3a4ad5",
+        "created": "2025-03-11T13:15:15.663Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/0c867f85-d7fd-430d-844c-a5846a721527.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Est-ce",
+              "start": 0,
+              "end": 0.34,
+              "uid": "0-0.34-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3",
+              "filename": "4f9d72d8-7626-4993-8d61-cfdbc6c5de0d.mp3"
+            },
+            {
+              "id": 1,
+              "word": " ",
+              "start": 0.34,
+              "end": 0.34,
+              "uid": "0.34-0.52-1"
+            },
+            {
+              "id": 2,
+              "word": " que",
+              "start": 0.52,
+              "end": 0.56,
+              "uid": "0.52-0.56-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3",
+              "filename": "6e6b1dae-8c6f-4c80-848b-46d3a612867d.mp3"
+            },
+            {
+              "id": 3,
+              "word": " cette",
+              "start": 0.56,
+              "end": 0.78,
+              "uid": "0.56-0.78-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/94a1cb96-e028-423a-b899-9edb7ad826b4.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/94a1cb96-e028-423a-b899-9edb7ad826b4.mp3",
+              "filename": "94a1cb96-e028-423a-b899-9edb7ad826b4.mp3"
+            },
+            {
+              "id": 4,
+              "word": " grotte",
+              "start": 0.78,
+              "end": 1.04,
+              "uid": "0.78-1.04-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/9b82546c-a03c-446e-b332-b8557c3154aa.mp3",
+              "filename": "9b82546c-a03c-446e-b332-b8557c3154aa.mp3"
+            },
+            {
+              "id": 5,
+              "word": " est",
+              "start": 1.04,
+              "end": 1.28,
+              "uid": "1.04-1.28-5",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3",
+              "filename": "5cad9dc3-42e9-4ac6-a61e-462a7c021540.mp3"
+            },
+            {
+              "id": 6,
+              "word": " ta",
+              "start": 1.28,
+              "end": 1.44,
+              "uid": "1.28-1.44-6",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3",
+              "filename": "8e5cc68a-bf98-48ce-b8dd-3d5786d4a0f0.mp3"
+            },
+            {
+              "id": 7,
+              "word": " maison?",
+              "start": 1.44,
+              "end": 1.72,
+              "uid": "1.44-1.72-7",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/21f523ea-7d24-429b-8366-21a859ecd7e9.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/21f523ea-7d24-429b-8366-21a859ecd7e9.mp3",
+              "filename": "21f523ea-7d24-429b-8366-21a859ecd7e9.mp3"
+            }
+          ],
+          "text": " Est-ce que cette grotte est ta maison?",
+          "transcription": {
+            "text": " Est-ce que cette grotte est ta maison?",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.72,
+                "text": " Est-ce que cette grotte est ta maison?",
+                "tokens": [
+                  50364, 4410, 12, 384, 631, 5550, 677, 13079, 871, 1846, 28511,
+                  30, 50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.16840437480381557,
+                "compression_ratio": 0.8837209302325582,
+                "no_speech_prob": 0.003982975613325834,
+                "words": [
+                  {
+                    "word": " Est",
+                    "start": 0,
+                    "end": 0.34,
+                    "probability": 0.5904841423034668
+                  },
+                  {
+                    "word": "-ce",
+                    "start": 0.34,
+                    "end": 0.52,
+                    "probability": 0.8236265778541565
+                  },
+                  {
+                    "word": " que",
+                    "start": 0.52,
+                    "end": 0.56,
+                    "probability": 0.9815512895584106
+                  },
+                  {
+                    "word": " cette",
+                    "start": 0.56,
+                    "end": 0.78,
+                    "probability": 0.9562143087387085
+                  },
+                  {
+                    "word": " grotte",
+                    "start": 0.78,
+                    "end": 1.04,
+                    "probability": 0.852838009595871
+                  },
+                  {
+                    "word": " est",
+                    "start": 1.04,
+                    "end": 1.28,
+                    "probability": 0.9763773083686829
+                  },
+                  {
+                    "word": " ta",
+                    "start": 1.28,
+                    "end": 1.44,
+                    "probability": 0.019291549921035767
+                  },
+                  {
+                    "word": " maison?",
+                    "start": 1.44,
+                    "end": 1.72,
+                    "probability": 0.9889117479324341
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/0c867f85-d7fd-430d-844c-a5846a721527.mp3",
+          "filename": "0c867f85-d7fd-430d-844c-a5846a721527.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f82e8046722db3a4ad6",
+      "title": "Page 7",
+      "description": "",
+      "text": "C’est la maison d’une chauve-souris.",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49b6",
+          "mediaType": "lottie",
+          "name": "Bat",
+          "filename": "Bat.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Bat.lottie",
+          "width": 300,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "e5470886-ff0d-4041-9cb3-b64cc0ff35e4",
+          "position": { "left": 771, "top": 5 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 4,
+                "word": " chauve-souris.",
+                "start": 1,
+                "end": 1.22,
+                "uid": "1-1.22-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "_id": "67b501e08b42b085a4af49b6",
+          "mediaType": "lottie",
+          "name": "Bat",
+          "filename": "Bat.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Bat.lottie",
+          "width": 200,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "a7921dc6-5b3f-4eb5-8cd4-5166839f1696",
+          "position": { "left": 771, "top": 184 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 4,
+                "word": " chauve-souris.",
+                "start": 1,
+                "end": 1.22,
+                "uid": "1-1.22-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3"
+              }
+            ]
+          }
+        }
+      ],
+      "words": [
+        {
+          "word": "C’est",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Cest-0-1",
+          "id": 0
+        },
+        { "word": "la", "start": 1, "end": 2, "uid": "txt-la-1-2", "id": 1 },
+        {
+          "word": "maison",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-maison-2-3",
+          "id": 2
+        },
+        {
+          "word": "d’une",
+          "start": 3,
+          "end": 4,
+          "uid": "txt-dune-3-4",
+          "id": 3
+        },
+        {
+          "word": "chauve-souris.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt-chauve-souris.-4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/1ab21967-cd26-4377-9787-c1dae124f9c2.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/1ab21967-cd26-4377-9787-c1dae124f9c2.jpg",
+        "filename": "1ab21967-cd26-4377-9787-c1dae124f9c2.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d152aa4bc0a8873ecafb34",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f82e8046722db3a4ad6",
+        "created": "2025-03-12T09:23:54.537Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " C’est",
+              "start": 0,
+              "end": 0.32,
+              "uid": "0-0.32-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3",
+              "filename": "97c7bfbe-acca-4ecc-924d-dabf64dd6aad.mp3"
+            },
+            {
+              "id": 1,
+              "word": " la",
+              "start": 0.32,
+              "end": 0.42,
+              "uid": "0.32-0.42-1",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3",
+              "filename": "89870a52-e7cc-45e5-a2a6-502eaff9ff71.mp3"
+            },
+            {
+              "id": 2,
+              "word": " maison",
+              "start": 0.42,
+              "end": 0.66,
+              "uid": "0.42-0.66-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3",
+              "filename": "6af14676-fbfd-4ec1-8d6c-0bffb4e78078.mp3"
+            },
+            {
+              "id": 3,
+              "word": " d’une",
+              "start": 0.66,
+              "end": 1,
+              "uid": "0.66-1-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/dca4fbfd-c419-407c-9651-cf44de714c5f.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/dca4fbfd-c419-407c-9651-cf44de714c5f.mp3",
+              "filename": "dca4fbfd-c419-407c-9651-cf44de714c5f.mp3"
+            },
+            {
+              "id": 4,
+              "word": " chauve-souris.",
+              "start": 1,
+              "end": 1.22,
+              "uid": "1-1.22-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/f61e18f2-0751-438e-a80d-d22bc6006251.mp3",
+              "filename": "f61e18f2-0751-438e-a80d-d22bc6006251.mp3"
+            },
+            {
+              "id": 5,
+              "word": " ",
+              "start": 1.4493333333333334,
+              "end": 1.4493333333333334,
+              "uid": "1.22-1.62-5"
+            }
+          ],
+          "text": " C’est la maison d’une chauve-souris.",
+          "transcription": {
+            "text": " C’est la maison d’une chauve-souris.",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.62,
+                "text": " C’est la maison d’une chauve-souris.",
+                "tokens": [
+                  50364, 383, 913, 247, 377, 635, 28511, 274, 913, 247, 2613,
+                  417, 1459, 303, 12, 82, 396, 271, 13, 50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.1834166958218529,
+                "compression_ratio": 0.851063829787234,
+                "no_speech_prob": 0.002598250051960349,
+                "words": [
+                  {
+                    "word": " C’est",
+                    "start": 0,
+                    "end": 0.32,
+                    "probability": 0.1891970342842293
+                  },
+                  {
+                    "word": " la",
+                    "start": 0.32,
+                    "end": 0.42,
+                    "probability": 0.8394542932510376
+                  },
+                  {
+                    "word": " maison",
+                    "start": 0.42,
+                    "end": 0.66,
+                    "probability": 0.9573991894721985
+                  },
+                  {
+                    "word": " d’une",
+                    "start": 0.66,
+                    "end": 1,
+                    "probability": 0.5423308461904526
+                  },
+                  {
+                    "word": " chauve",
+                    "start": 1,
+                    "end": 1.22,
+                    "probability": 0.3993576342860858
+                  },
+                  {
+                    "word": "-souris.",
+                    "start": 1.22,
+                    "end": 1.62,
+                    "probability": 0.4500248269177973
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3",
+          "filename": "3550cbdd-a7e3-4c74-ab97-d7877ef9ac4c.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f8ae8046722db3a4ad7",
+      "title": "Page 8",
+      "description": "",
+      "text": "Est-ce que cette ruche est ta maison?",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49bb",
+          "mediaType": "lottie",
+          "name": "Hive",
+          "filename": "Hive.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Hive.lottie",
+          "width": 400,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "57e88e40-8ee6-4667-ad06-c4d0a70aeed2",
+          "position": { "left": 106, "top": 94 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 4,
+                "word": " ruche",
+                "start": 0.7,
+                "end": 1.04,
+                "uid": "0.7-1.04-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3"
+              }
+            ]
+          },
+          "mirror": true
+        }
+      ],
+      "words": [
+        {
+          "word": "Est-ce",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Est-ce-0-1",
+          "id": 0
+        },
+        { "word": "que", "start": 1, "end": 2, "uid": "txt-que-1-2", "id": 1 },
+        {
+          "word": "cette",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-cette-2-3",
+          "id": 2
+        },
+        {
+          "word": "ruche",
+          "start": 3,
+          "end": 4,
+          "uid": "txt-ruche-3-4",
+          "id": 3
+        },
+        { "word": "est", "start": 4, "end": 5, "uid": "txt-est-4-5", "id": 4 },
+        { "word": "ta", "start": 5, "end": 6, "uid": "txt-ta-5-6", "id": 5 },
+        {
+          "word": "maison?",
+          "start": 6,
+          "end": 7,
+          "uid": "txt-maison-6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/74b9815c-f113-4825-bff8-4e524fe8cac3.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/74b9815c-f113-4825-bff8-4e524fe8cac3.jpg",
+        "filename": "74b9815c-f113-4825-bff8-4e524fe8cac3.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d037b84bc0a8873ec96aee",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f8ae8046722db3a4ad7",
+        "created": "2025-03-11T13:16:40.828Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/d337b814-4de7-4674-94bb-8ba2f807d40b.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Est-ce",
+              "start": 0,
+              "end": 0.32,
+              "uid": "0-0.32-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3",
+              "filename": "8a10bf34-52a1-4b96-985e-b6f1cddb96be.mp3"
+            },
+            {
+              "id": 1,
+              "word": " ",
+              "start": 0.32,
+              "end": 0.32,
+              "uid": "0.32-0.44-1"
+            },
+            {
+              "id": 2,
+              "word": " que",
+              "start": 0.452,
+              "end": 0.48,
+              "uid": "0.44-0.48-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3",
+              "filename": "a72f9d9f-14c6-41a8-baff-dfa2779180a4.mp3"
+            },
+            {
+              "id": 3,
+              "word": " cette",
+              "start": 0.48,
+              "end": 0.7,
+              "uid": "0.48-0.7-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3",
+              "filename": "fd420751-27ac-4ac2-8ed8-1b22f55f9af7.mp3"
+            },
+            {
+              "id": 4,
+              "word": " ruche",
+              "start": 0.7,
+              "end": 1.04,
+              "uid": "0.7-1.04-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/43a21a29-b079-4441-817c-392678bfcd84.mp3",
+              "filename": "43a21a29-b079-4441-817c-392678bfcd84.mp3"
+            },
+            {
+              "id": 5,
+              "word": " est",
+              "start": 1.04,
+              "end": 1.3,
+              "uid": "1.04-1.3-5",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3",
+              "filename": "5559e3e1-7cf1-4fdb-a920-bbcba7e5cf27.mp3"
+            },
+            {
+              "id": 6,
+              "word": " ta",
+              "start": 1.3,
+              "end": 1.44,
+              "uid": "1.3-1.44-6",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3",
+              "filename": "6d3c605d-e26a-4d50-b1e0-90236c4b5276.mp3"
+            },
+            {
+              "id": 7,
+              "word": " maison?",
+              "start": 1.44,
+              "end": 1.68,
+              "uid": "1.44-1.68-7",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/a7cc8ab6-b659-4887-b100-8da454264c26.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/a7cc8ab6-b659-4887-b100-8da454264c26.mp3",
+              "filename": "a7cc8ab6-b659-4887-b100-8da454264c26.mp3"
+            }
+          ],
+          "text": " Est-ce que cette ruche est ta maison?",
+          "transcription": {
+            "text": " Est-ce que cette ruche est ta maison?",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.68,
+                "text": " Est-ce que cette ruche est ta maison?",
+                "tokens": [
+                  50364, 4410, 12, 384, 631, 5550, 367, 17545, 871, 1846, 28511,
+                  30, 50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.18955533845084055,
+                "compression_ratio": 0.8222222222222222,
+                "no_speech_prob": 0.003433970035985112,
+                "words": [
+                  {
+                    "word": " Est",
+                    "start": 0,
+                    "end": 0.32,
+                    "probability": 0.8719626665115356
+                  },
+                  {
+                    "word": "-ce",
+                    "start": 0.32,
+                    "end": 0.44,
+                    "probability": 0.8873753547668457
+                  },
+                  {
+                    "word": " que",
+                    "start": 0.44,
+                    "end": 0.48,
+                    "probability": 0.9871922731399536
+                  },
+                  {
+                    "word": " cette",
+                    "start": 0.48,
+                    "end": 0.7,
+                    "probability": 0.8377996683120728
+                  },
+                  {
+                    "word": " ruche",
+                    "start": 0.7,
+                    "end": 1.04,
+                    "probability": 0.708139955997467
+                  },
+                  {
+                    "word": " est",
+                    "start": 1.04,
+                    "end": 1.3,
+                    "probability": 0.9808758497238159
+                  },
+                  {
+                    "word": " ta",
+                    "start": 1.3,
+                    "end": 1.44,
+                    "probability": 0.00025527653633616865
+                  },
+                  {
+                    "word": " maison?",
+                    "start": 1.44,
+                    "end": 1.68,
+                    "probability": 0.9921807050704956
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/d337b814-4de7-4674-94bb-8ba2f807d40b.mp3",
+          "filename": "d337b814-4de7-4674-94bb-8ba2f807d40b.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f90e8046722db3a4ad8",
+      "title": "Page 9",
+      "description": "",
+      "text": "Oui! Petite Abeille est heureuse.",
+      "media": [
+        {
+          "_id": "67b501e08b42b085a4af49ba",
+          "mediaType": "lottie",
+          "name": "Happy-bee",
+          "filename": "Happy-bee.lottie",
+          "extension": ".lottie",
+          "path": "/media/lottie/Happy-bee.lottie",
+          "width": 150,
+          "height": 0,
+          "mimeType": "",
+          "meta": {},
+          "depricated": false,
+          "id": "6ee211f7-2fbb-4f45-a45d-1c47c53c0c3f",
+          "position": { "left": 789, "top": 204 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "timing": [
+              {
+                "id": 4,
+                "word": " heureuse.",
+                "start": 1.46,
+                "end": 1.82,
+                "uid": "1.46-1.82-4",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3"
+              }
+            ]
+          }
+        }
+      ],
+      "words": [
+        { "word": "Oui!", "start": 0, "end": 1, "uid": "txt-Oui-0-1", "id": 0 },
+        {
+          "word": "Petite",
+          "start": 1,
+          "end": 2,
+          "uid": "txt-Petite-1-2",
+          "id": 1
+        },
+        {
+          "word": "Abeille",
+          "start": 2,
+          "end": 3,
+          "uid": "txt-Abeille-2-3",
+          "id": 2
+        },
+        { "word": "est", "start": 3, "end": 4, "uid": "txt-est-3-4", "id": 3 },
+        {
+          "word": "heureuse.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt-heureuse.-4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/7793880e-7683-451b-b887-cbcf025751c5.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/7793880e-7683-451b-b887-cbcf025751c5.jpg",
+        "filename": "7793880e-7683-451b-b887-cbcf025751c5.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d1515b4bc0a8873ecaf8fc",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f90e8046722db3a4ad8",
+        "created": "2025-03-12T09:18:19.623Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Oui!",
+              "start": 0,
+              "end": 0.42,
+              "uid": "0-0.42-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/333899fd-98d3-411b-bd11-670876e68a0e.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/333899fd-98d3-411b-bd11-670876e68a0e.mp3",
+              "filename": "333899fd-98d3-411b-bd11-670876e68a0e.mp3"
+            },
+            {
+              "id": 1,
+              "word": " Petite",
+              "start": 0.62,
+              "end": 0.78,
+              "uid": "0.62-0.78-1",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3",
+              "filename": "8afdbbce-2aaa-4fd2-b973-61dc0cc24173.mp3"
+            },
+            {
+              "id": 2,
+              "word": " Abeille",
+              "start": 0.78,
+              "end": 1.34,
+              "uid": "0.78-1.34-2",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fce9c34b-a832-4041-a39e-e555afc33037.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/fce9c34b-a832-4041-a39e-e555afc33037.mp3",
+              "filename": "fce9c34b-a832-4041-a39e-e555afc33037.mp3"
+            },
+            {
+              "id": 3,
+              "word": " est",
+              "start": 1.34,
+              "end": 1.46,
+              "uid": "1.34-1.46-3",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3",
+              "filename": "b7833ded-1ee8-4d6b-9499-981d1928bfc2.mp3"
+            },
+            {
+              "id": 4,
+              "word": " heureuse.",
+              "start": 1.46,
+              "end": 1.82,
+              "uid": "1.46-1.82-4",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/ed9f7725-860f-49d4-81fe-64a16531d54a.mp3",
+              "filename": "ed9f7725-860f-49d4-81fe-64a16531d54a.mp3"
+            }
+          ],
+          "text": " Oui! Petite Abeille est heureuse.",
+          "transcription": {
+            "text": " Oui! Petite Abeille est heureuse.",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 1.82,
+                "text": " Oui! Petite Abeille est heureuse.",
+                "tokens": [
+                  50364, 14005, 0, 10472, 642, 38472, 3409, 871, 30027, 438, 13,
+                  50464
+                ],
+                "temperature": 0.1,
+                "avg_logprob": -0.2036439455472506,
+                "compression_ratio": 0.8048780487804879,
+                "no_speech_prob": 0.021620269864797592,
+                "words": [
+                  {
+                    "word": " Oui!",
+                    "start": 0,
+                    "end": 0.42,
+                    "probability": 0.8008778095245361
+                  },
+                  {
+                    "word": " Petite",
+                    "start": 0.62,
+                    "end": 0.78,
+                    "probability": 0.5360215306282043
+                  },
+                  {
+                    "word": " Abeille",
+                    "start": 0.78,
+                    "end": 1.34,
+                    "probability": 0.03033122606575489
+                  },
+                  {
+                    "word": " est",
+                    "start": 1.34,
+                    "end": 1.46,
+                    "probability": 0.4894498884677887
+                  },
+                  {
+                    "word": " heureuse.",
+                    "start": 1.46,
+                    "end": 1.82,
+                    "probability": 0.9795055091381073
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3",
+          "filename": "6714d049-b3b1-4812-8d5c-ebeaf0388ad6.mp3"
+        }
+      }
+    },
+    {
+      "_id": "67b46f95e8046722db3a4ad9",
+      "title": "Page 10",
+      "description": "",
+      "text": "Merci, Éléphant!",
+      "media": [
+        {
+          "_id": "67b47183e8046722db3a4ade",
+          "mediaType": "static",
+          "name": "c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg",
+          "created": "2025-02-18T11:39:47.257Z",
+          "path": "/media/static/c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg",
+          "extension": ".svg",
+          "width": 1830,
+          "height": 1767,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "65ba78d6-0640-4f2a-bf14-fc633c07fa56",
+          "position": { "left": 1415, "top": 494 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "type": "highlight",
+            "triggers": ["click"],
+            "settings": {},
+            "timing": []
+          },
+          "filename": "c5b68128-9c1e-4fc8-8570-fb0a1014e98d.svg"
+        },
+        {
+          "_id": "67b47167e8046722db3a4adc",
+          "mediaType": "static",
+          "name": "532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg",
+          "created": "2025-02-18T11:39:19.162Z",
+          "path": "/media/static/532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg",
+          "extension": ".svg",
+          "width": 1629,
+          "height": 1572,
+          "mimeType": "image/svg+xml",
+          "meta": {},
+          "id": "73e3388a-e520-4ae5-959e-b5901d76d5db",
+          "position": { "left": 314, "top": -464 },
+          "scaleSize": 100,
+          "linkedWords": [],
+          "effect": {
+            "type": "highlight",
+            "triggers": ["click"],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "word": " Éléphant!",
+                "start": 0.6,
+                "end": 0.9,
+                "uid": "0.6-0.9-1",
+                "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3"
+              }
+            ]
+          },
+          "zIndex": 10,
+          "filename": "532ab76f-4361-4fa8-9653-09f4ff88a8f0.svg"
+        }
+      ],
+      "words": [
+        {
+          "word": "Merci,",
+          "start": 0,
+          "end": 1,
+          "uid": "txt-Merci,-0-1",
+          "id": 0
+        },
+        {
+          "word": "Éléphant!",
+          "start": 1,
+          "end": 2,
+          "uid": "txt-Éléphant-1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "image",
+        "url": "/d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg",
+        "size": { "width": 1279, "height": 600 },
+        "fileType": "jpg",
+        "path": "/resources/books/67d0265ecbfefe460317920a/assets/images/d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg",
+        "filename": "d00eebe6-5014-497f-bf36-84cf5ecd7ebb.jpg"
+      },
+      "layoutStyle": 1,
+      "audio": {
+        "_id": "67d151844bc0a8873ecaf946",
+        "bookId": "67d0265ecbfefe460317920a",
+        "pageId": "67b46f95e8046722db3a4ad9",
+        "created": "2025-03-12T09:19:00.886Z",
+        "pageAudio": {
+          "provider": "whisper",
+          "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "word": " Merci,",
+              "start": 0,
+              "end": 0.46,
+              "uid": "0-0.46-0",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/27aaf3bc-3a22-4460-9add-94bef3e93056.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/27aaf3bc-3a22-4460-9add-94bef3e93056.mp3",
+              "filename": "27aaf3bc-3a22-4460-9add-94bef3e93056.mp3"
+            },
+            {
+              "id": 1,
+              "word": " Éléphant!",
+              "start": 0.6,
+              "end": 0.9,
+              "uid": "0.6-0.9-1",
+              "mp3": "/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3",
+              "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3",
+              "filename": "7ec9e480-eba8-47c4-9129-2b7d21d005b5.mp3"
+            }
+          ],
+          "text": " Merci, Éléphant!",
+          "transcription": {
+            "text": " Merci, Éléphant!",
+            "segments": [
+              {
+                "id": 0,
+                "seek": 0,
+                "start": 0,
+                "end": 0.9,
+                "text": " Merci, Éléphant!",
+                "tokens": [50364, 19856, 11, 4922, 29728, 15071, 0, 50416],
+                "temperature": 0.1,
+                "avg_logprob": -0.40854019588894314,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.003389488672837615,
+                "words": [
+                  {
+                    "word": " Merci,",
+                    "start": 0,
+                    "end": 0.46,
+                    "probability": 0.9315096735954285
+                  },
+                  {
+                    "word": " Éléphant!",
+                    "start": 0.6,
+                    "end": 0.9,
+                    "probability": 0.08395685049860428
+                  }
+                ]
+              }
+            ],
+            "language": "fr"
+          },
+          "path": "/resources/books/67d0265ecbfefe460317920a/assets/audio/e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3",
+          "filename": "e2c962d2-8fb0-48eb-8029-54b42037fffd.mp3"
+        }
+      }
+    }
+  ],
+  "cover": { "show": false, "image": null, "text": null, "description": null },
+  "owner": "672b8666ccec90ad6b811f4b",
+  "bookTranslationRef": "67ab6406b5308a8132a2a9db",
+  "bookRefId": "67ab6406b5308a8132a2a9db",
+  "slug": "TheBeeAndTheElephantFr-1"
+}
