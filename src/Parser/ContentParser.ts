@@ -213,7 +213,10 @@ export class ContentParser {
                     elementJSON["action"]["subContentId"] +
                     "_" +
                     timestampIndex.toString(),
-                word: timestampJSON["text"].replace(/&#039;/g, "'"),
+                word: timestampJSON["text"]
+                    .replace(/&#039;/g, "'")
+                    .replace(/&lt;/g, "<")
+                    .replace(/&gt;/g, ">"),
                 startTimestamp: timestampJSON["startDuration"],
                 endTimestamp: timestampJSON["endDuration"],
                 audioSrc: timestampJSON["wordfile"][0]["path"],
