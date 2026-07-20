@@ -132,13 +132,35 @@ export class PlayBackEngine {
                 audioElementDom.pause();
                 audioElementDom.currentTime = 0;
                 clearInterval(this.currentPageAutoPlayerInterval);
+                clearTimeout(this.currentGlowImageTimeout);
                 for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
                     let wordElement = document.getElementById(audioElement.domID + "_word_" + j) as HTMLDivElement;
-                    wordElement.classList.remove("cr-clickable-word-active");
-                    wordElement.style.color = "white";
+                    if (wordElement) {
+                        wordElement.classList.remove("cr-clickable-word-active");
+                        wordElement.style.color = "white";
+                    }
                 }
+                for (let i = 0; i < this.currentlyActiveGlowImages.length; i++) {
+                    this.currentlyActiveGlowImages[i].style.boxShadow = "transparent 0px 0px 20px 20px";
+                }
+                this.currentlyActiveGlowImages = Array();
+                this.currentlyActiveWord = null;
             }
         }
+    }
+
+    // Determines the single word index that should be highlighted at currentTime,
+    // walking forward/backward from searchStartHint instead of rescanning every word.
+    // Overlapping timestamp windows can no longer produce more than one "current" index.
+    resolveCurrentWordIndex(timestamps: WordTimestampElement[], currentTime: number, searchStartHint: number): number {
+        let idx = searchStartHint < 0 ? 0 : searchStartHint;
+        while (idx < timestamps.length - 1 && currentTime >= timestamps[idx + 1].startTimestamp) {
+            idx++;
+        }
+        while (idx > 0 && currentTime < timestamps[idx].startTimestamp) {
+            idx--;
+        }
+        return idx;
     }
 
     playPageAudio(page: Page, pageIndex: number) {
@@ -161,40 +183,50 @@ export class PlayBackEngine {
                 audioElementDom.play();
                 this.currentlyPlayingAudioElement = audioElementDom;
 
-                let lastWordIndex = 0;
-                let currentIndex = 0;
+                // Reset any leftover highlight state from a previous page/word before this
+                // page's interval starts driving it, so the first tick always re-highlights.
+                if (this.currentlyActiveWord !== null) {
+                    this.currentlyActiveWord.classList.remove("cr-clickable-word-active");
+                    this.currentlyActiveWord.style.color = "white";
+                    this.currentlyActiveWord = null;
+                }
+
+                let currentIndex = -1;
 
                 console.log("Starting the auto player interval for word highlighting with 60ms interval");
-                
-                this.currentPageAutoPlayerInterval = setInterval(() => {
-                        if (audioElement.audioTimestamps !== undefined) {
-                        let currentTime = audioElementDom.currentTime;
-                        for (let j = 0; j < audioElement.audioTimestamps.timestamps.length; j++) {
-                            if (currentTime >= audioElement.audioTimestamps.timestamps[j].startTimestamp && currentTime <= audioElement.audioTimestamps.timestamps[j].endTimestamp) {
-                                currentIndex = j;
-                                let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
-                                this.currentlyActiveWord = wordElement;
-                                wordElement.classList.add("cr-clickable-word-active");
-                                wordElement.style.color = audioElement.glowColor;
-                                this.enableConnectedGraphicHighlighting(pageIndex, currentIndex);
-                            }
 
-                            if (lastWordIndex < currentIndex) {
-                                // console.log("Current index: " + currentIndex + " last index: " + lastWordIndex);
-                                let wordElement = document.getElementById(audioElement.domID + "_word_" + lastWordIndex) as HTMLDivElement;
-                                wordElement.classList.remove("cr-clickable-word-active");
-                                wordElement.style.color = "white";
-                                lastWordIndex = currentIndex;
-                            }
+                this.currentPageAutoPlayerInterval = setInterval(() => {
+                    let timestamps = audioElement.audioTimestamps?.timestamps;
+                    if (timestamps === undefined || timestamps.length === 0) {
+                        return;
+                    }
+
+                    let currentTime = audioElementDom.currentTime;
+                    let newIndex = this.resolveCurrentWordIndex(timestamps, currentTime, currentIndex);
+
+                    if (newIndex !== currentIndex) {
+                        if (this.currentlyActiveWord !== null) {
+                            this.currentlyActiveWord.classList.remove("cr-clickable-word-active");
+                            this.currentlyActiveWord.style.color = "white";
                         }
-                        if (currentTime >= audioElement.audioTimestamps.timestamps[audioElement.audioTimestamps.timestamps.length - 1].endTimestamp - 0.1) {
-                            // console.log("Finished Highlighting! Current index: " + currentIndex + " last index: " + lastWordIndex);
-                            let wordElement = document.getElementById(audioElement.domID + "_word_" + currentIndex) as HTMLDivElement;
-                            wordElement.classList.remove("cr-clickable-word-active");
-                            wordElement.style.color = "white";
-                            this.currentlyPlayingAudioElement = null;
-                            clearInterval(this.currentPageAutoPlayerInterval);
+                        let wordElement = document.getElementById(audioElement.domID + "_word_" + newIndex) as HTMLDivElement;
+                        if (wordElement) {
+                            wordElement.classList.add("cr-clickable-word-active");
+                            wordElement.style.color = audioElement.glowColor;
+                            this.currentlyActiveWord = wordElement;
                         }
+                        currentIndex = newIndex;
+                        this.enableConnectedGraphicHighlighting(pageIndex, currentIndex);
+                    }
+
+                    if (currentTime >= timestamps[timestamps.length - 1].endTimestamp - 0.1) {
+                        if (this.currentlyActiveWord !== null) {
+                            this.currentlyActiveWord.classList.remove("cr-clickable-word-active");
+                            this.currentlyActiveWord.style.color = "white";
+                            this.currentlyActiveWord = null;
+                        }
+                        this.currentlyPlayingAudioElement = null;
+                        clearInterval(this.currentPageAutoPlayerInterval);
                     }
                 }, 60);
             }
@@ -584,15 +616,17 @@ export class PlayBackEngine {
             this.currentlyPlayingAudioElement.currentTime = 0;
             clearInterval(this.currentPageAutoPlayerInterval);
             clearTimeout(this.currentWordPlayingTimeout);
-            clearTimeout(this.currentGlowImageTimeout);
             if (this.currentlyActiveWord !== null) {
                 this.currentlyActiveWord.classList.remove("cr-clickable-word-active");
                 this.currentlyActiveWord.style.color = "white";
             }
-            if (this.currentlyActiveGlowImages.length > 0) {
-                for (let i = 0; i < this.currentlyActiveGlowImages.length; i++) {
-                    this.currentlyActiveGlowImages[i].style.boxShadow = "transparent 0px 0px 20px 20px";
-                }
+        }
+        // Always clear the previous glow-image timeout/state before scheduling a new one,
+        // otherwise a stale timeout from the last word can pile up alongside this one.
+        clearTimeout(this.currentGlowImageTimeout);
+        if (this.currentlyActiveGlowImages.length > 0) {
+            for (let i = 0; i < this.currentlyActiveGlowImages.length; i++) {
+                this.currentlyActiveGlowImages[i].style.boxShadow = "transparent 0px 0px 20px 20px";
             }
         }
         this.currentlyActiveGlowImages = Array();
