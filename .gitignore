@@ -72,6 +72,14 @@ typings/
 .env
 .env.test
 
+# Intermediate webpack-bundled service worker source -- consumed only by
+# scripts/inject-sw-manifest.js to produce the real, committed sw.js at the
+# repo root; never served/referenced directly, so it shouldn't be committed
+# or synced to S3 alongside it.
+dist/sw-src.js
+dist/sw-src.js.map
+dist/sw-src.js.LICENSE.txt
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 

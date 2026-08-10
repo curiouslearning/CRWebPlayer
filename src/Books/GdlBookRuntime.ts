@@ -1,5 +1,5 @@
-import { Workbox } from "workbox-window";
-import { handleLoadingMessage, handleUpdateFoundMessage, firebaseAnalyticsManager, appName, appVersion } from "../../App";
+import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
+import { handleLoadingMessage, firebaseAnalyticsManager, appName, appVersion } from "../../App";
 import { campaignId, campaignSource, crUserId } from "../common";
 
 let loadingScreen = document.getElementById("loadingScreen");
@@ -17,8 +17,9 @@ async function registerServiceWorkerForGdl(config: {
 }) {
   if ("serviceWorker" in navigator) {
     try {
-      let wb = new Workbox("/sw.js", {});
-      await wb.register();
+      // Same update-lifecycle migration as App.ts's registerServiceWorker() --
+      // see specs/001-interactive-books-sw-package/research.md §3.
+      await registerServiceWorkerUpdates({ swUrl: "/sw.js" });
       await navigator.serviceWorker.ready;
 
       if (localStorage.getItem(config.bookName) == null) {
@@ -54,9 +55,6 @@ async function registerServiceWorkerForGdl(config: {
         if (event.data.command == "CachingProgress") {
           let progressValue = parseInt(event.data.data.progress);
           handleLoadingMessage(event, progressValue);
-        }
-        if (event.data.command == "UpdateFound") {
-          handleUpdateFoundMessage();
         }
       };
     } catch (error) {

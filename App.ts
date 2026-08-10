@@ -1,7 +1,7 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./src/Parser/ContentParser";
 import { PlayBackEngine } from "./src/PlayBackEngine/PlayBackEngine";
-import { Workbox, WorkboxEventMap } from "workbox-window";
+import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
 import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
 import { campaignId, campaignSource, crUserId } from "./src/common";
@@ -93,8 +93,12 @@ export class App {
   async registerServiceWorker(book: Book) {
     if ("serviceWorker" in navigator) {
       try {
-        let wb = new Workbox("/sw.js", {});
-        await wb.register();
+        // Update-lifecycle registration/notification now comes from the shared
+        // @curiouslearning/sw package (its own default channel, not
+        // "cr-message-channel") instead of a bespoke Workbox("/sw.js") + this
+        // channel's "UpdateFound" message. See
+        // specs/001-interactive-books-sw-package/research.md §3.
+        await registerServiceWorkerUpdates({ swUrl: "/sw.js" });
         await navigator.serviceWorker.ready;
         if (localStorage.getItem(book.bookName) == null) {
           loadingScreen!.style.display = "flex";
@@ -127,9 +131,6 @@ export class App {
             // console.log("Caching Progress: ", event.data.data.progress);
             let progressValue = parseInt(event.data.data.progress);
             handleLoadingMessage(event, progressValue);
-          }
-          if (event.data.command == "UpdateFound") {
-            handleUpdateFoundMessage();
           }
         };
       } catch (error) {
@@ -203,15 +204,6 @@ export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
     let isContentCached: boolean = localStorage.getItem(bookName) !== null;
     //@ts-ignore
     window.Android.cachedStatus(isContentCached);
-  }
-}
-
-export function handleUpdateFoundMessage(): void {
-  let text = "Update Found.\nPlease accept the update by pressing Ok.";
-  if (confirm(text) == true) {
-    window.location.reload();
-  } else {
-    text = "Update will happen on the next launch.";
   }
 }
 

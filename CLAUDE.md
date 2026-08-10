@@ -9,15 +9,16 @@ The Curious Reader Web Player: a TypeScript/webpack web app that plays back **Cu
 ## Commands
 
 ```bash
-webpack                 # Build App.ts + src/** into dist/app.js (production mode by default)
-npx workbox injectManifest   # Regenerate sw.js precache manifest from sw-src.js after a build
-live-server              # Serve the repo root (emulates a backend for local dev)
-npm run dev               # webpack && injectManifest && live-server, in one shot
+npm run build             # webpack (App.ts + sw-src.ts) && node scripts/inject-sw-manifest.js -- builds dist/app.js and sw.js
+live-server                # Serve the repo root (emulates a backend for local dev)
+npm run dev                 # npm run build && live-server, in one shot
 ```
 
-There is no test suite, linter, or `npm run build`/`npm start` script defined in `package.json` — use the raw commands above. `npx tsc --noEmit` currently fails on unrelated `lib.dom`/`lib.webworker` duplicate-definition errors from `tsconfig.json`'s `"lib": ["es7", "dom", "webworker"]`; use `webpack` (which runs `ts-loader` per compiled file) as the real correctness check instead.
+`webpack` compiles two entries: `App.ts` → `dist/app.js`, and `sw-src.ts` → an intermediate `dist/sw-src.js` (gitignored — never served directly). `scripts/inject-sw-manifest.js` then runs `workbox-build`'s Node `injectManifest()` API against that intermediate file to inject the precache manifest and write the real `sw.js` to the repo root (it must live at the root, not `dist/`, so its service-worker scope covers the whole site — `BookContent/`, `interactive-book-static/`, etc. — not just `/dist/`). There is no `npx workbox injectManifest`/`workbox-cli`/`workbox-config.js` anymore — `sw-src.ts` needs real npm imports (`workbox-precaching`, `@curiouslearning/sw`) resolved by a bundler, which the old CDN-`importScripts` + CLI-glob-substitution flow couldn't provide.
 
-**Build artifacts are committed.** `dist/app.js` and `sw.js` are checked into git (not gitignored) and must be rebuilt and included in the same commit as any `src/`/`App.ts` change — CI does not build anything, see below.
+There is no test suite or linter defined in `package.json`. `npx tsc --noEmit` currently fails on unrelated `lib.dom`/`lib.webworker` duplicate-definition errors from `tsconfig.json`'s `"lib": ["es7", "dom", "webworker"]`; use `npm run build` (which runs `ts-loader` per compiled file via webpack) as the real correctness check instead.
+
+**Build artifacts are committed.** `dist/app.js` and `sw.js` are checked into git (not gitignored) and must be rebuilt and included in the same commit as any `src/`/`App.ts`/`sw-src.ts` change — CI does not build anything, see below. (`dist/sw-src.js`, the intermediate bundle, is gitignored and must *not* be committed.)
 
 ## Deployment
 
@@ -45,7 +46,7 @@ This is why the built `dist/app.js`/`sw.js` must already be correct in the commi
 
 ### Offline caching contract
 
-Caching is coordinated over a single `BroadcastChannel("cr-message-channel")` shared between `App.ts` (and `GdlBookRuntime.ts` for GDL) and the service worker (`sw-src.js`, built to `sw.js` via `workbox injectManifest`):
+Caching is coordinated over a single `BroadcastChannel("cr-message-channel")` shared between `App.ts` (and `GdlBookRuntime.ts` for GDL) and the service worker (`sw-src.ts`, built to `sw.js` via `npm run build`, see Commands above). Service-worker *update-lifecycle* notification (as opposed to book-content caching) is a separate concern, handled by the shared `@curiouslearning/sw` package on its own `BroadcastChannel` (`registerUpdateNotifier()` in `sw-src.ts`, `registerServiceWorkerUpdates()` in `App.ts`/`GdlBookRuntime.ts`) — see `specs/001-interactive-books-sw-package/` for the full design:
 - App → SW: `{ command: "Cache", data: { bookData / gdlId, contentFile, basePath... } }` once the SW is `ready` and the book isn't already in `localStorage`.
 - SW → App: `{ command: "Activated" }` on SW activation (triggers a re-send of the cache request), `{ command: "CachingProgress", data: { progress } }` as assets download (drives `#progressBar` and Firebase download-progress milestones at 25/50/75/100%), `{ command: "UpdateFound" }` when a new SW version is waiting (prompts the user via `confirm()` to reload).
 - Once caching hits 100%, the book name is written to `localStorage` and, if running inside the Android container (`window.Android` bridge present), `window.Android.cachedStatus(...)` is called.

@@ -1,24 +1,29 @@
 {
   "dependencies": {
+    "@curiouslearning/sw": "^1.0.0",
     "firebase": "^10.8.0",
     "ts-loader": "^9.4.1"
   },
   "scripts": {
-    "build": "webpack",
-    "injectManifest": "npx workbox injectManifest",
-    "dev": "webpack && npx workbox injectManifest && live-server --no-browser"
+    "build": "webpack && node scripts/inject-sw-manifest.js",
+    "dev": "npm run build && live-server --no-browser",
+    "test": "jest"
   },
   "devDependencies": {
     "@splidejs/splide": "^4.1.4",
     "@types/firebase": "^3.2.1",
+    "@types/jest": "^29.5.14",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2",
+    "ts-jest": "^29.2.5",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.13.3",
-    "workbox-cli": "^6.5.4",
-    "workbox-core": "^6.5.4",
-    "workbox-expiration": "^6.5.4",
-    "workbox-precaching": "^6.5.4",
-    "workbox-routing": "^6.5.4",
-    "workbox-strategies": "^6.5.4"
+    "workbox-core": "^7.4.1",
+    "workbox-expiration": "^7.4.1",
+    "workbox-precaching": "^7.4.1",
+    "workbox-routing": "^7.4.1",
+    "workbox-build": "^7.4.1",
+    "workbox-strategies": "^7.4.1"
   }
 }
