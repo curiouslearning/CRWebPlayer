@@ -21,7 +21,7 @@ async function registerServiceWorkerForGdl(config: {
         swUrl: '/sw.js',
         mode: 'confirm',
       });
-      
+
       await navigator.serviceWorker.ready;
 
       if (localStorage.getItem(config.bookName) == null) {

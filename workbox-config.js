@@ -10,7 +10,7 @@ module.exports = {
         "GDLBookContent/**/*",
         "node_modules/**/*",
         "workbox-config.js",
-        "sw-src.js",
+        "sw-src.ts",
         "dist/sw.js",
         "tsconfig.json",
         "webpack.config.js",

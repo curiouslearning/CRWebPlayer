@@ -31,7 +31,7 @@ export class App {
   public imagesPath: string;
   public audioPath: string;
   public broadcastChannel: BroadcastChannel;
-  public lang: string;
+  public lang: any;
   // public firebaseAnalyticsManager: FirebaseAnalyticsManager;
 
   constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
@@ -196,7 +196,15 @@ export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
   }
 }
 
-
+export function handleUpdateFoundMessage(): void {
+  console.log("handleUpdateFoundMessage called in cr webplayer");
+  let text = "Update Found.\nPlease accept the update by pressing Ok.";
+  if (confirm(text) == true) {
+    window.location.reload();
+  } else {
+    text = "Update will happen on the next launch.";
+  }
+}
 /**
  * Factory to choose the appropriate loader based on the book name.
  */
