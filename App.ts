@@ -97,9 +97,13 @@ export class App {
           swUrl: '/sw.js',
           mode: 'confirm',
         });
+      } catch (error) {
+        console.log("Error Registering Service Worker", error);
+      }
 
+      try {
         await navigator.serviceWorker.ready;
-        if (localStorage.getItem(book.bookName) == null) {
+        if (localStorage.getItem(book.bookName) == null && navigator.onLine) {
           loadingScreen!.style.display = "flex";
           this.broadcastChannel.postMessage({
             command: "Cache",
@@ -123,8 +127,11 @@ export class App {
           }
         };
       } catch (error) {
-        console.log("Error Registering Service Worker", error);
+        console.log("Error handling service worker", error);
+        loadingScreen!.style.display = "none";
       }
+    } else {
+      loadingScreen!.style.display = "none";
     }
   }
 }
