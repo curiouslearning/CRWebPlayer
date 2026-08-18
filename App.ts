@@ -1,7 +1,7 @@
 // Main Entry for the Curious Reader Web Player App
 import { ContentParser } from "./src/Parser/ContentParser";
 import { PlayBackEngine } from "./src/PlayBackEngine/PlayBackEngine";
-import { Workbox, WorkboxEventMap } from "workbox-window";
+import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
 import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
 import { campaignId, campaignSource, crUserId } from "./src/common";
@@ -31,7 +31,7 @@ export class App {
   public imagesPath: string;
   public audioPath: string;
   public broadcastChannel: BroadcastChannel;
-  public lang: string;
+  public lang: any;
   // public firebaseAnalyticsManager: FirebaseAnalyticsManager;
 
   constructor(bookName: string, contentFilePath: string, imagesPath: string, audioPath: string) {
@@ -42,12 +42,12 @@ export class App {
     this.audioPath = audioPath;
     // Leaving this just in case we need to log session start
     firebaseAnalyticsManager.logSessionStartWithPayload({
-        app: appName,
-        version: appVersion,
-        cr_user_id: crUserId,
-        source: campaignSource,
-        campaignId: campaignId,
-        book_name: bookName
+      app: appName,
+      version: appVersion,
+      cr_user_id: crUserId,
+      source: campaignSource,
+      campaignId: campaignId,
+      book_name: bookName
     });
     sessionStartTime = new Date();
     this.contentParser = new ContentParser(contentFilePath);
@@ -93,8 +93,11 @@ export class App {
   async registerServiceWorker(book: Book) {
     if ("serviceWorker" in navigator) {
       try {
-        let wb = new Workbox("/sw.js", {});
-        await wb.register();
+        await registerServiceWorkerUpdates({
+          swUrl: '/sw.js',
+          mode: 'confirm',
+        });
+
         await navigator.serviceWorker.ready;
         if (localStorage.getItem(book.bookName) == null) {
           loadingScreen!.style.display = "flex";
@@ -113,23 +116,10 @@ export class App {
         this.broadcastChannel.onmessage = (event) => {
           // console.log("CRapp: Message Received!");
           console.log(event.data.command);
-          if (event.data.command == "Activated") {
-            this.broadcastChannel.postMessage({
-              command: "Cache",
-              data: {
-                lang: this.lang,
-                bookData: book,
-                contentFile: this.contentFilePath,
-              },
-            });
-          }
           if (event.data.command == "CachingProgress") {
             // console.log("Caching Progress: ", event.data.data.progress);
             let progressValue = parseInt(event.data.data.progress);
             handleLoadingMessage(event, progressValue);
-          }
-          if (event.data.command == "UpdateFound") {
-            handleUpdateFoundMessage();
           }
         };
       } catch (error) {
@@ -144,7 +134,7 @@ export class App {
 // there's no need to have these functions separately added in the App.ts anymore since we have added the service worker
 // communication over the broadcast channel instead of the
 // [serviceWorker.addEventListener("message", handleServiceWorkerMessage);]
-export function handleLoadingMessage(event, progressValue): void {
+export function handleLoadingMessage(event: any, progressValue: any): void {
   let progressBar = document.getElementById("progressBar");
   if (progressValue < 100) {
     progressBar!.style.width = progressValue + "%";
@@ -207,6 +197,7 @@ export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
 }
 
 export function handleUpdateFoundMessage(): void {
+  console.log("handleUpdateFoundMessage called in cr webplayer");
   let text = "Update Found.\nPlease accept the update by pressing Ok.";
   if (confirm(text) == true) {
     window.location.reload();
@@ -214,7 +205,6 @@ export function handleUpdateFoundMessage(): void {
     text = "Update will happen on the next launch.";
   }
 }
-
 /**
  * Factory to choose the appropriate loader based on the book name.
  */
