@@ -1,14 +1,20 @@
-importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js"
-);
+/// <reference lib="webworker" />
+declare const self: ServiceWorkerGlobalScope & typeof globalThis & {
+  __WB_MANIFEST: any;
+};
 
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST, {
+import { precacheAndRoute } from 'workbox-precaching';
+import { registerUpdateNotifier, cacheUrlsWithProgress } from '@curiouslearning/sw';
+
+precacheAndRoute(self.__WB_MANIFEST, {
   ignoreURLParametersMatching: [/^book/, /^cr_user_id/],
   exclude: [/^lang\//],
-});
+} as any);
+
+registerUpdateNotifier();
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.6;
+let version = 1.7;
 
 const AUDIO_REGEX = /\.(mp3|wav|ogg|m4a)$/i;
 const IMAGE_REGEX = /\.(png|jpe?g|webp|gif|svg|lottie)$/i;
@@ -17,7 +23,6 @@ const ASSET_REGEX = /\.(png|jpe?g|webp|gif|svg|mp3|wav|ogg|m4a|lottie)$/i;
 channel.addEventListener("message", async function (event) {
   if (event.data.command === "Cache") {
     console.log("Caching request received in the service worker with data: ", event.data);
-    cachingProgress = 0;
     const data = event.data.data;
 
     // Route to appropriate caching logic based on book type / prefix
@@ -29,26 +34,13 @@ channel.addEventListener("message", async function (event) {
   }
 });
 
-// Precache static assets during service worker installation
+// Install and Activate are handled automatically by workbox + registerUpdateNotifier
+
+// The manual updatefound listener is handled by registerUpdateNotifier
+
+// Force the new service worker to activate immediately
 self.addEventListener("install", (event) => {
   self.skipWaiting();
-});
-
-self.addEventListener("activate", function (event) {
-  console.log("Service worker activated");
-  event.waitUntil(self.clients.claim());
-  channel.postMessage({ command: "Activated", data: {} });
-  return self.clients.claim();
-});
-
-self.registration.addEventListener("updatefound", function (e) {
-  caches.keys().then((cacheNames) => {
-    cacheNames.forEach((cacheName) => {
-      if (cacheName == workbox.core.cacheNames.precache) {
-        channel.postMessage({ command: "UpdateFound", data: {} });
-      }
-    });
-  });
 });
 
 // Serve cached assets when offline or falling back to the network
@@ -58,14 +50,17 @@ self.addEventListener("fetch", (event) => {
       if (response) {
         return response;
       }
-      return fetch(event.request);
+      return fetch(event.request).catch(error => {
+        console.error("Fetch failed in service worker:", error);
+        throw error;
+      });
     })
   );
 });
 
 let cachingInProgress = false;
 
-async function cacheTheBookJSONAndImages(data) {
+async function cacheTheBookJSONAndImages(data: any) {
   console.log("Caching the book JSON and images");
   const bookData = data.bookData;
   const contentBasePath = `/BookContent/${bookData.bookName}/content/`;
@@ -97,8 +92,11 @@ async function cacheTheBookJSONAndImages(data) {
 
   if (!cachingInProgress) {
     cachingInProgress = true;
-    await cacheBookAssets(bookData, bookAudioAndImageFiles);
-    cachingInProgress = false;
+    try {
+      await cacheBookAssets(bookData, bookAudioAndImageFiles);
+    } finally {
+      cachingInProgress = false;
+    }
   }
 }
 
@@ -106,22 +104,22 @@ async function cacheTheBookJSONAndImages(data) {
  * Extract filename from a path and map to local GDL book structure.
  * Maps server-absolute paths to local structure: assets/ for images/lottie, audio/ for mp3.
  */
-function mapGdlPathToLocal(serverPath, basePath) {
+function mapGdlPathToLocal(serverPath: any, basePath: any) {
   if (!serverPath || typeof serverPath !== "string") return null;
-  
+
   // Extract just the filename (last part after last /)
   const filename = serverPath.split("/").pop();
-  
+
   // Validate filename - must have a name before the extension
   if (!filename || filename.startsWith(".") || filename.length < 3) return null;
-  
+
   // Determine directory based on file extension
   if (AUDIO_REGEX.test(filename)) {
     return basePath + "audio/" + filename;
   } else if (IMAGE_REGEX.test(filename)) {
     return basePath + "assets/" + filename;
   }
-  
+
   return null;
 }
 
@@ -129,7 +127,7 @@ function mapGdlPathToLocal(serverPath, basePath) {
  * Recursively walk a JSON object and collect asset-like string values.
  * Specifically handles GDL content.json structure with paths, mp3, lottie files, etc.
  */
-function collectAssetsFromJson(node, assets, basePath) {
+function collectAssetsFromJson(node: any, assets: any, basePath: any) {
   if (!node) return;
 
   // Known fields that contain asset paths in GDL structure
@@ -142,7 +140,7 @@ function collectAssetsFromJson(node, assets, basePath) {
       if (!filename || filename.startsWith(".") || filename.length < 3) {
         return;
       }
-      
+
       // Handle absolute URLs
       if (node.startsWith("http://") || node.startsWith("https://")) {
         assets.add(node);
@@ -187,16 +185,16 @@ function collectAssetsFromJson(node, assets, basePath) {
         }
       }
     }
-    
+
     // Check for known asset path fields - prefer 'path' over 'url' if both exist
     // Process 'path' first, then other fields, but skip 'url' and 'filename' if 'path' exists
     const hasPath = node.path && typeof node.path === "string" && ASSET_REGEX.test(node.path);
-    
+
     for (const field of assetPathFields) {
       // Skip 'url' and 'filename' if 'path' exists (to avoid duplicates)
       // 'path' is the most reliable field in GDL structure
       if (hasPath && (field === "url" || field === "filename")) continue;
-      
+
       if (node[field] && typeof node[field] === "string") {
         const value = node[field];
         if (ASSET_REGEX.test(value)) {
@@ -216,7 +214,7 @@ function collectAssetsFromJson(node, assets, basePath) {
         }
       }
     }
-    
+
     // Recursively process all fields EXCEPT the ones we've already processed
     for (const key in node) {
       if (Object.prototype.hasOwnProperty.call(node, key)) {
@@ -235,14 +233,14 @@ function collectAssetsFromJson(node, assets, basePath) {
  * Build and cache the asset list for a GDL book.
  * Expects data: { bookName, gdlId, basePath, contentFile, ... }
  */
-async function cacheGdlBookAssets(data) {
+async function cacheGdlBookAssets(data: any) {
   console.log("Caching GDL book assets");
 
   const bookName = data.bookName || data.gdlId;
   const basePath = data.basePath || "/";
   const contentFile = data.contentFile;
 
-  const assetsSet = new Set();
+  const assetsSet = new Set<string>();
 
   // Always cache the core GDL assets
   if (contentFile) {
@@ -269,13 +267,13 @@ async function cacheGdlBookAssets(data) {
   }
 
   // Filter out invalid paths and deduplicate by normalizing to correct structure
-  const validAssets = new Set();
+  const validAssets = new Set<string>();
   for (const asset of assetsSet) {
     // Skip invalid paths (like .lottie without filename)
     if (asset.endsWith("/.lottie") || asset.endsWith("/.jpg") || asset.endsWith("/.mp3")) {
       continue;
     }
-    
+
     // Normalize paths - if it's in the wrong location, try to fix it
     // Files should be in assets/ or audio/, not directly in basePath
     if (asset.startsWith(basePath) && !asset.includes("/assets/") && !asset.includes("/audio/")) {
@@ -303,49 +301,35 @@ async function cacheGdlBookAssets(data) {
 
   if (!cachingInProgress) {
     cachingInProgress = true;
-    await cacheBookAssets({ bookName: bookName }, assetArray);
-    cachingInProgress = false;
+    try {
+      await cacheBookAssets({ bookName: bookName }, assetArray);
+    } finally {
+      cachingInProgress = false;
+    }
   }
 }
 
-async function cacheBookAssets(bookData, bookAudioAndImageFiles) {
-  const cache = await caches.open(bookData.bookName);
-  const batchSize = 5; // Process in batches of 5
-  let cachingProgress = 0;
-
-  for (let i = 0; i < bookAudioAndImageFiles.length; i += batchSize) {
-    const batch = bookAudioAndImageFiles.slice(i, i + batchSize);
-
-    try {
-      await Promise.all(batch.map(file => cache.add(file)));
-    } catch (error) {
-      // Best-effort caching: some assets referenced in content.json might not exist locally.
-      // Try each file individually and silently skip ones that fail, so caching can continue.
-      for (const file of batch) {
-        try {
-          await cache.add(file);
-        } catch (fileError) {
-          // Optional: log at a low level for debugging, but don't treat as a hard error.
-          // console.log("Skipping missing or unreachable asset:", file);
+async function cacheBookAssets(bookData: any, bookAudioAndImageFiles: any) {
+  try {
+    const cache = await caches.open(bookData.bookName);
+    await cacheUrlsWithProgress(cache, bookAudioAndImageFiles, {
+      batchSize: 5,
+      delayBetweenBatchesMs: 100,
+      onProgress: async (progress) => {
+        const clients = await self.clients.matchAll();
+        if (clients.length > 0) {
+          channel.postMessage({
+            command: "CachingProgress",
+            data: { progress: Math.round(progress), bookName: bookData.bookName },
+          });
         }
+      },
+      onItemError: (url, error) => {
+        // Optional: log at a low level for debugging, but don't treat as a hard error.
+        console.log("Skipping missing or unreachable asset:", url, error);
       }
-    }
-
-    // Whether or not all files in the batch were cached successfully, count the batch as processed
-    // so that progress can eventually reach 100% even if some assets are missing.
-    cachingProgress += batch.length;
-
-    // Send progress update after each batch
-    const progress = Math.round((cachingProgress / bookAudioAndImageFiles.length) * 100);
-    const clients = await self.clients.matchAll();
-    if (clients.length > 0) {
-      await channel.postMessage({
-        command: "CachingProgress",
-        data: { progress, bookName: bookData.bookName },
-      });
-    }
-
-    // Introduce a small delay between batches
-    await new Promise((resolve) => setTimeout(resolve, 100));
+    });
+  } catch (error) {
+    console.error("Unhandled error in cacheBookAssets:", error);
   }
 }
