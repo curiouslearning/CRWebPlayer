@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+/* Lock the viewport when a GDL book is active.
+   The gdl-player element sets height:100vh internally, but without these rules
+   the surrounding html/body still scrolls. */
+html:has(gdl-player),
+body:has(gdl-player) {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+gdl-player {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
 .cr-clickable-word {
   cursor: pointer;
   color: white;
