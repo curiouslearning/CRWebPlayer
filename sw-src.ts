@@ -133,6 +133,9 @@ function collectAssetsFromJson(node: any, assets: any, basePath: any) {
   // Known fields that contain asset paths in GDL structure
   const assetPathFields = ['path', 'mp3', 'url', 'filename', 'image'];
 
+  // Fields to skip entirely during recursive traversal (display names, error messages, etc.)
+  const skipFields = ['name', 'error', 'title', 'description', 'text', 'alt', 'transcription'];
+
   if (typeof node === "string") {
     if (ASSET_REGEX.test(node)) {
       // Skip invalid filenames (like .lottie without name)
@@ -208,8 +211,15 @@ function collectAssetsFromJson(node: any, assets: any, basePath: any) {
             }
             // Don't add fallback - if mapping fails, the path is invalid
           } else {
-            // Relative paths - prepend basePath
-            assets.add(basePath + value);
+            // Relative paths (bare filenames like "Sad-bee.lottie" or "abc.mp3")
+            // Route into the correct subdirectory based on extension
+            const localPath = mapGdlPathToLocal(value, basePath);
+            if (localPath) {
+              assets.add(localPath);
+            } else {
+              // Non-audio/image relative path - prepend basePath directly
+              assets.add(basePath + value);
+            }
           }
         }
       }
@@ -220,6 +230,10 @@ function collectAssetsFromJson(node: any, assets: any, basePath: any) {
       if (Object.prototype.hasOwnProperty.call(node, key)) {
         // Skip fields we've already processed to avoid duplicates
         if (key === "logos" || assetPathFields.includes(key)) {
+          continue;
+        }
+        // Skip display-only and non-asset fields to avoid false positives
+        if (skipFields.includes(key)) {
           continue;
         }
         // Recursively process everything else
@@ -248,6 +262,15 @@ async function cacheGdlBookAssets(data: any) {
   }
   assetsSet.add(basePath + "my-lib-style.css");
   assetsSet.add(basePath + "gdlplayer.umd.js");
+
+  // Cache the dotlottie WASM needed for Lottie animations to work offline.
+  // The gdlplayer loads this from CDN; we must pre-cache it here.
+  const DOTLOTTIE_VERSION = "0.44.0";
+  assetsSet.add(`https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@${DOTLOTTIE_VERSION}/dist/dotlottie-player.wasm`);
+
+  // Cache the Quicksand font expected at the root by gdlplayer.umd.js.
+  // The player injects: @font-face { src: url("/Quicksand-Bold.ttf") }
+  assetsSet.add("/Quicksand-Bold.ttf");
 
   // Try to fetch and inspect the GDL content.json for additional assets
   if (contentFile) {
