@@ -23,7 +23,13 @@ async function registerServiceWorkerForGdl(config: {
   try {
     await registerServiceWorkerUpdates({
       swUrl: '/sw.js',
-      mode: 'confirm',
+      // Use 'custom' mode so we can force-reload on Android WebViews where
+      // window.confirm() is silently blocked, preventing SW updates from applying.
+      mode: 'custom',
+      onUpdateAvailable: () => {
+        console.log('GDL: New app version available, reloading...');
+        window.location.reload();
+      },
     });
 
     // Race against a 1.5s timeout — navigator.serviceWorker.ready can hang
@@ -170,6 +176,17 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   };
 
   document.body.appendChild(script);
+
+  // Failsafe: if the loading screen is still visible after 6 seconds (e.g. because
+  // script.onload/onerror didn't fire in the Android WebView, or SW blocked the
+  // request), unconditionally hide it so the user is never permanently stuck.
+  setTimeout(() => {
+    const stuckLoading = document.getElementById("loadingScreen");
+    if (stuckLoading && stuckLoading.style.display !== "none") {
+      console.warn("GDL: Loading screen failsafe triggered after 6s for " + bookName);
+      stuckLoading.style.display = "none";
+    }
+  }, 4000);
 }
 
 
