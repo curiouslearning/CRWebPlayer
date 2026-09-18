@@ -8,7 +8,7 @@ import { campaignId, campaignSource, crUserId } from "./src/common";
 import { BookLoader, CrBookLoader } from "./src/Books/BookLoader";
 import { GdlBookLoader } from "./src/Books/GdlBookLoader";
 
-export let appVersion: string = "v0.3.12";
+export let appVersion: string = "v0.3.13";
 export let appName: string = "CRWebPlayer";
 
 // const channel = new BroadcastChannel("my-channel");
@@ -195,11 +195,15 @@ export function logDownloadProgressWithPayloadToFirebase(eventName: string, book
 }
 
 export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
-  //@ts-ignore
-  if (window.Android) {
-    let isContentCached: boolean = localStorage.getItem(bookName) !== null;
+  try {
     //@ts-ignore
-    window.Android.cachedStatus(isContentCached);
+    if (window.Android && typeof window.Android.cachedStatus === "function") {
+      let isContentCached: boolean = localStorage.getItem(bookName) !== null;
+      //@ts-ignore
+      window.Android.cachedStatus(isContentCached);
+    }
+  } catch (error) {
+    console.error("Error notifying Android bridge of cached status:", error);
   }
 }
 
