@@ -197,7 +197,7 @@ export function logDownloadProgressWithPayloadToFirebase(eventName: string, book
 export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
   try {
     //@ts-ignore
-    if (window.Android && typeof window.Android.cachedStatus === "function") {
+    if (window.Android) {
       let isContentCached: boolean = localStorage.getItem(bookName) !== null;
       //@ts-ignore
       window.Android.cachedStatus(isContentCached);

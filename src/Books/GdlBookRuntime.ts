@@ -87,12 +87,13 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
     console.error("Error during GDL Android bridge calls:", error);
   }
 
-  // If the book is already cached, hide the loading screen immediately before anything else
+  // Only show the loading screen if we're actually about to cache this book now.
+  // If it's already cached, or we're offline with nothing to cache, no "CachingProgress"
+  // event will ever arrive to dismiss it, so hide it immediately in those cases instead.
   const isCached = localStorage.getItem(bookName) !== null;
-  if (isCached) {
-    if (loadingScreen) {
-      loadingScreen.style.display = "none";
-    }
+  const willCacheNow = !isCached && navigator.onLine;
+  if (loadingScreen) {
+    loadingScreen.style.display = willCacheNow ? "flex" : "none";
   }
 
   try {
@@ -116,7 +117,8 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   // Awaiting SW registration/ready can hang indefinitely on Android WebViews.
   registerServiceWorkerForGdl({ bookName, gdlId, basePath, contentFile });
 
-  // Set up progress listener BEFORE caching messages arrive
+  // Set up progress listener BEFORE caching messages arrive.
+  // handleLoadingMessage hides the loading screen once progress hits 100%.
   gdlBroadcastChannel.onmessage = (event) => {
     console.log(event.data.command);
     if (event.data.command == "CachingProgress") {
@@ -124,13 +126,6 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
       handleLoadingMessage(event, progressValue);
     }
   };
-
-  // Show loading screen only if this is the first time (not cached yet)
-  if (!isCached) {
-    if (loadingScreen) {
-      loadingScreen.style.display = "flex";
-    }
-  }
 
   // Load CSS dynamically
   const link = document.createElement("link");
@@ -160,20 +155,22 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
       (player as HTMLElement).id = gdlId;
     }
 
-    // Always hide the loading screen when the player script has finished loading.
-    // For already-cached books: removes the loading screen immediately.
-    // For first-time downloads: the script loads while caching may still be in
-    // progress; hiding here is safe because the GDL player manages its own
-    // internal loading indicator.
-    const currentLoading = document.getElementById("loadingScreen");
-    if (currentLoading) {
-      currentLoading.style.display = "none";
+    // If we're actively caching this book, leave the loading screen up — it's dismissed
+    // by handleLoadingMessage once caching progress hits 100%. Otherwise (already cached,
+    // or offline with nothing to cache) there's no progress event coming, so hide it now.
+    if (!willCacheNow) {
+      const currentLoading = document.getElementById("loadingScreen");
+      if (currentLoading) {
+        currentLoading.style.display = "none";
+      }
     }
 
     console.log("GDL book loaded successfully: " + gdlId);
   };
 
   script.onerror = () => {
+    // The player can't run at all here, so there's nothing left to wait for —
+    // always hide, regardless of caching state.
     console.error("Failed to load GDL book script: " + gdlId);
     const currentLoading = document.getElementById("loadingScreen");
     if (currentLoading) {
@@ -183,18 +180,16 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
 
   document.body.appendChild(script);
 
-  // Failsafe: script.onload/onerror can fail to fire in some Android WebViews (e.g. when
-  // a request is blocked or intercepted at the native layer without an error event
-  // propagating to the DOM). If the loading screen is still visible after 8s, force it
-  // hidden so the user is never left permanently stuck — the gdl-player element manages
-  // its own internal loading state independently of this overlay.
+  // Failsafe: guards against the loading screen getting stuck if caching stalls (e.g. a
+  // hung fetch) or an onload/onerror event fails to fire in some Android WebView. Set well
+  // above any realistic caching time so it never cuts off a legitimate first-time download.
   setTimeout(() => {
     const stuckLoading = document.getElementById("loadingScreen");
     if (stuckLoading && stuckLoading.style.display !== "none") {
-      console.warn("GDL: Loading screen failsafe triggered after 8s for " + bookName);
+      console.warn("GDL: Loading screen failsafe triggered after 60s for " + bookName);
       stuckLoading.style.display = "none";
     }
-  }, 8000);
+  }, 60000);
 }
 
 
