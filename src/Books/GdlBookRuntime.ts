@@ -1,5 +1,5 @@
 import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
-import { handleLoadingMessage, firebaseAnalyticsManager, appName, appVersion } from "../../App";
+import { handleLoadingMessage, firebaseAnalyticsManager, appName, appVersion, readLanguageDataFromCacheAndNotifyAndroidApp } from "../../App";
 import { campaignId, campaignSource, crUserId } from "../common";
 
 let loadingScreen = document.getElementById("loadingScreen");
@@ -15,6 +15,7 @@ async function registerServiceWorkerForGdl(config: {
   basePath: string;
   contentFile: string;
 }) {
+  loadingScreen = loadingScreen || document.getElementById("loadingScreen");
   if ("serviceWorker" in navigator) {
     try {
       await registerServiceWorkerUpdates({
@@ -25,7 +26,7 @@ async function registerServiceWorkerForGdl(config: {
       await navigator.serviceWorker.ready;
 
       if (localStorage.getItem(config.bookName) == null && navigator.onLine) {
-        loadingScreen!.style.display = "flex";
+        if (loadingScreen) loadingScreen.style.display = "flex";
         gdlBroadcastChannel.postMessage({
           command: "Cache",
           data: {
@@ -37,7 +38,7 @@ async function registerServiceWorkerForGdl(config: {
           },
         });
       } else {
-        loadingScreen!.style.display = "none";
+        if (loadingScreen) loadingScreen.style.display = "none";
       }
 
       gdlBroadcastChannel.onmessage = (event) => {
@@ -49,6 +50,13 @@ async function registerServiceWorkerForGdl(config: {
       };
     } catch (error) {
       console.log("Error Registering Service Worker for GDL", error);
+      if (loadingScreen) {
+        loadingScreen.style.display = "none";
+      }
+    }
+  } else {
+    if (loadingScreen) {
+      loadingScreen.style.display = "none";
     }
   }
 }
@@ -73,8 +81,20 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   const gdlId = bookName.substring(4); // Remove "gdl-" prefix
   console.log("Initializing GDL book: " + gdlId);
 
+  loadingScreen = loadingScreen || document.getElementById("loadingScreen");
+
   // Enforce landscape mode (same as CR books)
   enforceLandscapeMode();
+
+  // Notify Android app if content is cached
+  readLanguageDataFromCacheAndNotifyAndroidApp(bookName);
+
+  // If already cached or offline, hide loading screen immediately
+  if (localStorage.getItem(bookName) !== null || !navigator.onLine) {
+    if (loadingScreen) {
+      loadingScreen.style.display = "none";
+    }
+  }
 
   // Log session start for GDL books (same as CR books)
   firebaseAnalyticsManager.logSessionStartWithPayload({
@@ -123,6 +143,14 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
     } else {
       (player as HTMLElement).id = gdlId;
     }
+
+    // Hide loading screen once the player script is loaded
+    if (localStorage.getItem(bookName) !== null || !navigator.onLine) {
+      if (loadingScreen) {
+        loadingScreen.style.display = "none";
+      }
+    }
+
     console.log("GDL book loaded successfully: " + gdlId);
   };
   script.onerror = () => {
