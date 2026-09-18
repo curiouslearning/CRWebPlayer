@@ -73,19 +73,11 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   // Always re-query from DOM — module-level reference can be stale in WebViews
   const loadingScreen = document.getElementById("loadingScreen");
 
-  // Bridge calls into the native Android container and analytics logging must never be
-  // allowed to throw here — an uncaught error would abort this function before the
-  // gdl-player script is even appended, permanently stranding the user on the loading
-  // screen (its dismissal is driven entirely by that script's onload/onerror below).
-  try {
-    // Enforce landscape mode (same as CR books)
-    enforceLandscapeMode();
+  // Enforce landscape mode (same as CR books)
+  enforceLandscapeMode();
 
-    // Notify Android container app of the current cached status
-    readLanguageDataFromCacheAndNotifyAndroidApp(bookName);
-  } catch (error) {
-    console.error("Error during GDL Android bridge calls:", error);
-  }
+  // Notify Android container app of the current cached status
+  readLanguageDataFromCacheAndNotifyAndroidApp(bookName);
 
   // If the book is already cached, hide the loading screen immediately before anything else
   const isCached = localStorage.getItem(bookName) !== null;
@@ -95,19 +87,15 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
     }
   }
 
-  try {
-    // Log session start
-    firebaseAnalyticsManager.logSessionStartWithPayload({
-      app: appName,
-      version: appVersion,
-      cr_user_id: crUserId,
-      source: campaignSource,
-      campaignId: campaignId,
-      book_name: bookName
-    });
-  } catch (error) {
-    console.error("Error logging GDL session start:", error);
-  }
+  // Log session start
+  firebaseAnalyticsManager.logSessionStartWithPayload({
+    app: appName,
+    version: appVersion,
+    cr_user_id: crUserId,
+    source: campaignSource,
+    campaignId: campaignId,
+    book_name: bookName
+  });
 
   const basePath = `/interactive-book-static/${gdlId}/`;
   const contentFile = `${basePath}content.json`;
@@ -182,19 +170,6 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   };
 
   document.body.appendChild(script);
-
-  // Failsafe: script.onload/onerror can fail to fire in some Android WebViews (e.g. when
-  // a request is blocked or intercepted at the native layer without an error event
-  // propagating to the DOM). If the loading screen is still visible after 8s, force it
-  // hidden so the user is never left permanently stuck — the gdl-player element manages
-  // its own internal loading state independently of this overlay.
-  setTimeout(() => {
-    const stuckLoading = document.getElementById("loadingScreen");
-    if (stuckLoading && stuckLoading.style.display !== "none") {
-      console.warn("GDL: Loading screen failsafe triggered after 8s for " + bookName);
-      stuckLoading.style.display = "none";
-    }
-  }, 8000);
 }
 
 
