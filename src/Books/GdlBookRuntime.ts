@@ -24,7 +24,7 @@ async function registerServiceWorkerForGdl(config: {
 
       await navigator.serviceWorker.ready;
 
-      if (localStorage.getItem(config.bookName) == null) {
+      if (localStorage.getItem(config.bookName) == null && navigator.onLine) {
         loadingScreen!.style.display = "flex";
         gdlBroadcastChannel.postMessage({
           command: "Cache",
@@ -127,6 +127,9 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   };
   script.onerror = () => {
     console.error("Failed to load GDL book script: " + gdlId);
+    if (loadingScreen) {
+      loadingScreen.style.display = "none";
+    }
   };
   document.body.appendChild(script);
 }
