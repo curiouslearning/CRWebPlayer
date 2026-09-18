@@ -5,6 +5,9 @@ module.exports = {
     swSrc: "dist/sw.js",
     globIgnores:[
         "dist/index.html",
+        "dist/src/**/*",
+        "icons/**/*",
+        "manifest/web_app_manifest.json",
         "BookContent/**/*", 
         "interactive-book-static/**/*",
         "GDLBookContent/**/*",
