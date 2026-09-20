@@ -2,8 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './App.ts',
-	devtool: 'inline-source-map',
+  entry: {
+    app: './App.ts',
+    sw: './sw-src.ts'
+  },
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -17,7 +20,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    filename: 'app.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
@@ -25,6 +28,7 @@ module.exports = {
       title: 'Curious Reader',
       template: 'index.html',
       filename: 'index.html',
+
     }),
   ],
   experiments: {
