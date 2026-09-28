@@ -129,10 +129,32 @@ function applyGdlPlayerStyleOverrides(player: Element): void {
  * later calls `onPlay()` on its own now-inactive page regardless of whether the user
  * is still on it, starting multiple pages' audio back-to-back or simultaneously. We
  * can't cancel someone else's `setTimeout` from outside, so instead we enforce a
- * single-audio invariant directly at the DOM level: whenever any `<audio>` element in
- * the shadow root starts playing, pause every other one. The native `play` event
- * doesn't bubble, so this has to listen on the capture phase.
+ * single-audio invariant: whenever any audio the player controls starts playing, pause
+ * whichever one was previously playing.
+ *
+ * `currentlyPlayingGdlAudio` is shared with `patchGlobalAudioConstructorForSingleGdlPlayback`
+ * below because the player uses two entirely different kinds of audio that this single
+ * invariant has to cover:
+ *  - The per-word click/highlight audio is a real `<audio>` element rendered into the
+ *    shadow DOM, so its `play` event is observable from a capture-phase listener on the
+ *    shadow root (the native `play` event doesn't bubble, but capture-phase listeners on
+ *    an ancestor still fire for non-bubbling events, since capturing happens on the way
+ *    *down* to the target regardless of whether the event bubbles back up).
+ *  - The per-page narration audio is a bare `new Audio()` object that is never attached to
+ *    the document (see the constructor patch below) — it has no ancestors at all, so this
+ *    shadow-root listener can never see it play. Without sharing the same "currently
+ *    playing" reference across both, a page's narration audio and another page's
+ *    word-click audio (or two pages' narration audio) could still overlap.
  */
+let currentlyPlayingGdlAudio: HTMLAudioElement | null = null;
+
+function claimSingleGdlAudioPlayback(audio: HTMLAudioElement): void {
+  if (currentlyPlayingGdlAudio && currentlyPlayingGdlAudio !== audio && !currentlyPlayingGdlAudio.paused) {
+    currentlyPlayingGdlAudio.pause();
+  }
+  currentlyPlayingGdlAudio = audio;
+}
+
 function enforceSingleGdlAudioPlayback(player: Element): void {
   const shadowRoot = (player as HTMLElement).shadowRoot;
   if (!shadowRoot) {
@@ -140,16 +162,39 @@ function enforceSingleGdlAudioPlayback(player: Element): void {
   }
   shadowRoot.addEventListener(
     "play",
-    (event) => {
-      const startedAudio = event.target as HTMLAudioElement;
-      shadowRoot.querySelectorAll("audio").forEach((audio) => {
-        if (audio !== startedAudio && !audio.paused) {
-          audio.pause();
-        }
-      });
-    },
+    (event) => claimSingleGdlAudioPlayback(event.target as HTMLAudioElement),
     true
   );
+}
+
+/**
+ * Patches the global `Audio` constructor so every detached `new Audio()` instance the
+ * gdl-player creates for page narration (rather than a real `<audio>` element — see
+ * `enforceSingleGdlAudioPlayback` above for why that distinction matters) also
+ * participates in the single-audio invariant. Must run before the vendored player
+ * script is injected, since it needs `window.Audio` patched before the bundle's first
+ * `new Audio()` call. Guarded to run once regardless of how many GDL books load in this
+ * session.
+ */
+function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
+  const win = window as any;
+  if (win.__gdlAudioConstructorPatched) {
+    return;
+  }
+  win.__gdlAudioConstructorPatched = true;
+
+  const NativeAudio = win.Audio;
+  if (!NativeAudio) {
+    return;
+  }
+
+  function PatchedAudio(...args: any[]): HTMLAudioElement {
+    const audio: HTMLAudioElement = new NativeAudio(...args);
+    audio.addEventListener("play", () => claimSingleGdlAudioPlayback(audio));
+    return audio;
+  }
+  PatchedAudio.prototype = NativeAudio.prototype;
+  win.Audio = PatchedAudio;
 }
 
 /**
@@ -170,6 +215,10 @@ function enforceLandscapeMode(): void {
 export async function initializeGdlBook(bookName: string): Promise<void> {
   const gdlId = bookName.substring(4); // Remove "gdl-" prefix
   console.log("Initializing GDL book: " + gdlId);
+
+  // Must happen before the vendored player script (appended below) ever runs, so its
+  // page-narration `new Audio()` calls pick up the patched constructor.
+  patchGlobalAudioConstructorForSingleGdlPlayback();
 
   // Always re-query from DOM — module-level reference can be stale in WebViews
   const loadingScreen = document.getElementById("loadingScreen");
