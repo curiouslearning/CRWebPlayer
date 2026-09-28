@@ -52,6 +52,152 @@ async function registerServiceWorkerForGdl(config: {
 }
 
 /**
+ * The gdl-player web component renders into an open shadow root whose own stylesheet
+ * ships a couple of layout bugs we can't fix at the source (it's a separate, vendored
+ * library — this only patches the compiled output). Since the shadow root is
+ * `mode: "open"`, we can reach in from here and append an override stylesheet. This
+ * must only run once per element (its connectedCallback only builds the internal
+ * stylesheet once).
+ *
+ * - `.player` is sized with `height: 100vh; position: relative`. On real mobile devices
+ *   `100vh` is the static/layout viewport height — it does not shrink when the browser's
+ *   address bar is visible, and it ignores any leftover margin on the host page's
+ *   html/body — so `.player` ends up taller than the actually visible screen and the
+ *   page becomes scrollable. Pinning it to `position: fixed; inset: 0` instead sizes it
+ *   against the *visual* viewport, independent of both the address bar and ancestor margin.
+ * - `.cover-illustration` (the front-page cover image wrapper) has `width: 20rem;
+ *   overflow: hidden` but no height, so its height comes purely from the cover image's
+ *   natural aspect ratio — a tall cover image can push it past the visible page. Its
+ *   ancestor chain is `.cover-page` (no height of its own, a `.swiper-slide` flex child
+ *   that isn't stretched since the slide uses `align-items: center`) inside the cover
+ *   `.swiper-slide` itself — which has a later, unprefixed `.swiper-slide { height: auto }`
+ *   rule (from swiper's autoHeight CSS) that wins over its own earlier `height: 100%`
+ *   rule. So the whole chain needs a definite height first: the cover slide is pinned
+ *   (scoped by `data-hash="cover"` so other slides keep autoHeight) and `.cover-page`
+ *   becomes a column flexbox. `.cover-page` also contains the title/credit text as a
+ *   sibling *after* the illustration (`<div class="cover-illustration">` then
+ *   `<div class="mt-2 text-center"><h2>{title}</h2>...</div>`) — giving the
+ *   illustration a flat `height: 100%` would consume the whole slide and push that
+ *   sibling out of view, so instead it gets `flex: 1 1 auto; min-height: 0` to fill only
+ *   whatever space the title doesn't need, while the title is pinned to `flex-shrink: 0`
+ *   so it always keeps its natural size. The `<img>` itself still declares
+ *   `height: auto` — `object-fit: cover` only crops/fills when it has an actual box.
+ */
+function applyGdlPlayerStyleOverrides(player: Element): void {
+  const shadowRoot = (player as HTMLElement).shadowRoot;
+  if (!shadowRoot) {
+    return;
+  }
+  const style = document.createElement("style");
+  style.textContent = `
+    .player {
+      position: fixed !important;
+      inset: 0 !important;
+      width: auto !important;
+      height: auto !important;
+    }
+    .swiper-slide[data-hash="cover"] {
+      height: 100% !important;
+    }
+    .cover-page {
+      display: flex !important;
+      flex-direction: column !important;
+      height: 100% !important;
+    }
+    .cover-page .cover-illustration {
+      flex: 1 1 auto !important;
+      min-height: 0 !important;
+      height: auto !important;
+    }
+    .cover-page .cover-illustration img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+    }
+    .cover-page > .mt-2 {
+      flex-shrink: 0 !important;
+    }
+  `;
+  shadowRoot.appendChild(style);
+}
+
+/**
+ * The gdl-player's own per-page component schedules its audio autoplay from a
+ * `setTimeout(..., 750)` fired by a `useEffect` that returns no cleanup function, and
+ * swiper keeps every page mounted rather than unmounting inactive ones. So flipping
+ * pages faster than 750ms leaves several of these stale timers pending — each one
+ * later calls `onPlay()` on its own now-inactive page regardless of whether the user
+ * is still on it, starting multiple pages' audio back-to-back or simultaneously. We
+ * can't cancel someone else's `setTimeout` from outside, so instead we enforce a
+ * single-audio invariant: whenever any audio the player controls starts playing, pause
+ * whichever one was previously playing.
+ *
+ * `currentlyPlayingGdlAudio` is shared with `patchGlobalAudioConstructorForSingleGdlPlayback`
+ * below because the player uses two entirely different kinds of audio that this single
+ * invariant has to cover:
+ *  - The per-word click/highlight audio is a real `<audio>` element rendered into the
+ *    shadow DOM, so its `play` event is observable from a capture-phase listener on the
+ *    shadow root (the native `play` event doesn't bubble, but capture-phase listeners on
+ *    an ancestor still fire for non-bubbling events, since capturing happens on the way
+ *    *down* to the target regardless of whether the event bubbles back up).
+ *  - The per-page narration audio is a bare `new Audio()` object that is never attached to
+ *    the document (see the constructor patch below) — it has no ancestors at all, so this
+ *    shadow-root listener can never see it play. Without sharing the same "currently
+ *    playing" reference across both, a page's narration audio and another page's
+ *    word-click audio (or two pages' narration audio) could still overlap.
+ */
+let currentlyPlayingGdlAudio: HTMLAudioElement | null = null;
+
+function claimSingleGdlAudioPlayback(audio: HTMLAudioElement): void {
+  if (currentlyPlayingGdlAudio && currentlyPlayingGdlAudio !== audio && !currentlyPlayingGdlAudio.paused) {
+    currentlyPlayingGdlAudio.pause();
+  }
+  currentlyPlayingGdlAudio = audio;
+}
+
+function enforceSingleGdlAudioPlayback(player: Element): void {
+  const shadowRoot = (player as HTMLElement).shadowRoot;
+  if (!shadowRoot) {
+    return;
+  }
+  shadowRoot.addEventListener(
+    "play",
+    (event) => claimSingleGdlAudioPlayback(event.target as HTMLAudioElement),
+    true
+  );
+}
+
+/**
+ * Patches the global `Audio` constructor so every detached `new Audio()` instance the
+ * gdl-player creates for page narration (rather than a real `<audio>` element — see
+ * `enforceSingleGdlAudioPlayback` above for why that distinction matters) also
+ * participates in the single-audio invariant. Must run before the vendored player
+ * script is injected, since it needs `window.Audio` patched before the bundle's first
+ * `new Audio()` call. Guarded to run once regardless of how many GDL books load in this
+ * session.
+ */
+function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
+  const win = window as any;
+  if (win.__gdlAudioConstructorPatched) {
+    return;
+  }
+  win.__gdlAudioConstructorPatched = true;
+
+  const NativeAudio = win.Audio;
+  if (!NativeAudio) {
+    return;
+  }
+
+  function PatchedAudio(...args: any[]): HTMLAudioElement {
+    const audio: HTMLAudioElement = new NativeAudio(...args);
+    audio.addEventListener("play", () => claimSingleGdlAudioPlayback(audio));
+    return audio;
+  }
+  PatchedAudio.prototype = NativeAudio.prototype;
+  win.Audio = PatchedAudio;
+}
+
+/**
  * Enforce landscape mode through Android bridge call (same as CR books)
  */
 function enforceLandscapeMode(): void {
@@ -69,6 +215,10 @@ function enforceLandscapeMode(): void {
 export async function initializeGdlBook(bookName: string): Promise<void> {
   const gdlId = bookName.substring(4); // Remove "gdl-" prefix
   console.log("Initializing GDL book: " + gdlId);
+
+  // Must happen before the vendored player script (appended below) ever runs, so its
+  // page-narration `new Audio()` calls pick up the patched constructor.
+  patchGlobalAudioConstructorForSingleGdlPlayback();
 
   // Always re-query from DOM — module-level reference can be stale in WebViews
   const loadingScreen = document.getElementById("loadingScreen");
@@ -151,6 +301,9 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
       } else {
         document.body.appendChild(player);
       }
+
+      applyGdlPlayerStyleOverrides(player);
+      enforceSingleGdlAudioPlayback(player);
     } else {
       (player as HTMLElement).id = gdlId;
     }

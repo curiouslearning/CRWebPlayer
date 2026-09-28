@@ -14,7 +14,7 @@ precacheAndRoute(self.__WB_MANIFEST, {
 registerUpdateNotifier();
 
 const channel = new BroadcastChannel("cr-message-channel");
-let version = 1.7;
+let version = 1.8;
 
 const AUDIO_REGEX = /\.(mp3|wav|ogg|m4a)$/i;
 const IMAGE_REGEX = /\.(png|jpe?g|webp|gif|svg|lottie)$/i;
