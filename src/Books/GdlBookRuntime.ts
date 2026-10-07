@@ -75,13 +75,21 @@ async function registerServiceWorkerForGdl(config: {
  *   rule. So the whole chain needs a definite height first: the cover slide is pinned
  *   (scoped by `data-hash="cover"` so other slides keep autoHeight) and `.cover-page`
  *   becomes a column flexbox. `.cover-page` also contains the title/credit text as a
- *   sibling *after* the illustration (`<div class="cover-illustration">` then
- *   `<div class="mt-2 text-center"><h2>{title}</h2>...</div>`) — giving the
- *   illustration a flat `height: 100%` would consume the whole slide and push that
- *   sibling out of view, so instead it gets `flex: 1 1 auto; min-height: 0` to fill only
- *   whatever space the title doesn't need, while the title is pinned to `flex-shrink: 0`
- *   so it always keeps its natural size. The `<img>` itself still declares
- *   `height: auto` — `object-fit: cover` only crops/fills when it has an actual box.
+ *   sibling *after* the illustration — `<div class="mt-2 text-center"><h2>` in older
+ *   bundles, `<div class="cover-text"><h1>` in newer ones (some newer bundles also use
+ *   `max-width: 20rem` instead of `width: 20rem` on the illustration).
+ *
+ *   The illustration and title are centered together as a group, the title pinned to
+ *   `flex-shrink: 0` so it always keeps its natural size, and the illustration is
+ *   `flex: 0 1 auto; min-height: 0` so it only shrinks when the page is too short to fit
+ *   both. Its post-flex height is definite (the cover page has a definite height), so the
+ *   `<img>` can use `max-height: 100%` with `object-fit: contain` to scale the whole
+ *   cover art down without cropping it. The vendored `20rem` width cap is lifted (to 90%
+ *   of the page) — on large screens it otherwise leaves the cover art a small 320px
+ *   thumbnail on a 1280×600 stage.
+ * - The older bundles' cover title is a fixed `text-xl` (18px) that looks tiny on large
+ *   screens; it gets the same viewport-scaled `clamp()` sizes the newer bundles ship for
+ *   their `.cover-text h1`/`small`.
  */
 function applyGdlPlayerStyleOverrides(player: Element): void {
   const shadowRoot = (player as HTMLElement).shadowRoot;
@@ -102,20 +110,42 @@ function applyGdlPlayerStyleOverrides(player: Element): void {
     .cover-page {
       display: flex !important;
       flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
       height: 100% !important;
+      box-sizing: border-box !important;
+      padding: 1rem 0 !important;
     }
     .cover-page .cover-illustration {
-      flex: 1 1 auto !important;
+      flex: 0 1 auto !important;
       min-height: 0 !important;
       height: auto !important;
+      width: auto !important;
+      max-width: 90% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
     }
     .cover-page .cover-illustration img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
+      display: block !important;
+      width: auto !important;
+      height: auto !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      object-fit: contain !important;
     }
-    .cover-page > .mt-2 {
+    .cover-page > .mt-2,
+    .cover-page > .cover-text {
       flex-shrink: 0 !important;
+      margin-top: 0 !important;
+      text-align: center !important;
+    }
+    .cover-page > .mt-2 h2 {
+      font-size: clamp(1rem, -0.25rem + 4vw, 1.75rem) !important;
+    }
+    .cover-page > .mt-2 small {
+      font-size: clamp(0.8rem, -0.2rem + 2vw, 1rem) !important;
     }
   `;
   shadowRoot.appendChild(style);
