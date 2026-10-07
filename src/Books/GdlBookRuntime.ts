@@ -221,10 +221,69 @@ function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
   function PatchedAudio(...args: any[]): HTMLAudioElement {
     const audio: HTMLAudioElement = new NativeAudio(...args);
     audio.addEventListener("play", () => claimSingleGdlAudioPlayback(audio));
+    recoverFromRefusedGdlNarrationPlayback(audio);
     return audio;
   }
   PatchedAudio.prototype = NativeAudio.prototype;
   win.Audio = PatchedAudio;
+}
+
+/**
+ * The gdl-player's narration `onPlay` disables the page's play button (via
+ * `setIsPlaying(true)`) and only re-enables it from the audio's `onended` handler. It
+ * calls `play()` inside a `try/catch`, but `play()` reports failure through its returned
+ * promise, not by throwing — so when the browser refuses playback (`NotAllowedError`,
+ * e.g. no user gesture yet) or the file can't be loaded (`NotSupportedError`), `onended`
+ * never fires and the play button stays disabled for the rest of the page visit.
+ *
+ * We wrap `play()` on narration audio so those two failures are reported to the player
+ * as if the narration had ended, which runs its own cleanup (clears the highlight
+ * interval, re-enables the button). `AbortError` is deliberately ignored: it means this
+ * `play()` was superseded by a newer `src`/`play()` on the same element (e.g. a page
+ * flip), and that newer call owns the button state.
+ */
+function recoverFromRefusedGdlNarrationPlayback(audio: HTMLAudioElement): void {
+  const nativePlay = audio.play;
+  audio.play = function (this: HTMLAudioElement): Promise<void> {
+    const playPromise = nativePlay.call(this);
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch((error: any) => {
+        const name = error && error.name;
+        if (name === "NotAllowedError" || name === "NotSupportedError") {
+          console.warn("GDL: Narration audio could not play (" + name + "); resetting play button");
+          audio.dispatchEvent(new Event("ended"));
+        }
+      });
+    }
+    return playPromise;
+  };
+}
+
+/**
+ * The gdl-player's narration `onPlay` starts a 40ms `setInterval` that drives word
+ * highlighting, and clears it only from the narration audio's `onended`. Narration that
+ * never ends — interrupted by a page flip, restarted by a second `onPlay` (the player's
+ * own "already playing" guard reads a property that doesn't exist, so its autoplay timer
+ * and a play-button press can both start it), or refused by the browser — leaves its
+ * interval running forever, and every flip/restart adds another (measured: 17 live
+ * intervals after flipping through ColoursEn-1 twice). On slow devices this steadily
+ * growing main-thread load is a likely contributor to the field crash reports after
+ * repeated play presses.
+ *
+ * The bundle is rewritten so each new narration interval is registered here, which
+ * clears the previous one first. Only one narration can play at a time (see
+ * `claimSingleGdlAudioPlayback`), so at most one highlight interval is ever alive.
+ */
+let currentGdlNarrationHighlightInterval: number | null = null;
+
+function installGdlNarrationHighlightTracker(): void {
+  (window as any).__crTrackGdlNarrationHighlight = (_audio: HTMLAudioElement, intervalId: number): number => {
+    if (currentGdlNarrationHighlightInterval !== null && currentGdlNarrationHighlightInterval !== intervalId) {
+      clearInterval(currentGdlNarrationHighlightInterval);
+    }
+    currentGdlNarrationHighlightInterval = intervalId;
+    return intervalId;
+  };
 }
 
 /**
@@ -249,23 +308,47 @@ function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
 const GDL_FULLY_IN_VIEWPORT_CHECK =
   /function ([A-Za-z_$][\w$]*)\(e\)\{let t=e\.getBoundingClientRect\(\);return t\.top>=0&&t\.left>=0&&t\.bottom<=\(window\.innerHeight\|\|document\.documentElement\.clientHeight\)&&t\.right<=\(window\.innerWidth\|\|document\.documentElement\.clientWidth\)\}/;
 
-function patchGdlPlayerLottieVisibilityCheck(source: string): string {
-  if (!GDL_FULLY_IN_VIEWPORT_CHECK.test(source)) {
-    console.warn("GDL: Lottie visibility check not found in gdl-player bundle; leaving it unpatched");
-    return source;
-  }
-  return source.replace(
-    GDL_FULLY_IN_VIEWPORT_CHECK,
-    (_match, name) =>
-      `function ${name}(e){let t=e.getBoundingClientRect();return t.bottom>0&&t.right>0&&t.top<(window.innerHeight||document.documentElement.clientHeight)&&t.left<(window.innerWidth||document.documentElement.clientWidth)}`
-  );
+/**
+ * The narration word-highlight interval (see `installGdlNarrationHighlightTracker`). Both
+ * bundle variants share its shape and differ only in where the id is stored and which
+ * audio it reads: `const a=setInterval((()=>{const t=e.findIndex((e=>It.currentTime>=...`
+ * (shared module-level narration audio) or `d.current=setInterval((()=>{...f.current
+ * .currentTime>=...` (per-page narration audio). Group 1 is the assignment, group 2 the
+ * interval callback, group 3 the narration audio expression.
+ */
+const GDL_NARRATION_HIGHLIGHT_INTERVAL =
+  /((?:const [\w$]+=)|(?:[\w$]+\.current=))setInterval\((\(\(\)=>\{const [\w$]+=[\w$]+\.findIndex\(\([\w$]+=>([\w$.]+)\.currentTime>=[\s\S]*?\}\)),40\)/;
+
+const GDL_PLAYER_BUNDLE_PATCHES: { description: string; pattern: RegExp; replace: (...groups: string[]) => string }[] = [
+  {
+    description: "Lottie visibility check",
+    pattern: GDL_FULLY_IN_VIEWPORT_CHECK,
+    replace: (_match, name) =>
+      `function ${name}(e){let t=e.getBoundingClientRect();return t.bottom>0&&t.right>0&&t.top<(window.innerHeight||document.documentElement.clientHeight)&&t.left<(window.innerWidth||document.documentElement.clientWidth)}`,
+  },
+  {
+    description: "narration highlight interval",
+    pattern: GDL_NARRATION_HIGHLIGHT_INTERVAL,
+    replace: (_match, assignment, callback, audio) =>
+      `${assignment}window.__crTrackGdlNarrationHighlight(${audio},setInterval(${callback},40))`,
+  },
+];
+
+function patchGdlPlayerBundle(source: string): string {
+  return GDL_PLAYER_BUNDLE_PATCHES.reduce((patched, patch) => {
+    if (!patch.pattern.test(patched)) {
+      console.warn("GDL: " + patch.description + " not found in gdl-player bundle; leaving it unpatched");
+      return patched;
+    }
+    return patched.replace(patch.pattern, patch.replace as any);
+  }, source);
 }
 
 /**
  * Resolve the URL to load the gdl-player bundle from: a Blob URL of the patched source
- * (see `patchGdlPlayerLottieVisibilityCheck`), or the original URL if fetching it fails
- * so the book still loads, just without the Lottie fix. The fetch goes through the
- * service worker like any other request, so this works offline once the book is cached.
+ * (see `GDL_PLAYER_BUNDLE_PATCHES`), or the original URL if fetching it fails so the book
+ * still loads, just without the fixes. The fetch goes through the service worker like any
+ * other request, so this works offline once the book is cached.
  */
 async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: string; isBlob: boolean }> {
   try {
@@ -273,7 +356,7 @@ async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: stri
     if (!response.ok) {
       throw new Error("HTTP " + response.status);
     }
-    const patchedSource = patchGdlPlayerLottieVisibilityCheck(await response.text());
+    const patchedSource = patchGdlPlayerBundle(await response.text());
     const blob = new Blob([patchedSource], { type: "text/javascript" });
     return { url: URL.createObjectURL(blob), isBlob: true };
   } catch (error) {
@@ -302,8 +385,10 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   console.log("Initializing GDL book: " + gdlId);
 
   // Must happen before the vendored player script (appended below) ever runs, so its
-  // page-narration `new Audio()` calls pick up the patched constructor.
+  // page-narration `new Audio()` calls pick up the patched constructor and the patched
+  // bundle finds its narration highlight tracker.
   patchGlobalAudioConstructorForSingleGdlPlayback();
+  installGdlNarrationHighlightTracker();
 
   // Always re-query from DOM — module-level reference can be stale in WebViews
   const loadingScreen = document.getElementById("loadingScreen");
@@ -368,7 +453,7 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   link.href = `${basePath}my-lib-style.css`;
   document.head.appendChild(link);
 
-  // Load UMD JS dynamically (patched — see patchGdlPlayerLottieVisibilityCheck)
+  // Load UMD JS dynamically (patched — see GDL_PLAYER_BUNDLE_PATCHES)
   const scriptSource = await resolveGdlPlayerScriptUrl(`${basePath}gdlplayer.umd.js`);
   const script = document.createElement("script");
   script.src = scriptSource.url;
