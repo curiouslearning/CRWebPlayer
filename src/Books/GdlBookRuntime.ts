@@ -198,6 +198,61 @@ function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
 }
 
 /**
+ * The dotlottie-web runtime bundled into gdlplayer.umd.js decides whether a Lottie may
+ * start animating with an "is this canvas on screen" check that requires the canvas's
+ * bounding box to be *entirely* inside the window. When `play()` is called on a canvas
+ * that is only partly visible (e.g. a large Lottie that bleeds past the top/side of the
+ * page, which is common on small phone screens), it freezes the animation instead. Its
+ * IntersectionObserver would normally unfreeze it once the canvas scrolls into view, but
+ * that observer only fires on a *change* in visibility — a canvas that was already partly
+ * visible never triggers it again, so the Lottie stays stuck on its first frame forever.
+ *
+ * The player's word-timed Lottie effects hit this every time: they call `play()` and
+ * immediately flip their React `play` state back to false in the same tick, so the
+ * render config never switches `freezeOnOffscreen` off and the frozen state is final.
+ *
+ * We can't fix the vendored bundle at its source, so we rewrite that one helper to treat
+ * "any part of the canvas overlaps the viewport" as on-screen. Canvases that are fully
+ * off-screen (e.g. mid page-swipe) still freeze, and are unfrozen by the observer once
+ * they slide in.
+ */
+const GDL_FULLY_IN_VIEWPORT_CHECK =
+  /function ([A-Za-z_$][\w$]*)\(e\)\{let t=e\.getBoundingClientRect\(\);return t\.top>=0&&t\.left>=0&&t\.bottom<=\(window\.innerHeight\|\|document\.documentElement\.clientHeight\)&&t\.right<=\(window\.innerWidth\|\|document\.documentElement\.clientWidth\)\}/;
+
+function patchGdlPlayerLottieVisibilityCheck(source: string): string {
+  if (!GDL_FULLY_IN_VIEWPORT_CHECK.test(source)) {
+    console.warn("GDL: Lottie visibility check not found in gdl-player bundle; leaving it unpatched");
+    return source;
+  }
+  return source.replace(
+    GDL_FULLY_IN_VIEWPORT_CHECK,
+    (_match, name) =>
+      `function ${name}(e){let t=e.getBoundingClientRect();return t.bottom>0&&t.right>0&&t.top<(window.innerHeight||document.documentElement.clientHeight)&&t.left<(window.innerWidth||document.documentElement.clientWidth)}`
+  );
+}
+
+/**
+ * Resolve the URL to load the gdl-player bundle from: a Blob URL of the patched source
+ * (see `patchGdlPlayerLottieVisibilityCheck`), or the original URL if fetching it fails
+ * so the book still loads, just without the Lottie fix. The fetch goes through the
+ * service worker like any other request, so this works offline once the book is cached.
+ */
+async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: string; isBlob: boolean }> {
+  try {
+    const response = await fetch(scriptUrl);
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+    const patchedSource = patchGdlPlayerLottieVisibilityCheck(await response.text());
+    const blob = new Blob([patchedSource], { type: "text/javascript" });
+    return { url: URL.createObjectURL(blob), isBlob: true };
+  } catch (error) {
+    console.error("GDL: Failed to fetch gdl-player bundle for patching, loading it unpatched:", error);
+    return { url: scriptUrl, isBlob: false };
+  }
+}
+
+/**
  * Enforce landscape mode through Android bridge call (same as CR books)
  */
 function enforceLandscapeMode(): void {
@@ -283,11 +338,16 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   link.href = `${basePath}my-lib-style.css`;
   document.head.appendChild(link);
 
-  // Load UMD JS dynamically
+  // Load UMD JS dynamically (patched — see patchGdlPlayerLottieVisibilityCheck)
+  const scriptSource = await resolveGdlPlayerScriptUrl(`${basePath}gdlplayer.umd.js`);
   const script = document.createElement("script");
-  script.src = `${basePath}gdlplayer.umd.js`;
+  script.src = scriptSource.url;
 
   script.onload = () => {
+    if (scriptSource.isBlob) {
+      URL.revokeObjectURL(scriptSource.url);
+    }
+
     // Ensure gdl-player element exists
     let player = document.querySelector("gdl-player");
     if (!player) {
