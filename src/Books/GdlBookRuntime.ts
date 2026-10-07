@@ -75,13 +75,21 @@ async function registerServiceWorkerForGdl(config: {
  *   rule. So the whole chain needs a definite height first: the cover slide is pinned
  *   (scoped by `data-hash="cover"` so other slides keep autoHeight) and `.cover-page`
  *   becomes a column flexbox. `.cover-page` also contains the title/credit text as a
- *   sibling *after* the illustration (`<div class="cover-illustration">` then
- *   `<div class="mt-2 text-center"><h2>{title}</h2>...</div>`) — giving the
- *   illustration a flat `height: 100%` would consume the whole slide and push that
- *   sibling out of view, so instead it gets `flex: 1 1 auto; min-height: 0` to fill only
- *   whatever space the title doesn't need, while the title is pinned to `flex-shrink: 0`
- *   so it always keeps its natural size. The `<img>` itself still declares
- *   `height: auto` — `object-fit: cover` only crops/fills when it has an actual box.
+ *   sibling *after* the illustration — `<div class="mt-2 text-center"><h2>` in older
+ *   bundles, `<div class="cover-text"><h1>` in newer ones (some newer bundles also use
+ *   `max-width: 20rem` instead of `width: 20rem` on the illustration).
+ *
+ *   The illustration and title are centered together as a group, the title pinned to
+ *   `flex-shrink: 0` so it always keeps its natural size, and the illustration is
+ *   `flex: 0 1 auto; min-height: 0` so it only shrinks when the page is too short to fit
+ *   both. Its post-flex height is definite (the cover page has a definite height), so the
+ *   `<img>` can use `max-height: 100%` with `object-fit: contain` to scale the whole
+ *   cover art down without cropping it. The vendored `20rem` width cap is lifted (to 90%
+ *   of the page) — on large screens it otherwise leaves the cover art a small 320px
+ *   thumbnail on a 1280×600 stage.
+ * - The older bundles' cover title is a fixed `text-xl` (18px) that looks tiny on large
+ *   screens; it gets the same viewport-scaled `clamp()` sizes the newer bundles ship for
+ *   their `.cover-text h1`/`small`.
  */
 function applyGdlPlayerStyleOverrides(player: Element): void {
   const shadowRoot = (player as HTMLElement).shadowRoot;
@@ -102,20 +110,42 @@ function applyGdlPlayerStyleOverrides(player: Element): void {
     .cover-page {
       display: flex !important;
       flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
       height: 100% !important;
+      box-sizing: border-box !important;
+      padding: 1rem 0 !important;
     }
     .cover-page .cover-illustration {
-      flex: 1 1 auto !important;
+      flex: 0 1 auto !important;
       min-height: 0 !important;
       height: auto !important;
+      width: auto !important;
+      max-width: 90% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
     }
     .cover-page .cover-illustration img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
+      display: block !important;
+      width: auto !important;
+      height: auto !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      object-fit: contain !important;
     }
-    .cover-page > .mt-2 {
+    .cover-page > .mt-2,
+    .cover-page > .cover-text {
       flex-shrink: 0 !important;
+      margin-top: 0 !important;
+      text-align: center !important;
+    }
+    .cover-page > .mt-2 h2 {
+      font-size: clamp(1rem, -0.25rem + 4vw, 1.75rem) !important;
+    }
+    .cover-page > .mt-2 small {
+      font-size: clamp(0.8rem, -0.2rem + 2vw, 1rem) !important;
     }
   `;
   shadowRoot.appendChild(style);
@@ -195,6 +225,61 @@ function patchGlobalAudioConstructorForSingleGdlPlayback(): void {
   }
   PatchedAudio.prototype = NativeAudio.prototype;
   win.Audio = PatchedAudio;
+}
+
+/**
+ * The dotlottie-web runtime bundled into gdlplayer.umd.js decides whether a Lottie may
+ * start animating with an "is this canvas on screen" check that requires the canvas's
+ * bounding box to be *entirely* inside the window. When `play()` is called on a canvas
+ * that is only partly visible (e.g. a large Lottie that bleeds past the top/side of the
+ * page, which is common on small phone screens), it freezes the animation instead. Its
+ * IntersectionObserver would normally unfreeze it once the canvas scrolls into view, but
+ * that observer only fires on a *change* in visibility — a canvas that was already partly
+ * visible never triggers it again, so the Lottie stays stuck on its first frame forever.
+ *
+ * The player's word-timed Lottie effects hit this every time: they call `play()` and
+ * immediately flip their React `play` state back to false in the same tick, so the
+ * render config never switches `freezeOnOffscreen` off and the frozen state is final.
+ *
+ * We can't fix the vendored bundle at its source, so we rewrite that one helper to treat
+ * "any part of the canvas overlaps the viewport" as on-screen. Canvases that are fully
+ * off-screen (e.g. mid page-swipe) still freeze, and are unfrozen by the observer once
+ * they slide in.
+ */
+const GDL_FULLY_IN_VIEWPORT_CHECK =
+  /function ([A-Za-z_$][\w$]*)\(e\)\{let t=e\.getBoundingClientRect\(\);return t\.top>=0&&t\.left>=0&&t\.bottom<=\(window\.innerHeight\|\|document\.documentElement\.clientHeight\)&&t\.right<=\(window\.innerWidth\|\|document\.documentElement\.clientWidth\)\}/;
+
+function patchGdlPlayerLottieVisibilityCheck(source: string): string {
+  if (!GDL_FULLY_IN_VIEWPORT_CHECK.test(source)) {
+    console.warn("GDL: Lottie visibility check not found in gdl-player bundle; leaving it unpatched");
+    return source;
+  }
+  return source.replace(
+    GDL_FULLY_IN_VIEWPORT_CHECK,
+    (_match, name) =>
+      `function ${name}(e){let t=e.getBoundingClientRect();return t.bottom>0&&t.right>0&&t.top<(window.innerHeight||document.documentElement.clientHeight)&&t.left<(window.innerWidth||document.documentElement.clientWidth)}`
+  );
+}
+
+/**
+ * Resolve the URL to load the gdl-player bundle from: a Blob URL of the patched source
+ * (see `patchGdlPlayerLottieVisibilityCheck`), or the original URL if fetching it fails
+ * so the book still loads, just without the Lottie fix. The fetch goes through the
+ * service worker like any other request, so this works offline once the book is cached.
+ */
+async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: string; isBlob: boolean }> {
+  try {
+    const response = await fetch(scriptUrl);
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+    const patchedSource = patchGdlPlayerLottieVisibilityCheck(await response.text());
+    const blob = new Blob([patchedSource], { type: "text/javascript" });
+    return { url: URL.createObjectURL(blob), isBlob: true };
+  } catch (error) {
+    console.error("GDL: Failed to fetch gdl-player bundle for patching, loading it unpatched:", error);
+    return { url: scriptUrl, isBlob: false };
+  }
 }
 
 /**
@@ -283,11 +368,16 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   link.href = `${basePath}my-lib-style.css`;
   document.head.appendChild(link);
 
-  // Load UMD JS dynamically
+  // Load UMD JS dynamically (patched — see patchGdlPlayerLottieVisibilityCheck)
+  const scriptSource = await resolveGdlPlayerScriptUrl(`${basePath}gdlplayer.umd.js`);
   const script = document.createElement("script");
-  script.src = `${basePath}gdlplayer.umd.js`;
+  script.src = scriptSource.url;
 
   script.onload = () => {
+    if (scriptSource.isBlob) {
+      URL.revokeObjectURL(scriptSource.url);
+    }
+
     // Ensure gdl-player element exists
     let player = document.querySelector("gdl-player");
     if (!player) {
