@@ -232,7 +232,12 @@ function stopGdlAudioOnPageChange(player: Element): void {
   const attach = () => {
     const swiper = (shadowRoot.querySelector(".swiper") as any)?.swiper;
     if (swiper && typeof swiper.on === "function") {
-      swiper.on("slideChange", stopCurrentGdlAudio);
+      swiper.on("slideChange", () => {
+        // Read by the patched page autoplay timer (see patchGdlPlayerStaleAutoplay).
+        const win = window as any;
+        win.__crGdlPageChanges = (win.__crGdlPageChanges || 0) + 1;
+        stopCurrentGdlAudio();
+      });
       return;
     }
     if (++attempts < 150) {
@@ -334,8 +339,42 @@ function patchGdlPlayerPlayButtonWithoutAudio(source: string): string {
 }
 
 /**
+ * The gdl-player's page component auto-plays narration from an effect that schedules
+ * `setTimeout(play, 750)` once the page becomes active, but never returns a cleanup to
+ * cancel it. Swiping past a page in under 750ms leaves that timer pending, and it later
+ * starts the skipped page's narration while the reader is already elsewhere — after
+ * `stopGdlAudioOnPageChange` has already run, and with nothing to replace it if the page
+ * they landed on has no narration of its own.
+ *
+ * We rewrite the effect to return a cleanup that clears its timer. React runs it when the
+ * page stops being active (and when a play-button press starts narration first, which
+ * also stops the autoplay from restarting it a second time).
+ *
+ * React only runs that cleanup after it re-renders for the page change, so a timer that
+ * comes due in between (seen when the main thread is busy or timers are throttled) would
+ * still fire. The timer therefore also records the page-change count from
+ * `stopGdlAudioOnPageChange` (bumped synchronously on every slide change) and only plays
+ * if no page change has happened since it was scheduled.
+ */
+const GDL_PAGE_AUTOPLAY_EFFECT =
+  /([\w$]+\.useEffect\(\(\(\)=>\{)([\w$]+&&null===[\w$]+&&[\w$]+&&[\w$]+)&&setTimeout\(\(\(\)=>\{([\w$]+)\(\)\}\),750\)\}\)/;
+
+function patchGdlPlayerStaleAutoplay(source: string): string {
+  if (!GDL_PAGE_AUTOPLAY_EFFECT.test(source)) {
+    console.warn("GDL: Page narration autoplay effect not found in gdl-player bundle; leaving it unpatched");
+    return source;
+  }
+  return source.replace(
+    GDL_PAGE_AUTOPLAY_EFFECT,
+    (_match, effectStart, condition, play) =>
+      `${effectStart}if(${condition}){const crPageChanges=window.__crGdlPageChanges;const crAutoplayTimer=setTimeout((()=>{crPageChanges===window.__crGdlPageChanges&&${play}()}),750);return()=>clearTimeout(crAutoplayTimer)}})`
+  );
+}
+
+/**
  * Resolve the URL to load the gdl-player bundle from: a Blob URL of the patched source
- * (see `patchGdlPlayerLottieVisibilityCheck` and `patchGdlPlayerPlayButtonWithoutAudio`),
+ * (see `patchGdlPlayerLottieVisibilityCheck`, `patchGdlPlayerPlayButtonWithoutAudio` and
+ * `patchGdlPlayerStaleAutoplay`),
  * or the original URL if fetching it fails so the book still loads, just without the
  * fixes. The fetch goes through the service worker like any other request, so this
  * works offline once the book is cached.
@@ -346,8 +385,8 @@ async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: stri
     if (!response.ok) {
       throw new Error("HTTP " + response.status);
     }
-    const patchedSource = patchGdlPlayerPlayButtonWithoutAudio(
-      patchGdlPlayerLottieVisibilityCheck(await response.text())
+    const patchedSource = patchGdlPlayerStaleAutoplay(
+      patchGdlPlayerPlayButtonWithoutAudio(patchGdlPlayerLottieVisibilityCheck(await response.text()))
     );
     const blob = new Blob([patchedSource], { type: "text/javascript" });
     return { url: URL.createObjectURL(blob), isBlob: true };
