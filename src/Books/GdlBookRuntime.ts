@@ -198,6 +198,53 @@ function enforceSingleGdlAudioPlayback(player: Element): void {
 }
 
 /**
+ * The gdl-player's swiper `onSlideChange` only records the new page index (and logs
+ * `page_turned`) — nothing stops audio when the page changes. The outgoing page's
+ * narration is only cut off once the incoming page starts its own narration (750ms after
+ * it becomes active, on top of the 1200ms page transition), and on a page with no
+ * narration at all (cover, credits, illustration-only pages) it plays to the end.
+ *
+ * We hook the player's swiper and stop whatever GDL audio is playing as soon as the
+ * slide changes. Narration audio (a detached `new Audio()`, see
+ * `patchGlobalAudioConstructorForSingleGdlPlayback`) is also sent an `ended` event, so
+ * the player runs its own end-of-narration cleanup for the outgoing page: clears its
+ * word-highlight interval, removes leftover highlights, and resets its play button.
+ */
+function stopCurrentGdlAudio(): void {
+  const audio = currentlyPlayingGdlAudio;
+  if (!audio || audio.paused) {
+    return;
+  }
+  audio.pause();
+  if (!audio.isConnected) {
+    audio.dispatchEvent(new Event("ended"));
+  }
+}
+
+function stopGdlAudioOnPageChange(player: Element): void {
+  const shadowRoot = (player as HTMLElement).shadowRoot;
+  if (!shadowRoot) {
+    return;
+  }
+  // The swiper is created by the player's React tree after the element is attached, so
+  // wait for its instance (exposed on the `.swiper` element) to appear.
+  let attempts = 0;
+  const attach = () => {
+    const swiper = (shadowRoot.querySelector(".swiper") as any)?.swiper;
+    if (swiper && typeof swiper.on === "function") {
+      swiper.on("slideChange", stopCurrentGdlAudio);
+      return;
+    }
+    if (++attempts < 150) {
+      setTimeout(attach, 200);
+    } else {
+      console.warn("GDL: Player swiper not found; audio won't stop on page change");
+    }
+  };
+  attach();
+}
+
+/**
  * Patches the global `Audio` constructor so every detached `new Audio()` instance the
  * gdl-player creates for page narration (rather than a real `<audio>` element — see
  * `enforceSingleGdlAudioPlayback` above for why that distinction matters) also
@@ -262,10 +309,36 @@ function patchGdlPlayerLottieVisibilityCheck(source: string): string {
 }
 
 /**
+ * The gdl-player's page component renders its narration play button unconditionally, so
+ * illustration-only pages (no `audio` entry and no words — e.g. Colours pages 2, 4, 6, 8,
+ * 10 and 13) still show a play button that does nothing when pressed (narration only
+ * starts when the page has an `audio.pageAudio.path`).
+ *
+ * We rewrite the button so it is only rendered when the page has narration audio. The
+ * page component destructures the page's audio as `{…audio:<name>,background:…}=e` shortly
+ * before rendering the button (`<jsx>.jsx("button",{disabled:!0===…`); group 2 captures
+ * that audio variable name, which differs between bundle builds.
+ */
+const GDL_PAGE_PLAY_BUTTON =
+  /(\{(?:_id:[\w$]+,)?audio:([\w$]+),background:[\s\S]{0,3000}?)([\w$]+\.jsx\("button",\{disabled:!0===)/;
+
+function patchGdlPlayerPlayButtonWithoutAudio(source: string): string {
+  if (!GDL_PAGE_PLAY_BUTTON.test(source)) {
+    console.warn("GDL: Page play button not found in gdl-player bundle; leaving it unpatched");
+    return source;
+  }
+  return source.replace(
+    GDL_PAGE_PLAY_BUTTON,
+    (_match, before, audio, button) => `${before}${audio}?.pageAudio?.path&&${button}`
+  );
+}
+
+/**
  * Resolve the URL to load the gdl-player bundle from: a Blob URL of the patched source
- * (see `patchGdlPlayerLottieVisibilityCheck`), or the original URL if fetching it fails
- * so the book still loads, just without the Lottie fix. The fetch goes through the
- * service worker like any other request, so this works offline once the book is cached.
+ * (see `patchGdlPlayerLottieVisibilityCheck` and `patchGdlPlayerPlayButtonWithoutAudio`),
+ * or the original URL if fetching it fails so the book still loads, just without the
+ * fixes. The fetch goes through the service worker like any other request, so this
+ * works offline once the book is cached.
  */
 async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: string; isBlob: boolean }> {
   try {
@@ -273,7 +346,9 @@ async function resolveGdlPlayerScriptUrl(scriptUrl: string): Promise<{ url: stri
     if (!response.ok) {
       throw new Error("HTTP " + response.status);
     }
-    const patchedSource = patchGdlPlayerLottieVisibilityCheck(await response.text());
+    const patchedSource = patchGdlPlayerPlayButtonWithoutAudio(
+      patchGdlPlayerLottieVisibilityCheck(await response.text())
+    );
     const blob = new Blob([patchedSource], { type: "text/javascript" });
     return { url: URL.createObjectURL(blob), isBlob: true };
   } catch (error) {
@@ -394,6 +469,7 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
 
       applyGdlPlayerStyleOverrides(player);
       enforceSingleGdlAudioPlayback(player);
+      stopGdlAudioOnPageChange(player);
     } else {
       (player as HTMLElement).id = gdlId;
     }
