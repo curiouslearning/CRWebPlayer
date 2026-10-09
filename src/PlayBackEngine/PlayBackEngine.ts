@@ -117,9 +117,25 @@ export class PlayBackEngine {
             if (document.visibilityState === "visible") {
                 this.playPageAudio(this.book.pages[this.currentPage], this.currentPage);
             } else {
-                this.stopPageAudio(this.book.pages[this.currentPage]);
+                this.stopAllAudio();
             }
         });
+        // Some WebViews/iOS Safari fire `pagehide` without a preceding `visibilitychange`.
+        window.addEventListener("pagehide", () => this.stopAllAudio());
+    }
+
+    // Stops the current page's narration and any word-click audio still playing, so
+    // nothing keeps sounding while the app is in the background.
+    stopAllAudio() {
+        if (this.currentlyPlayingAudioElement !== null) {
+            this.currentlyPlayingAudioElement.pause();
+            this.currentlyPlayingAudioElement.currentTime = 0;
+            this.currentlyPlayingAudioElement = null;
+        }
+        clearTimeout(this.currentWordPlayingTimeout);
+        if (this.book !== undefined) {
+            this.stopPageAudio(this.book.pages[this.currentPage]);
+        }
     }
 
     stopPageAudio(page: Page) {

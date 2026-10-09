@@ -250,6 +250,35 @@ function stopGdlAudioOnPageChange(player: Element): void {
 }
 
 /**
+ * The gdl-player never listens for the page being hidden, so narration (and word audio)
+ * keeps playing after the user sends the container app to the background or switches
+ * tabs. We stop whatever GDL audio is playing as soon as the page is hidden, the same way
+ * a page change does (see `stopCurrentGdlAudio`). The page-change counter is also bumped
+ * so a narration autoplay timer still pending from a just-turned page (see
+ * `patchGdlPlayerStaleAutoplay`) can't start audio while the app is in the background.
+ * Guarded to run once regardless of how many GDL books load in this session.
+ */
+function stopGdlAudioWhenHidden(): void {
+  const win = window as any;
+  if (win.__crGdlHiddenListenerAdded) {
+    return;
+  }
+  win.__crGdlHiddenListenerAdded = true;
+
+  const stopForHiddenPage = () => {
+    win.__crGdlPageChanges = (win.__crGdlPageChanges || 0) + 1;
+    stopCurrentGdlAudio();
+  };
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") {
+      stopForHiddenPage();
+    }
+  });
+  // Some WebViews/iOS Safari fire `pagehide` without a preceding `visibilitychange`.
+  window.addEventListener("pagehide", stopForHiddenPage);
+}
+
+/**
  * Patches the global `Audio` constructor so every detached `new Audio()` instance the
  * gdl-player creates for page narration (rather than a real `<audio>` element — see
  * `enforceSingleGdlAudioPlayback` above for why that distinction matters) also
@@ -418,6 +447,7 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
   // Must happen before the vendored player script (appended below) ever runs, so its
   // page-narration `new Audio()` calls pick up the patched constructor.
   patchGlobalAudioConstructorForSingleGdlPlayback();
+  stopGdlAudioWhenHidden();
 
   // Always re-query from DOM — module-level reference can be stale in WebViews
   const loadingScreen = document.getElementById("loadingScreen");
