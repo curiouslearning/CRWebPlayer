@@ -1,0 +1,18 @@
+{
+  "about": "Pashto narration for Colours, laid over the pages and pictures of the English Curious Reader book ColoursLevel2En (the recordings are its 10 short sentences: 'Bear likes colours.' ... 'No more colours.'; the Digital Library book ColoursPashto is the longer Lv4 story and its text is not used). Page numbers are body indexes of the converted English book (0 = first story page; this book has no title page). The sentence files are named in English, so every line was written from the word clips (file names give the speaker's spelling) in story order and confirmed against a Whisper transcription of each sentence. The speaker's dialect says 'bear' as یگه / ږیره (the Digital Library book writes ییږ), so the text follows the clip spellings; all lines need checking by a Pashto reader. 'link' lists the Pashto words that trigger the page's picture (replacing the English glow hotspots, same word positions).",
+  "structure": "BookContent/ColoursLevel2En/content",
+  "sentences_dir": "Colors_ file 1_ full sentences",
+  "words_dir": "Colors_ file 2_ words",
+  "pages": [
+    {"page": 0, "audio": "bear likes colors.mp3", "text": "یگه رنګونه خوښوي.", "link": ["یگه"], "check": "English file name; text from word clips یگه, رنګونه, خوښوي. 'bear' spelled یگه as in the clip (Digital Library book: ییږ). Final full stop added"},
+    {"page": 1, "audio": "bear finds colors.mp3", "text": "یگه رنګونه پیدا کوي.", "link": ["یگه"], "check": "English file name; text from word clips یگه2, رنګونه2, پیدا, کوي. Final full stop added"},
+    {"page": 3, "audio": "yellow ears.mp3", "text": "زیړ غوږونه.", "link": ["غوږونه"], "check": "English file name; text from word clips زیړ, غوږونه. Clip spells yellow زیړ; Digital Library book spells it ژیړ"},
+    {"page": 5, "audio": "brown stomach.mp3", "text": "نسواري معدې.", "link": ["معدې"], "check": "English file name; text from word clips نسواري, معدې. Digital Library book uses نصواري خېټه"},
+    {"page": 7, "audio": "red mouth.mp3", "text": "سره خوله.", "link": ["خوله"], "check": "English file name; text from word clips سره, خوله"},
+    {"page": 9, "audio": "blue hands.mp3", "text": "نیلي لاسونه.", "link": ["لاسونه"], "check": "English file name; text from word clips نیلي, لاسونه. Digital Library book uses آبي for blue"},
+    {"page": 11, "audio": "green back.mp3", "text": "شنه شا.", "link": ["شا"], "check": "English file name; text from word clips شنه, شا. Digital Library book uses شین څټ"},
+    {"page": 13, "audio": "pink feet.mp3", "text": "ګلابي پښې.", "link": ["پښې"], "check": "English file name; text from word clips ګلابي, پښې"},
+    {"page": 14, "audio": "colorful bear.mp3", "text": "رنګارنګ ږیره.", "link": ["رنګارنګ"], "check": "English file name; text from word clips رنګارنګ, ږیره. 'bear' spelled ږیره as in the clip (elsewhere یگه; ږیره normally means 'beard'), needs a Pashto reader"},
+    {"page": 18, "audio": "no more colors.mp3", "text": "نور رنګونه نشته.", "link": ["رنګونه"], "check": "English file name; text from word clips نور, رنګونه3, نشته."}
+  ]
+}

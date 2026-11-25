@@ -1,0 +1,107 @@
+{
+  "about": "Pashto narration for Hide and Seek, laid over the pages and pictures of the English Curious Reader book HideAndSeekLevel4En (same 11 story pages: Dodo looks for Mom, then finds 10..1 things). Page numbers are body indexes of the converted English book (0 = title page; 12 = English credits page, not narrated). There is no Pashto H5P version: all text is taken from the sentence recordings' file names and cross-checked against the word clip names (every word except the title words has a clip). Numbers 10, 9 and 8 are written as digits as in the recordings. 'link' lists the Pashto words that trigger the page's picture (replacing the English glow hotspots). Needs checking by a Pashto reader.",
+  "structure": "BookContent/HideAndSeekLevel4En/content",
+  "sentences_dir": "Hide and seek_ file 1_ sentences",
+  "words_dir": "Hide and seek_ file 2_ words",
+  "pages": [
+    {
+      "page": 0,
+      "audio": "پټ پټونې.mp3",
+      "text": "پټ پټونې",
+      "link": [],
+      "check": "title: Pashto title taken from the recording file name; the word clip 'پټ پټونې' covers both words, so neither word gets a tap clip"
+    },
+    {
+      "page": 1,
+      "audio": "ډوډو د مور په لټه کې دی..mp3",
+      "text": "ډوډو د مور په لټه کې دی.",
+      "link": [
+        "مور",
+        "ډوډو"
+      ]
+    },
+    {
+      "page": 2,
+      "audio": "هغه ۱۰ بالونه پیدا کوي..mp3",
+      "text": "هغه ۱۰ بالونه پیدا کوي.",
+      "link": [
+        "بالونه"
+      ],
+      "check": "number written as the digits ۱۰ (as in the file name), not as a word"
+    },
+    {
+      "page": 3,
+      "audio": "هغه ۹ پیالې پیدا کوي.mp3",
+      "text": "هغه ۹ پیالې پیدا کوي",
+      "link": [
+        "پیالې"
+      ],
+      "check": "number written as the digit ۹ (as in the file name); English says 'mugs'"
+    },
+    {
+      "page": 4,
+      "audio": "هغه ۸ قاشوقی پیدا کوي.mp3",
+      "text": "هغه ۸ قاشوقی پیدا کوي",
+      "link": [
+        "قاشوقی"
+      ],
+      "check": "number written as the digit ۸; spelling قاشوقی as in both the sentence and word file names"
+    },
+    {
+      "page": 5,
+      "audio": "هغه اوه ټوکرۍ پیدا کوي.mp3",
+      "text": "هغه اوه ټوکرۍ پیدا کوي",
+      "link": [
+        "ټوکرۍ"
+      ]
+    },
+    {
+      "page": 6,
+      "audio": "هغه شپږ ګلدانۍ پیدا کوي.mp3",
+      "text": "هغه شپږ ګلدانۍ پیدا کوي",
+      "link": [
+        "ګلدانۍ"
+      ]
+    },
+    {
+      "page": 7,
+      "audio": "هغه پنځه ګلونه پیدا کوي.mp3",
+      "text": "هغه پنځه ګلونه پیدا کوي",
+      "link": [
+        "ګلونه"
+      ]
+    },
+    {
+      "page": 8,
+      "audio": "هغه څلور جوړه پتلونونه پیدا کوي.mp3",
+      "text": "هغه څلور جوړه پتلونونه پیدا کوي",
+      "link": [
+        "پتلونونه"
+      ]
+    },
+    {
+      "page": 9,
+      "audio": "هغه د موسیقۍ درې وسایل پیدا کوي.mp3",
+      "text": "هغه د موسیقۍ درې وسایل پیدا کوي",
+      "link": [
+        "وسایل"
+      ]
+    },
+    {
+      "page": 10,
+      "audio": "هغه دوه لاسونه پیدا کوي.mp3",
+      "text": "هغه دوه لاسونه پیدا کوي",
+      "link": [
+        "لاسونه"
+      ]
+    },
+    {
+      "page": 11,
+      "audio": "ډوډو یوه مور پیدا کوي.mp3",
+      "text": "ډوډو یوه مور پیدا کوي",
+      "link": [
+        "مور"
+      ]
+    }
+  ]
+}

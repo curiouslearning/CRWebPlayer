@@ -104,3 +104,7 @@ typings/
 .tern-port
 
 .wakatime-project
+
+# Local Claude Code / oh-my-claudecode state
+.omc/
+.claude/launch.json

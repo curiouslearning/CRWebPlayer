@@ -1,0 +1,141 @@
+{
+  "about": "Pashto narration for Let's Fly, laid over the pages and pictures of the English Curious Reader book LetsFlyLevel2En (same text, layout and pictures as LetsFlyEnLv2). Page numbers are body indexes of the converted English book (0 = title page). The recordings are one file per sentence, but the English pages 1, 3, 5, 7 and 9 hold two sentences each, and several files are named after a different sentence than the one they contain (checked with Whisper transcription). So pages 1, 3, 5, 7 and 9 list two recordings in 'audio', which align.py joins in order. Text comes from the file names, corrected where the file holds another sentence. The Digital Library book LetsFlyPashto is a different, longer translation and was not used for text. 'link' lists the Pashto words that trigger the page's picture (replacing the English glow hotspots: the animal nouns, 'We' and 'I').",
+  "structure": "BookContent/LetsFlyLevel2En/content",
+  "sentences_dir": "Lets fly_ file 1_ full sentences",
+  "words_dir": "Lets fly_ file 2_ words",
+  "pages": [
+    {
+      "page": 0,
+      "audio": "راځئ پرواز وکړو.mp3",
+      "text": "راځئ پرواز وکړو",
+      "link": []
+    },
+    {
+      "page": 1,
+      "audio": [
+        "مرغان پرواز کوي.mp3",
+        "طوطي پرواز کوی.mp3"
+      ],
+      "text": "مرغان پرواز کوي. طوطي پرواز کوی",
+      "link": [
+        "مرغان",
+        "طوطي"
+      ],
+      "check": "audio = 'مرغان پرواز کوي.mp3' + 'طوطي پرواز کوی.mp3' joined; spelling کوی (second sentence) kept from the file name, standard spelling would be کوي"
+    },
+    {
+      "page": 2,
+      "audio": "آس نه شي الوتلی.mp3",
+      "text": "آس نه شي الوتلی",
+      "link": [
+        "آس"
+      ],
+      "check": "file name writes 'نه شي' as two words; the reader may expect نشي"
+    },
+    {
+      "page": 3,
+      "audio": [
+        "مچان پرواز کوي.mp3",
+        "سیکاډاس الوتنه کوي.mp3"
+      ],
+      "text": "مچان پرواز کوي. سیکاډاس الوتنه کوي",
+      "link": [
+        "مچان",
+        "سیکاډاس"
+      ],
+      "check": "audio = 'مچان پرواز کوي.mp3' + 'سیکاډاس الوتنه کوي.mp3' joined"
+    },
+    {
+      "page": 4,
+      "audio": " پرواز نشي کوچرګلی.mp3",
+      "text": "کوچرګلی پرواز نشي کولی",
+      "link": [
+        "کوچرګلی"
+      ],
+      "check": "file name ' پرواز نشي کوچرګلی' is cut and out of order; Whisper hears '...چرګ پرواز نشی کولی', so the text was rebuilt as کوچرګلی پرواز نشي کولی from the word clips"
+    },
+    {
+      "page": 5,
+      "audio": [
+        "مرغان پرواز کوي. پیلیکان الوتنه کوي.mp3",
+        "ګیبون نشي کولی الوتنه وکړي.mp3"
+      ],
+      "text": "مرغان پرواز کوي. پیلیکان الوتنه کوي",
+      "link": [
+        "مرغان",
+        "پیلیکان"
+      ],
+      "check": "audio = 'مرغان پرواز کوي. پیلیکان الوتنه کوي.mp3' (holds only the first sentence) + 'ګیبون نشي کولی الوتنه وکړي.mp3' (actually holds پیلیکان الوتنه کوي) joined. English says 'Owls fly'; the recording says مرغان (birds)"
+    },
+    {
+      "page": 6,
+      "audio": "11.mp3",
+      "text": "ګیبون نشي کولی الوتنه وکړي",
+      "link": [
+        "ګیبون"
+      ],
+      "check": "audio is 11.mp3; content identified by Whisper ('ګیبون نشی کولی الوتنه وکړي')"
+    },
+    {
+      "page": 7,
+      "audio": [
+        "ایګریټ کولی شي الوتنه وکړي. هورنبیل پرواز کولی شي.mp3",
+        "زمری الوتلی نشی.mp3"
+      ],
+      "text": "ایګریټ کولی شي الوتنه وکړي. هورنبیل پرواز کولی شي",
+      "link": [
+        "ایګریټ",
+        "هورنبیل"
+      ],
+      "check": "audio = 'ایګریټ کولی شي الوتنه وکړي. هورنبیل پرواز کولی شي.mp3' (holds only the egret sentence) + 'زمری الوتلی نشی.mp3' (actually holds the hornbill sentence) joined"
+    },
+    {
+      "page": 8,
+      "audio": "تور الو پرواز کولی شي. مچي کولی شي الوتنه وکړي.mp3",
+      "text": "زمری الوتلی نشی",
+      "link": [
+        "زمری"
+      ],
+      "check": "the lion sentence is in the file named 'تور الو پرواز کولی شي. مچي کولی شي الوتنه وکړي.mp3' (Whisper: 'زمری الوتلی نشی'); text and spelling نشی taken from the file 'زمری الوتلی نشی.mp3', standard spelling would be نشي"
+    },
+    {
+      "page": 9,
+      "audio": [
+        "تور الو پرواز کولی شي.mp3",
+        "16.mp3"
+      ],
+      "text": "تور الو پرواز کولی شي. مچي کولی شي الوتنه وکړي",
+      "link": [
+        "الو",
+        "مچي"
+      ],
+      "check": "audio = 'تور الو پرواز کولی شي.mp3' + 16.mp3 (identified by Whisper as مچي کولی شي الوتنه وکړي) joined"
+    },
+    {
+      "page": 10,
+      "audio": "پسه الوتنه نشي کولای.mp3",
+      "text": "پسه الوتنه نشي کولای",
+      "link": [
+        "پسه"
+      ]
+    },
+    {
+      "page": 11,
+      "audio": "یوه ورځ به موږ پرواز وکړو.mp3",
+      "text": "یوه ورځ به موږ پرواز وکړو",
+      "link": [
+        "موږ"
+      ]
+    },
+    {
+      "page": 12,
+      "audio": "زه هم پرواز غواړم.mp3",
+      "text": "زه هم پرواز غواړم",
+      "link": [
+        "زه",
+        "پرواز"
+      ],
+      "check": "Whisper could not transcribe this file freely; confirm by ear that it says زه هم پرواز غواړم"
+    }
+  ]
+}
