@@ -1,0 +1,18 @@
+{
+  "about": "Pashto narration for The Bee and the Elephant, laid over the pages and pictures of the English Curious Reader book. Page numbers are body indexes of the converted English book (0 = title page). Text is taken from the sentence recordings' file names; pages 1 and 8 were completed from the word clips (file names cut short) and need checking by a Pashto reader. 'link' lists the Pashto words that trigger the page's picture (replacing the English glow hotspots).",
+  "structure": "BookContent/TheBeeAndTheElephantEnLv4/content",
+  "sentences_dir": "The bee and the elephant_ sentences",
+  "words_dir": "the bee and the elephant_ words",
+  "pages": [
+    {"page": 0, "audio": "شاتو مچی او فیل.mp3", "text": "شاتو مچی او فیل", "link": []},
+    {"page": 1, "audio": "وړه شاتو مچۍ ورکه شوې ده. آیا ښاغلی فیل مرسته کول.mp3", "text": "وړه شاتو مچۍ ورکه شوې ده. آیا ښاغلی فیل مرسته کولی شي؟", "link": ["مچۍ", "فیل"], "check": "ending completed from word clips کولی and شي؟"},
+    {"page": 2, "audio": "آیا تاسو په ځاله کي ژوند کوئ؟.mp3", "text": "آیا تاسو په ځاله کي ژوند کوئ؟", "link": ["ځاله"]},
+    {"page": 3, "audio": "نه، مرغۍ په ځاله کي ژوند کوي.mp3", "text": "نه، مرغۍ په ځاله کي ژوند کوي", "link": ["مرغۍ"]},
+    {"page": 4, "audio": "آیا تاسو په یوه سمڅه کي ژوند کوئ؟.mp3", "text": "آیا تاسو په یوه سمڅه کي ژوند کوئ؟", "link": ["سمڅه"]},
+    {"page": 5, "audio": "نه, د ماښام ښاپیری په یوه سمڅه کي ژوند کوي.mp3", "text": "نه، د ماښام ښاپیری په یوه سمڅه کي ژوند کوي", "link": ["ښاپیری"]},
+    {"page": 6, "audio": "آیا تاسو د مچیو په ځاله کې ژوند کوئ؟.mp3", "text": "آیا تاسو د مچیو په ځاله کې ژوند کوئ؟", "link": ["ځاله"]},
+    {"page": 7, "audio": "هو، دا ځاله زما کور دی..mp3", "text": "هو، دا ځاله زما کور دی.", "link": ["ځاله"]},
+    {"page": 8, "audio": "ننه چې ما سره دې مرسته وکړه، ښاغلی فیل..mp3", "text": "مننه چې ما سره دې مرسته وکړه، ښاغلی فیل.", "link": ["فیل"], "check": "file name starts ننه; word clip مننه used for the first word"},
+    {"page": 9, "audio": "شاتو مچۍ او فیل ملګري دي..mp3", "text": "شاتو مچۍ او فیل ملګري دي.", "link": ["مچۍ", "فیل"]}
+  ]
+}

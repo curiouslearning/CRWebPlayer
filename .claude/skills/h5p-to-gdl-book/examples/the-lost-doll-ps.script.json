@@ -1,0 +1,167 @@
+{
+  "about": "Pashto narration for The Lost Doll, laid over the pages and pictures of the English Curious Reader book TheLostDollEnLv4. Page numbers are body indexes of the converted English book (0 = title page). Text is taken from the sentence recordings' file names (leading spaces and zero-width spaces removed). Where an English page holds two or three sentences that were recorded separately (question + 'Abi asks the ...', animal sound + '... said', 'the dog found the doll'), 'audio' lists those recordings in story order and align.py joins them. The question 'زما لنزکه چیرته ده؟' has three takes; plain is used on page 10, '2' on page 12, '_' on page 14. 'link' lists the Pashto words that trigger the page's picture (replacing the English glow hotspots). The Pashto recordings say لنزکه for doll; the silent Digital Library book TheLostDollPashto uses نانځکه and a different wording, so its text is not used.",
+  "structure": "BookContent/TheLostDollEnLv4/content",
+  "sentences_dir": "Lost doll_file 1",
+  "words_dir": "Lost doll_ file 2_ words",
+  "pages": [
+    {
+      "page": 0,
+      "audio": "ورکه شوې لنزکه.mp3",
+      "text": "ورکه شوې لنزکه",
+      "link": []
+    },
+    {
+      "page": 1,
+      "audio": "   دا ابي او د هغې لنزکه ده.mp3",
+      "text": "دا ابي او د هغې لنزکه ده.",
+      "link": [
+        "ابي",
+        "لنزکه"
+      ]
+    },
+    {
+      "page": 2,
+      "audio": "ابي د هغې لنزکه سره مینه لري..mp3",
+      "text": "ابي د هغې لنزکه سره مینه لري.",
+      "link": [
+        "ابي",
+        "لنزکه"
+      ]
+    },
+    {
+      "page": 3,
+      "audio": " ابي د خپلې لنزکه سره لوبې کول خوښوي..mp3",
+      "text": "ابي د خپلې لنزکه سره لوبې کول خوښوي.",
+      "link": [
+        "ابي",
+        "لنزکه"
+      ]
+    },
+    {
+      "page": 4,
+      "audio": "ابي خپله لنزکه له لاسه ورکړه..mp3",
+      "text": "ابي خپله لنزکه له لاسه ورکړه.",
+      "link": [
+        "لنزکه"
+      ],
+      "check": "Pashto says 'Abi lost her doll'; English page says 'Today her doll is lost'"
+    },
+    {
+      "page": 5,
+      "audio": "ابي د هغې لنزکه لټوي..mp3",
+      "text": "ابي د هغې لنزکه لټوي.",
+      "link": [
+        "ابي"
+      ],
+      "check": "Pashto says 'Abi searches for her doll'; English page says 'Abi looks in the house' (picture shows her going into the house)"
+    },
+    {
+      "page": 6,
+      "audio": "هغه د میز لاندې ګوري..mp3",
+      "text": "هغه د میز لاندې ګوري.",
+      "link": [
+        "میز"
+      ],
+      "check": "only 'She looks under the table' was recorded; English question 'Is her doll in the kitchen?' has no Pashto recording"
+    },
+    {
+      "page": 7,
+      "audio": "هغه د څوکۍ لاندې ګوري.mp3",
+      "text": "هغه د څوکۍ لاندې ګوري.",
+      "link": [
+        "څوکۍ"
+      ],
+      "check": "only 'She looks under the chair' was recorded; English question 'Is her doll in the living room?' has no Pashto recording; final full stop added"
+    },
+    {
+      "page": 8,
+      "audio": "هغه په ​​خوب خونه کې ګوري..mp3",
+      "text": "هغه په خوب خونه کې ګوري.",
+      "link": [],
+      "check": "'She looks in the bedroom' only; English question 'Is her doll in the bedroom?' not recorded"
+    },
+    {
+      "page": 9,
+      "audio": "هغه په ​​باغ کې ګوري.mp3",
+      "text": "هغه په باغ کې ګوري.",
+      "link": [
+        "باغ"
+      ],
+      "check": "'She looks in the garden' only; English question 'Is her doll in the garden?' not recorded; final full stop added"
+    },
+    {
+      "page": 10,
+      "audio": [
+        "زما لنزکه چیرته ده؟.mp3",
+        "ابي له پیشو پوښتنه کوي..mp3"
+      ],
+      "text": "زما لنزکه چیرته ده؟ ابي له پیشو پوښتنه کوي.",
+      "link": [
+        "پیشو",
+        "ابي"
+      ],
+      "check": "two recordings joined; no quotation marks around the question"
+    },
+    {
+      "page": 11,
+      "audio": [
+        "میوو،.mp3",
+        " پیشو ویل.mp3"
+      ],
+      "text": "میوو، پیشو ویل.",
+      "link": [
+        "پیشو"
+      ],
+      "check": "two recordings joined; final full stop added"
+    },
+    {
+      "page": 12,
+      "audio": [
+        "زما لنزکه چیرته ده؟2.mp3",
+        "ابي له چرګ څخه پوښتنه کوي.mp3"
+      ],
+      "text": "زما لنزکه چیرته ده؟ ابي له چرګ څخه پوښتنه کوي.",
+      "link": [
+        "چرګ",
+        "ابي"
+      ],
+      "check": "two recordings joined; final full stop added"
+    },
+    {
+      "page": 13,
+      "audio": "کو-کو-کو.mp3",
+      "text": "کو-کو-کو، چرګ ویل.",
+      "link": [
+        "چرګ"
+      ],
+      "check": "file name is only کو-کو-کو but the recording also says 'چرګ ویل' (heard by Whisper; word clips چرګ and ویل exist); spelling of ویل vs وايل (page 15) to confirm"
+    },
+    {
+      "page": 14,
+      "audio": [
+        "زما لنزکه چیرته ده؟_.mp3",
+        "ابي له سپي پوښتنه کوي.mp3"
+      ],
+      "text": "زما لنزکه چیرته ده؟ ابي له سپي پوښتنه کوي.",
+      "link": [
+        "سپي",
+        "ابي"
+      ],
+      "check": "two recordings joined; final full stop added"
+    },
+    {
+      "page": 15,
+      "audio": [
+        "بو واو واو.mp3",
+        "سپی وايل.mp3",
+        "سپي لنزکه وموندله..mp3"
+      ],
+      "text": "بو واو واو، سپی وايل. سپي لنزکه وموندله.",
+      "link": [
+        "سپی",
+        "لنزکه"
+      ],
+      "check": "three recordings joined; 'سپی وايل' (dog said) vs 'پیشو ویل' (cat said) spelled differently in the file names"
+    }
+  ]
+}
