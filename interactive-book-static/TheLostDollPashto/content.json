@@ -1,12 +1,12 @@
 {
-  "_id": "9c21c48a4188d645e5383172",
+  "_id": "4bb2c5156c4fefdb3729b2a8",
   "title": "ورکه شوې لنزکه",
   "license": "CC-BY-4.0",
   "published": true,
   "slug": "TheLostDollPashto",
   "version": "0.0.1",
-  "createdAt": "2026-11-25T10:53:24.000Z",
-  "updatedAt": "2026-11-25T10:53:24.000Z",
+  "createdAt": "2026-11-25T11:02:00.000Z",
+  "updatedAt": "2026-11-25T11:02:00.000Z",
   "language": "ps",
   "credits": {
     "text": "",
@@ -26,18 +26,18 @@
   ],
   "body": [
     {
-      "_id": "d2c60692eb288d423f28b5e3",
+      "_id": "f9837c28d2aecc0f5c3324aa",
       "title": "Page 1",
       "description": "",
       "text": "ورکه شوې لنزکه",
       "media": [
         {
-          "_id": "787f38426fe8e835b2bbb874",
-          "id": "787f38426fe8e835b2bbb874",
+          "_id": "7743a5e00db812829bfc0ac1",
+          "id": "7743a5e00db812829bfc0ac1",
           "name": "file-61ef2b43e729d.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef2b43e729d.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef2b43e729d.jpeg",
           "filename": "file-61ef2b43e729d.jpeg",
           "position": {
             "left": 327.88,
@@ -84,14 +84,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "4e3386b5b6ebdc0d1fb6a64b",
-        "pageId": "d2c60692eb288d423f28b5e3",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "94053bebe33346593cc9c5d3",
+        "pageId": "f9837c28d2aecc0f5c3324aa",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-00.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-00.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-00.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-00.mp3",
           "filename": "page-00.mp3",
           "segments": [
             {
@@ -100,9 +100,9 @@
               "word": "ورکه",
               "start": 0.36,
               "end": 0.76,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-32e9cbd07ea2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-32e9cbd07ea2.mp3",
-              "filename": "word-32e9cbd07ea2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-17066291cc7a.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-17066291cc7a.mp3",
+              "filename": "word-17066291cc7a.mp3"
             },
             {
               "id": 1,
@@ -110,9 +110,9 @@
               "word": "شوې",
               "start": 0.76,
               "end": 1.06,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a179dae568f5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a179dae568f5.mp3",
-              "filename": "word-a179dae568f5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8277c9242239.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8277c9242239.mp3",
+              "filename": "word-8277c9242239.mp3"
             },
             {
               "id": 2,
@@ -120,9 +120,9 @@
               "word": "لنزکه",
               "start": 1.06,
               "end": 1.84,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-604dcb4a6f77.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-604dcb4a6f77.mp3",
-              "filename": "word-604dcb4a6f77.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ec839a17a640.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ec839a17a640.mp3",
+              "filename": "word-ec839a17a640.mp3"
             }
           ],
           "text": "ورکه شوې لنزکه",
@@ -131,18 +131,18 @@
       }
     },
     {
-      "_id": "9078c9bee28603d8e1080c61",
+      "_id": "f7b26bd725cdc45d51b14b72",
       "title": "Page 2",
       "description": "",
       "text": "دا ابي او د هغې لنزکه ده.",
       "media": [
         {
-          "_id": "b0d0298b8b4634449869a625",
-          "id": "b0d0298b8b4634449869a625",
+          "_id": "fcdfa8ee76479f3ef24fa617",
+          "id": "fcdfa8ee76479f3ef24fa617",
           "name": "file-61ef2d37250d0.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef2d37250d0.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef2d37250d0.jpeg",
           "filename": "file-61ef2d37250d0.jpeg",
           "position": {
             "left": 329.59,
@@ -165,9 +165,9 @@
                 "word": "ابي",
                 "start": 0.7,
                 "end": 1.06,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b3b5daffe27f.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b3b5daffe27f.mp3",
-                "filename": "word-b3b5daffe27f.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-084b6f8b5700.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-084b6f8b5700.mp3",
+                "filename": "word-084b6f8b5700.mp3"
               },
               {
                 "id": 5,
@@ -175,9 +175,9 @@
                 "word": "لنزکه",
                 "start": 1.8,
                 "end": 2.48,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f34225ae6587.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f34225ae6587.mp3",
-                "filename": "word-f34225ae6587.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ef50b00eb6b3.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ef50b00eb6b3.mp3",
+                "filename": "word-ef50b00eb6b3.mp3"
               }
             ]
           },
@@ -245,14 +245,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "e2fed48aae71aee6bfd8e576",
-        "pageId": "9078c9bee28603d8e1080c61",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "1f54d49a03e39df4b9ebcc65",
+        "pageId": "f7b26bd725cdc45d51b14b72",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-01.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-01.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-01.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-01.mp3",
           "filename": "page-01.mp3",
           "segments": [
             {
@@ -261,9 +261,9 @@
               "word": "دا",
               "start": 0.52,
               "end": 0.68,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b84e32fce16.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b84e32fce16.mp3",
-              "filename": "word-5b84e32fce16.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-dd36390da37d.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-dd36390da37d.mp3",
+              "filename": "word-dd36390da37d.mp3"
             },
             {
               "id": 1,
@@ -271,9 +271,9 @@
               "word": "ابي",
               "start": 0.7,
               "end": 1.06,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b3b5daffe27f.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b3b5daffe27f.mp3",
-              "filename": "word-b3b5daffe27f.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-084b6f8b5700.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-084b6f8b5700.mp3",
+              "filename": "word-084b6f8b5700.mp3"
             },
             {
               "id": 2,
@@ -281,9 +281,9 @@
               "word": "او",
               "start": 1.06,
               "end": 1.42,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9a59173cc62e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9a59173cc62e.mp3",
-              "filename": "word-9a59173cc62e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-5ee1ebffa7a1.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-5ee1ebffa7a1.mp3",
+              "filename": "word-5ee1ebffa7a1.mp3"
             },
             {
               "id": 3,
@@ -291,9 +291,9 @@
               "word": "د",
               "start": 1.42,
               "end": 1.48,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a34a7a660423.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a34a7a660423.mp3",
-              "filename": "word-a34a7a660423.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-88df8925c904.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-88df8925c904.mp3",
+              "filename": "word-88df8925c904.mp3"
             },
             {
               "id": 4,
@@ -301,9 +301,9 @@
               "word": "هغې",
               "start": 1.48,
               "end": 1.8,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "filename": "word-bd52d9428199.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "filename": "word-ebbac8bb2526.mp3"
             },
             {
               "id": 5,
@@ -311,9 +311,9 @@
               "word": "لنزکه",
               "start": 1.8,
               "end": 2.48,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f34225ae6587.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f34225ae6587.mp3",
-              "filename": "word-f34225ae6587.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ef50b00eb6b3.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ef50b00eb6b3.mp3",
+              "filename": "word-ef50b00eb6b3.mp3"
             },
             {
               "id": 6,
@@ -321,9 +321,9 @@
               "word": "ده.",
               "start": 2.48,
               "end": 2.8,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-56fa4affdb69.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-56fa4affdb69.mp3",
-              "filename": "word-56fa4affdb69.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-6a6ddbc8bd39.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-6a6ddbc8bd39.mp3",
+              "filename": "word-6a6ddbc8bd39.mp3"
             }
           ],
           "text": "دا ابي او د هغې لنزکه ده.",
@@ -332,18 +332,18 @@
       }
     },
     {
-      "_id": "7a450757af59be9173db3141",
+      "_id": "a2ef38bfe1efcf17dce5714d",
       "title": "Page 3",
       "description": "",
       "text": "ابي د هغې لنزکه سره مینه لري.",
       "media": [
         {
-          "_id": "350ef49fcbb17d87d2ebe05d",
-          "id": "350ef49fcbb17d87d2ebe05d",
+          "_id": "4042aea3eea7ca24893544a0",
+          "id": "4042aea3eea7ca24893544a0",
           "name": "file-61ef2ec0dfac0.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef2ec0dfac0.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef2ec0dfac0.jpeg",
           "filename": "file-61ef2ec0dfac0.jpeg",
           "position": {
             "left": 347.37,
@@ -366,9 +366,9 @@
                 "word": "ابي",
                 "start": 0.38,
                 "end": 0.74,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8895c7880de3.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8895c7880de3.mp3",
-                "filename": "word-8895c7880de3.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9fb72f03b62b.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9fb72f03b62b.mp3",
+                "filename": "word-9fb72f03b62b.mp3"
               },
               {
                 "id": 3,
@@ -376,9 +376,9 @@
                 "word": "لنزکه",
                 "start": 1.32,
                 "end": 1.9,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7c010e0e4fe9.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7c010e0e4fe9.mp3",
-                "filename": "word-7c010e0e4fe9.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-de536a04a28c.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-de536a04a28c.mp3",
+                "filename": "word-de536a04a28c.mp3"
               }
             ]
           },
@@ -446,14 +446,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "f272193d3a2c1fafabd6ee5b",
-        "pageId": "7a450757af59be9173db3141",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "694b6f6fc649420367348993",
+        "pageId": "a2ef38bfe1efcf17dce5714d",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-02.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-02.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-02.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-02.mp3",
           "filename": "page-02.mp3",
           "segments": [
             {
@@ -462,9 +462,9 @@
               "word": "ابي",
               "start": 0.38,
               "end": 0.74,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8895c7880de3.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8895c7880de3.mp3",
-              "filename": "word-8895c7880de3.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9fb72f03b62b.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9fb72f03b62b.mp3",
+              "filename": "word-9fb72f03b62b.mp3"
             },
             {
               "id": 1,
@@ -472,9 +472,9 @@
               "word": "د",
               "start": 0.74,
               "end": 0.94,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f4c7ececfadc.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f4c7ececfadc.mp3",
-              "filename": "word-f4c7ececfadc.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f1331f0aaa2b.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f1331f0aaa2b.mp3",
+              "filename": "word-f1331f0aaa2b.mp3"
             },
             {
               "id": 2,
@@ -482,9 +482,9 @@
               "word": "هغې",
               "start": 0.94,
               "end": 1.32,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "filename": "word-bd52d9428199.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "filename": "word-ebbac8bb2526.mp3"
             },
             {
               "id": 3,
@@ -492,9 +492,9 @@
               "word": "لنزکه",
               "start": 1.32,
               "end": 1.9,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7c010e0e4fe9.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7c010e0e4fe9.mp3",
-              "filename": "word-7c010e0e4fe9.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-de536a04a28c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-de536a04a28c.mp3",
+              "filename": "word-de536a04a28c.mp3"
             },
             {
               "id": 4,
@@ -502,9 +502,9 @@
               "word": "سره",
               "start": 1.9,
               "end": 2.26,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bdfca961e602.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bdfca961e602.mp3",
-              "filename": "word-bdfca961e602.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-46610df4e17c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-46610df4e17c.mp3",
+              "filename": "word-46610df4e17c.mp3"
             },
             {
               "id": 5,
@@ -512,9 +512,9 @@
               "word": "مینه",
               "start": 2.26,
               "end": 2.62,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-cccca35a1137.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-cccca35a1137.mp3",
-              "filename": "word-cccca35a1137.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0395f5cdaa4f.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0395f5cdaa4f.mp3",
+              "filename": "word-0395f5cdaa4f.mp3"
             },
             {
               "id": 6,
@@ -522,9 +522,9 @@
               "word": "لري.",
               "start": 2.62,
               "end": 3.04,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aafe7c1a264b.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aafe7c1a264b.mp3",
-              "filename": "word-aafe7c1a264b.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d37d2def845f.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d37d2def845f.mp3",
+              "filename": "word-d37d2def845f.mp3"
             }
           ],
           "text": "ابي د هغې لنزکه سره مینه لري.",
@@ -533,18 +533,18 @@
       }
     },
     {
-      "_id": "35083a4707d3ba89df1ed72b",
+      "_id": "57dab7e47e82141817c15461",
       "title": "Page 4",
       "description": "",
       "text": "ابي د خپلې لنزکه سره لوبې کول خوښوي.",
       "media": [
         {
-          "_id": "f273bee4fe1b291466a50cd0",
-          "id": "f273bee4fe1b291466a50cd0",
+          "_id": "ca61383db4f4dc722c1d9b0c",
+          "id": "ca61383db4f4dc722c1d9b0c",
           "name": "file-61ef31140c3a9.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef31140c3a9.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef31140c3a9.jpeg",
           "filename": "file-61ef31140c3a9.jpeg",
           "position": {
             "left": 339.69,
@@ -567,9 +567,9 @@
                 "word": "ابي",
                 "start": 0.4,
                 "end": 0.7,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-137357131802.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-137357131802.mp3",
-                "filename": "word-137357131802.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b5a9c2238a4.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b5a9c2238a4.mp3",
+                "filename": "word-4b5a9c2238a4.mp3"
               },
               {
                 "id": 3,
@@ -577,9 +577,9 @@
                 "word": "لنزکه",
                 "start": 1.28,
                 "end": 1.84,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-26ae5aeedb32.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-26ae5aeedb32.mp3",
-                "filename": "word-26ae5aeedb32.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7e2b5693273c.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7e2b5693273c.mp3",
+                "filename": "word-7e2b5693273c.mp3"
               }
             ]
           },
@@ -654,14 +654,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "5a1f9353cf85654a3cd9c8fe",
-        "pageId": "35083a4707d3ba89df1ed72b",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "9aee5b58f9950ea563f336ed",
+        "pageId": "57dab7e47e82141817c15461",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-03.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-03.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-03.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-03.mp3",
           "filename": "page-03.mp3",
           "segments": [
             {
@@ -670,9 +670,9 @@
               "word": "ابي",
               "start": 0.4,
               "end": 0.7,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-137357131802.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-137357131802.mp3",
-              "filename": "word-137357131802.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b5a9c2238a4.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b5a9c2238a4.mp3",
+              "filename": "word-4b5a9c2238a4.mp3"
             },
             {
               "id": 1,
@@ -680,16 +680,19 @@
               "word": "د",
               "start": 0.7,
               "end": 0.9,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-41c338d3fe04.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-41c338d3fe04.mp3",
-              "filename": "word-41c338d3fe04.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8da311045f5c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8da311045f5c.mp3",
+              "filename": "word-8da311045f5c.mp3"
             },
             {
               "id": 2,
               "uid": "rec-3-2",
               "word": "خپلې",
               "start": 0.9,
-              "end": 1.28
+              "end": 1.28,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-92a869736be0.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-92a869736be0.mp3",
+              "filename": "word-92a869736be0.mp3"
             },
             {
               "id": 3,
@@ -697,9 +700,9 @@
               "word": "لنزکه",
               "start": 1.28,
               "end": 1.84,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-26ae5aeedb32.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-26ae5aeedb32.mp3",
-              "filename": "word-26ae5aeedb32.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7e2b5693273c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7e2b5693273c.mp3",
+              "filename": "word-7e2b5693273c.mp3"
             },
             {
               "id": 4,
@@ -707,9 +710,9 @@
               "word": "سره",
               "start": 1.84,
               "end": 2.18,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-e842dca3275f.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-e842dca3275f.mp3",
-              "filename": "word-e842dca3275f.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8b44640a2443.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-8b44640a2443.mp3",
+              "filename": "word-8b44640a2443.mp3"
             },
             {
               "id": 5,
@@ -717,23 +720,29 @@
               "word": "لوبې",
               "start": 2.18,
               "end": 2.54,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-fcaf3c52b8a1.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-fcaf3c52b8a1.mp3",
-              "filename": "word-fcaf3c52b8a1.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0ca8dbfbf3d5.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0ca8dbfbf3d5.mp3",
+              "filename": "word-0ca8dbfbf3d5.mp3"
             },
             {
               "id": 6,
               "uid": "rec-3-6",
               "word": "کول",
               "start": 2.54,
-              "end": 2.78
+              "end": 2.78,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4521d78cc880.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4521d78cc880.mp3",
+              "filename": "word-4521d78cc880.mp3"
             },
             {
               "id": 7,
               "uid": "rec-3-7",
               "word": "خوښوي.",
               "start": 2.78,
-              "end": 3.54
+              "end": 3.54,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4521d78cc880.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4521d78cc880.mp3",
+              "filename": "word-4521d78cc880.mp3"
             }
           ],
           "text": "ابي د خپلې لنزکه سره لوبې کول خوښوي.",
@@ -742,18 +751,18 @@
       }
     },
     {
-      "_id": "906e55938c3c7d0ef43d150a",
+      "_id": "946941a57af3abedd82241f1",
       "title": "Page 5",
       "description": "",
       "text": "ابي خپله لنزکه له لاسه ورکړه.",
       "media": [
         {
-          "_id": "6d0aafb777b6124aa67261f8",
-          "id": "6d0aafb777b6124aa67261f8",
+          "_id": "dd35336614244b2cda3edff3",
+          "id": "dd35336614244b2cda3edff3",
           "name": "file-61ef32ab45f04.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef32ab45f04.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef32ab45f04.jpeg",
           "filename": "file-61ef32ab45f04.jpeg",
           "position": {
             "left": 334.52,
@@ -776,9 +785,9 @@
                 "word": "لنزکه",
                 "start": 1.26,
                 "end": 1.86,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c47b56d0ce9.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c47b56d0ce9.mp3",
-                "filename": "word-1c47b56d0ce9.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-609266a6a449.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-609266a6a449.mp3",
+                "filename": "word-609266a6a449.mp3"
               }
             ]
           },
@@ -839,14 +848,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "8801343e016c15f7647f0f8e",
-        "pageId": "906e55938c3c7d0ef43d150a",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "2e454423a72d57713803e1d4",
+        "pageId": "946941a57af3abedd82241f1",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-04.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-04.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-04.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-04.mp3",
           "filename": "page-04.mp3",
           "segments": [
             {
@@ -855,9 +864,9 @@
               "word": "ابي",
               "start": 0.38,
               "end": 0.76,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c13e49577546.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c13e49577546.mp3",
-              "filename": "word-c13e49577546.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fac508eb9ece.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fac508eb9ece.mp3",
+              "filename": "word-fac508eb9ece.mp3"
             },
             {
               "id": 1,
@@ -865,9 +874,9 @@
               "word": "خپله",
               "start": 0.76,
               "end": 1.26,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ac0823c362ec.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ac0823c362ec.mp3",
-              "filename": "word-ac0823c362ec.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0ebc84881623.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0ebc84881623.mp3",
+              "filename": "word-0ebc84881623.mp3"
             },
             {
               "id": 2,
@@ -875,9 +884,9 @@
               "word": "لنزکه",
               "start": 1.26,
               "end": 1.86,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c47b56d0ce9.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c47b56d0ce9.mp3",
-              "filename": "word-1c47b56d0ce9.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-609266a6a449.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-609266a6a449.mp3",
+              "filename": "word-609266a6a449.mp3"
             },
             {
               "id": 3,
@@ -885,9 +894,9 @@
               "word": "له",
               "start": 1.86,
               "end": 2.02,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c06f2cf16458.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c06f2cf16458.mp3",
-              "filename": "word-c06f2cf16458.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2fc84e4d18d6.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2fc84e4d18d6.mp3",
+              "filename": "word-2fc84e4d18d6.mp3"
             },
             {
               "id": 4,
@@ -895,9 +904,9 @@
               "word": "لاسه",
               "start": 2.02,
               "end": 2.48,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a7219167cd26.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a7219167cd26.mp3",
-              "filename": "word-a7219167cd26.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-64ff56a57a21.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-64ff56a57a21.mp3",
+              "filename": "word-64ff56a57a21.mp3"
             },
             {
               "id": 5,
@@ -905,9 +914,9 @@
               "word": "ورکړه.",
               "start": 2.48,
               "end": 3.04,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-fbe54a5e87be.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-fbe54a5e87be.mp3",
-              "filename": "word-fbe54a5e87be.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d0d6bd70abde.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d0d6bd70abde.mp3",
+              "filename": "word-d0d6bd70abde.mp3"
             }
           ],
           "text": "ابي خپله لنزکه له لاسه ورکړه.",
@@ -916,18 +925,18 @@
       }
     },
     {
-      "_id": "d89fc5c3d4c677f208c3d863",
+      "_id": "1dc23ef221d08dce33bbcea0",
       "title": "Page 6",
       "description": "",
       "text": "ابي د هغې لنزکه لټوي.",
       "media": [
         {
-          "_id": "27e43dc23509c67c901c0a06",
-          "id": "27e43dc23509c67c901c0a06",
+          "_id": "d249240263319f3cc052c8f5",
+          "id": "d249240263319f3cc052c8f5",
           "name": "file-61ef35cbdad1b.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef35cbdad1b.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef35cbdad1b.jpeg",
           "filename": "file-61ef35cbdad1b.jpeg",
           "position": {
             "left": 354.46,
@@ -950,9 +959,9 @@
                 "word": "ابي",
                 "start": 0.52,
                 "end": 0.74,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c56c3b1796e7.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c56c3b1796e7.mp3",
-                "filename": "word-c56c3b1796e7.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ffb06550e452.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ffb06550e452.mp3",
+                "filename": "word-ffb06550e452.mp3"
               }
             ]
           },
@@ -1006,14 +1015,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "3f79fca811a89c1f2bacbae6",
-        "pageId": "d89fc5c3d4c677f208c3d863",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "9ddc9a121265f08a9c97944f",
+        "pageId": "1dc23ef221d08dce33bbcea0",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-05.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-05.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-05.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-05.mp3",
           "filename": "page-05.mp3",
           "segments": [
             {
@@ -1022,9 +1031,9 @@
               "word": "ابي",
               "start": 0.52,
               "end": 0.74,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c56c3b1796e7.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c56c3b1796e7.mp3",
-              "filename": "word-c56c3b1796e7.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ffb06550e452.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ffb06550e452.mp3",
+              "filename": "word-ffb06550e452.mp3"
             },
             {
               "id": 1,
@@ -1032,9 +1041,9 @@
               "word": "د",
               "start": 0.74,
               "end": 0.92,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c237906483a6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c237906483a6.mp3",
-              "filename": "word-c237906483a6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-88dfce520f3c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-88dfce520f3c.mp3",
+              "filename": "word-88dfce520f3c.mp3"
             },
             {
               "id": 2,
@@ -1042,9 +1051,9 @@
               "word": "هغې",
               "start": 0.92,
               "end": 1.3,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-bd52d9428199.mp3",
-              "filename": "word-bd52d9428199.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ebbac8bb2526.mp3",
+              "filename": "word-ebbac8bb2526.mp3"
             },
             {
               "id": 3,
@@ -1052,16 +1061,19 @@
               "word": "لنزکه",
               "start": 1.3,
               "end": 1.86,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "filename": "word-5b759a2662b6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "filename": "word-fc0d01c437a9.mp3"
             },
             {
               "id": 4,
               "uid": "rec-5-4",
               "word": "لټوي.",
               "start": 1.86,
-              "end": 2.46
+              "end": 2.46,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-784999b393bc.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-784999b393bc.mp3",
+              "filename": "word-784999b393bc.mp3"
             }
           ],
           "text": "ابي د هغې لنزکه لټوي.",
@@ -1070,18 +1082,18 @@
       }
     },
     {
-      "_id": "38e6589e8886dc472f0d56f9",
+      "_id": "e07aa85fc8022b6706b01d11",
       "title": "Page 7",
       "description": "",
       "text": "هغه د میز لاندې ګوري.",
       "media": [
         {
-          "_id": "37e5c2f9b3de87cd6d6f2131",
-          "id": "37e5c2f9b3de87cd6d6f2131",
+          "_id": "32a83cdd12db0779891ac231",
+          "id": "32a83cdd12db0779891ac231",
           "name": "file-61ef37fb18d59.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef37fb18d59.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef37fb18d59.jpeg",
           "filename": "file-61ef37fb18d59.jpeg",
           "position": {
             "left": 605.07,
@@ -1104,9 +1116,9 @@
                 "word": "میز",
                 "start": 0.78,
                 "end": 1.22,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-514042ae43b2.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-514042ae43b2.mp3",
-                "filename": "word-514042ae43b2.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-51606098acab.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-51606098acab.mp3",
+                "filename": "word-51606098acab.mp3"
               }
             ]
           },
@@ -1160,14 +1172,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "da80be813e002d534f867da2",
-        "pageId": "38e6589e8886dc472f0d56f9",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "e070fb4c9fc542403bc098c7",
+        "pageId": "e07aa85fc8022b6706b01d11",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-06.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-06.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-06.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-06.mp3",
           "filename": "page-06.mp3",
           "segments": [
             {
@@ -1176,9 +1188,9 @@
               "word": "هغه",
               "start": 0.48,
               "end": 0.7,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5f9a29eaa4be.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5f9a29eaa4be.mp3",
-              "filename": "word-5f9a29eaa4be.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-328b0320d734.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-328b0320d734.mp3",
+              "filename": "word-328b0320d734.mp3"
             },
             {
               "id": 1,
@@ -1186,9 +1198,9 @@
               "word": "د",
               "start": 0.7,
               "end": 0.78,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76a1a7ee96a2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76a1a7ee96a2.mp3",
-              "filename": "word-76a1a7ee96a2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e84092aeea2e.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e84092aeea2e.mp3",
+              "filename": "word-e84092aeea2e.mp3"
             },
             {
               "id": 2,
@@ -1196,16 +1208,19 @@
               "word": "میز",
               "start": 0.78,
               "end": 1.22,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-514042ae43b2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-514042ae43b2.mp3",
-              "filename": "word-514042ae43b2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-51606098acab.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-51606098acab.mp3",
+              "filename": "word-51606098acab.mp3"
             },
             {
               "id": 3,
               "uid": "rec-6-3",
               "word": "لاندې",
               "start": 1.22,
-              "end": 1.62
+              "end": 1.62,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2f0cfb87de26.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2f0cfb87de26.mp3",
+              "filename": "word-2f0cfb87de26.mp3"
             },
             {
               "id": 4,
@@ -1213,9 +1228,9 @@
               "word": "ګوري.",
               "start": 1.62,
               "end": 2.22,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5ac26ec4d4ee.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5ac26ec4d4ee.mp3",
-              "filename": "word-5ac26ec4d4ee.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d17e974ac02d.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d17e974ac02d.mp3",
+              "filename": "word-d17e974ac02d.mp3"
             }
           ],
           "text": "هغه د میز لاندې ګوري.",
@@ -1224,18 +1239,18 @@
       }
     },
     {
-      "_id": "0e96417de30d19acb3b5a45b",
+      "_id": "cf0ae52048b89c96b81362e2",
       "title": "Page 8",
       "description": "",
       "text": "هغه د څوکۍ لاندې ګوري.",
       "media": [
         {
-          "_id": "96e5e6dfa0e741bb11f3d100",
-          "id": "96e5e6dfa0e741bb11f3d100",
+          "_id": "34d7031b01a8f0921fac2ad0",
+          "id": "34d7031b01a8f0921fac2ad0",
           "name": "file-61ef3e474be2b.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef3e474be2b.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef3e474be2b.jpeg",
           "filename": "file-61ef3e474be2b.jpeg",
           "position": {
             "left": 594.99,
@@ -1258,9 +1273,9 @@
                 "word": "څوکۍ",
                 "start": 0.86,
                 "end": 1.44,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-96a241711839.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-96a241711839.mp3",
-                "filename": "word-96a241711839.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c19f25345950.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c19f25345950.mp3",
+                "filename": "word-c19f25345950.mp3"
               }
             ]
           },
@@ -1314,14 +1329,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "f336bbc3074e61af7cc3587f",
-        "pageId": "0e96417de30d19acb3b5a45b",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "268614e12dc3066257068684",
+        "pageId": "cf0ae52048b89c96b81362e2",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-07.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-07.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-07.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-07.mp3",
           "filename": "page-07.mp3",
           "segments": [
             {
@@ -1330,9 +1345,9 @@
               "word": "هغه",
               "start": 0.4,
               "end": 0.74,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-958454b71fc2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-958454b71fc2.mp3",
-              "filename": "word-958454b71fc2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b92020a6b7c6.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b92020a6b7c6.mp3",
+              "filename": "word-b92020a6b7c6.mp3"
             },
             {
               "id": 1,
@@ -1340,9 +1355,9 @@
               "word": "د",
               "start": 0.74,
               "end": 0.86,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-613ff4ccc57c.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-613ff4ccc57c.mp3",
-              "filename": "word-613ff4ccc57c.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-586b19113008.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-586b19113008.mp3",
+              "filename": "word-586b19113008.mp3"
             },
             {
               "id": 2,
@@ -1350,16 +1365,19 @@
               "word": "څوکۍ",
               "start": 0.86,
               "end": 1.44,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-96a241711839.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-96a241711839.mp3",
-              "filename": "word-96a241711839.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c19f25345950.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c19f25345950.mp3",
+              "filename": "word-c19f25345950.mp3"
             },
             {
               "id": 3,
               "uid": "rec-7-3",
               "word": "لاندې",
               "start": 1.44,
-              "end": 1.9
+              "end": 1.9,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2f0cfb87de26.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2f0cfb87de26.mp3",
+              "filename": "word-2f0cfb87de26.mp3"
             },
             {
               "id": 4,
@@ -1367,9 +1385,9 @@
               "word": "ګوري.",
               "start": 1.9,
               "end": 2.32,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "filename": "word-c648bd76e2f5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "filename": "word-fb82f4f58693.mp3"
             }
           ],
           "text": "هغه د څوکۍ لاندې ګوري.",
@@ -1378,18 +1396,18 @@
       }
     },
     {
-      "_id": "6f115c40b5f43eee7e5972f4",
+      "_id": "378ec9d392660d0730ef2b54",
       "title": "Page 9",
       "description": "",
       "text": "هغه په خوب خونه کې ګوري.",
       "media": [
         {
-          "_id": "2b79ecfd54fc43fb4e817ef1",
-          "id": "2b79ecfd54fc43fb4e817ef1",
+          "_id": "2bf54621db38babe448c4aca",
+          "id": "2bf54621db38babe448c4aca",
           "name": "file-61ef404802c5b.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef404802c5b.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef404802c5b.jpeg",
           "filename": "file-61ef404802c5b.jpeg",
           "position": {
             "left": 573.51,
@@ -1457,14 +1475,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "4e7c3bc6e08c1f80693af681",
-        "pageId": "6f115c40b5f43eee7e5972f4",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "d6b239b885ddc44ecaafbddd",
+        "pageId": "378ec9d392660d0730ef2b54",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-08.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-08.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-08.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-08.mp3",
           "filename": "page-08.mp3",
           "segments": [
             {
@@ -1473,9 +1491,9 @@
               "word": "هغه",
               "start": 0.4,
               "end": 0.64,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9edb5a9a4b4d.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9edb5a9a4b4d.mp3",
-              "filename": "word-9edb5a9a4b4d.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-94f84b453469.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-94f84b453469.mp3",
+              "filename": "word-94f84b453469.mp3"
             },
             {
               "id": 1,
@@ -1483,9 +1501,9 @@
               "word": "په",
               "start": 0.64,
               "end": 0.88,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-e5efc4798276.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-e5efc4798276.mp3",
-              "filename": "word-e5efc4798276.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ecc177c5c81a.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ecc177c5c81a.mp3",
+              "filename": "word-ecc177c5c81a.mp3"
             },
             {
               "id": 2,
@@ -1493,9 +1511,9 @@
               "word": "خوب",
               "start": 0.88,
               "end": 1.18,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0ac4cda4e027.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0ac4cda4e027.mp3",
-              "filename": "word-0ac4cda4e027.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-28bc32d7e9ff.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-28bc32d7e9ff.mp3",
+              "filename": "word-28bc32d7e9ff.mp3"
             },
             {
               "id": 3,
@@ -1503,9 +1521,9 @@
               "word": "خونه",
               "start": 1.3,
               "end": 1.6,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-469d9d91c858.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-469d9d91c858.mp3",
-              "filename": "word-469d9d91c858.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-99f68add8d55.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-99f68add8d55.mp3",
+              "filename": "word-99f68add8d55.mp3"
             },
             {
               "id": 4,
@@ -1513,9 +1531,9 @@
               "word": "کې",
               "start": 1.6,
               "end": 1.76,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-df361acd2f13.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-df361acd2f13.mp3",
-              "filename": "word-df361acd2f13.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7a628313378d.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7a628313378d.mp3",
+              "filename": "word-7a628313378d.mp3"
             },
             {
               "id": 5,
@@ -1523,9 +1541,9 @@
               "word": "ګوري.",
               "start": 1.76,
               "end": 2.26,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "filename": "word-c648bd76e2f5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "filename": "word-fb82f4f58693.mp3"
             }
           ],
           "text": "هغه په خوب خونه کې ګوري.",
@@ -1534,18 +1552,18 @@
       }
     },
     {
-      "_id": "1e1bd9447ef74f373177a63d",
+      "_id": "f1c5d0f507b9abd1a06f27ed",
       "title": "Page 10",
       "description": "",
       "text": "هغه په باغ کې ګوري.",
       "media": [
         {
-          "_id": "979543e7fba9917deda86d31",
-          "id": "979543e7fba9917deda86d31",
+          "_id": "041d66ef2cfd6e6604325373",
+          "id": "041d66ef2cfd6e6604325373",
           "name": "file-61ef40a401d18.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef40a401d18.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef40a401d18.jpeg",
           "filename": "file-61ef40a401d18.jpeg",
           "position": {
             "left": 612.77,
@@ -1568,9 +1586,9 @@
                 "word": "باغ",
                 "start": 0.88,
                 "end": 1.16,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7819a37f5ecb.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7819a37f5ecb.mp3",
-                "filename": "word-7819a37f5ecb.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-96f699212df7.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-96f699212df7.mp3",
+                "filename": "word-96f699212df7.mp3"
               }
             ]
           },
@@ -1624,14 +1642,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "69b0dcd0371276583bcf0324",
-        "pageId": "1e1bd9447ef74f373177a63d",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "f2f94a96cd78261a1cd6babd",
+        "pageId": "f1c5d0f507b9abd1a06f27ed",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-09.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-09.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-09.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-09.mp3",
           "filename": "page-09.mp3",
           "segments": [
             {
@@ -1640,9 +1658,9 @@
               "word": "هغه",
               "start": 0.38,
               "end": 0.68,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d0970ebc085e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d0970ebc085e.mp3",
-              "filename": "word-d0970ebc085e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c0fef9540983.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c0fef9540983.mp3",
+              "filename": "word-c0fef9540983.mp3"
             },
             {
               "id": 1,
@@ -1650,9 +1668,9 @@
               "word": "په",
               "start": 0.68,
               "end": 0.88,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ede037a2dd48.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ede037a2dd48.mp3",
-              "filename": "word-ede037a2dd48.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9b1975f02ad3.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-9b1975f02ad3.mp3",
+              "filename": "word-9b1975f02ad3.mp3"
             },
             {
               "id": 2,
@@ -1660,9 +1678,9 @@
               "word": "باغ",
               "start": 0.88,
               "end": 1.16,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7819a37f5ecb.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7819a37f5ecb.mp3",
-              "filename": "word-7819a37f5ecb.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-96f699212df7.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-96f699212df7.mp3",
+              "filename": "word-96f699212df7.mp3"
             },
             {
               "id": 3,
@@ -1670,9 +1688,9 @@
               "word": "کې",
               "start": 1.16,
               "end": 1.42,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c830a1c29b0.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1c830a1c29b0.mp3",
-              "filename": "word-1c830a1c29b0.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-a36d70db3c0a.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-a36d70db3c0a.mp3",
+              "filename": "word-a36d70db3c0a.mp3"
             },
             {
               "id": 4,
@@ -1680,9 +1698,9 @@
               "word": "ګوري.",
               "start": 1.42,
               "end": 1.9,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c648bd76e2f5.mp3",
-              "filename": "word-c648bd76e2f5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fb82f4f58693.mp3",
+              "filename": "word-fb82f4f58693.mp3"
             }
           ],
           "text": "هغه په باغ کې ګوري.",
@@ -1691,18 +1709,18 @@
       }
     },
     {
-      "_id": "c0d67c3e57b29b4eb779955d",
+      "_id": "07e374f2ff7438ef26e5dada",
       "title": "Page 11",
       "description": "",
       "text": "زما لنزکه چیرته ده؟ ابي له پیشو پوښتنه کوي.",
       "media": [
         {
-          "_id": "45a90243ac39c095d401e7f9",
-          "id": "45a90243ac39c095d401e7f9",
+          "_id": "7cc7d5372cdc6861261d6c38",
+          "id": "7cc7d5372cdc6861261d6c38",
           "name": "file-61ef411337e88.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef411337e88.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef411337e88.jpeg",
           "filename": "file-61ef411337e88.jpeg",
           "position": {
             "left": 589.57,
@@ -1725,9 +1743,9 @@
                 "word": "ابي",
                 "start": 3.04,
                 "end": 3.3,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a6168a164937.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a6168a164937.mp3",
-                "filename": "word-a6168a164937.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c099b3381949.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c099b3381949.mp3",
+                "filename": "word-c099b3381949.mp3"
               },
               {
                 "id": 6,
@@ -1735,9 +1753,9 @@
                 "word": "پیشو",
                 "start": 3.54,
                 "end": 3.98,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-3f42ed70dc1b.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-3f42ed70dc1b.mp3",
-                "filename": "word-3f42ed70dc1b.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-161530d10326.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-161530d10326.mp3",
+                "filename": "word-161530d10326.mp3"
               }
             ]
           },
@@ -1819,14 +1837,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "76eb533cfabc4c0d407ef780",
-        "pageId": "c0d67c3e57b29b4eb779955d",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "c556ae7efa7cfa5360bb4fc1",
+        "pageId": "07e374f2ff7438ef26e5dada",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-10.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-10.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-10.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-10.mp3",
           "filename": "page-10.mp3",
           "segments": [
             {
@@ -1835,9 +1853,9 @@
               "word": "زما",
               "start": 0.5,
               "end": 0.78,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-35753c11d6ea.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-35753c11d6ea.mp3",
-              "filename": "word-35753c11d6ea.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e101e9ed5015.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e101e9ed5015.mp3",
+              "filename": "word-e101e9ed5015.mp3"
             },
             {
               "id": 1,
@@ -1845,9 +1863,9 @@
               "word": "لنزکه",
               "start": 0.78,
               "end": 1.42,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "filename": "word-5b759a2662b6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "filename": "word-fc0d01c437a9.mp3"
             },
             {
               "id": 2,
@@ -1855,9 +1873,9 @@
               "word": "چیرته",
               "start": 1.42,
               "end": 1.98,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7ebc62454393.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-7ebc62454393.mp3",
-              "filename": "word-7ebc62454393.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d9585b517e7c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d9585b517e7c.mp3",
+              "filename": "word-d9585b517e7c.mp3"
             },
             {
               "id": 3,
@@ -1865,9 +1883,9 @@
               "word": "ده؟",
               "start": 1.98,
               "end": 2.66,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "filename": "word-ae38475da526.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "filename": "word-f778a95e73e1.mp3"
             },
             {
               "id": 4,
@@ -1875,9 +1893,9 @@
               "word": "ابي",
               "start": 3.04,
               "end": 3.3,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a6168a164937.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a6168a164937.mp3",
-              "filename": "word-a6168a164937.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c099b3381949.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c099b3381949.mp3",
+              "filename": "word-c099b3381949.mp3"
             },
             {
               "id": 5,
@@ -1885,9 +1903,9 @@
               "word": "له",
               "start": 3.3,
               "end": 3.54,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-2974c8650c62.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-2974c8650c62.mp3",
-              "filename": "word-2974c8650c62.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-be00dae03661.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-be00dae03661.mp3",
+              "filename": "word-be00dae03661.mp3"
             },
             {
               "id": 6,
@@ -1895,9 +1913,9 @@
               "word": "پیشو",
               "start": 3.54,
               "end": 3.98,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-3f42ed70dc1b.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-3f42ed70dc1b.mp3",
-              "filename": "word-3f42ed70dc1b.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-161530d10326.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-161530d10326.mp3",
+              "filename": "word-161530d10326.mp3"
             },
             {
               "id": 7,
@@ -1905,9 +1923,9 @@
               "word": "پوښتنه",
               "start": 3.98,
               "end": 4.52,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-61ce22292995.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-61ce22292995.mp3",
-              "filename": "word-61ce22292995.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2c7bead8a144.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2c7bead8a144.mp3",
+              "filename": "word-2c7bead8a144.mp3"
             },
             {
               "id": 8,
@@ -1915,9 +1933,9 @@
               "word": "کوي.",
               "start": 4.52,
               "end": 4.9,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b4c0bff3a14c.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-b4c0bff3a14c.mp3",
-              "filename": "word-b4c0bff3a14c.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-943482e98fa2.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-943482e98fa2.mp3",
+              "filename": "word-943482e98fa2.mp3"
             }
           ],
           "text": "زما لنزکه چیرته ده؟ ابي له پیشو پوښتنه کوي.",
@@ -1926,18 +1944,18 @@
       }
     },
     {
-      "_id": "b7fdd5e51165262e1bce1b3b",
+      "_id": "4e3336f0bd3e3a0d53f66752",
       "title": "Page 12",
       "description": "",
       "text": "میوو، پیشو ویل.",
       "media": [
         {
-          "_id": "019c25710e7043d5229a7e77",
-          "id": "019c25710e7043d5229a7e77",
+          "_id": "af4d9a18849f56851f5e7d75",
+          "id": "af4d9a18849f56851f5e7d75",
           "name": "file-61ef41647463b.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef41647463b.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef41647463b.jpeg",
           "filename": "file-61ef41647463b.jpeg",
           "position": {
             "left": 342.9,
@@ -1960,9 +1978,9 @@
                 "word": "پیشو",
                 "start": 1.88,
                 "end": 2.22,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5a1f44b2c2f9.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5a1f44b2c2f9.mp3",
-                "filename": "word-5a1f44b2c2f9.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-72c063399f69.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-72c063399f69.mp3",
+                "filename": "word-72c063399f69.mp3"
               }
             ]
           },
@@ -2002,14 +2020,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "569cb0a94184bebadd609602",
-        "pageId": "b7fdd5e51165262e1bce1b3b",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "2d985d37eb33ce9d73bf9744",
+        "pageId": "4e3336f0bd3e3a0d53f66752",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-11.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-11.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-11.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-11.mp3",
           "filename": "page-11.mp3",
           "segments": [
             {
@@ -2017,10 +2035,10 @@
               "uid": "rec-11-0",
               "word": "میوو،",
               "start": 0.6,
-              "end": 1.54,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0432108484b9.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0432108484b9.mp3",
-              "filename": "word-0432108484b9.mp3"
+              "end": 1.58,
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d3db163d7099.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d3db163d7099.mp3",
+              "filename": "word-d3db163d7099.mp3"
             },
             {
               "id": 1,
@@ -2028,9 +2046,9 @@
               "word": "پیشو",
               "start": 1.88,
               "end": 2.22,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5a1f44b2c2f9.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5a1f44b2c2f9.mp3",
-              "filename": "word-5a1f44b2c2f9.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-72c063399f69.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-72c063399f69.mp3",
+              "filename": "word-72c063399f69.mp3"
             },
             {
               "id": 2,
@@ -2038,9 +2056,9 @@
               "word": "ویل.",
               "start": 2.22,
               "end": 2.64,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ab502d958806.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ab502d958806.mp3",
-              "filename": "word-ab502d958806.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-258d84f5e370.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-258d84f5e370.mp3",
+              "filename": "word-258d84f5e370.mp3"
             }
           ],
           "text": "میوو، پیشو ویل.",
@@ -2049,18 +2067,18 @@
       }
     },
     {
-      "_id": "8a7ed0c725776b4fe5e88ed3",
+      "_id": "c5265e92516a0d9bd021da6b",
       "title": "Page 13",
       "description": "",
       "text": "زما لنزکه چیرته ده؟ ابي له چرګ څخه پوښتنه کوي.",
       "media": [
         {
-          "_id": "1cc441395b9d3965c426a6ec",
-          "id": "1cc441395b9d3965c426a6ec",
+          "_id": "9cc491f91e0cc13ad7207479",
+          "id": "9cc491f91e0cc13ad7207479",
           "name": "file-61ef4227352f2.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef4227352f2.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef4227352f2.jpeg",
           "filename": "file-61ef4227352f2.jpeg",
           "position": {
             "left": 330.81,
@@ -2083,9 +2101,9 @@
                 "word": "ابي",
                 "start": 3.0,
                 "end": 3.34,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-                "filename": "word-8a5636818b5b.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-eb177133da24.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-eb177133da24.mp3",
+                "filename": "word-eb177133da24.mp3"
               },
               {
                 "id": 6,
@@ -2093,9 +2111,9 @@
                 "word": "چرګ",
                 "start": 3.58,
                 "end": 4.0,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aa658488dab3.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aa658488dab3.mp3",
-                "filename": "word-aa658488dab3.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-02370bb3cff0.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-02370bb3cff0.mp3",
+                "filename": "word-02370bb3cff0.mp3"
               }
             ]
           },
@@ -2184,14 +2202,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "6d3f4f98dce51859963ae625",
-        "pageId": "8a7ed0c725776b4fe5e88ed3",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "d045a1b71a9f61bbddf015d1",
+        "pageId": "c5265e92516a0d9bd021da6b",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-12.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-12.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-12.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-12.mp3",
           "filename": "page-12.mp3",
           "segments": [
             {
@@ -2200,9 +2218,9 @@
               "word": "زما",
               "start": 0.5,
               "end": 0.78,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-04eb17bbf2a5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-04eb17bbf2a5.mp3",
-              "filename": "word-04eb17bbf2a5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-93cba1c6613c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-93cba1c6613c.mp3",
+              "filename": "word-93cba1c6613c.mp3"
             },
             {
               "id": 1,
@@ -2210,9 +2228,9 @@
               "word": "لنزکه",
               "start": 0.78,
               "end": 1.44,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "filename": "word-5b759a2662b6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "filename": "word-fc0d01c437a9.mp3"
             },
             {
               "id": 2,
@@ -2220,9 +2238,9 @@
               "word": "چیرته",
               "start": 1.44,
               "end": 1.96,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a22eb817a36e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a22eb817a36e.mp3",
-              "filename": "word-a22eb817a36e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b66e161475e0.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b66e161475e0.mp3",
+              "filename": "word-b66e161475e0.mp3"
             },
             {
               "id": 3,
@@ -2230,9 +2248,9 @@
               "word": "ده؟",
               "start": 1.96,
               "end": 2.86,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "filename": "word-ae38475da526.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "filename": "word-f778a95e73e1.mp3"
             },
             {
               "id": 4,
@@ -2240,9 +2258,9 @@
               "word": "ابي",
               "start": 3.0,
               "end": 3.34,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-              "filename": "word-8a5636818b5b.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-eb177133da24.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-eb177133da24.mp3",
+              "filename": "word-eb177133da24.mp3"
             },
             {
               "id": 5,
@@ -2250,9 +2268,9 @@
               "word": "له",
               "start": 3.34,
               "end": 3.58,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-2565f82156f5.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-2565f82156f5.mp3",
-              "filename": "word-2565f82156f5.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2a15caf805bd.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-2a15caf805bd.mp3",
+              "filename": "word-2a15caf805bd.mp3"
             },
             {
               "id": 6,
@@ -2260,9 +2278,9 @@
               "word": "چرګ",
               "start": 3.58,
               "end": 4.0,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aa658488dab3.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-aa658488dab3.mp3",
-              "filename": "word-aa658488dab3.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-02370bb3cff0.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-02370bb3cff0.mp3",
+              "filename": "word-02370bb3cff0.mp3"
             },
             {
               "id": 7,
@@ -2270,9 +2288,9 @@
               "word": "څخه",
               "start": 4.2,
               "end": 4.36,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-50f1dedb4b58.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-50f1dedb4b58.mp3",
-              "filename": "word-50f1dedb4b58.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cd03c924ebc6.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cd03c924ebc6.mp3",
+              "filename": "word-cd03c924ebc6.mp3"
             },
             {
               "id": 8,
@@ -2280,9 +2298,9 @@
               "word": "پوښتنه",
               "start": 4.56,
               "end": 4.82,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8056c626545c.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8056c626545c.mp3",
-              "filename": "word-8056c626545c.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-6cf099b3e06f.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-6cf099b3e06f.mp3",
+              "filename": "word-6cf099b3e06f.mp3"
             },
             {
               "id": 9,
@@ -2290,9 +2308,9 @@
               "word": "کوي.",
               "start": 4.82,
               "end": 4.92,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-18a3553d8e2e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-18a3553d8e2e.mp3",
-              "filename": "word-18a3553d8e2e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c1766fd84148.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-c1766fd84148.mp3",
+              "filename": "word-c1766fd84148.mp3"
             }
           ],
           "text": "زما لنزکه چیرته ده؟ ابي له چرګ څخه پوښتنه کوي.",
@@ -2301,18 +2319,18 @@
       }
     },
     {
-      "_id": "f62cdedc262ee149ac22db61",
+      "_id": "b70d19a32c3be572cf3cc84e",
       "title": "Page 14",
       "description": "",
       "text": "کو-کو-کو، چرګ ویل.",
       "media": [
         {
-          "_id": "f74096ca7a4d6fa9eff68cb7",
-          "id": "f74096ca7a4d6fa9eff68cb7",
+          "_id": "6edbde127c5aab04626fa2d9",
+          "id": "6edbde127c5aab04626fa2d9",
           "name": "file-61ef428f3c6ba.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef428f3c6ba.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef428f3c6ba.jpeg",
           "filename": "file-61ef428f3c6ba.jpeg",
           "position": {
             "left": 337.96,
@@ -2335,9 +2353,9 @@
                 "word": "چرګ",
                 "start": 2.04,
                 "end": 2.28,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76315bba51c2.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76315bba51c2.mp3",
-                "filename": "word-76315bba51c2.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-86db94787139.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-86db94787139.mp3",
+                "filename": "word-86db94787139.mp3"
               }
             ]
           },
@@ -2377,14 +2395,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "f457f2a1c9ac4e7c970c35f5",
-        "pageId": "f62cdedc262ee149ac22db61",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "3481ca68819b84af6903df49",
+        "pageId": "b70d19a32c3be572cf3cc84e",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-13.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-13.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-13.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-13.mp3",
           "filename": "page-13.mp3",
           "segments": [
             {
@@ -2400,9 +2418,9 @@
               "word": "چرګ",
               "start": 2.04,
               "end": 2.28,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76315bba51c2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-76315bba51c2.mp3",
-              "filename": "word-76315bba51c2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-86db94787139.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-86db94787139.mp3",
+              "filename": "word-86db94787139.mp3"
             },
             {
               "id": 2,
@@ -2410,9 +2428,9 @@
               "word": "ویل.",
               "start": 2.28,
               "end": 2.68,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c0a26f8b44a2.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-c0a26f8b44a2.mp3",
-              "filename": "word-c0a26f8b44a2.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f09178c6927e.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f09178c6927e.mp3",
+              "filename": "word-f09178c6927e.mp3"
             }
           ],
           "text": "کو-کو-کو، چرګ ویل.",
@@ -2421,18 +2439,18 @@
       }
     },
     {
-      "_id": "b5ff80611d860706ee149a7c",
+      "_id": "77d66bd06a09a3ef64b0b59a",
       "title": "Page 15",
       "description": "",
       "text": "زما لنزکه چیرته ده؟ ابي له سپي پوښتنه کوي.",
       "media": [
         {
-          "_id": "4a06178414f306b4bfa3fa38",
-          "id": "4a06178414f306b4bfa3fa38",
+          "_id": "c016e542bbae6d7e57a43243",
+          "id": "c016e542bbae6d7e57a43243",
           "name": "file-61ef430c0d077.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef430c0d077.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef430c0d077.jpeg",
           "filename": "file-61ef430c0d077.jpeg",
           "position": {
             "left": 344.61,
@@ -2455,9 +2473,9 @@
                 "word": "ابي",
                 "start": 3.02,
                 "end": 3.34,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-                "filename": "word-8a5636818b5b.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e7b10df4f009.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e7b10df4f009.mp3",
+                "filename": "word-e7b10df4f009.mp3"
               },
               {
                 "id": 6,
@@ -2465,9 +2483,9 @@
                 "word": "سپي",
                 "start": 3.54,
                 "end": 3.94,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d457a88a6036.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d457a88a6036.mp3",
-                "filename": "word-d457a88a6036.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ff6ad48741f4.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ff6ad48741f4.mp3",
+                "filename": "word-ff6ad48741f4.mp3"
               }
             ]
           },
@@ -2549,14 +2567,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "510eb4ea17d2c65e128ef921",
-        "pageId": "b5ff80611d860706ee149a7c",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "93f23cfdca8370b94cee824e",
+        "pageId": "77d66bd06a09a3ef64b0b59a",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-14.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-14.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-14.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-14.mp3",
           "filename": "page-14.mp3",
           "segments": [
             {
@@ -2565,9 +2583,9 @@
               "word": "زما",
               "start": 0.5,
               "end": 0.78,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9093890b8b43.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9093890b8b43.mp3",
-              "filename": "word-9093890b8b43.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7b493c458ac4.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-7b493c458ac4.mp3",
+              "filename": "word-7b493c458ac4.mp3"
             },
             {
               "id": 1,
@@ -2575,9 +2593,9 @@
               "word": "لنزکه",
               "start": 0.78,
               "end": 1.42,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "filename": "word-5b759a2662b6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "filename": "word-fc0d01c437a9.mp3"
             },
             {
               "id": 2,
@@ -2585,9 +2603,9 @@
               "word": "چیرته",
               "start": 1.42,
               "end": 1.98,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a22eb817a36e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-a22eb817a36e.mp3",
-              "filename": "word-a22eb817a36e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b66e161475e0.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-b66e161475e0.mp3",
+              "filename": "word-b66e161475e0.mp3"
             },
             {
               "id": 3,
@@ -2595,9 +2613,9 @@
               "word": "ده؟",
               "start": 1.98,
               "end": 2.86,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-ae38475da526.mp3",
-              "filename": "word-ae38475da526.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-f778a95e73e1.mp3",
+              "filename": "word-f778a95e73e1.mp3"
             },
             {
               "id": 4,
@@ -2605,9 +2623,9 @@
               "word": "ابي",
               "start": 3.02,
               "end": 3.34,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a5636818b5b.mp3",
-              "filename": "word-8a5636818b5b.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e7b10df4f009.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-e7b10df4f009.mp3",
+              "filename": "word-e7b10df4f009.mp3"
             },
             {
               "id": 5,
@@ -2615,9 +2633,9 @@
               "word": "له",
               "start": 3.34,
               "end": 3.54,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1640ec85c4e4.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1640ec85c4e4.mp3",
-              "filename": "word-1640ec85c4e4.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0f9837f5324a.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-0f9837f5324a.mp3",
+              "filename": "word-0f9837f5324a.mp3"
             },
             {
               "id": 6,
@@ -2625,9 +2643,9 @@
               "word": "سپي",
               "start": 3.54,
               "end": 3.94,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d457a88a6036.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-d457a88a6036.mp3",
-              "filename": "word-d457a88a6036.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ff6ad48741f4.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-ff6ad48741f4.mp3",
+              "filename": "word-ff6ad48741f4.mp3"
             },
             {
               "id": 7,
@@ -2635,9 +2653,9 @@
               "word": "پوښتنه",
               "start": 3.94,
               "end": 4.44,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9d2426c5eae8.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-9d2426c5eae8.mp3",
-              "filename": "word-9d2426c5eae8.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b85ca588cc5.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-4b85ca588cc5.mp3",
+              "filename": "word-4b85ca588cc5.mp3"
             },
             {
               "id": 8,
@@ -2645,9 +2663,9 @@
               "word": "کوي.",
               "start": 4.44,
               "end": 4.9,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f35e635362a1.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-f35e635362a1.mp3",
-              "filename": "word-f35e635362a1.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-3505e66bc9ff.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-3505e66bc9ff.mp3",
+              "filename": "word-3505e66bc9ff.mp3"
             }
           ],
           "text": "زما لنزکه چیرته ده؟ ابي له سپي پوښتنه کوي.",
@@ -2656,18 +2674,18 @@
       }
     },
     {
-      "_id": "b038377b3d66b72b1a471edd",
+      "_id": "c71d20176307dc500e1bfe91",
       "title": "Page 16",
       "description": "",
       "text": "بو واو واو، سپی وايل. سپي لنزکه وموندله.",
       "media": [
         {
-          "_id": "f7c5db58736ce94f20f660a2",
-          "id": "f7c5db58736ce94f20f660a2",
+          "_id": "5e15c1c9009515e8c70151cb",
+          "id": "5e15c1c9009515e8c70151cb",
           "name": "file-61ef4ba5e2239.jpeg",
           "extension": ".jpeg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61ef4ba5e2239.jpeg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61ef4ba5e2239.jpeg",
           "filename": "file-61ef4ba5e2239.jpeg",
           "position": {
             "left": 606.36,
@@ -2690,9 +2708,9 @@
                 "word": "سپی",
                 "start": 3.52,
                 "end": 3.68,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a98fc545a8a.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a98fc545a8a.mp3",
-                "filename": "word-8a98fc545a8a.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-34c5d821d351.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-34c5d821d351.mp3",
+                "filename": "word-34c5d821d351.mp3"
               },
               {
                 "id": 5,
@@ -2700,9 +2718,9 @@
                 "word": "سپي",
                 "start": 5.06,
                 "end": 5.18,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-79105a906032.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-79105a906032.mp3",
-                "filename": "word-79105a906032.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfdff7095d2d.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfdff7095d2d.mp3",
+                "filename": "word-cfdff7095d2d.mp3"
               },
               {
                 "id": 6,
@@ -2710,9 +2728,9 @@
                 "word": "لنزکه",
                 "start": 5.18,
                 "end": 5.76,
-                "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-                "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-                "filename": "word-5b759a2662b6.mp3"
+                "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+                "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+                "filename": "word-fc0d01c437a9.mp3"
               }
             ]
           },
@@ -2787,14 +2805,14 @@
       "textPosition": null,
       "textStyle": null,
       "audio": {
-        "_id": "230b220411d625529679b533",
-        "pageId": "b038377b3d66b72b1a471edd",
-        "bookId": "9c21c48a4188d645e5383172",
-        "created": "2026-11-25T10:53:24.000Z",
+        "_id": "234e43a002a5659b064d2b32",
+        "pageId": "c71d20176307dc500e1bfe91",
+        "bookId": "4bb2c5156c4fefdb3729b2a8",
+        "created": "2026-11-25T11:02:00.000Z",
         "pageAudio": {
           "provider": "recorded",
-          "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-15.mp3",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/page-15.mp3",
+          "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-15.mp3",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/page-15.mp3",
           "filename": "page-15.mp3",
           "segments": [
             {
@@ -2803,9 +2821,9 @@
               "word": "بو",
               "start": 0.62,
               "end": 0.88,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1ad01241bf5a.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-1ad01241bf5a.mp3",
-              "filename": "word-1ad01241bf5a.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-5bc4439eb580.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-5bc4439eb580.mp3",
+              "filename": "word-5bc4439eb580.mp3"
             },
             {
               "id": 1,
@@ -2813,9 +2831,9 @@
               "word": "واو",
               "start": 0.88,
               "end": 1.8,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-6e60a7d7e51e.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-6e60a7d7e51e.mp3",
-              "filename": "word-6e60a7d7e51e.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d4e834e80fc9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-d4e834e80fc9.mp3",
+              "filename": "word-d4e834e80fc9.mp3"
             },
             {
               "id": 2,
@@ -2823,9 +2841,9 @@
               "word": "واو،",
               "start": 1.8,
               "end": 2.94,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0c21aba301a0.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-0c21aba301a0.mp3",
-              "filename": "word-0c21aba301a0.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-28f5708ddb69.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-28f5708ddb69.mp3",
+              "filename": "word-28f5708ddb69.mp3"
             },
             {
               "id": 3,
@@ -2833,9 +2851,9 @@
               "word": "سپی",
               "start": 3.52,
               "end": 3.68,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a98fc545a8a.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-8a98fc545a8a.mp3",
-              "filename": "word-8a98fc545a8a.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-34c5d821d351.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-34c5d821d351.mp3",
+              "filename": "word-34c5d821d351.mp3"
             },
             {
               "id": 4,
@@ -2843,9 +2861,9 @@
               "word": "وايل.",
               "start": 3.68,
               "end": 4.12,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-dd4a6e7bbb68.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-dd4a6e7bbb68.mp3",
-              "filename": "word-dd4a6e7bbb68.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-bfdc51974253.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-bfdc51974253.mp3",
+              "filename": "word-bfdc51974253.mp3"
             },
             {
               "id": 5,
@@ -2853,9 +2871,9 @@
               "word": "سپي",
               "start": 5.06,
               "end": 5.18,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-79105a906032.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-79105a906032.mp3",
-              "filename": "word-79105a906032.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfdff7095d2d.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfdff7095d2d.mp3",
+              "filename": "word-cfdff7095d2d.mp3"
             },
             {
               "id": 6,
@@ -2863,9 +2881,9 @@
               "word": "لنزکه",
               "start": 5.18,
               "end": 5.76,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-5b759a2662b6.mp3",
-              "filename": "word-5b759a2662b6.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-fc0d01c437a9.mp3",
+              "filename": "word-fc0d01c437a9.mp3"
             },
             {
               "id": 7,
@@ -2873,9 +2891,9 @@
               "word": "وموندله.",
               "start": 5.76,
               "end": 6.66,
-              "mp3": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-6c92c4d2a389.mp3",
-              "path": "/resources/books/9c21c48a4188d645e5383172/assets/audio/word-6c92c4d2a389.mp3",
-              "filename": "word-6c92c4d2a389.mp3"
+              "mp3": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfe50eb1094c.mp3",
+              "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/audio/word-cfe50eb1094c.mp3",
+              "filename": "word-cfe50eb1094c.mp3"
             }
           ],
           "text": "بو واو واو، سپی وايل. سپي لنزکه وموندله.",
@@ -2884,18 +2902,18 @@
       }
     },
     {
-      "_id": "f625dbba90a867acd81dcc13",
+      "_id": "5a27f1ddafc627b06e656437",
       "title": "Page 17",
       "description": "",
       "text": "\"The Lost Doll\" credits\nThis work, \"The Lost Doll\", is a derivative of \"The Lost Doll\" as translated by Alisha Berger and used under CC BY. The © for this translation lies with Room to Read, 2015. \"The Lost Doll\" is based on the original story: 'Umdoli Lolahlekile', by Moleboge Shibboleth Poho. © Room to Read, 2015.\nThis work, \"The Lost Doll\" is licensed under CC BY 4.0 by Curious Learning.\nBook builder - Deborah Oduman",
       "media": [
         {
-          "_id": "4d69119699bba235a69fe37a",
-          "id": "4d69119699bba235a69fe37a",
+          "_id": "8eec276887fafa53d2ec5fd6",
+          "id": "8eec276887fafa53d2ec5fd6",
           "name": "file-61fb28cb969ac.jpg",
           "extension": ".jpg",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61fb28cb969ac.jpg",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61fb28cb969ac.jpg",
           "filename": "file-61fb28cb969ac.jpg",
           "position": {
             "left": 893.31,
@@ -2910,12 +2928,12 @@
           "mirror": false
         },
         {
-          "_id": "52bd092a09b66277ea398f65",
-          "id": "52bd092a09b66277ea398f65",
+          "_id": "7ea921fcc5923e4444b518ce",
+          "id": "7ea921fcc5923e4444b518ce",
           "name": "file-61fb29a5596cb.png",
           "extension": ".png",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61fb29a5596cb.png",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61fb29a5596cb.png",
           "filename": "file-61fb29a5596cb.png",
           "position": {
             "left": 473.47,
@@ -2930,12 +2948,12 @@
           "mirror": false
         },
         {
-          "_id": "69f70eee39a10c6008a4bfcf",
-          "id": "69f70eee39a10c6008a4bfcf",
+          "_id": "e8f9109b7dc330d1eca5167d",
+          "id": "e8f9109b7dc330d1eca5167d",
           "name": "file-61fb296cf2c04.png",
           "extension": ".png",
           "mediaType": "static",
-          "path": "/resources/books/9c21c48a4188d645e5383172/assets/images/file-61fb296cf2c04.png",
+          "path": "/resources/books/4bb2c5156c4fefdb3729b2a8/assets/images/file-61fb296cf2c04.png",
           "filename": "file-61fb296cf2c04.png",
           "position": {
             "left": 56.43,
