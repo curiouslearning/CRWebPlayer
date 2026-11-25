@@ -1,0 +1,2672 @@
+{
+  "_id": "6ff0c39af4854711a99b921f",
+  "title": "شاتو مچی او فیل",
+  "license": "CC-BY-4.0",
+  "published": true,
+  "slug": "TheBeeAndTheElephantPashto",
+  "version": "0.0.1",
+  "createdAt": "2026-11-25T10:50:39.000Z",
+  "updatedAt": "2026-11-25T10:50:39.000Z",
+  "language": "ps",
+  "credits": {
+    "text": "",
+    "logos": []
+  },
+  "illustration": null,
+  "coverText": "",
+  "config": {
+    "textDirection": "RTL",
+    "voiceId": "",
+    "audioLanguage": "ps"
+  },
+  "bookDescription": null,
+  "bookText": null,
+  "tags": [
+    "converted-from-h5p"
+  ],
+  "body": [
+    {
+      "_id": "2187db57bacef609affbfe42",
+      "title": "Page 1",
+      "description": "",
+      "text": "شاتو مچی او فیل",
+      "media": [
+        {
+          "_id": "f4381bcce1be1beaa7b27b51",
+          "id": "f4381bcce1be1beaa7b27b51",
+          "name": "file-6218feaadd814.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-6218feaadd814.jpg",
+          "filename": "file-6218feaadd814.jpg",
+          "position": {
+            "left": 126.33,
+            "top": 45.32
+          },
+          "scaleSize": 108.658,
+          "zIndex": 10,
+          "width": 959,
+          "height": 459,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "شاتو",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مچی",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "او",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "فیل",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "bf5aaff6f885623fb26f1df9",
+        "pageId": "2187db57bacef609affbfe42",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-00.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-00.mp3",
+          "filename": "page-00.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-0-0",
+              "word": "شاتو",
+              "start": 0.42,
+              "end": 0.82,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f530ab88324f.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f530ab88324f.mp3",
+              "filename": "word-f530ab88324f.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-0-1",
+              "word": "مچی",
+              "start": 0.82,
+              "end": 1.24,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5181959d0849.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5181959d0849.mp3",
+              "filename": "word-5181959d0849.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-0-2",
+              "word": "او",
+              "start": 1.24,
+              "end": 1.7,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e22aea721dbc.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e22aea721dbc.mp3",
+              "filename": "word-e22aea721dbc.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-0-3",
+              "word": "فیل",
+              "start": 1.7,
+              "end": 1.96,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a81eec908685.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a81eec908685.mp3",
+              "filename": "word-a81eec908685.mp3"
+            }
+          ],
+          "text": "شاتو مچی او فیل",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "058c8f6ded3ca3f6f0e5b157",
+      "title": "Page 2",
+      "description": "",
+      "text": "وړه شاتو مچۍ ورکه شوې ده. آیا ښاغلی فیل مرسته کولی شي؟",
+      "media": [
+        {
+          "_id": "ed25546f63a92e31f347943b",
+          "id": "ed25546f63a92e31f347943b",
+          "name": "file-6218ffb5ab0a2.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-6218ffb5ab0a2.jpg",
+          "filename": "file-6218ffb5ab0a2.jpg",
+          "position": {
+            "left": 253.06,
+            "top": 45.32
+          },
+          "scaleSize": 81.718,
+          "zIndex": 10,
+          "width": 959,
+          "height": 516,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-1-2",
+                "word": "مچۍ",
+                "start": 1.34,
+                "end": 1.64,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f8fde04b0480.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f8fde04b0480.mp3",
+                "filename": "word-f8fde04b0480.mp3"
+              },
+              {
+                "id": 8,
+                "uid": "rec-1-8",
+                "word": "فیل",
+                "start": 4.04,
+                "end": 4.36,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2be87d49190c.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2be87d49190c.mp3",
+                "filename": "word-2be87d49190c.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "وړه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "شاتو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "مچۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ورکه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "شوې",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ده.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "آیا",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "ښاغلی",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "فیل",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "مرسته",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "کولی",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "شي؟",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "209b07bc3c22818b4a6e3489",
+        "pageId": "058c8f6ded3ca3f6f0e5b157",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-01.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-01.mp3",
+          "filename": "page-01.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-1-0",
+              "word": "وړه",
+              "start": 0.4,
+              "end": 0.78,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-9d2aedaf2ff4.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-9d2aedaf2ff4.mp3",
+              "filename": "word-9d2aedaf2ff4.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-1-1",
+              "word": "شاتو",
+              "start": 0.78,
+              "end": 1.34,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5c741e22e37b.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5c741e22e37b.mp3",
+              "filename": "word-5c741e22e37b.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-1-2",
+              "word": "مچۍ",
+              "start": 1.34,
+              "end": 1.64,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f8fde04b0480.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-f8fde04b0480.mp3",
+              "filename": "word-f8fde04b0480.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-1-3",
+              "word": "ورکه",
+              "start": 1.64,
+              "end": 2.1,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7857bea03215.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7857bea03215.mp3",
+              "filename": "word-7857bea03215.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-1-4",
+              "word": "شوې",
+              "start": 2.1,
+              "end": 2.38,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5e32c17da334.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5e32c17da334.mp3",
+              "filename": "word-5e32c17da334.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-1-5",
+              "word": "ده.",
+              "start": 2.38,
+              "end": 2.64,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7f985d81f36c.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7f985d81f36c.mp3",
+              "filename": "word-7f985d81f36c.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-1-6",
+              "word": "آیا",
+              "start": 3.02,
+              "end": 3.4,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-95dc8f072141.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-95dc8f072141.mp3",
+              "filename": "word-95dc8f072141.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-1-7",
+              "word": "ښاغلی",
+              "start": 3.4,
+              "end": 4.04,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5e2dc6af3a9e.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5e2dc6af3a9e.mp3",
+              "filename": "word-5e2dc6af3a9e.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-1-8",
+              "word": "فیل",
+              "start": 4.04,
+              "end": 4.36,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2be87d49190c.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2be87d49190c.mp3",
+              "filename": "word-2be87d49190c.mp3"
+            },
+            {
+              "id": 9,
+              "uid": "rec-1-9",
+              "word": "مرسته",
+              "start": 4.36,
+              "end": 4.84,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-fa8b2d2ef8ac.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-fa8b2d2ef8ac.mp3",
+              "filename": "word-fa8b2d2ef8ac.mp3"
+            },
+            {
+              "id": 10,
+              "uid": "rec-1-10",
+              "word": "کولی",
+              "start": 4.84,
+              "end": 5.22,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ed2f926f4a62.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ed2f926f4a62.mp3",
+              "filename": "word-ed2f926f4a62.mp3"
+            },
+            {
+              "id": 11,
+              "uid": "rec-1-11",
+              "word": "شي؟",
+              "start": 5.22,
+              "end": 5.54,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2dd67fa57baf.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2dd67fa57baf.mp3",
+              "filename": "word-2dd67fa57baf.mp3"
+            }
+          ],
+          "text": "وړه شاتو مچۍ ورکه شوې ده. آیا ښاغلی فیل مرسته کولی شي؟",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "57cd133f882db74e2044569a",
+      "title": "Page 3",
+      "description": "",
+      "text": "آیا تاسو په ځاله کي ژوند کوئ؟",
+      "media": [
+        {
+          "_id": "a6b85e9669290a5d1b7a9683",
+          "id": "a6b85e9669290a5d1b7a9683",
+          "name": "file-6218ffe4e89b7.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-6218ffe4e89b7.jpg",
+          "filename": "file-6218ffe4e89b7.jpg",
+          "position": {
+            "left": 172.23,
+            "top": 60.41
+          },
+          "scaleSize": 71.289,
+          "zIndex": 10,
+          "width": 639,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 3,
+                "uid": "rec-2-3",
+                "word": "ځاله",
+                "start": 1.32,
+                "end": 1.68,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-0708d4d1d2a7.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-0708d4d1d2a7.mp3",
+                "filename": "word-0708d4d1d2a7.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "آیا",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "تاسو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "په",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ځاله",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ژوند",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "کوئ؟",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "9cadc1bf149389fc6deb07f4",
+        "pageId": "57cd133f882db74e2044569a",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-02.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-02.mp3",
+          "filename": "page-02.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-2-0",
+              "word": "آیا",
+              "start": 0.44,
+              "end": 0.62,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b6d7febb4b95.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b6d7febb4b95.mp3",
+              "filename": "word-b6d7febb4b95.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-2-1",
+              "word": "تاسو",
+              "start": 0.62,
+              "end": 1.1,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-938618e326ba.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-938618e326ba.mp3",
+              "filename": "word-938618e326ba.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-2-2",
+              "word": "په",
+              "start": 1.1,
+              "end": 1.32,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e841ea470448.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e841ea470448.mp3",
+              "filename": "word-e841ea470448.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-2-3",
+              "word": "ځاله",
+              "start": 1.32,
+              "end": 1.68,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-0708d4d1d2a7.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-0708d4d1d2a7.mp3",
+              "filename": "word-0708d4d1d2a7.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-2-4",
+              "word": "کي",
+              "start": 1.68,
+              "end": 1.86,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-4e967a6b5f5f.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-4e967a6b5f5f.mp3",
+              "filename": "word-4e967a6b5f5f.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-2-5",
+              "word": "ژوند",
+              "start": 1.86,
+              "end": 2.14,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c36b7ba97e84.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c36b7ba97e84.mp3",
+              "filename": "word-c36b7ba97e84.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-2-6",
+              "word": "کوئ؟",
+              "start": 2.14,
+              "end": 2.58,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ec4baa438ae0.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ec4baa438ae0.mp3",
+              "filename": "word-ec4baa438ae0.mp3"
+            }
+          ],
+          "text": "آیا تاسو په ځاله کي ژوند کوئ؟",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "f227029f9b0bf966124d4096",
+      "title": "Page 4",
+      "description": "",
+      "text": "نه، مرغۍ په ځاله کي ژوند کوي",
+      "media": [
+        {
+          "_id": "db80300d300cb756f43c3c50",
+          "id": "db80300d300cb756f43c3c50",
+          "name": "file-622968c200f21.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-622968c200f21.jpg",
+          "filename": "file-622968c200f21.jpg",
+          "position": {
+            "left": 467.79,
+            "top": 45.34
+          },
+          "scaleSize": 76.773,
+          "zIndex": 10,
+          "width": 959,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-3-1",
+                "word": "مرغۍ",
+                "start": 1.16,
+                "end": 1.58,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-980cf0bf4c27.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-980cf0bf4c27.mp3",
+                "filename": "word-980cf0bf4c27.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "نه،",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مرغۍ",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "په",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ځاله",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ژوند",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "کوي",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "e981458a144cf64aa5f3fa22",
+        "pageId": "f227029f9b0bf966124d4096",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-03.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-03.mp3",
+          "filename": "page-03.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-3-0",
+              "word": "نه،",
+              "start": 0.36,
+              "end": 1.06,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-40b8beba74b4.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-40b8beba74b4.mp3",
+              "filename": "word-40b8beba74b4.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-3-1",
+              "word": "مرغۍ",
+              "start": 1.16,
+              "end": 1.58,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-980cf0bf4c27.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-980cf0bf4c27.mp3",
+              "filename": "word-980cf0bf4c27.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-3-2",
+              "word": "په",
+              "start": 1.58,
+              "end": 1.88,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-455b0250b987.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-455b0250b987.mp3",
+              "filename": "word-455b0250b987.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-3-3",
+              "word": "ځاله",
+              "start": 1.88,
+              "end": 2.2,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-275648ce363a.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-275648ce363a.mp3",
+              "filename": "word-275648ce363a.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-3-4",
+              "word": "کي",
+              "start": 2.2,
+              "end": 2.38,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e8f9bf469113.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e8f9bf469113.mp3",
+              "filename": "word-e8f9bf469113.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-3-5",
+              "word": "ژوند",
+              "start": 2.38,
+              "end": 2.68,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-58c7c0e69468.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-58c7c0e69468.mp3",
+              "filename": "word-58c7c0e69468.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-3-6",
+              "word": "کوي",
+              "start": 2.68,
+              "end": 2.98,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8b88809352d2.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8b88809352d2.mp3",
+              "filename": "word-8b88809352d2.mp3"
+            }
+          ],
+          "text": "نه، مرغۍ په ځاله کي ژوند کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "d7b391ea8de364a45922e780",
+      "title": "Page 5",
+      "description": "",
+      "text": "آیا تاسو په یوه سمڅه کي ژوند کوئ؟",
+      "media": [
+        {
+          "_id": "6076296039fd11dc0c52757e",
+          "id": "6076296039fd11dc0c52757e",
+          "name": "file-62190037abe9d.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-62190037abe9d.jpg",
+          "filename": "file-62190037abe9d.jpg",
+          "position": {
+            "left": 158.23,
+            "top": 54.41
+          },
+          "scaleSize": 72.605,
+          "zIndex": 10,
+          "width": 639,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 4,
+                "uid": "rec-4-4",
+                "word": "سمڅه",
+                "start": 1.56,
+                "end": 2.04,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-20bd1c105ffd.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-20bd1c105ffd.mp3",
+                "filename": "word-20bd1c105ffd.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "آیا",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "تاسو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "په",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "یوه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "سمڅه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کي",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "ژوند",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "کوئ؟",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "a485e6deacfbf1b43f6f2d2b",
+        "pageId": "d7b391ea8de364a45922e780",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-04.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-04.mp3",
+          "filename": "page-04.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-4-0",
+              "word": "آیا",
+              "start": 0.38,
+              "end": 0.6,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6ce4596f8908.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6ce4596f8908.mp3",
+              "filename": "word-6ce4596f8908.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-4-1",
+              "word": "تاسو",
+              "start": 0.6,
+              "end": 1.16,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-42de877e6f00.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-42de877e6f00.mp3",
+              "filename": "word-42de877e6f00.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-4-2",
+              "word": "په",
+              "start": 1.16,
+              "end": 1.38,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b7230f3f3484.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b7230f3f3484.mp3",
+              "filename": "word-b7230f3f3484.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-4-3",
+              "word": "یوه",
+              "start": 1.38,
+              "end": 1.56,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-844ef49a6d04.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-844ef49a6d04.mp3",
+              "filename": "word-844ef49a6d04.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-4-4",
+              "word": "سمڅه",
+              "start": 1.56,
+              "end": 2.04,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-20bd1c105ffd.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-20bd1c105ffd.mp3",
+              "filename": "word-20bd1c105ffd.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-4-5",
+              "word": "کي",
+              "start": 2.04,
+              "end": 2.22,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-27b96c048861.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-27b96c048861.mp3",
+              "filename": "word-27b96c048861.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-4-6",
+              "word": "ژوند",
+              "start": 2.22,
+              "end": 2.56,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-13a54976eb6a.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-13a54976eb6a.mp3",
+              "filename": "word-13a54976eb6a.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-4-7",
+              "word": "کوئ؟",
+              "start": 2.56,
+              "end": 2.98,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-dfe2fd87a213.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-dfe2fd87a213.mp3",
+              "filename": "word-dfe2fd87a213.mp3"
+            }
+          ],
+          "text": "آیا تاسو په یوه سمڅه کي ژوند کوئ؟",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "115f40e30bf098461a0e248a",
+      "title": "Page 6",
+      "description": "",
+      "text": "نه، د ماښام ښاپیری په یوه سمڅه کي ژوند کوي",
+      "media": [
+        {
+          "_id": "b652fd3403d2c5e34ea1336a",
+          "id": "b652fd3403d2c5e34ea1336a",
+          "name": "file-6219006a2ebe7.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-6219006a2ebe7.jpg",
+          "filename": "file-6219006a2ebe7.jpg",
+          "position": {
+            "left": 480.09,
+            "top": 77.03
+          },
+          "scaleSize": 74.58,
+          "zIndex": 10,
+          "width": 959,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 3,
+                "uid": "rec-5-3",
+                "word": "ښاپیری",
+                "start": 1.82,
+                "end": 2.44,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6a5f60885628.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6a5f60885628.mp3",
+                "filename": "word-6a5f60885628.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "نه،",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "د",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ماښام",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ښاپیری",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "په",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "یوه",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "سمڅه",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "کي",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "ژوند",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "کوي",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "60ff94b2a89238a4cb2ecaf3",
+        "pageId": "115f40e30bf098461a0e248a",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-05.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-05.mp3",
+          "filename": "page-05.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-5-0",
+              "word": "نه،",
+              "start": 0.38,
+              "end": 1.08,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-3ddf804e3232.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-3ddf804e3232.mp3",
+              "filename": "word-3ddf804e3232.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-5-1",
+              "word": "د",
+              "start": 1.16,
+              "end": 1.26,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8adb0bbfe78e.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8adb0bbfe78e.mp3",
+              "filename": "word-8adb0bbfe78e.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-5-2",
+              "word": "ماښام",
+              "start": 1.26,
+              "end": 1.82,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c25d018a7ef0.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c25d018a7ef0.mp3",
+              "filename": "word-c25d018a7ef0.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-5-3",
+              "word": "ښاپیری",
+              "start": 1.82,
+              "end": 2.44,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6a5f60885628.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6a5f60885628.mp3",
+              "filename": "word-6a5f60885628.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-5-4",
+              "word": "په",
+              "start": 2.44,
+              "end": 2.76,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c711cec4bd86.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-c711cec4bd86.mp3",
+              "filename": "word-c711cec4bd86.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-5-5",
+              "word": "یوه",
+              "start": 2.76,
+              "end": 2.94,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-303d0b0a4138.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-303d0b0a4138.mp3",
+              "filename": "word-303d0b0a4138.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-5-6",
+              "word": "سمڅه",
+              "start": 2.94,
+              "end": 3.48,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8a53aadb3f92.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8a53aadb3f92.mp3",
+              "filename": "word-8a53aadb3f92.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-5-7",
+              "word": "کي",
+              "start": 3.48,
+              "end": 3.58,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-810313d7382a.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-810313d7382a.mp3",
+              "filename": "word-810313d7382a.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-5-8",
+              "word": "ژوند",
+              "start": 3.58,
+              "end": 3.9,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-d61190b4cc07.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-d61190b4cc07.mp3",
+              "filename": "word-d61190b4cc07.mp3"
+            },
+            {
+              "id": 9,
+              "uid": "rec-5-9",
+              "word": "کوي",
+              "start": 3.9,
+              "end": 4.16,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5dcb654c8bfe.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-5dcb654c8bfe.mp3",
+              "filename": "word-5dcb654c8bfe.mp3"
+            }
+          ],
+          "text": "نه، د ماښام ښاپیری په یوه سمڅه کي ژوند کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "a8c88b9597a719fd6ab80a05",
+      "title": "Page 7",
+      "description": "",
+      "text": "آیا تاسو د مچیو په ځاله کې ژوند کوئ؟",
+      "media": [
+        {
+          "_id": "7e08fab994ca4a55db74ca1f",
+          "id": "7e08fab994ca4a55db74ca1f",
+          "name": "file-621900957ede6.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-621900957ede6.jpg",
+          "filename": "file-621900957ede6.jpg",
+          "position": {
+            "left": 144.24,
+            "top": 57.43
+          },
+          "scaleSize": 72.386,
+          "zIndex": 10,
+          "width": 639,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 5,
+                "uid": "rec-6-5",
+                "word": "ځاله",
+                "start": 2.08,
+                "end": 2.44,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-eb0bcea2e8c9.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-eb0bcea2e8c9.mp3",
+                "filename": "word-eb0bcea2e8c9.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "آیا",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "تاسو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "د",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "مچیو",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "په",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ځاله",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "کې",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "ژوند",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "کوئ؟",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "702280ed5ad68e568dd2e08e",
+        "pageId": "a8c88b9597a719fd6ab80a05",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-06.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-06.mp3",
+          "filename": "page-06.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-6-0",
+              "word": "آیا",
+              "start": 0.38,
+              "end": 0.62,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8ea9ffe7dae2.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-8ea9ffe7dae2.mp3",
+              "filename": "word-8ea9ffe7dae2.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-6-1",
+              "word": "تاسو",
+              "start": 0.62,
+              "end": 1.16,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1370cafc741d.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1370cafc741d.mp3",
+              "filename": "word-1370cafc741d.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-6-2",
+              "word": "د",
+              "start": 1.16,
+              "end": 1.28,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7d77ee2e7aa0.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-7d77ee2e7aa0.mp3",
+              "filename": "word-7d77ee2e7aa0.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-6-3",
+              "word": "مچیو",
+              "start": 1.28,
+              "end": 1.82,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b153b05f857b.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-b153b05f857b.mp3",
+              "filename": "word-b153b05f857b.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-6-4",
+              "word": "په",
+              "start": 1.82,
+              "end": 2.08,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a957c4b86395.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a957c4b86395.mp3",
+              "filename": "word-a957c4b86395.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-6-5",
+              "word": "ځاله",
+              "start": 2.08,
+              "end": 2.44,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-eb0bcea2e8c9.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-eb0bcea2e8c9.mp3",
+              "filename": "word-eb0bcea2e8c9.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-6-6",
+              "word": "کې",
+              "start": 2.44,
+              "end": 2.6,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-810313d7382a.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-810313d7382a.mp3",
+              "filename": "word-810313d7382a.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-6-7",
+              "word": "ژوند",
+              "start": 2.6,
+              "end": 2.88,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-99dff1f44d9b.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-99dff1f44d9b.mp3",
+              "filename": "word-99dff1f44d9b.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-6-8",
+              "word": "کوئ؟",
+              "start": 2.88,
+              "end": 3.3,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e6348f6c88f1.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e6348f6c88f1.mp3",
+              "filename": "word-e6348f6c88f1.mp3"
+            }
+          ],
+          "text": "آیا تاسو د مچیو په ځاله کې ژوند کوئ؟",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "97f0ac0049a565825c08ef3d",
+      "title": "Page 8",
+      "description": "",
+      "text": "هو، دا ځاله زما کور دی.",
+      "media": [
+        {
+          "_id": "efca6ea1914f22699f5f5c85",
+          "id": "efca6ea1914f22699f5f5c85",
+          "name": "file-621900bb6d423.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-621900bb6d423.jpg",
+          "filename": "file-621900bb6d423.jpg",
+          "position": {
+            "left": 89.67,
+            "top": 77.08
+          },
+          "scaleSize": 69.315,
+          "zIndex": 10,
+          "width": 959,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-7-2",
+                "word": "ځاله",
+                "start": 1.2,
+                "end": 1.56,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-782e71b778e7.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-782e71b778e7.mp3",
+                "filename": "word-782e71b778e7.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هو،",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "دا",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ځاله",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "زما",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کور",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fff8e7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "4a18664407fd0973e54ad52a",
+        "pageId": "97f0ac0049a565825c08ef3d",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-07.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-07.mp3",
+          "filename": "page-07.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-7-0",
+              "word": "هو،",
+              "start": 0.6,
+              "end": 0.88,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a077be1361cd.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-a077be1361cd.mp3",
+              "filename": "word-a077be1361cd.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-7-1",
+              "word": "دا",
+              "start": 1.0,
+              "end": 1.2,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2b71a0cfe136.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2b71a0cfe136.mp3",
+              "filename": "word-2b71a0cfe136.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-7-2",
+              "word": "ځاله",
+              "start": 1.2,
+              "end": 1.56,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-782e71b778e7.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-782e71b778e7.mp3",
+              "filename": "word-782e71b778e7.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-7-3",
+              "word": "زما",
+              "start": 1.56,
+              "end": 1.82,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6541de43db63.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-6541de43db63.mp3",
+              "filename": "word-6541de43db63.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-7-4",
+              "word": "کور",
+              "start": 1.82,
+              "end": 2.26,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ef11032e80ab.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ef11032e80ab.mp3",
+              "filename": "word-ef11032e80ab.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-7-5",
+              "word": "دی.",
+              "start": 2.26,
+              "end": 2.64,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1781f5ad901d.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1781f5ad901d.mp3",
+              "filename": "word-1781f5ad901d.mp3"
+            }
+          ],
+          "text": "هو، دا ځاله زما کور دی.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "1cd71cc4293543c91a98aef0",
+      "title": "Page 9",
+      "description": "",
+      "text": "مننه چې ما سره دې مرسته وکړه، ښاغلی فیل.",
+      "media": [
+        {
+          "_id": "ace0880b15c9c42db4da2128",
+          "id": "ace0880b15c9c42db4da2128",
+          "name": "file-621900f617966.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-621900f617966.jpg",
+          "filename": "file-621900f617966.jpg",
+          "position": {
+            "left": 299.34,
+            "top": 52.9
+          },
+          "scaleSize": 76.153,
+          "zIndex": 10,
+          "width": 959,
+          "height": 516,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 8,
+                "uid": "rec-8-8",
+                "word": "فیل.",
+                "start": 3.1,
+                "end": 3.52,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2f42d28c34ff.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2f42d28c34ff.mp3",
+                "filename": "word-2f42d28c34ff.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مننه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "چې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ما",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "سره",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "دې",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "مرسته",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "وکړه،",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "ښاغلی",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "فیل.",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#f0ffec",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "a12e7ddbbf0b34ded813386c",
+        "pageId": "1cd71cc4293543c91a98aef0",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-08.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-08.mp3",
+          "filename": "page-08.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-8-0",
+              "word": "مننه",
+              "start": 0.5,
+              "end": 0.74,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-bf78625d861c.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-bf78625d861c.mp3",
+              "filename": "word-bf78625d861c.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-8-1",
+              "word": "چې",
+              "start": 0.74,
+              "end": 1.0,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ca48d77e1b11.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-ca48d77e1b11.mp3",
+              "filename": "word-ca48d77e1b11.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-8-2",
+              "word": "ما",
+              "start": 1.0,
+              "end": 1.14,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1a087c2a6e50.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1a087c2a6e50.mp3",
+              "filename": "word-1a087c2a6e50.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-8-3",
+              "word": "سره",
+              "start": 1.14,
+              "end": 1.5,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-dfd992649d31.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-dfd992649d31.mp3",
+              "filename": "word-dfd992649d31.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-8-4",
+              "word": "دې",
+              "start": 1.5,
+              "end": 1.6,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-4e7584189155.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-4e7584189155.mp3",
+              "filename": "word-4e7584189155.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-8-5",
+              "word": "مرسته",
+              "start": 1.6,
+              "end": 2.04,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-71b1461e69e0.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-71b1461e69e0.mp3",
+              "filename": "word-71b1461e69e0.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-8-6",
+              "word": "وکړه،",
+              "start": 2.04,
+              "end": 2.56,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-98e81be95172.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-98e81be95172.mp3",
+              "filename": "word-98e81be95172.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-8-7",
+              "word": "ښاغلی",
+              "start": 2.66,
+              "end": 3.1,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1f8c12e9d46f.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1f8c12e9d46f.mp3",
+              "filename": "word-1f8c12e9d46f.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-8-8",
+              "word": "فیل.",
+              "start": 3.1,
+              "end": 3.52,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2f42d28c34ff.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-2f42d28c34ff.mp3",
+              "filename": "word-2f42d28c34ff.mp3"
+            }
+          ],
+          "text": "مننه چې ما سره دې مرسته وکړه، ښاغلی فیل.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "0a00fba0dd9500e36b922a5b",
+      "title": "Page 10",
+      "description": "",
+      "text": "شاتو مچۍ او فیل ملګري دي.",
+      "media": [
+        {
+          "_id": "db318f829fd7f18bfb8a74c8",
+          "id": "db318f829fd7f18bfb8a74c8",
+          "name": "file-6219013254d0f.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-6219013254d0f.jpg",
+          "filename": "file-6219013254d0f.jpg",
+          "position": {
+            "left": 119.77,
+            "top": 105.79
+          },
+          "scaleSize": 68.657,
+          "zIndex": 10,
+          "width": 959,
+          "height": 689,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-9-1",
+                "word": "مچۍ",
+                "start": 0.78,
+                "end": 1.26,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e586fa751323.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e586fa751323.mp3",
+                "filename": "word-e586fa751323.mp3"
+              },
+              {
+                "id": 3,
+                "uid": "rec-9-3",
+                "word": "فیل",
+                "start": 1.44,
+                "end": 1.78,
+                "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-51acd74332cd.mp3",
+                "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-51acd74332cd.mp3",
+                "filename": "word-51acd74332cd.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "شاتو",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مچۍ",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "او",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "فیل",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ملګري",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دي.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "06ae570ffe19b7fc6e46fa5e",
+        "pageId": "0a00fba0dd9500e36b922a5b",
+        "bookId": "6ff0c39af4854711a99b921f",
+        "created": "2026-11-25T10:50:39.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-09.mp3",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/page-09.mp3",
+          "filename": "page-09.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-9-0",
+              "word": "شاتو",
+              "start": 0.48,
+              "end": 0.78,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-cdba561bfc5b.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-cdba561bfc5b.mp3",
+              "filename": "word-cdba561bfc5b.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-9-1",
+              "word": "مچۍ",
+              "start": 0.78,
+              "end": 1.26,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e586fa751323.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e586fa751323.mp3",
+              "filename": "word-e586fa751323.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-9-2",
+              "word": "او",
+              "start": 1.26,
+              "end": 1.44,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1dd8820751f9.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-1dd8820751f9.mp3",
+              "filename": "word-1dd8820751f9.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-9-3",
+              "word": "فیل",
+              "start": 1.44,
+              "end": 1.78,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-51acd74332cd.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-51acd74332cd.mp3",
+              "filename": "word-51acd74332cd.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-9-4",
+              "word": "ملګري",
+              "start": 1.78,
+              "end": 2.26,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e40bf1fbd1a5.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-e40bf1fbd1a5.mp3",
+              "filename": "word-e40bf1fbd1a5.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-9-5",
+              "word": "دي.",
+              "start": 2.26,
+              "end": 2.68,
+              "mp3": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-de463d462926.mp3",
+              "path": "/resources/books/6ff0c39af4854711a99b921f/assets/audio/word-de463d462926.mp3",
+              "filename": "word-de463d462926.mp3"
+            }
+          ],
+          "text": "شاتو مچۍ او فیل ملګري دي.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "f7ced447f2f17e1fb7014cf8",
+      "title": "Page 11",
+      "description": "",
+      "text": "\"The bee and the elephant\" credits\nThis work, \"The bee and the elephant\", is a derivative of \"The bee and the elephant\" translated by Celia Bolam used under CC BY. It is based on the Original story: 'ឃ្មុំនិងដំរី', by Long Ravy © Room to Read, 2015.\nSome changes were made to this work. \"The bee and the elephant\" is licensed under CC BY 4.0 by Curious Learning.\nBook builder - Deborah Oduman",
+      "media": [
+        {
+          "_id": "bcea4e27669012ae56134952",
+          "id": "bcea4e27669012ae56134952",
+          "name": "file-61fb296cf2c04.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-61fb296cf2c04.png",
+          "filename": "file-61fb296cf2c04.png",
+          "position": {
+            "left": 56.43,
+            "top": 30.2
+          },
+          "scaleSize": 15.827,
+          "zIndex": 10,
+          "width": 1350,
+          "height": 487,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "d276d56dc6e2ab675e2d8bdd",
+          "id": "d276d56dc6e2ab675e2d8bdd",
+          "name": "file-61fb29a5596cb.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-61fb29a5596cb.png",
+          "filename": "file-61fb29a5596cb.png",
+          "position": {
+            "left": 506.12,
+            "top": 31.34
+          },
+          "scaleSize": 36.303,
+          "zIndex": 11,
+          "width": 814,
+          "height": 202,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "ba2cdb768eae34dd7462fd8d",
+          "id": "ba2cdb768eae34dd7462fd8d",
+          "name": "file-61fb28cb969ac.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/6ff0c39af4854711a99b921f/assets/images/file-61fb28cb969ac.jpg",
+          "filename": "file-61fb28cb969ac.jpg",
+          "position": {
+            "left": 974.61,
+            "top": 45.32
+          },
+          "scaleSize": 16.223,
+          "zIndex": 12,
+          "width": 1732,
+          "height": 354,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "\"The",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "bee",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "and",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "the",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "elephant\"",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "credits",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "\n",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "This",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "work,",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "\"The",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "bee",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "and",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "the",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "elephant\",",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "is",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "a",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "derivative",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "of",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "\"The",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "bee",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "and",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "the",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "elephant\"",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "translated",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "by",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "Celia",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "Bolam",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "used",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "under",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "CC",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "BY.",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "It",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "is",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "based",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "on",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "the",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "Original",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "story:",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "'ឃ្មុំនិងដំរី',",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "by",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "Long",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "Ravy©",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "Room",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "to",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        },
+        {
+          "word": "Read,",
+          "start": 44,
+          "end": 45,
+          "uid": "txt--44-45",
+          "id": 44
+        },
+        {
+          "word": "2015.",
+          "start": 45,
+          "end": 46,
+          "uid": "txt--45-46",
+          "id": 45
+        },
+        {
+          "word": "\n",
+          "start": 46,
+          "end": 47,
+          "uid": "txt--46-47",
+          "id": 46
+        },
+        {
+          "word": "Some",
+          "start": 47,
+          "end": 48,
+          "uid": "txt--47-48",
+          "id": 47
+        },
+        {
+          "word": "changes",
+          "start": 48,
+          "end": 49,
+          "uid": "txt--48-49",
+          "id": 48
+        },
+        {
+          "word": "were",
+          "start": 49,
+          "end": 50,
+          "uid": "txt--49-50",
+          "id": 49
+        },
+        {
+          "word": "made",
+          "start": 50,
+          "end": 51,
+          "uid": "txt--50-51",
+          "id": 50
+        },
+        {
+          "word": "to",
+          "start": 51,
+          "end": 52,
+          "uid": "txt--51-52",
+          "id": 51
+        },
+        {
+          "word": "this",
+          "start": 52,
+          "end": 53,
+          "uid": "txt--52-53",
+          "id": 52
+        },
+        {
+          "word": "work.",
+          "start": 53,
+          "end": 54,
+          "uid": "txt--53-54",
+          "id": 53
+        },
+        {
+          "word": "\"The",
+          "start": 54,
+          "end": 55,
+          "uid": "txt--54-55",
+          "id": 54
+        },
+        {
+          "word": "bee",
+          "start": 55,
+          "end": 56,
+          "uid": "txt--55-56",
+          "id": 55
+        },
+        {
+          "word": "and",
+          "start": 56,
+          "end": 57,
+          "uid": "txt--56-57",
+          "id": 56
+        },
+        {
+          "word": "the",
+          "start": 57,
+          "end": 58,
+          "uid": "txt--57-58",
+          "id": 57
+        },
+        {
+          "word": "elephant\"",
+          "start": 58,
+          "end": 59,
+          "uid": "txt--58-59",
+          "id": 58
+        },
+        {
+          "word": "is",
+          "start": 59,
+          "end": 60,
+          "uid": "txt--59-60",
+          "id": 59
+        },
+        {
+          "word": "licensed",
+          "start": 60,
+          "end": 61,
+          "uid": "txt--60-61",
+          "id": 60
+        },
+        {
+          "word": "under",
+          "start": 61,
+          "end": 62,
+          "uid": "txt--61-62",
+          "id": 61
+        },
+        {
+          "word": "CC",
+          "start": 62,
+          "end": 63,
+          "uid": "txt--62-63",
+          "id": 62
+        },
+        {
+          "word": "BY",
+          "start": 63,
+          "end": 64,
+          "uid": "txt--63-64",
+          "id": 63
+        },
+        {
+          "word": "4.0",
+          "start": 64,
+          "end": 65,
+          "uid": "txt--64-65",
+          "id": 64
+        },
+        {
+          "word": "by",
+          "start": 65,
+          "end": 66,
+          "uid": "txt--65-66",
+          "id": 65
+        },
+        {
+          "word": "Curious",
+          "start": 66,
+          "end": 67,
+          "uid": "txt--66-67",
+          "id": 66
+        },
+        {
+          "word": "Learning.",
+          "start": 67,
+          "end": 68,
+          "uid": "txt--67-68",
+          "id": 67
+        },
+        {
+          "word": "\n",
+          "start": 68,
+          "end": 69,
+          "uid": "txt--68-69",
+          "id": 68
+        },
+        {
+          "word": "Book",
+          "start": 69,
+          "end": 70,
+          "uid": "txt--69-70",
+          "id": 69
+        },
+        {
+          "word": "builder-",
+          "start": 70,
+          "end": 71,
+          "uid": "txt--70-71",
+          "id": 70
+        },
+        {
+          "word": "Deborah",
+          "start": 71,
+          "end": 72,
+          "uid": "txt--71-72",
+          "id": 71
+        },
+        {
+          "word": "Oduman",
+          "start": 72,
+          "end": 73,
+          "uid": "txt--72-73",
+          "id": 72
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#daf6f7",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    }
+  ],
+  "cover": {
+    "show": false,
+    "image": null,
+    "text": null,
+    "description": null
+  }
+}

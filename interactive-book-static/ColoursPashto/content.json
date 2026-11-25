@@ -1,0 +1,1496 @@
+{
+  "_id": "42d972cbbf126023a98b58ee",
+  "title": "رنګونه",
+  "license": "CC-BY-4.0",
+  "published": true,
+  "slug": "ColoursPashto",
+  "version": "0.0.1",
+  "createdAt": "2026-11-25T10:52:35.000Z",
+  "updatedAt": "2026-11-25T10:52:35.000Z",
+  "language": "ps",
+  "credits": {
+    "text": "",
+    "logos": []
+  },
+  "illustration": null,
+  "coverText": "",
+  "config": {
+    "textDirection": "RTL",
+    "voiceId": "",
+    "audioLanguage": "ps"
+  },
+  "bookDescription": null,
+  "bookText": null,
+  "tags": [
+    "converted-from-h5p"
+  ],
+  "body": [
+    {
+      "_id": "073ae23b34a05af54591370c",
+      "title": "Page 1",
+      "description": "",
+      "text": "یگه رنګونه خوښوي.",
+      "media": [
+        {
+          "_id": "25872da9a898ac0d670c6429",
+          "id": "25872da9a898ac0d670c6429",
+          "name": "file-667012d869ce9.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-667012d869ce9.png",
+          "filename": "file-667012d869ce9.png",
+          "position": {
+            "left": 420.88,
+            "top": 12.87
+          },
+          "scaleSize": 44.692,
+          "zIndex": 10,
+          "width": 1018,
+          "height": 1100,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-0-0",
+                "word": "یگه",
+                "start": 0.78,
+                "end": 1.22,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-10d814a70a89.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-10d814a70a89.mp3",
+                "filename": "word-10d814a70a89.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "یگه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "رنګونه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "خوښوي.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "1e8916aa9411a251162ea111",
+        "pageId": "073ae23b34a05af54591370c",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-00.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-00.mp3",
+          "filename": "page-00.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-0-0",
+              "word": "یگه",
+              "start": 0.78,
+              "end": 1.22,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-10d814a70a89.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-10d814a70a89.mp3",
+              "filename": "word-10d814a70a89.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-0-1",
+              "word": "رنګونه",
+              "start": 1.22,
+              "end": 1.9,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-3c97f4b472d7.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-3c97f4b472d7.mp3",
+              "filename": "word-3c97f4b472d7.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-0-2",
+              "word": "خوښوي.",
+              "start": 1.9,
+              "end": 2.46,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-954568010049.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-954568010049.mp3",
+              "filename": "word-954568010049.mp3"
+            }
+          ],
+          "text": "یگه رنګونه خوښوي.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "92087f4486b3e4189385b07c",
+      "title": "Page 2",
+      "description": "",
+      "text": "یگه رنګونه پیدا کوي.",
+      "media": [
+        {
+          "_id": "510e4a628245c24353f55de6",
+          "id": "510e4a628245c24353f55de6",
+          "name": "file-6670134dcf940.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-6670134dcf940.png",
+          "filename": "file-6670134dcf940.png",
+          "position": {
+            "left": 362.53,
+            "top": 22.31
+          },
+          "scaleSize": 35.386,
+          "zIndex": 10,
+          "width": 1454,
+          "height": 1296,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-1-0",
+                "word": "یگه",
+                "start": 0.46,
+                "end": 0.74,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-163a542bcebe.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-163a542bcebe.mp3",
+                "filename": "word-163a542bcebe.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "یگه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "رنګونه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "پیدا",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کوي.",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "a52f827bba68b4abf4915a1c",
+        "pageId": "92087f4486b3e4189385b07c",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-01.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-01.mp3",
+          "filename": "page-01.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-1-0",
+              "word": "یگه",
+              "start": 0.46,
+              "end": 0.74,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-163a542bcebe.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-163a542bcebe.mp3",
+              "filename": "word-163a542bcebe.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-1-1",
+              "word": "رنګونه",
+              "start": 0.74,
+              "end": 1.3,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e3c1ad2bf456.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e3c1ad2bf456.mp3",
+              "filename": "word-e3c1ad2bf456.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-1-2",
+              "word": "پیدا",
+              "start": 1.3,
+              "end": 1.62,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-d5459f32bf5b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-d5459f32bf5b.mp3",
+              "filename": "word-d5459f32bf5b.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-1-3",
+              "word": "کوي.",
+              "start": 1.62,
+              "end": 2.08,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-77cde6d31d8c.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-77cde6d31d8c.mp3",
+              "filename": "word-77cde6d31d8c.mp3"
+            }
+          ],
+          "text": "یگه رنګونه پیدا کوي.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "3717593176c698cdad526962",
+      "title": "Page 3",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "1e2c16967aa96934f8350241",
+          "id": "1e2c16967aa96934f8350241",
+          "name": "file-66728ec2081a9.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728ec2081a9.png",
+          "filename": "file-66728ec2081a9.png",
+          "position": {
+            "left": 278.87,
+            "top": 9.51
+          },
+          "scaleSize": 47.56,
+          "zIndex": 10,
+          "width": 1460,
+          "height": 1208,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "65c0cb8f93b620521dc7576d",
+      "title": "Page 4",
+      "description": "",
+      "text": "زیړ غوږونه.",
+      "media": [
+        {
+          "_id": "52710f5534f79def7ae6174a",
+          "id": "52710f5534f79def7ae6174a",
+          "name": "file-66701d796217a.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66701d796217a.png",
+          "filename": "file-66701d796217a.png",
+          "position": {
+            "left": 338.08,
+            "top": 0.0
+          },
+          "scaleSize": 44.355,
+          "zIndex": 10,
+          "width": 1462,
+          "height": 1152,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-3-1",
+                "word": "غوږونه.",
+                "start": 0.44,
+                "end": 1.24,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e08d6899594f.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e08d6899594f.mp3",
+                "filename": "word-e08d6899594f.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "زیړ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "غوږونه.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "f5865aba0c530a6bcda9fc23",
+        "pageId": "65c0cb8f93b620521dc7576d",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-03.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-03.mp3",
+          "filename": "page-03.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-3-0",
+              "word": "زیړ",
+              "start": 0.22,
+              "end": 0.44,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6e6d166cd1c6.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6e6d166cd1c6.mp3",
+              "filename": "word-6e6d166cd1c6.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-3-1",
+              "word": "غوږونه.",
+              "start": 0.44,
+              "end": 1.24,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e08d6899594f.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e08d6899594f.mp3",
+              "filename": "word-e08d6899594f.mp3"
+            }
+          ],
+          "text": "زیړ غوږونه.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "f88aee4e7a1b84231da64c31",
+      "title": "Page 5",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "c76b633fd1eca0f8b16a7551",
+          "id": "c76b633fd1eca0f8b16a7551",
+          "name": "file-66728f2cab668.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728f2cab668.png",
+          "filename": "file-66728f2cab668.png",
+          "position": {
+            "left": 278.87,
+            "top": 12.67
+          },
+          "scaleSize": 46.796,
+          "zIndex": 10,
+          "width": 1460,
+          "height": 1228,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "42c397b732c2437fef313d10",
+      "title": "Page 6",
+      "description": "",
+      "text": "نسواري معدې.",
+      "media": [
+        {
+          "_id": "b990a10f459cbc7e996f72b8",
+          "id": "b990a10f459cbc7e996f72b8",
+          "name": "file-66701dd959d9f.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66701dd959d9f.png",
+          "filename": "file-66701dd959d9f.png",
+          "position": {
+            "left": 376.55,
+            "top": 0.0
+          },
+          "scaleSize": 42.563,
+          "zIndex": 10,
+          "width": 1464,
+          "height": 1152,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-5-1",
+                "word": "معدې.",
+                "start": 0.82,
+                "end": 1.44,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e22057aa790b.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e22057aa790b.mp3",
+                "filename": "word-e22057aa790b.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "نسواري",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "معدې.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "d3b4a7d4a1d200071844a10c",
+        "pageId": "42c397b732c2437fef313d10",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-05.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-05.mp3",
+          "filename": "page-05.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-5-0",
+              "word": "نسواري",
+              "start": 0.28,
+              "end": 0.82,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6b6a01442554.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6b6a01442554.mp3",
+              "filename": "word-6b6a01442554.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-5-1",
+              "word": "معدې.",
+              "start": 0.82,
+              "end": 1.44,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e22057aa790b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-e22057aa790b.mp3",
+              "filename": "word-e22057aa790b.mp3"
+            }
+          ],
+          "text": "نسواري معدې.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "dcaa05e9ef70dbc75165096e",
+      "title": "Page 7",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "521dda91ff19f4582e92896f",
+          "id": "521dda91ff19f4582e92896f",
+          "name": "file-66728f5cac193.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728f5cac193.png",
+          "filename": "file-66728f5cac193.png",
+          "position": {
+            "left": 250.98,
+            "top": 17.93
+          },
+          "scaleSize": 52.023,
+          "zIndex": 10,
+          "width": 1450,
+          "height": 1072,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "ce2b8b9b80339e80cc33f39a",
+      "title": "Page 8",
+      "description": "",
+      "text": "سره خوله.",
+      "media": [
+        {
+          "_id": "1500c84221657be6f99dc133",
+          "id": "1500c84221657be6f99dc133",
+          "name": "file-66701e56c55b2.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66701e56c55b2.png",
+          "filename": "file-66701e56c55b2.png",
+          "position": {
+            "left": 337.13,
+            "top": 0.0
+          },
+          "scaleSize": 44.79,
+          "zIndex": 10,
+          "width": 1452,
+          "height": 1112,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-7-1",
+                "word": "خوله.",
+                "start": 0.38,
+                "end": 0.88,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-98ca35cd157b.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-98ca35cd157b.mp3",
+                "filename": "word-98ca35cd157b.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "سره",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "خوله.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "24b11f9ef57780cffcbc17cf",
+        "pageId": "ce2b8b9b80339e80cc33f39a",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-07.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-07.mp3",
+          "filename": "page-07.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-7-0",
+              "word": "سره",
+              "start": 0.16,
+              "end": 0.38,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-0185d6ca0a5f.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-0185d6ca0a5f.mp3",
+              "filename": "word-0185d6ca0a5f.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-7-1",
+              "word": "خوله.",
+              "start": 0.38,
+              "end": 0.88,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-98ca35cd157b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-98ca35cd157b.mp3",
+              "filename": "word-98ca35cd157b.mp3"
+            }
+          ],
+          "text": "سره خوله.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "5d33e25c84b8222be563f3da",
+      "title": "Page 9",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "34f32d6099dc5e534f0139c2",
+          "id": "34f32d6099dc5e534f0139c2",
+          "name": "file-66728f895b6ce.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728f895b6ce.png",
+          "filename": "file-66728f895b6ce.png",
+          "position": {
+            "left": 264.92,
+            "top": 48.97
+          },
+          "scaleSize": 47.751,
+          "zIndex": 10,
+          "width": 1460,
+          "height": 1046,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "7455b45562999576cfb69051",
+      "title": "Page 10",
+      "description": "",
+      "text": "نیلي لاسونه.",
+      "media": [
+        {
+          "_id": "0a8e58f47d116683c40a0427",
+          "id": "0a8e58f47d116683c40a0427",
+          "name": "file-66701f3c14364.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66701f3c14364.png",
+          "filename": "file-66701f3c14364.png",
+          "position": {
+            "left": 334.64,
+            "top": 10.88
+          },
+          "scaleSize": 41.01,
+          "zIndex": 10,
+          "width": 1462,
+          "height": 1152,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-9-1",
+                "word": "لاسونه.",
+                "start": 0.56,
+                "end": 1.22,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-a42385269666.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-a42385269666.mp3",
+                "filename": "word-a42385269666.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "نیلي",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "لاسونه.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "8eb0c951b0711718e570bba9",
+        "pageId": "7455b45562999576cfb69051",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-09.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-09.mp3",
+          "filename": "page-09.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-9-0",
+              "word": "نیلي",
+              "start": 0.22,
+              "end": 0.56,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-c730f8e3c0bf.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-c730f8e3c0bf.mp3",
+              "filename": "word-c730f8e3c0bf.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-9-1",
+              "word": "لاسونه.",
+              "start": 0.56,
+              "end": 1.22,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-a42385269666.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-a42385269666.mp3",
+              "filename": "word-a42385269666.mp3"
+            }
+          ],
+          "text": "نیلي لاسونه.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "df2cac66cced8a608feb65bc",
+      "title": "Page 11",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "9e96e93d9a99753955c9cf97",
+          "id": "9e96e93d9a99753955c9cf97",
+          "name": "file-66728fb300b27.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728fb300b27.png",
+          "filename": "file-66728fb300b27.png",
+          "position": {
+            "left": 250.98,
+            "top": 26.5
+          },
+          "scaleSize": 51.976,
+          "zIndex": 10,
+          "width": 1454,
+          "height": 1040,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "45220ed2b5cc97c2ce9054a7",
+      "title": "Page 12",
+      "description": "",
+      "text": "شنه شا.",
+      "media": [
+        {
+          "_id": "e8c2552f849479430b29492f",
+          "id": "e8c2552f849479430b29492f",
+          "name": "file-66701fd16113e.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66701fd16113e.png",
+          "filename": "file-66701fd16113e.png",
+          "position": {
+            "left": 315.15,
+            "top": 0.0
+          },
+          "scaleSize": 45.831,
+          "zIndex": 10,
+          "width": 1448,
+          "height": 1098,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-11-1",
+                "word": "شا.",
+                "start": 0.48,
+                "end": 1.06,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-759834f1b35b.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-759834f1b35b.mp3",
+                "filename": "word-759834f1b35b.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "شنه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "شا.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "51f3989985ada8c08340668f",
+        "pageId": "45220ed2b5cc97c2ce9054a7",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-11.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-11.mp3",
+          "filename": "page-11.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-11-0",
+              "word": "شنه",
+              "start": 0.24,
+              "end": 0.48,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6aa5104adf7f.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-6aa5104adf7f.mp3",
+              "filename": "word-6aa5104adf7f.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-11-1",
+              "word": "شا.",
+              "start": 0.48,
+              "end": 1.06,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-759834f1b35b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-759834f1b35b.mp3",
+              "filename": "word-759834f1b35b.mp3"
+            }
+          ],
+          "text": "شنه شا.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "7aa171c215453b308608621d",
+      "title": "Page 13",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "67ea2a532f46cc1722f68b04",
+          "id": "67ea2a532f46cc1722f68b04",
+          "name": "file-66728fd910631.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66728fd910631.png",
+          "filename": "file-66728fd910631.png",
+          "position": {
+            "left": 250.98,
+            "top": 17.51
+          },
+          "scaleSize": 51.335,
+          "zIndex": 10,
+          "width": 1464,
+          "height": 1088,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "3f8e9bc8be01163d4a012d23",
+      "title": "Page 14",
+      "description": "",
+      "text": "ګلابي پښې.",
+      "media": [
+        {
+          "_id": "9cb49858298aac9ca3acb2d2",
+          "id": "9cb49858298aac9ca3acb2d2",
+          "name": "file-66702006b6bf8.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66702006b6bf8.png",
+          "filename": "file-66702006b6bf8.png",
+          "position": {
+            "left": 334.64,
+            "top": 6.5
+          },
+          "scaleSize": 44.811,
+          "zIndex": 10,
+          "width": 1450,
+          "height": 1094,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-13-1",
+                "word": "پښې.",
+                "start": 0.78,
+                "end": 1.42,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-80a63d37e8e0.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-80a63d37e8e0.mp3",
+                "filename": "word-80a63d37e8e0.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ګلابي",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پښې.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "066a96070109f14b3fc13526",
+        "pageId": "3f8e9bc8be01163d4a012d23",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-13.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-13.mp3",
+          "filename": "page-13.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-13-0",
+              "word": "ګلابي",
+              "start": 0.26,
+              "end": 0.78,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-3e27c7a05bab.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-3e27c7a05bab.mp3",
+              "filename": "word-3e27c7a05bab.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-13-1",
+              "word": "پښې.",
+              "start": 0.78,
+              "end": 1.42,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-80a63d37e8e0.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-80a63d37e8e0.mp3",
+              "filename": "word-80a63d37e8e0.mp3"
+            }
+          ],
+          "text": "ګلابي پښې.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "4b2cfcbb6ac8574e736ec230",
+      "title": "Page 15",
+      "description": "",
+      "text": "رنګارنګ ږیره.",
+      "media": [
+        {
+          "_id": "b77558c1a8935f5a763c37d1",
+          "id": "b77558c1a8935f5a763c37d1",
+          "name": "file-6670212b31380.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-6670212b31380.png",
+          "filename": "file-6670212b31380.png",
+          "position": {
+            "left": 317.26,
+            "top": 0.0
+          },
+          "scaleSize": 44.647,
+          "zIndex": 10,
+          "width": 1452,
+          "height": 1078,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-14-0",
+                "word": "رنګارنګ",
+                "start": 0.38,
+                "end": 1.1,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-edb8bf7dfe2b.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-edb8bf7dfe2b.mp3",
+                "filename": "word-edb8bf7dfe2b.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "رنګارنګ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "ږیره.",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "f8c44703fad281c80cfcc6b1",
+        "pageId": "4b2cfcbb6ac8574e736ec230",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-14.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-14.mp3",
+          "filename": "page-14.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-14-0",
+              "word": "رنګارنګ",
+              "start": 0.38,
+              "end": 1.1,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-edb8bf7dfe2b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-edb8bf7dfe2b.mp3",
+              "filename": "word-edb8bf7dfe2b.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-14-1",
+              "word": "ږیره.",
+              "start": 1.1,
+              "end": 1.48,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-1a84a895065b.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-1a84a895065b.mp3",
+              "filename": "word-1a84a895065b.mp3"
+            }
+          ],
+          "text": "رنګارنګ ږیره.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "8d5e48d93c7cb5d2c5830d24",
+      "title": "Page 16",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "b9cfa2d1fc6435a38e3d4fd8",
+          "id": "b9cfa2d1fc6435a38e3d4fd8",
+          "name": "file-6672900a37fea.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-6672900a37fea.png",
+          "filename": "file-6672900a37fea.png",
+          "position": {
+            "left": 250.98,
+            "top": 32.57
+          },
+          "scaleSize": 48.038,
+          "zIndex": 10,
+          "width": 1460,
+          "height": 1100,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "29bc84a7a978dddc3f7fcdea",
+      "title": "Page 17",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "bf4a44546c79708511cb2ce2",
+          "id": "bf4a44546c79708511cb2ce2",
+          "name": "file-66729038c052f.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66729038c052f.png",
+          "filename": "file-66729038c052f.png",
+          "position": {
+            "left": 223.09,
+            "top": 0.32
+          },
+          "scaleSize": 54.586,
+          "zIndex": 10,
+          "width": 1456,
+          "height": 1098,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "f54487dd6d7a1424cec5635f",
+      "title": "Page 18",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "9e9b345c63b9026146796cf3",
+          "id": "9e9b345c63b9026146796cf3",
+          "name": "file-6672905320ebc.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-6672905320ebc.png",
+          "filename": "file-6672905320ebc.png",
+          "position": {
+            "left": 237.33,
+            "top": 0.0
+          },
+          "scaleSize": 51.793,
+          "zIndex": 10,
+          "width": 1458,
+          "height": 1146,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "6c8856f377977ac3b062340c",
+      "title": "Page 19",
+      "description": "",
+      "text": "نور رنګونه نشته.",
+      "media": [
+        {
+          "_id": "317ceb6da472272fb42d6214",
+          "id": "317ceb6da472272fb42d6214",
+          "name": "file-66702169c7dea.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/images/file-66702169c7dea.png",
+          "filename": "file-66702169c7dea.png",
+          "position": {
+            "left": 334.64,
+            "top": 7.21
+          },
+          "scaleSize": 42.792,
+          "zIndex": 10,
+          "width": 1450,
+          "height": 1082,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-18-1",
+                "word": "رنګونه",
+                "start": 0.58,
+                "end": 1.08,
+                "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f8cc29159fd.mp3",
+                "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f8cc29159fd.mp3",
+                "filename": "word-8f8cc29159fd.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "نور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "رنګونه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "نشته.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "9e91a8fb91175f1e866f41d3",
+        "pageId": "6c8856f377977ac3b062340c",
+        "bookId": "42d972cbbf126023a98b58ee",
+        "created": "2026-11-25T10:52:35.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-18.mp3",
+          "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/page-18.mp3",
+          "filename": "page-18.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-18-0",
+              "word": "نور",
+              "start": 0.36,
+              "end": 0.58,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-477e169b18da.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-477e169b18da.mp3",
+              "filename": "word-477e169b18da.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-18-1",
+              "word": "رنګونه",
+              "start": 0.58,
+              "end": 1.08,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f8cc29159fd.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f8cc29159fd.mp3",
+              "filename": "word-8f8cc29159fd.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-18-2",
+              "word": "نشته.",
+              "start": 1.08,
+              "end": 1.74,
+              "mp3": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f632a774ac6.mp3",
+              "path": "/resources/books/42d972cbbf126023a98b58ee/assets/audio/word-8f632a774ac6.mp3",
+              "filename": "word-8f632a774ac6.mp3"
+            }
+          ],
+          "text": "نور رنګونه نشته.",
+          "transcription": null
+        }
+      }
+    }
+  ],
+  "cover": {
+    "show": false,
+    "image": null,
+    "text": null,
+    "description": null
+  }
+}

@@ -1,0 +1,2360 @@
+{
+  "_id": "3bcba0ef0108e43de1bdd6f9",
+  "title": "پټ پټونې",
+  "license": "CC-BY-4.0",
+  "published": true,
+  "slug": "HideAndSeekPashto",
+  "version": "0.0.1",
+  "createdAt": "2026-11-25T10:52:20.000Z",
+  "updatedAt": "2026-11-25T10:52:20.000Z",
+  "language": "ps",
+  "credits": {
+    "text": "",
+    "logos": []
+  },
+  "illustration": null,
+  "coverText": "",
+  "config": {
+    "textDirection": "RTL",
+    "voiceId": "",
+    "audioLanguage": "ps"
+  },
+  "bookDescription": null,
+  "bookText": null,
+  "tags": [
+    "converted-from-h5p"
+  ],
+  "body": [
+    {
+      "_id": "ca50af5532c19873513f3223",
+      "title": "Page 1",
+      "description": "",
+      "text": "پټ پټونې",
+      "media": [
+        {
+          "_id": "dacd85b0d54eb23fe6b365fd",
+          "id": "dacd85b0d54eb23fe6b365fd",
+          "name": "file-61b119d8b91b9.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61b119d8b91b9.jpg",
+          "filename": "file-61b119d8b91b9.jpg",
+          "position": {
+            "left": 149.96,
+            "top": 68.87
+          },
+          "scaleSize": 93.927,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 490,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "پټ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پټونې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "9a4eb8fa7db074e72511d9c5",
+        "pageId": "ca50af5532c19873513f3223",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-00.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-00.mp3",
+          "filename": "page-00.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-0-0",
+              "word": "پټ",
+              "start": 0.52,
+              "end": 0.62
+            },
+            {
+              "id": 1,
+              "uid": "rec-0-1",
+              "word": "پټونې",
+              "start": 0.62,
+              "end": 1.36
+            }
+          ],
+          "text": "پټ پټونې",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "364d5ffefcc3c3dbc9818e84",
+      "title": "Page 2",
+      "description": "",
+      "text": "ډوډو د مور په لټه کې دی.",
+      "media": [
+        {
+          "_id": "5080f6d0269b0e3a0f37d604",
+          "id": "5080f6d0269b0e3a0f37d604",
+          "name": "file-61c0f25319ee4.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0f25319ee4.jpeg",
+          "filename": "file-61c0f25319ee4.jpeg",
+          "position": {
+            "left": 325.2,
+            "top": 54.84
+          },
+          "scaleSize": 42.542,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-1-0",
+                "word": "ډوډو",
+                "start": 0.56,
+                "end": 1.06,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-8a6af8d2058b.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-8a6af8d2058b.mp3",
+                "filename": "word-8a6af8d2058b.mp3"
+              },
+              {
+                "id": 2,
+                "uid": "rec-1-2",
+                "word": "مور",
+                "start": 1.18,
+                "end": 1.58,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-430d6010bb7d.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-430d6010bb7d.mp3",
+                "filename": "word-430d6010bb7d.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ډوډو",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "د",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "مور",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "په",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لټه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کې",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "دی.",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "b8ae670abc5d93b8bc41d1eb",
+        "pageId": "364d5ffefcc3c3dbc9818e84",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-01.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-01.mp3",
+          "filename": "page-01.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-1-0",
+              "word": "ډوډو",
+              "start": 0.56,
+              "end": 1.06,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-8a6af8d2058b.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-8a6af8d2058b.mp3",
+              "filename": "word-8a6af8d2058b.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-1-1",
+              "word": "د",
+              "start": 1.06,
+              "end": 1.18,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-bc9a272b7f66.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-bc9a272b7f66.mp3",
+              "filename": "word-bc9a272b7f66.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-1-2",
+              "word": "مور",
+              "start": 1.18,
+              "end": 1.58,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-430d6010bb7d.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-430d6010bb7d.mp3",
+              "filename": "word-430d6010bb7d.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-1-3",
+              "word": "په",
+              "start": 1.58,
+              "end": 1.8,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-bf8eb45565ef.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-bf8eb45565ef.mp3",
+              "filename": "word-bf8eb45565ef.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-1-4",
+              "word": "لټه",
+              "start": 1.8,
+              "end": 1.98,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-625bbdfdf1fa.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-625bbdfdf1fa.mp3",
+              "filename": "word-625bbdfdf1fa.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-1-5",
+              "word": "کې",
+              "start": 1.98,
+              "end": 2.26,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-cc76e7b10292.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-cc76e7b10292.mp3",
+              "filename": "word-cc76e7b10292.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-1-6",
+              "word": "دی.",
+              "start": 2.26,
+              "end": 2.58,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-2c36fe48480d.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-2c36fe48480d.mp3",
+              "filename": "word-2c36fe48480d.mp3"
+            }
+          ],
+          "text": "ډوډو د مور په لټه کې دی.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "9d98bf3bea2bde0e101946a3",
+      "title": "Page 3",
+      "description": "",
+      "text": "هغه ۱۰ بالونه پیدا کوي.",
+      "media": [
+        {
+          "_id": "b4b46d487cad7e7ae1cefeab",
+          "id": "b4b46d487cad7e7ae1cefeab",
+          "name": "file-61c0f2bf916c1.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0f2bf916c1.jpeg",
+          "filename": "file-61c0f2bf916c1.jpeg",
+          "position": {
+            "left": 321.57,
+            "top": 54.84
+          },
+          "scaleSize": 42.067,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-2-2",
+                "word": "بالونه",
+                "start": 1.82,
+                "end": 2.12,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1416bf03b62f.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1416bf03b62f.mp3",
+                "filename": "word-1416bf03b62f.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "۱۰",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "بالونه",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "6aaa7540a335f02ecebd13b3",
+        "pageId": "9d98bf3bea2bde0e101946a3",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-02.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-02.mp3",
+          "filename": "page-02.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-2-0",
+              "word": "هغه",
+              "start": 0.98,
+              "end": 1.26,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-98fbf3fda556.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-98fbf3fda556.mp3",
+              "filename": "word-98fbf3fda556.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-2-1",
+              "word": "۱۰",
+              "start": 1.26,
+              "end": 1.82,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ee0d06c21c35.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ee0d06c21c35.mp3",
+              "filename": "word-ee0d06c21c35.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-2-2",
+              "word": "بالونه",
+              "start": 1.82,
+              "end": 2.12,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1416bf03b62f.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1416bf03b62f.mp3",
+              "filename": "word-1416bf03b62f.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-2-3",
+              "word": "پیدا",
+              "start": 2.12,
+              "end": 2.44,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-86457fb6aa05.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-86457fb6aa05.mp3",
+              "filename": "word-86457fb6aa05.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-2-4",
+              "word": "کوي.",
+              "start": 2.44,
+              "end": 2.96,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-394fb5374f9f.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-394fb5374f9f.mp3",
+              "filename": "word-394fb5374f9f.mp3"
+            }
+          ],
+          "text": "هغه ۱۰ بالونه پیدا کوي.",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "a21115a2c68d47a1fcb19ec2",
+      "title": "Page 4",
+      "description": "",
+      "text": "هغه ۹ پیالې پیدا کوي",
+      "media": [
+        {
+          "_id": "de050f21ce34b0d2d406bac9",
+          "id": "de050f21ce34b0d2d406bac9",
+          "name": "file-61c0f50c26444.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0f50c26444.jpeg",
+          "filename": "file-61c0f50c26444.jpeg",
+          "position": {
+            "left": 307.51,
+            "top": 54.84
+          },
+          "scaleSize": 42.839,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-3-2",
+                "word": "پیالې",
+                "start": 1.36,
+                "end": 2.1,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-f15c1904b272.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-f15c1904b272.mp3",
+                "filename": "word-f15c1904b272.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "۹",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "پیالې",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "3c224f014bd008389405c161",
+        "pageId": "a21115a2c68d47a1fcb19ec2",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-03.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-03.mp3",
+          "filename": "page-03.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-3-0",
+              "word": "هغه",
+              "start": 0.68,
+              "end": 1.14,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c643c2676c21.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c643c2676c21.mp3",
+              "filename": "word-c643c2676c21.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-3-1",
+              "word": "۹",
+              "start": 1.14,
+              "end": 1.36,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b424d4f7ba94.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b424d4f7ba94.mp3",
+              "filename": "word-b424d4f7ba94.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-3-2",
+              "word": "پیالې",
+              "start": 1.36,
+              "end": 2.1,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-f15c1904b272.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-f15c1904b272.mp3",
+              "filename": "word-f15c1904b272.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-3-3",
+              "word": "پیدا",
+              "start": 2.1,
+              "end": 2.5,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-901b2ca9f973.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-901b2ca9f973.mp3",
+              "filename": "word-901b2ca9f973.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-3-4",
+              "word": "کوي",
+              "start": 2.5,
+              "end": 2.9,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-5749ed1c1046.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-5749ed1c1046.mp3",
+              "filename": "word-5749ed1c1046.mp3"
+            }
+          ],
+          "text": "هغه ۹ پیالې پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "fdfa599169d72827eb474f15",
+      "title": "Page 5",
+      "description": "",
+      "text": "هغه ۸ قاشوقی پیدا کوي",
+      "media": [
+        {
+          "_id": "1f668e3bc6d7331d9da08170",
+          "id": "1f668e3bc6d7331d9da08170",
+          "name": "file-61c0f78984cdd.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0f78984cdd.jpeg",
+          "filename": "file-61c0f78984cdd.jpeg",
+          "position": {
+            "left": 319.14,
+            "top": 54.84
+          },
+          "scaleSize": 43.731,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-4-2",
+                "word": "قاشوقی",
+                "start": 2.46,
+                "end": 2.96,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-dff059e51e13.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-dff059e51e13.mp3",
+                "filename": "word-dff059e51e13.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "۸",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "قاشوقی",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "8e0afda6a884d1bf6354d1fe",
+        "pageId": "fdfa599169d72827eb474f15",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-04.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-04.mp3",
+          "filename": "page-04.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-4-0",
+              "word": "هغه",
+              "start": 1.46,
+              "end": 1.9,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b7d35eb1f7dd.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b7d35eb1f7dd.mp3",
+              "filename": "word-b7d35eb1f7dd.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-4-1",
+              "word": "۸",
+              "start": 1.9,
+              "end": 2.44,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e37c727bb530.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e37c727bb530.mp3",
+              "filename": "word-e37c727bb530.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-4-2",
+              "word": "قاشوقی",
+              "start": 2.46,
+              "end": 2.96,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-dff059e51e13.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-dff059e51e13.mp3",
+              "filename": "word-dff059e51e13.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-4-3",
+              "word": "پیدا",
+              "start": 2.96,
+              "end": 3.28,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-4ca461cdd2b7.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-4ca461cdd2b7.mp3",
+              "filename": "word-4ca461cdd2b7.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-4-4",
+              "word": "کوي",
+              "start": 3.28,
+              "end": 3.68,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c40fb2d0ad4e.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c40fb2d0ad4e.mp3",
+              "filename": "word-c40fb2d0ad4e.mp3"
+            }
+          ],
+          "text": "هغه ۸ قاشوقی پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "8a333e1e61a068da6d54d699",
+      "title": "Page 6",
+      "description": "",
+      "text": "هغه اوه ټوکرۍ پیدا کوي",
+      "media": [
+        {
+          "_id": "9b73a7bd2fe074153f3a0642",
+          "id": "9b73a7bd2fe074153f3a0642",
+          "name": "file-61c0f97f5a778.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0f97f5a778.jpeg",
+          "filename": "file-61c0f97f5a778.jpeg",
+          "position": {
+            "left": 317.19,
+            "top": 49.32
+          },
+          "scaleSize": 43.903,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-5-2",
+                "word": "ټوکرۍ",
+                "start": 1.82,
+                "end": 2.2,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ad1b0e5acf47.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ad1b0e5acf47.mp3",
+                "filename": "word-ad1b0e5acf47.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "اوه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ټوکرۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "317889f74ce5d54e4844818d",
+        "pageId": "8a333e1e61a068da6d54d699",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-05.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-05.mp3",
+          "filename": "page-05.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-5-0",
+              "word": "هغه",
+              "start": 1.0,
+              "end": 1.4,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a9d901c1695c.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a9d901c1695c.mp3",
+              "filename": "word-a9d901c1695c.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-5-1",
+              "word": "اوه",
+              "start": 1.4,
+              "end": 1.82,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e1f2932c4746.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e1f2932c4746.mp3",
+              "filename": "word-e1f2932c4746.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-5-2",
+              "word": "ټوکرۍ",
+              "start": 1.82,
+              "end": 2.2,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ad1b0e5acf47.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ad1b0e5acf47.mp3",
+              "filename": "word-ad1b0e5acf47.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-5-3",
+              "word": "پیدا",
+              "start": 2.2,
+              "end": 2.6,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-051dbe9f440b.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-051dbe9f440b.mp3",
+              "filename": "word-051dbe9f440b.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-5-4",
+              "word": "کوي",
+              "start": 2.6,
+              "end": 2.98,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e5d1a6d1ca83.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e5d1a6d1ca83.mp3",
+              "filename": "word-e5d1a6d1ca83.mp3"
+            }
+          ],
+          "text": "هغه اوه ټوکرۍ پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "d58181bdc92c52491333a3c9",
+      "title": "Page 7",
+      "description": "",
+      "text": "هغه شپږ ګلدانۍ پیدا کوي",
+      "media": [
+        {
+          "_id": "2fd3b2296675e82273ffc14a",
+          "id": "2fd3b2296675e82273ffc14a",
+          "name": "file-61c0faa8193a4.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0faa8193a4.jpeg",
+          "filename": "file-61c0faa8193a4.jpeg",
+          "position": {
+            "left": 308.68,
+            "top": 36.99
+          },
+          "scaleSize": 45.382,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-6-2",
+                "word": "ګلدانۍ",
+                "start": 1.38,
+                "end": 1.96,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ff16efce15e6.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ff16efce15e6.mp3",
+                "filename": "word-ff16efce15e6.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "شپږ",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ګلدانۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "7c27b88264fe7f6b85d08373",
+        "pageId": "d58181bdc92c52491333a3c9",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-06.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-06.mp3",
+          "filename": "page-06.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-6-0",
+              "word": "هغه",
+              "start": 0.56,
+              "end": 0.9,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ce9e3c410c67.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ce9e3c410c67.mp3",
+              "filename": "word-ce9e3c410c67.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-6-1",
+              "word": "شپږ",
+              "start": 0.9,
+              "end": 1.38,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-0654345a2780.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-0654345a2780.mp3",
+              "filename": "word-0654345a2780.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-6-2",
+              "word": "ګلدانۍ",
+              "start": 1.38,
+              "end": 1.96,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ff16efce15e6.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ff16efce15e6.mp3",
+              "filename": "word-ff16efce15e6.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-6-3",
+              "word": "پیدا",
+              "start": 1.96,
+              "end": 2.36,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-22b0693bbf85.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-22b0693bbf85.mp3",
+              "filename": "word-22b0693bbf85.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-6-4",
+              "word": "کوي",
+              "start": 2.36,
+              "end": 2.72,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-96c91fa2a7e7.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-96c91fa2a7e7.mp3",
+              "filename": "word-96c91fa2a7e7.mp3"
+            }
+          ],
+          "text": "هغه شپږ ګلدانۍ پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "9d325d7a7b0171ff5c76c056",
+      "title": "Page 8",
+      "description": "",
+      "text": "هغه پنځه ګلونه پیدا کوي",
+      "media": [
+        {
+          "_id": "5c924e2b03baa1927dfd35ab",
+          "id": "5c924e2b03baa1927dfd35ab",
+          "name": "file-61c0fb083e1bb.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0fb083e1bb.jpeg",
+          "filename": "file-61c0fb083e1bb.jpeg",
+          "position": {
+            "left": 322.96,
+            "top": 60.34
+          },
+          "scaleSize": 42.847,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-7-2",
+                "word": "ګلونه",
+                "start": 1.4,
+                "end": 1.86,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3911dfc54ba4.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3911dfc54ba4.mp3",
+                "filename": "word-3911dfc54ba4.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پنځه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ګلونه",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "107b21d37812d078594420d5",
+        "pageId": "9d325d7a7b0171ff5c76c056",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-07.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-07.mp3",
+          "filename": "page-07.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-7-0",
+              "word": "هغه",
+              "start": 0.42,
+              "end": 0.82,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-6cc6add737b9.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-6cc6add737b9.mp3",
+              "filename": "word-6cc6add737b9.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-7-1",
+              "word": "پنځه",
+              "start": 0.82,
+              "end": 1.4,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7c5fb1e3528f.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7c5fb1e3528f.mp3",
+              "filename": "word-7c5fb1e3528f.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-7-2",
+              "word": "ګلونه",
+              "start": 1.4,
+              "end": 1.86,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3911dfc54ba4.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3911dfc54ba4.mp3",
+              "filename": "word-3911dfc54ba4.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-7-3",
+              "word": "پیدا",
+              "start": 1.86,
+              "end": 2.18,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3e5b272df656.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-3e5b272df656.mp3",
+              "filename": "word-3e5b272df656.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-7-4",
+              "word": "کوي",
+              "start": 2.18,
+              "end": 2.56,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-718a0a20ef04.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-718a0a20ef04.mp3",
+              "filename": "word-718a0a20ef04.mp3"
+            }
+          ],
+          "text": "هغه پنځه ګلونه پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "44566c9037269776243f95a5",
+      "title": "Page 9",
+      "description": "",
+      "text": "هغه څلور جوړه پتلونونه پیدا کوي",
+      "media": [
+        {
+          "_id": "29ffd71a7478d3fe6b81c182",
+          "id": "29ffd71a7478d3fe6b81c182",
+          "name": "file-61c0fbe47eb09.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0fbe47eb09.jpeg",
+          "filename": "file-61c0fbe47eb09.jpeg",
+          "position": {
+            "left": 307.31,
+            "top": 41.03
+          },
+          "scaleSize": 44.146,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 3,
+                "uid": "rec-8-3",
+                "word": "پتلونونه",
+                "start": 1.92,
+                "end": 2.7,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a92c215bf35c.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a92c215bf35c.mp3",
+                "filename": "word-a92c215bf35c.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "څلور",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "جوړه",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پتلونونه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "پیدا",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کوي",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "3307bbcca8020b4d48d7340f",
+        "pageId": "44566c9037269776243f95a5",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-08.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-08.mp3",
+          "filename": "page-08.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-8-0",
+              "word": "هغه",
+              "start": 0.64,
+              "end": 1.02,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-d12bbc91f493.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-d12bbc91f493.mp3",
+              "filename": "word-d12bbc91f493.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-8-1",
+              "word": "څلور",
+              "start": 1.02,
+              "end": 1.56,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1a1cbe7b6d38.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-1a1cbe7b6d38.mp3",
+              "filename": "word-1a1cbe7b6d38.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-8-2",
+              "word": "جوړه",
+              "start": 1.56,
+              "end": 1.92,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-6b99fec7fbb7.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-6b99fec7fbb7.mp3",
+              "filename": "word-6b99fec7fbb7.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-8-3",
+              "word": "پتلونونه",
+              "start": 1.92,
+              "end": 2.7,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a92c215bf35c.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a92c215bf35c.mp3",
+              "filename": "word-a92c215bf35c.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-8-4",
+              "word": "پیدا",
+              "start": 2.7,
+              "end": 2.96,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a9f5ffc80407.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a9f5ffc80407.mp3",
+              "filename": "word-a9f5ffc80407.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-8-5",
+              "word": "کوي",
+              "start": 2.96,
+              "end": 3.34,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-fd8b372038f8.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-fd8b372038f8.mp3",
+              "filename": "word-fd8b372038f8.mp3"
+            }
+          ],
+          "text": "هغه څلور جوړه پتلونونه پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "a0c638c19bf2706d6ab6a633",
+      "title": "Page 10",
+      "description": "",
+      "text": "هغه د موسیقۍ درې وسایل پیدا کوي",
+      "media": [
+        {
+          "_id": "fadfb70ab64dc2e1c7c47057",
+          "id": "fadfb70ab64dc2e1c7c47057",
+          "name": "file-61c0fc644df28.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0fc644df28.jpeg",
+          "filename": "file-61c0fc644df28.jpeg",
+          "position": {
+            "left": 328.14,
+            "top": 43.84
+          },
+          "scaleSize": 44.644,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 4,
+                "uid": "rec-9-4",
+                "word": "وسایل",
+                "start": 2.58,
+                "end": 3.04,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7e49f240d0dd.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7e49f240d0dd.mp3",
+                "filename": "word-7e49f240d0dd.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "د",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "موسیقۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "درې",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "وسایل",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "پیدا",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "کوي",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "4ce25336eb5568949ec76432",
+        "pageId": "a0c638c19bf2706d6ab6a633",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-09.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-09.mp3",
+          "filename": "page-09.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-9-0",
+              "word": "هغه",
+              "start": 1.16,
+              "end": 1.44,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-2cd41aa224d2.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-2cd41aa224d2.mp3",
+              "filename": "word-2cd41aa224d2.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-9-1",
+              "word": "د",
+              "start": 1.44,
+              "end": 1.46,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-cef5333e337f.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-cef5333e337f.mp3",
+              "filename": "word-cef5333e337f.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-9-2",
+              "word": "موسیقۍ",
+              "start": 1.46,
+              "end": 2.2,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-9ff4f7a0b3e9.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-9ff4f7a0b3e9.mp3",
+              "filename": "word-9ff4f7a0b3e9.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-9-3",
+              "word": "درې",
+              "start": 2.2,
+              "end": 2.58,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a035e8eeb36c.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-a035e8eeb36c.mp3",
+              "filename": "word-a035e8eeb36c.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-9-4",
+              "word": "وسایل",
+              "start": 2.58,
+              "end": 3.04,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7e49f240d0dd.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7e49f240d0dd.mp3",
+              "filename": "word-7e49f240d0dd.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-9-5",
+              "word": "پیدا",
+              "start": 3.04,
+              "end": 3.34,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e6b966682a04.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-e6b966682a04.mp3",
+              "filename": "word-e6b966682a04.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-9-6",
+              "word": "کوي",
+              "start": 3.34,
+              "end": 3.74,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-d3d1f643f250.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-d3d1f643f250.mp3",
+              "filename": "word-d3d1f643f250.mp3"
+            }
+          ],
+          "text": "هغه د موسیقۍ درې وسایل پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "1ff3f01cbee092cc04da7a6c",
+      "title": "Page 11",
+      "description": "",
+      "text": "هغه دوه لاسونه پیدا کوي",
+      "media": [
+        {
+          "_id": "570cf3430f423547e8fab618",
+          "id": "570cf3430f423547e8fab618",
+          "name": "file-61c0fdae0857e.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0fdae0857e.jpeg",
+          "filename": "file-61c0fdae0857e.jpeg",
+          "position": {
+            "left": 311.48,
+            "top": 52.05
+          },
+          "scaleSize": 43.307,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-10-2",
+                "word": "لاسونه",
+                "start": 1.52,
+                "end": 1.98,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c2ff4a66f130.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c2ff4a66f130.mp3",
+                "filename": "word-c2ff4a66f130.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هغه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "دوه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "لاسونه",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "d6d91b3bf61db54546b1bd6d",
+        "pageId": "1ff3f01cbee092cc04da7a6c",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-10.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-10.mp3",
+          "filename": "page-10.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-10-0",
+              "word": "هغه",
+              "start": 0.8,
+              "end": 1.16,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-9c9be39f02f1.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-9c9be39f02f1.mp3",
+              "filename": "word-9c9be39f02f1.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-10-1",
+              "word": "دوه",
+              "start": 1.16,
+              "end": 1.52,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-eac27650ca00.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-eac27650ca00.mp3",
+              "filename": "word-eac27650ca00.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-10-2",
+              "word": "لاسونه",
+              "start": 1.52,
+              "end": 1.98,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c2ff4a66f130.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-c2ff4a66f130.mp3",
+              "filename": "word-c2ff4a66f130.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-10-3",
+              "word": "پیدا",
+              "start": 1.98,
+              "end": 2.26,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-0e552eedd382.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-0e552eedd382.mp3",
+              "filename": "word-0e552eedd382.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-10-4",
+              "word": "کوي",
+              "start": 2.26,
+              "end": 2.62,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7c895cfc1de1.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7c895cfc1de1.mp3",
+              "filename": "word-7c895cfc1de1.mp3"
+            }
+          ],
+          "text": "هغه دوه لاسونه پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "226d58d1ca78ffc9d0c49679",
+      "title": "Page 12",
+      "description": "",
+      "text": "ډوډو یوه مور پیدا کوي",
+      "media": [
+        {
+          "_id": "2d4a885a1d51ef49fab41e36",
+          "id": "2d4a885a1d51ef49fab41e36",
+          "name": "file-61c0fea69e424.jpeg",
+          "extension": ".jpeg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61c0fea69e424.jpeg",
+          "filename": "file-61c0fea69e424.jpeg",
+          "position": {
+            "left": 316.38,
+            "top": 49.32
+          },
+          "scaleSize": 44.124,
+          "zIndex": 10,
+          "width": 1472,
+          "height": 1024,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 2,
+                "uid": "rec-11-2",
+                "word": "مور",
+                "start": 1.62,
+                "end": 1.96,
+                "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7545a85c7d69.mp3",
+                "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7545a85c7d69.mp3",
+                "filename": "word-7545a85c7d69.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ډوډو",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "یوه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "مور",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیدا",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "کوي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "af607431fd9042cc5fa67a0b",
+        "pageId": "226d58d1ca78ffc9d0c49679",
+        "bookId": "3bcba0ef0108e43de1bdd6f9",
+        "created": "2026-11-25T10:52:20.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-11.mp3",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/page-11.mp3",
+          "filename": "page-11.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-11-0",
+              "word": "ډوډو",
+              "start": 0.82,
+              "end": 1.28,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b191e9bb6503.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-b191e9bb6503.mp3",
+              "filename": "word-b191e9bb6503.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-11-1",
+              "word": "یوه",
+              "start": 1.28,
+              "end": 1.62,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-370055988573.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-370055988573.mp3",
+              "filename": "word-370055988573.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-11-2",
+              "word": "مور",
+              "start": 1.62,
+              "end": 1.96,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7545a85c7d69.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-7545a85c7d69.mp3",
+              "filename": "word-7545a85c7d69.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-11-3",
+              "word": "پیدا",
+              "start": 1.96,
+              "end": 2.26,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ebb7485c6ba5.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-ebb7485c6ba5.mp3",
+              "filename": "word-ebb7485c6ba5.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-11-4",
+              "word": "کوي",
+              "start": 2.26,
+              "end": 2.64,
+              "mp3": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-896fe561392f.mp3",
+              "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/audio/word-896fe561392f.mp3",
+              "filename": "word-896fe561392f.mp3"
+            }
+          ],
+          "text": "ډوډو یوه مور پیدا کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "36528eb21aecd770456d8861",
+      "title": "Page 13",
+      "description": "",
+      "text": "\"Hide and Seek\" credits\nThis work, \"Hide and Seek\", is a derivative of \"Hide and Seek\" written by All Children Reading Cambodia. © The Asia Foundation 2019, and used under CC BY. \"Hide and Seek\" is licensed under CC BY 4.0 by Curious Learning.\nBook builder - Deborah Oduman",
+      "media": [
+        {
+          "_id": "3b8e833b593257b0ec8a0dea",
+          "id": "3b8e833b593257b0ec8a0dea",
+          "name": "file-61fb296cf2c04.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61fb296cf2c04.png",
+          "filename": "file-61fb296cf2c04.png",
+          "position": {
+            "left": 41.34,
+            "top": 60.41
+          },
+          "scaleSize": 20.482,
+          "zIndex": 10,
+          "width": 1350,
+          "height": 487,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "7a87382f469c11bbff5d83e2",
+          "id": "7a87382f469c11bbff5d83e2",
+          "name": "file-61fb29a5596cb.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61fb29a5596cb.png",
+          "filename": "file-61fb29a5596cb.png",
+          "position": {
+            "left": 441.82,
+            "top": 60.45
+          },
+          "scaleSize": 45.436,
+          "zIndex": 11,
+          "width": 814,
+          "height": 202,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "7159b7a345a5fd82f532a9bb",
+          "id": "7159b7a345a5fd82f532a9bb",
+          "name": "file-61fb28cb969ac.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/3bcba0ef0108e43de1bdd6f9/assets/images/file-61fb28cb969ac.jpg",
+          "filename": "file-61fb28cb969ac.jpg",
+          "position": {
+            "left": 881.73,
+            "top": 75.57
+          },
+          "scaleSize": 21.283,
+          "zIndex": 12,
+          "width": 1732,
+          "height": 354,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "\"Hide",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "and",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "Seek\"",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "credits",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "\n",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "This",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "work,",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "\"Hide",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "and",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "Seek\",",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "is",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "a",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "derivative",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "of",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "\"Hide",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "and",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "Seek\"",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "written",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "by",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "All",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "Children",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "Reading",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "Cambodia.©",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "The",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "Asia",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "Foundation",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "2019,",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "and",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "used",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "under",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "CC",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "BY.",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "\"Hide",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "and",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "Seek\"",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "is",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "licensed",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "under",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "CC",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "BY",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "4.0",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "by",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "Curious",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "Learning.",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        },
+        {
+          "word": "\n",
+          "start": 44,
+          "end": 45,
+          "uid": "txt--44-45",
+          "id": 44
+        },
+        {
+          "word": "Book",
+          "start": 45,
+          "end": 46,
+          "uid": "txt--45-46",
+          "id": 45
+        },
+        {
+          "word": "builder-",
+          "start": 46,
+          "end": 47,
+          "uid": "txt--46-47",
+          "id": 46
+        },
+        {
+          "word": "Deborah",
+          "start": 47,
+          "end": 48,
+          "uid": "txt--47-48",
+          "id": 47
+        },
+        {
+          "word": "Oduman",
+          "start": 48,
+          "end": 49,
+          "uid": "txt--48-49",
+          "id": 48
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    }
+  ],
+  "cover": {
+    "show": false,
+    "image": null,
+    "text": null,
+    "description": null
+  }
+}

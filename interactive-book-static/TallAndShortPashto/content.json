@@ -1,0 +1,8621 @@
+{
+  "_id": "2b90828a9f3bb8ae9c9ebfe1",
+  "title": "لوړ او ټیټ",
+  "license": "CC BY 4.0",
+  "published": true,
+  "slug": "TallAndShortPashto",
+  "version": "0.0.1",
+  "createdAt": "2026-11-25T10:50:42.000Z",
+  "updatedAt": "2026-11-25T10:50:42.000Z",
+  "language": "ps",
+  "credits": {
+    "text": "لیکواله: سیلیا بولم\nانځورګر: سیټ سوفیپ\nژباړه: درخت دانش کتابتون\nژباړن: شېرخان شهیر\nPublisher: روم ټو ریډ\nSource: Global Digital Library (digitallibrary.io)",
+    "logos": []
+  },
+  "illustration": {
+    "url": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/coverImage.jpg",
+    "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/coverImage.jpg",
+    "name": "coverImage.jpg",
+    "filename": "coverImage.jpg",
+    "meta": {
+      "width": 959,
+      "height": 459
+    }
+  },
+  "coverText": "",
+  "config": {
+    "textDirection": "RTL",
+    "voiceId": "",
+    "audioLanguage": "ps"
+  },
+  "bookDescription": "ویلی شې چې د کورنۍ کوم غړي لوړ او کوم غړي ټیټ دي؟ په دې کتاب کې د یوه ماشوم د کورنۍ پر مټ د متضاد مفهوم لکه لوړ او ټیټ بیان شوی.",
+  "bookText": null,
+  "tags": [
+    "converted-from-h5p"
+  ],
+  "body": [
+    {
+      "_id": "d3ffa1eea2aea1a1f2983039",
+      "title": "Page 1",
+      "description": "",
+      "text": "لوړ او ټیټ\nلیکواله: هوی چېنګ راتانا\nانځورګر: سیټ سوفیپ\nژباړه: شېر خان شهیر",
+      "media": [
+        {
+          "_id": "2ad9e2627c105b3622015bdc",
+          "id": "2ad9e2627c105b3622015bdc",
+          "name": "هلک تاقچې ته لاس وروړي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-a70b96ccc7a5ae1972040e038f5e8bf0.jpg",
+          "filename": "file-a70b96ccc7a5ae1972040e038f5e8bf0.jpg",
+          "position": {
+            "left": 20.0,
+            "top": 86.5
+          },
+          "scaleSize": 63.399,
+          "zIndex": 10,
+          "width": 959,
+          "height": 459,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "1eac10efb552d3f0509d4972",
+          "id": "1eac10efb552d3f0509d4972",
+          "name": "په دې انځور کې د «روم ټو ریډ» لوګو ګورئ",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1088b6d732161819888481bc20863e7c.jpg",
+          "filename": "file-1088b6d732161819888481bc20863e7c.jpg",
+          "position": {
+            "left": 652.0,
+            "top": 30.12
+          },
+          "scaleSize": 59.375,
+          "zIndex": 11,
+          "width": 1024,
+          "height": 680,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "لوړ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "او",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ټیټ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "\n",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لیکواله:",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "هوی",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "چېنګ",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "راتانا",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "\n",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "انځورګر:",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "سیټ",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "سوفیپ",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "\n",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "ژباړه:",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "شېر",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "خان",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "شهیر",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "74e0a640b451a30e865e7ffe",
+      "title": "Page 2",
+      "description": "",
+      "text": "پلار زما خولۍ را اخلي.",
+      "media": [
+        {
+          "_id": "5774cc049d07c4cdd01bfeb1",
+          "id": "5774cc049d07c4cdd01bfeb1",
+          "name": "سړی له لوړې تاقچې خولۍ را اخلي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-55eb7dd7ba2b63c15fb95d3e12c8927d.jpg",
+          "filename": "file-55eb7dd7ba2b63c15fb95d3e12c8927d.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "word": "خولۍ",
+                "start": 2,
+                "end": 3,
+                "uid": "txt--2-3",
+                "id": 2
+              },
+              {
+                "word": "اخلي.",
+                "start": 4,
+                "end": 5,
+                "uid": "txt--4-5",
+                "id": 4
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "پلار",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "زما",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "خولۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "را",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "اخلي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "58633bf4e05574c8c91444e7",
+      "title": "Page 3",
+      "description": "",
+      "text": "پلار لوړ دی.",
+      "media": [
+        {
+          "_id": "a1137b782e221bca36bb3d72",
+          "id": "a1137b782e221bca36bb3d72",
+          "name": "سړی او هلک له لوبتکو سره ولاړ دي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-2fb987641b75facf62d9330fa4cf793d.jpg",
+          "filename": "file-2fb987641b75facf62d9330fa4cf793d.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "پلار",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "لوړ",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "دی.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "ef62387097b4a0bbccb07726",
+      "title": "Page 4",
+      "description": "",
+      "text": "مور زما کمیس را اخلي.",
+      "media": [
+        {
+          "_id": "5e1995dbe8bcbd7a1e2115c8",
+          "id": "5e1995dbe8bcbd7a1e2115c8",
+          "name": "مور له المارۍ کالي را اخلي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-0652f5708962965359d17e40353b05e1.jpg",
+          "filename": "file-0652f5708962965359d17e40353b05e1.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "word": "مور",
+                "start": 0,
+                "end": 1,
+                "uid": "txt--0-1",
+                "id": 0
+              },
+              {
+                "word": "اخلي.",
+                "start": 4,
+                "end": 5,
+                "uid": "txt--4-5",
+                "id": 4
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "زما",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کمیس",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "را",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "اخلي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "96dc5cb4fec26b09236bbf3b",
+      "title": "Page 5",
+      "description": "",
+      "text": "پلار مې تر مور لوړ دی.",
+      "media": [
+        {
+          "_id": "a7de220d5d6518f6a01fe135",
+          "id": "a7de220d5d6518f6a01fe135",
+          "name": "سړی د المارۍ سر ته لاس وروړي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-398ccc82c65639314020f5e81245abbe.jpg",
+          "filename": "file-398ccc82c65639314020f5e81245abbe.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "پلار",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "مور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لوړ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "a8e5a844fb79ed0c4e1b000c",
+      "title": "Page 6",
+      "description": "",
+      "text": "خور مې زما کتاب را اخلي.",
+      "media": [
+        {
+          "_id": "d1fffe73d6a8ff0c7c9fb421",
+          "id": "d1fffe73d6a8ff0c7c9fb421",
+          "name": "نجلۍ د مېز په مخ کې ولاړه ده.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-7530ac0dd0f909ebc8c4d1fb246b98d6.jpg",
+          "filename": "file-7530ac0dd0f909ebc8c4d1fb246b98d6.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "خور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "زما",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کتاب",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "را",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "اخلي.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "5721573d9ccf08c375f2e3d1",
+      "title": "Page 7",
+      "description": "",
+      "text": "مور مې تر خور لوړه ده.",
+      "media": [
+        {
+          "_id": "acb4ece192541bd9acae53d1",
+          "id": "acb4ece192541bd9acae53d1",
+          "name": "نجلۍ کتاب په لاس کې نیولی.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-cef2248ec8fedb6873e7c0adf438b83f.jpg",
+          "filename": "file-cef2248ec8fedb6873e7c0adf438b83f.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "خور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لوړه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ده.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "ea002da96111a04a71f562e5",
+      "title": "Page 8",
+      "description": "",
+      "text": "ورور مې زما بکسه را اخلي.",
+      "media": [
+        {
+          "_id": "980b113b4784330a57da1588",
+          "id": "980b113b4784330a57da1588",
+          "name": "یوه هلک بکسه په لاس کې نیولې ده.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-881c7bad009b6af0bc40cf4e03535bbb.jpg",
+          "filename": "file-881c7bad009b6af0bc40cf4e03535bbb.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "word": "بکسه",
+                "start": 3,
+                "end": 4,
+                "uid": "txt--3-4",
+                "id": 3
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ورور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "زما",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "بکسه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "را",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "اخلي.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "f0477d620227e54091750f89",
+      "title": "Page 9",
+      "description": "",
+      "text": "خور مې تر ورور لوړه ده.",
+      "media": [
+        {
+          "_id": "e21b1ac10cf807b70e3eb484",
+          "id": "e21b1ac10cf807b70e3eb484",
+          "name": "کوچني هلک خولۍ پرسر کړې او بکسه یې شاته اچولی.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-c4d6ab0dc0b9d54ea039b50ff05f1b71.jpg",
+          "filename": "file-c4d6ab0dc0b9d54ea039b50ff05f1b71.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "خور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ورور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لوړه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ده.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "2b0d219cdf277a3d46161e60",
+      "title": "Page 10",
+      "description": "",
+      "text": "ورور مې تر ما لوړ دی.",
+      "media": [
+        {
+          "_id": "e92576e7f323e9b76996fb5c",
+          "id": "e92576e7f323e9b76996fb5c",
+          "name": "دواړه هلکان له یو بل سره خبرې کوي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-f16d1716ebaddc740d4d1c40c1cb18a1.jpg",
+          "filename": "file-f16d1716ebaddc740d4d1c40c1cb18a1.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ورور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ما",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لوړ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "842634cc24554177cfa4de28",
+      "title": "Page 11",
+      "description": "",
+      "text": "زه په کورنۍ کې تر ټولو ټیټ یم.",
+      "media": [
+        {
+          "_id": "ffe0fd74f724897b5fcc35a5",
+          "id": "ffe0fd74f724897b5fcc35a5",
+          "name": "کورنۍ یو ځای ولاړه ده.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1b40ff0321d0a8ad61c0e7c641db9c44.jpg",
+          "filename": "file-1b40ff0321d0a8ad61c0e7c641db9c44.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "word": "کورنۍ",
+                "start": 2,
+                "end": 3,
+                "uid": "txt--2-3",
+                "id": 2
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "زه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "په",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کورنۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کې",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "تر",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ټولو",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "ټیټ",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "یم.",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "2d91b6eb5bc5d106be5fb7af",
+      "title": "Page 12",
+      "description": "",
+      "text": "یوه شېبه! دا زموږ پاپي، جوجو، دی.",
+      "media": [
+        {
+          "_id": "644f72adc735aa1ae6ca8239",
+          "id": "644f72adc735aa1ae6ca8239",
+          "name": "سپی د کورنۍ پر لور ورځي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-0b57fc9aea405a8cafc90aecb08d6a0b.jpg",
+          "filename": "file-0b57fc9aea405a8cafc90aecb08d6a0b.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "یوه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "شېبه!",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "دا",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "زموږ",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "پاپي،",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "جوجو،",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "دی.",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "228a74283d6669c477f2bfdd",
+      "title": "Page 13",
+      "description": "",
+      "text": "جوجو زما څپلۍ را اخلي.",
+      "media": [
+        {
+          "_id": "dddd3efca09ec69544e843f1",
+          "id": "dddd3efca09ec69544e843f1",
+          "name": "پاپي دست ماغو راوړی.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-55e42395ed74327528f2b5971e4eedab.jpg",
+          "filename": "file-55e42395ed74327528f2b5971e4eedab.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "جوجو",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "زما",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "څپلۍ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "را",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "اخلي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "4aa9e567542fa91892727047",
+      "title": "Page 14",
+      "description": "",
+      "text": "هاهاها! جوجو تر ټولو ټیټ دی.",
+      "media": [
+        {
+          "_id": "f0b0af45c4a523d815075bbf",
+          "id": "f0b0af45c4a523d815075bbf",
+          "name": "سپی له کورنۍ سره ولاړ دی.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-daf149a184f52c76a90bd8fd11ce70f3.jpg",
+          "filename": "file-daf149a184f52c76a90bd8fd11ce70f3.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هاهاها!",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "جوجو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ټولو",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "0ebd45714bdfd017c1f730aa",
+      "title": "Page 15",
+      "description": "",
+      "text": "هو! جوجو تر ما ټیټ دی.",
+      "media": [
+        {
+          "_id": "8d890c9ca71fd204ddeb4c89",
+          "id": "8d890c9ca71fd204ddeb4c89",
+          "name": "ماشوم له پاپي سره لوبې کوي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-ce4c77131a640c45eebf42a8db336ba3.jpg",
+          "filename": "file-ce4c77131a640c45eebf42a8db336ba3.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "هو!",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "جوجو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ما",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "df3064066b6a5cde19a80eb7",
+      "title": "Page 16",
+      "description": "",
+      "text": "زه مې تر ورور ټیټ یم.",
+      "media": [
+        {
+          "_id": "f23937fe2256df501c9a8fdc",
+          "id": "f23937fe2256df501c9a8fdc",
+          "name": "پاپي پورته هلک ته ګوري.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-ff3afa53edaefb789732cbaace807b4f.jpg",
+          "filename": "file-ff3afa53edaefb789732cbaace807b4f.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "زه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ورور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "یم.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "b977e3b911faac02327b9e2e",
+      "title": "Page 17",
+      "description": "",
+      "text": "ورور مې تر خور ټیټ دی.",
+      "media": [
+        {
+          "_id": "e1492cea41310fbfcffa192b",
+          "id": "e1492cea41310fbfcffa192b",
+          "name": "هلک نجلۍ ته پورته ګوري.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-6eb36965f92a5bad34e3982f1969ae65.jpg",
+          "filename": "file-6eb36965f92a5bad34e3982f1969ae65.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ورور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "خور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "a8d3f20518f2f08433d32180",
+      "title": "Page 18",
+      "description": "",
+      "text": "خور مې تر مور ټیټه ده.",
+      "media": [
+        {
+          "_id": "8e958fe0242c4e3822c0a331",
+          "id": "8e958fe0242c4e3822c0a331",
+          "name": "بل هلک له پاپي سره لوبې کوي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-6e041b6157571349f7276f832da0a852.jpg",
+          "filename": "file-6e041b6157571349f7276f832da0a852.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "خور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "مور",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ده.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "9940cc6b9a0b37a1c0a33de0",
+      "title": "Page 19",
+      "description": "",
+      "text": "مور مې تر پلار ټیټه ده.",
+      "media": [
+        {
+          "_id": "3c219adbb1e9259d222e6368",
+          "id": "3c219adbb1e9259d222e6368",
+          "name": "نجلۍ له پاپي سره لوبې کوي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-aab24cb4bc58eab724a1c87367e32bb4.jpg",
+          "filename": "file-aab24cb4bc58eab724a1c87367e32bb4.jpg",
+          "position": {
+            "left": 486.61,
+            "top": 12.0
+          },
+          "scaleSize": 64.047,
+          "zIndex": 10,
+          "width": 479,
+          "height": 687,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "مې",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پلار",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "ټیټه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ده.",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "b99091b8adf643b32758758b",
+      "title": "Page 20",
+      "description": "",
+      "text": "واو! پلار تر ټولو لوړ دی، او جوجو تر ټولو ټیټ دی.",
+      "media": [
+        {
+          "_id": "474da281751a355cfae2729f",
+          "id": "474da281751a355cfae2729f",
+          "name": "کورنۍ له پاپي سره یو ځای ولاړه ده.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-ac0c27a99389ee133a501836eb66fbc5.jpg",
+          "filename": "file-ac0c27a99389ee133a501836eb66fbc5.jpg",
+          "position": {
+            "left": 486.86,
+            "top": 12.0
+          },
+          "scaleSize": 47.93,
+          "zIndex": 10,
+          "width": 639,
+          "height": 918,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "واو!",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پلار",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "تر",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "ټولو",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "لوړ",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "دی،",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "او",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "جوجو",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "تر",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "ټولو",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "ټیټ",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "دی.",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "d7c3130a2482ee889c581d36",
+      "title": "Page 21",
+      "description": "",
+      "text": "",
+      "media": [
+        {
+          "_id": "fb0558be48b8db65abfeeaab",
+          "id": "fb0558be48b8db65abfeeaab",
+          "name": "ټوله کورنۍ موسکا کوي.",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-8a1f7cac57501c7c283c87d7a299bcb5.jpg",
+          "filename": "file-8a1f7cac57501c7c283c87d7a299bcb5.jpg",
+          "position": {
+            "left": 333.79,
+            "top": 12.0
+          },
+          "scaleSize": 63.861,
+          "zIndex": 10,
+          "width": 959,
+          "height": 689,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": null,
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "9c12b3f37142b427d539c206",
+      "title": "Page 22",
+      "description": "",
+      "text": "This book was made possible by Pratham Books' StoryWeaver platform. Content under Creative Commons licenses can be downloaded, translated and can even be used to create new stories ­provided you give appropriate credit, and indicate if changes were made. To know more about this, and the full terms of use and attribution, please visit the following link.\nStory Attribution:\nThis story: 'Tall and Short' is translated by Celia Bolam. The © for this translation lies with Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license.Based on the original story: 'ខ្ពស់និងទាប', by Huy Chheng Rattana. © Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license.\nOther Credits:\nThis story 'Tall and Short' has been published on StoryWeaver by Room to Read.\nImages Attributions:\nCover page: A boy reaching up to a shelf, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 2: A man placing a cap on a shelf as a boy reaches up, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 3: A man laughing as a boy claps his hands, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 4: A woman searching a cupboard as a boy looks on, bySeat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 5: A man and woman smiling at a boy, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 6: A boy looking at a girl placing a book on a table, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 7: Two girls talking to a boy, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 8: A family busy with different activities, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 9: Three children smiling at each other, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 10: Two boys talking and laughing, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Disclaimer: https://www.storyweaver.org.in/terms_and_conditions\nSome rights reserved. This book is CC­-BY­-4.0 licensed. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. For full terms of use and attribution, http://creativecommons.org/licenses/by/4.0/",
+      "media": [
+        {
+          "_id": "ad2a0e5f7cb798998b6684a7",
+          "id": "ad2a0e5f7cb798998b6684a7",
+          "name": "په دې انځور کې د «سټوري ویور» لوګو ګوری",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "filename": "file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "position": {
+            "left": 20.0,
+            "top": 169.95
+          },
+          "scaleSize": 59.375,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 209,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "65ca58a4db69eac006517d09",
+          "id": "65ca58a4db69eac006517d09",
+          "name": "کریټیو کامنز",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+          "filename": "file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+          "position": {
+            "left": 652.0,
+            "top": 124.91
+          },
+          "scaleSize": 690.909,
+          "zIndex": 11,
+          "width": 88,
+          "height": 31,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "This",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "book",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "was",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "made",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "possible",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "by",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "Pratham",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "Books'",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "StoryWeaver",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "platform.",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "Content",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "under",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "Creative",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "Commons",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "licenses",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "can",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "be",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "downloaded,",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "translated",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "and",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "can",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "even",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "be",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "used",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "to",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "create",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "new",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "stories",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "­provided",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "you",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "give",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "appropriate",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "credit,",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "and",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "indicate",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "if",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "changes",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "were",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "made.",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "To",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "know",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "more",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "about",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "this,",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        },
+        {
+          "word": "and",
+          "start": 44,
+          "end": 45,
+          "uid": "txt--44-45",
+          "id": 44
+        },
+        {
+          "word": "the",
+          "start": 45,
+          "end": 46,
+          "uid": "txt--45-46",
+          "id": 45
+        },
+        {
+          "word": "full",
+          "start": 46,
+          "end": 47,
+          "uid": "txt--46-47",
+          "id": 46
+        },
+        {
+          "word": "terms",
+          "start": 47,
+          "end": 48,
+          "uid": "txt--47-48",
+          "id": 47
+        },
+        {
+          "word": "of",
+          "start": 48,
+          "end": 49,
+          "uid": "txt--48-49",
+          "id": 48
+        },
+        {
+          "word": "use",
+          "start": 49,
+          "end": 50,
+          "uid": "txt--49-50",
+          "id": 49
+        },
+        {
+          "word": "and",
+          "start": 50,
+          "end": 51,
+          "uid": "txt--50-51",
+          "id": 50
+        },
+        {
+          "word": "attribution,",
+          "start": 51,
+          "end": 52,
+          "uid": "txt--51-52",
+          "id": 51
+        },
+        {
+          "word": "please",
+          "start": 52,
+          "end": 53,
+          "uid": "txt--52-53",
+          "id": 52
+        },
+        {
+          "word": "visit",
+          "start": 53,
+          "end": 54,
+          "uid": "txt--53-54",
+          "id": 53
+        },
+        {
+          "word": "the",
+          "start": 54,
+          "end": 55,
+          "uid": "txt--54-55",
+          "id": 54
+        },
+        {
+          "word": "following",
+          "start": 55,
+          "end": 56,
+          "uid": "txt--55-56",
+          "id": 55
+        },
+        {
+          "word": "link.",
+          "start": 56,
+          "end": 57,
+          "uid": "txt--56-57",
+          "id": 56
+        },
+        {
+          "word": "\n",
+          "start": 57,
+          "end": 58,
+          "uid": "txt--57-58",
+          "id": 57
+        },
+        {
+          "word": "Story",
+          "start": 58,
+          "end": 59,
+          "uid": "txt--58-59",
+          "id": 58
+        },
+        {
+          "word": "Attribution:",
+          "start": 59,
+          "end": 60,
+          "uid": "txt--59-60",
+          "id": 59
+        },
+        {
+          "word": "\n",
+          "start": 60,
+          "end": 61,
+          "uid": "txt--60-61",
+          "id": 60
+        },
+        {
+          "word": "This",
+          "start": 61,
+          "end": 62,
+          "uid": "txt--61-62",
+          "id": 61
+        },
+        {
+          "word": "story:",
+          "start": 62,
+          "end": 63,
+          "uid": "txt--62-63",
+          "id": 62
+        },
+        {
+          "word": "'Tall",
+          "start": 63,
+          "end": 64,
+          "uid": "txt--63-64",
+          "id": 63
+        },
+        {
+          "word": "and",
+          "start": 64,
+          "end": 65,
+          "uid": "txt--64-65",
+          "id": 64
+        },
+        {
+          "word": "Short'",
+          "start": 65,
+          "end": 66,
+          "uid": "txt--65-66",
+          "id": 65
+        },
+        {
+          "word": "is",
+          "start": 66,
+          "end": 67,
+          "uid": "txt--66-67",
+          "id": 66
+        },
+        {
+          "word": "translated",
+          "start": 67,
+          "end": 68,
+          "uid": "txt--67-68",
+          "id": 67
+        },
+        {
+          "word": "by",
+          "start": 68,
+          "end": 69,
+          "uid": "txt--68-69",
+          "id": 68
+        },
+        {
+          "word": "Celia",
+          "start": 69,
+          "end": 70,
+          "uid": "txt--69-70",
+          "id": 69
+        },
+        {
+          "word": "Bolam.",
+          "start": 70,
+          "end": 71,
+          "uid": "txt--70-71",
+          "id": 70
+        },
+        {
+          "word": "The©",
+          "start": 71,
+          "end": 72,
+          "uid": "txt--71-72",
+          "id": 71
+        },
+        {
+          "word": "for",
+          "start": 72,
+          "end": 73,
+          "uid": "txt--72-73",
+          "id": 72
+        },
+        {
+          "word": "this",
+          "start": 73,
+          "end": 74,
+          "uid": "txt--73-74",
+          "id": 73
+        },
+        {
+          "word": "translation",
+          "start": 74,
+          "end": 75,
+          "uid": "txt--74-75",
+          "id": 74
+        },
+        {
+          "word": "lies",
+          "start": 75,
+          "end": 76,
+          "uid": "txt--75-76",
+          "id": 75
+        },
+        {
+          "word": "with",
+          "start": 76,
+          "end": 77,
+          "uid": "txt--76-77",
+          "id": 76
+        },
+        {
+          "word": "Room",
+          "start": 77,
+          "end": 78,
+          "uid": "txt--77-78",
+          "id": 77
+        },
+        {
+          "word": "to",
+          "start": 78,
+          "end": 79,
+          "uid": "txt--78-79",
+          "id": 78
+        },
+        {
+          "word": "Read,",
+          "start": 79,
+          "end": 80,
+          "uid": "txt--79-80",
+          "id": 79
+        },
+        {
+          "word": "2015.",
+          "start": 80,
+          "end": 81,
+          "uid": "txt--80-81",
+          "id": 80
+        },
+        {
+          "word": "Some",
+          "start": 81,
+          "end": 82,
+          "uid": "txt--81-82",
+          "id": 81
+        },
+        {
+          "word": "rights",
+          "start": 82,
+          "end": 83,
+          "uid": "txt--82-83",
+          "id": 82
+        },
+        {
+          "word": "reserved.",
+          "start": 83,
+          "end": 84,
+          "uid": "txt--83-84",
+          "id": 83
+        },
+        {
+          "word": "Released",
+          "start": 84,
+          "end": 85,
+          "uid": "txt--84-85",
+          "id": 84
+        },
+        {
+          "word": "under",
+          "start": 85,
+          "end": 86,
+          "uid": "txt--85-86",
+          "id": 85
+        },
+        {
+          "word": "CC",
+          "start": 86,
+          "end": 87,
+          "uid": "txt--86-87",
+          "id": 86
+        },
+        {
+          "word": "BY",
+          "start": 87,
+          "end": 88,
+          "uid": "txt--87-88",
+          "id": 87
+        },
+        {
+          "word": "4.0",
+          "start": 88,
+          "end": 89,
+          "uid": "txt--88-89",
+          "id": 88
+        },
+        {
+          "word": "license.Based",
+          "start": 89,
+          "end": 90,
+          "uid": "txt--89-90",
+          "id": 89
+        },
+        {
+          "word": "on",
+          "start": 90,
+          "end": 91,
+          "uid": "txt--90-91",
+          "id": 90
+        },
+        {
+          "word": "the",
+          "start": 91,
+          "end": 92,
+          "uid": "txt--91-92",
+          "id": 91
+        },
+        {
+          "word": "original",
+          "start": 92,
+          "end": 93,
+          "uid": "txt--92-93",
+          "id": 92
+        },
+        {
+          "word": "story:",
+          "start": 93,
+          "end": 94,
+          "uid": "txt--93-94",
+          "id": 93
+        },
+        {
+          "word": "'ខ្ពស់និងទាប',",
+          "start": 94,
+          "end": 95,
+          "uid": "txt--94-95",
+          "id": 94
+        },
+        {
+          "word": "by",
+          "start": 95,
+          "end": 96,
+          "uid": "txt--95-96",
+          "id": 95
+        },
+        {
+          "word": "Huy",
+          "start": 96,
+          "end": 97,
+          "uid": "txt--96-97",
+          "id": 96
+        },
+        {
+          "word": "Chheng",
+          "start": 97,
+          "end": 98,
+          "uid": "txt--97-98",
+          "id": 97
+        },
+        {
+          "word": "Rattana.©",
+          "start": 98,
+          "end": 99,
+          "uid": "txt--98-99",
+          "id": 98
+        },
+        {
+          "word": "Room",
+          "start": 99,
+          "end": 100,
+          "uid": "txt--99-100",
+          "id": 99
+        },
+        {
+          "word": "to",
+          "start": 100,
+          "end": 101,
+          "uid": "txt--100-101",
+          "id": 100
+        },
+        {
+          "word": "Read,",
+          "start": 101,
+          "end": 102,
+          "uid": "txt--101-102",
+          "id": 101
+        },
+        {
+          "word": "2015.",
+          "start": 102,
+          "end": 103,
+          "uid": "txt--102-103",
+          "id": 102
+        },
+        {
+          "word": "Some",
+          "start": 103,
+          "end": 104,
+          "uid": "txt--103-104",
+          "id": 103
+        },
+        {
+          "word": "rights",
+          "start": 104,
+          "end": 105,
+          "uid": "txt--104-105",
+          "id": 104
+        },
+        {
+          "word": "reserved.",
+          "start": 105,
+          "end": 106,
+          "uid": "txt--105-106",
+          "id": 105
+        },
+        {
+          "word": "Released",
+          "start": 106,
+          "end": 107,
+          "uid": "txt--106-107",
+          "id": 106
+        },
+        {
+          "word": "under",
+          "start": 107,
+          "end": 108,
+          "uid": "txt--107-108",
+          "id": 107
+        },
+        {
+          "word": "CC",
+          "start": 108,
+          "end": 109,
+          "uid": "txt--108-109",
+          "id": 108
+        },
+        {
+          "word": "BY",
+          "start": 109,
+          "end": 110,
+          "uid": "txt--109-110",
+          "id": 109
+        },
+        {
+          "word": "4.0",
+          "start": 110,
+          "end": 111,
+          "uid": "txt--110-111",
+          "id": 110
+        },
+        {
+          "word": "license.",
+          "start": 111,
+          "end": 112,
+          "uid": "txt--111-112",
+          "id": 111
+        },
+        {
+          "word": "\n",
+          "start": 112,
+          "end": 113,
+          "uid": "txt--112-113",
+          "id": 112
+        },
+        {
+          "word": "Other",
+          "start": 113,
+          "end": 114,
+          "uid": "txt--113-114",
+          "id": 113
+        },
+        {
+          "word": "Credits:",
+          "start": 114,
+          "end": 115,
+          "uid": "txt--114-115",
+          "id": 114
+        },
+        {
+          "word": "\n",
+          "start": 115,
+          "end": 116,
+          "uid": "txt--115-116",
+          "id": 115
+        },
+        {
+          "word": "This",
+          "start": 116,
+          "end": 117,
+          "uid": "txt--116-117",
+          "id": 116
+        },
+        {
+          "word": "story",
+          "start": 117,
+          "end": 118,
+          "uid": "txt--117-118",
+          "id": 117
+        },
+        {
+          "word": "'Tall",
+          "start": 118,
+          "end": 119,
+          "uid": "txt--118-119",
+          "id": 118
+        },
+        {
+          "word": "and",
+          "start": 119,
+          "end": 120,
+          "uid": "txt--119-120",
+          "id": 119
+        },
+        {
+          "word": "Short'",
+          "start": 120,
+          "end": 121,
+          "uid": "txt--120-121",
+          "id": 120
+        },
+        {
+          "word": "has",
+          "start": 121,
+          "end": 122,
+          "uid": "txt--121-122",
+          "id": 121
+        },
+        {
+          "word": "been",
+          "start": 122,
+          "end": 123,
+          "uid": "txt--122-123",
+          "id": 122
+        },
+        {
+          "word": "published",
+          "start": 123,
+          "end": 124,
+          "uid": "txt--123-124",
+          "id": 123
+        },
+        {
+          "word": "on",
+          "start": 124,
+          "end": 125,
+          "uid": "txt--124-125",
+          "id": 124
+        },
+        {
+          "word": "StoryWeaver",
+          "start": 125,
+          "end": 126,
+          "uid": "txt--125-126",
+          "id": 125
+        },
+        {
+          "word": "by",
+          "start": 126,
+          "end": 127,
+          "uid": "txt--126-127",
+          "id": 126
+        },
+        {
+          "word": "Room",
+          "start": 127,
+          "end": 128,
+          "uid": "txt--127-128",
+          "id": 127
+        },
+        {
+          "word": "to",
+          "start": 128,
+          "end": 129,
+          "uid": "txt--128-129",
+          "id": 128
+        },
+        {
+          "word": "Read.",
+          "start": 129,
+          "end": 130,
+          "uid": "txt--129-130",
+          "id": 129
+        },
+        {
+          "word": "\n",
+          "start": 130,
+          "end": 131,
+          "uid": "txt--130-131",
+          "id": 130
+        },
+        {
+          "word": "Images",
+          "start": 131,
+          "end": 132,
+          "uid": "txt--131-132",
+          "id": 131
+        },
+        {
+          "word": "Attributions:",
+          "start": 132,
+          "end": 133,
+          "uid": "txt--132-133",
+          "id": 132
+        },
+        {
+          "word": "\n",
+          "start": 133,
+          "end": 134,
+          "uid": "txt--133-134",
+          "id": 133
+        },
+        {
+          "word": "Cover",
+          "start": 134,
+          "end": 135,
+          "uid": "txt--134-135",
+          "id": 134
+        },
+        {
+          "word": "page:",
+          "start": 135,
+          "end": 136,
+          "uid": "txt--135-136",
+          "id": 135
+        },
+        {
+          "word": "A",
+          "start": 136,
+          "end": 137,
+          "uid": "txt--136-137",
+          "id": 136
+        },
+        {
+          "word": "boy",
+          "start": 137,
+          "end": 138,
+          "uid": "txt--137-138",
+          "id": 137
+        },
+        {
+          "word": "reaching",
+          "start": 138,
+          "end": 139,
+          "uid": "txt--138-139",
+          "id": 138
+        },
+        {
+          "word": "up",
+          "start": 139,
+          "end": 140,
+          "uid": "txt--139-140",
+          "id": 139
+        },
+        {
+          "word": "to",
+          "start": 140,
+          "end": 141,
+          "uid": "txt--140-141",
+          "id": 140
+        },
+        {
+          "word": "a",
+          "start": 141,
+          "end": 142,
+          "uid": "txt--141-142",
+          "id": 141
+        },
+        {
+          "word": "shelf,",
+          "start": 142,
+          "end": 143,
+          "uid": "txt--142-143",
+          "id": 142
+        },
+        {
+          "word": "by",
+          "start": 143,
+          "end": 144,
+          "uid": "txt--143-144",
+          "id": 143
+        },
+        {
+          "word": "Seat",
+          "start": 144,
+          "end": 145,
+          "uid": "txt--144-145",
+          "id": 144
+        },
+        {
+          "word": "Sopheap©",
+          "start": 145,
+          "end": 146,
+          "uid": "txt--145-146",
+          "id": 145
+        },
+        {
+          "word": "Room",
+          "start": 146,
+          "end": 147,
+          "uid": "txt--146-147",
+          "id": 146
+        },
+        {
+          "word": "to",
+          "start": 147,
+          "end": 148,
+          "uid": "txt--147-148",
+          "id": 147
+        },
+        {
+          "word": "Read,",
+          "start": 148,
+          "end": 149,
+          "uid": "txt--148-149",
+          "id": 148
+        },
+        {
+          "word": "2015.",
+          "start": 149,
+          "end": 150,
+          "uid": "txt--149-150",
+          "id": 149
+        },
+        {
+          "word": "Some",
+          "start": 150,
+          "end": 151,
+          "uid": "txt--150-151",
+          "id": 150
+        },
+        {
+          "word": "rights",
+          "start": 151,
+          "end": 152,
+          "uid": "txt--151-152",
+          "id": 151
+        },
+        {
+          "word": "reserved.",
+          "start": 152,
+          "end": 153,
+          "uid": "txt--152-153",
+          "id": 152
+        },
+        {
+          "word": "Released",
+          "start": 153,
+          "end": 154,
+          "uid": "txt--153-154",
+          "id": 153
+        },
+        {
+          "word": "under",
+          "start": 154,
+          "end": 155,
+          "uid": "txt--154-155",
+          "id": 154
+        },
+        {
+          "word": "CC",
+          "start": 155,
+          "end": 156,
+          "uid": "txt--155-156",
+          "id": 155
+        },
+        {
+          "word": "BY",
+          "start": 156,
+          "end": 157,
+          "uid": "txt--156-157",
+          "id": 156
+        },
+        {
+          "word": "4.0",
+          "start": 157,
+          "end": 158,
+          "uid": "txt--157-158",
+          "id": 157
+        },
+        {
+          "word": "license.",
+          "start": 158,
+          "end": 159,
+          "uid": "txt--158-159",
+          "id": 158
+        },
+        {
+          "word": "Page",
+          "start": 159,
+          "end": 160,
+          "uid": "txt--159-160",
+          "id": 159
+        },
+        {
+          "word": "2:",
+          "start": 160,
+          "end": 161,
+          "uid": "txt--160-161",
+          "id": 160
+        },
+        {
+          "word": "A",
+          "start": 161,
+          "end": 162,
+          "uid": "txt--161-162",
+          "id": 161
+        },
+        {
+          "word": "man",
+          "start": 162,
+          "end": 163,
+          "uid": "txt--162-163",
+          "id": 162
+        },
+        {
+          "word": "placing",
+          "start": 163,
+          "end": 164,
+          "uid": "txt--163-164",
+          "id": 163
+        },
+        {
+          "word": "a",
+          "start": 164,
+          "end": 165,
+          "uid": "txt--164-165",
+          "id": 164
+        },
+        {
+          "word": "cap",
+          "start": 165,
+          "end": 166,
+          "uid": "txt--165-166",
+          "id": 165
+        },
+        {
+          "word": "on",
+          "start": 166,
+          "end": 167,
+          "uid": "txt--166-167",
+          "id": 166
+        },
+        {
+          "word": "a",
+          "start": 167,
+          "end": 168,
+          "uid": "txt--167-168",
+          "id": 167
+        },
+        {
+          "word": "shelf",
+          "start": 168,
+          "end": 169,
+          "uid": "txt--168-169",
+          "id": 168
+        },
+        {
+          "word": "as",
+          "start": 169,
+          "end": 170,
+          "uid": "txt--169-170",
+          "id": 169
+        },
+        {
+          "word": "a",
+          "start": 170,
+          "end": 171,
+          "uid": "txt--170-171",
+          "id": 170
+        },
+        {
+          "word": "boy",
+          "start": 171,
+          "end": 172,
+          "uid": "txt--171-172",
+          "id": 171
+        },
+        {
+          "word": "reaches",
+          "start": 172,
+          "end": 173,
+          "uid": "txt--172-173",
+          "id": 172
+        },
+        {
+          "word": "up,",
+          "start": 173,
+          "end": 174,
+          "uid": "txt--173-174",
+          "id": 173
+        },
+        {
+          "word": "by",
+          "start": 174,
+          "end": 175,
+          "uid": "txt--174-175",
+          "id": 174
+        },
+        {
+          "word": "Seat",
+          "start": 175,
+          "end": 176,
+          "uid": "txt--175-176",
+          "id": 175
+        },
+        {
+          "word": "Sopheap©",
+          "start": 176,
+          "end": 177,
+          "uid": "txt--176-177",
+          "id": 176
+        },
+        {
+          "word": "Room",
+          "start": 177,
+          "end": 178,
+          "uid": "txt--177-178",
+          "id": 177
+        },
+        {
+          "word": "to",
+          "start": 178,
+          "end": 179,
+          "uid": "txt--178-179",
+          "id": 178
+        },
+        {
+          "word": "Read,",
+          "start": 179,
+          "end": 180,
+          "uid": "txt--179-180",
+          "id": 179
+        },
+        {
+          "word": "2015.",
+          "start": 180,
+          "end": 181,
+          "uid": "txt--180-181",
+          "id": 180
+        },
+        {
+          "word": "Some",
+          "start": 181,
+          "end": 182,
+          "uid": "txt--181-182",
+          "id": 181
+        },
+        {
+          "word": "rights",
+          "start": 182,
+          "end": 183,
+          "uid": "txt--182-183",
+          "id": 182
+        },
+        {
+          "word": "reserved.",
+          "start": 183,
+          "end": 184,
+          "uid": "txt--183-184",
+          "id": 183
+        },
+        {
+          "word": "Released",
+          "start": 184,
+          "end": 185,
+          "uid": "txt--184-185",
+          "id": 184
+        },
+        {
+          "word": "under",
+          "start": 185,
+          "end": 186,
+          "uid": "txt--185-186",
+          "id": 185
+        },
+        {
+          "word": "CC",
+          "start": 186,
+          "end": 187,
+          "uid": "txt--186-187",
+          "id": 186
+        },
+        {
+          "word": "BY",
+          "start": 187,
+          "end": 188,
+          "uid": "txt--187-188",
+          "id": 187
+        },
+        {
+          "word": "4.0",
+          "start": 188,
+          "end": 189,
+          "uid": "txt--188-189",
+          "id": 188
+        },
+        {
+          "word": "license.",
+          "start": 189,
+          "end": 190,
+          "uid": "txt--189-190",
+          "id": 189
+        },
+        {
+          "word": "Page",
+          "start": 190,
+          "end": 191,
+          "uid": "txt--190-191",
+          "id": 190
+        },
+        {
+          "word": "3:",
+          "start": 191,
+          "end": 192,
+          "uid": "txt--191-192",
+          "id": 191
+        },
+        {
+          "word": "A",
+          "start": 192,
+          "end": 193,
+          "uid": "txt--192-193",
+          "id": 192
+        },
+        {
+          "word": "man",
+          "start": 193,
+          "end": 194,
+          "uid": "txt--193-194",
+          "id": 193
+        },
+        {
+          "word": "laughing",
+          "start": 194,
+          "end": 195,
+          "uid": "txt--194-195",
+          "id": 194
+        },
+        {
+          "word": "as",
+          "start": 195,
+          "end": 196,
+          "uid": "txt--195-196",
+          "id": 195
+        },
+        {
+          "word": "a",
+          "start": 196,
+          "end": 197,
+          "uid": "txt--196-197",
+          "id": 196
+        },
+        {
+          "word": "boy",
+          "start": 197,
+          "end": 198,
+          "uid": "txt--197-198",
+          "id": 197
+        },
+        {
+          "word": "claps",
+          "start": 198,
+          "end": 199,
+          "uid": "txt--198-199",
+          "id": 198
+        },
+        {
+          "word": "his",
+          "start": 199,
+          "end": 200,
+          "uid": "txt--199-200",
+          "id": 199
+        },
+        {
+          "word": "hands,",
+          "start": 200,
+          "end": 201,
+          "uid": "txt--200-201",
+          "id": 200
+        },
+        {
+          "word": "by",
+          "start": 201,
+          "end": 202,
+          "uid": "txt--201-202",
+          "id": 201
+        },
+        {
+          "word": "Seat",
+          "start": 202,
+          "end": 203,
+          "uid": "txt--202-203",
+          "id": 202
+        },
+        {
+          "word": "Sopheap©",
+          "start": 203,
+          "end": 204,
+          "uid": "txt--203-204",
+          "id": 203
+        },
+        {
+          "word": "Room",
+          "start": 204,
+          "end": 205,
+          "uid": "txt--204-205",
+          "id": 204
+        },
+        {
+          "word": "to",
+          "start": 205,
+          "end": 206,
+          "uid": "txt--205-206",
+          "id": 205
+        },
+        {
+          "word": "Read,",
+          "start": 206,
+          "end": 207,
+          "uid": "txt--206-207",
+          "id": 206
+        },
+        {
+          "word": "2015.",
+          "start": 207,
+          "end": 208,
+          "uid": "txt--207-208",
+          "id": 207
+        },
+        {
+          "word": "Some",
+          "start": 208,
+          "end": 209,
+          "uid": "txt--208-209",
+          "id": 208
+        },
+        {
+          "word": "rights",
+          "start": 209,
+          "end": 210,
+          "uid": "txt--209-210",
+          "id": 209
+        },
+        {
+          "word": "reserved.",
+          "start": 210,
+          "end": 211,
+          "uid": "txt--210-211",
+          "id": 210
+        },
+        {
+          "word": "Released",
+          "start": 211,
+          "end": 212,
+          "uid": "txt--211-212",
+          "id": 211
+        },
+        {
+          "word": "under",
+          "start": 212,
+          "end": 213,
+          "uid": "txt--212-213",
+          "id": 212
+        },
+        {
+          "word": "CC",
+          "start": 213,
+          "end": 214,
+          "uid": "txt--213-214",
+          "id": 213
+        },
+        {
+          "word": "BY",
+          "start": 214,
+          "end": 215,
+          "uid": "txt--214-215",
+          "id": 214
+        },
+        {
+          "word": "4.0",
+          "start": 215,
+          "end": 216,
+          "uid": "txt--215-216",
+          "id": 215
+        },
+        {
+          "word": "license.",
+          "start": 216,
+          "end": 217,
+          "uid": "txt--216-217",
+          "id": 216
+        },
+        {
+          "word": "Page",
+          "start": 217,
+          "end": 218,
+          "uid": "txt--217-218",
+          "id": 217
+        },
+        {
+          "word": "4:",
+          "start": 218,
+          "end": 219,
+          "uid": "txt--218-219",
+          "id": 218
+        },
+        {
+          "word": "A",
+          "start": 219,
+          "end": 220,
+          "uid": "txt--219-220",
+          "id": 219
+        },
+        {
+          "word": "woman",
+          "start": 220,
+          "end": 221,
+          "uid": "txt--220-221",
+          "id": 220
+        },
+        {
+          "word": "searching",
+          "start": 221,
+          "end": 222,
+          "uid": "txt--221-222",
+          "id": 221
+        },
+        {
+          "word": "a",
+          "start": 222,
+          "end": 223,
+          "uid": "txt--222-223",
+          "id": 222
+        },
+        {
+          "word": "cupboard",
+          "start": 223,
+          "end": 224,
+          "uid": "txt--223-224",
+          "id": 223
+        },
+        {
+          "word": "as",
+          "start": 224,
+          "end": 225,
+          "uid": "txt--224-225",
+          "id": 224
+        },
+        {
+          "word": "a",
+          "start": 225,
+          "end": 226,
+          "uid": "txt--225-226",
+          "id": 225
+        },
+        {
+          "word": "boy",
+          "start": 226,
+          "end": 227,
+          "uid": "txt--226-227",
+          "id": 226
+        },
+        {
+          "word": "looks",
+          "start": 227,
+          "end": 228,
+          "uid": "txt--227-228",
+          "id": 227
+        },
+        {
+          "word": "on,",
+          "start": 228,
+          "end": 229,
+          "uid": "txt--228-229",
+          "id": 228
+        },
+        {
+          "word": "bySeat",
+          "start": 229,
+          "end": 230,
+          "uid": "txt--229-230",
+          "id": 229
+        },
+        {
+          "word": "Sopheap©",
+          "start": 230,
+          "end": 231,
+          "uid": "txt--230-231",
+          "id": 230
+        },
+        {
+          "word": "Room",
+          "start": 231,
+          "end": 232,
+          "uid": "txt--231-232",
+          "id": 231
+        },
+        {
+          "word": "to",
+          "start": 232,
+          "end": 233,
+          "uid": "txt--232-233",
+          "id": 232
+        },
+        {
+          "word": "Read,",
+          "start": 233,
+          "end": 234,
+          "uid": "txt--233-234",
+          "id": 233
+        },
+        {
+          "word": "2015.",
+          "start": 234,
+          "end": 235,
+          "uid": "txt--234-235",
+          "id": 234
+        },
+        {
+          "word": "Some",
+          "start": 235,
+          "end": 236,
+          "uid": "txt--235-236",
+          "id": 235
+        },
+        {
+          "word": "rights",
+          "start": 236,
+          "end": 237,
+          "uid": "txt--236-237",
+          "id": 236
+        },
+        {
+          "word": "reserved.",
+          "start": 237,
+          "end": 238,
+          "uid": "txt--237-238",
+          "id": 237
+        },
+        {
+          "word": "Released",
+          "start": 238,
+          "end": 239,
+          "uid": "txt--238-239",
+          "id": 238
+        },
+        {
+          "word": "under",
+          "start": 239,
+          "end": 240,
+          "uid": "txt--239-240",
+          "id": 239
+        },
+        {
+          "word": "CC",
+          "start": 240,
+          "end": 241,
+          "uid": "txt--240-241",
+          "id": 240
+        },
+        {
+          "word": "BY",
+          "start": 241,
+          "end": 242,
+          "uid": "txt--241-242",
+          "id": 241
+        },
+        {
+          "word": "4.0",
+          "start": 242,
+          "end": 243,
+          "uid": "txt--242-243",
+          "id": 242
+        },
+        {
+          "word": "license.",
+          "start": 243,
+          "end": 244,
+          "uid": "txt--243-244",
+          "id": 243
+        },
+        {
+          "word": "Page",
+          "start": 244,
+          "end": 245,
+          "uid": "txt--244-245",
+          "id": 244
+        },
+        {
+          "word": "5:",
+          "start": 245,
+          "end": 246,
+          "uid": "txt--245-246",
+          "id": 245
+        },
+        {
+          "word": "A",
+          "start": 246,
+          "end": 247,
+          "uid": "txt--246-247",
+          "id": 246
+        },
+        {
+          "word": "man",
+          "start": 247,
+          "end": 248,
+          "uid": "txt--247-248",
+          "id": 247
+        },
+        {
+          "word": "and",
+          "start": 248,
+          "end": 249,
+          "uid": "txt--248-249",
+          "id": 248
+        },
+        {
+          "word": "woman",
+          "start": 249,
+          "end": 250,
+          "uid": "txt--249-250",
+          "id": 249
+        },
+        {
+          "word": "smiling",
+          "start": 250,
+          "end": 251,
+          "uid": "txt--250-251",
+          "id": 250
+        },
+        {
+          "word": "at",
+          "start": 251,
+          "end": 252,
+          "uid": "txt--251-252",
+          "id": 251
+        },
+        {
+          "word": "a",
+          "start": 252,
+          "end": 253,
+          "uid": "txt--252-253",
+          "id": 252
+        },
+        {
+          "word": "boy,",
+          "start": 253,
+          "end": 254,
+          "uid": "txt--253-254",
+          "id": 253
+        },
+        {
+          "word": "by",
+          "start": 254,
+          "end": 255,
+          "uid": "txt--254-255",
+          "id": 254
+        },
+        {
+          "word": "Seat",
+          "start": 255,
+          "end": 256,
+          "uid": "txt--255-256",
+          "id": 255
+        },
+        {
+          "word": "Sopheap©",
+          "start": 256,
+          "end": 257,
+          "uid": "txt--256-257",
+          "id": 256
+        },
+        {
+          "word": "Room",
+          "start": 257,
+          "end": 258,
+          "uid": "txt--257-258",
+          "id": 257
+        },
+        {
+          "word": "to",
+          "start": 258,
+          "end": 259,
+          "uid": "txt--258-259",
+          "id": 258
+        },
+        {
+          "word": "Read,",
+          "start": 259,
+          "end": 260,
+          "uid": "txt--259-260",
+          "id": 259
+        },
+        {
+          "word": "2015.",
+          "start": 260,
+          "end": 261,
+          "uid": "txt--260-261",
+          "id": 260
+        },
+        {
+          "word": "Some",
+          "start": 261,
+          "end": 262,
+          "uid": "txt--261-262",
+          "id": 261
+        },
+        {
+          "word": "rights",
+          "start": 262,
+          "end": 263,
+          "uid": "txt--262-263",
+          "id": 262
+        },
+        {
+          "word": "reserved.",
+          "start": 263,
+          "end": 264,
+          "uid": "txt--263-264",
+          "id": 263
+        },
+        {
+          "word": "Released",
+          "start": 264,
+          "end": 265,
+          "uid": "txt--264-265",
+          "id": 264
+        },
+        {
+          "word": "under",
+          "start": 265,
+          "end": 266,
+          "uid": "txt--265-266",
+          "id": 265
+        },
+        {
+          "word": "CC",
+          "start": 266,
+          "end": 267,
+          "uid": "txt--266-267",
+          "id": 266
+        },
+        {
+          "word": "BY",
+          "start": 267,
+          "end": 268,
+          "uid": "txt--267-268",
+          "id": 267
+        },
+        {
+          "word": "4.0",
+          "start": 268,
+          "end": 269,
+          "uid": "txt--268-269",
+          "id": 268
+        },
+        {
+          "word": "license.",
+          "start": 269,
+          "end": 270,
+          "uid": "txt--269-270",
+          "id": 269
+        },
+        {
+          "word": "Page",
+          "start": 270,
+          "end": 271,
+          "uid": "txt--270-271",
+          "id": 270
+        },
+        {
+          "word": "6:",
+          "start": 271,
+          "end": 272,
+          "uid": "txt--271-272",
+          "id": 271
+        },
+        {
+          "word": "A",
+          "start": 272,
+          "end": 273,
+          "uid": "txt--272-273",
+          "id": 272
+        },
+        {
+          "word": "boy",
+          "start": 273,
+          "end": 274,
+          "uid": "txt--273-274",
+          "id": 273
+        },
+        {
+          "word": "looking",
+          "start": 274,
+          "end": 275,
+          "uid": "txt--274-275",
+          "id": 274
+        },
+        {
+          "word": "at",
+          "start": 275,
+          "end": 276,
+          "uid": "txt--275-276",
+          "id": 275
+        },
+        {
+          "word": "a",
+          "start": 276,
+          "end": 277,
+          "uid": "txt--276-277",
+          "id": 276
+        },
+        {
+          "word": "girl",
+          "start": 277,
+          "end": 278,
+          "uid": "txt--277-278",
+          "id": 277
+        },
+        {
+          "word": "placing",
+          "start": 278,
+          "end": 279,
+          "uid": "txt--278-279",
+          "id": 278
+        },
+        {
+          "word": "a",
+          "start": 279,
+          "end": 280,
+          "uid": "txt--279-280",
+          "id": 279
+        },
+        {
+          "word": "book",
+          "start": 280,
+          "end": 281,
+          "uid": "txt--280-281",
+          "id": 280
+        },
+        {
+          "word": "on",
+          "start": 281,
+          "end": 282,
+          "uid": "txt--281-282",
+          "id": 281
+        },
+        {
+          "word": "a",
+          "start": 282,
+          "end": 283,
+          "uid": "txt--282-283",
+          "id": 282
+        },
+        {
+          "word": "table,",
+          "start": 283,
+          "end": 284,
+          "uid": "txt--283-284",
+          "id": 283
+        },
+        {
+          "word": "by",
+          "start": 284,
+          "end": 285,
+          "uid": "txt--284-285",
+          "id": 284
+        },
+        {
+          "word": "Seat",
+          "start": 285,
+          "end": 286,
+          "uid": "txt--285-286",
+          "id": 285
+        },
+        {
+          "word": "Sopheap©",
+          "start": 286,
+          "end": 287,
+          "uid": "txt--286-287",
+          "id": 286
+        },
+        {
+          "word": "Room",
+          "start": 287,
+          "end": 288,
+          "uid": "txt--287-288",
+          "id": 287
+        },
+        {
+          "word": "to",
+          "start": 288,
+          "end": 289,
+          "uid": "txt--288-289",
+          "id": 288
+        },
+        {
+          "word": "Read,",
+          "start": 289,
+          "end": 290,
+          "uid": "txt--289-290",
+          "id": 289
+        },
+        {
+          "word": "2015.",
+          "start": 290,
+          "end": 291,
+          "uid": "txt--290-291",
+          "id": 290
+        },
+        {
+          "word": "Some",
+          "start": 291,
+          "end": 292,
+          "uid": "txt--291-292",
+          "id": 291
+        },
+        {
+          "word": "rights",
+          "start": 292,
+          "end": 293,
+          "uid": "txt--292-293",
+          "id": 292
+        },
+        {
+          "word": "reserved.",
+          "start": 293,
+          "end": 294,
+          "uid": "txt--293-294",
+          "id": 293
+        },
+        {
+          "word": "Released",
+          "start": 294,
+          "end": 295,
+          "uid": "txt--294-295",
+          "id": 294
+        },
+        {
+          "word": "under",
+          "start": 295,
+          "end": 296,
+          "uid": "txt--295-296",
+          "id": 295
+        },
+        {
+          "word": "CC",
+          "start": 296,
+          "end": 297,
+          "uid": "txt--296-297",
+          "id": 296
+        },
+        {
+          "word": "BY",
+          "start": 297,
+          "end": 298,
+          "uid": "txt--297-298",
+          "id": 297
+        },
+        {
+          "word": "4.0",
+          "start": 298,
+          "end": 299,
+          "uid": "txt--298-299",
+          "id": 298
+        },
+        {
+          "word": "license.",
+          "start": 299,
+          "end": 300,
+          "uid": "txt--299-300",
+          "id": 299
+        },
+        {
+          "word": "Page",
+          "start": 300,
+          "end": 301,
+          "uid": "txt--300-301",
+          "id": 300
+        },
+        {
+          "word": "7:",
+          "start": 301,
+          "end": 302,
+          "uid": "txt--301-302",
+          "id": 301
+        },
+        {
+          "word": "Two",
+          "start": 302,
+          "end": 303,
+          "uid": "txt--302-303",
+          "id": 302
+        },
+        {
+          "word": "girls",
+          "start": 303,
+          "end": 304,
+          "uid": "txt--303-304",
+          "id": 303
+        },
+        {
+          "word": "talking",
+          "start": 304,
+          "end": 305,
+          "uid": "txt--304-305",
+          "id": 304
+        },
+        {
+          "word": "to",
+          "start": 305,
+          "end": 306,
+          "uid": "txt--305-306",
+          "id": 305
+        },
+        {
+          "word": "a",
+          "start": 306,
+          "end": 307,
+          "uid": "txt--306-307",
+          "id": 306
+        },
+        {
+          "word": "boy,",
+          "start": 307,
+          "end": 308,
+          "uid": "txt--307-308",
+          "id": 307
+        },
+        {
+          "word": "by",
+          "start": 308,
+          "end": 309,
+          "uid": "txt--308-309",
+          "id": 308
+        },
+        {
+          "word": "Seat",
+          "start": 309,
+          "end": 310,
+          "uid": "txt--309-310",
+          "id": 309
+        },
+        {
+          "word": "Sopheap©",
+          "start": 310,
+          "end": 311,
+          "uid": "txt--310-311",
+          "id": 310
+        },
+        {
+          "word": "Room",
+          "start": 311,
+          "end": 312,
+          "uid": "txt--311-312",
+          "id": 311
+        },
+        {
+          "word": "to",
+          "start": 312,
+          "end": 313,
+          "uid": "txt--312-313",
+          "id": 312
+        },
+        {
+          "word": "Read,",
+          "start": 313,
+          "end": 314,
+          "uid": "txt--313-314",
+          "id": 313
+        },
+        {
+          "word": "2015.",
+          "start": 314,
+          "end": 315,
+          "uid": "txt--314-315",
+          "id": 314
+        },
+        {
+          "word": "Some",
+          "start": 315,
+          "end": 316,
+          "uid": "txt--315-316",
+          "id": 315
+        },
+        {
+          "word": "rights",
+          "start": 316,
+          "end": 317,
+          "uid": "txt--316-317",
+          "id": 316
+        },
+        {
+          "word": "reserved.",
+          "start": 317,
+          "end": 318,
+          "uid": "txt--317-318",
+          "id": 317
+        },
+        {
+          "word": "Released",
+          "start": 318,
+          "end": 319,
+          "uid": "txt--318-319",
+          "id": 318
+        },
+        {
+          "word": "under",
+          "start": 319,
+          "end": 320,
+          "uid": "txt--319-320",
+          "id": 319
+        },
+        {
+          "word": "CC",
+          "start": 320,
+          "end": 321,
+          "uid": "txt--320-321",
+          "id": 320
+        },
+        {
+          "word": "BY",
+          "start": 321,
+          "end": 322,
+          "uid": "txt--321-322",
+          "id": 321
+        },
+        {
+          "word": "4.0",
+          "start": 322,
+          "end": 323,
+          "uid": "txt--322-323",
+          "id": 322
+        },
+        {
+          "word": "license.",
+          "start": 323,
+          "end": 324,
+          "uid": "txt--323-324",
+          "id": 323
+        },
+        {
+          "word": "Page",
+          "start": 324,
+          "end": 325,
+          "uid": "txt--324-325",
+          "id": 324
+        },
+        {
+          "word": "8:",
+          "start": 325,
+          "end": 326,
+          "uid": "txt--325-326",
+          "id": 325
+        },
+        {
+          "word": "A",
+          "start": 326,
+          "end": 327,
+          "uid": "txt--326-327",
+          "id": 326
+        },
+        {
+          "word": "family",
+          "start": 327,
+          "end": 328,
+          "uid": "txt--327-328",
+          "id": 327
+        },
+        {
+          "word": "busy",
+          "start": 328,
+          "end": 329,
+          "uid": "txt--328-329",
+          "id": 328
+        },
+        {
+          "word": "with",
+          "start": 329,
+          "end": 330,
+          "uid": "txt--329-330",
+          "id": 329
+        },
+        {
+          "word": "different",
+          "start": 330,
+          "end": 331,
+          "uid": "txt--330-331",
+          "id": 330
+        },
+        {
+          "word": "activities,",
+          "start": 331,
+          "end": 332,
+          "uid": "txt--331-332",
+          "id": 331
+        },
+        {
+          "word": "by",
+          "start": 332,
+          "end": 333,
+          "uid": "txt--332-333",
+          "id": 332
+        },
+        {
+          "word": "Seat",
+          "start": 333,
+          "end": 334,
+          "uid": "txt--333-334",
+          "id": 333
+        },
+        {
+          "word": "Sopheap©",
+          "start": 334,
+          "end": 335,
+          "uid": "txt--334-335",
+          "id": 334
+        },
+        {
+          "word": "Room",
+          "start": 335,
+          "end": 336,
+          "uid": "txt--335-336",
+          "id": 335
+        },
+        {
+          "word": "to",
+          "start": 336,
+          "end": 337,
+          "uid": "txt--336-337",
+          "id": 336
+        },
+        {
+          "word": "Read,",
+          "start": 337,
+          "end": 338,
+          "uid": "txt--337-338",
+          "id": 337
+        },
+        {
+          "word": "2015.",
+          "start": 338,
+          "end": 339,
+          "uid": "txt--338-339",
+          "id": 338
+        },
+        {
+          "word": "Some",
+          "start": 339,
+          "end": 340,
+          "uid": "txt--339-340",
+          "id": 339
+        },
+        {
+          "word": "rights",
+          "start": 340,
+          "end": 341,
+          "uid": "txt--340-341",
+          "id": 340
+        },
+        {
+          "word": "reserved.",
+          "start": 341,
+          "end": 342,
+          "uid": "txt--341-342",
+          "id": 341
+        },
+        {
+          "word": "Released",
+          "start": 342,
+          "end": 343,
+          "uid": "txt--342-343",
+          "id": 342
+        },
+        {
+          "word": "under",
+          "start": 343,
+          "end": 344,
+          "uid": "txt--343-344",
+          "id": 343
+        },
+        {
+          "word": "CC",
+          "start": 344,
+          "end": 345,
+          "uid": "txt--344-345",
+          "id": 344
+        },
+        {
+          "word": "BY",
+          "start": 345,
+          "end": 346,
+          "uid": "txt--345-346",
+          "id": 345
+        },
+        {
+          "word": "4.0",
+          "start": 346,
+          "end": 347,
+          "uid": "txt--346-347",
+          "id": 346
+        },
+        {
+          "word": "license.",
+          "start": 347,
+          "end": 348,
+          "uid": "txt--347-348",
+          "id": 347
+        },
+        {
+          "word": "Page",
+          "start": 348,
+          "end": 349,
+          "uid": "txt--348-349",
+          "id": 348
+        },
+        {
+          "word": "9:",
+          "start": 349,
+          "end": 350,
+          "uid": "txt--349-350",
+          "id": 349
+        },
+        {
+          "word": "Three",
+          "start": 350,
+          "end": 351,
+          "uid": "txt--350-351",
+          "id": 350
+        },
+        {
+          "word": "children",
+          "start": 351,
+          "end": 352,
+          "uid": "txt--351-352",
+          "id": 351
+        },
+        {
+          "word": "smiling",
+          "start": 352,
+          "end": 353,
+          "uid": "txt--352-353",
+          "id": 352
+        },
+        {
+          "word": "at",
+          "start": 353,
+          "end": 354,
+          "uid": "txt--353-354",
+          "id": 353
+        },
+        {
+          "word": "each",
+          "start": 354,
+          "end": 355,
+          "uid": "txt--354-355",
+          "id": 354
+        },
+        {
+          "word": "other,",
+          "start": 355,
+          "end": 356,
+          "uid": "txt--355-356",
+          "id": 355
+        },
+        {
+          "word": "by",
+          "start": 356,
+          "end": 357,
+          "uid": "txt--356-357",
+          "id": 356
+        },
+        {
+          "word": "Seat",
+          "start": 357,
+          "end": 358,
+          "uid": "txt--357-358",
+          "id": 357
+        },
+        {
+          "word": "Sopheap©",
+          "start": 358,
+          "end": 359,
+          "uid": "txt--358-359",
+          "id": 358
+        },
+        {
+          "word": "Room",
+          "start": 359,
+          "end": 360,
+          "uid": "txt--359-360",
+          "id": 359
+        },
+        {
+          "word": "to",
+          "start": 360,
+          "end": 361,
+          "uid": "txt--360-361",
+          "id": 360
+        },
+        {
+          "word": "Read,",
+          "start": 361,
+          "end": 362,
+          "uid": "txt--361-362",
+          "id": 361
+        },
+        {
+          "word": "2015.",
+          "start": 362,
+          "end": 363,
+          "uid": "txt--362-363",
+          "id": 362
+        },
+        {
+          "word": "Some",
+          "start": 363,
+          "end": 364,
+          "uid": "txt--363-364",
+          "id": 363
+        },
+        {
+          "word": "rights",
+          "start": 364,
+          "end": 365,
+          "uid": "txt--364-365",
+          "id": 364
+        },
+        {
+          "word": "reserved.",
+          "start": 365,
+          "end": 366,
+          "uid": "txt--365-366",
+          "id": 365
+        },
+        {
+          "word": "Released",
+          "start": 366,
+          "end": 367,
+          "uid": "txt--366-367",
+          "id": 366
+        },
+        {
+          "word": "under",
+          "start": 367,
+          "end": 368,
+          "uid": "txt--367-368",
+          "id": 367
+        },
+        {
+          "word": "CC",
+          "start": 368,
+          "end": 369,
+          "uid": "txt--368-369",
+          "id": 368
+        },
+        {
+          "word": "BY",
+          "start": 369,
+          "end": 370,
+          "uid": "txt--369-370",
+          "id": 369
+        },
+        {
+          "word": "4.0",
+          "start": 370,
+          "end": 371,
+          "uid": "txt--370-371",
+          "id": 370
+        },
+        {
+          "word": "license.",
+          "start": 371,
+          "end": 372,
+          "uid": "txt--371-372",
+          "id": 371
+        },
+        {
+          "word": "Page",
+          "start": 372,
+          "end": 373,
+          "uid": "txt--372-373",
+          "id": 372
+        },
+        {
+          "word": "10:",
+          "start": 373,
+          "end": 374,
+          "uid": "txt--373-374",
+          "id": 373
+        },
+        {
+          "word": "Two",
+          "start": 374,
+          "end": 375,
+          "uid": "txt--374-375",
+          "id": 374
+        },
+        {
+          "word": "boys",
+          "start": 375,
+          "end": 376,
+          "uid": "txt--375-376",
+          "id": 375
+        },
+        {
+          "word": "talking",
+          "start": 376,
+          "end": 377,
+          "uid": "txt--376-377",
+          "id": 376
+        },
+        {
+          "word": "and",
+          "start": 377,
+          "end": 378,
+          "uid": "txt--377-378",
+          "id": 377
+        },
+        {
+          "word": "laughing,",
+          "start": 378,
+          "end": 379,
+          "uid": "txt--378-379",
+          "id": 378
+        },
+        {
+          "word": "by",
+          "start": 379,
+          "end": 380,
+          "uid": "txt--379-380",
+          "id": 379
+        },
+        {
+          "word": "Seat",
+          "start": 380,
+          "end": 381,
+          "uid": "txt--380-381",
+          "id": 380
+        },
+        {
+          "word": "Sopheap©",
+          "start": 381,
+          "end": 382,
+          "uid": "txt--381-382",
+          "id": 381
+        },
+        {
+          "word": "Room",
+          "start": 382,
+          "end": 383,
+          "uid": "txt--382-383",
+          "id": 382
+        },
+        {
+          "word": "to",
+          "start": 383,
+          "end": 384,
+          "uid": "txt--383-384",
+          "id": 383
+        },
+        {
+          "word": "Read,",
+          "start": 384,
+          "end": 385,
+          "uid": "txt--384-385",
+          "id": 384
+        },
+        {
+          "word": "2015.",
+          "start": 385,
+          "end": 386,
+          "uid": "txt--385-386",
+          "id": 385
+        },
+        {
+          "word": "Some",
+          "start": 386,
+          "end": 387,
+          "uid": "txt--386-387",
+          "id": 386
+        },
+        {
+          "word": "rights",
+          "start": 387,
+          "end": 388,
+          "uid": "txt--387-388",
+          "id": 387
+        },
+        {
+          "word": "reserved.",
+          "start": 388,
+          "end": 389,
+          "uid": "txt--388-389",
+          "id": 388
+        },
+        {
+          "word": "Released",
+          "start": 389,
+          "end": 390,
+          "uid": "txt--389-390",
+          "id": 389
+        },
+        {
+          "word": "under",
+          "start": 390,
+          "end": 391,
+          "uid": "txt--390-391",
+          "id": 390
+        },
+        {
+          "word": "CC",
+          "start": 391,
+          "end": 392,
+          "uid": "txt--391-392",
+          "id": 391
+        },
+        {
+          "word": "BY",
+          "start": 392,
+          "end": 393,
+          "uid": "txt--392-393",
+          "id": 392
+        },
+        {
+          "word": "4.0",
+          "start": 393,
+          "end": 394,
+          "uid": "txt--393-394",
+          "id": 393
+        },
+        {
+          "word": "license.",
+          "start": 394,
+          "end": 395,
+          "uid": "txt--394-395",
+          "id": 394
+        },
+        {
+          "word": "Disclaimer:",
+          "start": 395,
+          "end": 396,
+          "uid": "txt--395-396",
+          "id": 395
+        },
+        {
+          "word": "https://www.storyweaver.org.in/terms_and_conditions",
+          "start": 396,
+          "end": 397,
+          "uid": "txt--396-397",
+          "id": 396
+        },
+        {
+          "word": "\n",
+          "start": 397,
+          "end": 398,
+          "uid": "txt--397-398",
+          "id": 397
+        },
+        {
+          "word": "Some",
+          "start": 398,
+          "end": 399,
+          "uid": "txt--398-399",
+          "id": 398
+        },
+        {
+          "word": "rights",
+          "start": 399,
+          "end": 400,
+          "uid": "txt--399-400",
+          "id": 399
+        },
+        {
+          "word": "reserved.",
+          "start": 400,
+          "end": 401,
+          "uid": "txt--400-401",
+          "id": 400
+        },
+        {
+          "word": "This",
+          "start": 401,
+          "end": 402,
+          "uid": "txt--401-402",
+          "id": 401
+        },
+        {
+          "word": "book",
+          "start": 402,
+          "end": 403,
+          "uid": "txt--402-403",
+          "id": 402
+        },
+        {
+          "word": "is",
+          "start": 403,
+          "end": 404,
+          "uid": "txt--403-404",
+          "id": 403
+        },
+        {
+          "word": "CC­-BY­-4.0",
+          "start": 404,
+          "end": 405,
+          "uid": "txt--404-405",
+          "id": 404
+        },
+        {
+          "word": "licensed.",
+          "start": 405,
+          "end": 406,
+          "uid": "txt--405-406",
+          "id": 405
+        },
+        {
+          "word": "You",
+          "start": 406,
+          "end": 407,
+          "uid": "txt--406-407",
+          "id": 406
+        },
+        {
+          "word": "can",
+          "start": 407,
+          "end": 408,
+          "uid": "txt--407-408",
+          "id": 407
+        },
+        {
+          "word": "copy,",
+          "start": 408,
+          "end": 409,
+          "uid": "txt--408-409",
+          "id": 408
+        },
+        {
+          "word": "modify,",
+          "start": 409,
+          "end": 410,
+          "uid": "txt--409-410",
+          "id": 409
+        },
+        {
+          "word": "distribute",
+          "start": 410,
+          "end": 411,
+          "uid": "txt--410-411",
+          "id": 410
+        },
+        {
+          "word": "and",
+          "start": 411,
+          "end": 412,
+          "uid": "txt--411-412",
+          "id": 411
+        },
+        {
+          "word": "perform",
+          "start": 412,
+          "end": 413,
+          "uid": "txt--412-413",
+          "id": 412
+        },
+        {
+          "word": "the",
+          "start": 413,
+          "end": 414,
+          "uid": "txt--413-414",
+          "id": 413
+        },
+        {
+          "word": "work,",
+          "start": 414,
+          "end": 415,
+          "uid": "txt--414-415",
+          "id": 414
+        },
+        {
+          "word": "even",
+          "start": 415,
+          "end": 416,
+          "uid": "txt--415-416",
+          "id": 415
+        },
+        {
+          "word": "for",
+          "start": 416,
+          "end": 417,
+          "uid": "txt--416-417",
+          "id": 416
+        },
+        {
+          "word": "commercial",
+          "start": 417,
+          "end": 418,
+          "uid": "txt--417-418",
+          "id": 417
+        },
+        {
+          "word": "purposes,",
+          "start": 418,
+          "end": 419,
+          "uid": "txt--418-419",
+          "id": 418
+        },
+        {
+          "word": "all",
+          "start": 419,
+          "end": 420,
+          "uid": "txt--419-420",
+          "id": 419
+        },
+        {
+          "word": "without",
+          "start": 420,
+          "end": 421,
+          "uid": "txt--420-421",
+          "id": 420
+        },
+        {
+          "word": "asking",
+          "start": 421,
+          "end": 422,
+          "uid": "txt--421-422",
+          "id": 421
+        },
+        {
+          "word": "permission.",
+          "start": 422,
+          "end": 423,
+          "uid": "txt--422-423",
+          "id": 422
+        },
+        {
+          "word": "For",
+          "start": 423,
+          "end": 424,
+          "uid": "txt--423-424",
+          "id": 423
+        },
+        {
+          "word": "full",
+          "start": 424,
+          "end": 425,
+          "uid": "txt--424-425",
+          "id": 424
+        },
+        {
+          "word": "terms",
+          "start": 425,
+          "end": 426,
+          "uid": "txt--425-426",
+          "id": 425
+        },
+        {
+          "word": "of",
+          "start": 426,
+          "end": 427,
+          "uid": "txt--426-427",
+          "id": 426
+        },
+        {
+          "word": "use",
+          "start": 427,
+          "end": 428,
+          "uid": "txt--427-428",
+          "id": 427
+        },
+        {
+          "word": "and",
+          "start": 428,
+          "end": 429,
+          "uid": "txt--428-429",
+          "id": 428
+        },
+        {
+          "word": "attribution,",
+          "start": 429,
+          "end": 430,
+          "uid": "txt--429-430",
+          "id": 429
+        },
+        {
+          "word": "http://creativecommons.org/licenses/by/4.0/",
+          "start": 430,
+          "end": 431,
+          "uid": "txt--430-431",
+          "id": 430
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "df2425c3031ef5f7c41f7dbc",
+      "title": "Page 23",
+      "description": "",
+      "text": "This book was made possible by Pratham Books' StoryWeaver platform. Content under Creative Commons licenses can be downloaded, translated and can even be used to create new stories­ provided you give appropriate credit, and indicate if changes were made. To know more about this, and the full terms of use and attribution, please visit the following link.\nImages Attributions:\nPage 11: Five members of a family standing together, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 12: Members of a family laughing at a dog, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 13: A boy trying to get his slippers from a dog, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 14: A family laughing, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 15: A boy petting a dog, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 16: Two boys talking as a dog looks on, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 17: Three children talking to each other, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 18: Two children talking to a woman as a boy plays with a dog, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 19: A family talking and playing with a dog, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 20: A boy standing with his family and waving, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Page 21: Five Members of a family smiling, by Seat Sopheap© Room to Read, 2015. Some rights reserved. Released under CC BY 4.0 license. Disclaimer: https://www.storyweaver.org.in/terms_and_conditions\nSome rights reserved. This book is CC­-BY­-4.0 licensed. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. For full terms of use and attribution, http://creativecommons.org/licenses/by/4.0/",
+      "media": [
+        {
+          "_id": "61aec589a9d0bc8d27a70927",
+          "id": "61aec589a9d0bc8d27a70927",
+          "name": "په دې انځور کې د «سټوري ویور» لوګو ګوری",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "filename": "file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "position": {
+            "left": 20.0,
+            "top": 169.95
+          },
+          "scaleSize": 59.375,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 209,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "f9cb645eec3984772b87bce3",
+          "id": "f9cb645eec3984772b87bce3",
+          "name": "کریټیو کامنز",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+          "filename": "file-1dd8bab4fb44379a9e7e38ff1ec1a2e3.jpg",
+          "position": {
+            "left": 652.0,
+            "top": 124.91
+          },
+          "scaleSize": 690.909,
+          "zIndex": 11,
+          "width": 88,
+          "height": 31,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "This",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "book",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "was",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "made",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "possible",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "by",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "Pratham",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "Books'",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "StoryWeaver",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "platform.",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "Content",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "under",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "Creative",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "Commons",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "licenses",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "can",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "be",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "downloaded,",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "translated",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "and",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "can",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "even",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "be",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "used",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "to",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "create",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "new",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "stories­",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "provided",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "you",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "give",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "appropriate",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "credit,",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "and",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "indicate",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "if",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "changes",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "were",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "made.",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "To",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "know",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "more",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "about",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "this,",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        },
+        {
+          "word": "and",
+          "start": 44,
+          "end": 45,
+          "uid": "txt--44-45",
+          "id": 44
+        },
+        {
+          "word": "the",
+          "start": 45,
+          "end": 46,
+          "uid": "txt--45-46",
+          "id": 45
+        },
+        {
+          "word": "full",
+          "start": 46,
+          "end": 47,
+          "uid": "txt--46-47",
+          "id": 46
+        },
+        {
+          "word": "terms",
+          "start": 47,
+          "end": 48,
+          "uid": "txt--47-48",
+          "id": 47
+        },
+        {
+          "word": "of",
+          "start": 48,
+          "end": 49,
+          "uid": "txt--48-49",
+          "id": 48
+        },
+        {
+          "word": "use",
+          "start": 49,
+          "end": 50,
+          "uid": "txt--49-50",
+          "id": 49
+        },
+        {
+          "word": "and",
+          "start": 50,
+          "end": 51,
+          "uid": "txt--50-51",
+          "id": 50
+        },
+        {
+          "word": "attribution,",
+          "start": 51,
+          "end": 52,
+          "uid": "txt--51-52",
+          "id": 51
+        },
+        {
+          "word": "please",
+          "start": 52,
+          "end": 53,
+          "uid": "txt--52-53",
+          "id": 52
+        },
+        {
+          "word": "visit",
+          "start": 53,
+          "end": 54,
+          "uid": "txt--53-54",
+          "id": 53
+        },
+        {
+          "word": "the",
+          "start": 54,
+          "end": 55,
+          "uid": "txt--54-55",
+          "id": 54
+        },
+        {
+          "word": "following",
+          "start": 55,
+          "end": 56,
+          "uid": "txt--55-56",
+          "id": 55
+        },
+        {
+          "word": "link.",
+          "start": 56,
+          "end": 57,
+          "uid": "txt--56-57",
+          "id": 56
+        },
+        {
+          "word": "\n",
+          "start": 57,
+          "end": 58,
+          "uid": "txt--57-58",
+          "id": 57
+        },
+        {
+          "word": "Images",
+          "start": 58,
+          "end": 59,
+          "uid": "txt--58-59",
+          "id": 58
+        },
+        {
+          "word": "Attributions:",
+          "start": 59,
+          "end": 60,
+          "uid": "txt--59-60",
+          "id": 59
+        },
+        {
+          "word": "\n",
+          "start": 60,
+          "end": 61,
+          "uid": "txt--60-61",
+          "id": 60
+        },
+        {
+          "word": "Page",
+          "start": 61,
+          "end": 62,
+          "uid": "txt--61-62",
+          "id": 61
+        },
+        {
+          "word": "11:",
+          "start": 62,
+          "end": 63,
+          "uid": "txt--62-63",
+          "id": 62
+        },
+        {
+          "word": "Five",
+          "start": 63,
+          "end": 64,
+          "uid": "txt--63-64",
+          "id": 63
+        },
+        {
+          "word": "members",
+          "start": 64,
+          "end": 65,
+          "uid": "txt--64-65",
+          "id": 64
+        },
+        {
+          "word": "of",
+          "start": 65,
+          "end": 66,
+          "uid": "txt--65-66",
+          "id": 65
+        },
+        {
+          "word": "a",
+          "start": 66,
+          "end": 67,
+          "uid": "txt--66-67",
+          "id": 66
+        },
+        {
+          "word": "family",
+          "start": 67,
+          "end": 68,
+          "uid": "txt--67-68",
+          "id": 67
+        },
+        {
+          "word": "standing",
+          "start": 68,
+          "end": 69,
+          "uid": "txt--68-69",
+          "id": 68
+        },
+        {
+          "word": "together,",
+          "start": 69,
+          "end": 70,
+          "uid": "txt--69-70",
+          "id": 69
+        },
+        {
+          "word": "by",
+          "start": 70,
+          "end": 71,
+          "uid": "txt--70-71",
+          "id": 70
+        },
+        {
+          "word": "Seat",
+          "start": 71,
+          "end": 72,
+          "uid": "txt--71-72",
+          "id": 71
+        },
+        {
+          "word": "Sopheap©",
+          "start": 72,
+          "end": 73,
+          "uid": "txt--72-73",
+          "id": 72
+        },
+        {
+          "word": "Room",
+          "start": 73,
+          "end": 74,
+          "uid": "txt--73-74",
+          "id": 73
+        },
+        {
+          "word": "to",
+          "start": 74,
+          "end": 75,
+          "uid": "txt--74-75",
+          "id": 74
+        },
+        {
+          "word": "Read,",
+          "start": 75,
+          "end": 76,
+          "uid": "txt--75-76",
+          "id": 75
+        },
+        {
+          "word": "2015.",
+          "start": 76,
+          "end": 77,
+          "uid": "txt--76-77",
+          "id": 76
+        },
+        {
+          "word": "Some",
+          "start": 77,
+          "end": 78,
+          "uid": "txt--77-78",
+          "id": 77
+        },
+        {
+          "word": "rights",
+          "start": 78,
+          "end": 79,
+          "uid": "txt--78-79",
+          "id": 78
+        },
+        {
+          "word": "reserved.",
+          "start": 79,
+          "end": 80,
+          "uid": "txt--79-80",
+          "id": 79
+        },
+        {
+          "word": "Released",
+          "start": 80,
+          "end": 81,
+          "uid": "txt--80-81",
+          "id": 80
+        },
+        {
+          "word": "under",
+          "start": 81,
+          "end": 82,
+          "uid": "txt--81-82",
+          "id": 81
+        },
+        {
+          "word": "CC",
+          "start": 82,
+          "end": 83,
+          "uid": "txt--82-83",
+          "id": 82
+        },
+        {
+          "word": "BY",
+          "start": 83,
+          "end": 84,
+          "uid": "txt--83-84",
+          "id": 83
+        },
+        {
+          "word": "4.0",
+          "start": 84,
+          "end": 85,
+          "uid": "txt--84-85",
+          "id": 84
+        },
+        {
+          "word": "license.",
+          "start": 85,
+          "end": 86,
+          "uid": "txt--85-86",
+          "id": 85
+        },
+        {
+          "word": "Page",
+          "start": 86,
+          "end": 87,
+          "uid": "txt--86-87",
+          "id": 86
+        },
+        {
+          "word": "12:",
+          "start": 87,
+          "end": 88,
+          "uid": "txt--87-88",
+          "id": 87
+        },
+        {
+          "word": "Members",
+          "start": 88,
+          "end": 89,
+          "uid": "txt--88-89",
+          "id": 88
+        },
+        {
+          "word": "of",
+          "start": 89,
+          "end": 90,
+          "uid": "txt--89-90",
+          "id": 89
+        },
+        {
+          "word": "a",
+          "start": 90,
+          "end": 91,
+          "uid": "txt--90-91",
+          "id": 90
+        },
+        {
+          "word": "family",
+          "start": 91,
+          "end": 92,
+          "uid": "txt--91-92",
+          "id": 91
+        },
+        {
+          "word": "laughing",
+          "start": 92,
+          "end": 93,
+          "uid": "txt--92-93",
+          "id": 92
+        },
+        {
+          "word": "at",
+          "start": 93,
+          "end": 94,
+          "uid": "txt--93-94",
+          "id": 93
+        },
+        {
+          "word": "a",
+          "start": 94,
+          "end": 95,
+          "uid": "txt--94-95",
+          "id": 94
+        },
+        {
+          "word": "dog,",
+          "start": 95,
+          "end": 96,
+          "uid": "txt--95-96",
+          "id": 95
+        },
+        {
+          "word": "by",
+          "start": 96,
+          "end": 97,
+          "uid": "txt--96-97",
+          "id": 96
+        },
+        {
+          "word": "Seat",
+          "start": 97,
+          "end": 98,
+          "uid": "txt--97-98",
+          "id": 97
+        },
+        {
+          "word": "Sopheap©",
+          "start": 98,
+          "end": 99,
+          "uid": "txt--98-99",
+          "id": 98
+        },
+        {
+          "word": "Room",
+          "start": 99,
+          "end": 100,
+          "uid": "txt--99-100",
+          "id": 99
+        },
+        {
+          "word": "to",
+          "start": 100,
+          "end": 101,
+          "uid": "txt--100-101",
+          "id": 100
+        },
+        {
+          "word": "Read,",
+          "start": 101,
+          "end": 102,
+          "uid": "txt--101-102",
+          "id": 101
+        },
+        {
+          "word": "2015.",
+          "start": 102,
+          "end": 103,
+          "uid": "txt--102-103",
+          "id": 102
+        },
+        {
+          "word": "Some",
+          "start": 103,
+          "end": 104,
+          "uid": "txt--103-104",
+          "id": 103
+        },
+        {
+          "word": "rights",
+          "start": 104,
+          "end": 105,
+          "uid": "txt--104-105",
+          "id": 104
+        },
+        {
+          "word": "reserved.",
+          "start": 105,
+          "end": 106,
+          "uid": "txt--105-106",
+          "id": 105
+        },
+        {
+          "word": "Released",
+          "start": 106,
+          "end": 107,
+          "uid": "txt--106-107",
+          "id": 106
+        },
+        {
+          "word": "under",
+          "start": 107,
+          "end": 108,
+          "uid": "txt--107-108",
+          "id": 107
+        },
+        {
+          "word": "CC",
+          "start": 108,
+          "end": 109,
+          "uid": "txt--108-109",
+          "id": 108
+        },
+        {
+          "word": "BY",
+          "start": 109,
+          "end": 110,
+          "uid": "txt--109-110",
+          "id": 109
+        },
+        {
+          "word": "4.0",
+          "start": 110,
+          "end": 111,
+          "uid": "txt--110-111",
+          "id": 110
+        },
+        {
+          "word": "license.",
+          "start": 111,
+          "end": 112,
+          "uid": "txt--111-112",
+          "id": 111
+        },
+        {
+          "word": "Page",
+          "start": 112,
+          "end": 113,
+          "uid": "txt--112-113",
+          "id": 112
+        },
+        {
+          "word": "13:",
+          "start": 113,
+          "end": 114,
+          "uid": "txt--113-114",
+          "id": 113
+        },
+        {
+          "word": "A",
+          "start": 114,
+          "end": 115,
+          "uid": "txt--114-115",
+          "id": 114
+        },
+        {
+          "word": "boy",
+          "start": 115,
+          "end": 116,
+          "uid": "txt--115-116",
+          "id": 115
+        },
+        {
+          "word": "trying",
+          "start": 116,
+          "end": 117,
+          "uid": "txt--116-117",
+          "id": 116
+        },
+        {
+          "word": "to",
+          "start": 117,
+          "end": 118,
+          "uid": "txt--117-118",
+          "id": 117
+        },
+        {
+          "word": "get",
+          "start": 118,
+          "end": 119,
+          "uid": "txt--118-119",
+          "id": 118
+        },
+        {
+          "word": "his",
+          "start": 119,
+          "end": 120,
+          "uid": "txt--119-120",
+          "id": 119
+        },
+        {
+          "word": "slippers",
+          "start": 120,
+          "end": 121,
+          "uid": "txt--120-121",
+          "id": 120
+        },
+        {
+          "word": "from",
+          "start": 121,
+          "end": 122,
+          "uid": "txt--121-122",
+          "id": 121
+        },
+        {
+          "word": "a",
+          "start": 122,
+          "end": 123,
+          "uid": "txt--122-123",
+          "id": 122
+        },
+        {
+          "word": "dog,",
+          "start": 123,
+          "end": 124,
+          "uid": "txt--123-124",
+          "id": 123
+        },
+        {
+          "word": "by",
+          "start": 124,
+          "end": 125,
+          "uid": "txt--124-125",
+          "id": 124
+        },
+        {
+          "word": "Seat",
+          "start": 125,
+          "end": 126,
+          "uid": "txt--125-126",
+          "id": 125
+        },
+        {
+          "word": "Sopheap©",
+          "start": 126,
+          "end": 127,
+          "uid": "txt--126-127",
+          "id": 126
+        },
+        {
+          "word": "Room",
+          "start": 127,
+          "end": 128,
+          "uid": "txt--127-128",
+          "id": 127
+        },
+        {
+          "word": "to",
+          "start": 128,
+          "end": 129,
+          "uid": "txt--128-129",
+          "id": 128
+        },
+        {
+          "word": "Read,",
+          "start": 129,
+          "end": 130,
+          "uid": "txt--129-130",
+          "id": 129
+        },
+        {
+          "word": "2015.",
+          "start": 130,
+          "end": 131,
+          "uid": "txt--130-131",
+          "id": 130
+        },
+        {
+          "word": "Some",
+          "start": 131,
+          "end": 132,
+          "uid": "txt--131-132",
+          "id": 131
+        },
+        {
+          "word": "rights",
+          "start": 132,
+          "end": 133,
+          "uid": "txt--132-133",
+          "id": 132
+        },
+        {
+          "word": "reserved.",
+          "start": 133,
+          "end": 134,
+          "uid": "txt--133-134",
+          "id": 133
+        },
+        {
+          "word": "Released",
+          "start": 134,
+          "end": 135,
+          "uid": "txt--134-135",
+          "id": 134
+        },
+        {
+          "word": "under",
+          "start": 135,
+          "end": 136,
+          "uid": "txt--135-136",
+          "id": 135
+        },
+        {
+          "word": "CC",
+          "start": 136,
+          "end": 137,
+          "uid": "txt--136-137",
+          "id": 136
+        },
+        {
+          "word": "BY",
+          "start": 137,
+          "end": 138,
+          "uid": "txt--137-138",
+          "id": 137
+        },
+        {
+          "word": "4.0",
+          "start": 138,
+          "end": 139,
+          "uid": "txt--138-139",
+          "id": 138
+        },
+        {
+          "word": "license.",
+          "start": 139,
+          "end": 140,
+          "uid": "txt--139-140",
+          "id": 139
+        },
+        {
+          "word": "Page",
+          "start": 140,
+          "end": 141,
+          "uid": "txt--140-141",
+          "id": 140
+        },
+        {
+          "word": "14:",
+          "start": 141,
+          "end": 142,
+          "uid": "txt--141-142",
+          "id": 141
+        },
+        {
+          "word": "A",
+          "start": 142,
+          "end": 143,
+          "uid": "txt--142-143",
+          "id": 142
+        },
+        {
+          "word": "family",
+          "start": 143,
+          "end": 144,
+          "uid": "txt--143-144",
+          "id": 143
+        },
+        {
+          "word": "laughing,",
+          "start": 144,
+          "end": 145,
+          "uid": "txt--144-145",
+          "id": 144
+        },
+        {
+          "word": "by",
+          "start": 145,
+          "end": 146,
+          "uid": "txt--145-146",
+          "id": 145
+        },
+        {
+          "word": "Seat",
+          "start": 146,
+          "end": 147,
+          "uid": "txt--146-147",
+          "id": 146
+        },
+        {
+          "word": "Sopheap©",
+          "start": 147,
+          "end": 148,
+          "uid": "txt--147-148",
+          "id": 147
+        },
+        {
+          "word": "Room",
+          "start": 148,
+          "end": 149,
+          "uid": "txt--148-149",
+          "id": 148
+        },
+        {
+          "word": "to",
+          "start": 149,
+          "end": 150,
+          "uid": "txt--149-150",
+          "id": 149
+        },
+        {
+          "word": "Read,",
+          "start": 150,
+          "end": 151,
+          "uid": "txt--150-151",
+          "id": 150
+        },
+        {
+          "word": "2015.",
+          "start": 151,
+          "end": 152,
+          "uid": "txt--151-152",
+          "id": 151
+        },
+        {
+          "word": "Some",
+          "start": 152,
+          "end": 153,
+          "uid": "txt--152-153",
+          "id": 152
+        },
+        {
+          "word": "rights",
+          "start": 153,
+          "end": 154,
+          "uid": "txt--153-154",
+          "id": 153
+        },
+        {
+          "word": "reserved.",
+          "start": 154,
+          "end": 155,
+          "uid": "txt--154-155",
+          "id": 154
+        },
+        {
+          "word": "Released",
+          "start": 155,
+          "end": 156,
+          "uid": "txt--155-156",
+          "id": 155
+        },
+        {
+          "word": "under",
+          "start": 156,
+          "end": 157,
+          "uid": "txt--156-157",
+          "id": 156
+        },
+        {
+          "word": "CC",
+          "start": 157,
+          "end": 158,
+          "uid": "txt--157-158",
+          "id": 157
+        },
+        {
+          "word": "BY",
+          "start": 158,
+          "end": 159,
+          "uid": "txt--158-159",
+          "id": 158
+        },
+        {
+          "word": "4.0",
+          "start": 159,
+          "end": 160,
+          "uid": "txt--159-160",
+          "id": 159
+        },
+        {
+          "word": "license.",
+          "start": 160,
+          "end": 161,
+          "uid": "txt--160-161",
+          "id": 160
+        },
+        {
+          "word": "Page",
+          "start": 161,
+          "end": 162,
+          "uid": "txt--161-162",
+          "id": 161
+        },
+        {
+          "word": "15:",
+          "start": 162,
+          "end": 163,
+          "uid": "txt--162-163",
+          "id": 162
+        },
+        {
+          "word": "A",
+          "start": 163,
+          "end": 164,
+          "uid": "txt--163-164",
+          "id": 163
+        },
+        {
+          "word": "boy",
+          "start": 164,
+          "end": 165,
+          "uid": "txt--164-165",
+          "id": 164
+        },
+        {
+          "word": "petting",
+          "start": 165,
+          "end": 166,
+          "uid": "txt--165-166",
+          "id": 165
+        },
+        {
+          "word": "a",
+          "start": 166,
+          "end": 167,
+          "uid": "txt--166-167",
+          "id": 166
+        },
+        {
+          "word": "dog,",
+          "start": 167,
+          "end": 168,
+          "uid": "txt--167-168",
+          "id": 167
+        },
+        {
+          "word": "by",
+          "start": 168,
+          "end": 169,
+          "uid": "txt--168-169",
+          "id": 168
+        },
+        {
+          "word": "Seat",
+          "start": 169,
+          "end": 170,
+          "uid": "txt--169-170",
+          "id": 169
+        },
+        {
+          "word": "Sopheap©",
+          "start": 170,
+          "end": 171,
+          "uid": "txt--170-171",
+          "id": 170
+        },
+        {
+          "word": "Room",
+          "start": 171,
+          "end": 172,
+          "uid": "txt--171-172",
+          "id": 171
+        },
+        {
+          "word": "to",
+          "start": 172,
+          "end": 173,
+          "uid": "txt--172-173",
+          "id": 172
+        },
+        {
+          "word": "Read,",
+          "start": 173,
+          "end": 174,
+          "uid": "txt--173-174",
+          "id": 173
+        },
+        {
+          "word": "2015.",
+          "start": 174,
+          "end": 175,
+          "uid": "txt--174-175",
+          "id": 174
+        },
+        {
+          "word": "Some",
+          "start": 175,
+          "end": 176,
+          "uid": "txt--175-176",
+          "id": 175
+        },
+        {
+          "word": "rights",
+          "start": 176,
+          "end": 177,
+          "uid": "txt--176-177",
+          "id": 176
+        },
+        {
+          "word": "reserved.",
+          "start": 177,
+          "end": 178,
+          "uid": "txt--177-178",
+          "id": 177
+        },
+        {
+          "word": "Released",
+          "start": 178,
+          "end": 179,
+          "uid": "txt--178-179",
+          "id": 178
+        },
+        {
+          "word": "under",
+          "start": 179,
+          "end": 180,
+          "uid": "txt--179-180",
+          "id": 179
+        },
+        {
+          "word": "CC",
+          "start": 180,
+          "end": 181,
+          "uid": "txt--180-181",
+          "id": 180
+        },
+        {
+          "word": "BY",
+          "start": 181,
+          "end": 182,
+          "uid": "txt--181-182",
+          "id": 181
+        },
+        {
+          "word": "4.0",
+          "start": 182,
+          "end": 183,
+          "uid": "txt--182-183",
+          "id": 182
+        },
+        {
+          "word": "license.",
+          "start": 183,
+          "end": 184,
+          "uid": "txt--183-184",
+          "id": 183
+        },
+        {
+          "word": "Page",
+          "start": 184,
+          "end": 185,
+          "uid": "txt--184-185",
+          "id": 184
+        },
+        {
+          "word": "16:",
+          "start": 185,
+          "end": 186,
+          "uid": "txt--185-186",
+          "id": 185
+        },
+        {
+          "word": "Two",
+          "start": 186,
+          "end": 187,
+          "uid": "txt--186-187",
+          "id": 186
+        },
+        {
+          "word": "boys",
+          "start": 187,
+          "end": 188,
+          "uid": "txt--187-188",
+          "id": 187
+        },
+        {
+          "word": "talking",
+          "start": 188,
+          "end": 189,
+          "uid": "txt--188-189",
+          "id": 188
+        },
+        {
+          "word": "as",
+          "start": 189,
+          "end": 190,
+          "uid": "txt--189-190",
+          "id": 189
+        },
+        {
+          "word": "a",
+          "start": 190,
+          "end": 191,
+          "uid": "txt--190-191",
+          "id": 190
+        },
+        {
+          "word": "dog",
+          "start": 191,
+          "end": 192,
+          "uid": "txt--191-192",
+          "id": 191
+        },
+        {
+          "word": "looks",
+          "start": 192,
+          "end": 193,
+          "uid": "txt--192-193",
+          "id": 192
+        },
+        {
+          "word": "on,",
+          "start": 193,
+          "end": 194,
+          "uid": "txt--193-194",
+          "id": 193
+        },
+        {
+          "word": "by",
+          "start": 194,
+          "end": 195,
+          "uid": "txt--194-195",
+          "id": 194
+        },
+        {
+          "word": "Seat",
+          "start": 195,
+          "end": 196,
+          "uid": "txt--195-196",
+          "id": 195
+        },
+        {
+          "word": "Sopheap©",
+          "start": 196,
+          "end": 197,
+          "uid": "txt--196-197",
+          "id": 196
+        },
+        {
+          "word": "Room",
+          "start": 197,
+          "end": 198,
+          "uid": "txt--197-198",
+          "id": 197
+        },
+        {
+          "word": "to",
+          "start": 198,
+          "end": 199,
+          "uid": "txt--198-199",
+          "id": 198
+        },
+        {
+          "word": "Read,",
+          "start": 199,
+          "end": 200,
+          "uid": "txt--199-200",
+          "id": 199
+        },
+        {
+          "word": "2015.",
+          "start": 200,
+          "end": 201,
+          "uid": "txt--200-201",
+          "id": 200
+        },
+        {
+          "word": "Some",
+          "start": 201,
+          "end": 202,
+          "uid": "txt--201-202",
+          "id": 201
+        },
+        {
+          "word": "rights",
+          "start": 202,
+          "end": 203,
+          "uid": "txt--202-203",
+          "id": 202
+        },
+        {
+          "word": "reserved.",
+          "start": 203,
+          "end": 204,
+          "uid": "txt--203-204",
+          "id": 203
+        },
+        {
+          "word": "Released",
+          "start": 204,
+          "end": 205,
+          "uid": "txt--204-205",
+          "id": 204
+        },
+        {
+          "word": "under",
+          "start": 205,
+          "end": 206,
+          "uid": "txt--205-206",
+          "id": 205
+        },
+        {
+          "word": "CC",
+          "start": 206,
+          "end": 207,
+          "uid": "txt--206-207",
+          "id": 206
+        },
+        {
+          "word": "BY",
+          "start": 207,
+          "end": 208,
+          "uid": "txt--207-208",
+          "id": 207
+        },
+        {
+          "word": "4.0",
+          "start": 208,
+          "end": 209,
+          "uid": "txt--208-209",
+          "id": 208
+        },
+        {
+          "word": "license.",
+          "start": 209,
+          "end": 210,
+          "uid": "txt--209-210",
+          "id": 209
+        },
+        {
+          "word": "Page",
+          "start": 210,
+          "end": 211,
+          "uid": "txt--210-211",
+          "id": 210
+        },
+        {
+          "word": "17:",
+          "start": 211,
+          "end": 212,
+          "uid": "txt--211-212",
+          "id": 211
+        },
+        {
+          "word": "Three",
+          "start": 212,
+          "end": 213,
+          "uid": "txt--212-213",
+          "id": 212
+        },
+        {
+          "word": "children",
+          "start": 213,
+          "end": 214,
+          "uid": "txt--213-214",
+          "id": 213
+        },
+        {
+          "word": "talking",
+          "start": 214,
+          "end": 215,
+          "uid": "txt--214-215",
+          "id": 214
+        },
+        {
+          "word": "to",
+          "start": 215,
+          "end": 216,
+          "uid": "txt--215-216",
+          "id": 215
+        },
+        {
+          "word": "each",
+          "start": 216,
+          "end": 217,
+          "uid": "txt--216-217",
+          "id": 216
+        },
+        {
+          "word": "other,",
+          "start": 217,
+          "end": 218,
+          "uid": "txt--217-218",
+          "id": 217
+        },
+        {
+          "word": "by",
+          "start": 218,
+          "end": 219,
+          "uid": "txt--218-219",
+          "id": 218
+        },
+        {
+          "word": "Seat",
+          "start": 219,
+          "end": 220,
+          "uid": "txt--219-220",
+          "id": 219
+        },
+        {
+          "word": "Sopheap©",
+          "start": 220,
+          "end": 221,
+          "uid": "txt--220-221",
+          "id": 220
+        },
+        {
+          "word": "Room",
+          "start": 221,
+          "end": 222,
+          "uid": "txt--221-222",
+          "id": 221
+        },
+        {
+          "word": "to",
+          "start": 222,
+          "end": 223,
+          "uid": "txt--222-223",
+          "id": 222
+        },
+        {
+          "word": "Read,",
+          "start": 223,
+          "end": 224,
+          "uid": "txt--223-224",
+          "id": 223
+        },
+        {
+          "word": "2015.",
+          "start": 224,
+          "end": 225,
+          "uid": "txt--224-225",
+          "id": 224
+        },
+        {
+          "word": "Some",
+          "start": 225,
+          "end": 226,
+          "uid": "txt--225-226",
+          "id": 225
+        },
+        {
+          "word": "rights",
+          "start": 226,
+          "end": 227,
+          "uid": "txt--226-227",
+          "id": 226
+        },
+        {
+          "word": "reserved.",
+          "start": 227,
+          "end": 228,
+          "uid": "txt--227-228",
+          "id": 227
+        },
+        {
+          "word": "Released",
+          "start": 228,
+          "end": 229,
+          "uid": "txt--228-229",
+          "id": 228
+        },
+        {
+          "word": "under",
+          "start": 229,
+          "end": 230,
+          "uid": "txt--229-230",
+          "id": 229
+        },
+        {
+          "word": "CC",
+          "start": 230,
+          "end": 231,
+          "uid": "txt--230-231",
+          "id": 230
+        },
+        {
+          "word": "BY",
+          "start": 231,
+          "end": 232,
+          "uid": "txt--231-232",
+          "id": 231
+        },
+        {
+          "word": "4.0",
+          "start": 232,
+          "end": 233,
+          "uid": "txt--232-233",
+          "id": 232
+        },
+        {
+          "word": "license.",
+          "start": 233,
+          "end": 234,
+          "uid": "txt--233-234",
+          "id": 233
+        },
+        {
+          "word": "Page",
+          "start": 234,
+          "end": 235,
+          "uid": "txt--234-235",
+          "id": 234
+        },
+        {
+          "word": "18:",
+          "start": 235,
+          "end": 236,
+          "uid": "txt--235-236",
+          "id": 235
+        },
+        {
+          "word": "Two",
+          "start": 236,
+          "end": 237,
+          "uid": "txt--236-237",
+          "id": 236
+        },
+        {
+          "word": "children",
+          "start": 237,
+          "end": 238,
+          "uid": "txt--237-238",
+          "id": 237
+        },
+        {
+          "word": "talking",
+          "start": 238,
+          "end": 239,
+          "uid": "txt--238-239",
+          "id": 238
+        },
+        {
+          "word": "to",
+          "start": 239,
+          "end": 240,
+          "uid": "txt--239-240",
+          "id": 239
+        },
+        {
+          "word": "a",
+          "start": 240,
+          "end": 241,
+          "uid": "txt--240-241",
+          "id": 240
+        },
+        {
+          "word": "woman",
+          "start": 241,
+          "end": 242,
+          "uid": "txt--241-242",
+          "id": 241
+        },
+        {
+          "word": "as",
+          "start": 242,
+          "end": 243,
+          "uid": "txt--242-243",
+          "id": 242
+        },
+        {
+          "word": "a",
+          "start": 243,
+          "end": 244,
+          "uid": "txt--243-244",
+          "id": 243
+        },
+        {
+          "word": "boy",
+          "start": 244,
+          "end": 245,
+          "uid": "txt--244-245",
+          "id": 244
+        },
+        {
+          "word": "plays",
+          "start": 245,
+          "end": 246,
+          "uid": "txt--245-246",
+          "id": 245
+        },
+        {
+          "word": "with",
+          "start": 246,
+          "end": 247,
+          "uid": "txt--246-247",
+          "id": 246
+        },
+        {
+          "word": "a",
+          "start": 247,
+          "end": 248,
+          "uid": "txt--247-248",
+          "id": 247
+        },
+        {
+          "word": "dog,",
+          "start": 248,
+          "end": 249,
+          "uid": "txt--248-249",
+          "id": 248
+        },
+        {
+          "word": "by",
+          "start": 249,
+          "end": 250,
+          "uid": "txt--249-250",
+          "id": 249
+        },
+        {
+          "word": "Seat",
+          "start": 250,
+          "end": 251,
+          "uid": "txt--250-251",
+          "id": 250
+        },
+        {
+          "word": "Sopheap©",
+          "start": 251,
+          "end": 252,
+          "uid": "txt--251-252",
+          "id": 251
+        },
+        {
+          "word": "Room",
+          "start": 252,
+          "end": 253,
+          "uid": "txt--252-253",
+          "id": 252
+        },
+        {
+          "word": "to",
+          "start": 253,
+          "end": 254,
+          "uid": "txt--253-254",
+          "id": 253
+        },
+        {
+          "word": "Read,",
+          "start": 254,
+          "end": 255,
+          "uid": "txt--254-255",
+          "id": 254
+        },
+        {
+          "word": "2015.",
+          "start": 255,
+          "end": 256,
+          "uid": "txt--255-256",
+          "id": 255
+        },
+        {
+          "word": "Some",
+          "start": 256,
+          "end": 257,
+          "uid": "txt--256-257",
+          "id": 256
+        },
+        {
+          "word": "rights",
+          "start": 257,
+          "end": 258,
+          "uid": "txt--257-258",
+          "id": 257
+        },
+        {
+          "word": "reserved.",
+          "start": 258,
+          "end": 259,
+          "uid": "txt--258-259",
+          "id": 258
+        },
+        {
+          "word": "Released",
+          "start": 259,
+          "end": 260,
+          "uid": "txt--259-260",
+          "id": 259
+        },
+        {
+          "word": "under",
+          "start": 260,
+          "end": 261,
+          "uid": "txt--260-261",
+          "id": 260
+        },
+        {
+          "word": "CC",
+          "start": 261,
+          "end": 262,
+          "uid": "txt--261-262",
+          "id": 261
+        },
+        {
+          "word": "BY",
+          "start": 262,
+          "end": 263,
+          "uid": "txt--262-263",
+          "id": 262
+        },
+        {
+          "word": "4.0",
+          "start": 263,
+          "end": 264,
+          "uid": "txt--263-264",
+          "id": 263
+        },
+        {
+          "word": "license.",
+          "start": 264,
+          "end": 265,
+          "uid": "txt--264-265",
+          "id": 264
+        },
+        {
+          "word": "Page",
+          "start": 265,
+          "end": 266,
+          "uid": "txt--265-266",
+          "id": 265
+        },
+        {
+          "word": "19:",
+          "start": 266,
+          "end": 267,
+          "uid": "txt--266-267",
+          "id": 266
+        },
+        {
+          "word": "A",
+          "start": 267,
+          "end": 268,
+          "uid": "txt--267-268",
+          "id": 267
+        },
+        {
+          "word": "family",
+          "start": 268,
+          "end": 269,
+          "uid": "txt--268-269",
+          "id": 268
+        },
+        {
+          "word": "talking",
+          "start": 269,
+          "end": 270,
+          "uid": "txt--269-270",
+          "id": 269
+        },
+        {
+          "word": "and",
+          "start": 270,
+          "end": 271,
+          "uid": "txt--270-271",
+          "id": 270
+        },
+        {
+          "word": "playing",
+          "start": 271,
+          "end": 272,
+          "uid": "txt--271-272",
+          "id": 271
+        },
+        {
+          "word": "with",
+          "start": 272,
+          "end": 273,
+          "uid": "txt--272-273",
+          "id": 272
+        },
+        {
+          "word": "a",
+          "start": 273,
+          "end": 274,
+          "uid": "txt--273-274",
+          "id": 273
+        },
+        {
+          "word": "dog,",
+          "start": 274,
+          "end": 275,
+          "uid": "txt--274-275",
+          "id": 274
+        },
+        {
+          "word": "by",
+          "start": 275,
+          "end": 276,
+          "uid": "txt--275-276",
+          "id": 275
+        },
+        {
+          "word": "Seat",
+          "start": 276,
+          "end": 277,
+          "uid": "txt--276-277",
+          "id": 276
+        },
+        {
+          "word": "Sopheap©",
+          "start": 277,
+          "end": 278,
+          "uid": "txt--277-278",
+          "id": 277
+        },
+        {
+          "word": "Room",
+          "start": 278,
+          "end": 279,
+          "uid": "txt--278-279",
+          "id": 278
+        },
+        {
+          "word": "to",
+          "start": 279,
+          "end": 280,
+          "uid": "txt--279-280",
+          "id": 279
+        },
+        {
+          "word": "Read,",
+          "start": 280,
+          "end": 281,
+          "uid": "txt--280-281",
+          "id": 280
+        },
+        {
+          "word": "2015.",
+          "start": 281,
+          "end": 282,
+          "uid": "txt--281-282",
+          "id": 281
+        },
+        {
+          "word": "Some",
+          "start": 282,
+          "end": 283,
+          "uid": "txt--282-283",
+          "id": 282
+        },
+        {
+          "word": "rights",
+          "start": 283,
+          "end": 284,
+          "uid": "txt--283-284",
+          "id": 283
+        },
+        {
+          "word": "reserved.",
+          "start": 284,
+          "end": 285,
+          "uid": "txt--284-285",
+          "id": 284
+        },
+        {
+          "word": "Released",
+          "start": 285,
+          "end": 286,
+          "uid": "txt--285-286",
+          "id": 285
+        },
+        {
+          "word": "under",
+          "start": 286,
+          "end": 287,
+          "uid": "txt--286-287",
+          "id": 286
+        },
+        {
+          "word": "CC",
+          "start": 287,
+          "end": 288,
+          "uid": "txt--287-288",
+          "id": 287
+        },
+        {
+          "word": "BY",
+          "start": 288,
+          "end": 289,
+          "uid": "txt--288-289",
+          "id": 288
+        },
+        {
+          "word": "4.0",
+          "start": 289,
+          "end": 290,
+          "uid": "txt--289-290",
+          "id": 289
+        },
+        {
+          "word": "license.",
+          "start": 290,
+          "end": 291,
+          "uid": "txt--290-291",
+          "id": 290
+        },
+        {
+          "word": "Page",
+          "start": 291,
+          "end": 292,
+          "uid": "txt--291-292",
+          "id": 291
+        },
+        {
+          "word": "20:",
+          "start": 292,
+          "end": 293,
+          "uid": "txt--292-293",
+          "id": 292
+        },
+        {
+          "word": "A",
+          "start": 293,
+          "end": 294,
+          "uid": "txt--293-294",
+          "id": 293
+        },
+        {
+          "word": "boy",
+          "start": 294,
+          "end": 295,
+          "uid": "txt--294-295",
+          "id": 294
+        },
+        {
+          "word": "standing",
+          "start": 295,
+          "end": 296,
+          "uid": "txt--295-296",
+          "id": 295
+        },
+        {
+          "word": "with",
+          "start": 296,
+          "end": 297,
+          "uid": "txt--296-297",
+          "id": 296
+        },
+        {
+          "word": "his",
+          "start": 297,
+          "end": 298,
+          "uid": "txt--297-298",
+          "id": 297
+        },
+        {
+          "word": "family",
+          "start": 298,
+          "end": 299,
+          "uid": "txt--298-299",
+          "id": 298
+        },
+        {
+          "word": "and",
+          "start": 299,
+          "end": 300,
+          "uid": "txt--299-300",
+          "id": 299
+        },
+        {
+          "word": "waving,",
+          "start": 300,
+          "end": 301,
+          "uid": "txt--300-301",
+          "id": 300
+        },
+        {
+          "word": "by",
+          "start": 301,
+          "end": 302,
+          "uid": "txt--301-302",
+          "id": 301
+        },
+        {
+          "word": "Seat",
+          "start": 302,
+          "end": 303,
+          "uid": "txt--302-303",
+          "id": 302
+        },
+        {
+          "word": "Sopheap©",
+          "start": 303,
+          "end": 304,
+          "uid": "txt--303-304",
+          "id": 303
+        },
+        {
+          "word": "Room",
+          "start": 304,
+          "end": 305,
+          "uid": "txt--304-305",
+          "id": 304
+        },
+        {
+          "word": "to",
+          "start": 305,
+          "end": 306,
+          "uid": "txt--305-306",
+          "id": 305
+        },
+        {
+          "word": "Read,",
+          "start": 306,
+          "end": 307,
+          "uid": "txt--306-307",
+          "id": 306
+        },
+        {
+          "word": "2015.",
+          "start": 307,
+          "end": 308,
+          "uid": "txt--307-308",
+          "id": 307
+        },
+        {
+          "word": "Some",
+          "start": 308,
+          "end": 309,
+          "uid": "txt--308-309",
+          "id": 308
+        },
+        {
+          "word": "rights",
+          "start": 309,
+          "end": 310,
+          "uid": "txt--309-310",
+          "id": 309
+        },
+        {
+          "word": "reserved.",
+          "start": 310,
+          "end": 311,
+          "uid": "txt--310-311",
+          "id": 310
+        },
+        {
+          "word": "Released",
+          "start": 311,
+          "end": 312,
+          "uid": "txt--311-312",
+          "id": 311
+        },
+        {
+          "word": "under",
+          "start": 312,
+          "end": 313,
+          "uid": "txt--312-313",
+          "id": 312
+        },
+        {
+          "word": "CC",
+          "start": 313,
+          "end": 314,
+          "uid": "txt--313-314",
+          "id": 313
+        },
+        {
+          "word": "BY",
+          "start": 314,
+          "end": 315,
+          "uid": "txt--314-315",
+          "id": 314
+        },
+        {
+          "word": "4.0",
+          "start": 315,
+          "end": 316,
+          "uid": "txt--315-316",
+          "id": 315
+        },
+        {
+          "word": "license.",
+          "start": 316,
+          "end": 317,
+          "uid": "txt--316-317",
+          "id": 316
+        },
+        {
+          "word": "Page",
+          "start": 317,
+          "end": 318,
+          "uid": "txt--317-318",
+          "id": 317
+        },
+        {
+          "word": "21:",
+          "start": 318,
+          "end": 319,
+          "uid": "txt--318-319",
+          "id": 318
+        },
+        {
+          "word": "Five",
+          "start": 319,
+          "end": 320,
+          "uid": "txt--319-320",
+          "id": 319
+        },
+        {
+          "word": "Members",
+          "start": 320,
+          "end": 321,
+          "uid": "txt--320-321",
+          "id": 320
+        },
+        {
+          "word": "of",
+          "start": 321,
+          "end": 322,
+          "uid": "txt--321-322",
+          "id": 321
+        },
+        {
+          "word": "a",
+          "start": 322,
+          "end": 323,
+          "uid": "txt--322-323",
+          "id": 322
+        },
+        {
+          "word": "family",
+          "start": 323,
+          "end": 324,
+          "uid": "txt--323-324",
+          "id": 323
+        },
+        {
+          "word": "smiling,",
+          "start": 324,
+          "end": 325,
+          "uid": "txt--324-325",
+          "id": 324
+        },
+        {
+          "word": "by",
+          "start": 325,
+          "end": 326,
+          "uid": "txt--325-326",
+          "id": 325
+        },
+        {
+          "word": "Seat",
+          "start": 326,
+          "end": 327,
+          "uid": "txt--326-327",
+          "id": 326
+        },
+        {
+          "word": "Sopheap©",
+          "start": 327,
+          "end": 328,
+          "uid": "txt--327-328",
+          "id": 327
+        },
+        {
+          "word": "Room",
+          "start": 328,
+          "end": 329,
+          "uid": "txt--328-329",
+          "id": 328
+        },
+        {
+          "word": "to",
+          "start": 329,
+          "end": 330,
+          "uid": "txt--329-330",
+          "id": 329
+        },
+        {
+          "word": "Read,",
+          "start": 330,
+          "end": 331,
+          "uid": "txt--330-331",
+          "id": 330
+        },
+        {
+          "word": "2015.",
+          "start": 331,
+          "end": 332,
+          "uid": "txt--331-332",
+          "id": 331
+        },
+        {
+          "word": "Some",
+          "start": 332,
+          "end": 333,
+          "uid": "txt--332-333",
+          "id": 332
+        },
+        {
+          "word": "rights",
+          "start": 333,
+          "end": 334,
+          "uid": "txt--333-334",
+          "id": 333
+        },
+        {
+          "word": "reserved.",
+          "start": 334,
+          "end": 335,
+          "uid": "txt--334-335",
+          "id": 334
+        },
+        {
+          "word": "Released",
+          "start": 335,
+          "end": 336,
+          "uid": "txt--335-336",
+          "id": 335
+        },
+        {
+          "word": "under",
+          "start": 336,
+          "end": 337,
+          "uid": "txt--336-337",
+          "id": 336
+        },
+        {
+          "word": "CC",
+          "start": 337,
+          "end": 338,
+          "uid": "txt--337-338",
+          "id": 337
+        },
+        {
+          "word": "BY",
+          "start": 338,
+          "end": 339,
+          "uid": "txt--338-339",
+          "id": 338
+        },
+        {
+          "word": "4.0",
+          "start": 339,
+          "end": 340,
+          "uid": "txt--339-340",
+          "id": 339
+        },
+        {
+          "word": "license.",
+          "start": 340,
+          "end": 341,
+          "uid": "txt--340-341",
+          "id": 340
+        },
+        {
+          "word": "Disclaimer:",
+          "start": 341,
+          "end": 342,
+          "uid": "txt--341-342",
+          "id": 341
+        },
+        {
+          "word": "https://www.storyweaver.org.in/terms_and_conditions",
+          "start": 342,
+          "end": 343,
+          "uid": "txt--342-343",
+          "id": 342
+        },
+        {
+          "word": "\n",
+          "start": 343,
+          "end": 344,
+          "uid": "txt--343-344",
+          "id": 343
+        },
+        {
+          "word": "Some",
+          "start": 344,
+          "end": 345,
+          "uid": "txt--344-345",
+          "id": 344
+        },
+        {
+          "word": "rights",
+          "start": 345,
+          "end": 346,
+          "uid": "txt--345-346",
+          "id": 345
+        },
+        {
+          "word": "reserved.",
+          "start": 346,
+          "end": 347,
+          "uid": "txt--346-347",
+          "id": 346
+        },
+        {
+          "word": "This",
+          "start": 347,
+          "end": 348,
+          "uid": "txt--347-348",
+          "id": 347
+        },
+        {
+          "word": "book",
+          "start": 348,
+          "end": 349,
+          "uid": "txt--348-349",
+          "id": 348
+        },
+        {
+          "word": "is",
+          "start": 349,
+          "end": 350,
+          "uid": "txt--349-350",
+          "id": 349
+        },
+        {
+          "word": "CC­-BY­-4.0",
+          "start": 350,
+          "end": 351,
+          "uid": "txt--350-351",
+          "id": 350
+        },
+        {
+          "word": "licensed.",
+          "start": 351,
+          "end": 352,
+          "uid": "txt--351-352",
+          "id": 351
+        },
+        {
+          "word": "You",
+          "start": 352,
+          "end": 353,
+          "uid": "txt--352-353",
+          "id": 352
+        },
+        {
+          "word": "can",
+          "start": 353,
+          "end": 354,
+          "uid": "txt--353-354",
+          "id": 353
+        },
+        {
+          "word": "copy,",
+          "start": 354,
+          "end": 355,
+          "uid": "txt--354-355",
+          "id": 354
+        },
+        {
+          "word": "modify,",
+          "start": 355,
+          "end": 356,
+          "uid": "txt--355-356",
+          "id": 355
+        },
+        {
+          "word": "distribute",
+          "start": 356,
+          "end": 357,
+          "uid": "txt--356-357",
+          "id": 356
+        },
+        {
+          "word": "and",
+          "start": 357,
+          "end": 358,
+          "uid": "txt--357-358",
+          "id": 357
+        },
+        {
+          "word": "perform",
+          "start": 358,
+          "end": 359,
+          "uid": "txt--358-359",
+          "id": 358
+        },
+        {
+          "word": "the",
+          "start": 359,
+          "end": 360,
+          "uid": "txt--359-360",
+          "id": 359
+        },
+        {
+          "word": "work,",
+          "start": 360,
+          "end": 361,
+          "uid": "txt--360-361",
+          "id": 360
+        },
+        {
+          "word": "even",
+          "start": 361,
+          "end": 362,
+          "uid": "txt--361-362",
+          "id": 361
+        },
+        {
+          "word": "for",
+          "start": 362,
+          "end": 363,
+          "uid": "txt--362-363",
+          "id": 362
+        },
+        {
+          "word": "commercial",
+          "start": 363,
+          "end": 364,
+          "uid": "txt--363-364",
+          "id": 363
+        },
+        {
+          "word": "purposes,",
+          "start": 364,
+          "end": 365,
+          "uid": "txt--364-365",
+          "id": 364
+        },
+        {
+          "word": "all",
+          "start": 365,
+          "end": 366,
+          "uid": "txt--365-366",
+          "id": 365
+        },
+        {
+          "word": "without",
+          "start": 366,
+          "end": 367,
+          "uid": "txt--366-367",
+          "id": 366
+        },
+        {
+          "word": "asking",
+          "start": 367,
+          "end": 368,
+          "uid": "txt--367-368",
+          "id": 367
+        },
+        {
+          "word": "permission.",
+          "start": 368,
+          "end": 369,
+          "uid": "txt--368-369",
+          "id": 368
+        },
+        {
+          "word": "For",
+          "start": 369,
+          "end": 370,
+          "uid": "txt--369-370",
+          "id": 369
+        },
+        {
+          "word": "full",
+          "start": 370,
+          "end": 371,
+          "uid": "txt--370-371",
+          "id": 370
+        },
+        {
+          "word": "terms",
+          "start": 371,
+          "end": 372,
+          "uid": "txt--371-372",
+          "id": 371
+        },
+        {
+          "word": "of",
+          "start": 372,
+          "end": 373,
+          "uid": "txt--372-373",
+          "id": 372
+        },
+        {
+          "word": "use",
+          "start": 373,
+          "end": 374,
+          "uid": "txt--373-374",
+          "id": 373
+        },
+        {
+          "word": "and",
+          "start": 374,
+          "end": 375,
+          "uid": "txt--374-375",
+          "id": 374
+        },
+        {
+          "word": "attribution,",
+          "start": 375,
+          "end": 376,
+          "uid": "txt--375-376",
+          "id": 375
+        },
+        {
+          "word": "http://creativecommons.org/licenses/by/4.0/",
+          "start": 376,
+          "end": 377,
+          "uid": "txt--376-377",
+          "id": 376
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    },
+    {
+      "_id": "a7ced5d992ad7777849b83bd",
+      "title": "Page 24",
+      "description": "",
+      "text": "لوړ او ټیټ (پښتو)\nویلی شې چې د کورنۍ کوم غړي لوړ او کوم غړي ټیټ دي؟ په دې کتاب کې د یوه ماشوم د کورنۍ پر مټ د متضاد مفهوم لکه لوړ او ټیټ بیان شوی.\nدا لومړۍ کچې کتاب دی. د هغو ماشومانو لپاره دی چې لېوال دي لوستل پيل کړي.\nPratham Books goes digital to weave a whole new chapter in the realm of multilingual children's stories. Knitting together children, authors, illustrators and publishers. Folding in teachers, and translators. To create a rich fabric of openly licensed multilingual stories for the children of India ­­and the world. Our unique online platform, StoryWeaver, is a playground where children, parents, teachers and librarians can get creative. Come, start weaving today, and help us get a book in every child's hand!",
+      "media": [
+        {
+          "_id": "2201e833163122fa3185b109",
+          "id": "2201e833163122fa3185b109",
+          "name": "په دې انځور کې د « سټوري ویور» لوګو ګورئ",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/2b90828a9f3bb8ae9c9ebfe1/assets/images/file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "filename": "file-1ce0e999d2f96c6d254c2de8d763318a.jpg",
+          "position": {
+            "left": 20.0,
+            "top": 105.46
+          },
+          "scaleSize": 121.094,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 209,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "لوړ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "او",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "ټیټ",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "(پښتو)",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "\n",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "ویلی",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "شې",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "چې",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "د",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "کورنۍ",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "کوم",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "غړي",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "لوړ",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "او",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "کوم",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "غړي",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "ټیټ",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "دي؟",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "په",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "دې",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "کتاب",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "کې",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "د",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "یوه",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "ماشوم",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "د",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "کورنۍ",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "پر",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "مټ",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "د",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "متضاد",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "مفهوم",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "لکه",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "لوړ",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "او",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "ټیټ",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "بیان",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "شوی.",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "\n",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "دا",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "لومړۍ",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "کچې",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "کتاب",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "دی.",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        },
+        {
+          "word": "د",
+          "start": 44,
+          "end": 45,
+          "uid": "txt--44-45",
+          "id": 44
+        },
+        {
+          "word": "هغو",
+          "start": 45,
+          "end": 46,
+          "uid": "txt--45-46",
+          "id": 45
+        },
+        {
+          "word": "ماشومانو",
+          "start": 46,
+          "end": 47,
+          "uid": "txt--46-47",
+          "id": 46
+        },
+        {
+          "word": "لپاره",
+          "start": 47,
+          "end": 48,
+          "uid": "txt--47-48",
+          "id": 47
+        },
+        {
+          "word": "دی",
+          "start": 48,
+          "end": 49,
+          "uid": "txt--48-49",
+          "id": 48
+        },
+        {
+          "word": "چې",
+          "start": 49,
+          "end": 50,
+          "uid": "txt--49-50",
+          "id": 49
+        },
+        {
+          "word": "لېوال",
+          "start": 50,
+          "end": 51,
+          "uid": "txt--50-51",
+          "id": 50
+        },
+        {
+          "word": "دي",
+          "start": 51,
+          "end": 52,
+          "uid": "txt--51-52",
+          "id": 51
+        },
+        {
+          "word": "لوستل",
+          "start": 52,
+          "end": 53,
+          "uid": "txt--52-53",
+          "id": 52
+        },
+        {
+          "word": "پيل",
+          "start": 53,
+          "end": 54,
+          "uid": "txt--53-54",
+          "id": 53
+        },
+        {
+          "word": "کړي.",
+          "start": 54,
+          "end": 55,
+          "uid": "txt--54-55",
+          "id": 54
+        },
+        {
+          "word": "\n",
+          "start": 55,
+          "end": 56,
+          "uid": "txt--55-56",
+          "id": 55
+        },
+        {
+          "word": "Pratham",
+          "start": 56,
+          "end": 57,
+          "uid": "txt--56-57",
+          "id": 56
+        },
+        {
+          "word": "Books",
+          "start": 57,
+          "end": 58,
+          "uid": "txt--57-58",
+          "id": 57
+        },
+        {
+          "word": "goes",
+          "start": 58,
+          "end": 59,
+          "uid": "txt--58-59",
+          "id": 58
+        },
+        {
+          "word": "digital",
+          "start": 59,
+          "end": 60,
+          "uid": "txt--59-60",
+          "id": 59
+        },
+        {
+          "word": "to",
+          "start": 60,
+          "end": 61,
+          "uid": "txt--60-61",
+          "id": 60
+        },
+        {
+          "word": "weave",
+          "start": 61,
+          "end": 62,
+          "uid": "txt--61-62",
+          "id": 61
+        },
+        {
+          "word": "a",
+          "start": 62,
+          "end": 63,
+          "uid": "txt--62-63",
+          "id": 62
+        },
+        {
+          "word": "whole",
+          "start": 63,
+          "end": 64,
+          "uid": "txt--63-64",
+          "id": 63
+        },
+        {
+          "word": "new",
+          "start": 64,
+          "end": 65,
+          "uid": "txt--64-65",
+          "id": 64
+        },
+        {
+          "word": "chapter",
+          "start": 65,
+          "end": 66,
+          "uid": "txt--65-66",
+          "id": 65
+        },
+        {
+          "word": "in",
+          "start": 66,
+          "end": 67,
+          "uid": "txt--66-67",
+          "id": 66
+        },
+        {
+          "word": "the",
+          "start": 67,
+          "end": 68,
+          "uid": "txt--67-68",
+          "id": 67
+        },
+        {
+          "word": "realm",
+          "start": 68,
+          "end": 69,
+          "uid": "txt--68-69",
+          "id": 68
+        },
+        {
+          "word": "of",
+          "start": 69,
+          "end": 70,
+          "uid": "txt--69-70",
+          "id": 69
+        },
+        {
+          "word": "multilingual",
+          "start": 70,
+          "end": 71,
+          "uid": "txt--70-71",
+          "id": 70
+        },
+        {
+          "word": "children's",
+          "start": 71,
+          "end": 72,
+          "uid": "txt--71-72",
+          "id": 71
+        },
+        {
+          "word": "stories.",
+          "start": 72,
+          "end": 73,
+          "uid": "txt--72-73",
+          "id": 72
+        },
+        {
+          "word": "Knitting",
+          "start": 73,
+          "end": 74,
+          "uid": "txt--73-74",
+          "id": 73
+        },
+        {
+          "word": "together",
+          "start": 74,
+          "end": 75,
+          "uid": "txt--74-75",
+          "id": 74
+        },
+        {
+          "word": "children,",
+          "start": 75,
+          "end": 76,
+          "uid": "txt--75-76",
+          "id": 75
+        },
+        {
+          "word": "authors,",
+          "start": 76,
+          "end": 77,
+          "uid": "txt--76-77",
+          "id": 76
+        },
+        {
+          "word": "illustrators",
+          "start": 77,
+          "end": 78,
+          "uid": "txt--77-78",
+          "id": 77
+        },
+        {
+          "word": "and",
+          "start": 78,
+          "end": 79,
+          "uid": "txt--78-79",
+          "id": 78
+        },
+        {
+          "word": "publishers.",
+          "start": 79,
+          "end": 80,
+          "uid": "txt--79-80",
+          "id": 79
+        },
+        {
+          "word": "Folding",
+          "start": 80,
+          "end": 81,
+          "uid": "txt--80-81",
+          "id": 80
+        },
+        {
+          "word": "in",
+          "start": 81,
+          "end": 82,
+          "uid": "txt--81-82",
+          "id": 81
+        },
+        {
+          "word": "teachers,",
+          "start": 82,
+          "end": 83,
+          "uid": "txt--82-83",
+          "id": 82
+        },
+        {
+          "word": "and",
+          "start": 83,
+          "end": 84,
+          "uid": "txt--83-84",
+          "id": 83
+        },
+        {
+          "word": "translators.",
+          "start": 84,
+          "end": 85,
+          "uid": "txt--84-85",
+          "id": 84
+        },
+        {
+          "word": "To",
+          "start": 85,
+          "end": 86,
+          "uid": "txt--85-86",
+          "id": 85
+        },
+        {
+          "word": "create",
+          "start": 86,
+          "end": 87,
+          "uid": "txt--86-87",
+          "id": 86
+        },
+        {
+          "word": "a",
+          "start": 87,
+          "end": 88,
+          "uid": "txt--87-88",
+          "id": 87
+        },
+        {
+          "word": "rich",
+          "start": 88,
+          "end": 89,
+          "uid": "txt--88-89",
+          "id": 88
+        },
+        {
+          "word": "fabric",
+          "start": 89,
+          "end": 90,
+          "uid": "txt--89-90",
+          "id": 89
+        },
+        {
+          "word": "of",
+          "start": 90,
+          "end": 91,
+          "uid": "txt--90-91",
+          "id": 90
+        },
+        {
+          "word": "openly",
+          "start": 91,
+          "end": 92,
+          "uid": "txt--91-92",
+          "id": 91
+        },
+        {
+          "word": "licensed",
+          "start": 92,
+          "end": 93,
+          "uid": "txt--92-93",
+          "id": 92
+        },
+        {
+          "word": "multilingual",
+          "start": 93,
+          "end": 94,
+          "uid": "txt--93-94",
+          "id": 93
+        },
+        {
+          "word": "stories",
+          "start": 94,
+          "end": 95,
+          "uid": "txt--94-95",
+          "id": 94
+        },
+        {
+          "word": "for",
+          "start": 95,
+          "end": 96,
+          "uid": "txt--95-96",
+          "id": 95
+        },
+        {
+          "word": "the",
+          "start": 96,
+          "end": 97,
+          "uid": "txt--96-97",
+          "id": 96
+        },
+        {
+          "word": "children",
+          "start": 97,
+          "end": 98,
+          "uid": "txt--97-98",
+          "id": 97
+        },
+        {
+          "word": "of",
+          "start": 98,
+          "end": 99,
+          "uid": "txt--98-99",
+          "id": 98
+        },
+        {
+          "word": "India",
+          "start": 99,
+          "end": 100,
+          "uid": "txt--99-100",
+          "id": 99
+        },
+        {
+          "word": "­­and",
+          "start": 100,
+          "end": 101,
+          "uid": "txt--100-101",
+          "id": 100
+        },
+        {
+          "word": "the",
+          "start": 101,
+          "end": 102,
+          "uid": "txt--101-102",
+          "id": 101
+        },
+        {
+          "word": "world.",
+          "start": 102,
+          "end": 103,
+          "uid": "txt--102-103",
+          "id": 102
+        },
+        {
+          "word": "Our",
+          "start": 103,
+          "end": 104,
+          "uid": "txt--103-104",
+          "id": 103
+        },
+        {
+          "word": "unique",
+          "start": 104,
+          "end": 105,
+          "uid": "txt--104-105",
+          "id": 104
+        },
+        {
+          "word": "online",
+          "start": 105,
+          "end": 106,
+          "uid": "txt--105-106",
+          "id": 105
+        },
+        {
+          "word": "platform,",
+          "start": 106,
+          "end": 107,
+          "uid": "txt--106-107",
+          "id": 106
+        },
+        {
+          "word": "StoryWeaver,",
+          "start": 107,
+          "end": 108,
+          "uid": "txt--107-108",
+          "id": 107
+        },
+        {
+          "word": "is",
+          "start": 108,
+          "end": 109,
+          "uid": "txt--108-109",
+          "id": 108
+        },
+        {
+          "word": "a",
+          "start": 109,
+          "end": 110,
+          "uid": "txt--109-110",
+          "id": 109
+        },
+        {
+          "word": "playground",
+          "start": 110,
+          "end": 111,
+          "uid": "txt--110-111",
+          "id": 110
+        },
+        {
+          "word": "where",
+          "start": 111,
+          "end": 112,
+          "uid": "txt--111-112",
+          "id": 111
+        },
+        {
+          "word": "children,",
+          "start": 112,
+          "end": 113,
+          "uid": "txt--112-113",
+          "id": 112
+        },
+        {
+          "word": "parents,",
+          "start": 113,
+          "end": 114,
+          "uid": "txt--113-114",
+          "id": 113
+        },
+        {
+          "word": "teachers",
+          "start": 114,
+          "end": 115,
+          "uid": "txt--114-115",
+          "id": 114
+        },
+        {
+          "word": "and",
+          "start": 115,
+          "end": 116,
+          "uid": "txt--115-116",
+          "id": 115
+        },
+        {
+          "word": "librarians",
+          "start": 116,
+          "end": 117,
+          "uid": "txt--116-117",
+          "id": 116
+        },
+        {
+          "word": "can",
+          "start": 117,
+          "end": 118,
+          "uid": "txt--117-118",
+          "id": 117
+        },
+        {
+          "word": "get",
+          "start": 118,
+          "end": 119,
+          "uid": "txt--118-119",
+          "id": 118
+        },
+        {
+          "word": "creative.",
+          "start": 119,
+          "end": 120,
+          "uid": "txt--119-120",
+          "id": 119
+        },
+        {
+          "word": "Come,",
+          "start": 120,
+          "end": 121,
+          "uid": "txt--120-121",
+          "id": 120
+        },
+        {
+          "word": "start",
+          "start": 121,
+          "end": 122,
+          "uid": "txt--121-122",
+          "id": 121
+        },
+        {
+          "word": "weaving",
+          "start": 122,
+          "end": 123,
+          "uid": "txt--122-123",
+          "id": 122
+        },
+        {
+          "word": "today,",
+          "start": 123,
+          "end": 124,
+          "uid": "txt--123-124",
+          "id": 123
+        },
+        {
+          "word": "and",
+          "start": 124,
+          "end": 125,
+          "uid": "txt--124-125",
+          "id": 124
+        },
+        {
+          "word": "help",
+          "start": 125,
+          "end": 126,
+          "uid": "txt--125-126",
+          "id": 125
+        },
+        {
+          "word": "us",
+          "start": 126,
+          "end": 127,
+          "uid": "txt--126-127",
+          "id": 126
+        },
+        {
+          "word": "get",
+          "start": 127,
+          "end": 128,
+          "uid": "txt--127-128",
+          "id": 127
+        },
+        {
+          "word": "a",
+          "start": 128,
+          "end": 129,
+          "uid": "txt--128-129",
+          "id": 128
+        },
+        {
+          "word": "book",
+          "start": 129,
+          "end": 130,
+          "uid": "txt--129-130",
+          "id": 129
+        },
+        {
+          "word": "in",
+          "start": 130,
+          "end": 131,
+          "uid": "txt--130-131",
+          "id": 130
+        },
+        {
+          "word": "every",
+          "start": 131,
+          "end": 132,
+          "uid": "txt--131-132",
+          "id": 131
+        },
+        {
+          "word": "child's",
+          "start": 132,
+          "end": 133,
+          "uid": "txt--132-133",
+          "id": 132
+        },
+        {
+          "word": "hand!",
+          "start": 133,
+          "end": 134,
+          "uid": "txt--133-134",
+          "id": 133
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ffffff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    }
+  ],
+  "cover": {
+    "show": false,
+    "image": null,
+    "text": null,
+    "description": null
+  }
+}

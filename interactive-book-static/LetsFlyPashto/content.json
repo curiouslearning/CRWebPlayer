@@ -1,0 +1,2589 @@
+{
+  "_id": "1adc2dcd2acfb32a3f403908",
+  "title": "راځئ پرواز وکړو",
+  "license": "CC-BY-4.0",
+  "published": true,
+  "slug": "LetsFlyPashto",
+  "version": "0.0.1",
+  "createdAt": "2026-11-25T10:53:38.000Z",
+  "updatedAt": "2026-11-25T10:53:38.000Z",
+  "language": "ps",
+  "credits": {
+    "text": "",
+    "logos": []
+  },
+  "illustration": null,
+  "coverText": "",
+  "config": {
+    "textDirection": "RTL",
+    "voiceId": "",
+    "audioLanguage": "ps"
+  },
+  "bookDescription": null,
+  "bookText": null,
+  "tags": [
+    "converted-from-h5p"
+  ],
+  "body": [
+    {
+      "_id": "5862aadc8381f904bf294af8",
+      "title": "Page 1",
+      "description": "",
+      "text": "راځئ پرواز وکړو",
+      "media": [
+        {
+          "_id": "062e6647a4d8de72f9ac5948",
+          "id": "062e6647a4d8de72f9ac5948",
+          "name": "file-61b0fbce652e3.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fbce652e3.jpg",
+          "filename": "file-61b0fbce652e3.jpg",
+          "position": {
+            "left": 201.22,
+            "top": 68.29
+          },
+          "scaleSize": 82.192,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 490,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "راځئ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پرواز",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "وکړو",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "e7745940d834fe2187861153",
+        "pageId": "5862aadc8381f904bf294af8",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-00.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-00.mp3",
+          "filename": "page-00.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-0-0",
+              "word": "راځئ",
+              "start": 0.56,
+              "end": 1.04,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c77a691ebbe0.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c77a691ebbe0.mp3",
+              "filename": "word-c77a691ebbe0.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-0-1",
+              "word": "پرواز",
+              "start": 1.04,
+              "end": 1.68,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f8a3affdf0fc.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f8a3affdf0fc.mp3",
+              "filename": "word-f8a3affdf0fc.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-0-2",
+              "word": "وکړو",
+              "start": 1.68,
+              "end": 2.14,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-317440287009.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-317440287009.mp3",
+              "filename": "word-317440287009.mp3"
+            }
+          ],
+          "text": "راځئ پرواز وکړو",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "7c01af823f28b2da0b60e2f7",
+      "title": "Page 2",
+      "description": "",
+      "text": "مرغان پرواز کوي. طوطي پرواز کوی",
+      "media": [
+        {
+          "_id": "9b8140ef3c12377014bff432",
+          "id": "9b8140ef3c12377014bff432",
+          "name": "file-61b0fb7e5066d.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fb7e5066d.jpg",
+          "filename": "file-61b0fb7e5066d.jpg",
+          "position": {
+            "left": 464.31,
+            "top": 65.84
+          },
+          "scaleSize": 35.703,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-1-0",
+                "word": "مرغان",
+                "start": 0.72,
+                "end": 1.2,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ac9cb15ae763.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ac9cb15ae763.mp3",
+                "filename": "word-ac9cb15ae763.mp3"
+              },
+              {
+                "id": 3,
+                "uid": "rec-1-3",
+                "word": "طوطي",
+                "start": 2.48,
+                "end": 2.88,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af52950e014e.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af52950e014e.mp3",
+                "filename": "word-af52950e014e.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مرغان",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پرواز",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کوي.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "طوطي",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "پرواز",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کوی",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "584aa2d2c2d6b27126ad9eee",
+        "pageId": "7c01af823f28b2da0b60e2f7",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-01.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-01.mp3",
+          "filename": "page-01.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-1-0",
+              "word": "مرغان",
+              "start": 0.72,
+              "end": 1.2,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ac9cb15ae763.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ac9cb15ae763.mp3",
+              "filename": "word-ac9cb15ae763.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-1-1",
+              "word": "پرواز",
+              "start": 1.2,
+              "end": 1.74,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-04fc0e962652.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-04fc0e962652.mp3",
+              "filename": "word-04fc0e962652.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-1-2",
+              "word": "کوي.",
+              "start": 1.74,
+              "end": 2.18,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-e6a254e9cd7d.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-e6a254e9cd7d.mp3",
+              "filename": "word-e6a254e9cd7d.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-1-3",
+              "word": "طوطي",
+              "start": 2.48,
+              "end": 2.88,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af52950e014e.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af52950e014e.mp3",
+              "filename": "word-af52950e014e.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-1-4",
+              "word": "پرواز",
+              "start": 2.88,
+              "end": 3.52,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-895fa3e89274.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-895fa3e89274.mp3",
+              "filename": "word-895fa3e89274.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-1-5",
+              "word": "کوی",
+              "start": 3.52,
+              "end": 3.9,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c19f20c456c5.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c19f20c456c5.mp3",
+              "filename": "word-c19f20c456c5.mp3"
+            }
+          ],
+          "text": "مرغان پرواز کوي. طوطي پرواز کوی",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "217dc76308ffd1e5a7abe38a",
+      "title": "Page 3",
+      "description": "",
+      "text": "آس نه شي الوتلی",
+      "media": [
+        {
+          "_id": "2a211a6d2f25a7fe52440a3e",
+          "id": "2a211a6d2f25a7fe52440a3e",
+          "name": "file-61b0fc3ae2444.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fc3ae2444.jpg",
+          "filename": "file-61b0fc3ae2444.jpg",
+          "position": {
+            "left": 451.63,
+            "top": 60.68
+          },
+          "scaleSize": 38.042,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-2-0",
+                "word": "آس",
+                "start": 0.6,
+                "end": 0.7,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ef6f7b52127a.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ef6f7b52127a.mp3",
+                "filename": "word-ef6f7b52127a.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "آس",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "نه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "شي",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "الوتلی",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "fa34dc0cdd1e1a4671437aca",
+        "pageId": "217dc76308ffd1e5a7abe38a",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-02.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-02.mp3",
+          "filename": "page-02.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-2-0",
+              "word": "آس",
+              "start": 0.6,
+              "end": 0.7,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ef6f7b52127a.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ef6f7b52127a.mp3",
+              "filename": "word-ef6f7b52127a.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-2-1",
+              "word": "نه",
+              "start": 0.7,
+              "end": 0.98,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-728b6c1b7107.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-728b6c1b7107.mp3",
+              "filename": "word-728b6c1b7107.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-2-2",
+              "word": "شي",
+              "start": 0.98,
+              "end": 1.12,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-1a1efd2f386b.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-1a1efd2f386b.mp3",
+              "filename": "word-1a1efd2f386b.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-2-3",
+              "word": "الوتلی",
+              "start": 1.12,
+              "end": 1.72,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-dd3232e64233.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-dd3232e64233.mp3",
+              "filename": "word-dd3232e64233.mp3"
+            }
+          ],
+          "text": "آس نه شي الوتلی",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "14be714d6af6640d8d706f66",
+      "title": "Page 4",
+      "description": "",
+      "text": "مچان پرواز کوي. سیکاډاس الوتنه کوي",
+      "media": [
+        {
+          "_id": "1383416ab9b668f16a8df45f",
+          "id": "1383416ab9b668f16a8df45f",
+          "name": "file-61b0fcf6e4c40.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fcf6e4c40.jpg",
+          "filename": "file-61b0fcf6e4c40.jpg",
+          "position": {
+            "left": 385.19,
+            "top": 82.49
+          },
+          "scaleSize": 49.998,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 735,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-3-0",
+                "word": "مچان",
+                "start": 0.58,
+                "end": 1.02,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ee5f8d95b380.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ee5f8d95b380.mp3",
+                "filename": "word-ee5f8d95b380.mp3"
+              },
+              {
+                "id": 3,
+                "uid": "rec-3-3",
+                "word": "سیکاډاس",
+                "start": 3.26,
+                "end": 3.86,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-603ae54c7703.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-603ae54c7703.mp3",
+                "filename": "word-603ae54c7703.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مچان",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پرواز",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کوي.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "سیکاډاس",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "الوتنه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کوي",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "81e6fcb8e548d66a432e4cd3",
+        "pageId": "14be714d6af6640d8d706f66",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-03.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-03.mp3",
+          "filename": "page-03.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-3-0",
+              "word": "مچان",
+              "start": 0.58,
+              "end": 1.02,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ee5f8d95b380.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ee5f8d95b380.mp3",
+              "filename": "word-ee5f8d95b380.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-3-1",
+              "word": "پرواز",
+              "start": 1.02,
+              "end": 1.58,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f1c7de8f772c.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f1c7de8f772c.mp3",
+              "filename": "word-f1c7de8f772c.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-3-2",
+              "word": "کوي.",
+              "start": 1.58,
+              "end": 2.08,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-5c931d0836c7.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-5c931d0836c7.mp3",
+              "filename": "word-5c931d0836c7.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-3-3",
+              "word": "سیکاډاس",
+              "start": 3.26,
+              "end": 3.86,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-603ae54c7703.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-603ae54c7703.mp3",
+              "filename": "word-603ae54c7703.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-3-4",
+              "word": "الوتنه",
+              "start": 3.86,
+              "end": 4.52,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2f2a890a2aff.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2f2a890a2aff.mp3",
+              "filename": "word-2f2a890a2aff.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-3-5",
+              "word": "کوي",
+              "start": 4.52,
+              "end": 4.88,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8cf7b276d5b6.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8cf7b276d5b6.mp3",
+              "filename": "word-8cf7b276d5b6.mp3"
+            }
+          ],
+          "text": "مچان پرواز کوي. سیکاډاس الوتنه کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "ba1640f604d1d73dd8b00383",
+      "title": "Page 5",
+      "description": "",
+      "text": "کوچرګلی پرواز نشي کولی",
+      "media": [
+        {
+          "_id": "0d0768fcd9b23320619d4459",
+          "id": "0d0768fcd9b23320619d4459",
+          "name": "file-61b0fd4e9bf21.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fd4e9bf21.jpg",
+          "filename": "file-61b0fd4e9bf21.jpg",
+          "position": {
+            "left": 460.45,
+            "top": 73.16
+          },
+          "scaleSize": 36.611,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-4-0",
+                "word": "کوچرګلی",
+                "start": 0.92,
+                "end": 1.36,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3ba0071f8608.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3ba0071f8608.mp3",
+                "filename": "word-3ba0071f8608.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "کوچرګلی",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پرواز",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "نشي",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کولی",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#f5fef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "844685c5d21e8dfbf5ee6902",
+        "pageId": "ba1640f604d1d73dd8b00383",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-04.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-04.mp3",
+          "filename": "page-04.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-4-0",
+              "word": "کوچرګلی",
+              "start": 0.92,
+              "end": 1.36,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3ba0071f8608.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3ba0071f8608.mp3",
+              "filename": "word-3ba0071f8608.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-4-1",
+              "word": "پرواز",
+              "start": 1.36,
+              "end": 1.76,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-988a188a1b27.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-988a188a1b27.mp3",
+              "filename": "word-988a188a1b27.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-4-2",
+              "word": "نشي",
+              "start": 1.76,
+              "end": 2.18,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-370ba16fb935.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-370ba16fb935.mp3",
+              "filename": "word-370ba16fb935.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-4-3",
+              "word": "کولی",
+              "start": 2.18,
+              "end": 2.66,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-df3043e9d617.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-df3043e9d617.mp3",
+              "filename": "word-df3043e9d617.mp3"
+            }
+          ],
+          "text": "کوچرګلی پرواز نشي کولی",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "3c6ccdc50a76af1d604e8d89",
+      "title": "Page 6",
+      "description": "",
+      "text": "مرغان پرواز کوي. پیلیکان الوتنه کوي",
+      "media": [
+        {
+          "_id": "abfa74a20f0b5c1dc69e37eb",
+          "id": "abfa74a20f0b5c1dc69e37eb",
+          "name": "file-61b0fe64a98f6.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fe64a98f6.jpg",
+          "filename": "file-61b0fe64a98f6.jpg",
+          "position": {
+            "left": 453.73,
+            "top": 73.16
+          },
+          "scaleSize": 37.31,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-5-0",
+                "word": "مرغان",
+                "start": 0.92,
+                "end": 1.38,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-860dbfb97f0c.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-860dbfb97f0c.mp3",
+                "filename": "word-860dbfb97f0c.mp3"
+              },
+              {
+                "id": 3,
+                "uid": "rec-5-3",
+                "word": "پیلیکان",
+                "start": 2.88,
+                "end": 3.44,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3a597574f9c4.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3a597574f9c4.mp3",
+                "filename": "word-3a597574f9c4.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "مرغان",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "پرواز",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کوي.",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "پیلیکان",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "الوتنه",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "کوي",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "d974ea5cbb776b1336911e9f",
+        "pageId": "3c6ccdc50a76af1d604e8d89",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-05.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-05.mp3",
+          "filename": "page-05.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-5-0",
+              "word": "مرغان",
+              "start": 0.92,
+              "end": 1.38,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-860dbfb97f0c.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-860dbfb97f0c.mp3",
+              "filename": "word-860dbfb97f0c.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-5-1",
+              "word": "پرواز",
+              "start": 1.38,
+              "end": 1.96,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-41205f07283e.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-41205f07283e.mp3",
+              "filename": "word-41205f07283e.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-5-2",
+              "word": "کوي.",
+              "start": 1.96,
+              "end": 2.46,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fbf1332bf4f0.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fbf1332bf4f0.mp3",
+              "filename": "word-fbf1332bf4f0.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-5-3",
+              "word": "پیلیکان",
+              "start": 2.88,
+              "end": 3.44,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3a597574f9c4.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3a597574f9c4.mp3",
+              "filename": "word-3a597574f9c4.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-5-4",
+              "word": "الوتنه",
+              "start": 3.44,
+              "end": 4.06,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3be13ccb4456.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-3be13ccb4456.mp3",
+              "filename": "word-3be13ccb4456.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-5-5",
+              "word": "کوي",
+              "start": 4.06,
+              "end": 4.42,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-84d65cadcf4a.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-84d65cadcf4a.mp3",
+              "filename": "word-84d65cadcf4a.mp3"
+            }
+          ],
+          "text": "مرغان پرواز کوي. پیلیکان الوتنه کوي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "cd8c111cf9a2a865f9c9db36",
+      "title": "Page 7",
+      "description": "",
+      "text": "ګیبون نشي کولی الوتنه وکړي",
+      "media": [
+        {
+          "_id": "7fc758d10e338f50bae9ffe5",
+          "id": "7fc758d10e338f50bae9ffe5",
+          "name": "file-61b0fec0c4e2a.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0fec0c4e2a.jpg",
+          "filename": "file-61b0fec0c4e2a.jpg",
+          "position": {
+            "left": 355.56,
+            "top": 78.59
+          },
+          "scaleSize": 55.013,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 735,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-6-0",
+                "word": "ګیبون",
+                "start": 0.5,
+                "end": 0.96,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6de80b35b979.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6de80b35b979.mp3",
+                "filename": "word-6de80b35b979.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ګیبون",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "نشي",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "کولی",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "الوتنه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "وکړي",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "6098fb1fc2a5355febf0d6f0",
+        "pageId": "cd8c111cf9a2a865f9c9db36",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-06.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-06.mp3",
+          "filename": "page-06.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-6-0",
+              "word": "ګیبون",
+              "start": 0.5,
+              "end": 0.96,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6de80b35b979.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6de80b35b979.mp3",
+              "filename": "word-6de80b35b979.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-6-1",
+              "word": "نشي",
+              "start": 0.96,
+              "end": 1.4,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a9313c7d9ae1.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a9313c7d9ae1.mp3",
+              "filename": "word-a9313c7d9ae1.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-6-2",
+              "word": "کولی",
+              "start": 1.4,
+              "end": 1.86,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f2f0d7f04b46.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-f2f0d7f04b46.mp3",
+              "filename": "word-f2f0d7f04b46.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-6-3",
+              "word": "الوتنه",
+              "start": 1.86,
+              "end": 2.44,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0c3cb1a628b8.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0c3cb1a628b8.mp3",
+              "filename": "word-0c3cb1a628b8.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-6-4",
+              "word": "وکړي",
+              "start": 2.44,
+              "end": 2.86,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0fd7c176dfec.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0fd7c176dfec.mp3",
+              "filename": "word-0fd7c176dfec.mp3"
+            }
+          ],
+          "text": "ګیبون نشي کولی الوتنه وکړي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "48380cb75fe9b4a3ef69adf0",
+      "title": "Page 8",
+      "description": "",
+      "text": "ایګریټ کولی شي الوتنه وکړي. هورنبیل پرواز کولی شي",
+      "media": [
+        {
+          "_id": "96d4bb3b86e6da19b3beabac",
+          "id": "96d4bb3b86e6da19b3beabac",
+          "name": "file-61b0ff34353af.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0ff34353af.jpg",
+          "filename": "file-61b0ff34353af.jpg",
+          "position": {
+            "left": 352.21,
+            "top": 73.16
+          },
+          "scaleSize": 55.438,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 735,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-7-0",
+                "word": "ایګریټ",
+                "start": 0.76,
+                "end": 1.18,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8306241a5996.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8306241a5996.mp3",
+                "filename": "word-8306241a5996.mp3"
+              },
+              {
+                "id": 5,
+                "uid": "rec-7-5",
+                "word": "هورنبیل",
+                "start": 3.3,
+                "end": 3.88,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-aa96ff0d14da.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-aa96ff0d14da.mp3",
+                "filename": "word-aa96ff0d14da.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "ایګریټ",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "کولی",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "شي",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "الوتنه",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "وکړي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "هورنبیل",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "پرواز",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "کولی",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "شي",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#ecf9ff",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "a6bc1b6b0f6fc33a4b95586a",
+        "pageId": "48380cb75fe9b4a3ef69adf0",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-07.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-07.mp3",
+          "filename": "page-07.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-7-0",
+              "word": "ایګریټ",
+              "start": 0.76,
+              "end": 1.18,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8306241a5996.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8306241a5996.mp3",
+              "filename": "word-8306241a5996.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-7-1",
+              "word": "کولی",
+              "start": 1.28,
+              "end": 1.64,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af700cf12470.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-af700cf12470.mp3",
+              "filename": "word-af700cf12470.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-7-2",
+              "word": "شي",
+              "start": 1.64,
+              "end": 1.78,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0789690d337e.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0789690d337e.mp3",
+              "filename": "word-0789690d337e.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-7-3",
+              "word": "الوتنه",
+              "start": 1.78,
+              "end": 2.44,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-4f5d19dbe6c7.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-4f5d19dbe6c7.mp3",
+              "filename": "word-4f5d19dbe6c7.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-7-4",
+              "word": "وکړي.",
+              "start": 2.44,
+              "end": 2.92,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-d4fcc90df9d4.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-d4fcc90df9d4.mp3",
+              "filename": "word-d4fcc90df9d4.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-7-5",
+              "word": "هورنبیل",
+              "start": 3.3,
+              "end": 3.88,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-aa96ff0d14da.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-aa96ff0d14da.mp3",
+              "filename": "word-aa96ff0d14da.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-7-6",
+              "word": "پرواز",
+              "start": 3.88,
+              "end": 4.44,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2a057f3ae2dd.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2a057f3ae2dd.mp3",
+              "filename": "word-2a057f3ae2dd.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-7-7",
+              "word": "کولی",
+              "start": 4.5,
+              "end": 4.86,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-b8baf36b4d0d.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-b8baf36b4d0d.mp3",
+              "filename": "word-b8baf36b4d0d.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-7-8",
+              "word": "شي",
+              "start": 4.86,
+              "end": 5.02,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fa661f2b49ff.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fa661f2b49ff.mp3",
+              "filename": "word-fa661f2b49ff.mp3"
+            }
+          ],
+          "text": "ایګریټ کولی شي الوتنه وکړي. هورنبیل پرواز کولی شي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "9e16fd1dbce240cae6d48dc2",
+      "title": "Page 9",
+      "description": "",
+      "text": "زمری الوتلی نشی",
+      "media": [
+        {
+          "_id": "6806808c3b96879bc9d5f912",
+          "id": "6806808c3b96879bc9d5f912",
+          "name": "file-61b0ff878c04b.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0ff878c04b.jpg",
+          "filename": "file-61b0ff878c04b.jpg",
+          "position": {
+            "left": 444.13,
+            "top": 58.53
+          },
+          "scaleSize": 38.099,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-8-0",
+                "word": "زمری",
+                "start": 0.48,
+                "end": 1.0,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ce1d65da089a.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ce1d65da089a.mp3",
+                "filename": "word-ce1d65da089a.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "زمری",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "الوتلی",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "نشی",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fefaf0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "1af05ae21cce0876fdbb69fc",
+        "pageId": "9e16fd1dbce240cae6d48dc2",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-08.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-08.mp3",
+          "filename": "page-08.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-8-0",
+              "word": "زمری",
+              "start": 0.48,
+              "end": 1.0,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ce1d65da089a.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-ce1d65da089a.mp3",
+              "filename": "word-ce1d65da089a.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-8-1",
+              "word": "الوتلی",
+              "start": 1.0,
+              "end": 1.64,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-94626ba137f8.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-94626ba137f8.mp3",
+              "filename": "word-94626ba137f8.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-8-2",
+              "word": "نشی",
+              "start": 1.64,
+              "end": 2.02,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-39672cceaf53.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-39672cceaf53.mp3",
+              "filename": "word-39672cceaf53.mp3"
+            }
+          ],
+          "text": "زمری الوتلی نشی",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "7309138315ea21492282340f",
+      "title": "Page 10",
+      "description": "",
+      "text": "تور الو پرواز کولی شي. مچي کولی شي الوتنه وکړي",
+      "media": [
+        {
+          "_id": "db2b70de7574c02ed1baa3a2",
+          "id": "db2b70de7574c02ed1baa3a2",
+          "name": "file-61b0ffdd62fe7.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b0ffdd62fe7.jpg",
+          "filename": "file-61b0ffdd62fe7.jpg",
+          "position": {
+            "left": 432.25,
+            "top": 62.13
+          },
+          "scaleSize": 38.104,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 1,
+                "uid": "rec-9-1",
+                "word": "الو",
+                "start": 1.32,
+                "end": 1.72,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-01b1175244f2.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-01b1175244f2.mp3",
+                "filename": "word-01b1175244f2.mp3"
+              },
+              {
+                "id": 5,
+                "uid": "rec-9-5",
+                "word": "مچي",
+                "start": 4.28,
+                "end": 4.68,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-50e7e1384c36.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-50e7e1384c36.mp3",
+                "filename": "word-50e7e1384c36.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "تور",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "الو",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "پرواز",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کولی",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "شي.",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "مچي",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "کولی",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "شي",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "الوتنه",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "وکړي",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fffcec",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "91c7f7a4d7d34202f0be13f7",
+        "pageId": "7309138315ea21492282340f",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-09.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-09.mp3",
+          "filename": "page-09.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-9-0",
+              "word": "تور",
+              "start": 1.12,
+              "end": 1.32,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6e33920a2581.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-6e33920a2581.mp3",
+              "filename": "word-6e33920a2581.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-9-1",
+              "word": "الو",
+              "start": 1.32,
+              "end": 1.72,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-01b1175244f2.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-01b1175244f2.mp3",
+              "filename": "word-01b1175244f2.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-9-2",
+              "word": "پرواز",
+              "start": 1.72,
+              "end": 2.3,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fc31c1aec222.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-fc31c1aec222.mp3",
+              "filename": "word-fc31c1aec222.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-9-3",
+              "word": "کولی",
+              "start": 2.38,
+              "end": 2.76,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f2cdffbbe79.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f2cdffbbe79.mp3",
+              "filename": "word-0f2cdffbbe79.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-9-4",
+              "word": "شي.",
+              "start": 2.76,
+              "end": 3.08,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f12091beeef.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f12091beeef.mp3",
+              "filename": "word-0f12091beeef.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-9-5",
+              "word": "مچي",
+              "start": 4.28,
+              "end": 4.68,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-50e7e1384c36.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-50e7e1384c36.mp3",
+              "filename": "word-50e7e1384c36.mp3"
+            },
+            {
+              "id": 6,
+              "uid": "rec-9-6",
+              "word": "کولی",
+              "start": 4.68,
+              "end": 5.2,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f2cdffbbe79.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0f2cdffbbe79.mp3",
+              "filename": "word-0f2cdffbbe79.mp3"
+            },
+            {
+              "id": 7,
+              "uid": "rec-9-7",
+              "word": "شي",
+              "start": 5.2,
+              "end": 5.34,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a15c23c34f69.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a15c23c34f69.mp3",
+              "filename": "word-a15c23c34f69.mp3"
+            },
+            {
+              "id": 8,
+              "uid": "rec-9-8",
+              "word": "الوتنه",
+              "start": 5.34,
+              "end": 6.02,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-1b2a4761e709.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-1b2a4761e709.mp3",
+              "filename": "word-1b2a4761e709.mp3"
+            },
+            {
+              "id": 9,
+              "uid": "rec-9-9",
+              "word": "وکړي",
+              "start": 6.02,
+              "end": 6.44,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2ca44249d4cc.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-2ca44249d4cc.mp3",
+              "filename": "word-2ca44249d4cc.mp3"
+            }
+          ],
+          "text": "تور الو پرواز کولی شي. مچي کولی شي الوتنه وکړي",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "7dea8a2461e441d97b094b0d",
+      "title": "Page 11",
+      "description": "",
+      "text": "پسه الوتنه نشي کولای",
+      "media": [
+        {
+          "_id": "1ccdd36b10d2a48145930dfb",
+          "id": "1ccdd36b10d2a48145930dfb",
+          "name": "file-61b10059a6585.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b10059a6585.jpg",
+          "filename": "file-61b10059a6585.jpg",
+          "position": {
+            "left": 428.54,
+            "top": 54.84
+          },
+          "scaleSize": 39.6,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-10-0",
+                "word": "پسه",
+                "start": 0.24,
+                "end": 0.66,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-75b4d24b2a24.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-75b4d24b2a24.mp3",
+                "filename": "word-75b4d24b2a24.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "پسه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "الوتنه",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "نشي",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "کولای",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "4a4d4e805ccccb427842c2d0",
+        "pageId": "7dea8a2461e441d97b094b0d",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-10.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-10.mp3",
+          "filename": "page-10.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-10-0",
+              "word": "پسه",
+              "start": 0.24,
+              "end": 0.66,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-75b4d24b2a24.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-75b4d24b2a24.mp3",
+              "filename": "word-75b4d24b2a24.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-10-1",
+              "word": "الوتنه",
+              "start": 0.66,
+              "end": 1.26,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-de7d5b78afc8.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-de7d5b78afc8.mp3",
+              "filename": "word-de7d5b78afc8.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-10-2",
+              "word": "نشي",
+              "start": 1.26,
+              "end": 1.66,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0a15ed3a9f34.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0a15ed3a9f34.mp3",
+              "filename": "word-0a15ed3a9f34.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-10-3",
+              "word": "کولای",
+              "start": 1.66,
+              "end": 2.12,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c4acd89694cf.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c4acd89694cf.mp3",
+              "filename": "word-c4acd89694cf.mp3"
+            }
+          ],
+          "text": "پسه الوتنه نشي کولای",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "3e2ce7534b0d79a3b84787f3",
+      "title": "Page 12",
+      "description": "",
+      "text": "یوه ورځ به موږ پرواز وکړو",
+      "media": [
+        {
+          "_id": "887fcacbe20ae58dd4377a0f",
+          "id": "887fcacbe20ae58dd4377a0f",
+          "name": "file-61b100a8081d4.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b100a8081d4.jpg",
+          "filename": "file-61b100a8081d4.jpg",
+          "position": {
+            "left": 429.48,
+            "top": 54.67
+          },
+          "scaleSize": 40.947,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 1104,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 3,
+                "uid": "rec-11-3",
+                "word": "موږ",
+                "start": 2.02,
+                "end": 2.38,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8a65dc1cd2a4.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8a65dc1cd2a4.mp3",
+                "filename": "word-8a65dc1cd2a4.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "یوه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "ورځ",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "به",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "موږ",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "پرواز",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "وکړو",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "365fa3914f2b046fec0eb046",
+        "pageId": "3e2ce7534b0d79a3b84787f3",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-11.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-11.mp3",
+          "filename": "page-11.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-11-0",
+              "word": "یوه",
+              "start": 1.28,
+              "end": 1.56,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a83159864635.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-a83159864635.mp3",
+              "filename": "word-a83159864635.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-11-1",
+              "word": "ورځ",
+              "start": 1.56,
+              "end": 1.8,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-88d00b9da0b5.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-88d00b9da0b5.mp3",
+              "filename": "word-88d00b9da0b5.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-11-2",
+              "word": "به",
+              "start": 1.92,
+              "end": 2.02,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-d28852a096b8.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-d28852a096b8.mp3",
+              "filename": "word-d28852a096b8.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-11-3",
+              "word": "موږ",
+              "start": 2.02,
+              "end": 2.38,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8a65dc1cd2a4.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-8a65dc1cd2a4.mp3",
+              "filename": "word-8a65dc1cd2a4.mp3"
+            },
+            {
+              "id": 4,
+              "uid": "rec-11-4",
+              "word": "پرواز",
+              "start": 2.48,
+              "end": 2.96,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+              "filename": "word-9dc086c8b2df.mp3"
+            },
+            {
+              "id": 5,
+              "uid": "rec-11-5",
+              "word": "وکړو",
+              "start": 2.96,
+              "end": 3.42,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c4c4947828a2.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-c4c4947828a2.mp3",
+              "filename": "word-c4c4947828a2.mp3"
+            }
+          ],
+          "text": "یوه ورځ به موږ پرواز وکړو",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "3ebd8ea7f51bb80e494ad0f7",
+      "title": "Page 13",
+      "description": "",
+      "text": "زه هم پرواز غواړم",
+      "media": [
+        {
+          "_id": "2f057398c8e5dc9619be3f43",
+          "id": "2f057398c8e5dc9619be3f43",
+          "name": "file-61b101017a9d3.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61b101017a9d3.jpg",
+          "filename": "file-61b101017a9d3.jpg",
+          "position": {
+            "left": 356.09,
+            "top": 73.16
+          },
+          "scaleSize": 55.978,
+          "zIndex": 10,
+          "width": 1024,
+          "height": 735,
+          "effect": {
+            "type": "highlight",
+            "triggers": [
+              "click"
+            ],
+            "settings": {},
+            "timing": [
+              {
+                "id": 0,
+                "uid": "rec-12-0",
+                "word": "زه",
+                "start": 1.0,
+                "end": 1.28,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-7c9143882ca7.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-7c9143882ca7.mp3",
+                "filename": "word-7c9143882ca7.mp3"
+              },
+              {
+                "id": 2,
+                "uid": "rec-12-2",
+                "word": "پرواز",
+                "start": 1.48,
+                "end": 1.92,
+                "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+                "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+                "filename": "word-9dc086c8b2df.mp3"
+              }
+            ]
+          },
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "زه",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "هم",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "پرواز",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "غواړم",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fef6fc",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null,
+      "audio": {
+        "_id": "b6735d72e793cf9e944a5494",
+        "pageId": "3ebd8ea7f51bb80e494ad0f7",
+        "bookId": "1adc2dcd2acfb32a3f403908",
+        "created": "2026-11-25T10:53:38.000Z",
+        "pageAudio": {
+          "provider": "recorded",
+          "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-12.mp3",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/page-12.mp3",
+          "filename": "page-12.mp3",
+          "segments": [
+            {
+              "id": 0,
+              "uid": "rec-12-0",
+              "word": "زه",
+              "start": 1.0,
+              "end": 1.28,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-7c9143882ca7.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-7c9143882ca7.mp3",
+              "filename": "word-7c9143882ca7.mp3"
+            },
+            {
+              "id": 1,
+              "uid": "rec-12-1",
+              "word": "هم",
+              "start": 1.28,
+              "end": 1.48,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0272f46e4b08.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0272f46e4b08.mp3",
+              "filename": "word-0272f46e4b08.mp3"
+            },
+            {
+              "id": 2,
+              "uid": "rec-12-2",
+              "word": "پرواز",
+              "start": 1.48,
+              "end": 1.92,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-9dc086c8b2df.mp3",
+              "filename": "word-9dc086c8b2df.mp3"
+            },
+            {
+              "id": 3,
+              "uid": "rec-12-3",
+              "word": "غواړم",
+              "start": 1.92,
+              "end": 2.42,
+              "mp3": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0030b4644594.mp3",
+              "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/audio/word-0030b4644594.mp3",
+              "filename": "word-0030b4644594.mp3"
+            }
+          ],
+          "text": "زه هم پرواز غواړم",
+          "transcription": null
+        }
+      }
+    },
+    {
+      "_id": "7b4ee776c027d17a1e407c54",
+      "title": "Page 14",
+      "description": "",
+      "text": "\"Let's Fly!\" credits\nThis work, \"Let's Fly!\", is a derivative of \"Let's Fly!\" by All Children Reading Cambodia. © The Asia Foundation , 2018 and used under CC BY. \"Let's Fly!\" is licensed under CC BY 4.0 by Curious Learning.\nBook builder - Deborah Oduman",
+      "media": [
+        {
+          "_id": "cf0c8cc1f06277080fd75dcd",
+          "id": "cf0c8cc1f06277080fd75dcd",
+          "name": "file-61fb296cf2c04.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61fb296cf2c04.png",
+          "filename": "file-61fb296cf2c04.png",
+          "position": {
+            "left": 56.0,
+            "top": 45.3
+          },
+          "scaleSize": 18.31,
+          "zIndex": 10,
+          "width": 1350,
+          "height": 487,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "1283aec18252176489f11d5d",
+          "id": "1283aec18252176489f11d5d",
+          "name": "file-61fb29a5596cb.png",
+          "extension": ".png",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61fb29a5596cb.png",
+          "filename": "file-61fb29a5596cb.png",
+          "position": {
+            "left": 473.47,
+            "top": 46.42
+          },
+          "scaleSize": 42.321,
+          "zIndex": 11,
+          "width": 814,
+          "height": 202,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        },
+        {
+          "_id": "701c42b846bb0ac3cc47ee2f",
+          "id": "701c42b846bb0ac3cc47ee2f",
+          "name": "file-61fb28cb969ac.jpg",
+          "extension": ".jpg",
+          "mediaType": "static",
+          "path": "/resources/books/1adc2dcd2acfb32a3f403908/assets/images/file-61fb28cb969ac.jpg",
+          "filename": "file-61fb28cb969ac.jpg",
+          "position": {
+            "left": 896.81,
+            "top": 60.41
+          },
+          "scaleSize": 20.493,
+          "zIndex": 12,
+          "width": 1732,
+          "height": 354,
+          "effect": null,
+          "linkedWords": [],
+          "mirror": false
+        }
+      ],
+      "words": [
+        {
+          "word": "\"Let's",
+          "start": 0,
+          "end": 1,
+          "uid": "txt--0-1",
+          "id": 0
+        },
+        {
+          "word": "Fly!\"",
+          "start": 1,
+          "end": 2,
+          "uid": "txt--1-2",
+          "id": 1
+        },
+        {
+          "word": "credits",
+          "start": 2,
+          "end": 3,
+          "uid": "txt--2-3",
+          "id": 2
+        },
+        {
+          "word": "\n",
+          "start": 3,
+          "end": 4,
+          "uid": "txt--3-4",
+          "id": 3
+        },
+        {
+          "word": "This",
+          "start": 4,
+          "end": 5,
+          "uid": "txt--4-5",
+          "id": 4
+        },
+        {
+          "word": "work,",
+          "start": 5,
+          "end": 6,
+          "uid": "txt--5-6",
+          "id": 5
+        },
+        {
+          "word": "\"Let's",
+          "start": 6,
+          "end": 7,
+          "uid": "txt--6-7",
+          "id": 6
+        },
+        {
+          "word": "Fly!\",",
+          "start": 7,
+          "end": 8,
+          "uid": "txt--7-8",
+          "id": 7
+        },
+        {
+          "word": "is",
+          "start": 8,
+          "end": 9,
+          "uid": "txt--8-9",
+          "id": 8
+        },
+        {
+          "word": "a",
+          "start": 9,
+          "end": 10,
+          "uid": "txt--9-10",
+          "id": 9
+        },
+        {
+          "word": "derivative",
+          "start": 10,
+          "end": 11,
+          "uid": "txt--10-11",
+          "id": 10
+        },
+        {
+          "word": "of",
+          "start": 11,
+          "end": 12,
+          "uid": "txt--11-12",
+          "id": 11
+        },
+        {
+          "word": "\"Let's",
+          "start": 12,
+          "end": 13,
+          "uid": "txt--12-13",
+          "id": 12
+        },
+        {
+          "word": "Fly!\"",
+          "start": 13,
+          "end": 14,
+          "uid": "txt--13-14",
+          "id": 13
+        },
+        {
+          "word": "by",
+          "start": 14,
+          "end": 15,
+          "uid": "txt--14-15",
+          "id": 14
+        },
+        {
+          "word": "All",
+          "start": 15,
+          "end": 16,
+          "uid": "txt--15-16",
+          "id": 15
+        },
+        {
+          "word": "Children",
+          "start": 16,
+          "end": 17,
+          "uid": "txt--16-17",
+          "id": 16
+        },
+        {
+          "word": "Reading",
+          "start": 17,
+          "end": 18,
+          "uid": "txt--17-18",
+          "id": 17
+        },
+        {
+          "word": "Cambodia.©",
+          "start": 18,
+          "end": 19,
+          "uid": "txt--18-19",
+          "id": 18
+        },
+        {
+          "word": "The",
+          "start": 19,
+          "end": 20,
+          "uid": "txt--19-20",
+          "id": 19
+        },
+        {
+          "word": "Asia",
+          "start": 20,
+          "end": 21,
+          "uid": "txt--20-21",
+          "id": 20
+        },
+        {
+          "word": "Foundation,",
+          "start": 21,
+          "end": 22,
+          "uid": "txt--21-22",
+          "id": 21
+        },
+        {
+          "word": "2018",
+          "start": 22,
+          "end": 23,
+          "uid": "txt--22-23",
+          "id": 22
+        },
+        {
+          "word": "and",
+          "start": 23,
+          "end": 24,
+          "uid": "txt--23-24",
+          "id": 23
+        },
+        {
+          "word": "used",
+          "start": 24,
+          "end": 25,
+          "uid": "txt--24-25",
+          "id": 24
+        },
+        {
+          "word": "under",
+          "start": 25,
+          "end": 26,
+          "uid": "txt--25-26",
+          "id": 25
+        },
+        {
+          "word": "CC",
+          "start": 26,
+          "end": 27,
+          "uid": "txt--26-27",
+          "id": 26
+        },
+        {
+          "word": "BY.",
+          "start": 27,
+          "end": 28,
+          "uid": "txt--27-28",
+          "id": 27
+        },
+        {
+          "word": "\"Let's",
+          "start": 28,
+          "end": 29,
+          "uid": "txt--28-29",
+          "id": 28
+        },
+        {
+          "word": "Fly!\"",
+          "start": 29,
+          "end": 30,
+          "uid": "txt--29-30",
+          "id": 29
+        },
+        {
+          "word": "is",
+          "start": 30,
+          "end": 31,
+          "uid": "txt--30-31",
+          "id": 30
+        },
+        {
+          "word": "licensed",
+          "start": 31,
+          "end": 32,
+          "uid": "txt--31-32",
+          "id": 31
+        },
+        {
+          "word": "under",
+          "start": 32,
+          "end": 33,
+          "uid": "txt--32-33",
+          "id": 32
+        },
+        {
+          "word": "CC",
+          "start": 33,
+          "end": 34,
+          "uid": "txt--33-34",
+          "id": 33
+        },
+        {
+          "word": "BY",
+          "start": 34,
+          "end": 35,
+          "uid": "txt--34-35",
+          "id": 34
+        },
+        {
+          "word": "4.0",
+          "start": 35,
+          "end": 36,
+          "uid": "txt--35-36",
+          "id": 35
+        },
+        {
+          "word": "by",
+          "start": 36,
+          "end": 37,
+          "uid": "txt--36-37",
+          "id": 36
+        },
+        {
+          "word": "Curious",
+          "start": 37,
+          "end": 38,
+          "uid": "txt--37-38",
+          "id": 37
+        },
+        {
+          "word": "Learning.",
+          "start": 38,
+          "end": 39,
+          "uid": "txt--38-39",
+          "id": 38
+        },
+        {
+          "word": "\n",
+          "start": 39,
+          "end": 40,
+          "uid": "txt--39-40",
+          "id": 39
+        },
+        {
+          "word": "Book",
+          "start": 40,
+          "end": 41,
+          "uid": "txt--40-41",
+          "id": 40
+        },
+        {
+          "word": "builder-",
+          "start": 41,
+          "end": 42,
+          "uid": "txt--41-42",
+          "id": 41
+        },
+        {
+          "word": "Deborah",
+          "start": 42,
+          "end": 43,
+          "uid": "txt--42-43",
+          "id": 42
+        },
+        {
+          "word": "Oduman",
+          "start": 43,
+          "end": 44,
+          "uid": "txt--43-44",
+          "id": 43
+        }
+      ],
+      "background": {
+        "type": "color",
+        "color": "#fbfef0",
+        "crop": null
+      },
+      "layoutStyle": 1,
+      "textPosition": null,
+      "textStyle": null
+    }
+  ],
+  "cover": {
+    "show": false,
+    "image": null,
+    "text": null,
+    "description": null
+  }
+}
