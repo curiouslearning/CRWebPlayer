@@ -332,27 +332,137 @@ async function cacheGdlBookAssets(data: any) {
   }
 }
 
+class HttpStatusError extends Error {
+  constructor(public status: number, url: string) {
+    super(`HTTP ${status} for ${url}`);
+  }
+}
+
+/**
+ * Statuses meaning the file doesn't exist on the server (S3 answers 403 for missing keys).
+ * Retrying won't help, so these don't block the book from being marked downloaded;
+ * the book then behaves offline exactly as it does online. Anything else (network
+ * failure, 5xx, timeout) is treated as transient and does block it, so it's retried.
+ */
+const PERMANENTLY_MISSING_STATUSES = [403, 404, 410];
+
+/**
+ * Wraps a Cache so that put() rejects HTTP error responses (404, 503, ...) instead of
+ * storing them. cacheUrlsWithProgress stores whatever fetch() returns, so without this an
+ * error page would be saved in place of the asset and served forever after.
+ * A rejected put() surfaces through cacheUrlsWithProgress's onItemError like a network failure.
+ */
+function rejectingErrorResponses(cache: Cache): Cache {
+  return new Proxy(cache, {
+    get(target, prop) {
+      if (prop === "put") {
+        return async (request: RequestInfo | URL, response: Response) => {
+          if (!response.ok) {
+            // Drop an error response saved by an earlier (pre-fix) download, but keep a good copy.
+            const existing = await target.match(request);
+            if (existing && !existing.ok) {
+              await target.delete(request);
+            }
+            throw new HttpStatusError(response.status, String(request));
+          }
+          return target.put(request, response);
+        };
+      }
+      const value = Reflect.get(target, prop, target);
+      return typeof value === "function" ? value.bind(target) : value;
+    },
+  });
+}
+
+async function postCachingProgress(data: { progress: number; bookName: string; complete?: boolean; failedCount?: number }) {
+  const clients = await self.clients.matchAll();
+  if (clients.length > 0) {
+    channel.postMessage({ command: "CachingProgress", data });
+  }
+}
+
+/**
+ * Files that are always downloaded again, even if a copy is already cached: the book's
+ * content.json and the GDL player's script/stylesheet. They keep their name when a book or
+ * the player is updated, so reusing a copy left by an earlier, interrupted attempt could mix
+ * an old content.json or player with new assets.
+ */
+function alwaysRefetch(url: string): boolean {
+  return /(^|\/)content\.json$|\.(js|css)$/i.test(url);
+}
+
+/**
+ * Returns the URLs that still need downloading: those not already cached with an OK response
+ * (left by an earlier, interrupted attempt), plus everything alwaysRefetch() matches.
+ * This is what makes a retry resume instead of downloading the whole book again,
+ * which matters on slow connections and small data plans.
+ */
+async function urlsStillToCache(cache: Cache, urls: string[]): Promise<string[]> {
+  const needed: string[] = [];
+  for (const url of urls) {
+    if (alwaysRefetch(url)) {
+      needed.push(url);
+      continue;
+    }
+    const cached = await cache.match(url);
+    if (!cached || !cached.ok) {
+      needed.push(url);
+    }
+  }
+  return needed;
+}
+
+/**
+ * Caches every URL not already cached, then reports 100% with `complete: true` only if no
+ * file failed for a transient reason (see PERMANENTLY_MISSING_STATUSES). The page marks the
+ * book as downloaded only on `complete: true`, so a download cut short (offline, flaky
+ * network, server errors) is resumed the next time the book is opened online.
+ */
 async function cacheBookAssets(bookData: any, bookAudioAndImageFiles: any) {
+  const bookName = bookData.bookName;
+  const failedUrls: string[] = [];
+  const missingUrls: string[] = [];
   try {
-    const cache = await caches.open(bookData.bookName);
-    await cacheUrlsWithProgress(cache, bookAudioAndImageFiles, {
+    const rawCache = await caches.open(bookName);
+    const allUrls: string[] = Array.from(new Set<string>(bookAudioAndImageFiles));
+    const toFetch = await urlsStillToCache(rawCache, allUrls);
+    const alreadyCached = allUrls.length - toFetch.length;
+    if (alreadyCached > 0) {
+      console.log(`Book "${bookName}": resuming, ${alreadyCached} of ${allUrls.length} file(s) already cached`);
+    }
+
+    await cacheUrlsWithProgress(rejectingErrorResponses(rawCache), toFetch, {
       batchSize: 5,
       delayBetweenBatchesMs: 100,
-      onProgress: async (progress) => {
-        const clients = await self.clients.matchAll();
-        if (clients.length > 0) {
-          channel.postMessage({
-            command: "CachingProgress",
-            data: { progress: Math.round(progress), bookName: bookData.bookName },
-          });
+      onProgress: (progress) => {
+        // Report progress over the whole book, so the bar continues from where the last attempt stopped.
+        const overall = ((alreadyCached + (progress / 100) * toFetch.length) / allUrls.length) * 100;
+        // The final 100% is sent below, once we know whether every file was saved.
+        if (overall < 100) {
+          postCachingProgress({ progress: Math.round(overall), bookName });
         }
       },
       onItemError: (url, error) => {
-        // Optional: log at a low level for debugging, but don't treat as a hard error.
-        console.log("Skipping missing or unreachable asset:", url, error);
+        if (error instanceof HttpStatusError && PERMANENTLY_MISSING_STATUSES.includes(error.status)) {
+          missingUrls.push(url);
+          console.warn(`Asset not found on server (HTTP ${error.status}), skipping:`, url);
+        } else {
+          failedUrls.push(url);
+          console.log("Failed to cache asset:", url, error);
+        }
       }
     });
   } catch (error) {
     console.error("Unhandled error in cacheBookAssets:", error);
+    failedUrls.push("(cacheBookAssets aborted)");
   }
+
+  const complete = failedUrls.length === 0;
+  if (!complete) {
+    console.warn(`Book "${bookName}" not fully cached: ${failedUrls.length} file(s) failed`, failedUrls);
+  }
+  if (missingUrls.length > 0) {
+    console.warn(`Book "${bookName}" references ${missingUrls.length} file(s) missing on the server`, missingUrls);
+  }
+  await postCachingProgress({ progress: 100, bookName, complete, failedCount: failedUrls.length });
 }

@@ -48,7 +48,9 @@ This is why the built `dist/app.js`/`sw.js` must already be correct in the commi
 Caching is coordinated over a single `BroadcastChannel("cr-message-channel")` shared between `App.ts` (and `GdlBookRuntime.ts` for GDL) and the service worker (`sw-src.js`, built to `sw.js` via `workbox injectManifest`):
 - App → SW: `{ command: "Cache", data: { bookData / gdlId, contentFile, basePath... } }` once the SW is `ready` and the book isn't already in `localStorage`.
 - SW → App: `{ command: "Activated" }` on SW activation (triggers a re-send of the cache request), `{ command: "CachingProgress", data: { progress } }` as assets download (drives `#progressBar` and Firebase download-progress milestones at 25/50/75/100%), `{ command: "UpdateFound" }` when a new SW version is waiting (prompts the user via `confirm()` to reload).
-- Once caching hits 100%, the book name is written to `localStorage` and, if running inside the Android container (`window.Android` bridge present), `window.Android.cachedStatus(...)` is called.
+- The SW never stores an error response (`!response.ok`) and sends the final 100% message only after every file is attempted, with `complete: true` only if every file was saved (`complete: false, failedCount` otherwise).
+- The page side of this (progress bar, loading screen, download flag, Firebase download milestones, Android `cachedStatus`) lives in `src/Caching/DownloadProgress.ts`, shared by `App.ts` and `GdlBookRuntime.ts`.
+- Only on `complete: true` is the book name written to `localStorage`; an incomplete download leaves it unset so the next online open retries. A retry resumes: files already cached with an OK response are skipped, except `content.json` and `.js`/`.css` files, which are always downloaded again (see `alwaysRefetch` in `sw-src.ts`). Either way, if running inside the Android container (`window.Android` bridge present), `window.Android.cachedStatus(...)` is called.
 
 ### Other notable pieces
 
