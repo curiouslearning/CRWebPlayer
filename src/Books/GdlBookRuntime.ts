@@ -1,6 +1,7 @@
 import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
-import { handleLoadingMessage, firebaseAnalyticsManager, appName, appVersion, readLanguageDataFromCacheAndNotifyAndroidApp } from "../../App";
-import { campaignId, campaignSource, crUserId } from "../common";
+import { FirebaseAnalyticsManager } from "../Analytics/Firebase/FirebaseManager";
+import { handleLoadingMessage, readLanguageDataFromCacheAndNotifyAndroidApp } from "../Caching/DownloadProgress";
+import { appName, appVersion, campaignId, campaignSource, crUserId } from "../common";
 
 const gdlBroadcastChannel = new BroadcastChannel("cr-message-channel");
 
@@ -477,7 +478,7 @@ export async function initializeGdlBook(bookName: string): Promise<void> {
 
   try {
     // Log session start
-    firebaseAnalyticsManager.logSessionStartWithPayload({
+    FirebaseAnalyticsManager.getInstance().logSessionStartWithPayload({
       app: appName,
       version: appVersion,
       cr_user_id: crUserId,

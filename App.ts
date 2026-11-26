@@ -4,24 +4,16 @@ import { PlayBackEngine } from "./src/PlayBackEngine/PlayBackEngine";
 import { registerServiceWorkerUpdates } from "@curiouslearning/sw";
 import { Book } from "./src/Models/Models";
 import { FirebaseAnalyticsManager } from "./src/Analytics/Firebase/FirebaseManager";
-import { campaignId, campaignSource, crUserId } from "./src/common";
+import { appName, appVersion, campaignId, campaignSource, crUserId } from "./src/common";
 import { BookLoader, CrBookLoader } from "./src/Books/BookLoader";
 import { GdlBookLoader } from "./src/Books/GdlBookLoader";
-
-export let appVersion: string = "v0.3.13";
-export let appName: string = "CRWebPlayer";
+import { handleLoadingMessage, resetDownloadSessionStart } from "./src/Caching/DownloadProgress";
 
 // const channel = new BroadcastChannel("my-channel");
 
 let loadingScreen = document.getElementById("loadingScreen");
 
-let sessionStartTime: Date = new Date(); // Initialize at module load for both CR and GDL books
-let logged25PercentDownload: boolean = false;
-let logged50PercentDownload: boolean = false;
-let logged75PercentDownload: boolean = false;
-let logged100PercentDownload: boolean = false;
-
-export let firebaseAnalyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager.getInstance();
+let firebaseAnalyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager.getInstance();
 
 export class App {
   public bookName: string;
@@ -49,7 +41,7 @@ export class App {
       campaignId: campaignId,
       book_name: bookName
     });
-    sessionStartTime = new Date();
+    resetDownloadSessionStart();
     this.contentParser = new ContentParser(contentFilePath);
     this.playBackEngine = new PlayBackEngine(imagesPath, audioPath);
     this.broadcastChannel = new BroadcastChannel("cr-message-channel");
@@ -133,77 +125,6 @@ export class App {
     } else {
       loadingScreen!.style.display = "none";
     }
-  }
-}
-
-// TODO: Added to backlog for cleanup, we ideally should move this to a separate file,
-// all the caching logic should be in the service worker class
-// there's no need to have these functions separately added in the App.ts anymore since we have added the service worker
-// communication over the broadcast channel instead of the
-// [serviceWorker.addEventListener("message", handleServiceWorkerMessage);]
-export function handleLoadingMessage(event: any, progressValue: any): void {
-  let progressBar = document.getElementById("progressBar");
-  if (progressValue < 100) {
-    progressBar!.style.width = progressValue + "%";
-  }
-
-  if (progressValue >= 25 && !logged25PercentDownload) {
-    logged25PercentDownload = true;
-    logDownloadProgressWithPayloadToFirebase("download_25", event.data.data.bookName);
-  }
-
-  if (progressValue >= 50 && !logged50PercentDownload) {
-    logged50PercentDownload = true;
-    logDownloadProgressWithPayloadToFirebase("download_50", event.data.data.bookName);
-  }
-
-  if (progressValue >= 75 && !logged75PercentDownload) {
-    logged75PercentDownload = true;
-    logDownloadProgressWithPayloadToFirebase("download_75", event.data.data.bookName);
-  }
-
-  if (progressValue >= 100) {
-    loadingScreen!.style.display = "none";
-    if (!logged100PercentDownload) {
-      logged100PercentDownload = true;
-      logDownloadProgressWithPayloadToFirebase("download_completed", event.data.data.bookName);
-    }
-    // add book with a name to local storage as cached
-    localStorage.setItem(event.data.data.bookName, "true");
-    readLanguageDataFromCacheAndNotifyAndroidApp(event.data.data.bookName);
-  }
-}
-
-/**
- * Log download progress with payload
- * @param eventName Name of the event to log
- * @param bookName Name of the book being downloaded
- */
-export function logDownloadProgressWithPayloadToFirebase(eventName: string, bookName: string): void {
-  // Ensure sessionStartTime is initialized (fallback if somehow undefined)
-  if (!sessionStartTime) {
-    sessionStartTime = new Date();
-  }
-  let timeSpent = new Date().getTime() - sessionStartTime.getTime();
-  firebaseAnalyticsManager.logDownloadProgressWithPayload(eventName, {
-    app: appName,
-    version: appVersion,
-    book_name: bookName,
-    cr_user_id: crUserId,
-    ms_since_session_start: timeSpent,
-  });
-}
-
-export function readLanguageDataFromCacheAndNotifyAndroidApp(bookName: string) {
-  try {
-    //@ts-ignore
-    if (window.Android) {
-      let isContentCached: boolean = localStorage.getItem(bookName) !== null;
-      //@ts-ignore
-      window.Android.cachedStatus(isContentCached);
-    }
-  } catch (error) {
-    console.error("Error notifying Android bridge of cached status:", error);
   }
 }
 
